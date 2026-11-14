@@ -406,6 +406,49 @@ test.describe("top bar (SH-1) @both", () => {
   });
 });
 
+test.describe("self-hosted assets @both", () => {
+  test("a page makes no request to another site, and every flag loads", async ({ page }) => {
+    const foreign: string[] = [];
+    const failed: string[] = [];
+    page.on("request", (r) => {
+      if (!r.url().startsWith("http://localhost")) foreign.push(r.url());
+    });
+    page.on("response", (r) => {
+      if (r.status() >= 400) failed.push(`${r.status()} ${r.url()}`);
+    });
+    await page.goto("/en?year=1919&lanes=iran,uk,russia,turkey,china,japan");
+    await page.getByRole("button", { name: /^Nazi Germany|^Qajar Iran/ }).first().focus();
+    await page.waitForLoadState("networkidle");
+    // Lazy flags load as they scroll in; bring them all in view.
+    await page.evaluate(async () => {
+      for (const img of document.querySelectorAll<HTMLImageElement>("img[loading=lazy]")) img.loading = "eager";
+    });
+    await page.waitForLoadState("networkidle");
+    const flags = page.locator("img[src^='/flags/']");
+    expect(await flags.count()).toBeGreaterThan(5);
+    const broken = await flags.evaluateAll((imgs) => (imgs as HTMLImageElement[]).filter((i) => i.complete && i.naturalWidth === 0).length);
+    expect(broken).toBe(0);
+    expect(foreign).toEqual([]);
+    expect(failed).toEqual([]);
+  });
+
+  test("the politics card shows its flag from our own origin", async ({ page }) => {
+    await page.goto("/fa?year=1919&lanes=iran");
+    await lane(page, "iran").getByRole("button", { name: /^ایران قاجاری/ }).focus();
+    const flag = page.getByRole("tooltip").locator("img");
+    await expect(flag).toHaveAttribute("src", /^\/flags\/.+-320\.png$/);
+    await expect.poll(() => flag.evaluate((i: HTMLImageElement) => i.naturalWidth)).toBeGreaterThan(0);
+  });
+
+  test("the favicon is served and linked", async ({ page, request }) => {
+    await page.goto("/en?year=1919&lanes=iran");
+    await expect(page.locator('link[rel="icon"][href="/icon.svg"]')).toHaveCount(1);
+    expect((await request.get("/favicon.ico")).status()).toBe(200);
+    expect((await request.get("/icon.svg")).status()).toBe(200);
+    expect((await request.get("/apple-touch-icon.png")).status()).toBe(200);
+  });
+});
+
 test.describe("era strip and detail track (TD-2) @both", () => {
   const strip = (page: Page) => page.locator("[data-era-strip]:visible");
   const slider = (page: Page, name: string) => page.getByRole("slider", { name });
@@ -432,11 +475,12 @@ test.describe("era strip and detail track (TD-2) @both", () => {
   });
 
   test("eras too narrow to press are drawn but are not buttons", async ({ page }) => {
+    // At 500 px the five-year Russian SFSR (1917–22) is about 9 px wide, however fonts or scrollbars render.
+    await page.setViewportSize({ width: 500, height: 900 });
     await page.goto("/en?year=1919&lanes=russia");
-    await expect(strip(page)).toBeVisible();
-    const all = await strip(page).locator("li").count();
-    const pressable = await strip(page).getByRole("button").count();
-    expect(all).toBeGreaterThan(pressable);
+    await expect(strip(page).locator("li")).toHaveCount(4);
+    await expect(strip(page).getByRole("button")).toHaveCount(3);
+    await expect(strip(page).getByRole("button", { name: /Russian SFSR/ })).toHaveCount(0);
   });
 
   test("the detail track appears only while zoomed, counts the window, and scrubs", async ({ page }) => {

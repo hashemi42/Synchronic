@@ -2,7 +2,7 @@
 
 **World history, side by side.** An open-source, bilingual (English and Persian) web app that shows who ruled where, and what was happening, across the world at the same moment.
 
-> Status: **MVP in progress** — the infographic view works for nine countries (Iran, UK, Russia, Turkey, France, Germany, China, India, Japan) from 1789 to today, with a time dock, anchoring, an add-country search dialog and shareable URLs. Each state has a politics card and historical flags from Wikimedia Commons. Heads of government come from Wikidata, with curated fixes.
+> Status: **MVP in progress** — the infographic view works for nine countries (Iran, UK, Russia, Turkey, France, Germany, China, India, Japan) from 1789 to today, with a time dock, anchoring, an add-country search dialog and shareable URLs. Each state has a politics card and historical flags from Wikimedia Commons, served from this site. Heads of government come from Wikidata, with curated fixes.
 
 ## Run it
 
@@ -26,6 +26,7 @@ Open <http://localhost:3000> — it redirects to `/en`; Persian (right-to-left) 
 | `pnpm data:build` | Validate the data and emit one content-hashed file per country to `public/data/` (runs before `dev`, `build` and `typecheck`) |
 | `pnpm data:validate` | Validate every file in `data/overrides/countries/` |
 | `pnpm fetch:flags` | Fetch flag candidates and licences from Wikidata and Commons into `data/raw/` |
+| `pnpm mirror:flags` | Download the flags the data uses into `public/flags/` (the site serves them itself; withheld flags are skipped) |
 | `pnpm fetch:hog` | Fetch head-of-government terms from Wikidata into `data/raw/` |
 | `pnpm merge:hog` | Merge them, with the curated fixes in `data/overrides/`, into the country files |
 | `pnpm spike:iran` | Fetch Iran's heads of state from Wikidata into `data/raw/` |

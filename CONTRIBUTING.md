@@ -29,7 +29,7 @@ A country file has five parts:
 - **Sources**: every record needs at least one `{ "title", "url" }`. Wikidata or Wikipedia by default; any other source with a URL is welcome.
 - **Both languages**: every label needs `en` and `fa`. There is no silent fallback.
 - **No gaps or overlaps** in a lane. If two governments existed at once, mark the second `"kind": "rival"`. If there was no state, add a `"kind": "no-state"` period with a short `note` — never leave a blank.
-- **Flags** name a Wikimedia Commons file and carry its `license` and `attribution`. Set `certainty` honestly: `documented`, `simplified` (right design, modern drawing) or `reconstructed`. A state has one flag at a time; leave years without a known flag empty. `pnpm fetch:flags` lists candidates in `data/raw/flags.json`.
+- **Flags** name a Wikimedia Commons file and carry its `license` and `attribution`. Set `certainty` honestly: `documented`, `simplified` (right design, modern drawing) or `reconstructed`. A state has one flag at a time; leave years without a known flag empty. `pnpm fetch:flags` lists candidates in `data/raw/flags.json`. After adding a flag, run `pnpm mirror:flags` and commit the new files in `public/flags/`: the site serves its own copies, and a unit test fails if one is missing.
 - **Heads of government** are generated: `pnpm fetch:hog` then `pnpm merge:hog` rewrite every `head-of-government` term. Do not edit them in the country files. Fix the source instead: on Wikidata, or in `data/overrides/heads-of-government.json` (missing terms), `data/overrides/persian-names.json` (missing Persian names) or the `EXCLUDE` and `RULES` tables in `scripts/merge-heads-of-government.ts`.
 - **Ids** are lowercase kebab-case (`ahmad-shah-qajar`).
 

@@ -13,6 +13,7 @@
     "data:validate": "tsx scripts/validate-data.ts",
     "spike:iran": "tsx scripts/spike-iran-heads-of-state.ts",
     "fetch:flags": "tsx scripts/fetch-flags.ts",
+    "mirror:flags": "tsx scripts/mirror-flags.ts",
     "fetch:hog": "tsx scripts/fetch-heads-of-government.ts",
     "merge:hog": "tsx scripts/merge-heads-of-government.ts",
     "data:build": "tsx scripts/build-data.ts",

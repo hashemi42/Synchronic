@@ -17,7 +17,17 @@ export function generateStaticParams() {
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("meta");
-  return { title: t("title"), description: t("description") };
+  return {
+    title: t("title"),
+    description: t("description"),
+    icons: {
+      icon: [
+        { url: "/icon.svg", type: "image/svg+xml" },
+        { url: "/favicon.ico", sizes: "32x32" },
+      ],
+      apple: "/apple-touch-icon.png",
+    },
+  };
 }
 
 export default async function RootLayout({ children, params }: LayoutProps<"/[locale]">) {

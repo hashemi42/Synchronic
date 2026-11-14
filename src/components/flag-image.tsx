@@ -1,8 +1,11 @@
 import type { Flag } from "@/lib/data/schema";
+import { flagPath } from "@/lib/flag-files";
 
-/** Flags are served by Wikimedia Commons; licence and attribution travel with each record. */
-const src = (file: string, width: number) =>
-  `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=${width}`;
+/*
+ * Flags come from Wikimedia Commons but are served from our own origin (public/flags, filled by
+ * `pnpm mirror:flags`), so a page makes no third-party requests. Licence and attribution travel
+ * with each record and are shown on the politics card.
+ */
 
 type Props = {
   flag: Flag;
@@ -10,7 +13,7 @@ type Props = {
   withheld: boolean;
   /** Empty when the state's name is written next to the flag. */
   alt: string;
-  /** Rendered pixel width of the request; pick about twice the displayed width. */
+  /** About twice the displayed width; the nearest mirrored size at least this wide is used. */
   width?: number;
   className?: string;
 };
@@ -22,8 +25,8 @@ export function FlagImage({ flag, withheld, alt, width = 64, className = "" }: P
     return <span role={alt ? "img" : undefined} aria-label={alt || undefined} className={`inline-block bg-edge ${box}`} />;
   }
   return (
-    // A plain <img>: the pages are static and the files are SVGs scaled by Commons.
+    // A plain <img>: the pages are static and the renditions are prebuilt PNGs.
     // eslint-disable-next-line @next/next/no-img-element
-    <img src={src(flag.file, width)} alt={alt} loading="lazy" decoding="async" className={`bg-fill object-cover ${box}`} />
+    <img src={flagPath(flag.file, width)} alt={alt} loading="lazy" decoding="async" className={`bg-fill object-cover ${box}`} />
   );
 }
