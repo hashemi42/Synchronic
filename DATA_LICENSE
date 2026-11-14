@@ -1,0 +1,24 @@
+Synchronic data licences
+========================
+
+The code in this repository is MIT-licensed (see LICENSE). Data is licensed
+separately, by origin:
+
+1. Curated data — everything under data/overrides/ and data/policy/
+   Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+   https://creativecommons.org/licenses/by-sa/4.0/legalcode
+   Attribution: "Synchronic contributors".
+
+2. Data derived from Wikidata — everything under data/raw/
+   Creative Commons CC0 1.0 Universal, as upstream.
+   https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+3. Wikipedia excerpts
+   CC BY-SA, attributed in the interface next to each excerpt.
+
+4. Flags from Wikimedia Commons
+   Licensed per file. Each flag record stores its own `license` and
+   `attribution`.
+
+5. Historical border snapshots
+   Licensed per source; none are included yet.

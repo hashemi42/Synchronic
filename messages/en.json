@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "title": "Synchronic — world history, side by side",
+    "description": "Who ruled where, and what was happening, across the world at the same moment."
+  },
+  "shell": {
+    "skipToTimeline": "Skip to timeline",
+    "language": "Language",
+    "primaryNav": "Primary"
+  },
+  "home": {
+    "tagline": "World history, side by side",
+    "intro": "Who ruled where, at the same moment. Add countries, drag the slider or type a year, and select a ruler to anchor the comparison to their reign.",
+    "timeline": "Timeline"
+  },
+  "calendar": {
+    "ce": "CE",
+    "bce": "BCE",
+    "sh": "SH",
+    "ah": "AH",
+    "ceLong": "Common Era",
+    "bceLong": "before the Common Era",
+    "shLong": "Solar Hijri",
+    "ahLong": "Lunar Hijri"
+  },
+  "lane": {
+    "landOfToday": "land of today's {country}",
+    "states": "States of {country}",
+    "rulers": "Rulers of {country} — select one to anchor",
+    "rival": "Also at this time",
+    "headOfState": "Head of state",
+    "present": "today",
+    "anchorTo": "{name}, {years}",
+    "duringReign": "During the reign of {name}",
+    "noRuler": "No single head of state",
+    "compare": "Right column shows",
+    "singleYear": "Single year",
+    "wholeReign": "Whole reign",
+    "announce": "{country}: {ruler}, {title}, {state}",
+    "announceNone": "{country}: no single head of state",
+    "remove": "Remove {country}",
+    "empty": "Add a country to begin.",
+    "headOfGovernment": "Head of government",
+    "loading": "Loading…",
+    "loadFailed": "This lane could not be loaded.",
+    "retry": "Try again"
+  },
+  "dock": {
+    "label": "Time controls",
+    "yearField": "Year",
+    "slider": "Selected year",
+    "previous": "Back one step",
+    "next": "Forward one step",
+    "step": "Step size",
+    "stepYear": "Year",
+    "stepDecade": "Decade",
+    "stepCentury": "Century",
+    "stepReign": "Reign",
+    "anchored": "Anchored to {name}",
+    "removeAnchor": "Remove anchor"
+  },
+  "card": {
+    "headOfStateIn": "Head of state in {year}",
+    "headsOfState": "Heads of state",
+    "rulersSummary": "{count, number} — from {first} to {last}",
+    "system": "System of government",
+    "capital": "Capital",
+    "occupation": "Occupation",
+    "noState": "No state",
+    "flagWithheld": "Flag not shown",
+    "flag": "Flag",
+    "flagOf": "Flag of {state}",
+    "simplified": "simplified drawing",
+    "reconstructed": "reconstruction",
+    "imageCredit": "Image: {attribution} · {license} · Wikimedia Commons",
+    "headOfGovernmentIn": "Head of government in {year}",
+    "headsOfGovernment": "Heads of government",
+    "alsoInYear": "Also in {year}: {names}",
+    "noGovernment": "No head of government on record"
+  },
+  "add": {
+    "trigger": "Add country",
+    "title": "Add a country",
+    "search": "Search countries, in English or Persian",
+    "hint": "↑ ↓ to move · Enter to add or remove · Esc to close",
+    "counter": "{count, number} of {max, number} lanes",
+    "results": "Countries, and what each was in {year}",
+    "add": "Add",
+    "added": "Added",
+    "limit": "Lanes full",
+    "close": "Close",
+    "none": "No country matches “{query}”.",
+    "oftenCompared": "Often compared with {country}",
+    "presets": "Preset sets"
+  }
+}

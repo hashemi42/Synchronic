@@ -1,0 +1,4 @@
+{
+  "description": "States whose flags render as a neutral placeholder (content policy, PRD §7.6).",
+  "states": ["nazi-germany"]
+}

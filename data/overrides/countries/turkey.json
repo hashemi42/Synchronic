@@ -1,0 +1,4700 @@
+{
+  "country": {
+    "id": "turkey",
+    "name": {
+      "en": "Turkey",
+      "fa": "ترکیه"
+    },
+    "aliases": [
+      "Türkiye",
+      "Ottoman Empire",
+      "عثمانی"
+    ],
+    "wikidata": "Q43",
+    "sources": [
+      {
+        "title": "Turkey — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Turkey"
+      }
+    ]
+  },
+  "states": [
+    {
+      "id": "ottoman-empire",
+      "name": {
+        "en": "Ottoman Empire",
+        "fa": "امپراتوری عثمانی"
+      },
+      "officialName": {
+        "en": "Sublime Ottoman State",
+        "fa": "دولت علیّهٔ عثمانی"
+      },
+      "start": 1299,
+      "end": 1922,
+      "capital": {
+        "en": "Constantinople",
+        "fa": "قسطنطنیه"
+      },
+      "system": {
+        "en": "Absolute monarchy; constitutional in 1876–1878 and from 1908",
+        "fa": "پادشاهی مطلقه؛ مشروطه در ۱۸۷۶–۱۸۷۸ و از ۱۹۰۸"
+      },
+      "wikidata": "Q12560",
+      "sources": [
+        {
+          "title": "Ottoman Empire — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ottoman_Empire"
+        }
+      ]
+    },
+    {
+      "id": "ankara-government",
+      "name": {
+        "en": "Ankara Government",
+        "fa": "حکومت آنکارا"
+      },
+      "officialName": {
+        "en": "Government of the Grand National Assembly",
+        "fa": "حکومت مجلس کبیر ملی ترکیه"
+      },
+      "start": 1920,
+      "end": 1923,
+      "capital": {
+        "en": "Ankara",
+        "fa": "آنکارا"
+      },
+      "system": {
+        "en": "Provisional parliamentary government",
+        "fa": "حکومت موقت پارلمانی"
+      },
+      "wikidata": "Q2949827",
+      "sources": [
+        {
+          "title": "Government of the Grand National Assembly — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Government_of_the_Grand_National_Assembly"
+        }
+      ]
+    },
+    {
+      "id": "republic-of-turkey",
+      "name": {
+        "en": "Republic of Turkey",
+        "fa": "جمهوری ترکیه"
+      },
+      "start": 1923,
+      "end": null,
+      "capital": {
+        "en": "Ankara",
+        "fa": "آنکارا"
+      },
+      "system": {
+        "en": "Republic; presidential since 2018",
+        "fa": "جمهوری؛ از ۲۰۱۸ ریاستی"
+      },
+      "wikidata": "Q43",
+      "sources": [
+        {
+          "title": "Turkey — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turkey"
+        }
+      ]
+    }
+  ],
+  "persons": [
+    {
+      "id": "selim-iii",
+      "name": {
+        "en": "Selim III",
+        "fa": "سلیم سوم"
+      },
+      "wikidata": "Q199633",
+      "sources": [
+        {
+          "title": "Selim III — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Selim_III"
+        }
+      ]
+    },
+    {
+      "id": "mustafa-iv",
+      "name": {
+        "en": "Mustafa IV",
+        "fa": "مصطفی چهارم"
+      },
+      "wikidata": "Q199830",
+      "sources": [
+        {
+          "title": "Mustafa IV — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mustafa_IV"
+        }
+      ]
+    },
+    {
+      "id": "mahmud-ii",
+      "name": {
+        "en": "Mahmud II",
+        "fa": "محمود دوم"
+      },
+      "wikidata": "Q174791",
+      "sources": [
+        {
+          "title": "Mahmud II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mahmud_II"
+        }
+      ]
+    },
+    {
+      "id": "abdulmejid-i",
+      "name": {
+        "en": "Abdulmejid I",
+        "fa": "عبدالمجید یکم"
+      },
+      "wikidata": "Q174772",
+      "sources": [
+        {
+          "title": "Abdülmecid I — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abdülmecid_I"
+        }
+      ]
+    },
+    {
+      "id": "abdulaziz",
+      "name": {
+        "en": "Abdulaziz",
+        "fa": "عبدالعزیز"
+      },
+      "wikidata": "Q151500",
+      "sources": [
+        {
+          "title": "Abdulaziz — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abdulaziz"
+        }
+      ]
+    },
+    {
+      "id": "murad-v",
+      "name": {
+        "en": "Murad V",
+        "fa": "مراد پنجم"
+      },
+      "wikidata": "Q199827",
+      "sources": [
+        {
+          "title": "Murad V — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Murad_V"
+        }
+      ]
+    },
+    {
+      "id": "abdul-hamid-ii",
+      "name": {
+        "en": "Abdul Hamid II",
+        "fa": "عبدالحمید دوم"
+      },
+      "wikidata": "Q134817",
+      "sources": [
+        {
+          "title": "Abdul Hamid II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abdul_Hamid_II"
+        }
+      ]
+    },
+    {
+      "id": "mehmed-v",
+      "name": {
+        "en": "Mehmed V",
+        "fa": "محمد پنجم"
+      },
+      "wikidata": "Q151494",
+      "sources": [
+        {
+          "title": "Mehmed V — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mehmed_V"
+        }
+      ]
+    },
+    {
+      "id": "mehmed-vi",
+      "name": {
+        "en": "Mehmed VI",
+        "fa": "محمد ششم"
+      },
+      "wikidata": "Q162543",
+      "sources": [
+        {
+          "title": "Mehmed VI — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mehmed_VI"
+        }
+      ]
+    },
+    {
+      "id": "mustafa-kemal-ataturk",
+      "name": {
+        "en": "Mustafa Kemal Atatürk",
+        "fa": "مصطفی کمال آتاترک"
+      },
+      "wikidata": "Q5152",
+      "sources": [
+        {
+          "title": "Mustafa Kemal Atatürk — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mustafa_Kemal_Atatürk"
+        }
+      ]
+    },
+    {
+      "id": "ismet-inonu",
+      "name": {
+        "en": "İsmet İnönü",
+        "fa": "عصمت اینونو"
+      },
+      "wikidata": "Q183297",
+      "sources": [
+        {
+          "title": "İsmet İnönü — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/İsmet_İnönü"
+        }
+      ]
+    },
+    {
+      "id": "celal-bayar",
+      "name": {
+        "en": "Celâl Bayar",
+        "fa": "جلال بایار"
+      },
+      "wikidata": "Q151735",
+      "sources": [
+        {
+          "title": "Celâl Bayar — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Celâl_Bayar"
+        }
+      ]
+    },
+    {
+      "id": "cemal-gursel",
+      "name": {
+        "en": "Cemal Gürsel",
+        "fa": "جمال گورسل"
+      },
+      "wikidata": "Q159161",
+      "sources": [
+        {
+          "title": "Cemal Gürsel — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cemal_Gürsel"
+        }
+      ]
+    },
+    {
+      "id": "cevdet-sunay",
+      "name": {
+        "en": "Cevdet Sunay",
+        "fa": "جودت سونای"
+      },
+      "wikidata": "Q158500",
+      "sources": [
+        {
+          "title": "Cevdet Sunay — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cevdet_Sunay"
+        }
+      ]
+    },
+    {
+      "id": "fahri-koruturk",
+      "name": {
+        "en": "Fahri Korutürk",
+        "fa": "فخری کوروترک"
+      },
+      "wikidata": "Q313357",
+      "sources": [
+        {
+          "title": "Fahri Korutürk — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fahri_Korutürk"
+        }
+      ]
+    },
+    {
+      "id": "kenan-evren",
+      "name": {
+        "en": "Kenan Evren",
+        "fa": "کنان اورن"
+      },
+      "wikidata": "Q216983",
+      "sources": [
+        {
+          "title": "Kenan Evren — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kenan_Evren"
+        }
+      ]
+    },
+    {
+      "id": "turgut-ozal",
+      "name": {
+        "en": "Turgut Özal",
+        "fa": "تورگوت اوزال"
+      },
+      "wikidata": "Q180280",
+      "sources": [
+        {
+          "title": "Turgut Özal — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turgut_Özal"
+        }
+      ]
+    },
+    {
+      "id": "suleyman-demirel",
+      "name": {
+        "en": "Süleyman Demirel",
+        "fa": "سلیمان دمیرل"
+      },
+      "wikidata": "Q151729",
+      "sources": [
+        {
+          "title": "Süleyman Demirel — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Süleyman_Demirel"
+        }
+      ]
+    },
+    {
+      "id": "ahmet-necdet-sezer",
+      "name": {
+        "en": "Ahmet Necdet Sezer",
+        "fa": "احمد نجدت سزر"
+      },
+      "wikidata": "Q165487",
+      "sources": [
+        {
+          "title": "Ahmet Necdet Sezer — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ahmet_Necdet_Sezer"
+        }
+      ]
+    },
+    {
+      "id": "abdullah-gul",
+      "name": {
+        "en": "Abdullah Gül",
+        "fa": "عبدالله گل"
+      },
+      "wikidata": "Q42852",
+      "sources": [
+        {
+          "title": "Abdullah Gül — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abdullah_Gül"
+        }
+      ]
+    },
+    {
+      "id": "recep-tayyip-erdogan",
+      "name": {
+        "en": "Recep Tayyip Erdoğan",
+        "fa": "رجب طیب اردوغان"
+      },
+      "wikidata": "Q39259",
+      "sources": [
+        {
+          "title": "Recep Tayyip Erdoğan — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Recep_Tayyip_Erdoğan"
+        }
+      ]
+    },
+    {
+      "id": "hurshid-pasha",
+      "name": {
+        "en": "Hurshid Pasha",
+        "fa": "خورشید پاشا"
+      },
+      "wikidata": "Q140092",
+      "sources": [
+        {
+          "title": "Hurshid Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q140092"
+        }
+      ]
+    },
+    {
+      "id": "mustafa-resid-pasha",
+      "name": {
+        "en": "Mustafa Reşid Pasha",
+        "fa": "مصطفی رشید پاشا"
+      },
+      "wikidata": "Q1330145",
+      "sources": [
+        {
+          "title": "Mustafa Reşid Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1330145"
+        }
+      ]
+    },
+    {
+      "id": "mehmed-emin-ali-pasha",
+      "name": {
+        "en": "Mehmed Emin Âli Pasha",
+        "fa": "محمد امین عالی پاشا"
+      },
+      "wikidata": "Q439237",
+      "sources": [
+        {
+          "title": "Mehmed Emin Âli Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q439237"
+        }
+      ]
+    },
+    {
+      "id": "mehmed-fuad-pasha",
+      "name": {
+        "en": "Mehmed Fuad Pasha",
+        "fa": "فواد پاشا"
+      },
+      "wikidata": "Q715917",
+      "sources": [
+        {
+          "title": "Mehmed Fuad Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q715917"
+        }
+      ]
+    },
+    {
+      "id": "midhat-pasha",
+      "name": {
+        "en": "Midhat Pasha",
+        "fa": "مدحت پاشا"
+      },
+      "wikidata": "Q369930",
+      "sources": [
+        {
+          "title": "Midhat Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q369930"
+        }
+      ]
+    },
+    {
+      "id": "saffet-pasha",
+      "name": {
+        "en": "Saffet Pasha",
+        "fa": "صفوت پاشا"
+      },
+      "wikidata": "Q2369824",
+      "sources": [
+        {
+          "title": "Saffet Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2369824"
+        }
+      ]
+    },
+    {
+      "id": "hayreddin-pasha",
+      "name": {
+        "en": "Hayreddin Pasha",
+        "fa": "خیرالدین تونسی"
+      },
+      "wikidata": "Q1366613",
+      "sources": [
+        {
+          "title": "Hayreddin Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1366613"
+        }
+      ]
+    },
+    {
+      "id": "ahmed-vefik-pasha",
+      "name": {
+        "en": "Ahmed Vefik Pasha",
+        "fa": "احمد وفیق پاشا"
+      },
+      "wikidata": "Q401541",
+      "sources": [
+        {
+          "title": "Ahmed Vefik Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q401541"
+        }
+      ]
+    },
+    {
+      "id": "kamil-pasha",
+      "name": {
+        "en": "Kâmil Pasha",
+        "fa": "کامل پاشا"
+      },
+      "wikidata": "Q367997",
+      "sources": [
+        {
+          "title": "Kâmil Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q367997"
+        }
+      ]
+    },
+    {
+      "id": "ahmed-muhtar-pasha",
+      "name": {
+        "en": "Ahmed Muhtar Pasha",
+        "fa": "احمد مختار پاشا"
+      },
+      "wikidata": "Q401411",
+      "sources": [
+        {
+          "title": "Ahmed Muhtar Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q401411"
+        }
+      ]
+    },
+    {
+      "id": "mahmud-shevket-pasha",
+      "name": {
+        "en": "Mahmud Shevket Pasha",
+        "fa": "محمود شوکت پاشا"
+      },
+      "wikidata": "Q722306",
+      "sources": [
+        {
+          "title": "Mahmud Shevket Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q722306"
+        }
+      ]
+    },
+    {
+      "id": "talaat-pasha",
+      "name": {
+        "en": "Talaat Pasha",
+        "fa": "طلعت پاشا"
+      },
+      "wikidata": "Q315888",
+      "sources": [
+        {
+          "title": "Talaat Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q315888"
+        }
+      ]
+    },
+    {
+      "id": "ahmed-izzet-pasha",
+      "name": {
+        "en": "Ahmed Izzet Pasha",
+        "fa": "احمد عزت باشا"
+      },
+      "wikidata": "Q247611",
+      "sources": [
+        {
+          "title": "Ahmed Izzet Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q247611"
+        }
+      ]
+    },
+    {
+      "id": "fethi-okyar",
+      "name": {
+        "en": "Fethi Okyar",
+        "fa": "علی فتحی اوکیار"
+      },
+      "wikidata": "Q366292",
+      "sources": [
+        {
+          "title": "Fethi Okyar — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q366292"
+        }
+      ]
+    },
+    {
+      "id": "refik-saydam",
+      "name": {
+        "en": "Refik Saydam",
+        "fa": "رفیق سایدام"
+      },
+      "wikidata": "Q983535",
+      "sources": [
+        {
+          "title": "Refik Saydam — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q983535"
+        }
+      ]
+    },
+    {
+      "id": "sukru-saracoglu",
+      "name": {
+        "en": "Şükrü Saracoğlu",
+        "fa": "شکری سراجاوغلو"
+      },
+      "wikidata": "Q390725",
+      "sources": [
+        {
+          "title": "Şükrü Saracoğlu — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q390725"
+        }
+      ]
+    },
+    {
+      "id": "recep-peker",
+      "name": {
+        "en": "Recep Peker",
+        "fa": "رجب پکر"
+      },
+      "wikidata": "Q728586",
+      "sources": [
+        {
+          "title": "Recep Peker — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q728586"
+        }
+      ]
+    },
+    {
+      "id": "hasan-saka",
+      "name": {
+        "en": "Hasan Saka",
+        "fa": "حسن ساکا"
+      },
+      "wikidata": "Q1588141",
+      "sources": [
+        {
+          "title": "Hasan Saka — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1588141"
+        }
+      ]
+    },
+    {
+      "id": "semsettin-gunaltay",
+      "name": {
+        "en": "Şemsettin Günaltay",
+        "fa": "شمسالدین گونآلتای"
+      },
+      "wikidata": "Q388771",
+      "sources": [
+        {
+          "title": "Şemsettin Günaltay — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q388771"
+        }
+      ]
+    },
+    {
+      "id": "adnan-menderes",
+      "name": {
+        "en": "Adnan Menderes",
+        "fa": "عدنان مندرس"
+      },
+      "wikidata": "Q238745",
+      "sources": [
+        {
+          "title": "Adnan Menderes — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q238745"
+        }
+      ]
+    },
+    {
+      "id": "suat-hayri-urguplu",
+      "name": {
+        "en": "Suat Hayri Ürgüplü",
+        "fa": "سعاد خیری اورگوپلو"
+      },
+      "wikidata": "Q2306500",
+      "sources": [
+        {
+          "title": "Suat Hayri Ürgüplü — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2306500"
+        }
+      ]
+    },
+    {
+      "id": "nihat-erim",
+      "name": {
+        "en": "Nihat Erim",
+        "fa": "نهاد اریم"
+      },
+      "wikidata": "Q721715",
+      "sources": [
+        {
+          "title": "Nihat Erim — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q721715"
+        }
+      ]
+    },
+    {
+      "id": "ferit-melen",
+      "name": {
+        "en": "Ferit Melen",
+        "fa": "فرید ملن"
+      },
+      "wikidata": "Q1400345",
+      "sources": [
+        {
+          "title": "Ferit Melen — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1400345"
+        }
+      ]
+    },
+    {
+      "id": "naim-talu",
+      "name": {
+        "en": "Naim Talu",
+        "fa": "نعیم تالو"
+      },
+      "wikidata": "Q174709",
+      "sources": [
+        {
+          "title": "Naim Talu — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q174709"
+        }
+      ]
+    },
+    {
+      "id": "sadi-irmak",
+      "name": {
+        "en": "Sadi Irmak",
+        "fa": "سعدی ایرماک"
+      },
+      "wikidata": "Q1397975",
+      "sources": [
+        {
+          "title": "Sadi Irmak — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1397975"
+        }
+      ]
+    },
+    {
+      "id": "bulent-ecevit",
+      "name": {
+        "en": "Bülent Ecevit",
+        "fa": "بولنت اجویت"
+      },
+      "wikidata": "Q192634",
+      "sources": [
+        {
+          "title": "Bülent Ecevit — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q192634"
+        }
+      ]
+    },
+    {
+      "id": "bulend-ulusu",
+      "name": {
+        "en": "Bülend Ulusu",
+        "fa": "بولنت اولوسو"
+      },
+      "wikidata": "Q375687",
+      "sources": [
+        {
+          "title": "Bülend Ulusu — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q375687"
+        }
+      ]
+    },
+    {
+      "id": "ali-bozer",
+      "name": {
+        "en": "Ali Bozer",
+        "fa": "علی بوزر"
+      },
+      "wikidata": "Q459130",
+      "sources": [
+        {
+          "title": "Ali Bozer — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q459130"
+        }
+      ]
+    },
+    {
+      "id": "y-ld-r-m-akbulut",
+      "name": {
+        "en": "Yıldırım Akbulut",
+        "fa": "ییلدیریم آکبولوت"
+      },
+      "wikidata": "Q558287",
+      "sources": [
+        {
+          "title": "Yıldırım Akbulut — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q558287"
+        }
+      ]
+    },
+    {
+      "id": "mesut-y-lmaz",
+      "name": {
+        "en": "Mesut Yılmaz",
+        "fa": "مسعود ییلماز"
+      },
+      "wikidata": "Q366692",
+      "sources": [
+        {
+          "title": "Mesut Yılmaz — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q366692"
+        }
+      ]
+    },
+    {
+      "id": "tansu-ciller",
+      "name": {
+        "en": "Tansu Çiller",
+        "fa": "تانسو چیللر"
+      },
+      "wikidata": "Q208377",
+      "sources": [
+        {
+          "title": "Tansu Çiller — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q208377"
+        }
+      ]
+    },
+    {
+      "id": "necmettin-erbakan",
+      "name": {
+        "en": "Necmettin Erbakan",
+        "fa": "نجمالدین اربکان"
+      },
+      "wikidata": "Q243550",
+      "sources": [
+        {
+          "title": "Necmettin Erbakan — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q243550"
+        }
+      ]
+    },
+    {
+      "id": "ahmet-davutoglu",
+      "name": {
+        "en": "Ahmet Davutoğlu",
+        "fa": "احمد داوداغلو"
+      },
+      "wikidata": "Q58198",
+      "sources": [
+        {
+          "title": "Ahmet Davutoğlu — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q58198"
+        }
+      ]
+    },
+    {
+      "id": "binali-y-ld-r-m",
+      "name": {
+        "en": "Binali Yıldırım",
+        "fa": "بنعلی ییلدریم"
+      },
+      "wikidata": "Q863496",
+      "sources": [
+        {
+          "title": "Binali Yıldırım — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q863496"
+        }
+      ]
+    },
+    {
+      "id": "cenaze-hasan-pasha",
+      "name": {
+        "en": "Cenaze Hasan Pasha",
+        "fa": "جنازه حسن پاشا"
+      },
+      "wikidata": "Q3792038",
+      "sources": [
+        {
+          "title": "Cenaze Hasan Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3792038"
+        }
+      ]
+    },
+    {
+      "id": "cezayirli-gazi-hasan-pasha",
+      "name": {
+        "en": "Cezayirli Gazi Hasan Pasha",
+        "fa": "غازی حسن پاشای جزایری"
+      },
+      "wikidata": "Q1583786",
+      "sources": [
+        {
+          "title": "Cezayirli Gazi Hasan Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1583786"
+        }
+      ]
+    },
+    {
+      "id": "celebizade-serif-hasan-pasha",
+      "name": {
+        "en": "Çelebizade Şerif Hasan Pasha",
+        "fa": "چلبی‌زاده شریف حسن پاشا"
+      },
+      "wikidata": "Q1584169",
+      "sources": [
+        {
+          "title": "Çelebizade Şerif Hasan Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1584169"
+        }
+      ]
+    },
+    {
+      "id": "melek-mehmed-pasha",
+      "name": {
+        "en": "Melek Mehmed Pasha",
+        "fa": "ملک محمد پاشا"
+      },
+      "wikidata": "Q1584099",
+      "sources": [
+        {
+          "title": "Melek Mehmed Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1584099"
+        }
+      ]
+    },
+    {
+      "id": "safranbolulu-izzet-mehmet-pasha",
+      "name": {
+        "en": "Safranbolulu Izzet Mehmet Pasha",
+        "fa": "عزت محمد پاشای صفرانبولی"
+      },
+      "wikidata": "Q1848382",
+      "sources": [
+        {
+          "title": "Safranbolulu Izzet Mehmet Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1848382"
+        }
+      ]
+    },
+    {
+      "id": "kor-yusuf-ziyauddin-pasha",
+      "name": {
+        "en": "Kör Yusuf Ziyaüddin Pasha",
+        "fa": "کور یوسف ضیاءالدین پاشا"
+      },
+      "wikidata": "Q6098127",
+      "sources": [
+        {
+          "title": "Kör Yusuf Ziyaüddin Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6098127"
+        }
+      ]
+    },
+    {
+      "id": "bostanc-bas-haf-z-ismail-pasha",
+      "name": {
+        "en": "Bostancıbaşı Hafız İsmail Pasha",
+        "fa": "حافظ اسماعیل پاشا"
+      },
+      "wikidata": "Q6098364",
+      "sources": [
+        {
+          "title": "Bostancıbaşı Hafız İsmail Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6098364"
+        }
+      ]
+    },
+    {
+      "id": "keciboynuzu-ibrahim-hilmi-pasha",
+      "name": {
+        "en": "Keçiboynuzu İbrahim Hilmi Pasha",
+        "fa": "ابراهیم حلمی پاشا"
+      },
+      "wikidata": "Q6455369",
+      "sources": [
+        {
+          "title": "Keçiboynuzu İbrahim Hilmi Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6455369"
+        }
+      ]
+    },
+    {
+      "id": "celebi-mustafa-pasa",
+      "name": {
+        "en": "Çelebi Mustafa Paşa",
+        "fa": "چلبی مصطفی پاشا"
+      },
+      "wikidata": "Q6102215",
+      "sources": [
+        {
+          "title": "Çelebi Mustafa Paşa — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6102215"
+        }
+      ]
+    },
+    {
+      "id": "alemdar-mustafa-pasha",
+      "name": {
+        "en": "Alemdar Mustafa Pasha",
+        "fa": "علمدار مصطفی پاشا"
+      },
+      "wikidata": "Q971640",
+      "sources": [
+        {
+          "title": "Alemdar Mustafa Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q971640"
+        }
+      ]
+    },
+    {
+      "id": "cavusbas-memis-pasha",
+      "name": {
+        "en": "Çavuşbaşı Memiş Pasha",
+        "fa": "ممیش پاشا"
+      },
+      "wikidata": "Q6097411",
+      "sources": [
+        {
+          "title": "Çavuşbaşı Memiş Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6097411"
+        }
+      ]
+    },
+    {
+      "id": "ali-pasha",
+      "name": {
+        "en": "Ali Pasha",
+        "fa": "علی پاشا"
+      },
+      "wikidata": "Q12812747",
+      "sources": [
+        {
+          "title": "Ali Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12812747"
+        }
+      ]
+    },
+    {
+      "id": "laz-aziz-ahmed-pasha",
+      "name": {
+        "en": "Laz Aziz Ahmed Pasha",
+        "fa": "لاز عزیز احمد پاشا"
+      },
+      "wikidata": "Q4252751",
+      "sources": [
+        {
+          "title": "Laz Aziz Ahmed Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4252751"
+        }
+      ]
+    },
+    {
+      "id": "mehmed-emin-rauf-pasha",
+      "name": {
+        "en": "Mehmed Emin Rauf Pasha",
+        "fa": "محمد امین رئوف پاشا"
+      },
+      "wikidata": "Q6809540",
+      "sources": [
+        {
+          "title": "Mehmed Emin Rauf Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6809540"
+        }
+      ]
+    },
+    {
+      "id": "burdurlu-mehmed-pasa",
+      "name": {
+        "en": "Burdurlu Mehmed Paşa",
+        "fa": "محمد پاشای بوردوری"
+      },
+      "wikidata": "Q6828455",
+      "sources": [
+        {
+          "title": "Burdurlu Mehmed Paşa — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6828455"
+        }
+      ]
+    },
+    {
+      "id": "seyyid-ali-pasha",
+      "name": {
+        "en": "Seyyid Ali Pasha",
+        "fa": "سید علی پاشا"
+      },
+      "wikidata": "Q6091116",
+      "sources": [
+        {
+          "title": "Seyyid Ali Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6091116"
+        }
+      ]
+    },
+    {
+      "id": "benderli-ali-pasha",
+      "name": {
+        "en": "Benderli Ali Pasha",
+        "fa": "بندرلی علی پاشا"
+      },
+      "wikidata": "Q816770",
+      "sources": [
+        {
+          "title": "Benderli Ali Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q816770"
+        }
+      ]
+    },
+    {
+      "id": "haji-salih-pasha",
+      "name": {
+        "en": "Haji Salih Pasha",
+        "fa": "حاجی صالح پاشا"
+      },
+      "wikidata": "Q6080634",
+      "sources": [
+        {
+          "title": "Haji Salih Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6080634"
+        }
+      ]
+    },
+    {
+      "id": "deli-abdullah-pasha",
+      "name": {
+        "en": "Deli Abdullah Pasha",
+        "fa": "دلی عبدالله پاشا"
+      },
+      "wikidata": "Q6097551",
+      "sources": [
+        {
+          "title": "Deli Abdullah Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6097551"
+        }
+      ]
+    },
+    {
+      "id": "silahdar-ali-pasa",
+      "name": {
+        "en": "Silahdar Ali Paşa",
+        "fa": "سلحدار علی پاشا"
+      },
+      "wikidata": "Q6095195",
+      "sources": [
+        {
+          "title": "Silahdar Ali Paşa — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6095195"
+        }
+      ]
+    },
+    {
+      "id": "mehmed-selim-pasha",
+      "name": {
+        "en": "Mehmed Selim Pasha",
+        "fa": "محمد سلیم پاشا"
+      },
+      "wikidata": "Q816767",
+      "sources": [
+        {
+          "title": "Mehmed Selim Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q816767"
+        }
+      ]
+    },
+    {
+      "id": "topal-izzet-mehmed-pasha",
+      "name": {
+        "en": "Topal Izzet Mehmed Pasha",
+        "fa": "توپال عزت محمد پاشا"
+      },
+      "wikidata": "Q6103171",
+      "sources": [
+        {
+          "title": "Topal Izzet Mehmed Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6103171"
+        }
+      ]
+    },
+    {
+      "id": "resid-mehmed-pasha",
+      "name": {
+        "en": "Reşid Mehmed Pasha",
+        "fa": "رشید محمد پاشا"
+      },
+      "wikidata": "Q3123755",
+      "sources": [
+        {
+          "title": "Reşid Mehmed Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3123755"
+        }
+      ]
+    },
+    {
+      "id": "koca-husrev-mehmed-pasha",
+      "name": {
+        "en": "Koca Hüsrev Mehmed Pasha",
+        "fa": "خسرو محمد پاشا"
+      },
+      "wikidata": "Q1583802",
+      "sources": [
+        {
+          "title": "Koca Hüsrev Mehmed Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1583802"
+        }
+      ]
+    },
+    {
+      "id": "damat-mehmed-ali-pasha",
+      "name": {
+        "en": "Damat Mehmed Ali Pasha",
+        "fa": "داماد محمدعلی پاشا"
+      },
+      "wikidata": "Q5211870",
+      "sources": [
+        {
+          "title": "Damat Mehmed Ali Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5211870"
+        }
+      ]
+    },
+    {
+      "id": "mustafa-naili-pasha",
+      "name": {
+        "en": "Mustafa Naili Pasha",
+        "fa": "مصطفی نائلی پاشا"
+      },
+      "wikidata": "Q246778",
+      "sources": [
+        {
+          "title": "Mustafa Naili Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q246778"
+        }
+      ]
+    },
+    {
+      "id": "k-br-sl-mehmed-emin-pasha",
+      "name": {
+        "en": "Kıbrıslı Mehmed Emin Pasha",
+        "fa": "محمد امین پاشای قبرسی"
+      },
+      "wikidata": "Q4250585",
+      "sources": [
+        {
+          "title": "Kıbrıslı Mehmed Emin Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4250585"
+        }
+      ]
+    },
+    {
+      "id": "mehmed-rushdi-pasha",
+      "name": {
+        "en": "Mehmed Rushdi Pasha",
+        "fa": "محمد رشدی پاشا"
+      },
+      "wikidata": "Q3658437",
+      "sources": [
+        {
+          "title": "Mehmed Rushdi Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3658437"
+        }
+      ]
+    },
+    {
+      "id": "yusuf-kamil-pasha",
+      "name": {
+        "en": "Yusuf Kamil Pasha",
+        "fa": "یوسف کامل پاشا"
+      },
+      "wikidata": "Q8061969",
+      "sources": [
+        {
+          "title": "Yusuf Kamil Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q8061969"
+        }
+      ]
+    },
+    {
+      "id": "mahmud-nedim-pasha",
+      "name": {
+        "en": "Mahmud Nedim Pasha",
+        "fa": "محمود ندیم پاشا"
+      },
+      "wikidata": "Q1176678",
+      "sources": [
+        {
+          "title": "Mahmud Nedim Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1176678"
+        }
+      ]
+    },
+    {
+      "id": "ahmed-esad-pasha",
+      "name": {
+        "en": "Ahmed Esad Pasha",
+        "fa": "احمد اسعد پاشا"
+      },
+      "wikidata": "Q4695801",
+      "sources": [
+        {
+          "title": "Ahmed Esad Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4695801"
+        }
+      ]
+    },
+    {
+      "id": "sirvanl-mehmed-rusdi-pasha",
+      "name": {
+        "en": "Şirvanlı Mehmed Rüşdi Pasha",
+        "fa": "محمد رشدی پاشای شیروانی"
+      },
+      "wikidata": "Q8082549",
+      "sources": [
+        {
+          "title": "Şirvanlı Mehmed Rüşdi Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q8082549"
+        }
+      ]
+    },
+    {
+      "id": "huseyin-avni-pasha",
+      "name": {
+        "en": "Hüseyin Avni Pasha",
+        "fa": "حسین عونی پاشا"
+      },
+      "wikidata": "Q1352851",
+      "sources": [
+        {
+          "title": "Hüseyin Avni Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1352851"
+        }
+      ]
+    },
+    {
+      "id": "ibrahim-edhem-pasha",
+      "name": {
+        "en": "Ibrahim Edhem Pasha",
+        "fa": "ابراهیم ادهم پاشا"
+      },
+      "wikidata": "Q343262",
+      "sources": [
+        {
+          "title": "Ibrahim Edhem Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q343262"
+        }
+      ]
+    },
+    {
+      "id": "mehmed-sad-k-pasha",
+      "name": {
+        "en": "Mehmed Sadık Pasha",
+        "fa": "محمد صادق پاشا"
+      },
+      "wikidata": "Q6809562",
+      "sources": [
+        {
+          "title": "Mehmed Sadık Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6809562"
+        }
+      ]
+    },
+    {
+      "id": "mehmed-said-pasha",
+      "name": {
+        "en": "Mehmed Said Pasha",
+        "fa": "محمد سعید پاشا"
+      },
+      "wikidata": "Q1398211",
+      "sources": [
+        {
+          "title": "Mehmed Said Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1398211"
+        }
+      ]
+    },
+    {
+      "id": "ahmed-arifi-pasha",
+      "name": {
+        "en": "Ahmed Arifi Pasha",
+        "fa": "احمد عارفی پاشا"
+      },
+      "wikidata": "Q301493",
+      "sources": [
+        {
+          "title": "Ahmed Arifi Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q301493"
+        }
+      ]
+    },
+    {
+      "id": "kadri-pasha",
+      "name": {
+        "en": "Kadri Pasha",
+        "fa": "قدری پاشا"
+      },
+      "wikidata": "Q6345691",
+      "sources": [
+        {
+          "title": "Kadri Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6345691"
+        }
+      ]
+    },
+    {
+      "id": "abdurrahman-nurettin-pasha",
+      "name": {
+        "en": "Abdurrahman Nurettin Pasha",
+        "fa": "عبدالرحمن نورالدین پاشا"
+      },
+      "wikidata": "Q4666307",
+      "sources": [
+        {
+          "title": "Abdurrahman Nurettin Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4666307"
+        }
+      ]
+    },
+    {
+      "id": "halil-rifat-pasha",
+      "name": {
+        "en": "Halil Rifat Pasha",
+        "fa": "خلیل رفعت پاشا"
+      },
+      "wikidata": "Q984219",
+      "sources": [
+        {
+          "title": "Halil Rifat Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q984219"
+        }
+      ]
+    },
+    {
+      "id": "mehmed-ferid-pasha",
+      "name": {
+        "en": "Mehmed Ferid Pasha",
+        "fa": "محمد فرید پاشا"
+      },
+      "wikidata": "Q4292197",
+      "sources": [
+        {
+          "title": "Mehmed Ferid Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4292197"
+        }
+      ]
+    },
+    {
+      "id": "ahmet-tevfik-pasha",
+      "name": {
+        "en": "Ahmet Tevfik Pasha",
+        "fa": "احمد توفیق پاشا"
+      },
+      "wikidata": "Q276098",
+      "sources": [
+        {
+          "title": "Ahmet Tevfik Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q276098"
+        }
+      ]
+    },
+    {
+      "id": "huseyin-hilmi-pasha",
+      "name": {
+        "en": "Hüseyin Hilmi Pasha",
+        "fa": "حسین حلمی پاشا"
+      },
+      "wikidata": "Q660970",
+      "sources": [
+        {
+          "title": "Hüseyin Hilmi Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q660970"
+        }
+      ]
+    },
+    {
+      "id": "ibrahim-hakki-pasha",
+      "name": {
+        "en": "Ibrahim Hakki Pasha",
+        "fa": "ابراهیم حقی پاشا"
+      },
+      "wikidata": "Q343295",
+      "sources": [
+        {
+          "title": "Ibrahim Hakki Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q343295"
+        }
+      ]
+    },
+    {
+      "id": "said-halim-pasha",
+      "name": {
+        "en": "Said Halim Pasha",
+        "fa": "سعید حلیم پاشا"
+      },
+      "wikidata": "Q2034890",
+      "sources": [
+        {
+          "title": "Said Halim Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2034890"
+        }
+      ]
+    },
+    {
+      "id": "damat-ferid-pasha",
+      "name": {
+        "en": "Damat Ferid Pasha",
+        "fa": "داماد فرید پاشا"
+      },
+      "wikidata": "Q943478",
+      "sources": [
+        {
+          "title": "Damat Ferid Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q943478"
+        }
+      ]
+    },
+    {
+      "id": "ali-r-za-pasha",
+      "name": {
+        "en": "Ali Rıza Pasha",
+        "fa": "علی رضا پاشا"
+      },
+      "wikidata": "Q1388930",
+      "sources": [
+        {
+          "title": "Ali Rıza Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1388930"
+        }
+      ]
+    },
+    {
+      "id": "salih-hulusi-pasha",
+      "name": {
+        "en": "Salih Hulusi Pasha",
+        "fa": "صالح خلوصی پاشا"
+      },
+      "wikidata": "Q931948",
+      "sources": [
+        {
+          "title": "Salih Hulusi Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q931948"
+        }
+      ]
+    }
+  ],
+  "lane": [
+    {
+      "country": "turkey",
+      "state": "ottoman-empire",
+      "start": 1789,
+      "end": 1922,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "Ottoman Empire — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ottoman_Empire"
+        }
+      ]
+    },
+    {
+      "country": "turkey",
+      "state": "ankara-government",
+      "start": 1920,
+      "end": 1922,
+      "kind": "rival",
+      "note": {
+        "en": "The Grand National Assembly in Ankara governed in opposition to the sultan's government from 1920 until the sultanate was abolished in 1922.",
+        "fa": "مجلس کبیر ملی در آنکارا از ۱۹۲۰ تا الغای سلطنت در ۱۹۲۲ در برابر حکومت سلطان فرمان می‌راند."
+      },
+      "sources": [
+        {
+          "title": "Government of the Grand National Assembly — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Government_of_the_Grand_National_Assembly"
+        }
+      ]
+    },
+    {
+      "country": "turkey",
+      "state": "ankara-government",
+      "start": 1922,
+      "end": 1923,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "Government of the Grand National Assembly — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Government_of_the_Grand_National_Assembly"
+        }
+      ]
+    },
+    {
+      "country": "turkey",
+      "state": "republic-of-turkey",
+      "start": 1923,
+      "end": null,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "Turkey — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turkey"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "person": "selim-iii",
+      "state": "ottoman-empire",
+      "office": "head-of-state",
+      "title": {
+        "en": "Sultan",
+        "fa": "سلطان"
+      },
+      "start": 1789,
+      "end": 1807,
+      "sources": [
+        {
+          "title": "Selim III — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Selim_III"
+        }
+      ]
+    },
+    {
+      "person": "mustafa-iv",
+      "state": "ottoman-empire",
+      "office": "head-of-state",
+      "title": {
+        "en": "Sultan",
+        "fa": "سلطان"
+      },
+      "start": 1807,
+      "end": 1808,
+      "sources": [
+        {
+          "title": "Mustafa IV — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mustafa_IV"
+        }
+      ]
+    },
+    {
+      "person": "mahmud-ii",
+      "state": "ottoman-empire",
+      "office": "head-of-state",
+      "title": {
+        "en": "Sultan",
+        "fa": "سلطان"
+      },
+      "start": 1808,
+      "end": 1839,
+      "sources": [
+        {
+          "title": "Mahmud II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mahmud_II"
+        }
+      ]
+    },
+    {
+      "person": "abdulmejid-i",
+      "state": "ottoman-empire",
+      "office": "head-of-state",
+      "title": {
+        "en": "Sultan",
+        "fa": "سلطان"
+      },
+      "start": 1839,
+      "end": 1861,
+      "sources": [
+        {
+          "title": "Abdülmecid I — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abdülmecid_I"
+        }
+      ]
+    },
+    {
+      "person": "abdulaziz",
+      "state": "ottoman-empire",
+      "office": "head-of-state",
+      "title": {
+        "en": "Sultan",
+        "fa": "سلطان"
+      },
+      "start": 1861,
+      "end": 1876,
+      "sources": [
+        {
+          "title": "Abdulaziz — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abdulaziz"
+        }
+      ]
+    },
+    {
+      "person": "murad-v",
+      "state": "ottoman-empire",
+      "office": "head-of-state",
+      "title": {
+        "en": "Sultan",
+        "fa": "سلطان"
+      },
+      "start": 1876,
+      "end": 1876,
+      "sources": [
+        {
+          "title": "Murad V — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Murad_V"
+        }
+      ]
+    },
+    {
+      "person": "abdul-hamid-ii",
+      "state": "ottoman-empire",
+      "office": "head-of-state",
+      "title": {
+        "en": "Sultan",
+        "fa": "سلطان"
+      },
+      "start": 1876,
+      "end": 1909,
+      "sources": [
+        {
+          "title": "Abdul Hamid II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abdul_Hamid_II"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-v",
+      "state": "ottoman-empire",
+      "office": "head-of-state",
+      "title": {
+        "en": "Sultan",
+        "fa": "سلطان"
+      },
+      "start": 1909,
+      "end": 1918,
+      "sources": [
+        {
+          "title": "Mehmed V — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mehmed_V"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-vi",
+      "state": "ottoman-empire",
+      "office": "head-of-state",
+      "title": {
+        "en": "Sultan",
+        "fa": "سلطان"
+      },
+      "start": 1918,
+      "end": 1922,
+      "sources": [
+        {
+          "title": "Mehmed VI — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mehmed_VI"
+        }
+      ]
+    },
+    {
+      "person": "mustafa-kemal-ataturk",
+      "state": "ankara-government",
+      "office": "head-of-state",
+      "title": {
+        "en": "Speaker of the Grand National Assembly",
+        "fa": "رئیس مجلس کبیر ملی"
+      },
+      "start": 1920,
+      "end": 1923,
+      "sources": [
+        {
+          "title": "Mustafa Kemal Atatürk — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mustafa_Kemal_Atatürk"
+        }
+      ]
+    },
+    {
+      "person": "mustafa-kemal-ataturk",
+      "state": "republic-of-turkey",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1923,
+      "end": 1938,
+      "sources": [
+        {
+          "title": "Mustafa Kemal Atatürk — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mustafa_Kemal_Atatürk"
+        }
+      ]
+    },
+    {
+      "person": "ismet-inonu",
+      "state": "republic-of-turkey",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1938,
+      "end": 1950,
+      "sources": [
+        {
+          "title": "İsmet İnönü — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/İsmet_İnönü"
+        }
+      ]
+    },
+    {
+      "person": "celal-bayar",
+      "state": "republic-of-turkey",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1950,
+      "end": 1960,
+      "sources": [
+        {
+          "title": "Celâl Bayar — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Celâl_Bayar"
+        }
+      ]
+    },
+    {
+      "person": "cemal-gursel",
+      "state": "republic-of-turkey",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1960,
+      "end": 1966,
+      "sources": [
+        {
+          "title": "Cemal Gürsel — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cemal_Gürsel"
+        }
+      ]
+    },
+    {
+      "person": "cevdet-sunay",
+      "state": "republic-of-turkey",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1966,
+      "end": 1973,
+      "sources": [
+        {
+          "title": "Cevdet Sunay — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cevdet_Sunay"
+        }
+      ]
+    },
+    {
+      "person": "fahri-koruturk",
+      "state": "republic-of-turkey",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1973,
+      "end": 1980,
+      "sources": [
+        {
+          "title": "Fahri Korutürk — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fahri_Korutürk"
+        }
+      ]
+    },
+    {
+      "person": "kenan-evren",
+      "state": "republic-of-turkey",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1980,
+      "end": 1989,
+      "sources": [
+        {
+          "title": "Kenan Evren — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kenan_Evren"
+        }
+      ]
+    },
+    {
+      "person": "turgut-ozal",
+      "state": "republic-of-turkey",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1989,
+      "end": 1993,
+      "sources": [
+        {
+          "title": "Turgut Özal — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turgut_Özal"
+        }
+      ]
+    },
+    {
+      "person": "suleyman-demirel",
+      "state": "republic-of-turkey",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1993,
+      "end": 2000,
+      "sources": [
+        {
+          "title": "Süleyman Demirel — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Süleyman_Demirel"
+        }
+      ]
+    },
+    {
+      "person": "ahmet-necdet-sezer",
+      "state": "republic-of-turkey",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 2000,
+      "end": 2007,
+      "sources": [
+        {
+          "title": "Ahmet Necdet Sezer — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ahmet_Necdet_Sezer"
+        }
+      ]
+    },
+    {
+      "person": "abdullah-gul",
+      "state": "republic-of-turkey",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 2007,
+      "end": 2014,
+      "sources": [
+        {
+          "title": "Abdullah Gül — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abdullah_Gül"
+        }
+      ]
+    },
+    {
+      "person": "recep-tayyip-erdogan",
+      "state": "republic-of-turkey",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 2014,
+      "end": null,
+      "sources": [
+        {
+          "title": "Recep Tayyip Erdoğan — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Recep_Tayyip_Erdoğan"
+        }
+      ]
+    },
+    {
+      "person": "cenaze-hasan-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1789,
+      "end": 1790,
+      "sources": [
+        {
+          "title": "Cenaze Hasan Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3792038"
+        }
+      ]
+    },
+    {
+      "person": "cezayirli-gazi-hasan-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1790,
+      "end": 1790,
+      "sources": [
+        {
+          "title": "Cezayirli Gazi Hasan Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1583786"
+        }
+      ]
+    },
+    {
+      "person": "celebizade-serif-hasan-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1790,
+      "end": 1791,
+      "sources": [
+        {
+          "title": "Çelebizade Şerif Hasan Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1584169"
+        }
+      ]
+    },
+    {
+      "person": "melek-mehmed-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1792,
+      "end": 1794,
+      "sources": [
+        {
+          "title": "Melek Mehmed Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1584099"
+        }
+      ]
+    },
+    {
+      "person": "safranbolulu-izzet-mehmet-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1794,
+      "end": 1798,
+      "sources": [
+        {
+          "title": "Safranbolulu Izzet Mehmet Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1848382"
+        }
+      ]
+    },
+    {
+      "person": "kor-yusuf-ziyauddin-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1798,
+      "end": 1805,
+      "sources": [
+        {
+          "title": "Kör Yusuf Ziyaüddin Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6098127"
+        }
+      ]
+    },
+    {
+      "person": "bostanc-bas-haf-z-ismail-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1805,
+      "end": 1806,
+      "sources": [
+        {
+          "title": "Bostancıbaşı Hafız İsmail Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6098364"
+        }
+      ]
+    },
+    {
+      "person": "keciboynuzu-ibrahim-hilmi-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1806,
+      "end": 1807,
+      "sources": [
+        {
+          "title": "Keçiboynuzu İbrahim Hilmi Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6455369"
+        }
+      ]
+    },
+    {
+      "person": "celebi-mustafa-pasa",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1807,
+      "end": 1808,
+      "sources": [
+        {
+          "title": "Çelebi Mustafa Paşa — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6102215"
+        }
+      ]
+    },
+    {
+      "person": "alemdar-mustafa-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1808,
+      "end": 1808,
+      "sources": [
+        {
+          "title": "Alemdar Mustafa Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q971640"
+        }
+      ]
+    },
+    {
+      "person": "cavusbas-memis-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1808,
+      "end": 1808,
+      "sources": [
+        {
+          "title": "Çavuşbaşı Memiş Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6097411"
+        }
+      ]
+    },
+    {
+      "person": "ali-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1808,
+      "end": 1809,
+      "sources": [
+        {
+          "title": "Ali Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12812747"
+        }
+      ]
+    },
+    {
+      "person": "kor-yusuf-ziyauddin-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1809,
+      "end": 1811,
+      "sources": [
+        {
+          "title": "Kör Yusuf Ziyaüddin Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6098127"
+        }
+      ]
+    },
+    {
+      "person": "laz-aziz-ahmed-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1811,
+      "end": 1812,
+      "sources": [
+        {
+          "title": "Laz Aziz Ahmed Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4252751"
+        }
+      ]
+    },
+    {
+      "person": "hurshid-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1812,
+      "end": 1815,
+      "sources": [
+        {
+          "title": "Hurshid Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q140092"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-emin-rauf-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1815,
+      "end": 1818,
+      "sources": [
+        {
+          "title": "Mehmed Emin Rauf Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6809540"
+        }
+      ]
+    },
+    {
+      "person": "burdurlu-mehmed-pasa",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1818,
+      "end": 1820,
+      "sources": [
+        {
+          "title": "Burdurlu Mehmed Paşa — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6828455"
+        }
+      ]
+    },
+    {
+      "person": "seyyid-ali-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1820,
+      "end": 1821,
+      "sources": [
+        {
+          "title": "Seyyid Ali Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6091116"
+        }
+      ]
+    },
+    {
+      "person": "benderli-ali-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1821,
+      "end": 1821,
+      "sources": [
+        {
+          "title": "Benderli Ali Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q816770"
+        }
+      ]
+    },
+    {
+      "person": "haji-salih-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1821,
+      "end": 1822,
+      "sources": [
+        {
+          "title": "Haji Salih Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6080634"
+        }
+      ]
+    },
+    {
+      "person": "deli-abdullah-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1822,
+      "end": 1823,
+      "sources": [
+        {
+          "title": "Deli Abdullah Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6097551"
+        }
+      ]
+    },
+    {
+      "person": "silahdar-ali-pasa",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1823,
+      "end": 1823,
+      "sources": [
+        {
+          "title": "Silahdar Ali Paşa — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6095195"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-selim-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1824,
+      "end": 1828,
+      "sources": [
+        {
+          "title": "Mehmed Selim Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q816767"
+        }
+      ]
+    },
+    {
+      "person": "topal-izzet-mehmed-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1828,
+      "end": 1829,
+      "sources": [
+        {
+          "title": "Topal Izzet Mehmed Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6103171"
+        }
+      ]
+    },
+    {
+      "person": "resid-mehmed-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1829,
+      "end": 1833,
+      "sources": [
+        {
+          "title": "Reşid Mehmed Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3123755"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-emin-rauf-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1833,
+      "end": 1839,
+      "sources": [
+        {
+          "title": "Mehmed Emin Rauf Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6809540"
+        }
+      ]
+    },
+    {
+      "person": "koca-husrev-mehmed-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1839,
+      "end": 1841,
+      "sources": [
+        {
+          "title": "Koca Hüsrev Mehmed Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1583802"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-emin-rauf-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1841,
+      "end": 1841,
+      "sources": [
+        {
+          "title": "Mehmed Emin Rauf Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6809540"
+        }
+      ]
+    },
+    {
+      "person": "topal-izzet-mehmed-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1841,
+      "end": 1842,
+      "sources": [
+        {
+          "title": "Topal Izzet Mehmed Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6103171"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-emin-rauf-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1842,
+      "end": 1846,
+      "sources": [
+        {
+          "title": "Mehmed Emin Rauf Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6809540"
+        }
+      ]
+    },
+    {
+      "person": "mustafa-resid-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1846,
+      "end": 1848,
+      "sources": [
+        {
+          "title": "Mustafa Reşid Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1330145"
+        }
+      ]
+    },
+    {
+      "person": "mustafa-resid-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1848,
+      "end": 1852,
+      "sources": [
+        {
+          "title": "Mustafa Reşid Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1330145"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-emin-ali-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1852,
+      "end": 1852,
+      "sources": [
+        {
+          "title": "Mehmed Emin Âli Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q439237"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-emin-rauf-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1852,
+      "end": 1852,
+      "sources": [
+        {
+          "title": "Mehmed Emin Rauf Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6809540"
+        }
+      ]
+    },
+    {
+      "person": "mustafa-resid-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1852,
+      "end": 1852,
+      "sources": [
+        {
+          "title": "Mustafa Reşid Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1330145"
+        }
+      ]
+    },
+    {
+      "person": "damat-mehmed-ali-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1852,
+      "end": 1853,
+      "sources": [
+        {
+          "title": "Damat Mehmed Ali Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5211870"
+        }
+      ]
+    },
+    {
+      "person": "mustafa-naili-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1853,
+      "end": 1854,
+      "sources": [
+        {
+          "title": "Mustafa Naili Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q246778"
+        }
+      ]
+    },
+    {
+      "person": "k-br-sl-mehmed-emin-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1854,
+      "end": 1854,
+      "sources": [
+        {
+          "title": "Kıbrıslı Mehmed Emin Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4250585"
+        }
+      ]
+    },
+    {
+      "person": "mustafa-resid-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1854,
+      "end": 1855,
+      "sources": [
+        {
+          "title": "Mustafa Reşid Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1330145"
+        }
+      ]
+    },
+    {
+      "person": "mustafa-resid-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1856,
+      "end": 1857,
+      "sources": [
+        {
+          "title": "Mustafa Reşid Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1330145"
+        }
+      ]
+    },
+    {
+      "person": "mustafa-naili-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1857,
+      "end": 1857,
+      "sources": [
+        {
+          "title": "Mustafa Naili Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q246778"
+        }
+      ]
+    },
+    {
+      "person": "mustafa-resid-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1857,
+      "end": 1858,
+      "sources": [
+        {
+          "title": "Mustafa Reşid Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1330145"
+        }
+      ]
+    },
+    {
+      "person": "k-br-sl-mehmed-emin-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1859,
+      "end": 1859,
+      "sources": [
+        {
+          "title": "Kıbrıslı Mehmed Emin Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4250585"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-rushdi-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1859,
+      "end": 1860,
+      "sources": [
+        {
+          "title": "Mehmed Rushdi Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3658437"
+        }
+      ]
+    },
+    {
+      "person": "k-br-sl-mehmed-emin-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1860,
+      "end": 1861,
+      "sources": [
+        {
+          "title": "Kıbrıslı Mehmed Emin Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4250585"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-fuad-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1861,
+      "end": 1863,
+      "sources": [
+        {
+          "title": "Mehmed Fuad Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q715917"
+        }
+      ]
+    },
+    {
+      "person": "yusuf-kamil-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1863,
+      "end": 1863,
+      "sources": [
+        {
+          "title": "Yusuf Kamil Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q8061969"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-fuad-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1863,
+      "end": 1866,
+      "sources": [
+        {
+          "title": "Mehmed Fuad Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q715917"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-rushdi-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1866,
+      "end": 1867,
+      "sources": [
+        {
+          "title": "Mehmed Rushdi Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3658437"
+        }
+      ]
+    },
+    {
+      "person": "mahmud-nedim-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1871,
+      "end": 1872,
+      "sources": [
+        {
+          "title": "Mahmud Nedim Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1176678"
+        }
+      ]
+    },
+    {
+      "person": "midhat-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1872,
+      "end": 1872,
+      "sources": [
+        {
+          "title": "Midhat Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q369930"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-rushdi-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1872,
+      "end": 1873,
+      "sources": [
+        {
+          "title": "Mehmed Rushdi Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3658437"
+        }
+      ]
+    },
+    {
+      "person": "ahmed-esad-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1873,
+      "end": 1873,
+      "sources": [
+        {
+          "title": "Ahmed Esad Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4695801"
+        }
+      ]
+    },
+    {
+      "person": "sirvanl-mehmed-rusdi-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1873,
+      "end": 1873,
+      "sources": [
+        {
+          "title": "Şirvanlı Mehmed Rüşdi Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q8082549"
+        }
+      ]
+    },
+    {
+      "person": "huseyin-avni-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1874,
+      "end": 1875,
+      "sources": [
+        {
+          "title": "Hüseyin Avni Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1352851"
+        }
+      ]
+    },
+    {
+      "person": "ahmed-esad-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1875,
+      "end": 1875,
+      "sources": [
+        {
+          "title": "Ahmed Esad Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4695801"
+        }
+      ]
+    },
+    {
+      "person": "mahmud-nedim-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1875,
+      "end": 1876,
+      "sources": [
+        {
+          "title": "Mahmud Nedim Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1176678"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-rushdi-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1876,
+      "end": 1876,
+      "sources": [
+        {
+          "title": "Mehmed Rushdi Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3658437"
+        }
+      ]
+    },
+    {
+      "person": "midhat-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1876,
+      "end": 1877,
+      "sources": [
+        {
+          "title": "Midhat Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q369930"
+        }
+      ]
+    },
+    {
+      "person": "ibrahim-edhem-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1877,
+      "end": 1878,
+      "sources": [
+        {
+          "title": "Ibrahim Edhem Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q343262"
+        }
+      ]
+    },
+    {
+      "person": "ahmed-vefik-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1878,
+      "end": 1878,
+      "sources": [
+        {
+          "title": "Ahmed Vefik Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q401541"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-rushdi-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1878,
+      "end": 1878,
+      "sources": [
+        {
+          "title": "Mehmed Rushdi Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3658437"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-sad-k-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1878,
+      "end": 1878,
+      "sources": [
+        {
+          "title": "Mehmed Sadık Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6809562"
+        }
+      ]
+    },
+    {
+      "person": "saffet-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1878,
+      "end": 1878,
+      "sources": [
+        {
+          "title": "Saffet Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2369824"
+        }
+      ]
+    },
+    {
+      "person": "hayreddin-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1878,
+      "end": 1879,
+      "sources": [
+        {
+          "title": "Hayreddin Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1366613"
+        }
+      ]
+    },
+    {
+      "person": "ahmed-arifi-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1879,
+      "end": 1879,
+      "sources": [
+        {
+          "title": "Ahmed Arifi Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q301493"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-said-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1879,
+      "end": 1880,
+      "sources": [
+        {
+          "title": "Mehmed Said Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1398211"
+        }
+      ]
+    },
+    {
+      "person": "kadri-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1880,
+      "end": 1880,
+      "sources": [
+        {
+          "title": "Kadri Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6345691"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-said-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1880,
+      "end": 1882,
+      "sources": [
+        {
+          "title": "Mehmed Said Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1398211"
+        }
+      ]
+    },
+    {
+      "person": "abdurrahman-nurettin-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1882,
+      "end": 1882,
+      "sources": [
+        {
+          "title": "Abdurrahman Nurettin Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4666307"
+        }
+      ]
+    },
+    {
+      "person": "ahmed-vefik-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1882,
+      "end": 1882,
+      "sources": [
+        {
+          "title": "Ahmed Vefik Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q401541"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-said-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1882,
+      "end": 1885,
+      "sources": [
+        {
+          "title": "Mehmed Said Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1398211"
+        }
+      ]
+    },
+    {
+      "person": "kamil-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1885,
+      "end": 1891,
+      "sources": [
+        {
+          "title": "Kâmil Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q367997"
+        }
+      ]
+    },
+    {
+      "person": "kamil-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1895,
+      "end": 1895,
+      "sources": [
+        {
+          "title": "Kâmil Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q367997"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-said-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1895,
+      "end": 1895,
+      "sources": [
+        {
+          "title": "Mehmed Said Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1398211"
+        }
+      ]
+    },
+    {
+      "person": "halil-rifat-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1895,
+      "end": 1901,
+      "sources": [
+        {
+          "title": "Halil Rifat Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q984219"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-said-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1901,
+      "end": 1903,
+      "sources": [
+        {
+          "title": "Mehmed Said Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1398211"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-ferid-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1903,
+      "end": 1908,
+      "sources": [
+        {
+          "title": "Mehmed Ferid Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4292197"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-said-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1908,
+      "end": 1908,
+      "sources": [
+        {
+          "title": "Mehmed Said Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1398211"
+        }
+      ]
+    },
+    {
+      "person": "kamil-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1908,
+      "end": 1909,
+      "sources": [
+        {
+          "title": "Kâmil Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q367997"
+        }
+      ]
+    },
+    {
+      "person": "ahmet-tevfik-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1909,
+      "end": 1909,
+      "sources": [
+        {
+          "title": "Ahmet Tevfik Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q276098"
+        }
+      ]
+    },
+    {
+      "person": "huseyin-hilmi-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1909,
+      "end": 1910,
+      "sources": [
+        {
+          "title": "Hüseyin Hilmi Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q660970"
+        }
+      ]
+    },
+    {
+      "person": "ibrahim-hakki-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1910,
+      "end": 1911,
+      "sources": [
+        {
+          "title": "Ibrahim Hakki Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q343295"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-said-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1911,
+      "end": 1912,
+      "sources": [
+        {
+          "title": "Mehmed Said Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1398211"
+        }
+      ]
+    },
+    {
+      "person": "ahmed-muhtar-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1912,
+      "end": 1912,
+      "sources": [
+        {
+          "title": "Ahmed Muhtar Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q401411"
+        }
+      ]
+    },
+    {
+      "person": "kamil-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1912,
+      "end": 1913,
+      "sources": [
+        {
+          "title": "Kâmil Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q367997"
+        }
+      ]
+    },
+    {
+      "person": "mahmud-shevket-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1913,
+      "end": 1913,
+      "sources": [
+        {
+          "title": "Mahmud Shevket Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q722306"
+        }
+      ]
+    },
+    {
+      "person": "said-halim-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1913,
+      "end": 1917,
+      "sources": [
+        {
+          "title": "Said Halim Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2034890"
+        }
+      ]
+    },
+    {
+      "person": "talaat-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1917,
+      "end": 1918,
+      "sources": [
+        {
+          "title": "Talaat Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q315888"
+        }
+      ]
+    },
+    {
+      "person": "ahmed-izzet-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1918,
+      "end": 1918,
+      "sources": [
+        {
+          "title": "Ahmed Izzet Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q247611"
+        }
+      ]
+    },
+    {
+      "person": "ahmet-tevfik-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1918,
+      "end": 1919,
+      "sources": [
+        {
+          "title": "Ahmet Tevfik Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q276098"
+        }
+      ]
+    },
+    {
+      "person": "damat-ferid-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1919,
+      "end": 1919,
+      "sources": [
+        {
+          "title": "Damat Ferid Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q943478"
+        }
+      ]
+    },
+    {
+      "person": "ali-r-za-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1919,
+      "end": 1920,
+      "sources": [
+        {
+          "title": "Ali Rıza Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1388930"
+        }
+      ]
+    },
+    {
+      "person": "damat-ferid-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1920,
+      "end": 1920,
+      "sources": [
+        {
+          "title": "Damat Ferid Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q943478"
+        }
+      ]
+    },
+    {
+      "person": "salih-hulusi-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1920,
+      "end": 1920,
+      "sources": [
+        {
+          "title": "Salih Hulusi Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q931948"
+        }
+      ]
+    },
+    {
+      "person": "mustafa-kemal-ataturk",
+      "state": "ankara-government",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1920,
+      "end": 1921,
+      "sources": [
+        {
+          "title": "Mustafa Kemal Atatürk — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5152"
+        }
+      ]
+    },
+    {
+      "person": "ahmet-tevfik-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1920,
+      "end": 1922,
+      "sources": [
+        {
+          "title": "Ahmet Tevfik Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q276098"
+        }
+      ]
+    },
+    {
+      "person": "ismet-inonu",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1923,
+      "end": 1924,
+      "sources": [
+        {
+          "title": "İsmet İnönü — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q183297"
+        }
+      ]
+    },
+    {
+      "person": "ismet-inonu",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1924,
+      "end": 1924,
+      "sources": [
+        {
+          "title": "İsmet İnönü — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q183297"
+        }
+      ]
+    },
+    {
+      "person": "fethi-okyar",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1924,
+      "end": 1925,
+      "sources": [
+        {
+          "title": "Fethi Okyar — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q366292"
+        }
+      ]
+    },
+    {
+      "person": "ismet-inonu",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1925,
+      "end": 1927,
+      "sources": [
+        {
+          "title": "İsmet İnönü — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q183297"
+        }
+      ]
+    },
+    {
+      "person": "ismet-inonu",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1927,
+      "end": 1930,
+      "sources": [
+        {
+          "title": "İsmet İnönü — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q183297"
+        }
+      ]
+    },
+    {
+      "person": "ismet-inonu",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1930,
+      "end": 1931,
+      "sources": [
+        {
+          "title": "İsmet İnönü — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q183297"
+        }
+      ]
+    },
+    {
+      "person": "ismet-inonu",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1931,
+      "end": 1935,
+      "sources": [
+        {
+          "title": "İsmet İnönü — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q183297"
+        }
+      ]
+    },
+    {
+      "person": "ismet-inonu",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1935,
+      "end": 1937,
+      "sources": [
+        {
+          "title": "İsmet İnönü — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q183297"
+        }
+      ]
+    },
+    {
+      "person": "celal-bayar",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1937,
+      "end": 1938,
+      "sources": [
+        {
+          "title": "Celâl Bayar — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q151735"
+        }
+      ]
+    },
+    {
+      "person": "celal-bayar",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1938,
+      "end": 1939,
+      "sources": [
+        {
+          "title": "Celâl Bayar — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q151735"
+        }
+      ]
+    },
+    {
+      "person": "refik-saydam",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1939,
+      "end": 1942,
+      "sources": [
+        {
+          "title": "Refik Saydam — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q983535"
+        }
+      ]
+    },
+    {
+      "person": "sukru-saracoglu",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1942,
+      "end": 1943,
+      "sources": [
+        {
+          "title": "Şükrü Saracoğlu — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q390725"
+        }
+      ]
+    },
+    {
+      "person": "sukru-saracoglu",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1943,
+      "end": 1946,
+      "sources": [
+        {
+          "title": "Şükrü Saracoğlu — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q390725"
+        }
+      ]
+    },
+    {
+      "person": "recep-peker",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1946,
+      "end": 1947,
+      "sources": [
+        {
+          "title": "Recep Peker — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q728586"
+        }
+      ]
+    },
+    {
+      "person": "hasan-saka",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1947,
+      "end": 1948,
+      "sources": [
+        {
+          "title": "Hasan Saka — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1588141"
+        }
+      ]
+    },
+    {
+      "person": "hasan-saka",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1948,
+      "end": 1949,
+      "sources": [
+        {
+          "title": "Hasan Saka — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1588141"
+        }
+      ]
+    },
+    {
+      "person": "semsettin-gunaltay",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1949,
+      "end": 1950,
+      "sources": [
+        {
+          "title": "Şemsettin Günaltay — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q388771"
+        }
+      ]
+    },
+    {
+      "person": "adnan-menderes",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1950,
+      "end": 1951,
+      "sources": [
+        {
+          "title": "Adnan Menderes — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q238745"
+        }
+      ]
+    },
+    {
+      "person": "adnan-menderes",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1951,
+      "end": 1954,
+      "sources": [
+        {
+          "title": "Adnan Menderes — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q238745"
+        }
+      ]
+    },
+    {
+      "person": "adnan-menderes",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1954,
+      "end": 1955,
+      "sources": [
+        {
+          "title": "Adnan Menderes — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q238745"
+        }
+      ]
+    },
+    {
+      "person": "adnan-menderes",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1955,
+      "end": 1957,
+      "sources": [
+        {
+          "title": "Adnan Menderes — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q238745"
+        }
+      ]
+    },
+    {
+      "person": "adnan-menderes",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1957,
+      "end": 1960,
+      "sources": [
+        {
+          "title": "Adnan Menderes — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q238745"
+        }
+      ]
+    },
+    {
+      "person": "cemal-gursel",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1960,
+      "end": 1961,
+      "sources": [
+        {
+          "title": "Cemal Gürsel — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q159161"
+        }
+      ]
+    },
+    {
+      "person": "cemal-gursel",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1961,
+      "end": 1961,
+      "sources": [
+        {
+          "title": "Cemal Gürsel — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q159161"
+        }
+      ]
+    },
+    {
+      "person": "ismet-inonu",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1961,
+      "end": 1962,
+      "sources": [
+        {
+          "title": "İsmet İnönü — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q183297"
+        }
+      ]
+    },
+    {
+      "person": "ismet-inonu",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1962,
+      "end": 1963,
+      "sources": [
+        {
+          "title": "İsmet İnönü — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q183297"
+        }
+      ]
+    },
+    {
+      "person": "ismet-inonu",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1963,
+      "end": 1965,
+      "sources": [
+        {
+          "title": "İsmet İnönü — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q183297"
+        }
+      ]
+    },
+    {
+      "person": "suat-hayri-urguplu",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1965,
+      "end": 1965,
+      "sources": [
+        {
+          "title": "Suat Hayri Ürgüplü — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2306500"
+        }
+      ]
+    },
+    {
+      "person": "suleyman-demirel",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1965,
+      "end": 1969,
+      "sources": [
+        {
+          "title": "Süleyman Demirel — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q151729"
+        }
+      ]
+    },
+    {
+      "person": "suleyman-demirel",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1969,
+      "end": 1970,
+      "sources": [
+        {
+          "title": "Süleyman Demirel — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q151729"
+        }
+      ]
+    },
+    {
+      "person": "suleyman-demirel",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1970,
+      "end": 1971,
+      "sources": [
+        {
+          "title": "Süleyman Demirel — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q151729"
+        }
+      ]
+    },
+    {
+      "person": "nihat-erim",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1971,
+      "end": 1972,
+      "sources": [
+        {
+          "title": "Nihat Erim — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q721715"
+        }
+      ]
+    },
+    {
+      "person": "ferit-melen",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1972,
+      "end": 1973,
+      "sources": [
+        {
+          "title": "Ferit Melen — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1400345"
+        }
+      ]
+    },
+    {
+      "person": "naim-talu",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1973,
+      "end": 1974,
+      "sources": [
+        {
+          "title": "Naim Talu — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q174709"
+        }
+      ]
+    },
+    {
+      "person": "bulent-ecevit",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1974,
+      "end": 1974,
+      "sources": [
+        {
+          "title": "Bülent Ecevit — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q192634"
+        }
+      ]
+    },
+    {
+      "person": "sadi-irmak",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1974,
+      "end": 1975,
+      "sources": [
+        {
+          "title": "Sadi Irmak — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1397975"
+        }
+      ]
+    },
+    {
+      "person": "suleyman-demirel",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1975,
+      "end": 1977,
+      "sources": [
+        {
+          "title": "Süleyman Demirel — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q151729"
+        }
+      ]
+    },
+    {
+      "person": "bulent-ecevit",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1977,
+      "end": 1977,
+      "sources": [
+        {
+          "title": "Bülent Ecevit — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q192634"
+        }
+      ]
+    },
+    {
+      "person": "suleyman-demirel",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1977,
+      "end": 1978,
+      "sources": [
+        {
+          "title": "Süleyman Demirel — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q151729"
+        }
+      ]
+    },
+    {
+      "person": "bulent-ecevit",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1978,
+      "end": 1979,
+      "sources": [
+        {
+          "title": "Bülent Ecevit — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q192634"
+        }
+      ]
+    },
+    {
+      "person": "suleyman-demirel",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1979,
+      "end": 1980,
+      "sources": [
+        {
+          "title": "Süleyman Demirel — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q151729"
+        }
+      ]
+    },
+    {
+      "person": "bulend-ulusu",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1980,
+      "end": 1983,
+      "sources": [
+        {
+          "title": "Bülend Ulusu — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q375687"
+        }
+      ]
+    },
+    {
+      "person": "turgut-ozal",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1983,
+      "end": 1987,
+      "sources": [
+        {
+          "title": "Turgut Özal — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q180280"
+        }
+      ]
+    },
+    {
+      "person": "turgut-ozal",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1987,
+      "end": 1989,
+      "sources": [
+        {
+          "title": "Turgut Özal — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q180280"
+        }
+      ]
+    },
+    {
+      "person": "ali-bozer",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1989,
+      "end": 1989,
+      "sources": [
+        {
+          "title": "Ali Bozer — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q459130"
+        }
+      ]
+    },
+    {
+      "person": "y-ld-r-m-akbulut",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1989,
+      "end": 1991,
+      "sources": [
+        {
+          "title": "Yıldırım Akbulut — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q558287"
+        }
+      ]
+    },
+    {
+      "person": "mesut-y-lmaz",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1991,
+      "end": 1991,
+      "sources": [
+        {
+          "title": "Mesut Yılmaz — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q366692"
+        }
+      ]
+    },
+    {
+      "person": "suleyman-demirel",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1991,
+      "end": 1993,
+      "sources": [
+        {
+          "title": "Süleyman Demirel — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q151729"
+        }
+      ]
+    },
+    {
+      "person": "tansu-ciller",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1993,
+      "end": 1995,
+      "sources": [
+        {
+          "title": "Tansu Çiller — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q208377"
+        }
+      ]
+    },
+    {
+      "person": "tansu-ciller",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1995,
+      "end": 1996,
+      "sources": [
+        {
+          "title": "Tansu Çiller — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q208377"
+        }
+      ]
+    },
+    {
+      "person": "mesut-y-lmaz",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1996,
+      "end": 1996,
+      "sources": [
+        {
+          "title": "Mesut Yılmaz — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q366692"
+        }
+      ]
+    },
+    {
+      "person": "necmettin-erbakan",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1996,
+      "end": 1997,
+      "sources": [
+        {
+          "title": "Necmettin Erbakan — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q243550"
+        }
+      ]
+    },
+    {
+      "person": "mesut-y-lmaz",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1997,
+      "end": 1999,
+      "sources": [
+        {
+          "title": "Mesut Yılmaz — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q366692"
+        }
+      ]
+    },
+    {
+      "person": "bulent-ecevit",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1999,
+      "end": 2002,
+      "sources": [
+        {
+          "title": "Bülent Ecevit — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q192634"
+        }
+      ]
+    },
+    {
+      "person": "abdullah-gul",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 2002,
+      "end": 2003,
+      "sources": [
+        {
+          "title": "Abdullah Gül — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q42852"
+        }
+      ]
+    },
+    {
+      "person": "recep-tayyip-erdogan",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 2003,
+      "end": 2014,
+      "sources": [
+        {
+          "title": "Recep Tayyip Erdoğan — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q39259"
+        }
+      ]
+    },
+    {
+      "person": "ahmet-davutoglu",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 2014,
+      "end": 2015,
+      "sources": [
+        {
+          "title": "Ahmet Davutoğlu — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q58198"
+        }
+      ]
+    },
+    {
+      "person": "ahmet-davutoglu",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 2015,
+      "end": 2016,
+      "sources": [
+        {
+          "title": "Ahmet Davutoğlu — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q58198"
+        }
+      ]
+    },
+    {
+      "person": "binali-y-ld-r-m",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 2016,
+      "end": 2018,
+      "sources": [
+        {
+          "title": "Binali Yıldırım — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q863496"
+        }
+      ]
+    },
+    {
+      "person": "recep-tayyip-erdogan",
+      "state": "republic-of-turkey",
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 2018,
+      "end": null,
+      "sources": [
+        {
+          "title": "Recep Tayyip Erdoğan — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q39259"
+        }
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "state": "ottoman-empire",
+      "file": "Flag of the Ottoman Empire (1844–1922).svg",
+      "start": 1844,
+      "end": 1922,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "User:Orwellianist",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Ottoman Empire (1844–1922).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Ottoman_Empire_%281844%E2%80%931922%29.svg"
+        }
+      ]
+    },
+    {
+      "state": "ankara-government",
+      "file": "Flag of the Ottoman Empire (1844–1922).svg",
+      "start": 1920,
+      "end": 1923,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "User:Orwellianist",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Ottoman Empire (1844–1922).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Ottoman_Empire_%281844%E2%80%931922%29.svg"
+        }
+      ]
+    },
+    {
+      "state": "republic-of-turkey",
+      "file": "Flag of Turkey.svg",
+      "start": 1923,
+      "end": null,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "David Benbennick (original author)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of Turkey.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkey.svg"
+        }
+      ]
+    }
+  ]
+}

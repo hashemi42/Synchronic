@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "title": "سینکرونیک — تاریخ جهان، کنار هم",
+    "description": "چه کسی کجا حکومت می‌کرد و در همان لحظه در جهان چه می‌گذشت."
+  },
+  "shell": {
+    "skipToTimeline": "پرش به خط زمان",
+    "language": "زبان",
+    "primaryNav": "اصلی"
+  },
+  "home": {
+    "tagline": "تاریخ جهان، کنار هم",
+    "intro": "چه کسی، کجا و هم‌زمان حکومت می‌کرد. کشورها را اضافه کنید، لغزنده را بکشید یا سالی را بنویسید و برای مقایسه بر مبنای دورهٔ یک فرمانروا، او را انتخاب کنید.",
+    "timeline": "خط زمان"
+  },
+  "calendar": {
+    "ce": "م",
+    "bce": "پ.م",
+    "sh": "ه‍.ش",
+    "ah": "ه‍.ق",
+    "ceLong": "میلادی",
+    "bceLong": "پیش از میلاد",
+    "shLong": "هجری خورشیدی",
+    "ahLong": "هجری قمری"
+  },
+  "lane": {
+    "landOfToday": "سرزمین {country} امروز",
+    "states": "دولت‌های {country}",
+    "rulers": "فرمانروایان {country} — برای مبنا یکی را انتخاب کنید",
+    "rival": "هم‌زمان",
+    "headOfState": "رئیس کشور",
+    "present": "امروز",
+    "anchorTo": "{name}، {years}",
+    "duringReign": "در دورهٔ {name}",
+    "noRuler": "بدون رئیس کشور واحد",
+    "compare": "ستون کناری نشان می‌دهد",
+    "singleYear": "تک‌سال",
+    "wholeReign": "کل دوره",
+    "announce": "{country}: {ruler}، {title}، {state}",
+    "announceNone": "{country}: بدون رئیس کشور واحد",
+    "remove": "حذف {country}",
+    "empty": "برای شروع، کشوری اضافه کنید.",
+    "headOfGovernment": "رئیس دولت",
+    "loading": "در حال بارگذاری…",
+    "loadFailed": "این ردیف بارگذاری نشد.",
+    "retry": "تلاش دوباره"
+  },
+  "dock": {
+    "label": "کنترل‌های زمان",
+    "yearField": "سال",
+    "slider": "سال انتخاب‌شده",
+    "previous": "یک گام به عقب",
+    "next": "یک گام به جلو",
+    "step": "اندازهٔ گام",
+    "stepYear": "سال",
+    "stepDecade": "دهه",
+    "stepCentury": "سده",
+    "stepReign": "فرمانروایی",
+    "anchored": "بر مبنای {name}",
+    "removeAnchor": "برداشتن مبنا"
+  },
+  "card": {
+    "headOfStateIn": "رئیس کشور در {year}",
+    "headsOfState": "رؤسای کشور",
+    "rulersSummary": "{count, number} نفر — از {first} تا {last}",
+    "system": "نظام حکومتی",
+    "capital": "پایتخت",
+    "occupation": "اشغال",
+    "noState": "بدون دولت",
+    "flagWithheld": "پرچم نمایش داده نمی‌شود",
+    "flag": "پرچم",
+    "flagOf": "پرچم {state}",
+    "simplified": "طرح ساده‌شده",
+    "reconstructed": "بازسازی",
+    "imageCredit": "تصویر: {attribution} · {license} · ویکی‌انبار",
+    "headOfGovernmentIn": "رئیس دولت در {year}",
+    "headsOfGovernment": "رؤسای دولت",
+    "alsoInYear": "همچنین در {year}: {names}",
+    "noGovernment": "رئیس دولتی ثبت نشده است"
+  },
+  "add": {
+    "trigger": "افزودن کشور",
+    "title": "افزودن کشور",
+    "search": "جست‌وجوی کشور، به فارسی یا انگلیسی",
+    "hint": "↑ ↓ برای جابه‌جایی · Enter برای افزودن یا حذف · Esc برای بستن",
+    "counter": "{count, number} از {max, number} ردیف",
+    "results": "کشورها و وضعیت هر یک در سال {year}",
+    "add": "افزودن",
+    "added": "افزوده شد",
+    "limit": "ردیف‌ها پر است",
+    "close": "بستن",
+    "none": "کشوری با «{query}» پیدا نشد.",
+    "oftenCompared": "اغلب در کنار {country} مقایسه می‌شود",
+    "presets": "مجموعه‌های آماده"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "fetchedAt": "2026-11-13T19:27:04.009Z",
+  "query": "\nSELECT DISTINCT ?person ?personLabel ?personFa ?office ?officeLabel ?start ?end WHERE {\n  {\n    wd:Q794 p:P35 ?term .\n    ?term ps:P35 ?person .\n  } UNION {\n    VALUES ?office { wd:Q332486 }\n    ?person p:P39 ?term .\n    ?term ps:P39 ?office .\n    ?office rdfs:label ?officeLabel . FILTER(LANG(?officeLabel) = \"en\")\n  }\n  OPTIONAL { ?term pq:P580 ?start . }\n  OPTIONAL { ?term pq:P582 ?end . }\n  ?person rdfs:label ?personLabel . FILTER(LANG(?personLabel) = \"en\")\n  OPTIONAL { ?person rdfs:label ?personFa . FILTER(LANG(?personFa) = \"fa\") }\n}\nORDER BY ?start\n",
+  "rows": [
+    {
+      "person": "Q38823",
+      "name": {
+        "en": "Ruhollah Khomeini",
+        "fa": "سید روحالله موسوی خمینی"
+      },
+      "office": "Supreme Leader of Iran",
+      "officeId": "Q332486",
+      "start": 1979,
+      "end": 1989
+    },
+    {
+      "person": "Q38823",
+      "name": {
+        "en": "Ruhollah Khomeini",
+        "fa": "سید روحالله موسوی خمینی"
+      },
+      "office": "head of state (P35)",
+      "officeId": null,
+      "start": 1979,
+      "end": 1989
+    },
+    {
+      "person": "Q57336",
+      "name": {
+        "en": "Ali Khamenei",
+        "fa": "سید علی خامنهای"
+      },
+      "office": "Supreme Leader of Iran",
+      "officeId": "Q332486",
+      "start": 1989,
+      "end": 2026
+    },
+    {
+      "person": "Q57336",
+      "name": {
+        "en": "Ali Khamenei",
+        "fa": "سید علی خامنهای"
+      },
+      "office": "head of state (P35)",
+      "officeId": null,
+      "start": 1989,
+      "end": 2026
+    },
+    {
+      "person": "Q2919350",
+      "name": {
+        "en": "Mojtaba Khamenei",
+        "fa": "سید مجتبی خامنهای"
+      },
+      "office": "Supreme Leader of Iran",
+      "officeId": "Q332486",
+      "start": 2026,
+      "end": null
+    },
+    {
+      "person": "Q2919350",
+      "name": {
+        "en": "Mojtaba Khamenei",
+        "fa": "سید مجتبی خامنهای"
+      },
+      "office": "head of state (P35)",
+      "officeId": null,
+      "start": 2026,
+      "end": null
+    }
+  ]
+}

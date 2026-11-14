@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens (PRD §9). The interface is neutral; colour appears only in data.
+ * Neutrals, type and radii are the values written in the PRD. The per-country
+ * hue angles and the OKLCH lightness/chroma steps are derived from the PRD's
+ * contrast targets — replace them with the v4 "Colour & accessibility tokens"
+ * artboard values when those are exported.
+ */
+@theme {
+  /* Neutrals */
+  --color-ink: #0a0a0a;
+  --color-ink-2: #3f3f3f;
+  --color-ink-3: #5e5e5e; /* minimum for text */
+  --color-edge: #8a8a8a; /* control boundaries, ≥ 3:1 */
+  --color-hairline: #ececec;
+  --color-fill: #f5f5f5;
+  --color-canvas: #f5f5f4;
+  --color-surface: #ffffff;
+
+  /* The one accent: anchor teal, always paired with a text label */
+  --color-anchor: #0f766e;
+  --color-anchor-soft: #e6f4f2;
+
+  /* Type */
+  --font-sans: var(--font-inter), var(--font-vazirmatn), ui-sans-serif, system-ui, sans-serif;
+  --font-fa: var(--font-vazirmatn), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), var(--font-vazirmatn), ui-monospace, monospace;
+  --text-2xs: 0.6875rem; /* 11 px — the minimum text size */
+  --text-2xs--line-height: 1rem;
+
+  /* Floating surfaces */
+  --radius-float: 0.875rem; /* 14 px */
+  --radius-float-lg: 1rem; /* 16 px */
+  --shadow-float: 0 1px 2px rgb(10 10 10 / 0.04), 0 4px 12px rgb(10 10 10 / 0.06), 0 16px 32px rgb(10 10 10 / 0.06);
+}
+
+/*
+ * Lane colours resolve from --hue at the element that uses them, so they are
+ * declared `inline`: a :root-level variable would freeze --hue at its default.
+ * Deep shades carry white text (about 5:1, 8:1 and 12:1); soft and hover tints
+ * carry dark text.
+ */
+@theme inline {
+  --color-lane-1: oklch(0.5 0.12 var(--hue));
+  --color-lane-2: oklch(0.4 0.11 var(--hue));
+  --color-lane-3: oklch(0.3 0.09 var(--hue));
+  --color-lane-soft: oklch(0.93 0.04 var(--hue));
+  --color-lane-hover: oklch(0.88 0.06 var(--hue));
+}
+
+:root {
+  --hue: 0;
+}
+
+/* One hue per country, equal lightness so no lane dominates. */
+[data-country="iran"] { --hue: 150; }
+[data-country="uk"] { --hue: 265; }
+[data-country="russia"] { --hue: 25; }
+[data-country="turkey"] { --hue: 350; }
+[data-country="france"] { --hue: 240; }
+[data-country="germany"] { --hue: 85; }
+[data-country="china"] { --hue: 50; }
+[data-country="india"] { --hue: 305; }
+[data-country="japan"] { --hue: 330; }
+
+html {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+}
+
+html[lang="fa"] body {
+  font-family: var(--font-fa);
+}
+
+/* Years and dates: mono with tabular figures in both languages (L-3). */
+.year {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* A-4: visible focus on every interactive element. */
+:focus-visible {
+  outline: 2px solid var(--color-ink);
+  outline-offset: 2px;
+}
+
+/* IN-7: "No state" periods are hatched, never blank. */
+.hatched {
+  background-image: repeating-linear-gradient(
+    135deg,
+    var(--color-hairline) 0 4px,
+    var(--color-fill) 4px 8px
+  );
+}
+
+/* A-9 */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

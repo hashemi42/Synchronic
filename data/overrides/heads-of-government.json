@@ -1,0 +1,328 @@
+{
+  "description": "Head-of-government terms that Wikidata lacks or leaves undated. Merged by `pnpm merge:hog`; these win over Wikidata for the same person and years.",
+  "terms": [
+    {
+      "country": "germany",
+      "office": "Q7050658",
+      "person": "Q8442",
+      "name": {
+        "en": "Otto von Bismarck",
+        "fa": "اتو فون بیسمارک"
+      },
+      "start": 1867,
+      "end": 1890,
+      "sources": [
+        {
+          "title": "Otto von Bismarck — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Otto_von_Bismarck"
+        }
+      ]
+    },
+    {
+      "country": "germany",
+      "office": "Q7050658",
+      "person": "Q10873",
+      "name": {
+        "en": "Leo von Caprivi",
+        "fa": "لئو فون کاپریوی"
+      },
+      "start": 1890,
+      "end": 1894,
+      "sources": [
+        {
+          "title": "Leo von Caprivi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leo_von_Caprivi"
+        }
+      ]
+    },
+    {
+      "country": "germany",
+      "office": "Q7050658",
+      "person": "Q77113",
+      "name": {
+        "en": "Theobald von Bethmann Hollweg",
+        "fa": "تئوبالت فون بتمان-هولوگ"
+      },
+      "start": 1909,
+      "end": 1917,
+      "sources": [
+        {
+          "title": "Theobald von Bethmann Hollweg — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Theobald_von_Bethmann_Hollweg"
+        }
+      ]
+    },
+    {
+      "country": "germany",
+      "office": "Q7050658",
+      "person": "Q60115",
+      "name": {
+        "en": "Georg Michaelis",
+        "fa": "گئورگ میشائلیس"
+      },
+      "start": 1917,
+      "end": 1917,
+      "sources": [
+        {
+          "title": "Georg Michaelis — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Georg_Michaelis"
+        }
+      ]
+    },
+    {
+      "country": "france",
+      "office": "Q3409212",
+      "person": "Q296023",
+      "name": {
+        "en": "Jean-de-Dieu Soult",
+        "fa": "ژان دو دیو سولت"
+      },
+      "start": 1832,
+      "end": 1834,
+      "sources": [
+        {
+          "title": "Jean-de-Dieu Soult — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jean-de-Dieu_Soult"
+        }
+      ]
+    },
+    {
+      "country": "france",
+      "office": "Q3409212",
+      "person": "Q273883",
+      "name": {
+        "en": "Édouard Mortier",
+        "fa": "ادوارد مورتیه"
+      },
+      "start": 1834,
+      "end": 1835,
+      "sources": [
+        {
+          "title": "Édouard Mortier, Duke of Treviso — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Édouard_Mortier,_Duke_of_Treviso"
+        }
+      ]
+    },
+    {
+      "country": "france",
+      "office": "Q3409212",
+      "person": "Q338386",
+      "name": {
+        "en": "Victor de Broglie",
+        "fa": "ویکتور دو بروی"
+      },
+      "start": 1835,
+      "end": 1836,
+      "sources": [
+        {
+          "title": "Victor de Broglie (1785–1870) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Victor_de_Broglie_(1785–1870)"
+        }
+      ]
+    },
+    {
+      "country": "france",
+      "office": "Q3409212",
+      "person": "Q296023",
+      "name": {
+        "en": "Jean-de-Dieu Soult",
+        "fa": "ژان دو دیو سولت"
+      },
+      "start": 1839,
+      "end": 1840,
+      "sources": [
+        {
+          "title": "Jean-de-Dieu Soult — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jean-de-Dieu_Soult"
+        }
+      ]
+    },
+    {
+      "country": "france",
+      "office": "Q3409212",
+      "person": "Q296023",
+      "name": {
+        "en": "Jean-de-Dieu Soult",
+        "fa": "ژان دو دیو سولت"
+      },
+      "start": 1840,
+      "end": 1847,
+      "sources": [
+        {
+          "title": "Jean-de-Dieu Soult — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jean-de-Dieu_Soult"
+        }
+      ]
+    },
+    {
+      "country": "france",
+      "office": "Q3409212",
+      "person": "Q157324",
+      "name": {
+        "en": "François Guizot",
+        "fa": "فرانسوا گیزو"
+      },
+      "start": 1847,
+      "end": 1848,
+      "sources": [
+        {
+          "title": "François Guizot — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/François_Guizot"
+        }
+      ]
+    },
+    {
+      "country": "france",
+      "office": "Q3409212",
+      "person": "Q286293",
+      "name": {
+        "en": "Émile Ollivier",
+        "fa": "امیل اولیویه"
+      },
+      "start": 1870,
+      "end": 1870,
+      "sources": [
+        {
+          "title": "Émile Ollivier — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Émile_Ollivier"
+        }
+      ]
+    },
+    {
+      "country": "france",
+      "office": "Q3409212",
+      "person": "Q434932",
+      "name": {
+        "en": "Albert de Broglie",
+        "fa": "آلبر دو بروی"
+      },
+      "start": 1873,
+      "end": 1874,
+      "sources": [
+        {
+          "title": "Albert de Broglie, 4th Duke of Broglie — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Albert_de_Broglie,_4th_Duke_of_Broglie"
+        }
+      ]
+    },
+    {
+      "country": "france",
+      "office": "Q3409212",
+      "person": "Q471302",
+      "name": {
+        "en": "Ernest Courtot de Cissey",
+        "fa": "ارنست کورتو دو سیسه"
+      },
+      "start": 1874,
+      "end": 1875,
+      "sources": [
+        {
+          "title": "Ernest Courtot de Cissey — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ernest_Courtot_de_Cissey"
+        }
+      ]
+    },
+    {
+      "country": "france",
+      "office": "Q3409212",
+      "person": "Q548687",
+      "name": {
+        "en": "Louis Buffet",
+        "fa": "لویی بوفه"
+      },
+      "start": 1875,
+      "end": 1876,
+      "sources": [
+        {
+          "title": "Louis Buffet — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Louis_Buffet"
+        }
+      ]
+    },
+    {
+      "country": "france",
+      "office": "Q3409212",
+      "person": "Q151983",
+      "name": {
+        "en": "Pierre Laval",
+        "fa": "پیر لاوال"
+      },
+      "start": 1942,
+      "end": 1944,
+      "sources": [
+        {
+          "title": "Pierre Laval — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pierre_Laval"
+        }
+      ]
+    },
+    {
+      "country": "iran",
+      "office": "Q13561063",
+      "person": "Q8216006",
+      "name": {
+        "en": "Mirza Aqa Khan Nuri",
+        "fa": "میرزا آقاخان نوری"
+      },
+      "start": 1851,
+      "end": 1858,
+      "sources": [
+        {
+          "title": "Mirza Aqa Khan Nuri — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mirza_Aqa_Khan_Nuri"
+        }
+      ]
+    },
+    {
+      "country": "iran",
+      "office": "Q13561063",
+      "person": "Q8215953",
+      "name": {
+        "en": "Mirza Hosein Khan Sepahsalar",
+        "fa": "میرزا حسین‌خان سپهسالار"
+      },
+      "start": 1871,
+      "end": 1873,
+      "sources": [
+        {
+          "title": "Mirza Hosein Khan Sepahsalar — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mirza_Hosein_Khan_Sepahsalar"
+        }
+      ]
+    },
+    {
+      "country": "china",
+      "office": "Q4122271",
+      "person": "Q17410",
+      "name": {
+        "en": "Zhou Enlai",
+        "fa": "جو انلای"
+      },
+      "start": 1949,
+      "end": 1976,
+      "sources": [
+        {
+          "title": "Zhou Enlai — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ]
+    },
+    {
+      "country": "china",
+      "office": "Q4122271",
+      "person": "Q99829",
+      "name": {
+        "en": "Zhao Ziyang",
+        "fa": "ژائو زیانگ"
+      },
+      "start": 1980,
+      "end": 1987,
+      "sources": [
+        {
+          "title": "Zhao Ziyang — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zhao_Ziyang"
+        }
+      ]
+    }
+  ]
+}

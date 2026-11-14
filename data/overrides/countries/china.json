@@ -1,0 +1,1804 @@
+{
+  "country": {
+    "id": "china",
+    "name": {
+      "en": "China",
+      "fa": "چین"
+    },
+    "aliases": [
+      "People's Republic of China",
+      "PRC"
+    ],
+    "wikidata": "Q148",
+    "sources": [
+      {
+        "title": "China — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/China"
+      }
+    ]
+  },
+  "states": [
+    {
+      "id": "qing-dynasty",
+      "name": {
+        "en": "Qing dynasty",
+        "fa": "دودمان چینگ"
+      },
+      "officialName": {
+        "en": "Great Qing",
+        "fa": "چینگ بزرگ"
+      },
+      "start": 1644,
+      "end": 1912,
+      "capital": {
+        "en": "Beijing",
+        "fa": "پکن"
+      },
+      "system": {
+        "en": "Absolute monarchy",
+        "fa": "پادشاهی مطلقه"
+      },
+      "wikidata": "Q8733",
+      "sources": [
+        {
+          "title": "Qing dynasty — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Qing_dynasty"
+        }
+      ]
+    },
+    {
+      "id": "republic-of-china",
+      "name": {
+        "en": "Republic of China",
+        "fa": "جمهوری چین"
+      },
+      "start": 1912,
+      "end": 1949,
+      "capital": {
+        "en": "Beijing; Nanjing from 1928",
+        "fa": "پکن؛ از ۱۹۲۸ نانجینگ"
+      },
+      "system": {
+        "en": "Republic; one-party rule from 1928",
+        "fa": "جمهوری؛ از ۱۹۲۸ تک‌حزبی"
+      },
+      "wikidata": "Q13426199",
+      "sources": [
+        {
+          "title": "Republic of China (1912–1949) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_China_(1912–1949)"
+        }
+      ]
+    },
+    {
+      "id": "guangzhou-government",
+      "name": {
+        "en": "Guangzhou government",
+        "fa": "حکومت گوانگ‌ژو"
+      },
+      "start": 1917,
+      "end": 1928,
+      "capital": {
+        "en": "Guangzhou",
+        "fa": "گوانگ‌ژو"
+      },
+      "system": {
+        "en": "Rival republican government",
+        "fa": "حکومت جمهوری‌خواه رقیب"
+      },
+      "wikidata": "Q11076636",
+      "sources": [
+        {
+          "title": "Constitutional Protection junta — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Constitutional_Protection_junta"
+        }
+      ]
+    },
+    {
+      "id": "peoples-republic-of-china",
+      "name": {
+        "en": "People's Republic of China",
+        "fa": "جمهوری خلق چین"
+      },
+      "start": 1949,
+      "end": null,
+      "capital": {
+        "en": "Beijing",
+        "fa": "پکن"
+      },
+      "system": {
+        "en": "One-party socialist republic",
+        "fa": "جمهوری سوسیالیستی تک‌حزبی"
+      },
+      "wikidata": "Q148",
+      "sources": [
+        {
+          "title": "China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/China"
+        }
+      ]
+    }
+  ],
+  "persons": [
+    {
+      "id": "qianlong-emperor",
+      "name": {
+        "en": "Qianlong Emperor",
+        "fa": "امپراتور چیان‌لونگ"
+      },
+      "wikidata": "Q19133",
+      "sources": [
+        {
+          "title": "Qianlong Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Qianlong_Emperor"
+        }
+      ]
+    },
+    {
+      "id": "jiaqing-emperor",
+      "name": {
+        "en": "Jiaqing Emperor",
+        "fa": "امپراتور جیاگینگ"
+      },
+      "wikidata": "Q333178",
+      "sources": [
+        {
+          "title": "Jiaqing Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jiaqing_Emperor"
+        }
+      ]
+    },
+    {
+      "id": "daoguang-emperor",
+      "name": {
+        "en": "Daoguang Emperor",
+        "fa": "امپراتور دائو گوآنگ"
+      },
+      "wikidata": "Q334351",
+      "sources": [
+        {
+          "title": "Daoguang Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Daoguang_Emperor"
+        }
+      ]
+    },
+    {
+      "id": "xianfeng-emperor",
+      "name": {
+        "en": "Xianfeng Emperor",
+        "fa": "امپراتور شیان‌فنگ"
+      },
+      "wikidata": "Q334452",
+      "sources": [
+        {
+          "title": "Xianfeng Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Xianfeng_Emperor"
+        }
+      ]
+    },
+    {
+      "id": "tongzhi-emperor",
+      "name": {
+        "en": "Tongzhi Emperor",
+        "fa": "امپراتور تونگ‌ژی"
+      },
+      "wikidata": "Q318811",
+      "sources": [
+        {
+          "title": "Tongzhi Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tongzhi_Emperor"
+        }
+      ]
+    },
+    {
+      "id": "guangxu-emperor",
+      "name": {
+        "en": "Guangxu Emperor",
+        "fa": "امپراتور گوانگشو"
+      },
+      "wikidata": "Q299710",
+      "sources": [
+        {
+          "title": "Guangxu Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guangxu_Emperor"
+        }
+      ]
+    },
+    {
+      "id": "puyi",
+      "name": {
+        "en": "Puyi (Xuantong Emperor)",
+        "fa": "پویی (امپراتور شوان‌تونگ)"
+      },
+      "wikidata": "Q185152",
+      "sources": [
+        {
+          "title": "Puyi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Puyi"
+        }
+      ]
+    },
+    {
+      "id": "yuan-shikai",
+      "name": {
+        "en": "Yuan Shikai",
+        "fa": "یوآن شیکای"
+      },
+      "wikidata": "Q210329",
+      "sources": [
+        {
+          "title": "Yuan Shikai — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yuan_Shikai"
+        }
+      ]
+    },
+    {
+      "id": "li-yuanhong",
+      "name": {
+        "en": "Li Yuanhong",
+        "fa": "لی یوان هونگ"
+      },
+      "wikidata": "Q716136",
+      "sources": [
+        {
+          "title": "Li Yuanhong — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Li_Yuanhong"
+        }
+      ]
+    },
+    {
+      "id": "feng-guozhang",
+      "name": {
+        "en": "Feng Guozhang",
+        "fa": "فنگ گوئوژانگ"
+      },
+      "wikidata": "Q700576",
+      "sources": [
+        {
+          "title": "Feng Guozhang — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Feng_Guozhang"
+        }
+      ]
+    },
+    {
+      "id": "xu-shichang",
+      "name": {
+        "en": "Xu Shichang",
+        "fa": "شو شی چانگ"
+      },
+      "wikidata": "Q702428",
+      "sources": [
+        {
+          "title": "Xu Shichang — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Xu_Shichang"
+        }
+      ]
+    },
+    {
+      "id": "cao-kun",
+      "name": {
+        "en": "Cao Kun",
+        "fa": "تسائو کون"
+      },
+      "wikidata": "Q699591",
+      "sources": [
+        {
+          "title": "Cao Kun — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cao_Kun"
+        }
+      ]
+    },
+    {
+      "id": "duan-qirui",
+      "name": {
+        "en": "Duan Qirui",
+        "fa": "دوان چی ری"
+      },
+      "wikidata": "Q706172",
+      "sources": [
+        {
+          "title": "Duan Qirui — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Duan_Qirui"
+        }
+      ]
+    },
+    {
+      "id": "zhang-zuolin",
+      "name": {
+        "en": "Zhang Zuolin",
+        "fa": "ژانگ زولین"
+      },
+      "wikidata": "Q197358",
+      "sources": [
+        {
+          "title": "Zhang Zuolin — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zhang_Zuolin"
+        }
+      ]
+    },
+    {
+      "id": "chiang-kai-shek",
+      "name": {
+        "en": "Chiang Kai-shek",
+        "fa": "چیانگ کای‌شک"
+      },
+      "wikidata": "Q16574",
+      "sources": [
+        {
+          "title": "Chiang Kai-shek — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chiang_Kai-shek"
+        }
+      ]
+    },
+    {
+      "id": "lin-sen",
+      "name": {
+        "en": "Lin Sen",
+        "fa": "لین سن"
+      },
+      "wikidata": "Q705872",
+      "sources": [
+        {
+          "title": "Lin Sen — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lin_Sen"
+        }
+      ]
+    },
+    {
+      "id": "mao-zedong",
+      "name": {
+        "en": "Mao Zedong",
+        "fa": "مائو تسه‌تونگ"
+      },
+      "wikidata": "Q5816",
+      "sources": [
+        {
+          "title": "Mao Zedong — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mao_Zedong"
+        }
+      ]
+    },
+    {
+      "id": "hua-guofeng",
+      "name": {
+        "en": "Hua Guofeng",
+        "fa": "هوآ گوئوفنگ"
+      },
+      "wikidata": "Q41570",
+      "sources": [
+        {
+          "title": "Hua Guofeng — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hua_Guofeng"
+        }
+      ]
+    },
+    {
+      "id": "deng-xiaoping",
+      "name": {
+        "en": "Deng Xiaoping",
+        "fa": "دنگ شیائوپینگ"
+      },
+      "wikidata": "Q16977",
+      "sources": [
+        {
+          "title": "Deng Xiaoping — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Deng_Xiaoping"
+        }
+      ]
+    },
+    {
+      "id": "jiang-zemin",
+      "name": {
+        "en": "Jiang Zemin",
+        "fa": "جیانگ زمین"
+      },
+      "wikidata": "Q16597",
+      "sources": [
+        {
+          "title": "Jiang Zemin — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jiang_Zemin"
+        }
+      ]
+    },
+    {
+      "id": "hu-jintao",
+      "name": {
+        "en": "Hu Jintao",
+        "fa": "هو جینتائو"
+      },
+      "wikidata": "Q15029",
+      "sources": [
+        {
+          "title": "Hu Jintao — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hu_Jintao"
+        }
+      ]
+    },
+    {
+      "id": "xi-jinping",
+      "name": {
+        "en": "Xi Jinping",
+        "fa": "شی جین‌پینگ"
+      },
+      "wikidata": "Q15031",
+      "sources": [
+        {
+          "title": "Xi Jinping — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Xi_Jinping"
+        }
+      ]
+    },
+    {
+      "id": "lu-zhengxiang",
+      "name": {
+        "en": "Lu Zhengxiang",
+        "fa": "لو تسنگ تسیانگ"
+      },
+      "wikidata": "Q709177",
+      "sources": [
+        {
+          "title": "Lu Zhengxiang — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q709177"
+        }
+      ]
+    },
+    {
+      "id": "tang-shaoyi",
+      "name": {
+        "en": "Tang Shaoyi",
+        "fa": "تنگ شائویی"
+      },
+      "wikidata": "Q709890",
+      "sources": [
+        {
+          "title": "Tang Shaoyi — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q709890"
+        }
+      ]
+    },
+    {
+      "id": "zhao-bingjun",
+      "name": {
+        "en": "Zhao Bingjun",
+        "fa": "ژائو بینگجون"
+      },
+      "wikidata": "Q710701",
+      "sources": [
+        {
+          "title": "Zhao Bingjun — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q710701"
+        }
+      ]
+    },
+    {
+      "id": "xiong-xiling",
+      "name": {
+        "en": "Xiong Xiling",
+        "fa": "شیونگ شی لینگ"
+      },
+      "wikidata": "Q6130548",
+      "sources": [
+        {
+          "title": "Xiong Xiling — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6130548"
+        }
+      ]
+    },
+    {
+      "id": "wellington-koo",
+      "name": {
+        "en": "Wellington Koo",
+        "fa": "ولینگتون کو"
+      },
+      "wikidata": "Q317462",
+      "sources": [
+        {
+          "title": "Wellington Koo — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q317462"
+        }
+      ]
+    },
+    {
+      "id": "wang-jingwei",
+      "name": {
+        "en": "Wang Jingwei",
+        "fa": "وانگ جینگ وی"
+      },
+      "wikidata": "Q22303",
+      "sources": [
+        {
+          "title": "Wang Jingwei — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q22303"
+        }
+      ]
+    },
+    {
+      "id": "zhang-qun",
+      "name": {
+        "en": "Zhang Qun",
+        "fa": "ژانگ شون"
+      },
+      "wikidata": "Q702934",
+      "sources": [
+        {
+          "title": "Zhang Qun — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q702934"
+        }
+      ]
+    },
+    {
+      "id": "zhou-enlai",
+      "name": {
+        "en": "Zhou Enlai",
+        "fa": "چو انلای"
+      },
+      "wikidata": "Q17410",
+      "sources": [
+        {
+          "title": "Zhou Enlai — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q17410"
+        }
+      ]
+    },
+    {
+      "id": "li-peng",
+      "name": {
+        "en": "Li Peng",
+        "fa": "لی پنگ"
+      },
+      "wikidata": "Q18301",
+      "sources": [
+        {
+          "title": "Li Peng — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q18301"
+        }
+      ]
+    },
+    {
+      "id": "zhu-rongji",
+      "name": {
+        "en": "Zhu Rongji",
+        "fa": "ژو رانگجی"
+      },
+      "wikidata": "Q18285",
+      "sources": [
+        {
+          "title": "Zhu Rongji — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q18285"
+        }
+      ]
+    },
+    {
+      "id": "wen-jiabao",
+      "name": {
+        "en": "Wen Jiabao",
+        "fa": "ون جیاباو"
+      },
+      "wikidata": "Q16628",
+      "sources": [
+        {
+          "title": "Wen Jiabao — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16628"
+        }
+      ]
+    },
+    {
+      "id": "li-keqiang",
+      "name": {
+        "en": "Li Keqiang",
+        "fa": "لی که چیانگ"
+      },
+      "wikidata": "Q18111",
+      "sources": [
+        {
+          "title": "Li Keqiang — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q18111"
+        }
+      ]
+    },
+    {
+      "id": "li-qiang",
+      "name": {
+        "en": "Li Qiang",
+        "fa": "لی چیانگ"
+      },
+      "wikidata": "Q4414390",
+      "sources": [
+        {
+          "title": "Li Qiang — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4414390"
+        }
+      ]
+    },
+    {
+      "id": "yikuang",
+      "name": {
+        "en": "Yikuang",
+        "fa": "ییکوانگ (شاهزاده چینگ)"
+      },
+      "wikidata": "Q1204208",
+      "sources": [
+        {
+          "title": "Yikuang — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1204208"
+        }
+      ]
+    },
+    {
+      "id": "li-jingxi",
+      "name": {
+        "en": "Li Jingxi",
+        "fa": "لی جینگ‌شی"
+      },
+      "wikidata": "Q11097700",
+      "sources": [
+        {
+          "title": "Li Jingxi — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11097700"
+        }
+      ]
+    },
+    {
+      "id": "chengting-t-wang",
+      "name": {
+        "en": "Chengting T. Wang",
+        "fa": "وانگ ژنگ‌تینگ"
+      },
+      "wikidata": "Q6127766",
+      "sources": [
+        {
+          "title": "Chengting T. Wang — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6127766"
+        }
+      ]
+    },
+    {
+      "id": "tan-yankai",
+      "name": {
+        "en": "Tan Yankai",
+        "fa": "تان یان‌کای"
+      },
+      "wikidata": "Q708781",
+      "sources": [
+        {
+          "title": "Tan Yankai — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q708781"
+        }
+      ]
+    },
+    {
+      "id": "h-h-kung",
+      "name": {
+        "en": "H. H. Kung",
+        "fa": "اچ. اچ. کونگ"
+      },
+      "wikidata": "Q631416",
+      "sources": [
+        {
+          "title": "H. H. Kung — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q631416"
+        }
+      ]
+    },
+    {
+      "id": "t-v-soong",
+      "name": {
+        "en": "T. V. Soong",
+        "fa": "تی. وی. سونگ"
+      },
+      "wikidata": "Q716051",
+      "sources": [
+        {
+          "title": "T. V. Soong — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q716051"
+        }
+      ]
+    },
+    {
+      "id": "sun-fo",
+      "name": {
+        "en": "Sun Fo",
+        "fa": "سون فو"
+      },
+      "wikidata": "Q701897",
+      "sources": [
+        {
+          "title": "Sun Fo — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q701897"
+        }
+      ]
+    },
+    {
+      "id": "weng-wenhao",
+      "name": {
+        "en": "Weng Wenhao",
+        "fa": "ونگ ون‌هائو"
+      },
+      "wikidata": "Q6123787",
+      "sources": [
+        {
+          "title": "Weng Wenhao — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6123787"
+        }
+      ]
+    },
+    {
+      "id": "zhao-ziyang",
+      "name": {
+        "en": "Zhao Ziyang",
+        "fa": "ژائو زیانگ"
+      },
+      "wikidata": "Q99829",
+      "sources": [
+        {
+          "title": "Zhao Ziyang — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q99829"
+        }
+      ]
+    }
+  ],
+  "lane": [
+    {
+      "country": "china",
+      "state": "qing-dynasty",
+      "start": 1789,
+      "end": 1912,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "Qing dynasty — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Qing_dynasty"
+        }
+      ]
+    },
+    {
+      "country": "china",
+      "state": "republic-of-china",
+      "start": 1912,
+      "end": 1949,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "Republic of China (1912–1949) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_China_(1912–1949)"
+        }
+      ]
+    },
+    {
+      "country": "china",
+      "state": "guangzhou-government",
+      "start": 1917,
+      "end": 1928,
+      "kind": "rival",
+      "note": {
+        "en": "Sun Yat-sen's Kuomintang set up rival governments in Guangzhou from 1917; their successor reunified most of China in 1928.",
+        "fa": "کومینتانگ به رهبری سون یات‌سن از ۱۹۱۷ در گوانگ‌ژو حکومت‌های رقیب برپا کرد؛ جانشین آن‌ها در ۱۹۲۸ بیشتر چین را دوباره یکپارچه کرد."
+      },
+      "sources": [
+        {
+          "title": "Constitutional Protection junta — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Constitutional_Protection_junta"
+        }
+      ]
+    },
+    {
+      "country": "china",
+      "state": "peoples-republic-of-china",
+      "start": 1949,
+      "end": null,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/China"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "person": "qianlong-emperor",
+      "state": "qing-dynasty",
+      "office": "head-of-state",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      },
+      "start": 1735,
+      "end": 1796,
+      "sources": [
+        {
+          "title": "Qianlong Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Qianlong_Emperor"
+        }
+      ]
+    },
+    {
+      "person": "jiaqing-emperor",
+      "state": "qing-dynasty",
+      "office": "head-of-state",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      },
+      "start": 1796,
+      "end": 1820,
+      "sources": [
+        {
+          "title": "Jiaqing Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jiaqing_Emperor"
+        }
+      ]
+    },
+    {
+      "person": "daoguang-emperor",
+      "state": "qing-dynasty",
+      "office": "head-of-state",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      },
+      "start": 1820,
+      "end": 1850,
+      "sources": [
+        {
+          "title": "Daoguang Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Daoguang_Emperor"
+        }
+      ]
+    },
+    {
+      "person": "xianfeng-emperor",
+      "state": "qing-dynasty",
+      "office": "head-of-state",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      },
+      "start": 1850,
+      "end": 1861,
+      "sources": [
+        {
+          "title": "Xianfeng Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Xianfeng_Emperor"
+        }
+      ]
+    },
+    {
+      "person": "tongzhi-emperor",
+      "state": "qing-dynasty",
+      "office": "head-of-state",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      },
+      "start": 1861,
+      "end": 1875,
+      "sources": [
+        {
+          "title": "Tongzhi Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tongzhi_Emperor"
+        }
+      ]
+    },
+    {
+      "person": "guangxu-emperor",
+      "state": "qing-dynasty",
+      "office": "head-of-state",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      },
+      "start": 1875,
+      "end": 1908,
+      "sources": [
+        {
+          "title": "Guangxu Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guangxu_Emperor"
+        }
+      ]
+    },
+    {
+      "person": "puyi",
+      "state": "qing-dynasty",
+      "office": "head-of-state",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      },
+      "start": 1908,
+      "end": 1912,
+      "sources": [
+        {
+          "title": "Puyi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Puyi"
+        }
+      ]
+    },
+    {
+      "person": "yuan-shikai",
+      "state": "republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1912,
+      "end": 1916,
+      "sources": [
+        {
+          "title": "Yuan Shikai — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yuan_Shikai"
+        }
+      ]
+    },
+    {
+      "person": "li-yuanhong",
+      "state": "republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1916,
+      "end": 1917,
+      "sources": [
+        {
+          "title": "Li Yuanhong — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Li_Yuanhong"
+        }
+      ]
+    },
+    {
+      "person": "feng-guozhang",
+      "state": "republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1917,
+      "end": 1918,
+      "sources": [
+        {
+          "title": "Feng Guozhang — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Feng_Guozhang"
+        }
+      ]
+    },
+    {
+      "person": "xu-shichang",
+      "state": "republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1918,
+      "end": 1922,
+      "sources": [
+        {
+          "title": "Xu Shichang — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Xu_Shichang"
+        }
+      ]
+    },
+    {
+      "person": "li-yuanhong",
+      "state": "republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1922,
+      "end": 1923,
+      "sources": [
+        {
+          "title": "Li Yuanhong — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Li_Yuanhong"
+        }
+      ]
+    },
+    {
+      "person": "cao-kun",
+      "state": "republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1923,
+      "end": 1924,
+      "sources": [
+        {
+          "title": "Cao Kun — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cao_Kun"
+        }
+      ]
+    },
+    {
+      "person": "duan-qirui",
+      "state": "republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Provisional Chief Executive",
+        "fa": "رئیس اجرایی موقت"
+      },
+      "start": 1924,
+      "end": 1926,
+      "sources": [
+        {
+          "title": "Duan Qirui — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Duan_Qirui"
+        }
+      ]
+    },
+    {
+      "person": "zhang-zuolin",
+      "state": "republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Generalissimo",
+        "fa": "ژنرالیسیمو"
+      },
+      "start": 1927,
+      "end": 1928,
+      "sources": [
+        {
+          "title": "Zhang Zuolin — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zhang_Zuolin"
+        }
+      ]
+    },
+    {
+      "person": "chiang-kai-shek",
+      "state": "republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the National Government",
+        "fa": "رئیس دولت ملی"
+      },
+      "start": 1928,
+      "end": 1931,
+      "sources": [
+        {
+          "title": "Chiang Kai-shek — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chiang_Kai-shek"
+        }
+      ]
+    },
+    {
+      "person": "lin-sen",
+      "state": "republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the National Government",
+        "fa": "رئیس دولت ملی"
+      },
+      "start": 1931,
+      "end": 1943,
+      "sources": [
+        {
+          "title": "Lin Sen — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lin_Sen"
+        }
+      ]
+    },
+    {
+      "person": "chiang-kai-shek",
+      "state": "republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the National Government",
+        "fa": "رئیس دولت ملی"
+      },
+      "start": 1943,
+      "end": 1949,
+      "sources": [
+        {
+          "title": "Chiang Kai-shek — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chiang_Kai-shek"
+        }
+      ]
+    },
+    {
+      "person": "mao-zedong",
+      "state": "peoples-republic-of-china",
+      "office": "leader",
+      "title": {
+        "en": "Paramount leader",
+        "fa": "رهبر عالی"
+      },
+      "start": 1949,
+      "end": 1976,
+      "sources": [
+        {
+          "title": "Mao Zedong — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mao_Zedong"
+        }
+      ]
+    },
+    {
+      "person": "hua-guofeng",
+      "state": "peoples-republic-of-china",
+      "office": "leader",
+      "title": {
+        "en": "Paramount leader",
+        "fa": "رهبر عالی"
+      },
+      "start": 1976,
+      "end": 1978,
+      "sources": [
+        {
+          "title": "Hua Guofeng — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hua_Guofeng"
+        }
+      ]
+    },
+    {
+      "person": "deng-xiaoping",
+      "state": "peoples-republic-of-china",
+      "office": "leader",
+      "title": {
+        "en": "Paramount leader",
+        "fa": "رهبر عالی"
+      },
+      "start": 1978,
+      "end": 1989,
+      "sources": [
+        {
+          "title": "Deng Xiaoping — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Deng_Xiaoping"
+        }
+      ]
+    },
+    {
+      "person": "jiang-zemin",
+      "state": "peoples-republic-of-china",
+      "office": "leader",
+      "title": {
+        "en": "Paramount leader",
+        "fa": "رهبر عالی"
+      },
+      "start": 1989,
+      "end": 2002,
+      "sources": [
+        {
+          "title": "Jiang Zemin — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jiang_Zemin"
+        }
+      ]
+    },
+    {
+      "person": "hu-jintao",
+      "state": "peoples-republic-of-china",
+      "office": "leader",
+      "title": {
+        "en": "Paramount leader",
+        "fa": "رهبر عالی"
+      },
+      "start": 2002,
+      "end": 2012,
+      "sources": [
+        {
+          "title": "Hu Jintao — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hu_Jintao"
+        }
+      ]
+    },
+    {
+      "person": "xi-jinping",
+      "state": "peoples-republic-of-china",
+      "office": "leader",
+      "title": {
+        "en": "Paramount leader",
+        "fa": "رهبر عالی"
+      },
+      "start": 2012,
+      "end": null,
+      "sources": [
+        {
+          "title": "Xi Jinping — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Xi_Jinping"
+        }
+      ]
+    },
+    {
+      "person": "yikuang",
+      "state": "qing-dynasty",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister of the Imperial Cabinet",
+        "fa": "نخست‌وزیر کابینهٔ امپراتوری"
+      },
+      "start": 1911,
+      "end": 1912,
+      "sources": [
+        {
+          "title": "Yikuang — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1204208"
+        }
+      ]
+    },
+    {
+      "person": "yuan-shikai",
+      "state": "qing-dynasty",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister of the Imperial Cabinet",
+        "fa": "نخست‌وزیر کابینهٔ امپراتوری"
+      },
+      "start": 1911,
+      "end": 1912,
+      "sources": [
+        {
+          "title": "Yuan Shikai — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q210329"
+        }
+      ]
+    },
+    {
+      "person": "lu-zhengxiang",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1912,
+      "end": 1912,
+      "sources": [
+        {
+          "title": "Lu Zhengxiang — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q709177"
+        }
+      ]
+    },
+    {
+      "person": "tang-shaoyi",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1912,
+      "end": 1912,
+      "sources": [
+        {
+          "title": "Tang Shaoyi — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q709890"
+        }
+      ]
+    },
+    {
+      "person": "zhao-bingjun",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1912,
+      "end": 1913,
+      "sources": [
+        {
+          "title": "Zhao Bingjun — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q710701"
+        }
+      ]
+    },
+    {
+      "person": "duan-qirui",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1913,
+      "end": 1913,
+      "sources": [
+        {
+          "title": "Duan Qirui — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q706172"
+        }
+      ]
+    },
+    {
+      "person": "xiong-xiling",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1913,
+      "end": 1914,
+      "sources": [
+        {
+          "title": "Xiong Xiling — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6130548"
+        }
+      ]
+    },
+    {
+      "person": "xu-shichang",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1914,
+      "end": 1915,
+      "sources": [
+        {
+          "title": "Xu Shichang — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q702428"
+        }
+      ]
+    },
+    {
+      "person": "li-jingxi",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1917,
+      "end": 1917,
+      "sources": [
+        {
+          "title": "Li Jingxi — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11097700"
+        }
+      ]
+    },
+    {
+      "person": "chengting-t-wang",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1922,
+      "end": 1923,
+      "sources": [
+        {
+          "title": "Chengting T. Wang — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6127766"
+        }
+      ]
+    },
+    {
+      "person": "wellington-koo",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1926,
+      "end": 1927,
+      "sources": [
+        {
+          "title": "Wellington Koo — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q317462"
+        }
+      ]
+    },
+    {
+      "person": "tan-yankai",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1928,
+      "end": 1930,
+      "sources": [
+        {
+          "title": "Tan Yankai — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q708781"
+        }
+      ]
+    },
+    {
+      "person": "chiang-kai-shek",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1930,
+      "end": 1931,
+      "sources": [
+        {
+          "title": "Chiang Kai-shek — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16574"
+        }
+      ]
+    },
+    {
+      "person": "wang-jingwei",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1932,
+      "end": 1935,
+      "sources": [
+        {
+          "title": "Wang Jingwei — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q22303"
+        }
+      ]
+    },
+    {
+      "person": "chiang-kai-shek",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1935,
+      "end": 1938,
+      "sources": [
+        {
+          "title": "Chiang Kai-shek — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16574"
+        }
+      ]
+    },
+    {
+      "person": "h-h-kung",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1938,
+      "end": 1939,
+      "sources": [
+        {
+          "title": "H. H. Kung — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q631416"
+        }
+      ]
+    },
+    {
+      "person": "chiang-kai-shek",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1939,
+      "end": 1945,
+      "sources": [
+        {
+          "title": "Chiang Kai-shek — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16574"
+        }
+      ]
+    },
+    {
+      "person": "t-v-soong",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1945,
+      "end": 1947,
+      "sources": [
+        {
+          "title": "T. V. Soong — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q716051"
+        }
+      ]
+    },
+    {
+      "person": "chiang-kai-shek",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1947,
+      "end": 1947,
+      "sources": [
+        {
+          "title": "Chiang Kai-shek — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16574"
+        }
+      ]
+    },
+    {
+      "person": "zhang-qun",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1947,
+      "end": 1948,
+      "sources": [
+        {
+          "title": "Zhang Qun — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q702934"
+        }
+      ]
+    },
+    {
+      "person": "weng-wenhao",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1948,
+      "end": 1948,
+      "sources": [
+        {
+          "title": "Weng Wenhao — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6123787"
+        }
+      ]
+    },
+    {
+      "person": "sun-fo",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1948,
+      "end": 1949,
+      "sources": [
+        {
+          "title": "Sun Fo — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q701897"
+        }
+      ]
+    },
+    {
+      "person": "zhou-enlai",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1949,
+      "end": 1976,
+      "sources": [
+        {
+          "title": "Zhou Enlai — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ]
+    },
+    {
+      "person": "hua-guofeng",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1976,
+      "end": 1980,
+      "sources": [
+        {
+          "title": "Hua Guofeng — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q41570"
+        }
+      ]
+    },
+    {
+      "person": "zhao-ziyang",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1980,
+      "end": 1987,
+      "sources": [
+        {
+          "title": "Zhao Ziyang — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zhao_Ziyang"
+        }
+      ]
+    },
+    {
+      "person": "li-peng",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1988,
+      "end": 1998,
+      "sources": [
+        {
+          "title": "Li Peng — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q18301"
+        }
+      ]
+    },
+    {
+      "person": "zhu-rongji",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1998,
+      "end": 2003,
+      "sources": [
+        {
+          "title": "Zhu Rongji — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q18285"
+        }
+      ]
+    },
+    {
+      "person": "wen-jiabao",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 2003,
+      "end": 2013,
+      "sources": [
+        {
+          "title": "Wen Jiabao — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16628"
+        }
+      ]
+    },
+    {
+      "person": "li-keqiang",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 2013,
+      "end": 2023,
+      "sources": [
+        {
+          "title": "Li Keqiang — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q18111"
+        }
+      ]
+    },
+    {
+      "person": "li-qiang",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 2023,
+      "end": null,
+      "sources": [
+        {
+          "title": "Li Qiang — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4414390"
+        }
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "state": "qing-dynasty",
+      "file": "Flag of China (1862–1889).svg",
+      "start": 1862,
+      "end": 1889,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Sodacan",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of China (1862–1889).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_China_%281862%E2%80%931889%29.svg"
+        }
+      ]
+    },
+    {
+      "state": "qing-dynasty",
+      "file": "Flag of China (1889–1912).svg",
+      "start": 1889,
+      "end": 1912,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Original: zh:清朝政府 Vector: Sodacan",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of China (1889–1912).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_China_%281889%E2%80%931912%29.svg"
+        }
+      ]
+    },
+    {
+      "state": "republic-of-china",
+      "file": "Flag of China (1912–1928).svg",
+      "name": {
+        "en": "Five-coloured flag",
+        "fa": "پرچم پنج‌رنگ"
+      },
+      "start": 1912,
+      "end": 1928,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Original: en:Provisional Government of the Republic of China (1912) Vector: Kibinsky",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of China (1912–1928).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_China_%281912%E2%80%931928%29.svg"
+        }
+      ]
+    },
+    {
+      "state": "republic-of-china",
+      "file": "Flag of the Republic of China.svg",
+      "start": 1928,
+      "end": 1949,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Sun Yat-sen",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Republic of China.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_China.svg"
+        }
+      ]
+    },
+    {
+      "state": "peoples-republic-of-china",
+      "file": "Flag of the People's Republic of China.svg",
+      "start": 1949,
+      "end": null,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Zeng Liansong",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the People's Republic of China.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg"
+        }
+      ]
+    }
+  ]
+}
