@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
+import { useEffect, useMemo, useRef, useState, useSyncExternalStore, type PointerEvent as ReactPointerEvent } from "react";
 import { useTranslations } from "next-intl";
 import { Segmented } from "@/components/segmented";
 import type { CalendarLocale } from "@/lib/calendar";
@@ -10,6 +10,8 @@ import { followYear, panWindow, RANGE, stepYear, zoomWindow, type Range, type St
 import { setTimelineState, useTimelineState } from "@/lib/url-state";
 import { AddCountry } from "./add-country";
 import { Lane } from "./lane";
+import { LaneHandle } from "./lane-handle";
+import { moveBy, moveTo } from "@/lib/reorder";
 import { buildLaneModel, reignAt, type LaneModel, type Reign } from "./model";
 import { TimeDock } from "./time-dock";
 import { seedCountryFiles, useCountryFiles } from "./use-country-files";
@@ -185,6 +187,81 @@ export function Timeline({
     }
   };
 
+  // IN-9: reorder lanes by keyboard or drag. The anchor lane stays first.
+  const pinned = anchorLane ? 1 : 0;
+  const [drag, setDrag] = useState<{ id: string; slot: number } | null>(null);
+  const [moveMessage, setMoveMessage] = useState("");
+  const focusAfterMove = useRef<string | null>(null);
+  useEffect(() => {
+    // A moved element can lose focus as it changes place; put it back on the grip.
+    if (!focusAfterMove.current) return;
+    document.querySelector<HTMLElement>(`[data-lane-handle="${focusAfterMove.current}"]`)?.focus();
+    focusAfterMove.current = null;
+  });
+  const commitOrder = (id: string, next: string[]) => {
+    if (next.join() === laneOrder.join()) return;
+    setTimelineState({ lanes: next });
+    focusAfterMove.current = id;
+    setMoveMessage(
+      t("reorder.moved", {
+        country: countries.get(id)?.name[locale] ?? id,
+        position: next.indexOf(id) + 1,
+        total: next.length,
+      }),
+    );
+  };
+  const startDrag = (id: string, e: ReactPointerEvent<HTMLButtonElement>) => {
+    const handle = e.currentTarget;
+    const from = laneOrder.indexOf(id);
+    handle.setPointerCapture(e.pointerId);
+    e.preventDefault();
+    let slot = from;
+    setDrag({ id, slot });
+    // The slot is a gap between lanes: 0 is above the first, n below the last.
+    const slotAt = (y: number) => {
+      const sections = [...(lanesRef.current?.querySelectorAll<HTMLElement>("[data-lane-id]") ?? [])];
+      const index = sections.findIndex((el) => {
+        const r = el.getBoundingClientRect();
+        return y < r.top + r.height / 2;
+      });
+      return Math.max(index === -1 ? sections.length : index, pinned);
+    };
+    const onMove = (ev: PointerEvent) => {
+      slot = slotAt(ev.clientY);
+      setDrag({ id, slot });
+      // Scroll when the pointer nears the top or bottom of the window.
+      if (ev.clientY < 72) window.scrollBy(0, -12);
+      else if (ev.clientY > window.innerHeight - 72) window.scrollBy(0, 12);
+    };
+    const finish = (commit: boolean) => {
+      handle.removeEventListener("pointermove", onMove);
+      handle.removeEventListener("pointerup", onUp);
+      handle.removeEventListener("pointercancel", onCancel);
+      window.removeEventListener("keydown", onKey);
+      setDrag(null);
+      if (commit) commitOrder(id, moveTo(laneOrder, id, slot > from ? slot - 1 : slot, pinned));
+      else setMoveMessage(t("reorder.cancelled"));
+    };
+    const onUp = () => finish(true);
+    const onCancel = () => finish(false);
+    const onKey = (ev: KeyboardEvent) => {
+      if (ev.key === "Escape") finish(false);
+    };
+    handle.addEventListener("pointermove", onMove);
+    handle.addEventListener("pointerup", onUp);
+    handle.addEventListener("pointercancel", onCancel);
+    window.addEventListener("keydown", onKey);
+  };
+  // Where the dragged lane would land, unless that is where it already is.
+  const dropEdgeFor = (index: number): "before" | "after" | null => {
+    if (!drag) return null;
+    const from = laneOrder.indexOf(drag.id);
+    if (drag.slot === from || drag.slot === from + 1) return null;
+    if (drag.slot === index) return "before";
+    if (drag.slot === laneOrder.length && index === laneOrder.length - 1) return "after";
+    return null;
+  };
+
   const applyPreset = (ids: string[]) =>
     setTimelineState({ lanes: ids, ...(anchorLane && !ids.includes(anchorLane.file.country.id) ? { anchor: null } : {}) });
 
@@ -248,12 +325,25 @@ export function Timeline({
       >
         <WorldRow periods={world} year={year} range={view} locale={locale} anchor={anchor} />
         {laneOrder.length === 0 && <p className="p-6 text-center text-ink-2">{t("lane.empty")}</p>}
-        {laneOrder.map((id) => {
+        {laneOrder.map((id, index) => {
           const model = models.get(id);
           if (model)
             return (
               <Lane
                 key={id}
+                handle={
+                  <LaneHandle
+                    id={id}
+                    country={model.file.country.name[locale]}
+                    position={index + 1}
+                    total={laneOrder.length}
+                    pinned={index < pinned}
+                    onMove={(stepBy) => commitOrder(id, moveBy(laneOrder, id, stepBy, pinned))}
+                    onDragStart={(e) => startDrag(id, e)}
+                  />
+                }
+                dragging={drag?.id === id}
+                dropEdge={dropEdgeFor(index)}
                 model={model}
                 year={year}
                 range={view}
@@ -267,7 +357,13 @@ export function Timeline({
             );
           const country = countries.get(id)!.name[locale];
           return (
-            <section key={id} aria-labelledby={`lane-${id}`} aria-busy={!failed.includes(id)} className="p-4">
+            <section
+              key={id}
+              data-lane-id={id}
+              aria-labelledby={`lane-${id}`}
+              aria-busy={!failed.includes(id)}
+              className="p-4"
+            >
               <h3 id={`lane-${id}`} className="text-sm font-semibold">
                 {country}
               </h3>
@@ -314,6 +410,12 @@ export function Timeline({
 
       <p aria-live="polite" className="sr-only">
         {announcement}
+      </p>
+      <p aria-live="assertive" className="sr-only">
+        {moveMessage}
+      </p>
+      <p id="reorder-hint" hidden>
+        {t("reorder.hint")}
       </p>
     </div>
   );

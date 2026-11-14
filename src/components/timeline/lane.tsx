@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useId, useRef, useState } from "react";
+import { useEffect, useId, useRef, useState, type ReactNode } from "react";
 import { useTranslations } from "next-intl";
 import { formatYear, type CalendarLocale } from "@/lib/calendar";
 import { FlagImage } from "@/components/flag-image";
@@ -21,11 +21,29 @@ type Props = {
   withheld: readonly string[];
   onAnchor: (person: string | null) => void;
   onRemove: () => void;
+  /** The reorder grip (IN-9). */
+  handle?: ReactNode;
+  /** While a lane is dragged: whether this lane is the one, and where it would land. */
+  dragging?: boolean;
+  dropEdge?: "before" | "after" | null;
 };
 
 const SHADES = ["bg-lane-1", "bg-lane-2", "bg-lane-3"] as const;
 
-export function Lane({ model, year, range, locale, anchor, mode, withheld, onAnchor, onRemove }: Props) {
+export function Lane({
+  model,
+  year,
+  range,
+  locale,
+  anchor,
+  mode,
+  withheld,
+  onAnchor,
+  onRemove,
+  handle,
+  dragging = false,
+  dropEdge = null,
+}: Props) {
   const t = useTranslations("lane");
   const cardId = useId();
 
@@ -81,13 +99,23 @@ export function Lane({ model, year, range, locale, anchor, mode, withheld, onAnc
     <section
       aria-labelledby={headingId}
       data-country={file.country.id}
-      className="grid gap-x-4 gap-y-3 p-4 md:grid-cols-[1fr_15rem]"
+      data-lane-id={file.country.id}
+      className={`grid gap-x-4 gap-y-3 p-4 transition-opacity md:grid-cols-[1fr_15rem] ${dragging ? "opacity-40" : ""} ${
+        dropEdge === "before"
+          ? "shadow-[inset_0_3px_0_var(--color-ink)]"
+          : dropEdge === "after"
+            ? "shadow-[inset_0_-3px_0_var(--color-ink)]"
+            : ""
+      }`}
     >
       <div className="min-w-0">
         <div className="flex items-center justify-between gap-2">
-          <h3 id={headingId} className="text-sm font-semibold">
-            {country} <span className="font-normal text-ink-3">· {t("landOfToday", { country })}</span>
-          </h3>
+          <div className="flex min-w-0 items-center gap-1.5">
+            {handle}
+            <h3 id={headingId} className="text-sm font-semibold">
+              {country} <span className="font-normal text-ink-3">· {t("landOfToday", { country })}</span>
+            </h3>
+          </div>
           <button
             type="button"
             onClick={onRemove}

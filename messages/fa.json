@@ -108,5 +108,13 @@
     "fitReign": "نمایش دوره",
     "reset": "نمایش همه",
     "hint": "برای بزرگ‌نمایی Ctrl و چرخ موس یا دو انگشت؛ برای جابه‌جایی Shift و چرخ موس"
+  },
+  "reorder": {
+    "handle": "جابه‌جایی {country}، ردیف {position, number} از {total, number}",
+    "tooltip": "برای جابه‌جایی بکشید یا ↑ ↓ را بزنید",
+    "hint": "برای جابه‌جایی این ردیف، کلید بالا یا پایین را بزنید.",
+    "moved": "{country} به ردیف {position, number} از {total, number} رفت",
+    "pinned": "ردیف فرمانروای مبنا همیشه اول است",
+    "cancelled": "جابه‌جایی لغو شد"
   }
 }

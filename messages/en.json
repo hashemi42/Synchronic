@@ -108,5 +108,13 @@
     "fitReign": "Fit reign",
     "reset": "Show all",
     "hint": "Ctrl + scroll or pinch to zoom; Shift + scroll to move"
+  },
+  "reorder": {
+    "handle": "Move {country}, lane {position, number} of {total, number}",
+    "tooltip": "Drag to move, or press ↑ ↓",
+    "hint": "Press the up or down arrow to move this lane.",
+    "moved": "{country} moved to lane {position, number} of {total, number}",
+    "pinned": "The anchored ruler's lane stays first",
+    "cancelled": "Move cancelled"
   }
 }
