@@ -12,13 +12,15 @@ type Props = {
   pinned: boolean;
   onMove: (step: -1 | 1) => void;
   onDragStart: (e: ReactPointerEvent<HTMLButtonElement>) => void;
+  /** Id of the text that explains the arrow keys. */
+  hintId: string;
 };
 
 /**
  * IN-9: the grip that moves a lane. Drag it with a mouse or finger, or focus
  * it and press ↑ or ↓.
  */
-export function LaneHandle({ id, country, position, total, pinned, onMove, onDragStart }: Props) {
+export function LaneHandle({ id, country, position, total, pinned, onMove, onDragStart, hintId }: Props) {
   const t = useTranslations("reorder");
   if (pinned) {
     return (
@@ -38,7 +40,7 @@ export function LaneHandle({ id, country, position, total, pinned, onMove, onDra
       type="button"
       data-lane-handle={id}
       aria-label={t("handle", { country, position, total })}
-      aria-describedby="reorder-hint"
+      aria-describedby={hintId}
       title={t("tooltip")}
       onPointerDown={(e) => {
         if (e.button !== 0) return;

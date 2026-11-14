@@ -54,10 +54,12 @@ Maintainers decide disputes by this policy.
 pnpm install
 pnpm dev
 pnpm typecheck && pnpm lint && pnpm test
+pnpm build && pnpm test:e2e   # browser and accessibility tests
 ```
 
 - Layout uses CSS logical properties only (`ms-*`, `ps-*`, `start-*`), never left/right. The timeline itself is the one exception: it is wrapped in `dir="ltr"`.
 - UI strings live in `messages/en.json` and `messages/fa.json`; add both.
-- Text contrast is at least 4.5:1, targets at least 24 × 24 px, and everything works from the keyboard.
+- Text contrast is at least 4.5:1, targets at least 24 × 24 px, and everything works from the keyboard. `pnpm test:e2e` runs axe against WCAG 2.2 AA in both languages.
+- Never use a fixed `id`: Next.js keeps the previous page in the DOM, hidden, so it would appear twice. Use `useId()`.
 
 By contributing you agree that your code is released under MIT and your data under CC BY-SA 4.0.

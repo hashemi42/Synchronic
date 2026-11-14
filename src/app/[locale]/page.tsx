@@ -26,8 +26,8 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
       <h1 className="text-3xl font-semibold tracking-tight text-balance">{t("tagline")}</h1>
       <p className="mt-3 max-w-2xl text-ink-2">{t("intro")}</p>
 
-      <section id="timeline" aria-labelledby="timeline-heading" className="mt-8 scroll-mt-4">
-        <h2 id="timeline-heading" className="sr-only">
+      <section id={`timeline-${locale}`} aria-labelledby={`timeline-heading-${locale}`} className="mt-8 scroll-mt-4">
+        <h2 id={`timeline-heading-${locale}`} className="sr-only">
           {t("timeline")}
         </h2>
         <Timeline

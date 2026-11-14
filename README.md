@@ -22,6 +22,7 @@ Open <http://localhost:3000> — it redirects to `/en`; Persian (right-to-left) 
 | `pnpm typecheck` | Generate route types and run `tsc` |
 | `pnpm lint` | ESLint |
 | `pnpm test` | Vitest (schema, lane validation, calendars) |
+| `pnpm test:e2e` | Playwright flows and axe accessibility checks; run `pnpm build` first (first time: `pnpm exec playwright install chromium`) |
 | `pnpm data:build` | Validate the data and emit one content-hashed file per country to `public/data/` (runs before `dev`, `build` and `typecheck`) |
 | `pnpm data:validate` | Validate every file in `data/overrides/countries/` |
 | `pnpm fetch:flags` | Fetch flag candidates and licences from Wikidata and Commons into `data/raw/` |

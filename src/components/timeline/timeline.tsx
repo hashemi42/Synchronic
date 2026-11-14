@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState, useSyncExternalStore, type PointerEvent as ReactPointerEvent } from "react";
+import { useEffect, useId, useMemo, useRef, useState, useSyncExternalStore, type PointerEvent as ReactPointerEvent } from "react";
 import { useTranslations } from "next-intl";
 import { Segmented } from "@/components/segmented";
 import type { CalendarLocale } from "@/lib/calendar";
@@ -64,6 +64,11 @@ export function Timeline({
   const [step, setStep] = useState<Step>("year");
   const [mode, setMode] = useState<Mode>("year");
   const maxLanes = useMaxLanes();
+  // Ids from useId: Next.js keeps the previous page in the DOM, hidden, so a
+  // fixed id could resolve to the hidden copy.
+  const uid = useId();
+  const zoomHintId = `${uid}-zoom-hint`;
+  const reorderHintId = `${uid}-reorder-hint`;
 
   seedCountryFiles(initialFiles);
   const countries = useMemo(() => new Map(summaries.map((c) => [c.id, c])), [summaries]);
@@ -195,7 +200,7 @@ export function Timeline({
   useEffect(() => {
     // A moved element can lose focus as it changes place; put it back on the grip.
     if (!focusAfterMove.current) return;
-    document.querySelector<HTMLElement>(`[data-lane-handle="${focusAfterMove.current}"]`)?.focus();
+    lanesRef.current?.querySelector<HTMLElement>(`[data-lane-handle="${focusAfterMove.current}"]`)?.focus();
     focusAfterMove.current = null;
   });
   const commitOrder = (id: string, next: string[]) => {
@@ -320,7 +325,7 @@ export function Timeline({
 
       <div
         ref={lanesRef}
-        aria-describedby="zoom-hint"
+        aria-describedby={zoomHintId}
         className="divide-y divide-hairline rounded-float-lg bg-surface shadow-float"
       >
         <WorldRow periods={world} year={year} range={view} locale={locale} anchor={anchor} />
@@ -340,6 +345,7 @@ export function Timeline({
                     pinned={index < pinned}
                     onMove={(stepBy) => commitOrder(id, moveBy(laneOrder, id, stepBy, pinned))}
                     onDragStart={(e) => startDrag(id, e)}
+                    hintId={reorderHintId}
                   />
                 }
                 dragging={drag?.id === id}
@@ -360,11 +366,11 @@ export function Timeline({
             <section
               key={id}
               data-lane-id={id}
-              aria-labelledby={`lane-${id}`}
+              aria-labelledby={`${uid}-lane-${id}`}
               aria-busy={!failed.includes(id)}
               className="p-4"
             >
-              <h3 id={`lane-${id}`} className="text-sm font-semibold">
+              <h3 id={`${uid}-lane-${id}`} className="text-sm font-semibold">
                 {country}
               </h3>
               {failed.includes(id) ? (
@@ -391,7 +397,7 @@ export function Timeline({
         {laneOrder.length > 0 && <TimeAxis view={view} locale={locale} />}
       </div>
 
-      <p id="zoom-hint" className="mt-2 hidden text-2xs text-ink-3 sm:block">
+      <p id={zoomHintId} className="mt-2 hidden text-2xs text-ink-3 sm:block">
         {t("zoom.hint")}
       </p>
 
@@ -414,7 +420,7 @@ export function Timeline({
       <p aria-live="assertive" className="sr-only">
         {moveMessage}
       </p>
-      <p id="reorder-hint" hidden>
+      <p id={reorderHintId} hidden>
         {t("reorder.hint")}
       </p>
     </div>

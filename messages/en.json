@@ -43,7 +43,8 @@
     "headOfGovernment": "Head of government",
     "loading": "Loading…",
     "loadFailed": "This lane could not be loaded.",
-    "retry": "Try again"
+    "retry": "Try again",
+    "anchorHint": "Anchor the comparison to this reign"
   },
   "dock": {
     "label": "Time controls",

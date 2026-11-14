@@ -8,6 +8,7 @@ import { covers, flagFor, periodsAt, termAt } from "@/lib/data/query";
 import type { Range } from "@/lib/time";
 import { createScale, governmentAt, overlaps, reignAt, type LaneModel, type Reign } from "./model";
 import { StateCard } from "./state-card";
+import { useElementWidth } from "./use-element-width";
 
 type Props = {
   model: LaneModel;
@@ -81,6 +82,14 @@ export function Lane({
 
   const { file, states, persons, mainline, reigns } = model;
   const scale = createScale(range);
+  // WCAG 2.5.8: a segment narrower than 24 px is drawn, but is not a button.
+  // Zooming in makes it wide enough; the right column anchors the ruler at the cursor.
+  const trackWidth = useElementWidth(laneRef);
+  const wideEnough = (r: { start: number; end: number | null }) => {
+    if (trackWidth === null) return true;
+    const box = scale.box(r);
+    return (parseFloat(box.width) / 100) * trackWidth >= 24;
+  };
   const yr = (y: number | null) => (y === null ? t("present") : formatYear(y, locale));
   const years = (r: { start: number; end: number | null }) =>
     r.start === r.end ? yr(r.start) : `${yr(r.start)}–${yr(r.end)}`;
@@ -92,7 +101,7 @@ export function Lane({
   const government = governmentAt(model, year).current;
   const flag = main ? flagFor(file, main, year) : null;
   const country = file.country.name[locale];
-  const headingId = `lane-${file.country.id}`;
+  const headingId = useId();
   const duringReign = anchor && mode === "reign" ? reigns.filter((r) => overlaps(r, anchor)) : null;
 
   return (
@@ -146,6 +155,18 @@ export function Lane({
               const flag = flagFor(file, period, year);
               return (
                 <li key={`${period.state}-${period.start}`} style={scale.box(period)} className="absolute inset-y-0">
+                  {!wideEnough(period) ? (
+                    <div
+                      title={`${name} · ${years(period)}`}
+                      className={`size-full overflow-hidden rounded-md border-2 border-surface ${
+                        period.kind === "no-state" ? "hatched" : SHADES[i % SHADES.length]
+                      }`}
+                    >
+                      <span className="sr-only">
+                        {name}, {years(period)}
+                      </span>
+                    </div>
+                  ) : (
                   <button
                     type="button"
                     aria-describedby={openCard === i ? cardId : undefined}
@@ -174,6 +195,7 @@ export function Lane({
                     </span>
                     <span className="sr-only">, {years(period)}</span>
                   </button>
+                  )}
                 </li>
               );
             })}
@@ -189,6 +211,18 @@ export function Lane({
                 const inReign = anchor ? overlaps(r, anchor) : false;
                 return (
                   <li key={`${r.person}-${r.start}`} style={scale.box(r)} className="absolute inset-y-0">
+                    {!wideEnough(r) ? (
+                      <div
+                        title={`${name} · ${r.title[locale]} · ${years(r)}`}
+                        className={`size-full rounded border-2 ${anchored ? "border-anchor" : "border-surface"} ${
+                          current ? "bg-ink" : inReign ? "bg-surface" : "bg-fill"
+                        }`}
+                      >
+                        <span className="sr-only">
+                          {name}, {years(r)}
+                        </span>
+                      </div>
+                    ) : (
                     <button
                       type="button"
                       aria-pressed={anchored}
@@ -210,6 +244,7 @@ export function Lane({
                         {name}
                       </span>
                     </button>
+                    )}
                   </li>
                 );
               })}
@@ -255,7 +290,21 @@ export function Lane({
           <dl>
             <dt className="sr-only">{t("headOfState")}</dt>
             <dd>
-              <span className="block font-semibold">{reign ? nameOf(reign.person) : t("noRuler")}</span>
+              {reign ? (
+                <button
+                  type="button"
+                  aria-pressed={anchor?.person === reign.person && anchor.start === reign.start}
+                  title={t("anchorHint")}
+                  onClick={() =>
+                    onAnchor(anchor?.person === reign.person && anchor.start === reign.start ? null : reign.person)
+                  }
+                  className="-mx-1 block min-h-6 rounded px-1 text-start font-semibold underline-offset-2 hover:underline aria-pressed:bg-anchor-soft aria-pressed:outline aria-pressed:outline-1 aria-pressed:outline-anchor"
+                >
+                  {nameOf(reign.person)}
+                </button>
+              ) : (
+                <span className="block font-semibold">{t("noRuler")}</span>
+              )}
               {reign && (
                 <span className="block text-ink-2">
                   {reign.title[locale]} · <span className="year">{years(reign)}</span>

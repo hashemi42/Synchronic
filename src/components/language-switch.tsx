@@ -22,13 +22,14 @@ export function LanguageSwitch({ legend }: { legend: string }) {
             href={href}
             locale={l}
             lang={l}
-            aria-label={names[l]}
             aria-current={l === locale ? "true" : undefined}
             className={`flex h-8 min-w-10 items-center justify-center rounded-full px-3 text-sm font-medium ${
               l === locale ? "bg-ink text-white" : "text-ink-2 hover:bg-fill"
             }`}
           >
             {labels[l]}
+            {/* The visible code stays part of the name (WCAG 2.5.3, label in name). */}
+            <span className="sr-only">, {names[l]}</span>
           </Link>
         </li>
       ))}

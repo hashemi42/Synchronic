@@ -1,5 +1,6 @@
 "use client";
 
+import { useId } from "react";
 import { useTranslations } from "next-intl";
 import { formatYear, type CalendarLocale } from "@/lib/calendar";
 import type { WorldPeriod } from "@/lib/data/schema";
@@ -17,6 +18,7 @@ type Props = {
 /** IN-8: major global periods above the lanes, on the same time scale. */
 export function WorldRow({ periods, year, range, locale, anchor }: Props) {
   const t = useTranslations("world");
+  const headingId = useId();
   const scale = createScale(range);
   const visible = periods.filter((p) => p.last >= range.from && p.start <= range.to);
   // `last` is the final year included; the lane scale works with half-open ranges.
@@ -26,9 +28,9 @@ export function WorldRow({ periods, year, range, locale, anchor }: Props) {
     p.start === p.last ? formatYear(p.start, locale) : `${formatYear(p.start, locale)}–${formatYear(p.last, locale)}`;
 
   return (
-    <section aria-labelledby="world-row" className="grid gap-x-4 gap-y-2 rounded-t-float-lg bg-fill/60 px-4 py-3 md:grid-cols-[1fr_15rem]">
+    <section aria-labelledby={headingId} data-world-row className="grid gap-x-4 gap-y-2 rounded-t-float-lg bg-fill/60 px-4 py-3 md:grid-cols-[1fr_15rem]">
       <div className="min-w-0">
-        <h3 id="world-row" className="text-2xs font-medium tracking-wide text-ink-3 uppercase">
+        <h3 id={headingId} className="text-2xs font-medium tracking-wide text-ink-3 uppercase">
           {t("label")}
         </h3>
         <div data-time-track dir="ltr" className="relative mt-1.5">
