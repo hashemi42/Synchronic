@@ -66,7 +66,9 @@
     "stepCentury": "سده",
     "stepReign": "فرمانروایی",
     "anchored": "بر مبنای {name}",
-    "removeAnchor": "برداشتن مبنا"
+    "removeAnchor": "برداشتن مبنا",
+    "eras": "سلسله‌ها و دولت‌های {country}: پرش به آغاز هر یک",
+    "jumpTo": "پرش به {era}"
   },
   "card": {
     "headOfStateIn": "رئیس کشور در {year}",

@@ -61,6 +61,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 - **The "+1" badge sits in a lane's right column**, not on the lane itself. It counts rival governments at the selected year and opens them in place.
 - **Real-device touch testing is still pending.** Taps are tested with Playwright's phone emulation (Pixel 7) only.
 - **Pinch zoom and touch drag-to-reorder need a physical device.** Both are implemented and keyboard-equivalents are tested, but neither has been tried on real hardware.
+- **The detail track has no event dots.** The data has no events yet (the schema exists), so it shows ticks, the cursor and the anchor's reign only.
+- **Phones shorter than 704 px (44rem) hide the era strip and detail track** to keep the floating dock compact. The lanes' own axis and the slider cover the same ground.
 - **Persian years are Solar Hijri, one per Gregorian year.** A Gregorian year spans two Solar Hijri years; the UI uses the one in force on 1 July (Gregorian − 621). Dates in the data and URLs stay Gregorian.
 
 ## Licences

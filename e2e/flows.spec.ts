@@ -406,7 +406,72 @@ test.describe("top bar (SH-1) @both", () => {
   });
 });
 
+test.describe("era strip and detail track (TD-2) @both", () => {
+  const strip = (page: Page) => page.locator("[data-era-strip]:visible");
+  const slider = (page: Page, name: string) => page.getByRole("slider", { name });
+
+  test("the strip shows the first lane's dynasties; pressing one jumps to its start", async ({ page }) => {
+    await page.goto("/en?year=1919&lanes=iran,uk");
+    await expect(strip(page)).toHaveAttribute("aria-label", /Iran/);
+    await expect(strip(page).getByRole("button", { name: /^Jump to Qajar Iran/ })).toHaveAttribute("aria-current", "true");
+    await strip(page).getByRole("button", { name: /^Jump to Pahlavi Iran, 1925/ }).click();
+    await expect(page).toHaveURL(/year=1925/);
+    await expect(slider(page, "Selected year")).toHaveAttribute("aria-valuenow", "1925");
+    await expect(strip(page).getByRole("button", { name: /^Jump to Pahlavi Iran/ })).toHaveAttribute("aria-current", "true");
+  });
+
+  test("it follows the anchor's country, and works from the keyboard", async ({ page }) => {
+    await page.goto("/en?year=1919&lanes=uk");
+    await expect(strip(page)).toHaveAttribute("aria-label", /United Kingdom/);
+    await page.goto("/en?year=1919&lanes=uk,iran&anchor=ahmad-shah-qajar");
+    await expect(strip(page)).toHaveAttribute("aria-label", /Iran/);
+    const era = strip(page).getByRole("button", { name: /^Jump to Islamic Republic of Iran/ });
+    await era.focus();
+    await page.keyboard.press("Enter");
+    await expect(page).toHaveURL(/year=1979/);
+  });
+
+  test("eras too narrow to press are drawn but are not buttons", async ({ page }) => {
+    await page.goto("/en?year=1919&lanes=russia");
+    await expect(strip(page)).toBeVisible();
+    const all = await strip(page).locator("li").count();
+    const pressable = await strip(page).getByRole("button").count();
+    expect(all).toBeGreaterThan(pressable);
+  });
+
+  test("the detail track appears only while zoomed, counts the window, and scrubs", async ({ page }) => {
+    await page.goto("/en?year=1919&lanes=iran");
+    await expect(page.locator("[data-detail-track]:visible")).toHaveCount(0);
+    await page.goto("/en?year=1919&lanes=iran&from=1900&to=1950");
+    const track = page.locator("[data-detail-track]:visible");
+    await expect(track).toHaveAttribute("aria-hidden", "true");
+    await expect(track.getByText("1920", { exact: true })).toBeVisible();
+    const box = (await track.boundingBox())!;
+    await page.mouse.click(box.x + box.width * 0.5, box.y + box.height / 2);
+    await expect(page).toHaveURL(/year=19(24|25|26)/);
+    await expect(slider(page, "Selected year")).toHaveAttribute("aria-valuenow", /19(24|25|26)/);
+  });
+
+  test("in Persian: Solar Hijri on the era labels and the detail track, names in Persian", async ({ page }) => {
+    await page.goto("/fa?year=1919&lanes=iran&from=1900&to=1950");
+    await expect(strip(page)).toHaveAttribute("aria-label", /ایران/);
+    await expect(strip(page).getByRole("button", { name: /^پرش به ایران پهلوی، ۱۳۰۴–/ })).toBeVisible();
+    await expect(page.locator("[data-detail-track]:visible").getByText("۱۳۰۰", { exact: true })).toBeVisible();
+    const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
+    expect(overflow).toBe(false);
+  });
+});
+
 test.describe("floating time dock on phones @phone", () => {
+  test("an era can be tapped on a tall phone and is left out of a short one", async ({ page }) => {
+    await page.setViewportSize({ width: 375, height: 812 });
+    await page.goto("/en?year=1919&lanes=iran");
+    await page.locator("[data-era-strip]:visible").getByRole("button", { name: /^Jump to Pahlavi Iran/ }).tap();
+    await expect(page).toHaveURL(/year=1925/);
+    await page.setViewportSize({ width: 375, height: 600 });
+    await expect(page.locator("[data-era-strip]:visible")).toHaveCount(0);
+  });
+
   const dockOf = (page: Page) => page.getByRole("region", { name: /Time controls/ });
 
   for (const height of [568, 667, 812]) {

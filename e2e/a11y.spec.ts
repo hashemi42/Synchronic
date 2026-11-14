@@ -61,6 +61,13 @@ for (const locale of ["en", "fa"] as const) {
       await audit(page);
     });
 
+    test("zoomed, with the era strip and detail track", async ({ page }) => {
+      await page.goto(`/${locale}?year=1919&lanes=iran,uk&from=1900&to=1950`);
+      await expect(page.locator("[data-era-strip]:visible")).toBeVisible();
+      await expect(page.locator("[data-detail-track]:visible")).toBeVisible();
+      await audit(page);
+    });
+
     test("politics card", async ({ page }) => {
       await page.goto(`/${locale}?year=1941&lanes=germany,france&from=1925&to=1955`);
       // Nazi Germany: its flag is withheld, so this also checks the placeholder (PO-4).

@@ -13,6 +13,7 @@ import { Lane } from "./lane";
 import { LaneHandle } from "./lane-handle";
 import { moveBy, moveTo } from "@/lib/reorder";
 import { buildLaneModel, reignAt, type LaneModel, type Reign } from "./model";
+import type { EraContext } from "./context-strip";
 import { TimeDock } from "./time-dock";
 import { seedCountryFiles, useCountryFiles } from "./use-country-files";
 import { TimeAxis } from "./time-axis";
@@ -96,6 +97,24 @@ export function Timeline({
   const laneOrder = anchorLane
     ? [anchorLane.file.country.id, ...validIds.filter((id) => id !== anchorLane.file.country.id)]
     : validIds;
+  // TD-2: the dynasties on the all-time strip belong to the anchor's country, else the first lane.
+  const contextModel = ordered[0];
+  const context: EraContext | null = contextModel
+    ? {
+        id: contextModel.file.country.id,
+        country: contextModel.file.country.name[locale],
+        eras: contextModel.mainline.map((p) => {
+          const s = p.state ? contextModel.states.get(p.state) : undefined;
+          return {
+            key: `${p.state ?? p.kind}-${p.start}`,
+            name: p.label?.[locale] ?? s?.name[locale] ?? p.note?.[locale] ?? "",
+            start: p.start,
+            end: p.end,
+            hatched: p.kind === "no-state",
+          };
+        }),
+      }
+    : null;
   const anchorName = anchor && anchorLane ? (anchorLane.persons.get(anchor.person)?.name[locale] ?? anchor.person) : null;
 
   // A year outside the zoomed window pulls the window along with it.
@@ -403,6 +422,7 @@ export function Timeline({
 
       <TimeDock
         view={zoom}
+        context={context}
         year={year}
         range={RANGE}
         step={step}

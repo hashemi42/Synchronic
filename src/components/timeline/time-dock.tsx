@@ -5,6 +5,8 @@ import { useTranslations } from "next-intl";
 import { Segmented } from "@/components/segmented";
 import { displayYear, formatNumber, formatYear, formatYearRange, headlineYear, hijriEquivalents, tickPositions, type CalendarLocale } from "@/lib/calendar";
 import { clampYear, parseYearInCalendar, STEPS, type Range, type Step } from "@/lib/time";
+import { ContextStrip, type EraContext } from "./context-strip";
+import { DetailTrack } from "./detail-track";
 import { createScale, type Reign } from "./model";
 
 type Props = {
@@ -15,6 +17,8 @@ type Props = {
   anchor: { term: Reign; name: string } | null;
   /** The zoomed window, drawn as a lens on the all-time track (TD-2). */
   view: Range | null;
+  /** The anchor's country (or the first lane) and its dynasties, for the context strip (TD-2). */
+  context: EraContext | null;
   onYear: (year: number) => void;
   /** Move by the current step: direction ±1, `times` steps. */
   onMove: (direction: 1 | -1, times?: number) => void;
@@ -22,7 +26,7 @@ type Props = {
   onClearAnchor: () => void;
 };
 
-export function TimeDock({ year, range, step, locale, anchor, view, onYear, onMove, onStep, onClearAnchor }: Props) {
+export function TimeDock({ year, range, step, locale, anchor, view, context, onYear, onMove, onStep, onClearAnchor }: Props) {
   const t = useTranslations();
   const dock = useRef<HTMLElement>(null);
   // While the dock floats over the page, keyboard focus and in-page jumps scroll clear of it (WCAG 2.4.11).
@@ -152,6 +156,7 @@ export function TimeDock({ year, range, step, locale, anchor, view, onYear, onMo
         locale={locale}
         anchor={anchor?.term ?? null}
         view={view}
+        context={context}
         label={t("dock.slider")}
         valueText={valueText}
         onYear={onYear}
@@ -244,6 +249,7 @@ function YearSlider({
   locale,
   anchor,
   view,
+  context,
   label,
   valueText,
   onYear,
@@ -254,6 +260,7 @@ function YearSlider({
   locale: CalendarLocale;
   anchor: Reign | null;
   view: Range | null;
+  context: EraContext | null;
   label: string;
   valueText: string;
   onYear: (year: number) => void;
@@ -274,6 +281,9 @@ function YearSlider({
   return (
     // The track is physical left → right in both languages (L-7).
     <div dir="ltr" className="mt-3 px-3">
+      {context && context.eras.length > 0 && (
+        <ContextStrip context={context} range={range} year={year} locale={locale} onJump={onYear} />
+      )}
       <div
         ref={track}
         className="relative h-11 cursor-pointer touch-pan-y select-none"
@@ -335,6 +345,7 @@ function YearSlider({
           className="absolute top-0.5 size-6 -translate-x-1/2 rounded-full border-2 border-surface bg-ink shadow-float"
         />
       </div>
+      {view && <DetailTrack view={view} range={range} year={year} locale={locale} anchor={anchor} onYear={onYear} />}
     </div>
   );
 }

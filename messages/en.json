@@ -66,7 +66,9 @@
     "stepCentury": "Century",
     "stepReign": "Reign",
     "anchored": "Anchored to {name}",
-    "removeAnchor": "Remove anchor"
+    "removeAnchor": "Remove anchor",
+    "eras": "Dynasties and states of {country}: jump to the start of one",
+    "jumpTo": "Jump to {era}"
   },
   "card": {
     "headOfStateIn": "Head of state in {year}",
