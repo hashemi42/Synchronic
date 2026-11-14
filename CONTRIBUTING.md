@@ -55,6 +55,7 @@ pnpm install
 pnpm dev
 pnpm typecheck && pnpm lint && pnpm test
 pnpm build && pnpm test:e2e   # browser and accessibility tests
+pnpm exec tsx scripts/data-diff.ts main   # preview the data-change summary CI posts on pull requests
 ```
 
 - Layout uses CSS logical properties only (`ms-*`, `ps-*`, `start-*`), never left/right. The timeline itself is the one exception: it is wrapped in `dir="ltr"`.

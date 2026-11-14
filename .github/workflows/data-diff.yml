@@ -1,0 +1,49 @@
+name: Data diff
+
+# Comments a summary of changes to historical data on pull requests that touch data/.
+on:
+  pull_request:
+    paths:
+      - "data/**"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: data-diff-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  summary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Summarise data changes
+        env:
+          BASE_REF: origin/${{ github.base_ref }}
+        run: pnpm exec tsx scripts/data-diff.ts "$BASE_REF" > data-diff.md
+      - name: Add to job summary
+        run: cat data-diff.md >> "$GITHUB_STEP_SUMMARY"
+      # Forks get a read-only token, so skip the comment there (the job summary still has it).
+      - name: Post or update comment
+        if: github.event.pull_request.head.repo.full_name == github.repository
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          id=$(gh api "repos/${{ github.repository }}/issues/$PR/comments" --paginate \
+            --jq '[.[] | select(.body | startswith("<!-- data-diff -->"))][0].id // empty')
+          if [ -n "$id" ]; then
+            gh api -X PATCH "repos/${{ github.repository }}/issues/comments/$id" -F body=@data-diff.md
+          else
+            gh pr comment "$PR" --body-file data-diff.md
+          fi
