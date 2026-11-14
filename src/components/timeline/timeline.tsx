@@ -1,18 +1,21 @@
 "use client";
 
-import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
+import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { useTranslations } from "next-intl";
 import { Segmented } from "@/components/segmented";
-import { formatYear, type CalendarLocale } from "@/lib/calendar";
-import type { CountryFile, Presets } from "@/lib/data/schema";
+import type { CalendarLocale } from "@/lib/calendar";
+import type { CountryFile, Presets, WorldPeriod } from "@/lib/data/schema";
 import type { CountrySummary } from "@/lib/data/summary";
-import { RANGE, stepYear, type Step } from "@/lib/time";
+import { followYear, panWindow, RANGE, stepYear, zoomWindow, type Range, type Step } from "@/lib/time";
 import { setTimelineState, useTimelineState } from "@/lib/url-state";
 import { AddCountry } from "./add-country";
 import { Lane } from "./lane";
 import { buildLaneModel, reignAt, type LaneModel, type Reign } from "./model";
 import { TimeDock } from "./time-dock";
 import { seedCountryFiles, useCountryFiles } from "./use-country-files";
+import { TimeAxis } from "./time-axis";
+import { WorldRow } from "./world-row";
+import { ZoomControls } from "./zoom-controls";
 
 type Mode = "year" | "reign";
 
@@ -37,6 +40,7 @@ const useMaxLanes = () =>
 export function Timeline({
   initialFiles,
   summaries,
+  world,
   urls,
   locale,
   withheld,
@@ -45,6 +49,7 @@ export function Timeline({
   /** Full data for the default lanes, so the first paint needs no request. */
   initialFiles: CountryFile[];
   summaries: CountrySummary[];
+  world: WorldPeriod[];
   /** id → URL of each country's full data. */
   urls: Record<string, string>;
   locale: CalendarLocale;
@@ -52,7 +57,8 @@ export function Timeline({
   presets: Presets;
 }) {
   const t = useTranslations();
-  const { year, lanes: laneIds, anchor: anchorId } = useTimelineState();
+  const { year, lanes: laneIds, anchor: anchorId, view: zoom } = useTimelineState();
+  const view = zoom ?? RANGE;
   const [step, setStep] = useState<Step>("year");
   const [mode, setMode] = useState<Mode>("year");
   const maxLanes = useMaxLanes();
@@ -85,7 +91,87 @@ export function Timeline({
     : validIds;
   const anchorName = anchor && anchorLane ? (anchorLane.persons.get(anchor.person)?.name[locale] ?? anchor.person) : null;
 
-  const setYear = (next: number) => setTimelineState({ year: next });
+  // A year outside the zoomed window pulls the window along with it.
+  const setYear = (next: number) => setTimelineState({ year: next, ...(zoom ? { view: followYear(zoom, next) } : {}) });
+  const setView = (next: Range | null) => setTimelineState({ view: next });
+
+  // IN-10: Ctrl+scroll (and trackpad pinch, which browsers report the same way)
+  // zooms around the year under the pointer; Shift+scroll or a sideways swipe
+  // moves the window; two fingers pinch on touch screens.
+  const lanesRef = useRef<HTMLDivElement>(null);
+  const viewRef = useRef(view);
+  useEffect(() => {
+    viewRef.current = view;
+  });
+  useEffect(() => {
+    const el = lanesRef.current;
+    if (!el) return;
+    const track = () => el.querySelector<HTMLElement>("[data-time-track]")?.getBoundingClientRect();
+    const yearAtX = (x: number) => {
+      const rect = track();
+      const v = viewRef.current;
+      if (!rect) return (v.from + v.to) / 2;
+      const ratio = Math.min(Math.max((x - rect.left) / rect.width, 0), 1);
+      return v.from + ratio * (v.to - v.from + 1);
+    };
+    // Small wheel steps add up until they move the window by a whole year.
+    let factor = 1;
+    let shift = 0;
+    const onWheel = (e: WheelEvent) => {
+      const v = viewRef.current;
+      if (e.ctrlKey || e.metaKey) {
+        e.preventDefault();
+        factor *= Math.exp(e.deltaY * 0.004);
+        const next = zoomWindow(v, factor, yearAtX(e.clientX));
+        if (next.from !== v.from || next.to !== v.to) {
+          factor = 1;
+          setTimelineState({ view: next });
+        }
+        return;
+      }
+      const sideways = e.shiftKey ? e.deltaY || e.deltaX : Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : 0;
+      const rect = track();
+      if (!sideways || !rect) return;
+      e.preventDefault();
+      shift += (sideways / rect.width) * (v.to - v.from + 1);
+      if (Math.abs(shift) >= 1) {
+        const next = panWindow(v, Math.trunc(shift));
+        shift -= Math.trunc(shift);
+        setTimelineState({ view: next });
+      }
+    };
+    let pinch: { distance: number; view: Range; focus: number } | null = null;
+    const distance = (t: TouchList) => Math.hypot(t[0].clientX - t[1].clientX, t[0].clientY - t[1].clientY);
+    const onTouchStart = (e: TouchEvent) => {
+      if (e.touches.length === 2)
+        pinch = {
+          distance: distance(e.touches),
+          view: viewRef.current,
+          focus: yearAtX((e.touches[0].clientX + e.touches[1].clientX) / 2),
+        };
+    };
+    const onTouchMove = (e: TouchEvent) => {
+      if (!pinch || e.touches.length !== 2) return;
+      e.preventDefault();
+      const next = zoomWindow(pinch.view, pinch.distance / distance(e.touches), pinch.focus);
+      setTimelineState({ view: next });
+    };
+    const onTouchEnd = (e: TouchEvent) => {
+      if (e.touches.length < 2) pinch = null;
+    };
+    el.addEventListener("wheel", onWheel, { passive: false });
+    el.addEventListener("touchstart", onTouchStart, { passive: true });
+    el.addEventListener("touchmove", onTouchMove, { passive: false });
+    el.addEventListener("touchend", onTouchEnd);
+    el.addEventListener("touchcancel", onTouchEnd);
+    return () => {
+      el.removeEventListener("wheel", onWheel);
+      el.removeEventListener("touchstart", onTouchStart);
+      el.removeEventListener("touchmove", onTouchMove);
+      el.removeEventListener("touchend", onTouchEnd);
+      el.removeEventListener("touchcancel", onTouchEnd);
+    };
+  }, []);
   const boundaries = ordered[0]?.boundaries ?? [];
   const move = (direction: 1 | -1, times = 1) =>
     setYear(stepYear(year, direction, step, { boundaries, range: RANGE, times }));
@@ -140,6 +226,8 @@ export function Timeline({
           onPreset={applyPreset}
         />
 
+        <div className="flex flex-wrap items-center gap-3">
+        <ZoomControls view={view} zoomed={zoom !== null} year={year} locale={locale} anchor={anchor} onView={setView} />
         {/* Always rendered, so anchoring a ruler does not shift the lanes. */}
         <Segmented<Mode>
           legend={t("lane.compare")}
@@ -150,9 +238,15 @@ export function Timeline({
             { value: "reign", label: t("lane.wholeReign"), disabled: !anchor },
           ]}
         />
+        </div>
       </div>
 
-      <div className="divide-y divide-hairline rounded-float-lg bg-surface shadow-float">
+      <div
+        ref={lanesRef}
+        aria-describedby="zoom-hint"
+        className="divide-y divide-hairline rounded-float-lg bg-surface shadow-float"
+      >
+        <WorldRow periods={world} year={year} range={view} locale={locale} anchor={anchor} />
         {laneOrder.length === 0 && <p className="p-6 text-center text-ink-2">{t("lane.empty")}</p>}
         {laneOrder.map((id) => {
           const model = models.get(id);
@@ -162,7 +256,7 @@ export function Timeline({
                 key={id}
                 model={model}
                 year={year}
-                range={RANGE}
+                range={view}
                 locale={locale}
                 anchor={anchor}
                 mode={anchor ? mode : "year"}
@@ -198,17 +292,15 @@ export function Timeline({
             </section>
           );
         })}
-        {laneOrder.length > 0 && (
-          <div dir="ltr" className="grid gap-x-4 px-4 py-2 md:grid-cols-[1fr_15rem]" aria-hidden="true">
-            <div className="year flex justify-between text-2xs text-ink-3">
-              <span>{formatYear(RANGE.from, locale)}</span>
-              <span dir="auto">{t("lane.present")}</span>
-            </div>
-          </div>
-        )}
+        {laneOrder.length > 0 && <TimeAxis view={view} locale={locale} />}
       </div>
 
+      <p id="zoom-hint" className="mt-2 hidden text-2xs text-ink-3 sm:block">
+        {t("zoom.hint")}
+      </p>
+
       <TimeDock
+        view={zoom}
         year={year}
         range={RANGE}
         step={step}

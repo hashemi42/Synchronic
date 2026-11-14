@@ -1,0 +1,44 @@
+{
+  "description": "The world row above the lanes (IN-8): major global periods. `start` and `last` are the first and last year, both included.",
+  "periods": [
+    {
+      "id": "french-revolutionary-and-napoleonic-wars",
+      "kind": "war",
+      "name": { "en": "French Revolutionary and Napoleonic Wars", "fa": "جنگ‌های انقلاب فرانسه و ناپلئون" },
+      "short": { "en": "Napoleonic Wars", "fa": "جنگ‌های ناپلئون" },
+      "start": 1792,
+      "last": 1815,
+      "sources": [
+        { "title": "French Revolutionary Wars — Wikipedia", "url": "https://en.wikipedia.org/wiki/French_Revolutionary_Wars" },
+        { "title": "Napoleonic Wars — Wikipedia", "url": "https://en.wikipedia.org/wiki/Napoleonic_Wars" }
+      ]
+    },
+    {
+      "id": "world-war-i",
+      "kind": "war",
+      "name": { "en": "World War I", "fa": "جنگ جهانی اول" },
+      "short": { "en": "WWI", "fa": "جنگ اول" },
+      "start": 1914,
+      "last": 1918,
+      "sources": [{ "title": "World War I — Wikipedia", "url": "https://en.wikipedia.org/wiki/World_War_I" }]
+    },
+    {
+      "id": "world-war-ii",
+      "kind": "war",
+      "name": { "en": "World War II", "fa": "جنگ جهانی دوم" },
+      "short": { "en": "WWII", "fa": "جنگ دوم" },
+      "start": 1939,
+      "last": 1945,
+      "sources": [{ "title": "World War II — Wikipedia", "url": "https://en.wikipedia.org/wiki/World_War_II" }]
+    },
+    {
+      "id": "cold-war",
+      "kind": "era",
+      "name": { "en": "Cold War", "fa": "جنگ سرد" },
+      "short": { "en": "Cold War", "fa": "جنگ سرد" },
+      "start": 1947,
+      "last": 1991,
+      "sources": [{ "title": "Cold War — Wikipedia", "url": "https://en.wikipedia.org/wiki/Cold_War" }]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { clampYear, parseYearInput, stepYear } from "./time";
+import { clampYear, followYear, frame, isFullRange, MIN_SPAN, panWindow, parseYearInput, stepYear, ticksFor, zoomWindow } from "./time";
 
 const range = { from: -500, to: 2026 };
 
@@ -58,5 +58,49 @@ describe("parseYearInput", () => {
     expect(parseYearInput("Qajar")).toBeNull();
     expect(parseYearInput("0")).toBeNull();
     expect(parseYearInput("")).toBeNull();
+  });
+});
+
+describe("zoom window", () => {
+  const all = { from: 1789, to: 2026 };
+
+  it("halves around the focus year and keeps it in place", () => {
+    const next = zoomWindow(all, 0.5, 1919, all);
+    expect(next.to - next.from + 1).toBe(119);
+    const before = (1919 - all.from) / 238;
+    const after = (1919 - next.from) / 119;
+    expect(Math.abs(before - after)).toBeLessThan(0.01);
+  });
+
+  it("never goes below the minimum span or past the range", () => {
+    const tiny = zoomWindow({ from: 1900, to: 1915 }, 0.1, 1910, all);
+    expect(tiny.to - tiny.from + 1).toBe(MIN_SPAN);
+    expect(zoomWindow({ from: 1900, to: 1950 }, 100, 1925, all)).toEqual(all);
+    expect(zoomWindow({ from: 2000, to: 2026 }, 0.5, 2026, all).to).toBe(2026);
+  });
+
+  it("pans within the range", () => {
+    expect(panWindow({ from: 1900, to: 1949 }, 30, all)).toEqual({ from: 1930, to: 1979 });
+    expect(panWindow({ from: 1900, to: 1949 }, 500, all)).toEqual({ from: 1977, to: 2026 });
+    expect(panWindow({ from: 1900, to: 1949 }, -500, all)).toEqual({ from: 1789, to: 1838 });
+  });
+
+  it("follows a year that leaves the window", () => {
+    const view = { from: 1900, to: 1949 };
+    expect(followYear(view, 1920, all)).toBe(view);
+    expect(followYear(view, 1990, all)).toEqual({ from: 1965, to: 2014 });
+  });
+
+  it("frames a reign with a margin", () => {
+    const f = frame({ start: 1909, end: 1925 }, all);
+    expect(f.from).toBeLessThan(1909);
+    expect(f.to).toBeGreaterThan(1925);
+    expect(isFullRange(f, all)).toBe(false);
+    expect(isFullRange(all, all)).toBe(true);
+  });
+
+  it("chooses denser ticks for narrower windows", () => {
+    expect(ticksFor({ from: 1910, to: 1920 }).step).toBe(1);
+    expect(ticksFor(all).labelEvery).toBe(50);
   });
 });

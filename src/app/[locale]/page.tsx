@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Timeline } from "@/components/timeline/timeline";
 import { routing } from "@/i18n/routing";
-import { getAllCountryFiles, getPresets } from "@/lib/data/load";
+import { getAllCountryFiles, getPresets, getWorldPeriods } from "@/lib/data/load";
 import { summarize } from "@/lib/data/summary";
 import { DEFAULT_LANES } from "@/lib/defaults";
 import { RANGE } from "@/lib/time";
@@ -33,6 +33,7 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
         <Timeline
           initialFiles={initialFiles}
           summaries={summaries}
+          world={getWorldPeriods()}
           urls={manifest.countries}
           locale={locale} withheld={withheld.states} presets={getPresets()} />
       </section>

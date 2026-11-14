@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
 import iran from "../../../data/overrides/countries/iran.json";
 import { flagFor, periodsAt, termAt } from "./query";
-import { Year } from "./schema";
+import { WorldPeriod, Year } from "./schema";
+import { getWorldPeriods } from "./load";
 import { checkLane, validateCountryFile } from "./validate";
 
 const clone = () => structuredClone(iran) as typeof iran;
@@ -12,6 +13,19 @@ describe("schema", () => {
     expect(Year.safeParse(0).success).toBe(false);
     expect(Year.safeParse(-500).success).toBe(true);
     expect(Year.safeParse(1919.5).success).toBe(false);
+  });
+});
+
+describe("world periods", () => {
+  it("are valid and in order", () => {
+    const periods = getWorldPeriods();
+    expect(periods.map((p) => p.id)).toContain("world-war-i");
+    expect(periods.map((p) => p.start)).toEqual(periods.map((p) => p.start).toSorted((a, b) => a - b));
+  });
+
+  it("reject a period that ends before it starts", () => {
+    const bad = { ...getWorldPeriods()[0], start: 1950, last: 1940 };
+    expect(WorldPeriod.safeParse(bad).success).toBe(false);
   });
 });
 

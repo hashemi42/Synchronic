@@ -13,6 +13,8 @@ type Props = {
   step: Step;
   locale: CalendarLocale;
   anchor: { term: Reign; name: string } | null;
+  /** The zoomed window, drawn as a lens on the all-time track (TD-2). */
+  view: Range | null;
   onYear: (year: number) => void;
   /** Move by the current step: direction ±1, `times` steps. */
   onMove: (direction: 1 | -1, times?: number) => void;
@@ -20,7 +22,7 @@ type Props = {
   onClearAnchor: () => void;
 };
 
-export function TimeDock({ year, range, step, locale, anchor, onYear, onMove, onStep, onClearAnchor }: Props) {
+export function TimeDock({ year, range, step, locale, anchor, view, onYear, onMove, onStep, onClearAnchor }: Props) {
   const t = useTranslations();
   const hijri = hijriEquivalents(year);
   const era = year < 0 ? "bce" : "ce";
@@ -104,6 +106,7 @@ export function TimeDock({ year, range, step, locale, anchor, onYear, onMove, on
         range={range}
         locale={locale}
         anchor={anchor?.term ?? null}
+        view={view}
         label={t("dock.slider")}
         valueText={valueText}
         onYear={onYear}
@@ -195,6 +198,7 @@ function YearSlider({
   range,
   locale,
   anchor,
+  view,
   label,
   valueText,
   onYear,
@@ -204,6 +208,7 @@ function YearSlider({
   range: Range;
   locale: CalendarLocale;
   anchor: Reign | null;
+  view: Range | null;
   label: string;
   valueText: string;
   onYear: (year: number) => void;
@@ -244,6 +249,12 @@ function YearSlider({
           <div
             style={scale.box(anchor)}
             className="absolute top-1.5 h-4 rounded-sm border-x-2 border-anchor bg-anchor-soft"
+          />
+        )}
+        {view && (
+          <div
+            style={scale.box({ start: view.from, end: view.to + 1 })}
+            className="pointer-events-none absolute top-0.5 h-6 rounded-md border-2 border-ink"
           />
         )}
         {decades.map((y) => (

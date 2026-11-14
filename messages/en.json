@@ -92,5 +92,21 @@
     "none": "No country matches “{query}”.",
     "oftenCompared": "Often compared with {country}",
     "presets": "Preset sets"
+  },
+  "world": {
+    "label": "World",
+    "periods": "World periods",
+    "none": "No world war or era marked",
+    "war": "war",
+    "era": "era"
+  },
+  "zoom": {
+    "label": "Zoom",
+    "showing": "Showing",
+    "in": "Zoom in",
+    "out": "Zoom out",
+    "fitReign": "Fit reign",
+    "reset": "Show all",
+    "hint": "Ctrl + scroll or pinch to zoom; Shift + scroll to move"
   }
 }

@@ -196,7 +196,31 @@ export const Presets = z.strictObject({
   oftenCompared: z.record(Id, z.array(Id).min(1)),
 });
 
+/**
+ * data/overrides/world.json: the world row (IN-8). Unlike everything else,
+ * `last` is the final year included, because a war's last year is a war year
+ * (World War I is 1914–1918, and 1918 shows the war).
+ */
+export const WorldPeriod = z
+  .strictObject({
+    id: Id,
+    kind: z.enum(["war", "era"]),
+    name: Localized,
+    /** A shorter label for narrow screens and small boxes. */
+    short: Localized,
+    start: Year,
+    last: Year,
+    ...sourced,
+  })
+  .refine((p) => p.start <= p.last, { message: "start must not be after last", path: ["last"] });
+
+export const WorldFile = z.strictObject({
+  description: z.string().optional(),
+  periods: z.array(WorldPeriod),
+});
+
 export type Localized = z.infer<typeof Localized>;
+export type WorldPeriod = z.infer<typeof WorldPeriod>;
 export type Presets = z.infer<typeof Presets>;
 export type Source = z.infer<typeof Source>;
 export type Country = z.infer<typeof Country>;

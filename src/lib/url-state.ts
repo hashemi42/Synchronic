@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * Timeline state in the URL (SH-2): ?year=1919&lanes=iran,uk,russia&anchor=ahmad-shah-qajar
+ * Timeline state in the URL (SH-2): ?year=1919&lanes=iran,uk,russia&anchor=ahmad-shah-qajar&from=1900&to=1950
  *
  * A small store rather than `useSearchParams`, so pages stay fully static:
  * the server renders the defaults and the browser adopts the URL on hydration.
@@ -10,13 +10,14 @@
  */
 import { useSyncExternalStore } from "react";
 import { DEFAULT_LANES } from "./defaults";
-import { clampYear, DEFAULT_YEAR } from "./time";
+import { clampYear, DEFAULT_YEAR, isFullRange, MIN_SPAN, RANGE, type Range } from "./time";
 
-export type TimelineState = { year: number; lanes: string[]; anchor: string | null };
+/** `view` is the zoomed time window (IN-10); null shows the whole range. */
+export type TimelineState = { year: number; lanes: string[]; anchor: string | null; view: Range | null };
 
 const ID = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
-export const DEFAULTS: TimelineState = { year: DEFAULT_YEAR, lanes: DEFAULT_LANES, anchor: null };
+export const DEFAULTS: TimelineState = { year: DEFAULT_YEAR, lanes: DEFAULT_LANES, anchor: null, view: null };
 const WRITE_DELAY = 250;
 
 let state: TimelineState | null = null;
@@ -27,12 +28,17 @@ function read(): TimelineState {
   const params = new URLSearchParams(window.location.search);
   const year = Number(params.get("year"));
   const anchor = params.get("anchor");
+  const from = clampYear(Number(params.get("from")));
+  const to = clampYear(Number(params.get("to")));
+  const zoomed =
+    params.has("from") && params.has("to") && to - from + 1 >= MIN_SPAN && !isFullRange({ from, to }, RANGE);
   return {
     year: params.has("year") && Number.isInteger(year) && year !== 0 ? clampYear(year) : DEFAULTS.year,
     lanes: params.has("lanes")
       ? [...new Set((params.get("lanes") ?? "").split(",").filter((id) => ID.test(id)))]
       : DEFAULTS.lanes,
     anchor: anchor && ID.test(anchor) ? anchor : null,
+    view: zoomed ? { from, to } : null,
   };
 }
 
@@ -43,6 +49,13 @@ export function toSearch(next: TimelineState, current = ""): string {
   params.set("lanes", next.lanes.join(","));
   if (next.anchor) params.set("anchor", next.anchor);
   else params.delete("anchor");
+  if (next.view) {
+    params.set("from", String(next.view.from));
+    params.set("to", String(next.view.to));
+  } else {
+    params.delete("from");
+    params.delete("to");
+  }
   // Ids are plain ASCII, so the commas between lanes can stay readable.
   return params.toString().replaceAll("%2C", ",");
 }
@@ -80,7 +93,10 @@ const getServerSnapshot = () => DEFAULTS;
 export function setTimelineState(patch: Partial<TimelineState>) {
   const current = getSnapshot();
   const next = { ...current, ...patch };
-  if (next.year === current.year && next.anchor === current.anchor && next.lanes.join() === current.lanes.join()) return;
+  if (next.view && isFullRange(next.view, RANGE)) next.view = null;
+  const sameView = next.view?.from === current.view?.from && next.view?.to === current.view?.to;
+  if (next.year === current.year && next.anchor === current.anchor && next.lanes.join() === current.lanes.join() && sameView)
+    return;
   state = next;
   emit();
   writeTimer ??= setTimeout(write, WRITE_DELAY);

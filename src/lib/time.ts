@@ -62,3 +62,62 @@ export function parseYearInput(text: string): number | null {
   const negative = /^[-−–]/.test(s) || BCE.test(s);
   return negative ? -n : n;
 }
+
+/*
+ * Zoom (IN-10). The view window is a Range of whole years, both ends included,
+ * like RANGE itself. Window maths uses plain arithmetic: the missing year 0
+ * only matters once the range reaches BCE, and costs a one-year skew there.
+ */
+
+/** The narrowest window, in years. */
+export const MIN_SPAN = 10;
+
+const spanOf = (r: Range) => r.to - r.from + 1;
+
+/** Moves a window of `span` years so it starts near `from` but stays inside `range`. */
+function place(from: number, span: number, range: Range): Range {
+  const width = Math.min(Math.max(Math.round(span), MIN_SPAN), spanOf(range));
+  const start = Math.min(Math.max(Math.round(from), range.from), range.to - width + 1);
+  return { from: start, to: start + width - 1 };
+}
+
+/**
+ * Scales the window by `factor` (below 1 zooms in) around `focus`, a year
+ * that keeps its place on screen: the cursor, or the year under the pointer.
+ */
+export function zoomWindow(view: Range, factor: number, focus: number, range: Range = RANGE): Range {
+  const span = spanOf(view);
+  const next = Math.min(Math.max(span * factor, MIN_SPAN), spanOf(range));
+  const ratio = (focus - view.from) / span;
+  return place(focus - ratio * next, next, range);
+}
+
+/** Shifts the window by `years`, keeping its width. */
+export function panWindow(view: Range, years: number, range: Range = RANGE): Range {
+  return place(view.from + years, spanOf(view), range);
+}
+
+/** The window itself when `year` is inside it, otherwise the window recentred on `year`. */
+export function followYear(view: Range, year: number, range: Range = RANGE): Range {
+  if (year >= view.from && year <= view.to) return view;
+  return place(year - spanOf(view) / 2, spanOf(view), range);
+}
+
+/** A window that frames `r` with a margin on each side, e.g. an anchored reign. */
+export function frame(r: { start: number; end: number | null }, range: Range = RANGE): Range {
+  const end = r.end ?? range.to;
+  const margin = Math.max(2, Math.round((end - r.start) * 0.15));
+  return place(r.start - margin, end - r.start + 1 + 2 * margin, range);
+}
+
+export const isFullRange = (view: Range, range: Range = RANGE) => view.from <= range.from && view.to >= range.to;
+
+/** Axis ticks for a window: every year when narrow, every 50 years when wide. */
+export function ticksFor(view: Range): { step: number; labelEvery: number } {
+  const span = spanOf(view);
+  if (span <= 16) return { step: 1, labelEvery: 2 };
+  if (span <= 40) return { step: 1, labelEvery: 5 };
+  if (span <= 90) return { step: 5, labelEvery: 10 };
+  if (span <= 200) return { step: 10, labelEvery: 20 };
+  return { step: 10, labelEvery: 50 };
+}

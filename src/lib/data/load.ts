@@ -8,7 +8,8 @@ import russia from "../../../data/overrides/countries/russia.json";
 import turkey from "../../../data/overrides/countries/turkey.json";
 import uk from "../../../data/overrides/countries/uk.json";
 import presets from "../../../data/overrides/presets.json";
-import { Presets, type CountryFile } from "./schema";
+import world from "../../../data/overrides/world.json";
+import { Presets, WorldFile, type CountryFile, type WorldPeriod } from "./schema";
 import { validateCountryFile } from "./validate";
 
 // Reads the curated override files directly. The pipeline (PRD §6.3) will
@@ -32,4 +33,8 @@ export function getAllCountryFiles(): CountryFile[] {
 
 export function getPresets(): Presets {
   return Presets.parse(presets);
+}
+
+export function getWorldPeriods(): WorldPeriod[] {
+  return WorldFile.parse(world).periods.toSorted((a, b) => a.start - b.start);
 }

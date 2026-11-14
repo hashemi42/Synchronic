@@ -1,6 +1,7 @@
-/** Validates every country file in data/overrides/countries/. Run: pnpm data:validate */
+/** Validates every country file in data/overrides/countries/, presets and the world row. Run: pnpm data:validate */
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
+import { Presets, WorldFile } from "../src/lib/data/schema";
 import { validateCountryFile } from "../src/lib/data/validate";
 
 const dir = path.join(process.cwd(), "data/overrides/countries");
@@ -21,12 +22,23 @@ async function main() {
     }
   }
 
+  for (const [name, schema] of [["presets.json", Presets], ["world.json", WorldFile]] as const) {
+    const result = schema.safeParse(JSON.parse(await readFile(path.join(process.cwd(), "data/overrides", name), "utf8")));
+    if (result.success) {
+      console.log(`✓ ${name}`);
+    } else {
+      failed++;
+      console.error(`✗ ${name}`);
+      for (const issue of result.error.issues) console.error(`    ${issue.path.join(".")}: ${issue.message}`);
+    }
+  }
+
   if (files.length === 0) {
     console.error("No country files found.");
     process.exit(1);
   }
   if (failed > 0) {
-    console.error(`\n${failed} of ${files.length} files failed validation.`);
+    console.error(`\n${failed} file(s) failed validation.`);
     process.exit(1);
   }
   console.log(`\n${files.length} file(s) valid.`);

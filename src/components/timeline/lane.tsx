@@ -101,7 +101,7 @@ export function Lane({ model, year, range, locale, anchor, mode, withheld, onAnc
           </button>
         </div>
 
-        <div ref={laneRef} dir="ltr" className="relative mt-2">
+        <div ref={laneRef} data-time-track dir="ltr" className="relative mt-2">
           {/* IN-4: the anchor's reign as a tinted band behind both rows, on every lane. */}
           {anchor && (
             <div
@@ -203,11 +203,11 @@ export function Lane({ model, year, range, locale, anchor, mode, withheld, onAnc
           )}
 
           {/* IN-3: the cursor marks the selected year. */}
-          <div
+          {year >= range.from && year <= range.to && <div
             aria-hidden="true"
             style={{ insetInlineStart: scale.cursor(year) }}
             className="pointer-events-none absolute -inset-y-1 z-10 w-0.5 -translate-x-1/2 bg-ink"
-          />
+          />}
         </div>
       </div>
 
