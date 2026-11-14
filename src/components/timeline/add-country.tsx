@@ -1,12 +1,13 @@
 "use client";
 
-import { useEffect, useId, useMemo, useRef, useState } from "react";
+import { useEffect, useEffectEvent, useId, useMemo, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { FlagImage } from "@/components/flag-image";
-import { formatYear, type CalendarLocale } from "@/lib/calendar";
+import { displayYear, type CalendarLocale } from "@/lib/calendar";
 import { covers } from "@/lib/data/query";
 import type { Presets } from "@/lib/data/schema";
 import type { CountrySummary } from "@/lib/data/summary";
+import { OPEN_SEARCH_EVENT } from "@/lib/site";
 import { buildSearchIndex, searchCountries } from "@/lib/search";
 import { prefetchCountryFile } from "./use-country-files";
 
@@ -68,6 +69,25 @@ export function AddCountry({ countries, urls, lanes, max, year, locale, presets,
     setActive(0);
     dialog.current?.showModal();
   };
+  // SH-1: the top bar's search trigger and ⌘K / Ctrl+K open the same dialog.
+  const openFromShell = useEffectEvent(() => {
+    if (!dialog.current?.open) open();
+  });
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && !e.altKey && !e.shiftKey && e.key.toLowerCase() === "k") {
+        e.preventDefault();
+        openFromShell();
+      }
+    };
+    window.addEventListener(OPEN_SEARCH_EVENT, openFromShell);
+    window.addEventListener("keydown", onKey);
+    return () => {
+      window.removeEventListener(OPEN_SEARCH_EVENT, openFromShell);
+      window.removeEventListener("keydown", onKey);
+    };
+  }, []);
+
   // The browser returns focus to the trigger when a modal dialog closes (AC-4).
   const close = () => dialog.current?.close();
 
@@ -166,7 +186,7 @@ export function AddCountry({ countries, urls, lanes, max, year, locale, presets,
               id={listId}
               role="listbox"
               aria-multiselectable="true"
-              aria-label={t("results", { year: formatYear(Math.abs(year), locale) })}
+              aria-label={t("results", { year: displayYear(Math.abs(year), locale) })}
             >
               {results.map((id, i) => {
                 const country = countries.get(id)!;

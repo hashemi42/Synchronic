@@ -1,10 +1,10 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Segmented } from "@/components/segmented";
-import { formatYear, formatYearRange, hijriEquivalents, type CalendarLocale } from "@/lib/calendar";
-import { clampYear, parseYearInput, STEPS, type Range, type Step } from "@/lib/time";
+import { displayYear, formatNumber, formatYear, formatYearRange, headlineYear, hijriEquivalents, tickPositions, type CalendarLocale } from "@/lib/calendar";
+import { clampYear, parseYearInCalendar, STEPS, type Range, type Step } from "@/lib/time";
 import { createScale, type Reign } from "./model";
 
 type Props = {
@@ -24,42 +24,92 @@ type Props = {
 
 export function TimeDock({ year, range, step, locale, anchor, view, onYear, onMove, onStep, onClearAnchor }: Props) {
   const t = useTranslations();
+  const dock = useRef<HTMLElement>(null);
+  // While the dock floats over the page, keyboard focus and in-page jumps scroll clear of it (WCAG 2.4.11).
+  useEffect(() => {
+    const el = dock.current;
+    if (!el) return;
+    const root = document.documentElement;
+    const update = () => {
+      const floating = getComputedStyle(el).position === "sticky";
+      root.style.setProperty("--dock-inset", floating ? `${Math.ceil(el.getBoundingClientRect().height)}px` : "0px");
+    };
+    update();
+    const observer = new ResizeObserver(update);
+    observer.observe(el);
+    // Browsers only scroll focus into the viewport, not out from under a floating panel.
+    const keepFocusClear = (e: FocusEvent) => {
+      const target = e.target;
+      if (!(target instanceof HTMLElement) || el.contains(target) || getComputedStyle(el).position !== "sticky") return;
+      if (target.closest("dialog")) return;
+      const dockTop = el.getBoundingClientRect().top;
+      const box = target.getBoundingClientRect();
+      if (box.bottom > dockTop - 8 && box.top < el.getBoundingClientRect().bottom)
+        window.scrollBy({ top: box.bottom - dockTop + 16, behavior: "instant" });
+    };
+    document.addEventListener("focusin", keepFocusClear);
+    return () => {
+      document.removeEventListener("focusin", keepFocusClear);
+      observer.disconnect();
+      root.style.removeProperty("--dock-inset");
+    };
+  }, []);
   const hijri = hijriEquivalents(year);
   const era = year < 0 ? "bce" : "ce";
+  // L-4: the Persian UI leads with Solar Hijri; the Gregorian year moves to the secondary line.
+  const headline = headlineYear(year, locale);
+  const solar = headline.calendar === "sh";
 
   // TD-1 / A-7: the slider announces the year in every calendar.
+  const gregorianText = `${formatYear(year, locale)} ${t(`calendar.${era}Long`)}`;
   const valueText = [
-    `${formatYear(year, locale)} ${t(`calendar.${era}Long`)}`,
-    hijri && `${formatYearRange(hijri.sh, locale)} ${t("calendar.shLong")}`,
+    solar && `${formatNumber(headline.value, locale)} ${t("calendar.shLong")}`,
+    gregorianText,
+    hijri && !solar && `${formatYearRange(hijri.sh, locale)} ${t("calendar.shLong")}`,
     hijri && `${formatYearRange(hijri.ah, locale)} ${t("calendar.ahLong")}`,
   ]
     .filter(Boolean)
-    .join(", ");
+    .join(locale === "fa" ? "، " : ", ");
 
-  const yr = (y: number | null) => (y === null ? t("lane.present") : formatYear(y, locale));
+  const yr = (y: number | null) => (y === null ? t("lane.present") : displayYear(y, locale));
 
   return (
     <section
+      ref={dock}
       aria-label={t("dock.label")}
-      className="sticky bottom-4 z-20 mt-6 rounded-float-lg border border-hairline bg-surface p-3 shadow-float sm:p-4"
+      className="sticky bottom-4 z-20 mt-6 [@media(max-height:32rem)]:static rounded-float-lg border border-hairline bg-surface p-3 shadow-float sm:p-4"
     >
       <div className="flex flex-wrap items-center gap-x-4 gap-y-3">
-        <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-          <span className="flex items-baseline gap-2">
-            <YearField year={year} range={range} locale={locale} label={t("dock.yearField")} onYear={onYear} />
-            <span className="year text-lg font-semibold">{t(`calendar.${era}`)}</span>
-          </span>
-          {hijri && (
-            <span className="year flex gap-x-3 text-sm text-ink-3">
-              <span>
-                {formatYearRange(hijri.sh, locale)} {t("calendar.sh")}
-              </span>
-              <span aria-hidden="true">·</span>
-              <span>
-                {formatYearRange(hijri.ah, locale)} {t("calendar.ah")}
-              </span>
+        <div className="flex items-center gap-x-4 max-sm:w-full max-sm:justify-between">
+          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+            <span className="flex items-baseline gap-2">
+              <YearField
+                range={range}
+                locale={locale}
+                headline={headline}
+                label={t(solar ? "dock.yearFieldSh" : "dock.yearField")}
+                onYear={onYear}
+              />
+              <span className="year text-lg font-semibold">{t(solar ? "calendar.sh" : `calendar.${era}`)}</span>
             </span>
-          )}
+            {hijri && (
+              <span className="year flex gap-x-3 text-sm text-ink-3">
+                <span>
+                  {solar ? `${formatYear(year, locale)} ${t("calendar.ce")}` : `${formatYearRange(hijri.sh, locale)} ${t("calendar.sh")}`}
+                </span>
+                <span aria-hidden="true">·</span>
+                <span>
+                  {formatYearRange(hijri.ah, locale)} {t("calendar.ah")}
+                </span>
+              </span>
+            )}
+          </div>
+
+          {/* Time runs left → right in both languages, so back is always on the left. */}
+          <span dir="ltr" className="flex shrink-0 gap-1">
+            <StepButton label={t("dock.previous")} direction={-1} onMove={onMove} disabled={year <= range.from} />
+            <StepButton label={t("dock.next")} direction={1} onMove={onMove} disabled={year >= range.to} />
+          </span>
         </div>
 
         {anchor && (
@@ -93,11 +143,6 @@ export function TimeDock({ year, range, step, locale, anchor, view, onYear, onMo
               label: t(`dock.step${s[0].toUpperCase()}${s.slice(1)}` as "dock.stepYear"),
             }))}
           />
-          {/* Time runs left → right in both languages, so back is always on the left. */}
-          <span dir="ltr" className="flex gap-1">
-            <StepButton label={t("dock.previous")} direction={-1} onMove={onMove} disabled={year <= range.from} />
-            <StepButton label={t("dock.next")} direction={1} onMove={onMove} disabled={year >= range.to} />
-          </span>
         </div>
       </div>
 
@@ -152,15 +197,15 @@ function StepButton({
 }
 
 function YearField({
-  year,
   range,
   locale,
+  headline,
   label,
   onYear,
 }: {
-  year: number;
   range: Range;
   locale: CalendarLocale;
+  headline: ReturnType<typeof headlineYear>;
   label: string;
   onYear: (year: number) => void;
 }) {
@@ -169,7 +214,7 @@ function YearField({
 
   const commit = () => {
     if (draft === null) return;
-    const parsed = parseYearInput(draft);
+    const parsed = parseYearInCalendar(draft, headline.calendar);
     if (parsed !== null) onYear(clampYear(parsed, range));
     setDraft(null);
   };
@@ -180,7 +225,7 @@ function YearField({
       inputMode="numeric"
       autoComplete="off"
       aria-label={label}
-      value={draft ?? formatYear(year, locale)}
+      value={draft ?? formatNumber(Math.abs(headline.value), locale)}
       onChange={(e) => setDraft(e.target.value)}
       onFocus={(e) => e.target.select()}
       onBlur={commit}
@@ -224,8 +269,7 @@ function YearSlider({
     return clampYear(Math.floor(range.from + ratio * scale.span), range);
   };
 
-  const decades: number[] = [];
-  for (let y = Math.ceil(range.from / 10) * 10; y <= range.to; y += 10) decades.push(y);
+  const decades = tickPositions({ from: range.from, to: range.to - 1 }, 10, locale);
 
   return (
     // The track is physical left → right in both languages (L-7).
@@ -257,11 +301,11 @@ function YearSlider({
             className="pointer-events-none absolute top-0.5 h-6 rounded-md border-2 border-ink"
           />
         )}
-        {decades.map((y) => (
-          <div key={y} style={{ insetInlineStart: `${scale.pct(y)}%` }} className="absolute top-2">
-            <div className={`w-px bg-edge ${y % 50 === 0 ? "h-3" : "h-2"}`} />
-            {y % 50 === 0 && (
-              <span className="year absolute top-4 -translate-x-1/2 text-2xs text-ink-3">{formatYear(y, locale)}</span>
+        {decades.map(({ pos, value }) => (
+          <div key={pos} style={{ insetInlineStart: `${scale.pct(pos)}%` }} className="absolute top-2">
+            <div className={`w-px bg-edge ${value % 50 === 0 ? "h-3" : "h-2"}`} />
+            {value % 50 === 0 && (
+              <span className="year absolute top-4 -translate-x-1/2 text-2xs text-ink-3">{formatNumber(Math.abs(value), locale)}</span>
             )}
           </div>
         ))}

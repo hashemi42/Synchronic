@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { useTranslations } from "next-intl";
-import { formatYear, type CalendarLocale } from "@/lib/calendar";
+import { displayYear, type CalendarLocale } from "@/lib/calendar";
 import { frame, RANGE, zoomWindow, type Range } from "@/lib/time";
 import type { Reign } from "./model";
 
@@ -30,7 +30,7 @@ export function ZoomControls({ view, zoomed, year, locale, anchor, onView }: Pro
     <div role="group" aria-label={t("label")} className="flex items-center gap-1.5">
       <span className="year me-1 text-sm text-ink-2" aria-live="polite">
         <span className="sr-only">{t("showing")} </span>
-        {formatYear(view.from, locale)}–{formatYear(view.to, locale)}
+        {displayYear(view.from, locale)}–{displayYear(view.to, locale)}
       </span>
       <button
         type="button"

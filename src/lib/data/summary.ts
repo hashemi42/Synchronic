@@ -11,7 +11,7 @@ export type CountrySummary = {
   id: string;
   name: Localized;
   aliases: string[];
-  /** Names of every state that stood on the land, for search. */
+  /** Names of every state that stood on the land, and their capitals, for search. */
   stateNames: string[];
   mainline: { name: Localized | null; note: Localized | null; start: number; end: number | null; kind: LaneKind }[];
   reigns: { name: Localized; title: Localized; start: number; end: number | null }[];
@@ -27,7 +27,7 @@ export function summarize(file: CountryFile, today: number): CountrySummary {
     name: file.country.name,
     aliases: file.country.aliases,
     stateNames: file.states.flatMap((s) =>
-      [s.name.en, s.name.fa, s.officialName?.en, s.officialName?.fa, s.localName].filter((n): n is string => !!n),
+      [s.name.en, s.name.fa, s.officialName?.en, s.officialName?.fa, s.localName, s.capital?.en, s.capital?.fa].filter((n): n is string => !!n),
     ),
     mainline: model.mainline.map((p) => ({
       name: p.label ?? (p.state ? (model.states.get(p.state)?.name ?? null) : null),

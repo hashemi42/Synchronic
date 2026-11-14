@@ -9,6 +9,10 @@ import { expect, test, type Page } from "@playwright/test";
 const WCAG = ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"];
 
 async function audit(page: Page) {
+  // The time dock floats over whatever is behind it until the end of the page, where it rests below
+  // the lanes. axe counts a button under the floating dock as obscured, and which ones those are depends
+  // on layout, so audit at rest; that the dock never covers focus is tested in flows.spec.ts.
+  await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
   const { violations } = await new AxeBuilder({ page }).withTags(WCAG).analyze();
   // Report each violation with the elements it found, so a failure says what to fix.
   const summary = violations.map((v) => ({
@@ -37,8 +41,23 @@ for (const locale of ["en", "fa"] as const) {
 
     test("Add-country dialog", async ({ page }) => {
       await page.goto(`/${locale}?year=1919&lanes=iran`);
-      await page.locator("button[aria-haspopup=dialog]:visible").click();
+      await page.locator("main button[aria-haspopup=dialog]:visible").click();
       await expect(page.getByRole("dialog")).toBeVisible();
+      await audit(page);
+    });
+
+    test("Add-country dialog opened from the top bar", async ({ page }) => {
+      await page.goto(`/${locale}?year=1919&lanes=iran`);
+      await page.locator("header button[aria-haspopup=dialog]:visible").click();
+      await expect(page.getByRole("dialog")).toBeVisible();
+      await audit(page);
+    });
+
+    test("alternative governments, opened", async ({ page }) => {
+      await page.goto(`/${locale}?year=1920&lanes=china`);
+      const badge = page.locator('[data-lane-id="china"]:visible button[aria-controls]');
+      await badge.click();
+      await expect(badge).toHaveAttribute("aria-expanded", "true");
       await audit(page);
     });
 

@@ -1,3 +1,5 @@
+import { SOLAR_HIJRI_OFFSET } from "./calendar";
+
 /** The time range, stepping and year parsing shared by the dock and the lanes. */
 
 export type Range = { from: number; to: number };
@@ -120,4 +122,19 @@ export function ticksFor(view: Range): { step: number; labelEvery: number } {
   if (span <= 90) return { step: 5, labelEvery: 10 };
   if (span <= 200) return { step: 10, labelEvery: 20 };
   return { step: 10, labelEvery: 50 };
+}
+
+const SOLAR_MARK = /(ه‍?\.?\s?ش|شمسی|خورشیدی|\bSH\b|\bAP\b)/i;
+const GREGORIAN_MARK = /(میلادی|\bCE\b|\bAD\b|\d\s*م(?![\u0600-\u06FF]))/i;
+
+/**
+ * Reads a year typed into the dock (L-4). A bare number is in the field's own calendar; "1919 CE",
+ * "۱۹۱۹ م" or "500 BCE" say otherwise, and "۱۲۹۸ ه.ش" says Solar Hijri. Returns a Gregorian year.
+ */
+export function parseYearInCalendar(text: string, fallback: "ce" | "sh"): number | null {
+  const n = parseYearInput(text);
+  if (n === null || n < 0) return n;
+  const s = text.replace(/[۰-۹٠-٩]/g, (d) => DIGITS[d]);
+  const calendar = SOLAR_MARK.test(s) ? "sh" : GREGORIAN_MARK.test(s) ? "ce" : fallback;
+  return calendar === "sh" ? n + SOLAR_HIJRI_OFFSET : n;
 }

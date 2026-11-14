@@ -67,6 +67,8 @@
 html {
   background: var(--color-canvas);
   color: var(--color-ink);
+  /* Set by the time dock while it floats over the page, so focus never lands underneath it. */
+  scroll-padding-bottom: calc(var(--dock-inset, 0px) + 1.5rem);
 }
 
 html[lang="fa"] body {

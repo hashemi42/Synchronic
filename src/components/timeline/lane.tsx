@@ -2,7 +2,7 @@
 
 import { useEffect, useId, useRef, useState, type ReactNode } from "react";
 import { useTranslations } from "next-intl";
-import { formatYear, type CalendarLocale } from "@/lib/calendar";
+import { displayRange, formatNumber, gregorianRange, type CalendarLocale } from "@/lib/calendar";
 import { FlagImage } from "@/components/flag-image";
 import { covers, flagFor, periodsAt, termAt } from "@/lib/data/query";
 import type { Range } from "@/lib/time";
@@ -47,6 +47,9 @@ export function Lane({
 }: Props) {
   const t = useTranslations("lane");
   const cardId = useId();
+  const rivalsId = useId();
+  // IN-6: alternative governments sit behind a "+N" badge.
+  const [showRivals, setShowRivals] = useState(false);
 
   // PO-1: the politics card opens on hover, focus or tap, and stays while the
   // pointer is over it. Escape or a press elsewhere dismisses it.
@@ -90,9 +93,13 @@ export function Lane({
     const box = scale.box(r);
     return (parseFloat(box.width) / 100) * trackWidth >= 24;
   };
-  const yr = (y: number | null) => (y === null ? t("present") : formatYear(y, locale));
-  const years = (r: { start: number; end: number | null }) =>
-    r.start === r.end ? yr(r.start) : `${yr(r.start)}–${yr(r.end)}`;
+  // L-4: Solar Hijri first in Persian; the Gregorian years follow where there is room and in text for screen readers.
+  const years = (r: { start: number; end: number | null }) => displayRange(r, locale, t("present"));
+  const secondary = (r: { start: number; end: number | null }) => gregorianRange(r, locale, t("present"));
+  const yearsFull = (r: { start: number; end: number | null }) => {
+    const g = secondary(r);
+    return g ? `${years(r)} (${g} ${t("ceShort")})` : years(r);
+  };
   const nameOf = (person: string) => persons.get(person)?.name[locale] ?? person;
 
   const { main, rivals } = periodsAt(file, year);
@@ -101,6 +108,20 @@ export function Lane({
   const government = governmentAt(model, year).current;
   const flag = main ? flagFor(file, main, year) : null;
   const country = file.country.name[locale];
+  const renderYears = (r: { start: number; end: number | null }, className = "") => {
+    const g = secondary(r);
+    return (
+      <span className={className}>
+        <span className="year whitespace-nowrap">{years(r)}</span>
+        {g && (
+          <span className="year whitespace-nowrap text-ink-3">
+            {" "}
+            · {g} {t("ceShort")}
+          </span>
+        )}
+      </span>
+    );
+  };
   const headingId = useId();
   const duringReign = anchor && mode === "reign" ? reigns.filter((r) => overlaps(r, anchor)) : null;
 
@@ -157,13 +178,13 @@ export function Lane({
                 <li key={`${period.state}-${period.start}`} style={scale.box(period)} className="absolute inset-y-0">
                   {!wideEnough(period) ? (
                     <div
-                      title={`${name} · ${years(period)}`}
+                      title={`${name} · ${yearsFull(period)}`}
                       className={`size-full overflow-hidden rounded-md border-2 border-surface ${
                         period.kind === "no-state" ? "hatched" : SHADES[i % SHADES.length]
                       }`}
                     >
                       <span className="sr-only">
-                        {name}, {years(period)}
+                        {name}, {yearsFull(period)}
                       </span>
                     </div>
                   ) : (
@@ -193,7 +214,7 @@ export function Lane({
                     <span dir="auto" className="truncate">
                       {name}
                     </span>
-                    <span className="sr-only">, {years(period)}</span>
+                    <span className="sr-only">, {yearsFull(period)}</span>
                   </button>
                   )}
                 </li>
@@ -213,13 +234,13 @@ export function Lane({
                   <li key={`${r.person}-${r.start}`} style={scale.box(r)} className="absolute inset-y-0">
                     {!wideEnough(r) ? (
                       <div
-                        title={`${name} · ${r.title[locale]} · ${years(r)}`}
+                        title={`${name} · ${r.title[locale]} · ${yearsFull(r)}`}
                         className={`size-full rounded border-2 ${anchored ? "border-anchor" : "border-surface"} ${
                           current ? "bg-ink" : inReign ? "bg-surface" : "bg-fill"
                         }`}
                       >
                         <span className="sr-only">
-                          {name}, {years(r)}
+                          {name}, {yearsFull(r)}
                         </span>
                       </div>
                     ) : (
@@ -227,8 +248,8 @@ export function Lane({
                       type="button"
                       aria-pressed={anchored}
                       aria-current={current ? "true" : undefined}
-                      aria-label={t("anchorTo", { name, years: years(r) })}
-                      title={`${name} · ${r.title[locale]} · ${years(r)}`}
+                      aria-label={t("anchorTo", { name, years: yearsFull(r) })}
+                      title={`${name} · ${r.title[locale]} · ${yearsFull(r)}`}
                       onClick={() => onAnchor(anchored ? null : r.person)}
                       className={`flex size-full cursor-pointer items-center overflow-hidden rounded border-2 px-1 text-2xs focus-visible:z-10 ${
                         anchored ? "border-anchor" : "border-surface"
@@ -282,7 +303,7 @@ export function Lane({
             {duringReign.map((r) => (
               <li key={`${r.person}-${r.start}`} className="flex flex-wrap items-baseline gap-x-2">
                 <span className="font-semibold">{nameOf(r.person)}</span>
-                <span className="year text-xs text-ink-2">{years(r)}</span>
+                {renderYears(r, "text-xs text-ink-2")}
               </li>
             ))}
           </ol>
@@ -307,7 +328,7 @@ export function Lane({
               )}
               {reign && (
                 <span className="block text-ink-2">
-                  {reign.title[locale]} · <span className="year">{years(reign)}</span>
+                  {reign.title[locale]} · {renderYears(reign)}
                 </span>
               )}
               {government && (
@@ -327,23 +348,45 @@ export function Lane({
                 </span>
               )}
             </dd>
-            {rivals.map((rival) => {
+            {rivals.length > 0 && (
+              <div className="mt-2 border-t border-hairline pt-2">
+                <dt className="sr-only">{t("rival")}</dt>
+                <dd>
+                  <button
+                    type="button"
+                    aria-expanded={showRivals}
+                    aria-controls={rivalsId}
+                    onClick={() => setShowRivals((v) => !v)}
+                    className="flex min-h-6 items-center gap-1.5 rounded-full border border-edge px-2.5 text-xs font-medium text-ink-2 hover:bg-fill aria-expanded:border-ink aria-expanded:text-ink"
+                  >
+                    <span className="year font-semibold">+{formatNumber(rivals.length, locale)}</span>
+                    {t("rival")}
+                    <svg viewBox="0 0 16 16" aria-hidden="true" className={`size-3 transition-transform ${showRivals ? "rotate-180" : ""}`}>
+                      <path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </button>
+                  <ul id={rivalsId} hidden={!showRivals} className="mt-2 space-y-2">
+                    {rivals.map((rival) => {
               const rivalState = rival.state ? states.get(rival.state) : undefined;
               const rivalTerm = rivalState ? termAt(file, rivalState.id, year) : null;
               const rivalFlag = flagFor(file, rival, year);
               return (
-                <div key={`${rival.state}-${rival.start}`} className="mt-2 border-t border-hairline pt-2">
-                  <dt className="text-2xs font-medium tracking-wide text-ink-3 uppercase">{t("rival")}</dt>
-                  <dd className="text-ink-2" title={rival.note?.[locale]}>
+                <li key={`${rival.state}-${rival.start}`}>
+                  <p className="text-ink-2">
                     {rivalTerm && <span className="block font-medium text-ink">{nameOf(rivalTerm.person)}</span>}
                     <span className="flex flex-wrap items-center gap-x-2">
                       {rivalFlag && <FlagImage flag={rivalFlag} withheld={!!rival.state && withheld.includes(rival.state)} alt="" width={48} className="h-3.5 w-5" />}
-                      {rivalState?.name[locale]} · <span className="year">{years(rival)}</span>
+                      {rivalState?.name[locale]} · {renderYears(rival)}
                     </span>
-                  </dd>
-                </div>
+                  </p>
+                  {rival.note && <p className="mt-0.5 text-xs text-ink-3">{rival.note[locale]}</p>}
+                </li>
               );
             })}
+                  </ul>
+                </dd>
+              </div>
+            )}
           </dl>
         )}
       </div>

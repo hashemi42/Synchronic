@@ -55,6 +55,14 @@ src/lib/calendar.ts         Gregorian / Solar Hijri / Lunar Hijri years
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 
+## Known limitations
+
+- **Search finds countries, not people.** It matches country names, aliases, states and capitals (with spelling variants such as Qajar/Ghajar and Tehran/Teheran), but not rulers. Searching "Victoria" finds nothing.
+- **The "+1" badge sits in a lane's right column**, not on the lane itself. It counts rival governments at the selected year and opens them in place.
+- **Real-device touch testing is still pending.** Taps are tested with Playwright's phone emulation (Pixel 7) only.
+- **Pinch zoom and touch drag-to-reorder need a physical device.** Both are implemented and keyboard-equivalents are tested, but neither has been tried on real hardware.
+- **Persian years are Solar Hijri, one per Gregorian year.** A Gregorian year spans two Solar Hijri years; the UI uses the one in force on 1 July (Gregorian − 621). Dates in the data and URLs stay Gregorian.
+
 ## Licences
 
 Code is [MIT](LICENSE). Data is licensed separately — curated data is CC BY-SA 4.0, Wikidata-derived data is CC0; see [DATA_LICENSE](DATA_LICENSE).

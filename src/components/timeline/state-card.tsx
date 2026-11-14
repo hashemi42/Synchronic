@@ -2,7 +2,7 @@
 
 import type { CSSProperties } from "react";
 import { useTranslations } from "next-intl";
-import { formatYear, type CalendarLocale } from "@/lib/calendar";
+import { displayRange, displayYear, gregorianRange, type CalendarLocale } from "@/lib/calendar";
 import { FlagImage } from "@/components/flag-image";
 import { covers, flagFor } from "@/lib/data/query";
 import type { LanePeriod } from "@/lib/data/schema";
@@ -28,9 +28,12 @@ type Props = {
 export function StateCard({ id, model, period, year, locale, withheld, style, onPointerEnter, onPointerLeave }: Props) {
   const t = useTranslations();
   const state = period.state ? model.states.get(period.state) : undefined;
-  const yr = (y: number | null) => (y === null ? t("lane.present") : formatYear(y, locale));
-  const years = (r: { start: number; end: number | null }) =>
-    r.start === r.end ? yr(r.start) : `${yr(r.start)}–${yr(r.end)}`;
+  // L-4: Solar Hijri first in Persian, with the Gregorian years after it.
+  const yr = (y: number | null) => (y === null ? t("lane.present") : displayYear(y, locale));
+  const years = (r: { start: number; end: number | null }) => {
+    const g = gregorianRange(r, locale, t("lane.present"));
+    return g ? `${displayRange(r, locale, t("lane.present"))} · ${g} ${t("lane.ceShort")}` : displayRange(r, locale, t("lane.present"));
+  };
   const nameOf = (person: string) => model.persons.get(person)?.name[locale] ?? person;
 
   // Content policy §7.3: the consensus label leads, the official name sits beneath.

@@ -6,7 +6,13 @@
   "shell": {
     "skipToTimeline": "Skip to timeline",
     "language": "Language",
-    "primaryNav": "Primary"
+    "primaryNav": "Primary",
+    "search": "Search countries",
+    "view": "View",
+    "viewInfographic": "Infographic",
+    "viewMap": "Map",
+    "soon": "Coming soon",
+    "github": "Synchronic on GitHub (opens in a new tab)"
   },
   "home": {
     "tagline": "World history, side by side",
@@ -44,11 +50,13 @@
     "loading": "Loading…",
     "loadFailed": "This lane could not be loaded.",
     "retry": "Try again",
-    "anchorHint": "Anchor the comparison to this reign"
+    "anchorHint": "Anchor the comparison to this reign",
+    "ceShort": "CE"
   },
   "dock": {
     "label": "Time controls",
     "yearField": "Year",
+    "yearFieldSh": "Solar Hijri year",
     "slider": "Selected year",
     "previous": "Back one step",
     "next": "Forward one step",
@@ -99,7 +107,8 @@
     "periods": "World periods",
     "none": "No world war or era marked",
     "war": "war",
-    "era": "era"
+    "era": "era",
+    "ceShort": "CE"
   },
   "zoom": {
     "label": "Zoom",

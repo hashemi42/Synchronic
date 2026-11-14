@@ -2,7 +2,7 @@
 
 import { useId } from "react";
 import { useTranslations } from "next-intl";
-import { formatYear, type CalendarLocale } from "@/lib/calendar";
+import { displayRange, gregorianRange, type CalendarLocale } from "@/lib/calendar";
 import type { WorldPeriod } from "@/lib/data/schema";
 import type { Range } from "@/lib/time";
 import { createScale, type Reign } from "./model";
@@ -24,8 +24,11 @@ export function WorldRow({ periods, year, range, locale, anchor }: Props) {
   // `last` is the final year included; the lane scale works with half-open ranges.
   const span = (p: WorldPeriod) => ({ start: p.start, end: p.last + 1 });
   const active = visible.filter((p) => p.start <= year && year <= p.last);
-  const years = (p: WorldPeriod) =>
-    p.start === p.last ? formatYear(p.start, locale) : `${formatYear(p.start, locale)}–${formatYear(p.last, locale)}`;
+  const years = (p: WorldPeriod) => {
+    const r = { start: p.start, end: p.last };
+    const g = gregorianRange(r, locale, "");
+    return g ? `${displayRange(r, locale, "")} · ${g} ${t("ceShort")}` : displayRange(r, locale, "");
+  };
 
   return (
     <section aria-labelledby={headingId} data-world-row className="grid gap-x-4 gap-y-2 rounded-t-float-lg bg-fill/60 px-4 py-3 md:grid-cols-[1fr_15rem]">

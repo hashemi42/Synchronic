@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { clampYear, followYear, frame, isFullRange, MIN_SPAN, panWindow, parseYearInput, stepYear, ticksFor, zoomWindow } from "./time";
+import { clampYear, followYear, frame, isFullRange, MIN_SPAN, panWindow, parseYearInCalendar, parseYearInput, stepYear, ticksFor, zoomWindow } from "./time";
 
 const range = { from: -500, to: 2026 };
 
@@ -102,5 +102,29 @@ describe("zoom window", () => {
   it("chooses denser ticks for narrower windows", () => {
     expect(ticksFor({ from: 1910, to: 1920 }).step).toBe(1);
     expect(ticksFor(all).labelEvery).toBe(50);
+  });
+});
+
+describe("parseYearInCalendar (L-4)", () => {
+  it("reads a bare number in the field's own calendar", () => {
+    expect(parseYearInCalendar("1298", "sh")).toBe(1919);
+    expect(parseYearInCalendar("۱۲۹۸", "sh")).toBe(1919);
+    expect(parseYearInCalendar("1919", "ce")).toBe(1919);
+  });
+
+  it("lets an explicit marker override it, either way", () => {
+    expect(parseYearInCalendar("۱۹۱۹ م", "sh")).toBe(1919);
+    expect(parseYearInCalendar("1919 CE", "sh")).toBe(1919);
+    expect(parseYearInCalendar("۱۹۱۹ میلادی", "sh")).toBe(1919);
+    expect(parseYearInCalendar("۱۲۹۸ ه.ش", "ce")).toBe(1919);
+    expect(parseYearInCalendar("1298 SH", "ce")).toBe(1919);
+    expect(parseYearInCalendar("۱۲۹۸ خورشیدی", "ce")).toBe(1919);
+  });
+
+  it("keeps BCE as Gregorian and rejects nonsense", () => {
+    expect(parseYearInCalendar("۵۰۰ پ.م", "sh")).toBe(-500);
+    expect(parseYearInCalendar("500 BCE", "sh")).toBe(-500);
+    expect(parseYearInCalendar("abc", "sh")).toBeNull();
+    expect(parseYearInCalendar("0", "sh")).toBeNull();
   });
 });
