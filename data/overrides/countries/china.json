@@ -208,7 +208,7 @@
       "id": "puyi",
       "name": {
         "en": "Puyi (Xuantong Emperor)",
-        "fa": "پویی (امپراتور شوان‌تونگ)"
+        "fa": "پویی"
       },
       "wikidata": "Q185152",
       "sources": [
@@ -614,7 +614,7 @@
       "id": "yikuang",
       "name": {
         "en": "Yikuang",
-        "fa": "ییکوانگ (شاهزاده چینگ)"
+        "fa": "ییکوانگ"
       },
       "wikidata": "Q1204208",
       "sources": [
@@ -1911,6 +1911,14 @@
         {
           "title": "Zhu De — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Zhu_De"
+        },
+        {
+          "title": "President of the People's Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/President_of_the_People%27s_Republic_of_China"
+        },
+        {
+          "title": "Chairman of the Standing Committee of the National People's Congress — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chairman_of_the_Standing_Committee_of_the_National_People%27s_Congress"
         }
       ]
     },
@@ -1928,6 +1936,14 @@
         {
           "title": "Ye Jianying — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Ye_Jianying"
+        },
+        {
+          "title": "President of the People's Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/President_of_the_People%27s_Republic_of_China"
+        },
+        {
+          "title": "Chairman of the Standing Committee of the National People's Congress — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chairman_of_the_Standing_Committee_of_the_National_People%27s_Congress"
         }
       ]
     },
@@ -2030,6 +2046,31 @@
         {
           "title": "Chiang Kai-shek — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Chiang_Kai-shek"
+        }
+      ]
+    },
+    {
+      "person": "soong-ching-ling",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Acting Chairwoman of the NPC Standing Committee (de facto head of state)",
+        "fa": "سرپرست ریاست کمیتهٔ دائمی کنگرهٔ ملی خلق (رئیس کشور عملی)"
+      },
+      "start": 1976,
+      "end": 1978,
+      "sources": [
+        {
+          "title": "Soong Ching-ling — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Soong_Ching-ling"
+        },
+        {
+          "title": "Chairman of the Standing Committee of the National People's Congress — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chairman_of_the_Standing_Committee_of_the_National_People%27s_Congress"
+        },
+        {
+          "title": "President of the People's Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/President_of_the_People%27s_Republic_of_China"
         }
       ]
     }

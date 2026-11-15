@@ -7,7 +7,8 @@ import russia from "../../../data/overrides/countries/russia.json";
 import turkey from "../../../data/overrides/countries/turkey.json";
 import uk from "../../../data/overrides/countries/uk.json";
 import { validateCountryFile } from "@/lib/data/validate";
-import { buildLaneModel, governmentAt, overlaps, reignAt } from "./model";
+import { getCountryFile } from "@/lib/data/load";
+import { buildLaneModel, governmentAt, headAt, othersAt, overlaps, reignAt } from "./model";
 
 const model = (input: unknown) => {
   const result = validateCountryFile(input);
@@ -92,5 +93,26 @@ describe("governmentAt", () => {
 
   it("has no head of government before the office existed", () => {
     expect(governmentAt(model(germany), 1850).current).toBeNull();
+  });
+});
+
+describe("formal heads of state and other offices (R4, R8)", () => {
+  const modelOf = (id: string) => buildLaneModel(getCountryFile(id)!);
+
+  it("keeps the party leader on the ruler row and the formal head of state apart", () => {
+    const ussr = modelOf("russia");
+    expect(reignAt(ussr, 1970)?.person).toBe("leonid-brezhnev");
+    expect(headAt(ussr, 1970)?.person).toBe("nikolai-podgorny");
+    const china = modelOf("china");
+    expect(headAt(china, 1977)?.person).toBe("soong-ching-ling");
+    expect(headAt(china, 1980)?.person).toBe("ye-jianying");
+  });
+
+  it("lists other offices by year, without touching the ruler row", () => {
+    const iran = modelOf("iran");
+    expect(othersAt(iran, 1985).map((r) => r.person)).toEqual(["ali-khamenei"]);
+    expect(othersAt(iran, 1981).map((r) => r.person)).toEqual(["abolhassan-banisadr", "mohammad-ali-rajai", "ali-khamenei"]);
+    expect(othersAt(iran, 1991)).toEqual([]);
+    expect(reignAt(iran, 1985)?.person).toBe("ruhollah-khomeini");
   });
 });

@@ -1,6 +1,6 @@
 # Data modelling rules
 
-**Status (2026-11-15):** R1, R2, R3, R4, R5, R6, R7 and A1 are **approved and applied**. R8 is **pending** (estimate below). E1–E3 are **fixed**. Rules that leave a Wikidata holder out on purpose are recorded in [data/policy/audit-exceptions.json](../data/policy/audit-exceptions.json), with the reason, so `pnpm data:audit` stops listing them; terms checked by hand against a source are recorded there too.
+**Status (2026-11-15):** R1–R8 and A1 are **approved and applied** (R8 in PR #2). E1–E3 are **fixed**. Rules that leave a Wikidata holder out on purpose are recorded in [data/policy/audit-exceptions.json](../data/policy/audit-exceptions.json), with the reason, so `pnpm data:audit` stops listing them; terms checked by hand against a source are recorded there too.
 
 Each rule says what it does and which rows of [the audit](../artifacts/data-review/audit.csv) it resolved.
 
@@ -61,7 +61,7 @@ After the change, the earlier pieces are compared on their own; where Wikidata h
 
 **Rule.** In one-party states the ruler row keeps the party leader (office `leader`: "Soviet leader", "Paramount leader"), as now. **In addition**, record the formal head of state (USSR: Chairman of the Presidium of the Supreme Soviet; PRC: Chairman, later President) as `head-of-state` terms. The politics card then shows both, "Leader" and "Head of state", instead of only the leader. This needs a small change to the card and the lane model.
 
-**Applied with these decisions:** Dong Biwu is kept as Acting Chairman, 1972–1975; Soong Ching-ling's honorary title of May 1981 is left out. Checking the sources showed that Soong was Acting Chairman, with Dong, from 31 October 1968 to 24 February 1972, so she is recorded for those years and Dong for 1972–1975 (English Wikipedia infoboxes of both; Wikidata gives both 1968–1975). The years 1976–1978, when Soong was acting chair of the NPC Standing Committee, are left empty: the sources found do not say clearly that she acted as head of state.
+**Applied with these decisions:** Dong Biwu is kept as Acting Chairman, 1972–1975; Soong Ching-ling's honorary title of May 1981 is left out. Checking the sources showed that Soong was Acting Chairman, with Dong, from 31 October 1968 to 24 February 1972, so she is recorded for those years and Dong for 1972–1975 (English Wikipedia infoboxes of both; Wikidata gives both 1968–1975). **Update (PR #2):** under R2, the chairs of the NPC Standing Committee are recorded as de facto heads of state while the state chairmanship was abolished (1975–1983), all with the same title: Zhu De (1975–1976), Soong Ching-ling as acting chair (1976–1978) and Ye Jianying (1978–1983). Sources: the 1975 constitution gave the state chairman's function of representing the state to the chairman of the Standing Committee ([President of the People's Republic of China](https://en.wikipedia.org/wiki/President_of_the_People%27s_Republic_of_China)); Soong "was again the acting Head of State" from 1976 to 1978 ([Soong Ching-ling](https://en.wikipedia.org/wiki/Soong_Ching-ling)); Ye "served as China's head of state from 1978 until 1983" ([Ye Jianying](https://en.wikipedia.org/wiki/Ye_Jianying)).
 
 **Resolves (13):**
 
@@ -88,7 +88,9 @@ After the change, the earlier pieces are compared on their own; where Wikidata h
 
 **Resolves (2):** Nikolay Rumyantsev (1810–1812), and Ivan Shcheglovitov (1917), who was Chairman of the State Council, not of the Council of Ministers. The latter is an error in Wikidata.
 
-## R8. Iran's presidency, 1980–1989 (pending)
+## R8. Iran's presidency, 1980–1989 (applied in PR #2)
+
+**Applied:** a fourth office type, `other`, named by the term's title. Iran's presidents are recorded under it: Abolhassan Banisadr (4 February 1980 – 22 June 1981), Mohammad-Ali Rajai (2–30 August 1981) and Ali Khamenei (9 October 1981 – 16 August 1989), each checked against the English Wikipedia infobox. The politics card shows them as "President in 1985"; the ruler row stays the Supreme Leader. `pnpm merge:hog` leaves `other` terms alone.
 
 **Decision so far:** the Supreme Leader is head of state and the Prime Minister head of government, but the presidents of 1980–1989 must stay visible on the politics card as "President".
 

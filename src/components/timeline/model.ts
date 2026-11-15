@@ -24,6 +24,8 @@ export type LaneModel = {
    * ruler row shows the leader, and the card adds the formal head of state from here.
    */
   heads: Reign[];
+  /** Other formal offices (R8), such as Iran's presidents of 1980–1989. */
+  others: Reign[];
   /** Years in which a reign begins: the stops of the "reign" step. */
   boundaries: number[];
 };
@@ -80,6 +82,7 @@ export function buildLaneModel(file: CountryFile): LaneModel {
     ofState(state).filter((term) => term.office === "head-of-government"),
   );
   const heads = buildSegments(mainline, (state) => ofState(state).filter((term) => term.office === "head-of-state"));
+  const others = buildSegments(mainline, (state) => ofState(state).filter((term) => term.office === "other"));
 
   return {
     file,
@@ -89,6 +92,7 @@ export function buildLaneModel(file: CountryFile): LaneModel {
     reigns,
     governments,
     heads,
+    others,
     boundaries: [...new Set(reigns.filter((r) => r.start !== r.end).map((r) => r.start))],
   };
 }
@@ -98,6 +102,10 @@ export const reignAt = (model: LaneModel, year: number) => model.reigns.find((r)
 
 /** The formal head of state at a year (R4); differs from `reignAt` only where a party leader rules. */
 export const headAt = (model: LaneModel, year: number) => model.heads.find((r) => covers(r, year)) ?? null;
+
+/** Holders of other offices at a year (R8): every term that covers it, or began or ended in it. */
+export const othersAt = (model: LaneModel, year: number) =>
+  model.others.filter((r) => covers(r, year) || r.start === year || r.end === year);
 
 /**
  * The head of government at a year, and everyone else who held the office

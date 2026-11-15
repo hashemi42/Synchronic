@@ -227,8 +227,9 @@ function compareTerms(file: CountryFile, statements: { P35: Statement[]; P6: Sta
       source = "P6 or P39";
     }
 
-    // R4: party leaders are modelled apart from the formal head of state, which Wikidata's P35 holds.
-    if (leader) continue;
+    // R4: party leaders are modelled apart from the formal head of state, which Wikidata's P35 holds;
+    // R8: other offices (Iran's presidents of 1980–1989) are neither P35 nor P6.
+    if (leader || g.office === "other") continue;
     const report = (span: Span, against: Span[], what: string) => {
       const record = `${g.office} · ${[...new Set(span.parts)].join(", ")}`;
       const verdict = judge(span, against);

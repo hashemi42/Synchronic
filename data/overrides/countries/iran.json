@@ -1016,6 +1016,20 @@
           "url": "https://www.wikidata.org/wiki/Q8215953"
         }
       ]
+    },
+    {
+      "id": "abolhassan-banisadr",
+      "name": {
+        "en": "Abolhassan Banisadr",
+        "fa": "ابوالحسن بنی‌صدر"
+      },
+      "wikidata": "Q273866",
+      "sources": [
+        {
+          "title": "Abolhassan Banisadr — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abolhassan_Banisadr"
+        }
+      ]
     }
   ],
   "lane": [
@@ -2553,6 +2567,57 @@
         {
           "title": "Masoud Pezeshkian — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q5933752"
+        }
+      ]
+    },
+    {
+      "person": "abolhassan-banisadr",
+      "state": "islamic-republic-of-iran",
+      "office": "other",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1980,
+      "end": 1981,
+      "sources": [
+        {
+          "title": "Abolhassan Banisadr — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abolhassan_Banisadr"
+        }
+      ]
+    },
+    {
+      "person": "mohammad-ali-rajai",
+      "state": "islamic-republic-of-iran",
+      "office": "other",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1981,
+      "end": 1981,
+      "sources": [
+        {
+          "title": "Mohammad-Ali Rajai — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mohammad-Ali_Rajai"
+        }
+      ]
+    },
+    {
+      "person": "ali-khamenei",
+      "state": "islamic-republic-of-iran",
+      "office": "other",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1981,
+      "end": 1989,
+      "sources": [
+        {
+          "title": "Ali Khamenei — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ali_Khamenei"
         }
       ]
     }
