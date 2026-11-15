@@ -1,0 +1,68 @@
+name: Bug
+description: Something in the app does not work as it should.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: And what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Press …
+        3. See …
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link to the view
+      description: Copy the address from the browser; it holds the year, lanes, anchor and zoom.
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - English
+        - Persian (فارسی)
+        - Both
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - Desktop or laptop
+        - Phone
+        - Tablet
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: Safari 19 on iOS 20
+  - type: dropdown
+    id: input
+    attributes:
+      label: How were you using it?
+      multiple: true
+      options:
+        - Mouse
+        - Touch
+        - Keyboard only
+        - Screen reader
+        - Zoomed in / large text
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots, console errors, or the name and version of an assistive technology.

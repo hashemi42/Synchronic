@@ -1,0 +1,77 @@
+name: Data correction
+description: A date, name, ruler, flag or label is wrong or missing.
+title: "[Data] "
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Every change to the data needs a source, so please include one: a scholarly book or article, an official record, or an encyclopedia entry with references. A Wikipedia article is fine as a starting point.
+
+        Disputed history is decided by the [content policy](https://github.com/hashemi42/Synchronic/blob/main/docs/CONTRIBUTING.md#content-policy).
+  - type: dropdown
+    id: country
+    attributes:
+      label: Country lane
+      options:
+        - Iran
+        - United Kingdom
+        - Russia
+        - Turkey
+        - France
+        - Germany
+        - China
+        - India
+        - Japan
+        - World row (wars and eras)
+        - Other / not listed
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of data?
+      options:
+        - Head of state (ruler)
+        - Head of government
+        - State or dynasty (name, years, capital, system)
+        - Flag
+        - Name in Persian or English
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link to the view
+      description: Copy the address from the browser, so we see the same year and lanes you did.
+      placeholder: https://…/en?year=1919&lanes=iran,uk
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What the site shows
+      placeholder: "Ahmad Shah Qajar's reign ends in 1925."
+    validations:
+      required: true
+  - type: textarea
+    id: right
+    attributes:
+      label: What it should show
+      placeholder: "His reign ends on 31 October 1925, when parliament deposed him."
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Links or full references, with page numbers where you can. Sources in any language are welcome.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: I have read the source myself, not only a summary of it.
+          required: true
+        - label: I can help write the fix in a pull request.

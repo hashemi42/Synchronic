@@ -54,7 +54,16 @@ src/lib/calendar.ts         Gregorian / Solar Hijri / Lunar Hijri years
 - `office: "leader"` marks a de facto ruler outside the formal offices (Soviet general secretaries, China's paramount leaders); the lane shows these instead of the head of state.
 - A lane has no gaps or overlaps. Parallel governments are `kind: "rival"`; periods without a state are `kind: "no-state"` with a note.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
+See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for the full guide.
+
+## Found a mistake?
+
+History data is never finished. If a date, name, ruler or flag is wrong:
+
+1. Open a [data correction](https://github.com/hashemi42/Synchronic/issues/new?template=data-correction.yml) with a source, or
+2. Fix it yourself in `data/overrides/countries/<country>.json` and open a pull request; [CONTRIBUTING](docs/CONTRIBUTING.md) explains the format.
+
+Disputed history follows the [content policy](docs/CONTRIBUTING.md#content-policy). Bugs go in the [bug form](https://github.com/hashemi42/Synchronic/issues/new?template=bug.yml); security problems are reported privately, see [SECURITY](docs/SECURITY.md). Everyone taking part follows the [code of conduct](docs/CODE_OF_CONDUCT.md).
 
 ## Known limitations
 

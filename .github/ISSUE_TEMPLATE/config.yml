@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security problem
+    url: https://github.com/hashemi42/Synchronic/security/advisories/new
+    about: Please report vulnerabilities privately, not in a public issue.
+  - name: Content policy
+    url: https://github.com/hashemi42/Synchronic/blob/main/docs/CONTRIBUTING.md#content-policy
+    about: How disputed history and withheld symbols are decided.

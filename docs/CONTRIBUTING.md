@@ -1,6 +1,8 @@
 # Contributing to Synchronic
 
-Thank you for helping. Most contributions are **data**: adding or fixing a state, a ruler or a date for a country you know well.
+Thank you for helping. Most contributions are **data**: adding or fixing a state, a ruler or a date for a country you know well. Everyone taking part follows the [code of conduct](CODE_OF_CONDUCT.md).
+
+Not ready to edit files? Open a [data correction](https://github.com/hashemi42/Synchronic/issues/new?template=data-correction.yml) with your source instead.
 
 ## Add or fix data
 

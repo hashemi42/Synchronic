@@ -1,0 +1,37 @@
+name: Add a country
+description: Propose a new country lane.
+title: "[Country] "
+labels: ["new country"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A lane is the land of a modern country, and every state that stood on it since 1789, with its rulers. See [CONTRIBUTING](https://github.com/hashemi42/Synchronic/blob/main/docs/CONTRIBUTING.md#add-or-fix-data) for what a country file holds.
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      description: The modern country, in English and, if you can, in Persian.
+      placeholder: Egypt · مصر
+    validations:
+      required: true
+  - type: textarea
+    id: states
+    attributes:
+      label: States since 1789
+      description: A rough list of the states or dynasties on that land, with years. It does not need to be complete.
+      placeholder: |
+        Ottoman Egypt, 1789–1805
+        Muhammad Ali dynasty, 1805–1953
+        …
+  - type: textarea
+    id: sources
+    attributes:
+      label: Good sources for its rulers
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Help
+      options:
+        - label: I can write or review the country file.
+        - label: I can check the Persian names.
