@@ -1,6 +1,8 @@
-# Data modelling rules (draft, not applied)
+# Data modelling rules
 
-**Status: proposed.** Nothing here has changed the data or the audit yet. Each rule says what it would do and which rows of [the audit](../artifacts/data-review/audit.csv) it resolves. Approve, change or reject each one; then I apply the approved ones and rerun `pnpm data:audit`.
+**Status (2026-11-15):** R1, R2, R3, R4, R5, R6, R7 and A1 are **approved and applied**. R8 is **pending** (estimate below). E1–E3 are **fixed**. Rules that leave a Wikidata holder out on purpose are recorded in [data/policy/audit-exceptions.json](../data/policy/audit-exceptions.json), with the reason, so `pnpm data:audit` stops listing them; terms checked by hand against a source are recorded there too.
+
+Each rule says what it does and which rows of [the audit](../artifacts/data-review/audit.csv) it resolved.
 
 The audit raised **7 high rows** (years differ by more than one) and **48 rows where Wikidata has a holder we don't**. Every one of them is covered below:
 
@@ -59,6 +61,8 @@ After the change, the earlier pieces are compared on their own; where Wikidata h
 
 **Rule.** In one-party states the ruler row keeps the party leader (office `leader`: "Soviet leader", "Paramount leader"), as now. **In addition**, record the formal head of state (USSR: Chairman of the Presidium of the Supreme Soviet; PRC: Chairman, later President) as `head-of-state` terms. The politics card then shows both, "Leader" and "Head of state", instead of only the leader. This needs a small change to the card and the lane model.
 
+**Applied with these decisions:** Dong Biwu is kept as Acting Chairman, 1972–1975; Soong Ching-ling's honorary title of May 1981 is left out. Checking the sources showed that Soong was Acting Chairman, with Dong, from 31 October 1968 to 24 February 1972, so she is recorded for those years and Dong for 1972–1975 (English Wikipedia infoboxes of both; Wikidata gives both 1968–1975). The years 1976–1978, when Soong was acting chair of the NPC Standing Committee, are left empty: the sources found do not say clearly that she acted as head of state.
+
 **Resolves (13):**
 
 - **USSR (6):** Mikhail Kalinin 1922–1946, Nikolai Shvernik 1946–1953, Kliment Voroshilov 1953–1960, Anastas Mikoyan 1964–1965, Mykola Pidhornyi 1965–1977, Andrei Gromyko 1985–1988. (Kuznetsov is under R3.)
@@ -84,7 +88,25 @@ After the change, the earlier pieces are compared on their own; where Wikidata h
 
 **Resolves (2):** Nikolay Rumyantsev (1810–1812), and Ivan Shcheglovitov (1917), who was Chairman of the State Council, not of the Council of Ministers. The latter is an error in Wikidata.
 
-## R8. Iran's presidency, 1980–1989
+## R8. Iran's presidency, 1980–1989 (pending)
+
+**Decision so far:** the Supreme Leader is head of state and the Prime Minister head of government, but the presidents of 1980–1989 must stay visible on the politics card as "President".
+
+**Estimate for a third office type** (about half a day, roughly 150 lines plus tests):
+
+| Part | Change |
+| --- | --- |
+| Schema (`schema.ts`) | Add `"other"` to `Office`: a formal office that is neither head of state nor head of government, named by the term's `title`. One line plus its comment. |
+| Validation | Nothing new: terms of an `other` office may overlap the head of state's and government's, like any office. |
+| Data | Three terms in `iran.json`: Abolhassan Banisadr (1980–1981), Mohammad-Ali Rajai (1981) and Ali Khamenei (1981–1989), each titled President / رئیس‌جمهور, with sources. |
+| Merge script | The Iran presidency rule (Q838380) emits terms before 1989 as `other` instead of dropping them, so a rerun keeps them. |
+| Lane model | An `others` list of segments, built like `governments`, and an `otherAt(model, year)` helper. |
+| Politics card | One more row, labelled with the term's own title ("President in 1985"), shown only when such a term covers the year; in a period summary, "Presidents". Two strings in each language. |
+| Lane right column, ruler row, OG image | No change: the ruler row stays the Supreme Leader. |
+| Audit | `other` terms are not compared with P35/P6; Banisadr and Khamenei move from "R8 (pending)" to "R8" in the exceptions. |
+| Tests | A unit test for the model, an e2e test that the card in 1985 shows Khomeini (head of state), Mousavi (head of government) and Khamenei (President), and the axe check of that card in both languages. |
+
+The same type would serve any later office that matters for context but is neither head of state nor head of government.
 
 **Rule.** From 1979 the Supreme Leader is Iran's head of state, and until 1989 the Prime Minister was head of government. The President in those years was neither, so the presidency is not recorded as either office. From 1989 the President is head of government, as now. A later "Other offices" line on the card could show the 1980–1989 presidents.
 

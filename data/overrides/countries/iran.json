@@ -892,20 +892,6 @@
       ]
     },
     {
-      "id": "ataollah-mohajerani",
-      "name": {
-        "en": "Ata'ollah Mohajerani",
-        "fa": "عطاءالله مهاجرانی"
-      },
-      "wikidata": "Q3893833",
-      "sources": [
-        {
-          "title": "Ata'ollah Mohajerani — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3893833"
-        }
-      ]
-    },
-    {
       "id": "akbar-hashemi-rafsanjani",
       "name": {
         "en": "Akbar Hashemi Rafsanjani",
@@ -2448,23 +2434,6 @@
         {
           "title": "Mir-Hossein Mousavi — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q217154"
-        }
-      ]
-    },
-    {
-      "person": "ataollah-mohajerani",
-      "state": "islamic-republic-of-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1985,
-      "end": 1989,
-      "sources": [
-        {
-          "title": "Ata'ollah Mohajerani — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3893833"
         }
       ]
     },

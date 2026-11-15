@@ -15,3 +15,9 @@ export const OFFICES: Record<string, string[]> = {
   india: ["Q192711"], // Prime Minister of India
   japan: ["Q274948"], // Prime Minister of Japan
 };
+
+/**
+ * Offices that became the head of government in a given year: a term already under way then counts
+ * from that year (Erdoğan's presidency from 2018). Used by the merge script and the audit (A1).
+ */
+export const HEAD_OF_GOVERNMENT_FROM: Record<string, number> = { Q1922067: 2018, Q838380: 1989 };

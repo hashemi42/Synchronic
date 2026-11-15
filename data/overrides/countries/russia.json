@@ -645,20 +645,6 @@
       ]
     },
     {
-      "id": "andrey-belousov",
-      "name": {
-        "en": "Andrey Belousov",
-        "fa": "اندری بلوسف"
-      },
-      "wikidata": "Q4082839",
-      "sources": [
-        {
-          "title": "Andrey Belousov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q4082839"
-        }
-      ]
-    },
-    {
       "id": "mikhail-mishustin",
       "name": {
         "en": "Mikhail Mishustin",
@@ -739,6 +725,104 @@
         {
           "title": "Alexander Trepov — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q620555"
+        }
+      ]
+    },
+    {
+      "id": "valentin-pavlov",
+      "name": {
+        "en": "Valentin Pavlov",
+        "fa": "والنتین پاولوف"
+      },
+      "wikidata": "Q435367",
+      "sources": [
+        {
+          "title": "Valentin Pavlov — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q435367"
+        }
+      ]
+    },
+    {
+      "id": "mikhail-kalinin",
+      "name": {
+        "en": "Mikhail Kalinin",
+        "fa": "میخائیل کالینین"
+      },
+      "wikidata": "Q229828",
+      "sources": [
+        {
+          "title": "Mikhail Kalinin — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mikhail_Kalinin"
+        }
+      ]
+    },
+    {
+      "id": "nikolai-shvernik",
+      "name": {
+        "en": "Nikolai Shvernik",
+        "fa": "نیکولای شوورنیک"
+      },
+      "wikidata": "Q355639",
+      "sources": [
+        {
+          "title": "Nikolai Shvernik — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nikolai_Shvernik"
+        }
+      ]
+    },
+    {
+      "id": "kliment-voroshilov",
+      "name": {
+        "en": "Kliment Voroshilov",
+        "fa": "کلیمنت ووروشیلوف"
+      },
+      "wikidata": "Q186185",
+      "sources": [
+        {
+          "title": "Kliment Voroshilov — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kliment_Voroshilov"
+        }
+      ]
+    },
+    {
+      "id": "anastas-mikoyan",
+      "name": {
+        "en": "Anastas Mikoyan",
+        "fa": "آناستاس میکویان"
+      },
+      "wikidata": "Q152738",
+      "sources": [
+        {
+          "title": "Anastas Mikoyan — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anastas_Mikoyan"
+        }
+      ]
+    },
+    {
+      "id": "nikolai-podgorny",
+      "name": {
+        "en": "Nikolai Podgorny",
+        "fa": "نیکولای پادگورنی"
+      },
+      "wikidata": "Q295781",
+      "sources": [
+        {
+          "title": "Nikolai Podgorny — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nikolai_Podgorny"
+        }
+      ]
+    },
+    {
+      "id": "andrei-gromyko",
+      "name": {
+        "en": "Andrei Gromyko",
+        "fa": "آندری گرومیکو"
+      },
+      "wikidata": "Q184267",
+      "sources": [
+        {
+          "title": "Andrei Gromyko — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Andrei_Gromyko"
         }
       ]
     }
@@ -1513,6 +1597,23 @@
       ]
     },
     {
+      "person": "valentin-pavlov",
+      "state": "soviet-union",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1991,
+      "end": 1991,
+      "sources": [
+        {
+          "title": "Valentin Pavlov — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Valentin_Pavlov"
+        }
+      ]
+    },
+    {
       "person": "boris-yeltsin",
       "state": "russian-federation",
       "office": "head-of-government",
@@ -1751,40 +1852,6 @@
       ]
     },
     {
-      "person": "andrey-belousov",
-      "state": "russian-federation",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2020,
-      "end": 2020,
-      "sources": [
-        {
-          "title": "Andrey Belousov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q4082839"
-        }
-      ]
-    },
-    {
-      "person": "dmitry-medvedev",
-      "state": "russian-federation",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2020,
-      "end": 2020,
-      "sources": [
-        {
-          "title": "Dmitry Medvedev — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q23530"
-        }
-      ]
-    },
-    {
       "person": "mikhail-mishustin",
       "state": "russian-federation",
       "office": "head-of-government",
@@ -1798,6 +1865,244 @@
         {
           "title": "Mikhail Mishustin — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q4298520"
+        }
+      ]
+    },
+    {
+      "person": "mikhail-kalinin",
+      "state": "soviet-union",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Central Executive Committee",
+        "fa": "رئیس کمیتهٔ اجرایی مرکزی"
+      },
+      "start": 1922,
+      "end": 1938,
+      "sources": [
+        {
+          "title": "Mikhail Kalinin — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mikhail_Kalinin"
+        }
+      ]
+    },
+    {
+      "person": "mikhail-kalinin",
+      "state": "soviet-union",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
+      },
+      "start": 1938,
+      "end": 1946,
+      "sources": [
+        {
+          "title": "Mikhail Kalinin — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mikhail_Kalinin"
+        }
+      ]
+    },
+    {
+      "person": "nikolai-shvernik",
+      "state": "soviet-union",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
+      },
+      "start": 1946,
+      "end": 1953,
+      "sources": [
+        {
+          "title": "Nikolai Shvernik — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nikolai_Shvernik"
+        }
+      ]
+    },
+    {
+      "person": "kliment-voroshilov",
+      "state": "soviet-union",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
+      },
+      "start": 1953,
+      "end": 1960,
+      "sources": [
+        {
+          "title": "Kliment Voroshilov — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kliment_Voroshilov"
+        }
+      ]
+    },
+    {
+      "person": "leonid-brezhnev",
+      "state": "soviet-union",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
+      },
+      "start": 1960,
+      "end": 1964,
+      "sources": [
+        {
+          "title": "Leonid Brezhnev — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leonid_Brezhnev"
+        }
+      ]
+    },
+    {
+      "person": "anastas-mikoyan",
+      "state": "soviet-union",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
+      },
+      "start": 1964,
+      "end": 1965,
+      "sources": [
+        {
+          "title": "Anastas Mikoyan — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anastas_Mikoyan"
+        }
+      ]
+    },
+    {
+      "person": "nikolai-podgorny",
+      "state": "soviet-union",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
+      },
+      "start": 1965,
+      "end": 1977,
+      "sources": [
+        {
+          "title": "Nikolai Podgorny — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nikolai_Podgorny"
+        }
+      ]
+    },
+    {
+      "person": "leonid-brezhnev",
+      "state": "soviet-union",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
+      },
+      "start": 1977,
+      "end": 1982,
+      "sources": [
+        {
+          "title": "Leonid Brezhnev — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leonid_Brezhnev"
+        }
+      ]
+    },
+    {
+      "person": "yuri-andropov",
+      "state": "soviet-union",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
+      },
+      "start": 1983,
+      "end": 1984,
+      "sources": [
+        {
+          "title": "Yuri Andropov — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yuri_Andropov"
+        }
+      ]
+    },
+    {
+      "person": "konstantin-chernenko",
+      "state": "soviet-union",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
+      },
+      "start": 1984,
+      "end": 1985,
+      "sources": [
+        {
+          "title": "Konstantin Chernenko — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Konstantin_Chernenko"
+        }
+      ]
+    },
+    {
+      "person": "andrei-gromyko",
+      "state": "soviet-union",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
+      },
+      "start": 1985,
+      "end": 1988,
+      "sources": [
+        {
+          "title": "Andrei Gromyko — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Andrei_Gromyko"
+        }
+      ]
+    },
+    {
+      "person": "mikhail-gorbachev",
+      "state": "soviet-union",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
+      },
+      "start": 1988,
+      "end": 1989,
+      "sources": [
+        {
+          "title": "Mikhail Gorbachev — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev"
+        }
+      ]
+    },
+    {
+      "person": "mikhail-gorbachev",
+      "state": "soviet-union",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Supreme Soviet",
+        "fa": "رئیس شورای عالی"
+      },
+      "start": 1989,
+      "end": 1990,
+      "sources": [
+        {
+          "title": "Mikhail Gorbachev — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev"
+        }
+      ]
+    },
+    {
+      "person": "mikhail-gorbachev",
+      "state": "soviet-union",
+      "office": "head-of-state",
+      "title": {
+        "en": "President of the Soviet Union",
+        "fa": "رئیس‌جمهور اتحاد شوروی"
+      },
+      "start": 1990,
+      "end": 1991,
+      "sources": [
+        {
+          "title": "Mikhail Gorbachev — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev"
         }
       ]
     }

@@ -87,7 +87,10 @@
     "headOfGovernmentIn": "رئیس دولت در {year}",
     "headsOfGovernment": "رؤسای دولت",
     "alsoInYear": "همچنین در {year}: {names}",
-    "noGovernment": "رئیس دولتی ثبت نشده است"
+    "noGovernment": "رئیس دولتی ثبت نشده است",
+    "leaderIn": "رهبر در {year}",
+    "leaders": "رهبران",
+    "noHeadOfState": "بدون رئیس کشور رسمی"
   },
   "add": {
     "trigger": "افزودن کشور",

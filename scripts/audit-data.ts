@@ -19,7 +19,7 @@ import { readFileSync } from "node:fs";
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fold } from "../src/lib/search";
-import { OFFICES } from "./offices";
+import { HEAD_OF_GOVERNMENT_FROM, OFFICES } from "./offices";
 
 const UA = { "User-Agent": "SynchronicDataAudit/0.1 (open-source history timeline)" };
 const root = process.cwd();
@@ -31,7 +31,7 @@ const FIRST = 1789;
 
 type Localized = { en: string; fa: string };
 type Source = { title: string; url: string };
-type Term = { person: string; state: string; office: string; start: number; end: number | null; sources: Source[] };
+type Term = { person: string; state: string; office: string; title: Localized; start: number; end: number | null; sources: Source[] };
 type Person = { id: string; name: Localized; wikidata?: string; sources: Source[] };
 type State = { id: string; name: Localized; wikidata?: string; sources: Source[] };
 type CountryFile = {
@@ -133,16 +133,20 @@ SELECT ?office ?person ?start ?end WHERE {
   OPTIONAL { ?st pq:P580 ?start . }
   OPTIONAL { ?st pq:P582 ?end . }
 }`);
-  return bindings.map((b) => ({
-    person: qid(b.person!.value),
-    start: yearOf(b.start?.value),
-    end: yearOf(b.end?.value),
-    via: `P39 ${qid(b.office!.value)}`,
-  }));
+  // A1: an office counts only from the year it became the head of government (Turkey's presidency
+  // from 2018), so a president's earlier term is not taken for a prime minister's.
+  return bindings.flatMap((b) => {
+    const office = qid(b.office!.value);
+    const from = HEAD_OF_GOVERNMENT_FROM[office];
+    const start = yearOf(b.start?.value);
+    const end = yearOf(b.end?.value);
+    if (from !== undefined && end !== null && end <= from) return [];
+    return [{ person: qid(b.person!.value), start: from !== undefined && start !== null ? Math.max(start, from) : start, end, via: `P39 ${office}` }];
+  });
 }
 
 /** A person's unbroken time in an office, after joining back-to-back pieces (cabinets, changes of state). */
-type Span = { start: number | null; end: number | null; parts: string[]; sources?: string[] };
+type Span = { start: number | null; end: number | null; parts: string[]; sources?: string[]; titles?: string[] };
 
 const endOf = (v: number | null) => v ?? NOW;
 
@@ -156,7 +160,8 @@ function join(spans: Span[]): Span[] {
       if (last.end !== null && (s.end === null || s.end > last.end)) last.end = s.end;
       last.parts.push(...s.parts);
       last.sources = [...(last.sources ?? []), ...(s.sources ?? [])];
-    } else out.push({ ...s, parts: [...s.parts], sources: [...(s.sources ?? [])] });
+      last.titles = [...(last.titles ?? []), ...(s.titles ?? [])];
+    } else out.push({ ...s, parts: [...s.parts], sources: [...(s.sources ?? [])], titles: [...(s.titles ?? [])] });
   }
   return out;
 }
@@ -164,8 +169,29 @@ function join(spans: Span[]): Span[] {
 const overlap = (a: Span, b: Span) =>
   Math.min(endOf(a.end), endOf(b.end)) - Math.max(a.start ?? -Infinity, b.start ?? -Infinity);
 
+type Verdict = { kind: "ok" } | { kind: "none" } | { kind: "lacksDate"; best: Span } | { kind: "differs"; best: Span; off: number };
+
+/** Compares one of our spans with the Wikidata spans for the same person and office. */
+function judge(span: Span, theirs: Span[]): Verdict {
+  const best = theirs.filter((t) => overlap(span, t) >= 0).sort((a, b) => overlap(span, b) - overlap(span, a))[0];
+  if (!best) return { kind: "none" };
+  // Terms that began before the lane's first year may keep their true start.
+  const startOk = best.start === null || best.start === span.start || (span.start! <= FIRST && best.start <= FIRST);
+  const endOk = best.end === null ? true : span.end === null ? best.end >= NOW : best.end === span.end;
+  if (!startOk || !endOk) {
+    const off = Math.max(
+      best.start === null ? 0 : Math.abs(best.start - span.start!),
+      span.end !== null && best.end !== null ? Math.abs(best.end - span.end) : 0,
+    );
+    return { kind: "differs", best, off };
+  }
+  if (best.start === null || (best.end === null && span.end !== null)) return { kind: "lacksDate", best };
+  return { kind: "ok" };
+}
+
 function compareTerms(file: CountryFile, statements: { P35: Statement[]; P6: Statement[]; P39: Statement[] }) {
   const persons = new Map(file.persons.map((p) => [p.id, p]));
+  const stateQid = new Map(file.states.map((x) => [x.id, x.wikidata]));
   const country = file.country.id;
   const ours = new Set<string>();
 
@@ -174,7 +200,7 @@ function compareTerms(file: CountryFile, statements: { P35: Statement[]; P6: Sta
   for (const t of file.terms) {
     const key = `${t.person}|${t.office}`;
     const g = groups.get(key) ?? { person: t.person, office: t.office, spans: [] };
-    g.spans.push({ start: t.start, end: t.end, parts: [t.state], sources: t.sources.map((x) => x.url) });
+    g.spans.push({ start: t.start, end: t.end, parts: [t.state], sources: t.sources.map((x) => x.url), titles: [t.title.en] });
     groups.set(key, g);
   }
   const wdSpans = (list: Statement[], q: string) =>
@@ -200,39 +226,63 @@ function compareTerms(file: CountryFile, statements: { P35: Statement[]; P6: Sta
       theirs = wdSpans(statements.P39, q);
       source = "P6 or P39";
     }
-    const listed = theirs.map((s) => years(s.start, s.end)).join(", ");
 
-    for (const span of join(g.spans)) {
+    // R4: party leaders are modelled apart from the formal head of state, which Wikidata's P35 holds.
+    if (leader) continue;
+    const report = (span: Span, against: Span[], what: string) => {
       const record = `${g.office} · ${[...new Set(span.parts)].join(", ")}`;
-      const best = theirs.filter((t) => overlap(span, t) >= 0).sort((a, b) => overlap(span, b) - overlap(span, a))[0];
-      if (!best) {
+      const verdict = judge(span, against);
+      const note = verified[`${q}:${g.office}:${span.start}-${span.end}`];
+      if (note && verdict.kind !== "ok") {
+        rows.push({ severity: "low", check: "term: checked by hand", country, record, name, ours: years(span.start, span.end), wikidata: verdict.kind === "none" ? "" : years(verdict.best.start, verdict.best.end), detail: note, link, verdict: "verified" });
+        return;
+      }
+      if (verdict.kind === "none") {
+        const others = against.map((t) => years(t.start, t.end)).join(", ");
         rows.push({
           severity: leader ? "low" : "medium",
-          check: leader ? "term: leader not modelled in Wikidata P35/P6" : `term: not in Wikidata ${source}`,
-          country, record, name, ours: years(span.start, span.end), wikidata: listed,
-          detail: listed ? "Wikidata has other terms for this person, not this one." : "Check the source; Wikidata may be incomplete.",
+          check: leader ? "term: leader not modelled in Wikidata P35/P6" : `term: not in Wikidata ${what}`,
+          country, record, name, ours: years(span.start, span.end), wikidata: others,
+          detail: others ? "Wikidata has other terms for this person, not this one." : "Check the source; Wikidata may be incomplete.",
           link,
           evidence: leader ? undefined : { urls: [...new Set(span.sources)], names: [person?.name.en ?? name], start: span.start, end: span.end },
         });
+      } else if (verdict.kind === "differs") {
+        rows.push({
+          severity: leader ? "low" : verdict.off > 1 || (span.end === null && verdict.best.end !== null) ? "high" : "medium",
+          check: leader ? "term: leader's years differ from a P35/P6 office" : "term: years differ",
+          country, record, name, ours: years(span.start, span.end), wikidata: years(verdict.best.start, verdict.best.end),
+          detail: `via ${[...new Set(verdict.best.parts)].join(", ")}`, link,
+        });
+      } else if (verdict.kind === "lacksDate") {
+        rows.push({ severity: "low", check: "term: Wikidata lacks a date", country, record, name, ours: years(span.start, span.end), wikidata: years(verdict.best.start, verdict.best.end), detail: `via ${[...new Set(verdict.best.parts)].join(", ")}`, link });
+      }
+    };
+
+    for (const span of join(g.spans)) {
+      const states = [...new Set(span.parts)];
+      // R1: a term that runs across states of the lane (First Consul, then Emperor) is compared
+      // state by state with each state's item when the joined term does not match.
+      if (!leader && states.length > 1 && judge(span, theirs).kind === "differs") {
+        for (const state of states) {
+          const piece = join(g.spans.filter((x) => x.parts.includes(state)))[0];
+          const item = stateQid.get(state);
+          const own = item ? wdSpans(statements[prop].filter((x) => x.via.endsWith(` on ${item}`)), q) : [];
+          report(piece, own, `${prop} for this state`);
+        }
         continue;
       }
-      // Terms that began before the lane's first year may keep their true start.
-      const startOk = best.start === null || best.start === span.start || (span.start! <= FIRST && best.start <= FIRST);
-      const endOk = best.end === null ? true : span.end === null ? best.end >= NOW : best.end === span.end;
-      if (!startOk || !endOk) {
-        const off = Math.max(
-          best.start === null ? 0 : Math.abs(best.start - span.start!),
-          span.end !== null && best.end !== null ? Math.abs(best.end - span.end) : 0,
-        );
-        rows.push({
-          severity: leader ? "low" : off > 1 || (span.end === null && best.end !== null) ? "high" : "medium",
-          check: leader ? "term: leader's years differ from a P35/P6 office" : "term: years differ",
-          country, record, name, ours: years(span.start, span.end), wikidata: years(best.start, best.end),
-          detail: `via ${[...new Set(best.parts)].join(", ")}`, link,
-        });
-      } else if (best.start === null || (best.end === null && span.end !== null)) {
-        rows.push({ severity: "low", check: "term: Wikidata lacks a date", country, record, name, ours: years(span.start, span.end), wikidata: years(best.start, best.end), detail: `via ${[...new Set(best.parts)].join(", ")}`, link });
+      // R1: pieces under different titles (Chairman, then President) are checked one by one when
+      // Wikidata has nothing to compare them with, so each can be confirmed by its own source.
+      const titles = [...new Set(span.titles)];
+      if (titles.length > 1 && judge(span, theirs).kind === "none") {
+        for (const title of titles) {
+          const pieces = g.spans.filter((x) => x.titles?.includes(title) && overlap(x, span) >= 0);
+          for (const piece of join(pieces)) report(piece, theirs, source);
+        }
+        continue;
       }
+      report(span, theirs, source);
     }
   }
 
@@ -249,6 +299,9 @@ function compareTerms(file: CountryFile, statements: { P35: Statement[]; P6: Sta
 }
 
 const missing: { country: string; prop: "P35" | "P6"; statement: Statement }[] = [];
+
+/** Terms checked by hand against a source, keyed "QID:office:start-end" (data/policy/audit-exceptions.json). */
+let verified: Record<string, string> = {};
 
 // ---------------------------------------------------------------- 2. Persian names
 
@@ -296,11 +349,35 @@ function comparePersian(country: string, record: string, ours: Localized, q: str
 }
 
 /**
- * The Persian-name review sheet: every name that differs from Wikidata or has no Persian label.
- * Where ours differs, the proposal is the title of the Persian Wikipedia article (without its
- * disambiguator), falling back to the Wikidata label; unlabelled names keep ours for a reader.
+ * The Persian-name review sheet: every name that differs from Wikidata or has no Persian label,
+ * with a proposal under the naming rule (docs/data-rules.md, "Persian names"):
+ *
+ * - **States** use their official Persian name: the file's `officialName.fa`, else the Persian
+ *   Wikipedia title, else the Wikidata label, else ours.
+ * - **People** use the short common name: ours, the Wikidata label or the Persian Wikipedia
+ *   title, each without a disambiguator in brackets or a leading honorific, and the shortest of
+ *   them that keeps a regnal number when the English name has one.
+ *
+ * Nothing is applied; the sheet is for review.
  */
-async function persianSheet() {
+const HONORIFIC = /^(ملکه|امپراتور|امپراتریس|پادشاه|شاهزاده|سر|مارشال)\s+/;
+const ORDINAL = /\b([IVX]+|\d+(st|nd|rd|th))\b/;
+const ORDINAL_FA = /(یکم|اول|دوم|سوم|چهارم|پنجم|ششم|هفتم|هشتم|نهم|دهم|یازدهم|دوازدهم|سیزدهم|چهاردهم|پانزدهم|شانزدهم)/;
+
+/** Shortens by dropping parts (brackets, honorifics, extra words), never by preferring another spelling. */
+function shortName(candidates: (string | undefined)[], english: string): string | null {
+  const clean = (c: string) => c.replace(/\s*\([^)]*\)\s*/g, " ").replace(HONORIFIC, "").replace(/\s+/g, " ").trim();
+  const [ours, ...others] = candidates.map((c) => (c ? clean(c) : undefined));
+  if (!ours) return null;
+  const words = (c: string) => c.split(/[\s-]+/).length;
+  const needsOrdinal = ORDINAL.test(english);
+  const fewer = others.filter(
+    (c): c is string => !!c && words(c) < words(ours) && c.length < ours.length && (!needsOrdinal || ORDINAL_FA.test(c)),
+  );
+  return fewer.sort((a, b) => words(a) - words(b))[0] ?? ours;
+}
+
+async function persianSheet(files: CountryFile[]) {
   const wanted = rows.filter((r) => r.check.startsWith("Persian name") && r.qid);
   const info = new Map<string, { label?: string; title?: string; url?: string }>();
   for (const batch of chunks([...new Set(wanted.map((r) => r.qid!))], 150)) {
@@ -313,22 +390,40 @@ SELECT ?item ?label ?title ?article WHERE {
     for (const b of bindings)
       info.set(qid(b.item!.value), { label: b.label?.value, title: b.title?.value, url: b.article?.value });
   }
-  const header = ["kind", "country", "record", "english", "ours", "wikidata_label", "fawiki_title", "proposed", "basis", "link", "verdict", "fix"];
+  const states = new Map(files.flatMap((f) => f.states.map((x) => [x.id, x] as const)));
+  const header = ["kind", "type", "country", "record", "english", "ours", "wikidata_label", "fawiki_title", "proposed", "change", "basis", "link", "verdict", "fix"];
   const lines = [header.join(",")];
+  let changes = 0;
   for (const r of wanted.sort((a, b) => a.check.localeCompare(b.check) || a.country.localeCompare(b.country) || a.name.localeCompare(b.name))) {
     const i = info.get(r.qid!) ?? {};
     const title = i.title?.replace(/\s*\([^)]*\)\s*$/, "");
-    const differs = r.check.includes("differs");
-    const proposed = differs ? (title ?? i.label ?? "") : r.ours;
-    const basis = differs ? (title ? "Persian Wikipedia title" : "Wikidata Persian label") : "ours (no Persian label or article)";
+    const isState = r.record.startsWith("state ");
+    const state = isState ? states.get(r.record.slice(6)) : undefined;
+    let proposed: string;
+    let basis: string;
+    if (isState) {
+      const official = (state as { officialName?: Localized } | undefined)?.officialName?.fa;
+      // An article title is not an official name ("هند" for the Republic of India), so without a
+      // recorded official name the state keeps ours and the row asks for one.
+      proposed = official ?? r.ours;
+      basis = official ? "state: official name in our file" : "state: no official Persian name recorded; please supply one";
+    } else if (r.record === "country") {
+      proposed = r.ours;
+      basis = "country: modern common name, unchanged";
+    } else {
+      proposed = shortName([r.ours, i.label, title], r.name) ?? r.ours;
+      basis = proposed === r.ours ? "person: ours is already the short common name" : "person: short common name";
+    }
+    const change = fold(proposed).replace(/\s/g, "") !== fold(r.ours).replace(/\s/g, "");
+    if (change) changes++;
     lines.push(
-      [differs ? "differs" : "no Persian label", r.country, r.record, r.name, r.ours, i.label ?? "", i.title ?? "", proposed, basis, i.url ?? r.link, "", ""]
+      [r.check.includes("differs") ? "differs" : "no Persian label", isState ? "state" : r.record === "country" ? "country" : "person", r.country, r.record, r.name, r.ours, i.label ?? "", i.title ?? "", proposed, change ? "yes" : "no", basis, i.url ?? r.link, "", ""]
         .map(csv)
         .join(","),
     );
   }
   await writeFile(path.join(outDir, "persian-names.csv"), "\uFEFF" + lines.join("\n") + "\n");
-  return wanted.length;
+  return { rows: wanted.length, changes };
 }
 
 // ---------------------------------------------------------------- 3. source URLs
@@ -500,6 +595,7 @@ async function main() {
   for (const name of (await readdir(dir)).filter((f) => f.endsWith(".json")).sort())
     files.push(JSON.parse(await readFile(path.join(dir, name), "utf8")));
 
+  verified = (JSON.parse(await readFile(path.join(root, "data/policy/audit-exceptions.json"), "utf8")) as { verified: Record<string, string> }).verified;
   console.log("Terms against Wikidata P35/P6 …");
   let terms = 0;
   for (const file of files) {
@@ -522,7 +618,13 @@ async function main() {
     ),
   ].filter((q): q is string => !!q);
   const known = await labels([...qids, ...new Set(missing.map((m) => m.statement.person))]);
+  const exceptions = (JSON.parse(await readFile(path.join(root, "data/policy/audit-exceptions.json"), "utf8")) as { missing: Record<string, string> }).missing;
+  let excepted = 0;
   for (const { country, prop, statement: s } of missing) {
+    if (exceptions[s.person]) {
+      excepted++;
+      continue;
+    }
     rows.push({
       severity: "medium",
       check: `missing from data: Wikidata ${prop} holder`,
@@ -553,7 +655,7 @@ async function main() {
   const header = ["severity", "check", "country", "record", "name", "ours", "wikidata", "detail", "link", "verdict", "fix"];
   const lines = [header.join(","), ...rows.map((r) => [r.severity, r.check, r.country, r.record, r.name, r.ours, r.wikidata, r.detail, r.link, r.verdict ?? "", ""].map(csv).join(","))];
   await writeFile(path.join(outDir, "audit.csv"), "﻿" + lines.join("\n") + "\n");
-  const persian = await persianSheet();
+  const persian = await persianSheet(files);
 
   const counts = new Map<string, number>();
   for (const r of rows) counts.set(`${r.severity}|${r.check}`, (counts.get(`${r.severity}|${r.check}`) ?? 0) + 1);
@@ -581,7 +683,9 @@ async function main() {
           "",
         ]
       : []),
-    `Persian names that differ from Wikidata or have no Persian label are also in [persian-names.csv](persian-names.csv) (${persian} rows), with a proposed spelling: the Persian Wikipedia article title where ours differs.`,
+    `Persian names that differ from Wikidata or have no Persian label are also in [persian-names.csv](persian-names.csv) (${persian.rows} rows), with a proposal under the naming rule (states: official name; people: short common name). ${persian.changes} of them would change.`,
+    "",
+    `${excepted} Wikidata holders the data leaves out on purpose are not listed; each has its rule in [data/policy/audit-exceptions.json](../../data/policy/audit-exceptions.json).`,
     "",
     "**Severity.** *high*: a source that fails, or years more than one apart. *medium*: a one-year difference, a record Wikidata lacks or has and we do not, a Persian name that differs or has no Wikidata label. *low*: Wikidata lacks a date, or models the office differently.",
     "",

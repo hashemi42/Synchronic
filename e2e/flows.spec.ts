@@ -406,6 +406,37 @@ test.describe("top bar (SH-1) @both", () => {
   });
 });
 
+test.describe("party leader and formal head of state (R4) @both", () => {
+  test("the Soviet card names the leader and the head of state apart", async ({ page }) => {
+    await page.goto("/en?year=1970&lanes=russia");
+    await lane(page, "russia").locator("ol").first().getByRole("button", { name: /^Soviet Union/ }).focus();
+    const card = page.getByRole("tooltip");
+    await expect(card).toContainText("Leader in 1970");
+    await expect(card).toContainText("Leonid Brezhnev");
+    await expect(card).toContainText("Head of state in 1970");
+    await expect(card).toContainText("Nikolai Podgorny");
+    await expect(card).toContainText("Chairman of the Presidium of the Supreme Soviet");
+    // The ruler row is unchanged: the leader.
+    await expect(lane(page, "russia")).toContainText("Leonid Brezhnev");
+  });
+
+  test("China in 1965, in Persian", async ({ page }) => {
+    await page.goto("/fa?year=1965&lanes=china");
+    await lane(page, "china").locator("ol").first().getByRole("button", { name: /^جمهوری خلق چین/ }).focus();
+    const card = page.getByRole("tooltip");
+    await expect(card).toContainText("مائو تسه‌تونگ");
+    await expect(card).toContainText("لیو شائوچی");
+  });
+
+  test("a lane without a party leader keeps a single head-of-state row", async ({ page }) => {
+    await page.goto("/en?year=1970&lanes=uk");
+    await lane(page, "uk").locator("ol").first().getByRole("button", { name: /^United Kingdom\s*,/ }).focus();
+    const card = page.getByRole("tooltip");
+    await expect(card).toContainText("Head of state in 1970");
+    await expect(card).not.toContainText("Leader in");
+  });
+});
+
 test.describe("link previews (NF-6)", () => {
   const meta = (html: string, property: string) =>
     new RegExp(`<meta (?:property|name)="${property}" content="([^"]*)"`).exec(html)?.[1]?.replaceAll("&amp;", "&");

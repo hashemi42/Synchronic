@@ -82,7 +82,6 @@ Disputed history follows the [content policy](docs/CONTRIBUTING.md#content-polic
 - **Pinch zoom and touch drag-to-reorder need a physical device.** Both are implemented and keyboard-equivalents are tested, but neither has been tried on real hardware.
 - **The detail track has no event dots.** The data has no events yet (the schema exists), so it shows ticks, the cursor and the anchor's reign only.
 - **Phones shorter than 704 px (44rem) hide the era strip and detail track** to keep the floating dock compact. The lanes' own axis and the slider cover the same ground.
-- **Persian link-preview images have uneven spaces between words.** The image renderer joins Persian letters correctly but has no right-to-left layout, so the image is laid out word by word. The page title and description, which most apps show as text, are unaffected.
 - **Persian years are Solar Hijri, one per Gregorian year.** A Gregorian year spans two Solar Hijri years; the UI uses the one in force on 1 July (Gregorian − 621). Dates in the data and URLs stay Gregorian.
 
 ## Licences

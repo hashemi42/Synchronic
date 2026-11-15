@@ -84,7 +84,12 @@ export function describeComparison(state: TimelineState, locale: CalendarLocale)
     };
   });
 
-  const list = new Intl.ListFormat(locale === "fa" ? "fa" : "en", { type: "conjunction" }).format(lanes.map((l) => l.country));
+  const names = lanes.map((l) => l.country);
+  // Persian lists take no comma before "و": "ایران، بریتانیا و روسیه".
+  const list =
+    locale === "fa" && names.length > 1
+      ? `${names.slice(0, -1).join("، ")} و ${names.at(-1)}`
+      : new Intl.ListFormat("en", { type: "conjunction" }).format(names);
   const sh = locale === "fa" ? solarHijriYear(state.year) : null;
   const year = sh !== null ? `${displayYear(state.year, locale)} (${formatYear(state.year, locale)} ${words.ce})` : formatYear(state.year, locale);
 
