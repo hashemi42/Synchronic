@@ -11,6 +11,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "data:validate": "tsx scripts/validate-data.ts",
+    "data:audit": "tsx scripts/audit-data.ts",
     "spike:iran": "tsx scripts/spike-iran-heads-of-state.ts",
     "fetch:flags": "tsx scripts/fetch-flags.ts",
     "mirror:flags": "tsx scripts/mirror-flags.ts",
@@ -20,6 +21,8 @@
     "test:e2e": "playwright test"
   },
   "dependencies": {
+    "bidi-js": "1.1.0",
+    "harfbuzzjs": "0.4.15",
     "next": "16.4.6",
     "next-intl": "^4.15.1",
     "react": "19.3.0",

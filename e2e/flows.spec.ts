@@ -406,6 +406,73 @@ test.describe("top bar (SH-1) @both", () => {
   });
 });
 
+test.describe("party leader and formal head of state (R4) @both", () => {
+  test("the Soviet card names the leader and the head of state apart", async ({ page }) => {
+    await page.goto("/en?year=1970&lanes=russia");
+    await lane(page, "russia").locator("ol").first().getByRole("button", { name: /^Soviet Union/ }).focus();
+    const card = page.getByRole("tooltip");
+    await expect(card).toContainText("Leader in 1970");
+    await expect(card).toContainText("Leonid Brezhnev");
+    await expect(card).toContainText("Head of state in 1970");
+    await expect(card).toContainText("Nikolai Podgorny");
+    await expect(card).toContainText("Chairman of the Presidium of the Supreme Soviet");
+    // The ruler row is unchanged: the leader.
+    await expect(lane(page, "russia")).toContainText("Leonid Brezhnev");
+  });
+
+  test("China in 1965, in Persian", async ({ page }) => {
+    await page.goto("/fa?year=1965&lanes=china");
+    await lane(page, "china").locator("ol").first().getByRole("button", { name: /^جمهوری خلق چین/ }).focus();
+    const card = page.getByRole("tooltip");
+    await expect(card).toContainText("مائو تسه‌تونگ");
+    await expect(card).toContainText("لیو شائوچی");
+  });
+
+  test("a lane without a party leader keeps a single head-of-state row", async ({ page }) => {
+    await page.goto("/en?year=1970&lanes=uk");
+    await lane(page, "uk").locator("ol").first().getByRole("button", { name: /^United Kingdom\s*,/ }).focus();
+    const card = page.getByRole("tooltip");
+    await expect(card).toContainText("Head of state in 1970");
+    await expect(card).not.toContainText("Leader in");
+  });
+});
+
+test.describe("link previews (NF-6)", () => {
+  const meta = (html: string, property: string) =>
+    new RegExp(`<meta (?:property|name)="${property}" content="([^"]*)"`).exec(html)?.[1]?.replaceAll("&amp;", "&");
+
+  test("a shared comparison describes itself to link-preview bots", async ({ request }) => {
+    const res = await request.get("/en?year=1919&lanes=iran,uk,russia&anchor=ahmad-shah-qajar", {
+      headers: { "User-Agent": "facebookexternalhit/1.1" },
+    });
+    const html = await res.text();
+    expect(meta(html, "og:title")).toBe("Iran, United Kingdom, and Russia during the reign of Ahmad Shah Qajar (1909–1925)");
+    expect(meta(html, "og:description")).toContain("George V (King)");
+    expect(meta(html, "twitter:card")).toBe("summary_large_image");
+    const image = new URL(meta(html, "og:image")!);
+    expect(image.pathname + image.search).toBe("/en/og?year=1919&lanes=iran,uk,russia&anchor=ahmad-shah-qajar");
+
+    const png = await request.get(image.pathname + image.search);
+    expect(png.status()).toBe(200);
+    expect(png.headers()["content-type"]).toBe("image/png");
+    expect((await png.body()).length).toBeGreaterThan(10_000);
+  });
+
+  test("in Persian the title leads with the Solar Hijri year", async ({ request }) => {
+    const html = await (await request.get("/fa?year=1919&lanes=iran,uk", { headers: { "User-Agent": "Twitterbot/1.0" } })).text();
+    expect(meta(html, "og:title")).toBe("ایران و بریتانیا در ۱۲۹۸ (۱۹۱۹ م)");
+    expect(meta(html, "og:locale")).toBe("fa_IR");
+    expect((await request.get("/fa/og?year=1919&lanes=iran,uk")).status()).toBe(200);
+  });
+
+  test("the page itself is unchanged, and unknown lanes get no preview image", async ({ page, request }) => {
+    await page.goto("/en?year=1919&lanes=iran");
+    await expect(page).toHaveTitle(/Iran in 1919/);
+    await expect(lane(page, "iran")).toContainText("Ahmad Shah Qajar");
+    expect((await request.get("/en/og?year=1919&lanes=atlantis")).status()).toBe(404);
+  });
+});
+
 test.describe("self-hosted assets @both", () => {
   test("a page makes no request to another site, and every flag loads", async ({ page }) => {
     const foreign: string[] = [];

@@ -1164,6 +1164,20 @@
           "url": "https://www.wikidata.org/wiki/Q60115"
         }
       ]
+    },
+    {
+      "id": "sabine-bergmann-pohl",
+      "name": {
+        "en": "Sabine Bergmann-Pohl",
+        "fa": "زابینه برگمان-پول"
+      },
+      "wikidata": "Q57232",
+      "sources": [
+        {
+          "title": "Sabine Bergmann-Pohl — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sabine_Bergmann-Pohl"
+        }
+      ]
     }
   ],
   "lane": [
@@ -2575,6 +2589,23 @@
         {
           "title": "Friedrich Merz — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q566257"
+        }
+      ]
+    },
+    {
+      "person": "sabine-bergmann-pohl",
+      "state": "east-germany",
+      "office": "head-of-state",
+      "title": {
+        "en": "President of the People's Chamber (head of state)",
+        "fa": "رئیس مجلس خلق (رئیس کشور)"
+      },
+      "start": 1990,
+      "end": 1990,
+      "sources": [
+        {
+          "title": "Sabine Bergmann-Pohl — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sabine_Bergmann-Pohl"
         }
       ]
     }

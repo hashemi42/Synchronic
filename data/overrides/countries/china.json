@@ -735,6 +735,104 @@
           "url": "https://www.wikidata.org/wiki/Q99829"
         }
       ]
+    },
+    {
+      "id": "liu-shaoqi",
+      "name": {
+        "en": "Liu Shaoqi",
+        "fa": "لیو شائوچی"
+      },
+      "wikidata": "Q16988",
+      "sources": [
+        {
+          "title": "Liu Shaoqi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Liu_Shaoqi"
+        }
+      ]
+    },
+    {
+      "id": "soong-ching-ling",
+      "name": {
+        "en": "Soong Ching-ling",
+        "fa": "سونگ چینگ‌لینگ"
+      },
+      "wikidata": "Q17132",
+      "sources": [
+        {
+          "title": "Soong Ching-ling — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Soong_Ching-ling"
+        }
+      ]
+    },
+    {
+      "id": "dong-biwu",
+      "name": {
+        "en": "Dong Biwu",
+        "fa": "دونگ بیوو"
+      },
+      "wikidata": "Q968038",
+      "sources": [
+        {
+          "title": "Dong Biwu — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dong_Biwu"
+        }
+      ]
+    },
+    {
+      "id": "zhu-de",
+      "name": {
+        "en": "Zhu De",
+        "fa": "چو ته"
+      },
+      "wikidata": "Q22513",
+      "sources": [
+        {
+          "title": "Zhu De — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zhu_De"
+        }
+      ]
+    },
+    {
+      "id": "ye-jianying",
+      "name": {
+        "en": "Ye Jianying",
+        "fa": "یه جیان یینگ"
+      },
+      "wikidata": "Q504372",
+      "sources": [
+        {
+          "title": "Ye Jianying — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ye_Jianying"
+        }
+      ]
+    },
+    {
+      "id": "li-xiannian",
+      "name": {
+        "en": "Li Xiannian",
+        "fa": "لی شیانیان"
+      },
+      "wikidata": "Q311413",
+      "sources": [
+        {
+          "title": "Li Xiannian — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Li_Xiannian"
+        }
+      ]
+    },
+    {
+      "id": "yang-shangkun",
+      "name": {
+        "en": "Yang Shangkun",
+        "fa": "یانگ شانگکون"
+      },
+      "wikidata": "Q377935",
+      "sources": [
+        {
+          "title": "Yang Shangkun — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yang_Shangkun"
+        }
+      ]
     }
   ],
   "lane": [
@@ -1094,7 +1192,7 @@
         "fa": "رئیس دولت ملی"
       },
       "start": 1943,
-      "end": 1949,
+      "end": 1948,
       "sources": [
         {
           "title": "Chiang Kai-shek — Wikipedia",
@@ -1711,6 +1809,227 @@
         {
           "title": "Li Qiang — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q4414390"
+        }
+      ]
+    },
+    {
+      "person": "mao-zedong",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Central People's Government",
+        "fa": "رئیس دولت مرکزی خلق"
+      },
+      "start": 1949,
+      "end": 1954,
+      "sources": [
+        {
+          "title": "Mao Zedong — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mao_Zedong"
+        }
+      ]
+    },
+    {
+      "person": "mao-zedong",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the People's Republic of China",
+        "fa": "رئیس جمهوری خلق چین"
+      },
+      "start": 1954,
+      "end": 1959,
+      "sources": [
+        {
+          "title": "Mao Zedong — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mao_Zedong"
+        }
+      ]
+    },
+    {
+      "person": "liu-shaoqi",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the People's Republic of China",
+        "fa": "رئیس جمهوری خلق چین"
+      },
+      "start": 1959,
+      "end": 1968,
+      "sources": [
+        {
+          "title": "Liu Shaoqi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Liu_Shaoqi"
+        }
+      ]
+    },
+    {
+      "person": "soong-ching-ling",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Acting Chairman of the People's Republic of China",
+        "fa": "سرپرست ریاست جمهوری خلق چین"
+      },
+      "start": 1968,
+      "end": 1972,
+      "sources": [
+        {
+          "title": "Soong Ching-ling — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Soong_Ching-ling"
+        }
+      ]
+    },
+    {
+      "person": "dong-biwu",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Acting Chairman of the People's Republic of China",
+        "fa": "سرپرست ریاست جمهوری خلق چین"
+      },
+      "start": 1972,
+      "end": 1975,
+      "sources": [
+        {
+          "title": "Dong Biwu — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dong_Biwu"
+        }
+      ]
+    },
+    {
+      "person": "zhu-de",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the NPC Standing Committee (de facto head of state)",
+        "fa": "رئیس کمیتهٔ دائمی کنگرهٔ ملی خلق (رئیس کشور عملی)"
+      },
+      "start": 1975,
+      "end": 1976,
+      "sources": [
+        {
+          "title": "Zhu De — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zhu_De"
+        }
+      ]
+    },
+    {
+      "person": "ye-jianying",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the NPC Standing Committee (de facto head of state)",
+        "fa": "رئیس کمیتهٔ دائمی کنگرهٔ ملی خلق (رئیس کشور عملی)"
+      },
+      "start": 1978,
+      "end": 1983,
+      "sources": [
+        {
+          "title": "Ye Jianying — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ye_Jianying"
+        }
+      ]
+    },
+    {
+      "person": "li-xiannian",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "President of the People's Republic of China",
+        "fa": "رئیس‌جمهور جمهوری خلق چین"
+      },
+      "start": 1983,
+      "end": 1988,
+      "sources": [
+        {
+          "title": "Li Xiannian — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Li_Xiannian"
+        }
+      ]
+    },
+    {
+      "person": "yang-shangkun",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "President of the People's Republic of China",
+        "fa": "رئیس‌جمهور جمهوری خلق چین"
+      },
+      "start": 1988,
+      "end": 1993,
+      "sources": [
+        {
+          "title": "Yang Shangkun — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yang_Shangkun"
+        }
+      ]
+    },
+    {
+      "person": "jiang-zemin",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "President of the People's Republic of China",
+        "fa": "رئیس‌جمهور جمهوری خلق چین"
+      },
+      "start": 1993,
+      "end": 2003,
+      "sources": [
+        {
+          "title": "Jiang Zemin — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jiang_Zemin"
+        }
+      ]
+    },
+    {
+      "person": "hu-jintao",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "President of the People's Republic of China",
+        "fa": "رئیس‌جمهور جمهوری خلق چین"
+      },
+      "start": 2003,
+      "end": 2013,
+      "sources": [
+        {
+          "title": "Hu Jintao — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hu_Jintao"
+        }
+      ]
+    },
+    {
+      "person": "xi-jinping",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "President of the People's Republic of China",
+        "fa": "رئیس‌جمهور جمهوری خلق چین"
+      },
+      "start": 2013,
+      "end": null,
+      "sources": [
+        {
+          "title": "Xi Jinping — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Xi_Jinping"
+        }
+      ]
+    },
+    {
+      "person": "chiang-kai-shek",
+      "state": "republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1948,
+      "end": 1949,
+      "sources": [
+        {
+          "title": "Chiang Kai-shek — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chiang_Kai-shek"
         }
       ]
     }

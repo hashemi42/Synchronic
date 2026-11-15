@@ -6,7 +6,7 @@ import { displayRange, displayYear, gregorianRange, type CalendarLocale } from "
 import { FlagImage } from "@/components/flag-image";
 import { covers, flagFor } from "@/lib/data/query";
 import type { LanePeriod } from "@/lib/data/schema";
-import { governmentAt, overlaps, reignAt, type LaneModel, type Reign } from "./model";
+import { governmentAt, headAt, overlaps, reignAt, type LaneModel, type Reign } from "./model";
 
 type Props = {
   id: string;
@@ -44,6 +44,10 @@ export function StateCard({ id, model, period, year, locale, withheld, style, on
   const atCursor = covers(period, year);
   const current = atCursor ? reignAt(model, year) : null;
   const rulers = model.reigns.filter((r) => overlaps(r, period));
+  // R4: where a party leader rules, the card names the leader and the formal head of state apart.
+  const ledByLeader = atCursor ? current?.office === "leader" : rulers.some((r) => r.office === "leader");
+  const head = ledByLeader && atCursor ? headAt(model, year) : null;
+  const heads = ledByLeader ? model.heads.filter((r) => overlaps(r, period)) : [];
   const government = atCursor ? governmentAt(model, year) : null;
   const governments = model.governments.filter((g) => overlaps(g, period));
   const list = (people: Reign[]) => [...new Set(people.map((p) => nameOf(p.person)))].join(locale === "fa" ? "، " : ", ");
@@ -82,7 +86,7 @@ export function StateCard({ id, model, period, year, locale, withheld, style, on
 
         <dl className="mt-3 space-y-2 border-t border-hairline pt-3">
           {atCursor ? (
-            <Row label={t("card.headOfStateIn", { year: yr(year) })}>
+            <Row label={t(ledByLeader ? "card.leaderIn" : "card.headOfStateIn", { year: yr(year) })}>
               {current ? (
                 <>
                   <span className="block font-medium">{nameOf(current.person)}</span>
@@ -95,8 +99,25 @@ export function StateCard({ id, model, period, year, locale, withheld, style, on
               )}
             </Row>
           ) : (
-            <Row label={t("card.headsOfState")}>{summary(rulers, t("lane.noRuler"))}</Row>
+            <Row label={t(ledByLeader ? "card.leaders" : "card.headsOfState")}>{summary(rulers, t("lane.noRuler"))}</Row>
           )}
+          {ledByLeader &&
+            (atCursor ? (
+              <Row label={t("card.headOfStateIn", { year: yr(year) })}>
+                {head ? (
+                  <>
+                    <span className="block font-medium">{nameOf(head.person)}</span>
+                    <span className="block text-ink-2">
+                      {head.title[locale]} · <span className="year">{years(head)}</span>
+                    </span>
+                  </>
+                ) : (
+                  t("card.noHeadOfState")
+                )}
+              </Row>
+            ) : (
+              heads.length > 0 && <Row label={t("card.headsOfState")}>{summary(heads, t("card.noHeadOfState"))}</Row>
+            ))}
           {/* PO-1: head of government, where the office existed. */}
           {government ? (
             (government.current || government.others.length > 0) && (

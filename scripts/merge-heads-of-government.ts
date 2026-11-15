@@ -19,6 +19,7 @@
  */
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { HEAD_OF_GOVERNMENT_FROM } from "./offices";
 
 type Localized = { en: string; fa: string };
 type Row = {
@@ -77,7 +78,8 @@ const RULES: Record<string, Rule> = {
   Q56919889: only("russian-sfsr", T.sovnarkom, 1917, 1923),
   Q4376682: only("soviet-union", T.sovnarkom, 1922),
   Q4376674: only("soviet-union", T.councilChair, 1946),
-  Q462189: only("soviet-union", T.councilChair, 1946),
+  // From January 1991 the office was "Prime Minister of the Soviet Union" (Valentin Pavlov).
+  Q462189: (y) => (y >= 1991 ? { state: "soviet-union", title: T.pm } : y >= 1946 ? { state: "soviet-union", title: T.councilChair } : null),
   // Turkey: the president is head of government since 2018.
   Q15063567: only("ottoman-empire", T.vizier, 1700),
   Q2430415: (y) => (y < 1923 ? { state: "ankara-government", title: T.pm } : y < 2018 ? { state: "republic-of-turkey", title: T.pm } : null),
@@ -107,13 +109,16 @@ const EXCLUDE: Record<string, string> = {
   Q2512945: "Iosif Adamovich headed the government of the Byelorussian SSR, not of the USSR",
   Q4328135: "Nygmet Nurmakov headed the government of the Kazakh ASSR, not of the USSR",
   Q941748: "Panteleimon Ponomarenko headed the government of the Byelorussian SSR, not of the USSR",
+  Q3893833:
+    "Ata'ollah Mohajerani was never Prime Minister of Iran (Mir-Hossein Mousavi held the office 1981–1989); a wrong P39 statement on Wikidata",
 };
 
-/**
- * Offices that became the head of government in a given year: a term already
- * under way then counts from that year (Erdoğan's presidency from 2018).
- */
-const HEAD_OF_GOVERNMENT_FROM: Record<string, number> = { Q1922067: 2018, Q838380: 1989 };
+/** Single statements to leave out, as "person:start-end", with the reason (docs/data-rules.md). */
+const EXCLUDE_TERMS: Record<string, string> = {
+  "Q23530:2020-2020": "Dmitry Medvedev resigned on 15 January 2020; this is only his caretaker day, already inside his 2012–2020 term",
+  "Q4082839:2020-2020": "R3: Andrey Belousov was acting prime minister for a few weeks in 2020, less than a year",
+};
+
 
 const LANE_START = 1789;
 const root = process.cwd();
@@ -154,6 +159,7 @@ async function main() {
       if (from !== undefined && row.end !== null && row.end <= from) continue;
       const start = from !== undefined ? Math.max(row.start!, from) : row.start!;
       if (EXCLUDE[row.person]) continue;
+      if (EXCLUDE_TERMS[`${row.person}:${row.start}-${row.end}`]) continue;
       if ((row.end ?? Infinity) < LANE_START) continue;
       const rule = RULES[row.office]?.(start);
       if (!rule) continue;

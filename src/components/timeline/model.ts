@@ -7,7 +7,7 @@ import type { Range } from "@/lib/time";
  * one title, across the states of the lane. `start === end` means the reign
  * began and ended within that year.
  */
-export type Reign = { person: string; title: Localized; start: number; end: number | null };
+export type Reign = { person: string; title: Localized; start: number; end: number | null; office?: OfficeTerm["office"] };
 
 export type LaneModel = {
   file: CountryFile;
@@ -19,6 +19,11 @@ export type LaneModel = {
   reigns: Reign[];
   /** Heads of government (PO-1), built the same way. */
   governments: Reign[];
+  /**
+   * Formal heads of state (R4). The same as `reigns` except where a party leader rules: there the
+   * ruler row shows the leader, and the card adds the formal head of state from here.
+   */
+  heads: Reign[];
   /** Years in which a reign begins: the stops of the "reign" step. */
   boundaries: number[];
 };
@@ -45,7 +50,7 @@ function buildSegments(mainline: LanePeriod[], pick: (state: string) => OfficeTe
       const end = Math.min(term.end ?? INF, periodEnd);
       const withinOneYear = term.start === term.end && term.start >= periodStart && term.start < periodEnd;
       if (start < end || withinOneYear) {
-        pieces.push({ person: term.person, title: term.title, start, end: end === INF ? null : end });
+        pieces.push({ person: term.person, title: term.title, start, end: end === INF ? null : end, office: term.office });
       }
     }
   }
@@ -74,6 +79,7 @@ export function buildLaneModel(file: CountryFile): LaneModel {
   const governments = buildSegments(mainline, (state) =>
     ofState(state).filter((term) => term.office === "head-of-government"),
   );
+  const heads = buildSegments(mainline, (state) => ofState(state).filter((term) => term.office === "head-of-state"));
 
   return {
     file,
@@ -82,12 +88,16 @@ export function buildLaneModel(file: CountryFile): LaneModel {
     mainline,
     reigns,
     governments,
+    heads,
     boundaries: [...new Set(reigns.filter((r) => r.start !== r.end).map((r) => r.start))],
   };
 }
 
 /** The ruler at a year. A reign within a single year never holds the cursor; its successor does. */
 export const reignAt = (model: LaneModel, year: number) => model.reigns.find((r) => covers(r, year)) ?? null;
+
+/** The formal head of state at a year (R4); differs from `reignAt` only where a party leader rules. */
+export const headAt = (model: LaneModel, year: number) => model.heads.find((r) => covers(r, year)) ?? null;
 
 /**
  * The head of government at a year, and everyone else who held the office

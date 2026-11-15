@@ -7,15 +7,35 @@ export type CalendarLocale = "en" | "fa";
 
 const numberLocale = { en: "en-US", fa: "fa-IR" } as const;
 
+/*
+ * Intl formatters are expensive to build (tens of microseconds each) and a render formats hundreds
+ * of years, so each one is built once and reused. Building them per call made every step of the
+ * year slider create 300–600 formatters, which was most of a 50–70 ms long task on a mid-range phone.
+ */
+const numberFormats = new Map<string, Intl.NumberFormat>();
+function numberFormat(locale: CalendarLocale, twoDigits = false): Intl.NumberFormat {
+  const key = `${locale}|${twoDigits}`;
+  let format = numberFormats.get(key);
+  if (!format) {
+    format = new Intl.NumberFormat(numberLocale[locale], { useGrouping: false, ...(twoDigits ? { minimumIntegerDigits: 2 } : {}) });
+    numberFormats.set(key, format);
+  }
+  return format;
+}
+
+const calendarFormats = new Map<string, Intl.DateTimeFormat>();
+
 export function formatNumber(n: number, locale: CalendarLocale): string {
-  return new Intl.NumberFormat(numberLocale[locale], { useGrouping: false }).format(n);
+  return numberFormat(locale).format(n);
 }
 
 function yearIn(calendar: "persian" | "islamic-umalqura", date: Date): number {
-  const parts = new Intl.DateTimeFormat(`en-US-u-ca-${calendar}-nu-latn`, {
-    year: "numeric",
-    timeZone: "UTC",
-  }).formatToParts(date);
+  let format = calendarFormats.get(calendar);
+  if (!format) {
+    format = new Intl.DateTimeFormat(`en-US-u-ca-${calendar}-nu-latn`, { year: "numeric", timeZone: "UTC" });
+    calendarFormats.set(calendar, format);
+  }
+  const parts = format.formatToParts(date);
   return Number(parts.find((p) => p.type === "year")?.value);
 }
 
@@ -38,7 +58,7 @@ export function formatYearRange(range: YearRange, locale: CalendarLocale): strin
   if (range.from === range.to) return from;
   const sameCentury = Math.floor(range.from / 100) === Math.floor(range.to / 100);
   const to = sameCentury
-    ? new Intl.NumberFormat(numberLocale[locale], { useGrouping: false, minimumIntegerDigits: 2 }).format(range.to % 100)
+    ? numberFormat(locale, true).format(range.to % 100)
     : formatNumber(range.to, locale);
   return `${from}–${to}`;
 }

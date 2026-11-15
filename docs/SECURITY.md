@@ -10,7 +10,7 @@ Include what you found, how to reproduce it, and what an attacker could do with 
 
 ## Not security issues
 
-Wrong dates, names, flags or labels are data errors, not vulnerabilities. Please use the [data correction](https://github.com/hashemi42/Synchronic/issues/new?template=data-correction.yml) form.
+Wrong dates, names, flags or labels are data errors, not vulnerabilities. Please use the [data error](https://github.com/hashemi42/Synchronic/issues/new?template=data-error.yml) form.
 
 ## Supported versions
 
