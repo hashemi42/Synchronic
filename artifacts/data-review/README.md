@@ -13,15 +13,22 @@ Open [audit.csv](audit.csv) in a spreadsheet, sort or filter by `severity` and `
 | medium | missing from data: Wikidata P6 holder | 20 |
 | medium | Persian name: differs from Wikidata | 20 |
 | medium | Persian name: no Persian label on Wikidata | 89 |
-| medium | term: not in Wikidata P35 | 72 |
-| medium | term: not in Wikidata P6 | 6 |
-| medium | term: not in Wikidata P6 or P39 | 13 |
+| medium | term: not in Wikidata P35 | 3 |
+| medium | term: not in Wikidata P6 | 4 |
+| medium | term: not in Wikidata P6 or P39 | 1 |
 | medium | term: years differ | 3 |
 | low | term: leader not modelled in Wikidata P35/P6 | 1 |
 | low | term: leader's years differ from a P35/P6 office | 12 |
+| low | term: not in Wikidata P35 | 69 |
+| low | term: not in Wikidata P6 | 2 |
+| low | term: not in Wikidata P6 or P39 | 12 |
 | low | term: Wikidata lacks a date | 23 |
 
 Source URLs: 0 of 750 do not resolve; 0 cited for a person do not mention them.
+
+Terms Wikidata lacks: 83 of 91 are `source-confirmed` (a cited page states the years as a range, or a single-year term's year next to the name) and moved to *low*. 8 more have both years somewhere on the page but not as a range; 0 have neither. Those 8 are left for a person to check.
+
+Persian names that differ from Wikidata or have no Persian label are also in [persian-names.csv](persian-names.csv) (109 rows), with a proposed spelling: the Persian Wikipedia article title where ours differs.
 
 **Severity.** *high*: a source that fails, or years more than one apart. *medium*: a one-year difference, a record Wikidata lacks or has and we do not, a Persian name that differs or has no Wikidata label. *low*: Wikidata lacks a date, or models the office differently.
 

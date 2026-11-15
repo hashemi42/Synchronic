@@ -15,6 +15,7 @@
  * Run: pnpm data:audit            (add --no-sources to skip the URL check)
  */
 import { createHash } from "node:crypto";
+import { readFileSync } from "node:fs";
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fold } from "../src/lib/search";
@@ -52,6 +53,11 @@ type Row = {
   wikidata: string;
   detail: string;
   link: string;
+  verdict?: string;
+  /** The Wikidata item a Persian-name row is about. */
+  qid?: string;
+  /** For a term Wikidata lacks: what the cited sources must show to confirm it. */
+  evidence?: { urls: string[]; names: string[]; start: number | null; end: number | null };
 };
 
 const rows: Row[] = [];
@@ -136,7 +142,7 @@ SELECT ?office ?person ?start ?end WHERE {
 }
 
 /** A person's unbroken time in an office, after joining back-to-back pieces (cabinets, changes of state). */
-type Span = { start: number | null; end: number | null; parts: string[] };
+type Span = { start: number | null; end: number | null; parts: string[]; sources?: string[] };
 
 const endOf = (v: number | null) => v ?? NOW;
 
@@ -149,7 +155,8 @@ function join(spans: Span[]): Span[] {
     if (last && last.start !== null && s.start !== null && s.start <= endOf(last.end)) {
       if (last.end !== null && (s.end === null || s.end > last.end)) last.end = s.end;
       last.parts.push(...s.parts);
-    } else out.push({ ...s, parts: [...s.parts] });
+      last.sources = [...(last.sources ?? []), ...(s.sources ?? [])];
+    } else out.push({ ...s, parts: [...s.parts], sources: [...(s.sources ?? [])] });
   }
   return out;
 }
@@ -167,7 +174,7 @@ function compareTerms(file: CountryFile, statements: { P35: Statement[]; P6: Sta
   for (const t of file.terms) {
     const key = `${t.person}|${t.office}`;
     const g = groups.get(key) ?? { person: t.person, office: t.office, spans: [] };
-    g.spans.push({ start: t.start, end: t.end, parts: [t.state] });
+    g.spans.push({ start: t.start, end: t.end, parts: [t.state], sources: t.sources.map((x) => x.url) });
     groups.set(key, g);
   }
   const wdSpans = (list: Statement[], q: string) =>
@@ -205,6 +212,7 @@ function compareTerms(file: CountryFile, statements: { P35: Statement[]; P6: Sta
           country, record, name, ours: years(span.start, span.end), wikidata: listed,
           detail: listed ? "Wikidata has other terms for this person, not this one." : "Check the source; Wikidata may be incomplete.",
           link,
+          evidence: leader ? undefined : { urls: [...new Set(span.sources)], names: [person?.name.en ?? name], start: span.start, end: span.end },
         });
         continue;
       }
@@ -279,12 +287,48 @@ function comparePersian(country: string, record: string, ours: Localized, q: str
   const fa = known.get(q)?.fa ?? [];
   const link = `https://www.wikidata.org/wiki/${q}`;
   if (fa.length === 0) {
-    rows.push({ severity: "medium", check: "Persian name: no Persian label on Wikidata", country, record, name: ours.en, ours: ours.fa, wikidata: "", detail: "Transliterated by hand; needs a Persian reader.", link });
+    rows.push({ severity: "medium", check: "Persian name: no Persian label on Wikidata", country, record, name: ours.en, ours: ours.fa, wikidata: "", detail: "Transliterated by hand; needs a Persian reader.", link, qid: q });
     return;
   }
   const mine = fold(ours.fa).replace(/\s/g, "");
   if (fa.some((f) => fold(f).replace(/\s/g, "") === mine)) return;
-  rows.push({ severity: "medium", check: "Persian name: differs from Wikidata", country, record, name: ours.en, ours: ours.fa, wikidata: [...new Set(fa)].slice(0, 3).join(" | "), detail: "", link });
+  rows.push({ severity: "medium", check: "Persian name: differs from Wikidata", country, record, name: ours.en, ours: ours.fa, wikidata: [...new Set(fa)].slice(0, 3).join(" | "), detail: "", link, qid: q });
+}
+
+/**
+ * The Persian-name review sheet: every name that differs from Wikidata or has no Persian label.
+ * Where ours differs, the proposal is the title of the Persian Wikipedia article (without its
+ * disambiguator), falling back to the Wikidata label; unlabelled names keep ours for a reader.
+ */
+async function persianSheet() {
+  const wanted = rows.filter((r) => r.check.startsWith("Persian name") && r.qid);
+  const info = new Map<string, { label?: string; title?: string; url?: string }>();
+  for (const batch of chunks([...new Set(wanted.map((r) => r.qid!))], 150)) {
+    const bindings = await sparql(`
+SELECT ?item ?label ?title ?article WHERE {
+  VALUES ?item { ${batch.map((q) => `wd:${q}`).join(" ")} }
+  OPTIONAL { ?item rdfs:label ?label . FILTER(LANG(?label) = "fa") }
+  OPTIONAL { ?article schema:about ?item ; schema:isPartOf <https://fa.wikipedia.org/> ; schema:name ?title . }
+}`);
+    for (const b of bindings)
+      info.set(qid(b.item!.value), { label: b.label?.value, title: b.title?.value, url: b.article?.value });
+  }
+  const header = ["kind", "country", "record", "english", "ours", "wikidata_label", "fawiki_title", "proposed", "basis", "link", "verdict", "fix"];
+  const lines = [header.join(",")];
+  for (const r of wanted.sort((a, b) => a.check.localeCompare(b.check) || a.country.localeCompare(b.country) || a.name.localeCompare(b.name))) {
+    const i = info.get(r.qid!) ?? {};
+    const title = i.title?.replace(/\s*\([^)]*\)\s*$/, "");
+    const differs = r.check.includes("differs");
+    const proposed = differs ? (title ?? i.label ?? "") : r.ours;
+    const basis = differs ? (title ? "Persian Wikipedia title" : "Wikidata Persian label") : "ours (no Persian label or article)";
+    lines.push(
+      [differs ? "differs" : "no Persian label", r.country, r.record, r.name, r.ours, i.label ?? "", i.title ?? "", proposed, basis, i.url ?? r.link, "", ""]
+        .map(csv)
+        .join(","),
+    );
+  }
+  await writeFile(path.join(outDir, "persian-names.csv"), "\uFEFF" + lines.join("\n") + "\n");
+  return wanted.length;
 }
 
 // ---------------------------------------------------------------- 3. source URLs
@@ -376,6 +420,74 @@ async function checkUrls(files: CountryFile[], known: Map<string, Labels>) {
   return urls.length;
 }
 
+// ---------------------------------------------------------------- 4. terms Wikidata lacks, confirmed by their sources
+
+/**
+ * A term Wikidata does not have is `source-confirmed` when a cited page states it as a range:
+ * "1873–1874", "26 November 1873 – 22 May 1874", "from 1912 to 1916", or "1990 – present" for an
+ * open term, with no other year in between. A term within one year needs that year within
+ * 400 characters of the person's name. Merely containing both years somewhere is too weak (a
+ * birth or death date can supply one), so that looser result is only noted in `detail`.
+ */
+const WINDOW = 400;
+const confirmed = { strict: 0, loose: 0, total: 0 };
+const GAP = "(?:(?!\\d{4}).){0,40}?";
+
+function statesRange(page: string, start: number, end: number | null): boolean {
+  const pattern =
+    end === null
+      ? `(?:${start}${GAP}(?:–|-|—)\\s*(?:present|incumbent)|since ${start})`
+      : `${start}${GAP}(?:–|-|—|\\bto\\b|\\buntil\\b)${GAP}${end}`;
+  return new RegExp(pattern).test(page);
+}
+
+function yearNearName(page: string, names: string[], year: string): boolean {
+  const keys = names.flatMap((n) => {
+    const words = fold(n).split(" ").filter((w) => w.length >= 3);
+    return [fold(n), words.at(-1) ?? ""].filter((k) => k.length >= 3);
+  });
+  for (const key of new Set(keys))
+    for (let at = page.indexOf(key); at !== -1; at = page.indexOf(key, at + 1))
+      if (page.slice(Math.max(0, at - WINDOW), at + key.length + WINDOW).includes(year)) return true;
+  return false;
+}
+
+function confirmFromSources(known: Map<string, Labels>, files: CountryFile[]) {
+  const qidOf = new Map(files.flatMap((f) => f.persons.map((p) => [p.name.en, p.wikidata] as const)));
+  for (const row of rows) {
+    if (!row.evidence) continue;
+    confirmed.total++;
+    const { urls, names, start, end } = row.evidence;
+    const q = qidOf.get(names[0]);
+    const allNames = [...names, ...(q ? (known.get(q)?.en ?? []) : [])];
+    // An open term has no end year to find.
+    const wanted = [start, end].filter((y): y is number => y !== null).map(String);
+    let strict: string | null = null;
+    let loose: string | null = null;
+    for (const url of urls) {
+      const file = path.join(cacheDir, createHash("sha1").update(`url:${url}`).digest("hex"));
+      let body = "";
+      try {
+        body = (JSON.parse(readFileSync(file, "utf8")) as { body: string }).body;
+      } catch {
+        continue;
+      }
+      if (!loose && wanted.every((y) => body.includes(y))) loose = url;
+      const ok = start !== null && (start === end ? yearNearName(body, allNames, String(start)) : statesRange(body, start, end));
+      if (!strict && ok) strict = url;
+    }
+    if (strict) {
+      row.verdict = "source-confirmed";
+      row.severity = "low";
+      row.detail = `${start === end ? "The year appears next to the name" : "The term's years appear as a range"} in ${strict}.`;
+      confirmed.strict++;
+    } else if (loose) {
+      row.detail += ` Both years appear in ${loose}, but not as a range: check by hand.`;
+      confirmed.loose++;
+    }
+  }
+}
+
 // ---------------------------------------------------------------- main
 
 const csv = (v: string) => (/[",\n]/.test(v) ? `"${v.replaceAll('"', '""')}"` : v);
@@ -434,11 +546,14 @@ async function main() {
     urls = await checkUrls(files, known);
   }
 
+  if (checkSources) confirmFromSources(known, files);
+
   const order = { high: 0, medium: 1, low: 2 };
   rows.sort((a, b) => order[a.severity] - order[b.severity] || a.check.localeCompare(b.check) || a.country.localeCompare(b.country) || a.name.localeCompare(b.name));
   const header = ["severity", "check", "country", "record", "name", "ours", "wikidata", "detail", "link", "verdict", "fix"];
-  const lines = [header.join(","), ...rows.map((r) => [r.severity, r.check, r.country, r.record, r.name, r.ours, r.wikidata, r.detail, r.link, "", ""].map(csv).join(","))];
+  const lines = [header.join(","), ...rows.map((r) => [r.severity, r.check, r.country, r.record, r.name, r.ours, r.wikidata, r.detail, r.link, r.verdict ?? "", ""].map(csv).join(","))];
   await writeFile(path.join(outDir, "audit.csv"), "﻿" + lines.join("\n") + "\n");
+  const persian = await persianSheet();
 
   const counts = new Map<string, number>();
   for (const r of rows) counts.set(`${r.severity}|${r.check}`, (counts.get(`${r.severity}|${r.check}`) ?? 0) + 1);
@@ -462,8 +577,12 @@ async function main() {
       ? [
           `Source URLs: ${rows.filter((r) => r.check === "source: does not resolve").length} of ${urls} do not resolve; ${rows.filter((r) => r.check === "source: does not mention the person").length} cited for a person do not mention them.`,
           "",
+          `Terms Wikidata lacks: ${confirmed.strict} of ${confirmed.total} are \`source-confirmed\` (a cited page states the years as a range, or a single-year term's year next to the name) and moved to *low*. ${confirmed.loose} more have both years somewhere on the page but not as a range; ${confirmed.total - confirmed.strict - confirmed.loose} have neither. Those ${confirmed.total - confirmed.strict} are left for a person to check.`,
+          "",
         ]
       : []),
+    `Persian names that differ from Wikidata or have no Persian label are also in [persian-names.csv](persian-names.csv) (${persian} rows), with a proposed spelling: the Persian Wikipedia article title where ours differs.`,
+    "",
     "**Severity.** *high*: a source that fails, or years more than one apart. *medium*: a one-year difference, a record Wikidata lacks or has and we do not, a Persian name that differs or has no Wikidata label. *low*: Wikidata lacks a date, or models the office differently.",
     "",
     "Wikidata is a cross-check, not the truth: where it disagrees, the cited source decides.",
