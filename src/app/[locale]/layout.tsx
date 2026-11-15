@@ -18,6 +18,15 @@ export function generateStaticParams() {
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("meta");
   return {
+    // Absolute URLs for link previews (NF-6). SITE_URL wins; Vercel sets the other two.
+    metadataBase: new URL(
+      process.env.SITE_URL ??
+        (process.env.VERCEL_PROJECT_PRODUCTION_URL
+          ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+          : process.env.VERCEL_URL
+            ? `https://${process.env.VERCEL_URL}`
+            : "http://localhost:3000"),
+    ),
     title: t("title"),
     description: t("description"),
     icons: {

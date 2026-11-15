@@ -406,6 +406,42 @@ test.describe("top bar (SH-1) @both", () => {
   });
 });
 
+test.describe("link previews (NF-6)", () => {
+  const meta = (html: string, property: string) =>
+    new RegExp(`<meta (?:property|name)="${property}" content="([^"]*)"`).exec(html)?.[1]?.replaceAll("&amp;", "&");
+
+  test("a shared comparison describes itself to link-preview bots", async ({ request }) => {
+    const res = await request.get("/en?year=1919&lanes=iran,uk,russia&anchor=ahmad-shah-qajar", {
+      headers: { "User-Agent": "facebookexternalhit/1.1" },
+    });
+    const html = await res.text();
+    expect(meta(html, "og:title")).toBe("Iran, United Kingdom, and Russia during the reign of Ahmad Shah Qajar (1909–1925)");
+    expect(meta(html, "og:description")).toContain("George V (King)");
+    expect(meta(html, "twitter:card")).toBe("summary_large_image");
+    const image = new URL(meta(html, "og:image")!);
+    expect(image.pathname + image.search).toBe("/en/og?year=1919&lanes=iran,uk,russia&anchor=ahmad-shah-qajar");
+
+    const png = await request.get(image.pathname + image.search);
+    expect(png.status()).toBe(200);
+    expect(png.headers()["content-type"]).toBe("image/png");
+    expect((await png.body()).length).toBeGreaterThan(10_000);
+  });
+
+  test("in Persian the title leads with the Solar Hijri year", async ({ request }) => {
+    const html = await (await request.get("/fa?year=1919&lanes=iran,uk", { headers: { "User-Agent": "Twitterbot/1.0" } })).text();
+    expect(meta(html, "og:title")).toBe("ایران و بریتانیا در ۱۲۹۸ (۱۹۱۹ م)");
+    expect(meta(html, "og:locale")).toBe("fa_IR");
+    expect((await request.get("/fa/og?year=1919&lanes=iran,uk")).status()).toBe(200);
+  });
+
+  test("the page itself is unchanged, and unknown lanes get no preview image", async ({ page, request }) => {
+    await page.goto("/en?year=1919&lanes=iran");
+    await expect(page).toHaveTitle(/Iran in 1919/);
+    await expect(lane(page, "iran")).toContainText("Ahmad Shah Qajar");
+    expect((await request.get("/en/og?year=1919&lanes=atlantis")).status()).toBe(404);
+  });
+});
+
 test.describe("self-hosted assets @both", () => {
   test("a page makes no request to another site, and every flag loads", async ({ page }) => {
     const foreign: string[] = [];

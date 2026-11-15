@@ -2,7 +2,7 @@
 
 Thank you for helping. Most contributions are **data**: adding or fixing a state, a ruler or a date for a country you know well. Everyone taking part follows the [code of conduct](CODE_OF_CONDUCT.md).
 
-Not ready to edit files? Open a [data correction](https://github.com/hashemi42/Synchronic/issues/new?template=data-correction.yml) with your source instead.
+Not ready to edit files? Report a [data error](https://github.com/hashemi42/Synchronic/issues/new?template=data-error.yml) with your source instead.
 
 ## Add or fix data
 
@@ -34,6 +34,10 @@ A country file has five parts:
 - **Flags** name a Wikimedia Commons file and carry its `license` and `attribution`. Set `certainty` honestly: `documented`, `simplified` (right design, modern drawing) or `reconstructed`. A state has one flag at a time; leave years without a known flag empty. `pnpm fetch:flags` lists candidates in `data/raw/flags.json`. After adding a flag, run `pnpm mirror:flags` and commit the new files in `public/flags/`: the site serves its own copies, and a unit test fails if one is missing.
 - **Heads of government** are generated: `pnpm fetch:hog` then `pnpm merge:hog` rewrite every `head-of-government` term. Do not edit them in the country files. Fix the source instead: on Wikidata, or in `data/overrides/heads-of-government.json` (missing terms), `data/overrides/persian-names.json` (missing Persian names) or the `EXCLUDE` and `RULES` tables in `scripts/merge-heads-of-government.ts`.
 - **Ids** are lowercase kebab-case (`ahmad-shah-qajar`).
+
+### Cross-checking with Wikidata
+
+`pnpm data:audit` compares every term with Wikidata (P35/P6, and P39 for heads of government), every Persian name with the item's Persian label, and fetches every source URL. It writes only the problems to `artifacts/data-review/audit.csv`. Wikidata is a cross-check, not the truth: where they disagree, the cited source decides.
 
 ### If the fact is wrong upstream
 

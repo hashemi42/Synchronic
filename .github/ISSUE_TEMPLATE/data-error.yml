@@ -1,4 +1,4 @@
-name: Data correction
+name: Data error
 description: A date, name, ruler, flag or label is wrong or missing.
 title: "[Data] "
 labels: ["data"]

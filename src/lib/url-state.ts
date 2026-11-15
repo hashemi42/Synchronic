@@ -9,38 +9,18 @@
  * because browsers rate-limit history.replaceState while a slider is dragged.
  */
 import { useSyncExternalStore } from "react";
-import { DEFAULT_LANES } from "./defaults";
-import { clampYear, DEFAULT_YEAR, isFullRange, MIN_SPAN, RANGE, type Range } from "./time";
+import { isFullRange, RANGE } from "./time";
+import { DEFAULTS, parseTimelineParams, type TimelineState } from "./url-params";
 
-/** `view` is the zoomed time window (IN-10); null shows the whole range. */
-export type TimelineState = { year: number; lanes: string[]; anchor: string | null; view: Range | null };
+export { DEFAULTS, type TimelineState } from "./url-params";
 
-const ID = /^[a-z0-9]+(-[a-z0-9]+)*$/;
-
-export const DEFAULTS: TimelineState = { year: DEFAULT_YEAR, lanes: DEFAULT_LANES, anchor: null, view: null };
 const WRITE_DELAY = 250;
 
 let state: TimelineState | null = null;
 let writeTimer: ReturnType<typeof setTimeout> | null = null;
 const listeners = new Set<() => void>();
 
-function read(): TimelineState {
-  const params = new URLSearchParams(window.location.search);
-  const year = Number(params.get("year"));
-  const anchor = params.get("anchor");
-  const from = clampYear(Number(params.get("from")));
-  const to = clampYear(Number(params.get("to")));
-  const zoomed =
-    params.has("from") && params.has("to") && to - from + 1 >= MIN_SPAN && !isFullRange({ from, to }, RANGE);
-  return {
-    year: params.has("year") && Number.isInteger(year) && year !== 0 ? clampYear(year) : DEFAULTS.year,
-    lanes: params.has("lanes")
-      ? [...new Set((params.get("lanes") ?? "").split(",").filter((id) => ID.test(id)))]
-      : DEFAULTS.lanes,
-    anchor: anchor && ID.test(anchor) ? anchor : null,
-    view: zoomed ? { from, to } : null,
-  };
-}
+const read = (): TimelineState => parseTimelineParams(new URLSearchParams(window.location.search));
 
 /** The query string for a state, leaving other parameters untouched. */
 export function toSearch(next: TimelineState, current = ""): string {

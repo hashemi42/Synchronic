@@ -4,6 +4,14 @@
 
 > Status: **MVP in progress** — the infographic view works for nine countries (Iran, UK, Russia, Turkey, France, Germany, China, India, Japan) from 1789 to today, with a time dock, anchoring, an add-country search dialog and shareable URLs. Each state has a politics card and historical flags from Wikimedia Commons, served from this site. Heads of government come from Wikidata, with curated fixes.
 
+## Screenshots
+
+![Iran, the United Kingdom, Russia and Turkey in 1919, anchored to the reign of Ahmad Shah Qajar](docs/screenshots/desktop-en.png)
+
+| Persian, right to left, zoomed to 1900–1960 | The politics card | On a phone |
+| --- | --- | --- |
+| ![The Persian interface in 1320 SH (1941), with Iran, Germany, the UK and Japan](docs/screenshots/desktop-fa.png) | ![The politics card for Qajar Iran: flag, official name, head of state and government, system, capital](docs/screenshots/politics-card.png) | ![The Persian interface on a phone](docs/screenshots/mobile-fa.png) |
+
 ## Run it
 
 Requires Node 22+ and pnpm 9.
@@ -23,6 +31,7 @@ Open <http://localhost:3000> — it redirects to `/en`; Persian (right-to-left) 
 | `pnpm lint` | ESLint |
 | `pnpm test` | Vitest (schema, lane validation, calendars) |
 | `pnpm test:e2e` | Playwright flows and axe accessibility checks; run `pnpm build` first (first time: `pnpm exec playwright install chromium`) |
+| `pnpm data:audit` | Cross-check terms and Persian names against Wikidata and fetch every source URL; writes problems to `artifacts/data-review/` |
 | `pnpm data:build` | Validate the data and emit one content-hashed file per country to `public/data/` (runs before `dev`, `build` and `typecheck`) |
 | `pnpm data:validate` | Validate every file in `data/overrides/countries/` |
 | `pnpm fetch:flags` | Fetch flag candidates and licences from Wikidata and Commons into `data/raw/` |
@@ -60,10 +69,10 @@ See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for the full guide.
 
 History data is never finished. If a date, name, ruler or flag is wrong:
 
-1. Open a [data correction](https://github.com/hashemi42/Synchronic/issues/new?template=data-correction.yml) with a source, or
+1. Report a [data error](https://github.com/hashemi42/Synchronic/issues/new?template=data-error.yml) with a source, or
 2. Fix it yourself in `data/overrides/countries/<country>.json` and open a pull request; [CONTRIBUTING](docs/CONTRIBUTING.md) explains the format.
 
-Disputed history follows the [content policy](docs/CONTRIBUTING.md#content-policy). Bugs go in the [bug form](https://github.com/hashemi42/Synchronic/issues/new?template=bug.yml); security problems are reported privately, see [SECURITY](docs/SECURITY.md). Everyone taking part follows the [code of conduct](docs/CODE_OF_CONDUCT.md).
+Disputed history follows the [content policy](docs/CONTRIBUTING.md#content-policy). Wording or Persian names go in the [translation form](https://github.com/hashemi42/Synchronic/issues/new?template=translation.yml). Bugs go in the [bug form](https://github.com/hashemi42/Synchronic/issues/new?template=bug.yml); security problems are reported privately, see [SECURITY](docs/SECURITY.md). Everyone taking part follows the [code of conduct](docs/CODE_OF_CONDUCT.md).
 
 ## Known limitations
 
@@ -73,6 +82,7 @@ Disputed history follows the [content policy](docs/CONTRIBUTING.md#content-polic
 - **Pinch zoom and touch drag-to-reorder need a physical device.** Both are implemented and keyboard-equivalents are tested, but neither has been tried on real hardware.
 - **The detail track has no event dots.** The data has no events yet (the schema exists), so it shows ticks, the cursor and the anchor's reign only.
 - **Phones shorter than 704 px (44rem) hide the era strip and detail track** to keep the floating dock compact. The lanes' own axis and the slider cover the same ground.
+- **Persian link-preview images have uneven spaces between words.** The image renderer joins Persian letters correctly but has no right-to-left layout, so the image is laid out word by word. The page title and description, which most apps show as text, are unaffected.
 - **Persian years are Solar Hijri, one per Gregorian year.** A Gregorian year spans two Solar Hijri years; the UI uses the one in force on 1 July (Gregorian − 621). Dates in the data and URLs stay Gregorian.
 
 ## Licences

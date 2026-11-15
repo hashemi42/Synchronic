@@ -1,0 +1,55 @@
+name: Translation
+description: Wording in English or Persian is wrong, unclear or missing.
+title: "[Translation] "
+labels: ["translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For the interface (buttons, labels, help text) and for names of people, states and places. If a **fact** is wrong, use the [data error](https://github.com/hashemi42/Synchronic/issues/new?template=data-error.yml) form instead.
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - Persian (فارسی)
+        - English
+        - Both
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options:
+        - Interface text
+        - Name of a person
+        - Name of a state, dynasty or place
+        - Title or office (Shah, Prime Minister …)
+        - Dates or calendar wording
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link to the view
+      description: Copy the address from the browser, so we see the same screen.
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested text
+      description: For names, the usual spelling in Persian sources, and a source if you have one (for example the Persian Wikipedia article or the Persian Wikidata label).
+    validations:
+      required: true
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Help
+      options:
+        - label: I can review other Persian names too.
