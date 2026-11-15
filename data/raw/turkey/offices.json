@@ -1,0 +1,8 @@
+{
+"query": "\nSELECT ?item ?prop ?st ?rank ?value ?at ?atPrec ?atCal ?start ?startPrec ?startCal ?end ?endPrec ?endCal WHERE {\n  VALUES ?item { wd:Q15315411 }\n  VALUES (?prop ?p ?ps ?psv) { (\"P1001\" p:P1001 ps:P1001 psv:P1001) (\"P17\" p:P17 ps:P17 psv:P17) }\n  ?item ?p ?st . ?st wikibase:rank ?rank ; ?ps ?value .\n  FILTER(?rank != wikibase:DeprecatedRank)\n  OPTIONAL { ?st ?psv [ wikibase:timeValue ?at ; wikibase:timePrecision ?atPrec ; wikibase:timeCalendarModel ?atCal ] . }\n  OPTIONAL { ?st pqv:P580 [ wikibase:timeValue ?start ; wikibase:timePrecision ?startPrec ; wikibase:timeCalendarModel ?startCal ] . }\n  OPTIONAL { ?st pqv:P582 [ wikibase:timeValue ?end ; wikibase:timePrecision ?endPrec ; wikibase:timeCalendarModel ?endCal ] . }\n}",
+"fetchedAt": "2026-11-15T22:37:14.671Z",
+"rows": [
+{"item":"http://www.wikidata.org/entity/Q15315411","prop":"P1001","rank":"http://wikiba.se/ontology#NormalRank","st":"http://www.wikidata.org/entity/statement/Q15315411-b5c02793-420f-b8bf-28ba-f4a11bafad6d","value":"http://www.wikidata.org/entity/Q12560"},
+{"item":"http://www.wikidata.org/entity/Q15315411","prop":"P17","rank":"http://wikiba.se/ontology#NormalRank","st":"http://www.wikidata.org/entity/statement/Q15315411-7c849059-4e5e-0c85-f986-d595cc3411b8","value":"http://www.wikidata.org/entity/Q12560"}
+]
+}

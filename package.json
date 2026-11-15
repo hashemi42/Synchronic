@@ -12,6 +12,7 @@
     "test:watch": "vitest",
     "data:validate": "tsx scripts/validate-data.ts",
     "data:audit": "tsx scripts/audit-data.ts",
+    "data:pipeline": "tsx scripts/pipeline/run.ts",
     "spike:iran": "tsx scripts/spike-iran-heads-of-state.ts",
     "fetch:flags": "tsx scripts/fetch-flags.ts",
     "mirror:flags": "tsx scripts/mirror-flags.ts",

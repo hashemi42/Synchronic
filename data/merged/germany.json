@@ -1,0 +1,3573 @@
+{
+  "country": {
+    "id": "germany",
+    "name": {
+      "en": "Germany",
+      "fa": "آلمان"
+    },
+    "aliases": [
+      "Deutschland",
+      "Prussia",
+      "پروس"
+    ],
+    "wikidata": "Q183",
+    "sources": [
+      {
+        "title": "Germany — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Germany"
+      }
+    ]
+  },
+  "states": [
+    {
+      "id": "holy-roman-empire",
+      "name": {
+        "en": "Holy Roman Empire",
+        "fa": "امپراتوری مقدس روم"
+      },
+      "start": 962,
+      "end": 1806,
+      "wikidata": "Q12548",
+      "sources": [
+        {
+          "title": "Holy Roman Empire — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Holy_Roman_Empire"
+        },
+        {
+          "title": "Holy Roman Empire — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12548"
+        }
+      ]
+    },
+    {
+      "id": "confederation-of-the-rhine",
+      "name": {
+        "en": "Confederation of the Rhine",
+        "fa": "کنفدراسیون راین"
+      },
+      "start": 1806,
+      "end": 1813,
+      "system": {
+        "en": "Confederation",
+        "fa": "کنفدراسیون"
+      },
+      "wikidata": "Q154741",
+      "sources": [
+        {
+          "title": "Confederation of the Rhine — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Confederation_of_the_Rhine"
+        },
+        {
+          "title": "Confederation of the Rhine — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q154741"
+        }
+      ]
+    },
+    {
+      "id": "german-confederation",
+      "name": {
+        "en": "German Confederation",
+        "fa": "کنفدراسیون آلمان"
+      },
+      "start": 1815,
+      "end": 1866,
+      "capital": {
+        "en": "Free City of Frankfurt",
+        "fa": "شهر آزاد فرانکفورت"
+      },
+      "wikidata": "Q151624",
+      "sources": [
+        {
+          "title": "German Confederation — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/German_Confederation"
+        },
+        {
+          "title": "German Confederation — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q151624"
+        }
+      ]
+    },
+    {
+      "id": "north-german-confederation",
+      "name": {
+        "en": "North German Confederation",
+        "fa": "کنفدراسیون شمال آلمان"
+      },
+      "start": 1867,
+      "end": 1870,
+      "capital": {
+        "en": "Berlin",
+        "fa": "برلین"
+      },
+      "system": {
+        "en": "Federal republic",
+        "fa": "جمهوری فدرال"
+      },
+      "wikidata": "Q150981",
+      "sources": [
+        {
+          "title": "North German Confederation — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/North_German_Confederation"
+        },
+        {
+          "title": "North German Confederation — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q150981"
+        }
+      ]
+    },
+    {
+      "id": "german-empire",
+      "name": {
+        "en": "German Empire",
+        "fa": "امپراتوری آلمان"
+      },
+      "start": 1871,
+      "end": 1918,
+      "capital": {
+        "en": "Berlin",
+        "fa": "برلین"
+      },
+      "system": {
+        "en": "Constitutional monarchy",
+        "fa": "پادشاهی مشروطه"
+      },
+      "wikidata": "Q43287",
+      "sources": [
+        {
+          "title": "German Empire — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/German_Empire"
+        },
+        {
+          "title": "German Empire — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q43287"
+        }
+      ]
+    },
+    {
+      "id": "weimar-republic",
+      "name": {
+        "en": "Weimar Republic",
+        "fa": "جمهوری وایمار"
+      },
+      "start": 1918,
+      "end": 1933,
+      "capital": {
+        "en": "Berlin",
+        "fa": "برلین"
+      },
+      "system": {
+        "en": "Semi-presidential system",
+        "fa": "نظام نیمهریاستی"
+      },
+      "wikidata": "Q41304",
+      "sources": [
+        {
+          "title": "Weimar Republic — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Weimar_Republic"
+        },
+        {
+          "title": "Weimar Republic — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q41304"
+        }
+      ]
+    },
+    {
+      "id": "nazi-germany",
+      "name": {
+        "en": "Nazi Germany",
+        "fa": "آلمان نازی"
+      },
+      "start": 1933,
+      "end": 1945,
+      "capital": {
+        "en": "Berlin",
+        "fa": "برلین"
+      },
+      "wikidata": "Q7318",
+      "sources": [
+        {
+          "title": "Nazi Germany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nazi_Germany"
+        },
+        {
+          "title": "Nazi Germany — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7318"
+        }
+      ]
+    },
+    {
+      "id": "allied-occupied-germany",
+      "name": {
+        "en": "Allied-occupied Germany",
+        "fa": "آلمان تحت اشغال متفقین"
+      },
+      "start": 1945,
+      "end": 1949,
+      "capital": {
+        "en": "Berlin",
+        "fa": "برلین"
+      },
+      "wikidata": "Q2415901",
+      "sources": [
+        {
+          "title": "Allied-occupied Germany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Allied-occupied_Germany"
+        },
+        {
+          "title": "Allied-occupied Germany — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2415901"
+        }
+      ]
+    },
+    {
+      "id": "federal-republic-of-germany",
+      "name": {
+        "en": "Germany",
+        "fa": "آلمان"
+      },
+      "start": 1949,
+      "end": null,
+      "system": {
+        "en": "Federal parliamentary republic",
+        "fa": "جمهوری پارلمانی فدرال"
+      },
+      "wikidata": "Q183",
+      "sources": [
+        {
+          "title": "Germany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Germany"
+        },
+        {
+          "title": "Germany — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q183"
+        }
+      ]
+    },
+    {
+      "id": "east-germany",
+      "name": {
+        "en": "East Germany",
+        "fa": "آلمان شرقی"
+      },
+      "start": 1949,
+      "end": 1990,
+      "capital": {
+        "en": "East Berlin",
+        "fa": "برلین شرقی"
+      },
+      "wikidata": "Q16957",
+      "sources": [
+        {
+          "title": "East Germany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/East_Germany"
+        },
+        {
+          "title": "East Germany — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16957"
+        }
+      ]
+    }
+  ],
+  "persons": [
+    {
+      "id": "adolf-hitler",
+      "name": {
+        "en": "Adolf Hitler",
+        "fa": "آدولف هیتلر"
+      },
+      "born": 1889,
+      "died": 1945,
+      "wikidata": "Q352",
+      "sources": [
+        {
+          "title": "Adolf Hitler — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Adolf_Hitler"
+        },
+        {
+          "title": "Adolf Hitler — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q352"
+        }
+      ]
+    },
+    {
+      "id": "angela-merkel",
+      "name": {
+        "en": "Angela Merkel",
+        "fa": "آنگلا مرکل"
+      },
+      "born": 1954,
+      "wikidata": "Q567",
+      "sources": [
+        {
+          "title": "Angela Merkel — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angela_Merkel"
+        },
+        {
+          "title": "Angela Merkel — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q567"
+        }
+      ]
+    },
+    {
+      "id": "bernhard-von-bulow",
+      "name": {
+        "en": "Bernhard von Bülow",
+        "fa": "برنهارت فون بولو"
+      },
+      "born": 1849,
+      "died": 1929,
+      "wikidata": "Q60113",
+      "sources": [
+        {
+          "title": "Bernhard von Bülow — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bernhard_von_B%C3%BClow"
+        },
+        {
+          "title": "Bernhard von Bülow — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q60113"
+        }
+      ]
+    },
+    {
+      "id": "chlodwig-prince-of-hohenlohe-schillingsfurst",
+      "name": {
+        "en": "Chlodwig, Prince of Hohenlohe-Schillingsfürst",
+        "fa": "شلودویگ"
+      },
+      "born": 1819,
+      "died": 1901,
+      "wikidata": "Q77166",
+      "sources": [
+        {
+          "title": "Chlodwig, Prince of Hohenlohe-Schillingsfürst — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chlodwig%2C_Prince_of_Hohenlohe-Schillingsf%C3%BCrst"
+        },
+        {
+          "title": "Chlodwig, Prince of Hohenlohe-Schillingsfürst — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q77166"
+        }
+      ]
+    },
+    {
+      "id": "christian-wulff",
+      "name": {
+        "en": "Christian Wulff",
+        "fa": "کریستیان وولف"
+      },
+      "born": 1959,
+      "wikidata": "Q2540",
+      "sources": [
+        {
+          "title": "Christian Wulff — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Christian_Wulff"
+        },
+        {
+          "title": "Christian Wulff — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2540"
+        }
+      ]
+    },
+    {
+      "id": "constantin-fehrenbach",
+      "name": {
+        "en": "Constantin Fehrenbach",
+        "fa": "کنستانتین فرنباخ"
+      },
+      "born": 1852,
+      "died": 1926,
+      "wikidata": "Q77156",
+      "sources": [
+        {
+          "title": "Constantin Fehrenbach — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Constantin_Fehrenbach"
+        },
+        {
+          "title": "Constantin Fehrenbach — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q77156"
+        }
+      ]
+    },
+    {
+      "id": "egon-krenz",
+      "name": {
+        "en": "Egon Krenz",
+        "fa": "اگون کرنتس"
+      },
+      "born": 1937,
+      "wikidata": "Q2602",
+      "sources": [
+        {
+          "title": "Egon Krenz — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Egon_Krenz"
+        },
+        {
+          "title": "Egon Krenz — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2602"
+        }
+      ]
+    },
+    {
+      "id": "erich-honecker",
+      "name": {
+        "en": "Erich Honecker",
+        "fa": "اریش هونکر"
+      },
+      "born": 1912,
+      "died": 1994,
+      "wikidata": "Q2607",
+      "sources": [
+        {
+          "title": "Erich Honecker — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Erich_Honecker"
+        },
+        {
+          "title": "Erich Honecker — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2607"
+        }
+      ]
+    },
+    {
+      "id": "francis-ii",
+      "name": {
+        "en": "Francis II, Holy Roman Emperor",
+        "fa": "فرانتس دوم"
+      },
+      "born": 1768,
+      "died": 1835,
+      "wikidata": "Q130834",
+      "sources": [
+        {
+          "title": "Francis II, Holy Roman Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Francis_II%2C_Holy_Roman_Emperor"
+        },
+        {
+          "title": "Francis II, Holy Roman Emperor — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q130834"
+        }
+      ]
+    },
+    {
+      "id": "frank-walter-steinmeier",
+      "name": {
+        "en": "Frank-Walter Steinmeier",
+        "fa": "فرانک والتر اشتاینمایر"
+      },
+      "born": 1956,
+      "wikidata": "Q76658",
+      "sources": [
+        {
+          "title": "Frank-Walter Steinmeier — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Frank-Walter_Steinmeier"
+        },
+        {
+          "title": "Frank-Walter Steinmeier — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q76658"
+        }
+      ]
+    },
+    {
+      "id": "franz-von-papen",
+      "name": {
+        "en": "Franz von Papen",
+        "fa": "فرانتس فون پاپن"
+      },
+      "born": 1879,
+      "died": 1969,
+      "wikidata": "Q150552",
+      "sources": [
+        {
+          "title": "Franz von Papen — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Franz_von_Papen"
+        },
+        {
+          "title": "Franz von Papen — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q150552"
+        }
+      ]
+    },
+    {
+      "id": "friedrich-ebert",
+      "name": {
+        "en": "Friedrich Ebert",
+        "fa": "فریدریش ابرت"
+      },
+      "born": 1871,
+      "died": 1925,
+      "wikidata": "Q2646",
+      "sources": [
+        {
+          "title": "Friedrich Ebert — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Friedrich_Ebert"
+        },
+        {
+          "title": "Friedrich Ebert — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2646"
+        }
+      ]
+    },
+    {
+      "id": "friedrich-ebert-jr",
+      "name": {
+        "en": "Friedrich Ebert Jr.",
+        "fa": "فریدریش ابرت جونیور"
+      },
+      "born": 1894,
+      "died": 1979,
+      "wikidata": "Q61659",
+      "sources": [
+        {
+          "title": "Friedrich Ebert Jr. — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Friedrich_Ebert_Jr."
+        },
+        {
+          "title": "Friedrich Ebert Jr. — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q61659"
+        }
+      ]
+    },
+    {
+      "id": "friedrich-iii",
+      "name": {
+        "en": "Frederick III, German Emperor",
+        "fa": "فریدریش سوم، امپراتور آلمان"
+      },
+      "born": 1831,
+      "died": 1888,
+      "wikidata": "Q58600",
+      "sources": [
+        {
+          "title": "Frederick III, German Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Frederick_III%2C_German_Emperor"
+        },
+        {
+          "title": "Frederick III, German Emperor — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q58600"
+        }
+      ]
+    },
+    {
+      "id": "friedrich-merz",
+      "name": {
+        "en": "Friedrich Merz",
+        "fa": "فریدریش مرتس"
+      },
+      "born": 1955,
+      "wikidata": "Q566257",
+      "sources": [
+        {
+          "title": "Friedrich Merz — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Friedrich_Merz"
+        },
+        {
+          "title": "Friedrich Merz — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q566257"
+        }
+      ]
+    },
+    {
+      "id": "georg-michaelis",
+      "name": {
+        "en": "Georg Michaelis",
+        "fa": "گئورگ میشائلیس"
+      },
+      "wikidata": "Q60115",
+      "sources": [
+        {
+          "title": "Georg Michaelis — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q60115"
+        }
+      ]
+    },
+    {
+      "id": "georg-von-hertling",
+      "name": {
+        "en": "Georg von Hertling",
+        "fa": "گئورگ فن هرتلینگ"
+      },
+      "born": 1843,
+      "died": 1919,
+      "wikidata": "Q161084",
+      "sources": [
+        {
+          "title": "Georg von Hertling — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Georg_von_Hertling"
+        },
+        {
+          "title": "Georg von Hertling — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q161084"
+        }
+      ]
+    },
+    {
+      "id": "gerhard-schroder",
+      "name": {
+        "en": "Gerhard Schröder",
+        "fa": "گرهارد شرودر"
+      },
+      "born": 1944,
+      "wikidata": "Q2530",
+      "sources": [
+        {
+          "title": "Gerhard Schröder — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gerhard_Schr%C3%B6der"
+        },
+        {
+          "title": "Gerhard Schröder — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2530"
+        }
+      ]
+    },
+    {
+      "id": "gustav-bauer",
+      "name": {
+        "en": "Gustav Bauer",
+        "fa": "گوستاف باوئر"
+      },
+      "born": 1870,
+      "died": 1944,
+      "wikidata": "Q57159",
+      "sources": [
+        {
+          "title": "Gustav Bauer — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gustav_Bauer"
+        },
+        {
+          "title": "Gustav Bauer — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57159"
+        }
+      ]
+    },
+    {
+      "id": "gustav-heinemann",
+      "name": {
+        "en": "Gustav Heinemann",
+        "fa": "گوستاو هاینمان"
+      },
+      "born": 1899,
+      "died": 1976,
+      "wikidata": "Q2573",
+      "sources": [
+        {
+          "title": "Gustav Heinemann — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gustav_Heinemann"
+        },
+        {
+          "title": "Gustav Heinemann — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2573"
+        }
+      ]
+    },
+    {
+      "id": "gustav-stresemann",
+      "name": {
+        "en": "Gustav Stresemann",
+        "fa": "گوستاف اشترزمان"
+      },
+      "born": 1878,
+      "died": 1929,
+      "wikidata": "Q103955",
+      "sources": [
+        {
+          "title": "Gustav Stresemann — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gustav_Stresemann"
+        },
+        {
+          "title": "Gustav Stresemann — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q103955"
+        }
+      ]
+    },
+    {
+      "id": "hans-luther",
+      "name": {
+        "en": "Hans Luther",
+        "fa": "هانس لوتر"
+      },
+      "born": 1879,
+      "died": 1962,
+      "wikidata": "Q155419",
+      "sources": [
+        {
+          "title": "Hans Luther — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hans_Luther"
+        },
+        {
+          "title": "Hans Luther — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q155419"
+        }
+      ]
+    },
+    {
+      "id": "hans-modrow",
+      "name": {
+        "en": "Hans Modrow",
+        "fa": "هانس مدرف"
+      },
+      "born": 1928,
+      "died": 2023,
+      "wikidata": "Q57241",
+      "sources": [
+        {
+          "title": "Hans Modrow — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hans_Modrow"
+        },
+        {
+          "title": "Hans Modrow — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57241"
+        }
+      ]
+    },
+    {
+      "id": "heinrich-bruning",
+      "name": {
+        "en": "Heinrich Brüning",
+        "fa": "هاینریش برونینگ"
+      },
+      "born": 1885,
+      "died": 1970,
+      "wikidata": "Q155398",
+      "sources": [
+        {
+          "title": "Heinrich Brüning — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Heinrich_Br%C3%BCning"
+        },
+        {
+          "title": "Heinrich Brüning — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q155398"
+        }
+      ]
+    },
+    {
+      "id": "heinrich-lubke",
+      "name": {
+        "en": "Heinrich Lübke",
+        "fa": "هاینریش لوبکه"
+      },
+      "born": 1894,
+      "died": 1972,
+      "wikidata": "Q2582",
+      "sources": [
+        {
+          "title": "Heinrich Lübke — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Heinrich_L%C3%BCbke"
+        },
+        {
+          "title": "Heinrich Lübke — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2582"
+        }
+      ]
+    },
+    {
+      "id": "helmut-kohl",
+      "name": {
+        "en": "Helmut Kohl",
+        "fa": "هلموت کوهل"
+      },
+      "born": 1930,
+      "died": 2017,
+      "wikidata": "Q2518",
+      "sources": [
+        {
+          "title": "Helmut Kohl — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Helmut_Kohl"
+        },
+        {
+          "title": "Helmut Kohl — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2518"
+        }
+      ]
+    },
+    {
+      "id": "helmut-schmidt",
+      "name": {
+        "en": "Helmut Schmidt",
+        "fa": "هلموت اشمیت"
+      },
+      "born": 1918,
+      "died": 2015,
+      "wikidata": "Q2516",
+      "sources": [
+        {
+          "title": "Helmut Schmidt — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Helmut_Schmidt"
+        },
+        {
+          "title": "Helmut Schmidt — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2516"
+        }
+      ]
+    },
+    {
+      "id": "hermann-muller",
+      "name": {
+        "en": "Hermann Müller",
+        "fa": "هرمان مولر"
+      },
+      "born": 1876,
+      "died": 1931,
+      "wikidata": "Q57158",
+      "sources": [
+        {
+          "title": "Hermann Müller (politician, born 1876) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hermann_M%C3%BCller_(politician%2C_born_1876)"
+        },
+        {
+          "title": "Hermann Müller — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57158"
+        }
+      ]
+    },
+    {
+      "id": "horst-kohler",
+      "name": {
+        "en": "Horst Köhler",
+        "fa": "هورست کوهلر"
+      },
+      "born": 1943,
+      "died": 2025,
+      "wikidata": "Q2542",
+      "sources": [
+        {
+          "title": "Horst Köhler — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Horst_K%C3%B6hler"
+        },
+        {
+          "title": "Horst Köhler — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2542"
+        }
+      ]
+    },
+    {
+      "id": "horst-sindermann",
+      "name": {
+        "en": "Horst Sindermann",
+        "fa": "هورست زیندرمان"
+      },
+      "born": 1915,
+      "died": 1990,
+      "wikidata": "Q57896",
+      "sources": [
+        {
+          "title": "Horst Sindermann — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Horst_Sindermann"
+        },
+        {
+          "title": "Horst Sindermann — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57896"
+        }
+      ]
+    },
+    {
+      "id": "joachim-gauck",
+      "name": {
+        "en": "Joachim Gauck",
+        "fa": "یوآخیم گاوک"
+      },
+      "born": 1940,
+      "wikidata": "Q2538",
+      "sources": [
+        {
+          "title": "Joachim Gauck — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Joachim_Gauck"
+        },
+        {
+          "title": "Joachim Gauck — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2538"
+        }
+      ]
+    },
+    {
+      "id": "johannes-rau",
+      "name": {
+        "en": "Johannes Rau",
+        "fa": "یوهانس راو"
+      },
+      "born": 1931,
+      "died": 2006,
+      "wikidata": "Q2551",
+      "sources": [
+        {
+          "title": "Johannes Rau — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Johannes_Rau"
+        },
+        {
+          "title": "Johannes Rau — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2551"
+        }
+      ]
+    },
+    {
+      "id": "joseph-goebbels",
+      "name": {
+        "en": "Joseph Goebbels",
+        "fa": "یوزف گوبلز"
+      },
+      "born": 1897,
+      "died": 1945,
+      "wikidata": "Q41749",
+      "sources": [
+        {
+          "title": "Joseph Goebbels — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Goebbels"
+        },
+        {
+          "title": "Joseph Goebbels — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q41749"
+        }
+      ]
+    },
+    {
+      "id": "joseph-ii",
+      "name": {
+        "en": "Joseph II",
+        "fa": "یوزف دوم"
+      },
+      "born": 1741,
+      "died": 1790,
+      "wikidata": "Q76555",
+      "sources": [
+        {
+          "title": "Joseph II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Joseph_II"
+        },
+        {
+          "title": "Joseph II — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q76555"
+        }
+      ]
+    },
+    {
+      "id": "joseph-wirth",
+      "name": {
+        "en": "Joseph Wirth",
+        "fa": "یوزف ویرت"
+      },
+      "born": 1879,
+      "died": 1956,
+      "wikidata": "Q60150",
+      "sources": [
+        {
+          "title": "Joseph Wirth — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Wirth"
+        },
+        {
+          "title": "Joseph Wirth — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q60150"
+        }
+      ]
+    },
+    {
+      "id": "karl-carstens",
+      "name": {
+        "en": "Karl Carstens",
+        "fa": "کارل کارستنس"
+      },
+      "born": 1914,
+      "died": 1992,
+      "wikidata": "Q2569",
+      "sources": [
+        {
+          "title": "Karl Carstens — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Karl_Carstens"
+        },
+        {
+          "title": "Karl Carstens — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2569"
+        }
+      ]
+    },
+    {
+      "id": "karl-donitz",
+      "name": {
+        "en": "Karl Dönitz",
+        "fa": "کارل دونیتس"
+      },
+      "born": 1891,
+      "died": 1980,
+      "wikidata": "Q76437",
+      "sources": [
+        {
+          "title": "Karl Dönitz — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Karl_D%C3%B6nitz"
+        },
+        {
+          "title": "Karl Dönitz — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q76437"
+        }
+      ]
+    },
+    {
+      "id": "konrad-adenauer",
+      "name": {
+        "en": "Konrad Adenauer",
+        "fa": "کنراد آدناوئر"
+      },
+      "born": 1876,
+      "died": 1967,
+      "wikidata": "Q2492",
+      "sources": [
+        {
+          "title": "Konrad Adenauer — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Konrad_Adenauer"
+        },
+        {
+          "title": "Konrad Adenauer — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2492"
+        }
+      ]
+    },
+    {
+      "id": "kurt-georg-kiesinger",
+      "name": {
+        "en": "Kurt Georg Kiesinger",
+        "fa": "کورت گئورگ کیزینگر"
+      },
+      "born": 1904,
+      "died": 1988,
+      "wikidata": "Q2512",
+      "sources": [
+        {
+          "title": "Kurt Georg Kiesinger — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kurt_Georg_Kiesinger"
+        },
+        {
+          "title": "Kurt Georg Kiesinger — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2512"
+        }
+      ]
+    },
+    {
+      "id": "kurt-von-schleicher",
+      "name": {
+        "en": "Kurt von Schleicher",
+        "fa": "کورت فون شلایشر"
+      },
+      "born": 1882,
+      "died": 1934,
+      "wikidata": "Q57133",
+      "sources": [
+        {
+          "title": "Kurt von Schleicher — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kurt_von_Schleicher"
+        },
+        {
+          "title": "Kurt von Schleicher — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57133"
+        }
+      ]
+    },
+    {
+      "id": "leo-von-caprivi",
+      "name": {
+        "en": "Leo von Caprivi",
+        "fa": "لئو فون کاپریوی"
+      },
+      "wikidata": "Q10873",
+      "sources": [
+        {
+          "title": "Leo von Caprivi — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q10873"
+        }
+      ]
+    },
+    {
+      "id": "leopold-ii",
+      "name": {
+        "en": "Leopold II, Holy Roman Emperor",
+        "fa": "لئوپولد دوم، امپراتور مقدس روم"
+      },
+      "born": 1747,
+      "died": 1792,
+      "wikidata": "Q151321",
+      "sources": [
+        {
+          "title": "Leopold II, Holy Roman Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leopold_II%2C_Holy_Roman_Emperor"
+        },
+        {
+          "title": "Leopold II, Holy Roman Emperor — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q151321"
+        }
+      ]
+    },
+    {
+      "id": "lothar-de-maiziere",
+      "name": {
+        "en": "Lothar de Maizière",
+        "fa": "لوتار د مزیر"
+      },
+      "born": 1940,
+      "wikidata": "Q57412",
+      "sources": [
+        {
+          "title": "Lothar de Maizière — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lothar_de_Maizi%C3%A8re"
+        },
+        {
+          "title": "Lothar de Maizière — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57412"
+        }
+      ]
+    },
+    {
+      "id": "ludwig-erhard",
+      "name": {
+        "en": "Ludwig Erhard",
+        "fa": "لودویگ ارهارد"
+      },
+      "born": 1897,
+      "died": 1977,
+      "wikidata": "Q2496",
+      "sources": [
+        {
+          "title": "Ludwig Erhard — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ludwig_Erhard"
+        },
+        {
+          "title": "Ludwig Erhard — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2496"
+        }
+      ]
+    },
+    {
+      "id": "lutz-graf-schwerin-von-krosigk",
+      "name": {
+        "en": "Lutz Graf Schwerin von Krosigk",
+        "fa": "لوتس شورین فون کروسیک"
+      },
+      "born": 1887,
+      "died": 1977,
+      "wikidata": "Q57136",
+      "sources": [
+        {
+          "title": "Lutz Graf Schwerin von Krosigk — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lutz_Graf_Schwerin_von_Krosigk"
+        },
+        {
+          "title": "Lutz Graf Schwerin von Krosigk — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57136"
+        }
+      ]
+    },
+    {
+      "id": "manfred-gerlach",
+      "name": {
+        "en": "Manfred Gerlach",
+        "fa": "مانفرد گرلاخ"
+      },
+      "born": 1928,
+      "died": 2011,
+      "wikidata": "Q2601",
+      "sources": [
+        {
+          "title": "Manfred Gerlach — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manfred_Gerlach"
+        },
+        {
+          "title": "Manfred Gerlach — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2601"
+        }
+      ]
+    },
+    {
+      "id": "olaf-scholz",
+      "name": {
+        "en": "Olaf Scholz",
+        "fa": "اولاف شولتس"
+      },
+      "born": 1958,
+      "wikidata": "Q61053",
+      "sources": [
+        {
+          "title": "Olaf Scholz — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Olaf_Scholz"
+        },
+        {
+          "title": "Olaf Scholz — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q61053"
+        }
+      ]
+    },
+    {
+      "id": "otto-grotewohl",
+      "name": {
+        "en": "Otto Grotewohl",
+        "fa": "اتو گروتول"
+      },
+      "born": 1894,
+      "died": 1964,
+      "wikidata": "Q77210",
+      "sources": [
+        {
+          "title": "Otto Grotewohl — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Otto_Grotewohl"
+        },
+        {
+          "title": "Otto Grotewohl — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q77210"
+        }
+      ]
+    },
+    {
+      "id": "otto-von-bismarck",
+      "name": {
+        "en": "Otto von Bismarck",
+        "fa": "اتو فون بیسمارک"
+      },
+      "born": 1815,
+      "died": 1898,
+      "wikidata": "Q8442",
+      "sources": [
+        {
+          "title": "Otto von Bismarck — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Otto_von_Bismarck"
+        },
+        {
+          "title": "Otto von Bismarck — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q8442"
+        }
+      ]
+    },
+    {
+      "id": "paul-von-hindenburg",
+      "name": {
+        "en": "Paul von Hindenburg",
+        "fa": "پاول فون هیندنبورگ"
+      },
+      "born": 1847,
+      "died": 1934,
+      "wikidata": "Q2667",
+      "sources": [
+        {
+          "title": "Paul von Hindenburg — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paul_von_Hindenburg"
+        },
+        {
+          "title": "Paul von Hindenburg — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2667"
+        }
+      ]
+    },
+    {
+      "id": "philipp-scheidemann",
+      "name": {
+        "en": "Philipp Scheidemann",
+        "fa": "فیلیپ شایدمان"
+      },
+      "born": 1865,
+      "died": 1939,
+      "wikidata": "Q70581",
+      "sources": [
+        {
+          "title": "Philipp Scheidemann — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Philipp_Scheidemann"
+        },
+        {
+          "title": "Philipp Scheidemann — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q70581"
+        }
+      ]
+    },
+    {
+      "id": "richard-von-weizsacker",
+      "name": {
+        "en": "Richard von Weizsäcker",
+        "fa": "ریشارد فون وایتسکر"
+      },
+      "born": 1920,
+      "died": 2015,
+      "wikidata": "Q2567",
+      "sources": [
+        {
+          "title": "Richard von Weizsäcker — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Richard_von_Weizs%C3%A4cker"
+        },
+        {
+          "title": "Richard von Weizsäcker — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2567"
+        }
+      ]
+    },
+    {
+      "id": "roman-herzog",
+      "name": {
+        "en": "Roman Herzog",
+        "fa": "رومان هرتسوگ"
+      },
+      "born": 1934,
+      "died": 2017,
+      "wikidata": "Q2563",
+      "sources": [
+        {
+          "title": "Roman Herzog — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Roman_Herzog"
+        },
+        {
+          "title": "Roman Herzog — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2563"
+        }
+      ]
+    },
+    {
+      "id": "sabine-bergmann-pohl",
+      "name": {
+        "en": "Sabine Bergmann-Pohl",
+        "fa": "زابینه برگمان-پول"
+      },
+      "born": 1946,
+      "wikidata": "Q57232",
+      "sources": [
+        {
+          "title": "Sabine Bergmann-Pohl — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sabine_Bergmann-Pohl"
+        },
+        {
+          "title": "Sabine Bergmann-Pohl — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57232"
+        }
+      ]
+    },
+    {
+      "id": "theobald-von-bethmann-hollweg",
+      "name": {
+        "en": "Theobald von Bethmann Hollweg",
+        "fa": "تئوبالت فون بتمان-هولوگ"
+      },
+      "wikidata": "Q77113",
+      "sources": [
+        {
+          "title": "Theobald von Bethmann Hollweg — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q77113"
+        }
+      ]
+    },
+    {
+      "id": "theodor-heuss",
+      "name": {
+        "en": "Theodor Heuss",
+        "fa": "تئودور هویس"
+      },
+      "born": 1884,
+      "died": 1963,
+      "wikidata": "Q2594",
+      "sources": [
+        {
+          "title": "Theodor Heuss — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Theodor_Heuss"
+        },
+        {
+          "title": "Theodor Heuss — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2594"
+        }
+      ]
+    },
+    {
+      "id": "walter-scheel",
+      "name": {
+        "en": "Walter Scheel",
+        "fa": "والتر شیل"
+      },
+      "born": 1919,
+      "died": 2016,
+      "wikidata": "Q2571",
+      "sources": [
+        {
+          "title": "Walter Scheel — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Walter_Scheel"
+        },
+        {
+          "title": "Walter Scheel — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2571"
+        }
+      ]
+    },
+    {
+      "id": "walter-ulbricht",
+      "name": {
+        "en": "Walter Ulbricht",
+        "fa": "والتر اولبریخت"
+      },
+      "born": 1893,
+      "died": 1973,
+      "wikidata": "Q2628",
+      "sources": [
+        {
+          "title": "Walter Ulbricht — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Walter_Ulbricht"
+        },
+        {
+          "title": "Walter Ulbricht — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2628"
+        }
+      ]
+    },
+    {
+      "id": "wilhelm-cuno",
+      "name": {
+        "en": "Wilhelm Cuno",
+        "fa": "ویلهلم کونو"
+      },
+      "born": 1876,
+      "died": 1933,
+      "wikidata": "Q77179",
+      "sources": [
+        {
+          "title": "Wilhelm Cuno — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_Cuno"
+        },
+        {
+          "title": "Wilhelm Cuno — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q77179"
+        }
+      ]
+    },
+    {
+      "id": "wilhelm-i",
+      "name": {
+        "en": "Wilhelm I",
+        "fa": "ویلهلم یکم"
+      },
+      "born": 1797,
+      "died": 1888,
+      "wikidata": "Q150652",
+      "sources": [
+        {
+          "title": "Wilhelm I — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_I"
+        },
+        {
+          "title": "Wilhelm I — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q150652"
+        }
+      ]
+    },
+    {
+      "id": "wilhelm-ii",
+      "name": {
+        "en": "Wilhelm II",
+        "fa": "ویلهلم دوم"
+      },
+      "born": 1859,
+      "died": 1941,
+      "wikidata": "Q2677",
+      "sources": [
+        {
+          "title": "Wilhelm II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_II"
+        },
+        {
+          "title": "Wilhelm II — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2677"
+        }
+      ]
+    },
+    {
+      "id": "wilhelm-marx",
+      "name": {
+        "en": "Wilhelm Marx",
+        "fa": "ویلهلم مارکس"
+      },
+      "born": 1863,
+      "died": 1946,
+      "wikidata": "Q77183",
+      "sources": [
+        {
+          "title": "Wilhelm Marx — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_Marx"
+        },
+        {
+          "title": "Wilhelm Marx — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q77183"
+        }
+      ]
+    },
+    {
+      "id": "wilhelm-pieck",
+      "name": {
+        "en": "Wilhelm Pieck",
+        "fa": "ویلهلم پیک"
+      },
+      "born": 1876,
+      "died": 1960,
+      "wikidata": "Q65917",
+      "sources": [
+        {
+          "title": "Wilhelm Pieck — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_Pieck"
+        },
+        {
+          "title": "Wilhelm Pieck — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q65917"
+        }
+      ]
+    },
+    {
+      "id": "willi-stoph",
+      "name": {
+        "en": "Willi Stoph",
+        "fa": "ویلی اشتوف"
+      },
+      "born": 1914,
+      "died": 1999,
+      "wikidata": "Q2610",
+      "sources": [
+        {
+          "title": "Willi Stoph — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Willi_Stoph"
+        },
+        {
+          "title": "Willi Stoph — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2610"
+        }
+      ]
+    },
+    {
+      "id": "willy-brandt",
+      "name": {
+        "en": "Willy Brandt",
+        "fa": "ویلی برانت"
+      },
+      "born": 1913,
+      "died": 1992,
+      "wikidata": "Q2514",
+      "sources": [
+        {
+          "title": "Willy Brandt — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Willy_Brandt"
+        },
+        {
+          "title": "Willy Brandt — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2514"
+        }
+      ]
+    }
+  ],
+  "lane": [
+    {
+      "country": "germany",
+      "state": "holy-roman-empire",
+      "start": 1789,
+      "end": 1806,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "Holy Roman Empire — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Holy_Roman_Empire"
+        }
+      ]
+    },
+    {
+      "country": "germany",
+      "state": "confederation-of-the-rhine",
+      "start": 1806,
+      "end": 1813,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "Confederation of the Rhine — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Confederation_of_the_Rhine"
+        }
+      ]
+    },
+    {
+      "country": "germany",
+      "state": null,
+      "start": 1813,
+      "end": 1815,
+      "kind": "no-state",
+      "note": {
+        "en": "No common German state",
+        "fa": "بدون دولت مشترک آلمانی"
+      },
+      "sources": [
+        {
+          "title": "Germany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Germany"
+        }
+      ]
+    },
+    {
+      "country": "germany",
+      "state": "german-confederation",
+      "start": 1815,
+      "end": 1866,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "German Confederation — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/German_Confederation"
+        }
+      ]
+    },
+    {
+      "country": "germany",
+      "state": "north-german-confederation",
+      "start": 1866,
+      "end": 1871,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "North German Confederation — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/North_German_Confederation"
+        }
+      ]
+    },
+    {
+      "country": "germany",
+      "state": "german-empire",
+      "start": 1871,
+      "end": 1918,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "German Empire — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/German_Empire"
+        }
+      ]
+    },
+    {
+      "country": "germany",
+      "state": "weimar-republic",
+      "start": 1918,
+      "end": 1933,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "Weimar Republic — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Weimar_Republic"
+        }
+      ]
+    },
+    {
+      "country": "germany",
+      "state": "nazi-germany",
+      "start": 1933,
+      "end": 1945,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "Nazi Germany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nazi_Germany"
+        }
+      ]
+    },
+    {
+      "country": "germany",
+      "state": "allied-occupied-germany",
+      "start": 1945,
+      "end": 1949,
+      "kind": "occupation",
+      "sources": [
+        {
+          "title": "Allied-occupied Germany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Allied-occupied_Germany"
+        }
+      ]
+    },
+    {
+      "country": "germany",
+      "state": "federal-republic-of-germany",
+      "start": 1949,
+      "end": null,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "Germany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Germany"
+        }
+      ]
+    },
+    {
+      "country": "germany",
+      "state": "east-germany",
+      "start": 1949,
+      "end": 1990,
+      "kind": "rival",
+      "note": {
+        "en": "From 1949 to 1990 there were two German states; East Germany joined the Federal Republic in 1990.",
+        "fa": "از ۱۹۴۹ تا ۱۹۹۰ دو دولت آلمانی وجود داشت؛ آلمان شرقی در ۱۹۹۰ به جمهوری فدرال پیوست."
+      },
+      "sources": [
+        {
+          "title": "East Germany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/East_Germany"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "person": "joseph-ii",
+      "state": "holy-roman-empire",
+      "start": 1789,
+      "end": 1790,
+      "office": "head-of-state",
+      "title": {
+        "en": "Holy Roman Emperor",
+        "fa": "امپراتور مقدس روم"
+      },
+      "sources": [
+        {
+          "title": "Joseph II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Joseph_II"
+        },
+        {
+          "title": "Joseph II — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q76555"
+        }
+      ]
+    },
+    {
+      "person": "leopold-ii",
+      "state": "holy-roman-empire",
+      "start": 1790,
+      "end": 1792,
+      "office": "head-of-state",
+      "title": {
+        "en": "Holy Roman Emperor",
+        "fa": "امپراتور مقدس روم"
+      },
+      "exactStart": "1790-10-06",
+      "exactEnd": "1792-03-01",
+      "sources": [
+        {
+          "title": "Leopold II, Holy Roman Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leopold_II%2C_Holy_Roman_Emperor"
+        },
+        {
+          "title": "Leopold II, Holy Roman Emperor — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q151321"
+        }
+      ]
+    },
+    {
+      "person": "francis-ii",
+      "state": "holy-roman-empire",
+      "start": 1792,
+      "end": 1806,
+      "office": "head-of-state",
+      "title": {
+        "en": "Holy Roman Emperor",
+        "fa": "امپراتور مقدس روم"
+      },
+      "exactStart": "1792-07-05",
+      "exactEnd": "1806-08-06",
+      "sources": [
+        {
+          "title": "Francis II, Holy Roman Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Francis_II%2C_Holy_Roman_Emperor"
+        },
+        {
+          "title": "Francis II, Holy Roman Emperor — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q130834"
+        }
+      ]
+    },
+    {
+      "person": "wilhelm-i",
+      "state": "north-german-confederation",
+      "start": 1867,
+      "end": 1870,
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of state",
+        "fa": "رئیس کشور"
+      },
+      "exactStart": "1867-07-01",
+      "exactEnd": "1870-12-31",
+      "sources": [
+        {
+          "title": "Wilhelm I — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_I"
+        },
+        {
+          "title": "Wilhelm I — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q150652"
+        }
+      ]
+    },
+    {
+      "person": "otto-von-bismarck",
+      "state": "north-german-confederation",
+      "start": 1867,
+      "end": 1871,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "sources": [
+        {
+          "title": "Otto von Bismarck — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Otto_von_Bismarck"
+        }
+      ]
+    },
+    {
+      "person": "wilhelm-i",
+      "state": "german-empire",
+      "start": 1871,
+      "end": 1888,
+      "office": "head-of-state",
+      "title": {
+        "en": "German Emperor",
+        "fa": "قیصر"
+      },
+      "exactStart": "1871-01-01",
+      "exactEnd": "1888-03-09",
+      "sources": [
+        {
+          "title": "Wilhelm I — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_I"
+        },
+        {
+          "title": "Wilhelm I — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q150652"
+        }
+      ]
+    },
+    {
+      "person": "otto-von-bismarck",
+      "state": "german-empire",
+      "start": 1871,
+      "end": 1890,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "sources": [
+        {
+          "title": "Otto von Bismarck — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Otto_von_Bismarck"
+        }
+      ]
+    },
+    {
+      "person": "friedrich-iii",
+      "state": "german-empire",
+      "start": 1888,
+      "end": 1888,
+      "office": "head-of-state",
+      "title": {
+        "en": "German Emperor",
+        "fa": "قیصر"
+      },
+      "exactStart": "1888-03-09",
+      "exactEnd": "1888-06-15",
+      "sources": [
+        {
+          "title": "Frederick III, German Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Frederick_III%2C_German_Emperor"
+        },
+        {
+          "title": "Frederick III, German Emperor — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q58600"
+        }
+      ]
+    },
+    {
+      "person": "wilhelm-ii",
+      "state": "german-empire",
+      "start": 1888,
+      "end": 1918,
+      "office": "head-of-state",
+      "title": {
+        "en": "German Emperor",
+        "fa": "قیصر"
+      },
+      "exactStart": "1888-06-15",
+      "exactEnd": "1918-11-09",
+      "sources": [
+        {
+          "title": "Wilhelm II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_II"
+        },
+        {
+          "title": "Wilhelm II — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2677"
+        }
+      ]
+    },
+    {
+      "person": "leo-von-caprivi",
+      "state": "german-empire",
+      "start": 1890,
+      "end": 1894,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "sources": [
+        {
+          "title": "Leo von Caprivi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leo_von_Caprivi"
+        }
+      ]
+    },
+    {
+      "person": "chlodwig-prince-of-hohenlohe-schillingsfurst",
+      "state": "german-empire",
+      "start": 1894,
+      "end": 1900,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1894-10-29",
+      "exactEnd": "1900-10-17",
+      "sources": [
+        {
+          "title": "Chlodwig, Prince of Hohenlohe-Schillingsfürst — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chlodwig%2C_Prince_of_Hohenlohe-Schillingsf%C3%BCrst"
+        },
+        {
+          "title": "Chlodwig, Prince of Hohenlohe-Schillingsfürst — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q77166"
+        }
+      ]
+    },
+    {
+      "person": "bernhard-von-bulow",
+      "state": "german-empire",
+      "start": 1900,
+      "end": 1909,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1900-10-17",
+      "exactEnd": "1909-07-14",
+      "sources": [
+        {
+          "title": "Bernhard von Bülow — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bernhard_von_B%C3%BClow"
+        },
+        {
+          "title": "Bernhard von Bülow — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q60113"
+        }
+      ]
+    },
+    {
+      "person": "theobald-von-bethmann-hollweg",
+      "state": "german-empire",
+      "start": 1909,
+      "end": 1917,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "sources": [
+        {
+          "title": "Theobald von Bethmann Hollweg — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Theobald_von_Bethmann_Hollweg"
+        }
+      ]
+    },
+    {
+      "person": "georg-michaelis",
+      "state": "german-empire",
+      "start": 1917,
+      "end": 1917,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "sources": [
+        {
+          "title": "Georg Michaelis — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Georg_Michaelis"
+        }
+      ]
+    },
+    {
+      "person": "georg-von-hertling",
+      "state": "german-empire",
+      "start": 1917,
+      "end": 1918,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1917-11-01",
+      "exactEnd": "1918-09-30",
+      "sources": [
+        {
+          "title": "Georg von Hertling — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Georg_von_Hertling"
+        },
+        {
+          "title": "Georg von Hertling — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q161084"
+        }
+      ]
+    },
+    {
+      "person": "friedrich-ebert",
+      "state": "weimar-republic",
+      "start": 1918,
+      "end": 1919,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1918-11-10",
+      "exactEnd": "1919-02-11",
+      "sources": [
+        {
+          "title": "Friedrich Ebert — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Friedrich_Ebert"
+        },
+        {
+          "title": "Friedrich Ebert — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2646"
+        }
+      ]
+    },
+    {
+      "person": "philipp-scheidemann",
+      "state": "weimar-republic",
+      "start": 1919,
+      "end": 1919,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1919-02-13",
+      "exactEnd": "1919-06-20",
+      "sources": [
+        {
+          "title": "Philipp Scheidemann — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Philipp_Scheidemann"
+        },
+        {
+          "title": "Philipp Scheidemann — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q70581"
+        }
+      ]
+    },
+    {
+      "person": "gustav-bauer",
+      "state": "weimar-republic",
+      "start": 1919,
+      "end": 1920,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1919-06-21",
+      "exactEnd": "1920-03-26",
+      "sources": [
+        {
+          "title": "Gustav Bauer — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gustav_Bauer"
+        },
+        {
+          "title": "Gustav Bauer — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57159"
+        }
+      ]
+    },
+    {
+      "person": "friedrich-ebert",
+      "state": "weimar-republic",
+      "start": 1919,
+      "end": 1925,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور رایش"
+      },
+      "exactStart": "1919-02-11",
+      "exactEnd": "1925-02-28",
+      "sources": [
+        {
+          "title": "Friedrich Ebert — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Friedrich_Ebert"
+        },
+        {
+          "title": "Friedrich Ebert — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2646"
+        }
+      ]
+    },
+    {
+      "person": "hermann-muller",
+      "state": "weimar-republic",
+      "start": 1920,
+      "end": 1920,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1920-03-27",
+      "exactEnd": "1920-06-06",
+      "sources": [
+        {
+          "title": "Hermann Müller (politician, born 1876) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hermann_M%C3%BCller_(politician%2C_born_1876)"
+        },
+        {
+          "title": "Hermann Müller — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57158"
+        }
+      ]
+    },
+    {
+      "person": "constantin-fehrenbach",
+      "state": "weimar-republic",
+      "start": 1920,
+      "end": 1921,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1920-06-25",
+      "exactEnd": "1921-05-04",
+      "sources": [
+        {
+          "title": "Constantin Fehrenbach — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Constantin_Fehrenbach"
+        },
+        {
+          "title": "Constantin Fehrenbach — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q77156"
+        }
+      ]
+    },
+    {
+      "person": "joseph-wirth",
+      "state": "weimar-republic",
+      "start": 1921,
+      "end": 1922,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1921-05-10",
+      "exactEnd": "1922-11-14",
+      "sources": [
+        {
+          "title": "Joseph Wirth — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Wirth"
+        },
+        {
+          "title": "Joseph Wirth — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q60150"
+        }
+      ]
+    },
+    {
+      "person": "wilhelm-cuno",
+      "state": "weimar-republic",
+      "start": 1922,
+      "end": 1923,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1922-11-22",
+      "exactEnd": "1923-08-12",
+      "sources": [
+        {
+          "title": "Wilhelm Cuno — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_Cuno"
+        },
+        {
+          "title": "Wilhelm Cuno — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q77179"
+        }
+      ]
+    },
+    {
+      "person": "gustav-stresemann",
+      "state": "weimar-republic",
+      "start": 1923,
+      "end": 1923,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1923-08-13",
+      "exactEnd": "1923-11-23",
+      "sources": [
+        {
+          "title": "Gustav Stresemann — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gustav_Stresemann"
+        },
+        {
+          "title": "Gustav Stresemann — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q103955"
+        }
+      ]
+    },
+    {
+      "person": "wilhelm-marx",
+      "state": "weimar-republic",
+      "start": 1923,
+      "end": 1924,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1923-11-30",
+      "exactEnd": "1924-12-15",
+      "sources": [
+        {
+          "title": "Wilhelm Marx — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_Marx"
+        },
+        {
+          "title": "Wilhelm Marx — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q77183"
+        }
+      ]
+    },
+    {
+      "person": "hans-luther",
+      "state": "weimar-republic",
+      "start": 1925,
+      "end": 1926,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1925-01-20",
+      "exactEnd": "1926-05-12",
+      "sources": [
+        {
+          "title": "Hans Luther — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hans_Luther"
+        },
+        {
+          "title": "Hans Luther — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q155419"
+        }
+      ]
+    },
+    {
+      "person": "paul-von-hindenburg",
+      "state": "weimar-republic",
+      "start": 1925,
+      "end": 1933,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور رایش"
+      },
+      "exactStart": "1925-05-12",
+      "sources": [
+        {
+          "title": "Paul von Hindenburg — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paul_von_Hindenburg"
+        },
+        {
+          "title": "Paul von Hindenburg — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2667"
+        }
+      ]
+    },
+    {
+      "person": "wilhelm-marx",
+      "state": "weimar-republic",
+      "start": 1926,
+      "end": 1928,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1926-05-16",
+      "exactEnd": "1928-06-12",
+      "sources": [
+        {
+          "title": "Wilhelm Marx — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_Marx"
+        },
+        {
+          "title": "Wilhelm Marx — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q77183"
+        }
+      ]
+    },
+    {
+      "person": "hermann-muller",
+      "state": "weimar-republic",
+      "start": 1928,
+      "end": 1930,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1928-06-28",
+      "exactEnd": "1930-03-27",
+      "sources": [
+        {
+          "title": "Hermann Müller (politician, born 1876) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hermann_M%C3%BCller_(politician%2C_born_1876)"
+        },
+        {
+          "title": "Hermann Müller — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57158"
+        }
+      ]
+    },
+    {
+      "person": "heinrich-bruning",
+      "state": "weimar-republic",
+      "start": 1930,
+      "end": 1932,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1930-03-30",
+      "exactEnd": "1932-05-30",
+      "sources": [
+        {
+          "title": "Heinrich Brüning — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Heinrich_Br%C3%BCning"
+        },
+        {
+          "title": "Heinrich Brüning — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q155398"
+        }
+      ]
+    },
+    {
+      "person": "franz-von-papen",
+      "state": "weimar-republic",
+      "start": 1932,
+      "end": 1932,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1932-06-01",
+      "exactEnd": "1932-11-17",
+      "sources": [
+        {
+          "title": "Franz von Papen — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Franz_von_Papen"
+        },
+        {
+          "title": "Franz von Papen — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q150552"
+        }
+      ]
+    },
+    {
+      "person": "kurt-von-schleicher",
+      "state": "weimar-republic",
+      "start": 1932,
+      "end": 1933,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1932-12-03",
+      "exactEnd": "1933-01-30",
+      "sources": [
+        {
+          "title": "Kurt von Schleicher — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kurt_von_Schleicher"
+        },
+        {
+          "title": "Kurt von Schleicher — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57133"
+        }
+      ]
+    },
+    {
+      "person": "paul-von-hindenburg",
+      "state": "nazi-germany",
+      "start": 1933,
+      "end": 1934,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور رایش"
+      },
+      "exactEnd": "1934-08-02",
+      "sources": [
+        {
+          "title": "Paul von Hindenburg — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paul_von_Hindenburg"
+        },
+        {
+          "title": "Paul von Hindenburg — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2667"
+        }
+      ]
+    },
+    {
+      "person": "adolf-hitler",
+      "state": "nazi-germany",
+      "start": 1933,
+      "end": 1945,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1933-01-30",
+      "exactEnd": "1945-04-30",
+      "sources": [
+        {
+          "title": "Adolf Hitler — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Adolf_Hitler"
+        },
+        {
+          "title": "Adolf Hitler — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q352"
+        }
+      ]
+    },
+    {
+      "person": "adolf-hitler",
+      "state": "nazi-germany",
+      "start": 1934,
+      "end": 1945,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور رایش"
+      },
+      "exactStart": "1934-08-02",
+      "exactEnd": "1945-04-30",
+      "sources": [
+        {
+          "title": "Adolf Hitler — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Adolf_Hitler"
+        },
+        {
+          "title": "Adolf Hitler — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q352"
+        }
+      ]
+    },
+    {
+      "person": "joseph-goebbels",
+      "state": "allied-occupied-germany",
+      "start": 1945,
+      "end": 1945,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1945-04-30",
+      "exactEnd": "1945-05-01",
+      "sources": [
+        {
+          "title": "Joseph Goebbels — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Goebbels"
+        },
+        {
+          "title": "Joseph Goebbels — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q41749"
+        }
+      ]
+    },
+    {
+      "person": "karl-donitz",
+      "state": "allied-occupied-germany",
+      "start": 1945,
+      "end": 1945,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور رایش"
+      },
+      "exactStart": "1945-04-30",
+      "exactEnd": "1945-05-23",
+      "sources": [
+        {
+          "title": "Karl Dönitz — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Karl_D%C3%B6nitz"
+        },
+        {
+          "title": "Karl Dönitz — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q76437"
+        }
+      ]
+    },
+    {
+      "person": "karl-donitz",
+      "state": "nazi-germany",
+      "start": 1945,
+      "end": 1945,
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of state",
+        "fa": "رئیس کشور"
+      },
+      "exactStart": "1945-04-30",
+      "exactEnd": "1945-05-23",
+      "sources": [
+        {
+          "title": "Karl Dönitz — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Karl_D%C3%B6nitz"
+        },
+        {
+          "title": "Karl Dönitz — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q76437"
+        }
+      ]
+    },
+    {
+      "person": "lutz-graf-schwerin-von-krosigk",
+      "state": "allied-occupied-germany",
+      "start": 1945,
+      "end": 1945,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1945-05-01",
+      "exactEnd": "1945-05-23",
+      "sources": [
+        {
+          "title": "Lutz Graf Schwerin von Krosigk — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lutz_Graf_Schwerin_von_Krosigk"
+        },
+        {
+          "title": "Lutz Graf Schwerin von Krosigk — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57136"
+        }
+      ]
+    },
+    {
+      "person": "theodor-heuss",
+      "state": "federal-republic-of-germany",
+      "start": 1949,
+      "end": 1959,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "1949-09-12",
+      "exactEnd": "1959-09-12",
+      "sources": [
+        {
+          "title": "Theodor Heuss — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Theodor_Heuss"
+        },
+        {
+          "title": "Theodor Heuss — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2594"
+        }
+      ]
+    },
+    {
+      "person": "wilhelm-pieck",
+      "state": "east-germany",
+      "start": 1949,
+      "end": 1960,
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of state",
+        "fa": "رئیس کشور"
+      },
+      "exactStart": "1949-10-11",
+      "exactEnd": "1960-09-07",
+      "sources": [
+        {
+          "title": "Wilhelm Pieck — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_Pieck"
+        },
+        {
+          "title": "Wilhelm Pieck — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q65917"
+        }
+      ]
+    },
+    {
+      "person": "konrad-adenauer",
+      "state": "federal-republic-of-germany",
+      "start": 1949,
+      "end": 1963,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1949-09-20",
+      "exactEnd": "1963-10-11",
+      "sources": [
+        {
+          "title": "Konrad Adenauer — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Konrad_Adenauer"
+        },
+        {
+          "title": "Konrad Adenauer — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2492"
+        }
+      ]
+    },
+    {
+      "person": "otto-grotewohl",
+      "state": "east-germany",
+      "start": 1949,
+      "end": 1964,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chairman of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "exactStart": "1949-10-07",
+      "exactEnd": "1964-09-21",
+      "sources": [
+        {
+          "title": "Otto Grotewohl — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Otto_Grotewohl"
+        },
+        {
+          "title": "Otto Grotewohl — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q77210"
+        }
+      ]
+    },
+    {
+      "person": "heinrich-lubke",
+      "state": "federal-republic-of-germany",
+      "start": 1959,
+      "end": 1969,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "1959-09-13",
+      "exactEnd": "1969-06-30",
+      "sources": [
+        {
+          "title": "Heinrich Lübke — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Heinrich_L%C3%BCbke"
+        },
+        {
+          "title": "Heinrich Lübke — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2582"
+        }
+      ]
+    },
+    {
+      "person": "walter-ulbricht",
+      "state": "east-germany",
+      "start": 1960,
+      "end": 1973,
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of state",
+        "fa": "رئیس کشور"
+      },
+      "exactStart": "1960-09-12",
+      "exactEnd": "1973-08-01",
+      "sources": [
+        {
+          "title": "Walter Ulbricht — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Walter_Ulbricht"
+        },
+        {
+          "title": "Walter Ulbricht — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2628"
+        }
+      ]
+    },
+    {
+      "person": "ludwig-erhard",
+      "state": "federal-republic-of-germany",
+      "start": 1963,
+      "end": 1966,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1963-10-17",
+      "exactEnd": "1966-11-30",
+      "sources": [
+        {
+          "title": "Ludwig Erhard — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ludwig_Erhard"
+        },
+        {
+          "title": "Ludwig Erhard — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2496"
+        }
+      ]
+    },
+    {
+      "person": "willi-stoph",
+      "state": "east-germany",
+      "start": 1964,
+      "end": 1973,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chairman of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "sources": [
+        {
+          "title": "Willi Stoph — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Willi_Stoph"
+        },
+        {
+          "title": "Willi Stoph — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2610"
+        }
+      ]
+    },
+    {
+      "person": "kurt-georg-kiesinger",
+      "state": "federal-republic-of-germany",
+      "start": 1966,
+      "end": 1969,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1966-12-01",
+      "exactEnd": "1969-10-21",
+      "sources": [
+        {
+          "title": "Kurt Georg Kiesinger — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kurt_Georg_Kiesinger"
+        },
+        {
+          "title": "Kurt Georg Kiesinger — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2512"
+        }
+      ]
+    },
+    {
+      "person": "gustav-heinemann",
+      "state": "federal-republic-of-germany",
+      "start": 1969,
+      "end": 1974,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "1969-07-01",
+      "exactEnd": "1974-06-30",
+      "sources": [
+        {
+          "title": "Gustav Heinemann — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gustav_Heinemann"
+        },
+        {
+          "title": "Gustav Heinemann — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2573"
+        }
+      ]
+    },
+    {
+      "person": "willy-brandt",
+      "state": "federal-republic-of-germany",
+      "start": 1969,
+      "end": 1974,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1969-10-22",
+      "exactEnd": "1974-05-07",
+      "sources": [
+        {
+          "title": "Willy Brandt — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Willy_Brandt"
+        },
+        {
+          "title": "Willy Brandt — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2514"
+        }
+      ]
+    },
+    {
+      "person": "friedrich-ebert-jr",
+      "state": "east-germany",
+      "start": 1973,
+      "end": 1973,
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of state",
+        "fa": "رئیس کشور"
+      },
+      "exactStart": "1973-08-01",
+      "exactEnd": "1973-10-03",
+      "sources": [
+        {
+          "title": "Friedrich Ebert Jr. — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Friedrich_Ebert_Jr."
+        },
+        {
+          "title": "Friedrich Ebert Jr. — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q61659"
+        }
+      ]
+    },
+    {
+      "person": "horst-sindermann",
+      "state": "east-germany",
+      "start": 1973,
+      "end": 1976,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chairman of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "sources": [
+        {
+          "title": "Horst Sindermann — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Horst_Sindermann"
+        },
+        {
+          "title": "Horst Sindermann — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57896"
+        }
+      ]
+    },
+    {
+      "person": "willi-stoph",
+      "state": "east-germany",
+      "start": 1973,
+      "end": 1976,
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of state",
+        "fa": "رئیس کشور"
+      },
+      "exactStart": "1973-10-03",
+      "exactEnd": "1976-10-29",
+      "sources": [
+        {
+          "title": "Willi Stoph — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Willi_Stoph"
+        },
+        {
+          "title": "Willi Stoph — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2610"
+        }
+      ]
+    },
+    {
+      "person": "walter-scheel",
+      "state": "federal-republic-of-germany",
+      "start": 1974,
+      "end": 1974,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1974-05-07",
+      "exactEnd": "1974-05-16",
+      "sources": [
+        {
+          "title": "Walter Scheel — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Walter_Scheel"
+        },
+        {
+          "title": "Walter Scheel — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2571"
+        }
+      ]
+    },
+    {
+      "person": "walter-scheel",
+      "state": "federal-republic-of-germany",
+      "start": 1974,
+      "end": 1979,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "1974-07-01",
+      "exactEnd": "1979-06-30",
+      "sources": [
+        {
+          "title": "Walter Scheel — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Walter_Scheel"
+        },
+        {
+          "title": "Walter Scheel — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2571"
+        }
+      ]
+    },
+    {
+      "person": "helmut-schmidt",
+      "state": "federal-republic-of-germany",
+      "start": 1974,
+      "end": 1982,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1974-05-16",
+      "exactEnd": "1982-10-01",
+      "sources": [
+        {
+          "title": "Helmut Schmidt — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Helmut_Schmidt"
+        },
+        {
+          "title": "Helmut Schmidt — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2516"
+        }
+      ]
+    },
+    {
+      "person": "erich-honecker",
+      "state": "east-germany",
+      "start": 1976,
+      "end": 1989,
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of state",
+        "fa": "رئیس کشور"
+      },
+      "exactStart": "1976-10-29",
+      "exactEnd": "1989-10-24",
+      "sources": [
+        {
+          "title": "Erich Honecker — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Erich_Honecker"
+        },
+        {
+          "title": "Erich Honecker — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2607"
+        }
+      ]
+    },
+    {
+      "person": "willi-stoph",
+      "state": "east-germany",
+      "start": 1976,
+      "end": 1989,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chairman of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "sources": [
+        {
+          "title": "Willi Stoph — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Willi_Stoph"
+        },
+        {
+          "title": "Willi Stoph — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2610"
+        }
+      ]
+    },
+    {
+      "person": "karl-carstens",
+      "state": "federal-republic-of-germany",
+      "start": 1979,
+      "end": 1984,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "1979-07-01",
+      "exactEnd": "1984-06-30",
+      "sources": [
+        {
+          "title": "Karl Carstens — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Karl_Carstens"
+        },
+        {
+          "title": "Karl Carstens — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2569"
+        }
+      ]
+    },
+    {
+      "person": "helmut-kohl",
+      "state": "federal-republic-of-germany",
+      "start": 1982,
+      "end": 1998,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1982-10-04",
+      "exactEnd": "1998-10-26",
+      "sources": [
+        {
+          "title": "Helmut Kohl — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Helmut_Kohl"
+        },
+        {
+          "title": "Helmut Kohl — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2518"
+        }
+      ]
+    },
+    {
+      "person": "richard-von-weizsacker",
+      "state": "federal-republic-of-germany",
+      "start": 1984,
+      "end": 1994,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "1984-07-01",
+      "exactEnd": "1994-06-30",
+      "sources": [
+        {
+          "title": "Richard von Weizsäcker — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Richard_von_Weizs%C3%A4cker"
+        },
+        {
+          "title": "Richard von Weizsäcker — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2567"
+        }
+      ]
+    },
+    {
+      "person": "egon-krenz",
+      "state": "east-germany",
+      "start": 1989,
+      "end": 1989,
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of state",
+        "fa": "رئیس کشور"
+      },
+      "exactStart": "1989-10-24",
+      "exactEnd": "1989-12-06",
+      "sources": [
+        {
+          "title": "Egon Krenz — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Egon_Krenz"
+        },
+        {
+          "title": "Egon Krenz — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2602"
+        }
+      ]
+    },
+    {
+      "person": "hans-modrow",
+      "state": "east-germany",
+      "start": 1989,
+      "end": 1990,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chairman of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "sources": [
+        {
+          "title": "Hans Modrow — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hans_Modrow"
+        },
+        {
+          "title": "Hans Modrow — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57241"
+        }
+      ]
+    },
+    {
+      "person": "manfred-gerlach",
+      "state": "east-germany",
+      "start": 1989,
+      "end": 1990,
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of state",
+        "fa": "رئیس کشور"
+      },
+      "exactStart": "1989-12-06",
+      "exactEnd": "1990-04-05",
+      "sources": [
+        {
+          "title": "Manfred Gerlach — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manfred_Gerlach"
+        },
+        {
+          "title": "Manfred Gerlach — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2601"
+        }
+      ]
+    },
+    {
+      "person": "lothar-de-maiziere",
+      "state": "east-germany",
+      "start": 1990,
+      "end": 1990,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chairman of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "sources": [
+        {
+          "title": "Lothar de Maizière — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lothar_de_Maizi%C3%A8re"
+        },
+        {
+          "title": "Lothar de Maizière — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57412"
+        }
+      ]
+    },
+    {
+      "person": "sabine-bergmann-pohl",
+      "state": "east-germany",
+      "start": 1990,
+      "end": 1990,
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of state",
+        "fa": "رئیس کشور"
+      },
+      "exactStart": "1990-04-05",
+      "exactEnd": "1990-10-02",
+      "sources": [
+        {
+          "title": "Sabine Bergmann-Pohl — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sabine_Bergmann-Pohl"
+        },
+        {
+          "title": "Sabine Bergmann-Pohl — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57232"
+        }
+      ]
+    },
+    {
+      "person": "roman-herzog",
+      "state": "federal-republic-of-germany",
+      "start": 1994,
+      "end": 1999,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "1994-07-01",
+      "exactEnd": "1999-06-30",
+      "sources": [
+        {
+          "title": "Roman Herzog — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Roman_Herzog"
+        },
+        {
+          "title": "Roman Herzog — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2563"
+        }
+      ]
+    },
+    {
+      "person": "gerhard-schroder",
+      "state": "federal-republic-of-germany",
+      "start": 1998,
+      "end": 2005,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1998-10-27",
+      "exactEnd": "2005-10-18",
+      "sources": [
+        {
+          "title": "Gerhard Schröder — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gerhard_Schr%C3%B6der"
+        },
+        {
+          "title": "Gerhard Schröder — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2530"
+        }
+      ]
+    },
+    {
+      "person": "johannes-rau",
+      "state": "federal-republic-of-germany",
+      "start": 1999,
+      "end": 2004,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "1999-07-01",
+      "exactEnd": "2004-06-30",
+      "sources": [
+        {
+          "title": "Johannes Rau — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Johannes_Rau"
+        },
+        {
+          "title": "Johannes Rau — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2551"
+        }
+      ]
+    },
+    {
+      "person": "horst-kohler",
+      "state": "federal-republic-of-germany",
+      "start": 2004,
+      "end": 2010,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "2004-07-01",
+      "exactEnd": "2010-05-31",
+      "sources": [
+        {
+          "title": "Horst Köhler — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Horst_K%C3%B6hler"
+        },
+        {
+          "title": "Horst Köhler — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2542"
+        }
+      ]
+    },
+    {
+      "person": "angela-merkel",
+      "state": "federal-republic-of-germany",
+      "start": 2005,
+      "end": 2021,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "2005-11-22",
+      "exactEnd": "2021-12-08",
+      "sources": [
+        {
+          "title": "Angela Merkel — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angela_Merkel"
+        },
+        {
+          "title": "Angela Merkel — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q567"
+        }
+      ]
+    },
+    {
+      "person": "christian-wulff",
+      "state": "federal-republic-of-germany",
+      "start": 2010,
+      "end": 2012,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "2010-06-30",
+      "exactEnd": "2012-02-17",
+      "sources": [
+        {
+          "title": "Christian Wulff — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Christian_Wulff"
+        },
+        {
+          "title": "Christian Wulff — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2540"
+        }
+      ]
+    },
+    {
+      "person": "joachim-gauck",
+      "state": "federal-republic-of-germany",
+      "start": 2012,
+      "end": 2017,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "2012-03-18",
+      "exactEnd": "2017-03-18",
+      "sources": [
+        {
+          "title": "Joachim Gauck — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Joachim_Gauck"
+        },
+        {
+          "title": "Joachim Gauck — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2538"
+        }
+      ]
+    },
+    {
+      "person": "frank-walter-steinmeier",
+      "state": "federal-republic-of-germany",
+      "start": 2017,
+      "end": null,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "2017-03-19",
+      "sources": [
+        {
+          "title": "Frank-Walter Steinmeier — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Frank-Walter_Steinmeier"
+        },
+        {
+          "title": "Frank-Walter Steinmeier — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q76658"
+        }
+      ]
+    },
+    {
+      "person": "olaf-scholz",
+      "state": "federal-republic-of-germany",
+      "start": 2021,
+      "end": 2025,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "2021-12-08",
+      "exactEnd": "2025-05-06",
+      "sources": [
+        {
+          "title": "Olaf Scholz — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Olaf_Scholz"
+        },
+        {
+          "title": "Olaf Scholz — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q61053"
+        }
+      ]
+    },
+    {
+      "person": "friedrich-merz",
+      "state": "federal-republic-of-germany",
+      "start": 2025,
+      "end": null,
+      "office": "head-of-government",
+      "title": {
+        "en": "Chancellor",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "2025-05-06",
+      "sources": [
+        {
+          "title": "Friedrich Merz — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Friedrich_Merz"
+        },
+        {
+          "title": "Friedrich Merz — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q566257"
+        }
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "state": "holy-roman-empire",
+      "file": "Banner of the Holy Roman Emperor with haloes (1430-1806).svg",
+      "name": {
+        "en": "Imperial banner",
+        "fa": "بیرق امپراتوری"
+      },
+      "start": 1430,
+      "end": 1806,
+      "certainty": "reconstructed",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "David Liuzzo, eagle by N3MO",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Banner of the Holy Roman Emperor with haloes (1430-1806).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Banner_of_the_Holy_Roman_Emperor_with_haloes_%281430-1806%29.svg"
+        }
+      ]
+    },
+    {
+      "state": "north-german-confederation",
+      "file": "Flag of Germany (1867–1918).svg",
+      "start": 1867,
+      "end": 1871,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Original: Adolf Soetbeer, Otto von Bismarck Vector: B1mbo, Madden",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of Germany (1867–1918).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_%281867%E2%80%931918%29.svg"
+        }
+      ]
+    },
+    {
+      "state": "german-empire",
+      "file": "Flag of Germany (1867–1918).svg",
+      "start": 1871,
+      "end": 1918,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Original: Adolf Soetbeer, Otto von Bismarck Vector: B1mbo, Madden",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of Germany (1867–1918).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_%281867%E2%80%931918%29.svg"
+        }
+      ]
+    },
+    {
+      "state": "weimar-republic",
+      "file": "Flag of Germany (3-2).svg",
+      "start": 1919,
+      "end": 1933,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "User:Mmxx",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of Germany (3-2).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_%283-2%29.svg"
+        }
+      ]
+    },
+    {
+      "state": "nazi-germany",
+      "file": "Flag of Germany (1933–1935).svg",
+      "start": 1933,
+      "end": 1935,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "SeNeKa @ commons (+ Alkari, Illegitimate Barrister, GeMet)R-41 @ ENWP",
+      "withheld": true,
+      "sources": [
+        {
+          "title": "Flag of Germany (1933–1935).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_%281933%E2%80%931935%29.svg"
+        }
+      ]
+    },
+    {
+      "state": "nazi-germany",
+      "file": "Flag of Germany (1935–1945).svg",
+      "start": 1935,
+      "end": 1945,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "German government",
+      "withheld": true,
+      "sources": [
+        {
+          "title": "Flag of Germany (1935–1945).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_%281935%E2%80%931945%29.svg"
+        }
+      ]
+    },
+    {
+      "state": "allied-occupied-germany",
+      "file": "Merchant flag of Germany (1946–1949).svg",
+      "name": {
+        "en": "C-Pennant, merchant flag",
+        "fa": "پرچم تجاری (سی‌پننت)"
+      },
+      "start": 1946,
+      "end": 1949,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "B1mbo",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Merchant flag of Germany (1946–1949).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Merchant_flag_of_Germany_%281946%E2%80%931949%29.svg"
+        }
+      ]
+    },
+    {
+      "state": "federal-republic-of-germany",
+      "file": "Flag of Germany.svg",
+      "start": 1949,
+      "end": null,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "User:SKopp, User:Madden, and other users",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of Germany.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany.svg"
+        }
+      ]
+    },
+    {
+      "state": "east-germany",
+      "file": "Flag of Germany.svg",
+      "start": 1949,
+      "end": 1959,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "User:SKopp, User:Madden, and other users",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of Germany.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany.svg"
+        }
+      ]
+    },
+    {
+      "state": "east-germany",
+      "file": "Flag of the German Democratic Republic.svg",
+      "start": 1959,
+      "end": 1990,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Deutsche Demokratische Republik Flaggenentwurf: Fritz Behrendt",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the German Democratic Republic.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg"
+        }
+      ]
+    }
+  ]
+}

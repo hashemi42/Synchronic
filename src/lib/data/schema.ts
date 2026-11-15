@@ -40,6 +40,13 @@ const range = {
   circa: z.boolean().optional(),
 };
 
+/**
+ * An exact date beside a year: "1919-06-28" or "1919-06", Gregorian, common era only. The year
+ * field stays the one all range logic uses; this one orders terms within a year and dates events.
+ */
+export const PartialDate = z.string().regex(/^\d{4}-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?$/, 'Expected "YYYY-MM" or "YYYY-MM-DD"');
+const sameYear = (date: string | undefined, year: number | null | undefined) => date === undefined || Number(date.slice(0, 4)) === year;
+
 const startBeforeEnd = (r: { start: number; end?: number | null }) =>
   r.end == null || r.start < r.end;
 const startBeforeEndMessage = { message: "start must be before end", path: ["end"] };
@@ -111,8 +118,12 @@ export const OfficeTerm = z
     office: Office,
     title: Localized,
     ...range,
+    exactStart: PartialDate.optional(),
+    exactEnd: PartialDate.optional(),
     ...sourced,
   })
+  .refine((t) => sameYear(t.exactStart, t.start), { message: "exactStart must fall in the start year", path: ["exactStart"] })
+  .refine((t) => sameYear(t.exactEnd, t.end), { message: "exactEnd must fall in the end year", path: ["exactEnd"] })
   // Years are whole numbers, so a term that began and ended in the same year
   // (Edward VIII, 1936) has start === end. Lane periods may not.
   .refine((t) => t.end == null || t.start <= t.end, { message: "start must not be after end", path: ["end"] });

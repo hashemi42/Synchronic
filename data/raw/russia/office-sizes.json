@@ -1,0 +1,17 @@
+{
+"query": "\nSELECT ?office (COUNT(?st) AS ?n) WHERE {\n  VALUES ?office { wd:Q1048744 wd:Q108495011 wd:Q1255261 wd:Q135215773 wd:Q140788044 wd:Q15628644 wd:Q218295 wd:Q2618625 wd:Q3257510 wd:Q4109060 wd:Q4376657 }\n  ?person p:P39 ?st . ?st ps:P39 ?office .\n} GROUP BY ?office",
+"fetchedAt": "2026-11-15T22:37:07.955Z",
+"rows": [
+{"n":"108","office":"http://www.wikidata.org/entity/Q108495011"},
+{"n":"14","office":"http://www.wikidata.org/entity/Q135215773"},
+{"n":"15","office":"http://www.wikidata.org/entity/Q2618625"},
+{"n":"2","office":"http://www.wikidata.org/entity/Q1255261"},
+{"n":"2","office":"http://www.wikidata.org/entity/Q140788044"},
+{"n":"2","office":"http://www.wikidata.org/entity/Q4376657"},
+{"n":"3","office":"http://www.wikidata.org/entity/Q3257510"},
+{"n":"3539","office":"http://www.wikidata.org/entity/Q15628644"},
+{"n":"4","office":"http://www.wikidata.org/entity/Q4109060"},
+{"n":"5","office":"http://www.wikidata.org/entity/Q218295"},
+{"n":"8","office":"http://www.wikidata.org/entity/Q1048744"}
+]
+}
