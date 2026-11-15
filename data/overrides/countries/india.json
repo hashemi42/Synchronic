@@ -125,6 +125,10 @@
         "en": "Dominion of India",
         "fa": "دومینیون هند"
       },
+      "officialName": {
+        "en": "Union of India",
+        "fa": "اتحادیهٔ هند"
+      },
       "start": 1947,
       "end": 1950,
       "capital": {
@@ -140,12 +144,20 @@
         {
           "title": "Dominion of India — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Dominion_of_India"
+        },
+        {
+          "title": "قلمرو هند — ویکی‌پدیا",
+          "url": "https://fa.wikipedia.org/wiki/قلمرو_هند"
         }
       ]
     },
     {
       "id": "republic-of-india",
       "name": {
+        "en": "Republic of India",
+        "fa": "جمهوری هند"
+      },
+      "officialName": {
         "en": "Republic of India",
         "fa": "جمهوری هند"
       },
@@ -164,6 +176,10 @@
         {
           "title": "India — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/India"
+        },
+        {
+          "title": "هند — ویکی‌پدیا",
+          "url": "https://fa.wikipedia.org/wiki/هند"
         }
       ]
     }

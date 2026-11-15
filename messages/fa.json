@@ -90,7 +90,8 @@
     "noGovernment": "رئیس دولتی ثبت نشده است",
     "leaderIn": "رهبر در {year}",
     "leaders": "رهبران",
-    "noHeadOfState": "بدون رئیس کشور رسمی"
+    "noHeadOfState": "بدون رئیس کشور رسمی",
+    "otherIn": "{title} در {year}"
   },
   "add": {
     "trigger": "افزودن کشور",

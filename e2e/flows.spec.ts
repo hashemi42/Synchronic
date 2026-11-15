@@ -437,6 +437,50 @@ test.describe("party leader and formal head of state (R4) @both", () => {
   });
 });
 
+test.describe("other offices and de facto heads of state (R8, R2) @both", () => {
+  test("Iran in 1985: Supreme Leader, Prime Minister and President on one card", async ({ page }) => {
+    await page.goto("/en?year=1985&lanes=iran");
+    await lane(page, "iran").locator("ol").first().getByRole("button", { name: /^Islamic Republic of Iran/ }).focus();
+    const card = page.getByRole("tooltip");
+    await expect(card).toContainText("Head of state in 1985");
+    await expect(card).toContainText("Ruhollah Khomeini");
+    await expect(card).toContainText("Mir-Hossein Mousavi");
+    await expect(card).toContainText("President in 1985");
+    await expect(card).toContainText("Ali Khamenei");
+    // The ruler row is still the Supreme Leader.
+    await expect(lane(page, "iran").getByRole("button", { name: /Ruhollah Khomeini/ }).first()).toBeVisible();
+  });
+
+  test("Iran in 1981 lists all three presidents of that year, in Persian", async ({ page }) => {
+    await page.goto("/fa?year=1981&lanes=iran");
+    await lane(page, "iran").locator("ol").first().getByRole("button", { name: /^جمهوری اسلامی ایران/ }).focus();
+    const card = page.getByRole("tooltip");
+    await expect(card).toContainText("رئیس‌جمهور در");
+    await expect(card).toContainText("ابوالحسن بنی‌صدر");
+    await expect(card).toContainText("محمدعلی رجایی");
+    await expect(card).toContainText("سید علی خامنه‌ای");
+  });
+
+  test("China in 1977: the acting NPC chair as de facto head of state", async ({ page }) => {
+    await page.goto("/en?year=1977&lanes=china");
+    await lane(page, "china").locator("ol").first().getByRole("button", { name: /^People's Republic of China/ }).focus();
+    const card = page.getByRole("tooltip");
+    await expect(card).toContainText("Leader in 1977");
+    await expect(card).toContainText("Head of state in 1977");
+    await expect(card).toContainText("Soong Ching-ling");
+    await expect(card).toContainText("de facto head of state");
+  });
+
+  test("the official name sits under the lane's state label", async ({ page }) => {
+    await page.goto("/en?year=1919&lanes=iran");
+    await expect(lane(page, "iran")).toContainText("Sublime State of Iran");
+    await page.goto("/fa?year=1835&lanes=france");
+    // Two French states share the official name «پادشاهی فرانسه»; the labels stay distinct.
+    await expect(lane(page, "france")).toContainText("پادشاهی ژوئیه");
+    await expect(lane(page, "france")).toContainText("پادشاهی فرانسه");
+  });
+});
+
 test.describe("link previews (NF-6)", () => {
   const meta = (html: string, property: string) =>
     new RegExp(`<meta (?:property|name)="${property}" content="([^"]*)"`).exec(html)?.[1]?.replaceAll("&amp;", "&");

@@ -96,8 +96,13 @@ export const LanePeriod = z
  * `leader` is for a de facto ruler who held power outside the formal offices
  * (Soviet general secretaries, China's paramount leaders). Where a state has
  * leader terms, the lane's ruler row shows them instead of the head of state.
+ *
+ * `other` is a formal office that is neither head of state nor head of
+ * government but matters for context, named by the term's title (R8: Iran's
+ * presidents of 1980–1989, under the Supreme Leader and the Prime Minister).
+ * The politics card shows it; the ruler row does not.
  */
-export const Office = z.enum(["head-of-state", "head-of-government", "leader"]);
+export const Office = z.enum(["head-of-state", "head-of-government", "leader", "other"]);
 
 export const OfficeTerm = z
   .strictObject({

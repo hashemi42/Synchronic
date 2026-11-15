@@ -107,6 +107,10 @@ export function Lane({
   const reign = reignAt(model, year);
   const government = governmentAt(model, year).current;
   const flag = main ? flagFor(file, main, year) : null;
+  const officialName = (() => {
+    const official = main?.officialName?.[locale] ?? state?.officialName?.[locale];
+    return official && official !== state?.name[locale] ? official : null;
+  })();
   const country = file.country.name[locale];
   const renderYears = (r: { start: number; end: number | null }, className = "") => {
     const g = secondary(r);
@@ -345,6 +349,12 @@ export function Lane({
                     <span aria-hidden="true" className="size-2.5 shrink-0 rounded-full bg-lane-1" />
                   )}
                   {state ? state.name[locale] : main?.note?.[locale]}
+                </span>
+              )}
+              {/* The label stays the common name; the official name, where it differs, sits beneath it. */}
+              {officialName && (
+                <span className="mt-0.5 block ps-7 text-xs text-ink-3" dir="auto">
+                  {officialName}
                 </span>
               )}
             </dd>
