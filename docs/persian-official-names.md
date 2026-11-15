@@ -1,6 +1,8 @@
 # Official Persian names to confirm
 
-Six states in the data have no official Persian name recorded. Under the naming rule (lane labels keep the common name; the official name, where it differs, is shown beneath the label), each needs an `officialName.fa`, or a decision that it had none. These are proposals; nothing is applied until confirmed.
+**Status: confirmed and applied (2026-11-15).** The Dominion of India, the Republic of India and the Russian Federation now have an `officialName`; Company rule in India, the Maratha Confederacy and the Guangzhou government are recorded as having none, in `data/policy/audit-exceptions.json`.
+
+Six states in the data had no official Persian name recorded. Under the naming rule (lane labels keep the common name; the official name, where it differs, is shown beneath the label), each needed an `officialName.fa`, or a decision that it had none.
 
 | State (file) | Current label | Proposed official Persian name | Basis and source |
 | --- | --- | --- | --- |
@@ -9,6 +11,6 @@ Six states in the data have no official Persian name recorded. Under the naming 
 | Maratha Confederacy (`india.json`, `maratha-confederacy`) | کنفدراسیون ماراتا | **None.** Keep the label only. | The confederacy had no single official name in its own documents; English sources call it the Maratha Empire or Confederacy, Persian Wikipedia «امپراتوری مراتا» ([fa.wikipedia](https://fa.wikipedia.org/wiki/امپراتوری_مراتا)). If you prefer a second name under the label, «امپراتوری مراتا» is the best attested Persian form. |
 | Republic of India (`india.json`, `republic-of-india`) | جمهوری هند | **جمهوری هند** (as the label, so nothing extra is shown) | The Constitution's "Republic of India" (Bharat Ganarajya); Persian Wikipedia's infobox gives «جمهوری هند» ([fa.wikipedia](https://fa.wikipedia.org/wiki/هند)). |
 | Russian Federation (`russia.json`, `russian-federation`) | فدراسیون روسیه | **فدراسیون روسیه** (as the label) | The Constitution names the state "Russian Federation – Russia"; Persian Wikipedia's infobox gives «فدراسیون روسیه» ([fa.wikipedia](https://fa.wikipedia.org/wiki/روسیه)). |
-| Guangzhou government (`china.json`, `guangzhou-government`) | حکومت گوانگ‌ژو | **دولت نظامی حمایت از قانون اساسی** for 1917–1921 | The 1917 government was the Constitutional Protection Military Government (護法軍政府, [en.wikipedia](https://en.wikipedia.org/wiki/Constitutional_Protection_junta)). The Persian is my translation; no Persian source was found. The state in our data runs 1917–1928 and covers several successive Guangzhou governments, ending with the Nationalist Government of 1925. A single official name does not fit it; splitting it into periods would be a separate change. |
+| Guangzhou government (`china.json`, `guangzhou-government`) | حکومت گوانگ‌ژو | **None** (decided). A name for 1917–1921 only would be «دولت نظامی حمایت از قانون اساسی». | The 1917 government was the Constitutional Protection Military Government (護法軍政府, [en.wikipedia](https://en.wikipedia.org/wiki/Constitutional_Protection_junta)). The Persian is my translation; no Persian source was found. The state in our data runs 1917–1928 and covers several successive Guangzhou governments, ending with the Nationalist Government of 1925. A single official name does not fit it; splitting it into periods would be a separate change. |
 
 Where a proposed name equals the label (Republic of India, Russian Federation), recording it changes nothing on screen; it only marks the name as checked.

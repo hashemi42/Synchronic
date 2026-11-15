@@ -379,6 +379,7 @@ function shortName(candidates: (string | undefined)[], english: string): string 
 }
 
 async function persianSheet(files: CountryFile[]) {
+  const noOfficialName = (JSON.parse(await readFile(path.join(root, "data/policy/audit-exceptions.json"), "utf8")) as { noOfficialName: Record<string, string> }).noOfficialName;
   const wanted = rows.filter((r) => r.check.startsWith("Persian name") && r.qid);
   const info = new Map<string, { label?: string; title?: string; url?: string }>();
   for (const batch of chunks([...new Set(wanted.map((r) => r.qid!))], 150)) {
@@ -407,7 +408,8 @@ SELECT ?item ?label ?title ?article WHERE {
       // An article title is not an official name ("هند" for the Republic of India), so without a
       // recorded official name the state keeps ours and the row asks for one.
       proposed = official ?? r.ours;
-      basis = official ? "state: official name in our file" : "state: no official Persian name recorded; please supply one";
+      const none = noOfficialName[r.record.slice(6)];
+      basis = official ? "state: official name in our file" : none ? `state: confirmed to have no official name. ${none}` : "state: no official Persian name recorded; please supply one";
     } else if (r.record === "country") {
       proposed = r.ours;
       basis = "country: modern common name, unchanged";

@@ -1,5 +1,5 @@
 {
-  "description": "Exceptions for `pnpm data:audit` (docs/data-rules.md). `missing`: Wikidata holders of P35/P6 the data leaves out on purpose, by rule. `verified`: our terms that disagree with Wikidata or that Wikidata lacks, checked by hand against the named source; keyed by Wikidata id, office and our years.",
+  "description": "Exceptions for `pnpm data:audit` (docs/data-rules.md). `missing`: Wikidata holders of P35/P6 the data leaves out on purpose, by rule. `verified`: our terms that disagree with Wikidata or that Wikidata lacks, checked by hand against the named source; keyed by Wikidata id, office and our years. `noOfficialName`: states confirmed to have had no official name, so the Persian-name sheet stops asking for one.",
   "missing": {
     "Q12950": "R3: Alain Poher, acting President of France in 1969 (less than a year)",
     "Q44612": "R3: Horst Seehofer, acting President of Germany in 2012 (less than a year)",
@@ -61,5 +61,10 @@
     "Q18301:head-of-government:1988-1998": "Li Peng, Premier of China, 25 March 1988 – 17 March 1998 (English Wikipedia, infobox, checked 2026-11-15); he was acting premier from November 1987 (R3).",
     "Q310592:head-of-government:1980-1981": "Mohammad-Ali Rajai, Prime Minister of Iran, 12 August 1980 – 4 August 1981 (English Wikipedia, infobox, checked 2026-11-15).",
     "Q719449:head-of-state:1760-1806": "Shah Alam II reigned twice, 10 October 1760 – 31 July 1788 and 16 October 1788 – 19 November 1806 (English Wikipedia, infobox, checked 2026-11-15); the data keeps both terms, which the audit joins."
+  },
+  "noOfficialName": {
+    "company-rule-in-india": "Not a state with an official name: the East India Company governed territories on the Crown's behalf (confirmed 2026-11-15)",
+    "maratha-confederacy": "No single official name in its own documents (confirmed 2026-11-15)",
+    "guangzhou-government": "Covers several successive Guangzhou governments, 1917–1928; no single official name fits (confirmed 2026-11-15)"
   }
 }
