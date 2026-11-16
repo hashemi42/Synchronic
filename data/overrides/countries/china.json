@@ -912,13 +912,19 @@
         "fa": "نخست‌وزیر کابینهٔ امپراتوری"
       },
       "start": 1911,
-      "end": 1912,
+      "end": 1911,
       "sources": [
         {
-          "title": "Yikuang — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1204208"
+          "title": "Yikuang — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yikuang"
+        },
+        {
+          "title": "Prime Minister of the Imperial Cabinet — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Prime_Minister_of_the_Imperial_Cabinet"
         }
-      ]
+      ],
+      "exactStart": "1911-05-08",
+      "exactEnd": "1911-11-01"
     },
     {
       "person": "li-peng",
@@ -1027,6 +1033,23 @@
         {
           "title": "Dong Biwu — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Dong_Biwu"
+        }
+      ]
+    },
+    {
+      "person": "wang-jingwei",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1932,
+      "end": 1935,
+      "sources": [
+        {
+          "title": "Wang Jingwei — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q22303"
         }
       ]
     },

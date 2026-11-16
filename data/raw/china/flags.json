@@ -1,6 +1,6 @@
 {
 "query": "commons imageinfo: Flag of China (1862–1889).svg | Flag of China (1889–1912).svg | Flag of China (1912–1928).svg | Flag of Manchukuo.svg | Flag of the People's Republic of China.svg | Flag of the Republic of China-Nanjing (Peace, Anti-Communism, National Construction).svg | Flag of the Republic of China.svg",
-"fetchedAt": "2026-11-16T21:57:06.636Z",
+"fetchedAt": "2026-11-16T22:08:03.941Z",
 "rows": [
 {"file":"Flag of China (1862–1889).svg","sha1":"6654d651a11f2445ef589edbe431caff249d21ea","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Sodacan"},
 {"file":"Flag of China (1889–1912).svg","sha1":"1fa7ab71045f183034233831f5c3bab78dd69694","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Original: zh:清朝政府 Vector: Sodacan"},

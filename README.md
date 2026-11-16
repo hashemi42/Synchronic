@@ -31,7 +31,7 @@ Open <http://localhost:3000> — it redirects to `/en`; Persian (right-to-left) 
 | `pnpm lint` | ESLint |
 | `pnpm test` | Vitest (schema, lane validation, calendars) |
 | `pnpm test:e2e` | Playwright flows and axe accessibility checks; run `pnpm build` first (first time: `pnpm exec playwright install chromium`) |
-| `pnpm data:audit` | Cross-check terms and Persian names against Wikidata and fetch every source URL; writes problems to `artifacts/data-review/` |
+| `pnpm data:audit` | Cross-check terms and Persian names against Wikidata and fetch every source URL. Fails on any open row; `--check` (what CI runs) verifies the last audit covers the committed data |
 | `pnpm data:pipeline` | Build every country from Wikidata and the curated files into `data/merged/`, and report which lanes are complete (`--refresh` queries Wikidata again) |
 | `pnpm data:build` | Validate the data and emit one content-hashed file per country to `public/data/` (runs before `dev`, `build` and `typecheck`) |
 | `pnpm data:validate` | Validate every file in `data/merged/` |

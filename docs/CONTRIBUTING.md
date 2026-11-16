@@ -9,7 +9,8 @@ Not ready to edit files? Report a [data error](https://github.com/hashemi42/Sync
 1. Edit `data/overrides/countries/<country>.json`, the curated file. Use `iran.json` as the model.
 2. Run `pnpm data:pipeline`. It rebuilds `data/merged/<country>.json`, the file the site reads, from Wikidata's cached answers in `data/raw/` and your curated file. Never edit `data/merged/` by hand.
 3. Run `pnpm data:validate` and `pnpm test`.
-4. Open a pull request with both files. CI runs the same checks and fails if `data/merged/` is not what the pipeline produces.
+4. Run `pnpm data:audit` (it needs the network and takes a few minutes). It must end with no open rows; commit what it writes in `artifacts/data-review/`.
+5. Open a pull request. CI runs the same checks. It fails if `data/merged/` is not what the pipeline produces, or if the audit was not run on the data you commit.
 
 Who held which office, and when, comes from Wikidata. So do people's names and years. The curated file holds what Wikidata cannot decide, and corrections, each with a source or a reason:
 
@@ -46,7 +47,7 @@ Who held which office, and when, comes from Wikidata. So do people's names and y
 
 ### Cross-checking with Wikidata
 
-`pnpm data:audit` compares every term with Wikidata (P35/P6, and P39 for heads of government), every Persian name with the item's Persian label, and fetches every source URL. It writes only the problems to `artifacts/data-review/audit.csv`. `pnpm data:pipeline` also writes `artifacts/data-review/completeness.md`: which lanes are complete, and every year of a state that still lacks a head of state, a head of government or a flag. Wikidata is a cross-check, not the truth: where they disagree, the cited source decides.
+`pnpm data:audit` compares every term with Wikidata (P35/P6, and P39 for heads of government), every Persian name with the item's Persian label, and fetches every source URL. A row it raises stays **open** until you correct the data or record why it stands: a term its cited source confirms closes by itself; otherwise add the term to `verified`, or the name to `persianNames`, in `data/policy/audit-exceptions.json`, with the source. Open rows are in `artifacts/data-review/audit.csv`, closed ones in `audit-closed.csv`. `pnpm data:pipeline` also writes `artifacts/data-review/completeness.md`: which lanes are complete, and every year of a state that still lacks a head of state, a head of government or a flag. Wikidata is a cross-check, not the truth: where they disagree, the cited source decides.
 
 ### If the fact is wrong upstream
 
