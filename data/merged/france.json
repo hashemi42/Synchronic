@@ -24,27 +24,27 @@
         "fa": "پادشاهی فرانسه"
       },
       "start": 987,
-      "end": 1791,
+      "end": 1792,
       "capital": {
         "en": "Paris",
         "fa": "پاریس"
+      },
+      "system": {
+        "en": "Absolute monarchy; constitutional from 1791",
+        "fa": "پادشاهی مطلقه؛ از ۱۷۹۱ مشروطه"
       },
       "wikidata": "Q70972",
       "sources": [
         {
           "title": "Kingdom of France — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Kingdom_of_France"
-        },
-        {
-          "title": "Kingdom of France — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q70972"
         }
       ]
     },
     {
       "id": "french-first-republic",
       "name": {
-        "en": "French First Republic",
+        "en": "First Republic",
         "fa": "جمهوری اول فرانسه"
       },
       "start": 1792,
@@ -53,15 +53,15 @@
         "en": "Paris",
         "fa": "پاریس"
       },
+      "system": {
+        "en": "Republic",
+        "fa": "جمهوری"
+      },
       "wikidata": "Q58296",
       "sources": [
         {
           "title": "French First Republic — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/French_First_Republic"
-        },
-        {
-          "title": "French First Republic — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q58296"
         }
       ]
     },
@@ -72,34 +72,34 @@
         "fa": "امپراتوری اول فرانسه"
       },
       "start": 1804,
-      "end": 1815,
+      "end": 1814,
       "capital": {
         "en": "Paris",
         "fa": "پاریس"
       },
       "system": {
-        "en": "Dual monarchy",
-        "fa": "پادشاهی دوگانه"
+        "en": "Empire",
+        "fa": "امپراتوری"
       },
       "wikidata": "Q71084",
       "sources": [
         {
           "title": "First French Empire — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/First_French_Empire"
-        },
-        {
-          "title": "First French Empire — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q71084"
         }
       ]
     },
     {
       "id": "bourbon-restoration",
       "name": {
-        "en": "Bourbon Restoration in France",
-        "fa": "بازگشت بوربونها به سلطنت فرانسه"
+        "en": "Bourbon Restoration",
+        "fa": "بازگشت بوربون‌ها"
       },
-      "start": 1815,
+      "officialName": {
+        "en": "Kingdom of France",
+        "fa": "پادشاهی فرانسه"
+      },
+      "start": 1814,
       "end": 1830,
       "capital": {
         "en": "Paris",
@@ -114,10 +114,6 @@
         {
           "title": "Bourbon Restoration in France — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Bourbon_Restoration_in_France"
-        },
-        {
-          "title": "Bourbon Restoration in France — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q207162"
         }
       ]
     },
@@ -125,7 +121,11 @@
       "id": "july-monarchy",
       "name": {
         "en": "July Monarchy",
-        "fa": "سلطنت ژوئیه فرانسه"
+        "fa": "پادشاهی ژوئیه"
+      },
+      "officialName": {
+        "en": "Kingdom of France",
+        "fa": "پادشاهی فرانسه"
       },
       "start": 1830,
       "end": 1848,
@@ -142,17 +142,13 @@
         {
           "title": "July Monarchy — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/July_Monarchy"
-        },
-        {
-          "title": "July Monarchy — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q58202"
         }
       ]
     },
     {
       "id": "french-second-republic",
       "name": {
-        "en": "French Second Republic",
+        "en": "Second Republic",
         "fa": "جمهوری دوم فرانسه"
       },
       "start": 1848,
@@ -162,18 +158,14 @@
         "fa": "پاریس"
       },
       "system": {
-        "en": "Presidential system",
-        "fa": "نظام ریاستی"
+        "en": "Republic",
+        "fa": "جمهوری"
       },
       "wikidata": "Q58326",
       "sources": [
         {
           "title": "French Second Republic — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/French_Second_Republic"
-        },
-        {
-          "title": "French Second Republic — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q58326"
         }
       ]
     },
@@ -189,22 +181,22 @@
         "en": "Paris",
         "fa": "پاریس"
       },
+      "system": {
+        "en": "Empire",
+        "fa": "امپراتوری"
+      },
       "wikidata": "Q71092",
       "sources": [
         {
           "title": "Second French Empire — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Second_French_Empire"
-        },
-        {
-          "title": "Second French Empire — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q71092"
         }
       ]
     },
     {
       "id": "french-third-republic",
       "name": {
-        "en": "French Third Republic",
+        "en": "Third Republic",
         "fa": "جمهوری سوم فرانسه"
       },
       "start": 1870,
@@ -222,10 +214,6 @@
         {
           "title": "French Third Republic — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/French_Third_Republic"
-        },
-        {
-          "title": "French Third Republic — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q70802"
         }
       ]
     },
@@ -233,19 +221,27 @@
       "id": "vichy-france",
       "name": {
         "en": "Vichy France",
-        "fa": "فرانسه ویشی"
+        "fa": "فرانسهٔ ویشی"
+      },
+      "officialName": {
+        "en": "French State",
+        "fa": "دولت فرانسه"
       },
       "start": 1940,
       "end": 1944,
+      "capital": {
+        "en": "Vichy",
+        "fa": "ویشی"
+      },
+      "system": {
+        "en": "Authoritarian regime",
+        "fa": "حکومت اقتدارگرا"
+      },
       "wikidata": "Q69808",
       "sources": [
         {
           "title": "Vichy France — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Vichy_France"
-        },
-        {
-          "title": "Vichy France — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q69808"
         }
       ]
     },
@@ -253,30 +249,38 @@
       "id": "free-france",
       "name": {
         "en": "Free France",
-        "fa": "فرانسه آزاد"
+        "fa": "فرانسهٔ آزاد"
       },
       "start": 1940,
-      "end": 1943,
+      "end": 1944,
+      "system": {
+        "en": "Government in exile",
+        "fa": "دولت در تبعید"
+      },
       "wikidata": "Q152582",
       "sources": [
         {
           "title": "Free France — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Free_France"
-        },
-        {
-          "title": "Free France — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q152582"
         }
       ]
     },
     {
       "id": "provisional-government-of-the-french-republic",
       "name": {
+        "en": "Provisional Government",
+        "fa": "دولت موقت جمهوری فرانسه"
+      },
+      "officialName": {
         "en": "Provisional Government of the French Republic",
-        "fa": "حکومت موقت جمهوری فرانسه"
+        "fa": "دولت موقت جمهوری فرانسه"
       },
       "start": 1944,
       "end": 1946,
+      "capital": {
+        "en": "Paris",
+        "fa": "پاریس"
+      },
       "system": {
         "en": "Provisional government",
         "fa": "دولت موقت"
@@ -286,17 +290,13 @@
         {
           "title": "Provisional Government of the French Republic — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Provisional_Government_of_the_French_Republic"
-        },
-        {
-          "title": "Provisional Government of the French Republic — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q783684"
         }
       ]
     },
     {
       "id": "french-fourth-republic",
       "name": {
-        "en": "French Fourth Republic",
+        "en": "Fourth Republic",
         "fa": "جمهوری چهارم فرانسه"
       },
       "start": 1946,
@@ -314,18 +314,18 @@
         {
           "title": "French Fourth Republic — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/French_Fourth_Republic"
-        },
-        {
-          "title": "French Fourth Republic — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q69829"
         }
       ]
     },
     {
       "id": "french-fifth-republic",
       "name": {
-        "en": "French Fifth Republic",
+        "en": "Fifth Republic",
         "fa": "جمهوری پنجم فرانسه"
+      },
+      "officialName": {
+        "en": "French Republic",
+        "fa": "جمهوری فرانسه"
       },
       "start": 1958,
       "end": null,
@@ -334,18 +334,14 @@
         "fa": "پاریس"
       },
       "system": {
-        "en": "Semi-presidential system",
-        "fa": "نظام نیمهریاستی"
+        "en": "Semi-presidential republic",
+        "fa": "جمهوری نیمه‌ریاستی"
       },
       "wikidata": "Q200686",
       "sources": [
         {
           "title": "French Fifth Republic — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/French_Fifth_Republic"
-        },
-        {
-          "title": "French Fifth Republic — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q200686"
         }
       ]
     }
@@ -396,8 +392,14 @@
         "en": "Albert de Broglie",
         "fa": "آلبر دو بروی"
       },
+      "born": 1821,
+      "died": 1901,
       "wikidata": "Q434932",
       "sources": [
+        {
+          "title": "Albert de Broglie, 4th Duke of Broglie — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Albert_de_Broglie%2C_4th_Duke_of_Broglie"
+        },
         {
           "title": "Albert de Broglie — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q434932"
@@ -746,7 +748,7 @@
     {
       "id": "charles-x",
       "name": {
-        "en": "Charles X of France",
+        "en": "Charles X",
         "fa": "شارل دهم"
       },
       "born": 1757,
@@ -758,7 +760,7 @@
           "url": "https://en.wikipedia.org/wiki/Charles_X_of_France"
         },
         {
-          "title": "Charles X of France — Wikidata",
+          "title": "Charles X — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q7758"
         }
       ]
@@ -887,8 +889,14 @@
         "en": "Édouard Mortier",
         "fa": "ادوارد مورتیه"
       },
+      "born": 1768,
+      "died": 1835,
       "wikidata": "Q273883",
       "sources": [
+        {
+          "title": "Édouard Mortier, Duke of Treviso — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/%C3%89douard_Mortier%2C_Duke_of_Treviso"
+        },
         {
           "title": "Édouard Mortier — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q273883"
@@ -979,8 +987,14 @@
         "en": "Émile Ollivier",
         "fa": "امیل اولیویه"
       },
+      "born": 1825,
+      "died": 1913,
       "wikidata": "Q286293",
       "sources": [
+        {
+          "title": "Émile Ollivier — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/%C3%89mile_Ollivier"
+        },
         {
           "title": "Émile Ollivier — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q286293"
@@ -1012,8 +1026,14 @@
         "en": "Ernest Courtot de Cissey",
         "fa": "ارنست کورتو دو سیسه"
       },
+      "born": 1810,
+      "died": 1882,
       "wikidata": "Q471302",
       "sources": [
+        {
+          "title": "Ernest Courtot de Cissey — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ernest_Courtot_de_Cissey"
+        },
         {
           "title": "Ernest Courtot de Cissey — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q471302"
@@ -1164,8 +1184,14 @@
         "en": "François Guizot",
         "fa": "فرانسوا گیزو"
       },
+      "born": 1787,
+      "died": 1874,
       "wikidata": "Q157324",
       "sources": [
+        {
+          "title": "François Guizot — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Guizot"
+        },
         {
           "title": "François Guizot — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q157324"
@@ -1533,10 +1559,16 @@
       "id": "jean-de-dieu-soult",
       "name": {
         "en": "Jean-de-Dieu Soult",
-        "fa": "ژان دو دیو سولت"
+        "fa": "نیکولاس ژان-دی-دیو سول"
       },
+      "born": 1769,
+      "died": 1851,
       "wikidata": "Q296023",
       "sources": [
+        {
+          "title": "Jean-de-Dieu Soult — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jean-de-Dieu_Soult"
+        },
         {
           "title": "Jean-de-Dieu Soult — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q296023"
@@ -1866,8 +1898,14 @@
         "en": "Louis Buffet",
         "fa": "لویی بوفه"
       },
+      "born": 1818,
+      "died": 1898,
       "wikidata": "Q548687",
       "sources": [
+        {
+          "title": "Louis Buffet — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Louis_Buffet"
+        },
         {
           "title": "Louis Buffet — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q548687"
@@ -1891,26 +1929,6 @@
         {
           "title": "Louis-Eugène Cavaignac — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q379702"
-        }
-      ]
-    },
-    {
-      "id": "louis-jules-trochu",
-      "name": {
-        "en": "Louis-Jules Trochu",
-        "fa": ""
-      },
-      "born": 1815,
-      "died": 1896,
-      "wikidata": "Q441235",
-      "sources": [
-        {
-          "title": "Louis-Jules Trochu — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Louis-Jules_Trochu"
-        },
-        {
-          "title": "Louis-Jules Trochu — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q441235"
         }
       ]
     },
@@ -1971,26 +1989,6 @@
         {
           "title": "Louis XVI — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q7732"
-        }
-      ]
-    },
-    {
-      "id": "louis-xvii",
-      "name": {
-        "en": "Louis XVII",
-        "fa": "لوئی هفدهم"
-      },
-      "born": 1785,
-      "died": 1795,
-      "wikidata": "Q49765",
-      "sources": [
-        {
-          "title": "Louis XVII — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Louis_XVII"
-        },
-        {
-          "title": "Louis XVII — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q49765"
         }
       ]
     },
@@ -2215,7 +2213,7 @@
       "id": "patrice-de-macmahon",
       "name": {
         "en": "Patrice de MacMahon",
-        "fa": "پاتریس دو مکماهون"
+        "fa": "پاتریس دو مک‌ماهون"
       },
       "born": 1808,
       "died": 1893,
@@ -2335,7 +2333,7 @@
       "id": "pierre-beregovoy",
       "name": {
         "en": "Pierre Bérégovoy",
-        "fa": "پییر برگووی"
+        "fa": "پی‌یر برگووی"
       },
       "born": 1925,
       "died": 1993,
@@ -2395,7 +2393,7 @@
       "id": "pierre-mauroy",
       "name": {
         "en": "Pierre Mauroy",
-        "fa": "پییر مائوروی"
+        "fa": "پی‌یر مائوروی"
       },
       "born": 1928,
       "died": 2013,
@@ -2756,8 +2754,14 @@
         "en": "Victor de Broglie",
         "fa": "ویکتور دو بروی"
       },
+      "born": 1785,
+      "died": 1870,
       "wikidata": "Q338386",
       "sources": [
+        {
+          "title": "Victor de Broglie (1785–1870) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Victor_de_Broglie_(1785%E2%80%931870)"
+        },
         {
           "title": "Victor de Broglie — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q338386"
@@ -2984,159 +2988,68 @@
     {
       "person": "louis-xvi",
       "state": "kingdom-of-france",
-      "start": 1789,
-      "end": 1791,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "King",
+        "fa": "پادشاه"
       },
-      "exactEnd": "1791-09-04",
-      "sources": [
-        {
-          "title": "Louis XVI — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Louis_XVI"
-        },
-        {
-          "title": "Louis XVI — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7732"
-        }
-      ]
-    },
-    {
-      "person": "louis-xvi",
-      "state": "kingdom-of-france",
-      "start": 1791,
+      "start": 1774,
       "end": 1792,
-      "office": "head-of-state",
-      "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
-      },
-      "exactStart": "1791-09-04",
-      "exactEnd": "1792-08-10",
       "sources": [
         {
           "title": "Louis XVI — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Louis_XVI"
-        },
-        {
-          "title": "Louis XVI — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7732"
         }
       ]
     },
     {
-      "person": "louis-xvii",
+      "person": "napoleon",
       "state": "french-first-republic",
-      "start": 1793,
-      "end": 1795,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "First Consul",
+        "fa": "کنسول اول"
       },
-      "exactEnd": "1795-06-08",
+      "start": 1799,
+      "end": 1804,
       "sources": [
         {
-          "title": "Louis XVII — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Louis_XVII"
-        },
-        {
-          "title": "Louis XVII — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q49765"
+          "title": "Napoleon — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Napoleon"
         }
       ]
     },
     {
       "person": "napoleon",
       "state": "first-french-empire",
+      "office": "head-of-state",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      },
       "start": 1804,
       "end": 1814,
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor of the French",
-        "fa": "امپراتور"
-      },
-      "exactStart": "1804-05-18",
-      "exactEnd": "1814-04-04",
       "sources": [
         {
           "title": "Napoleon — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Napoleon"
-        },
-        {
-          "title": "Napoleon — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q517"
         }
       ]
     },
     {
       "person": "louis-xviii",
       "state": "bourbon-restoration",
+      "office": "head-of-state",
+      "title": {
+        "en": "King",
+        "fa": "پادشاه"
+      },
       "start": 1814,
-      "end": 1815,
-      "office": "head-of-state",
-      "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
-      },
-      "exactStart": "1814-04-06",
-      "exactEnd": "1815-03-20",
-      "sources": [
-        {
-          "title": "Louis XVIII — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Louis_XVIII"
-        },
-        {
-          "title": "Louis XVIII — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7750"
-        }
-      ]
-    },
-    {
-      "person": "napoleon",
-      "state": "bourbon-restoration",
-      "start": 1815,
-      "end": 1815,
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor of the French",
-        "fa": "امپراتور"
-      },
-      "exactStart": "1815-03-20",
-      "exactEnd": "1815-06-22",
-      "sources": [
-        {
-          "title": "Napoleon — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Napoleon"
-        },
-        {
-          "title": "Napoleon — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q517"
-        }
-      ]
-    },
-    {
-      "person": "louis-xviii",
-      "state": "bourbon-restoration",
-      "start": 1815,
       "end": 1824,
-      "office": "head-of-state",
-      "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
-      },
-      "exactStart": "1815-07-08",
-      "exactEnd": "1824-09-16",
       "sources": [
         {
           "title": "Louis XVIII — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Louis_XVIII"
-        },
-        {
-          "title": "Louis XVIII — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7750"
         }
       ]
     },
@@ -3147,8 +3060,8 @@
       "end": 1830,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "King",
+        "fa": "پادشاه"
       },
       "exactStart": "1824-09-16",
       "exactEnd": "1830-08-02",
@@ -3158,7 +3071,7 @@
           "url": "https://en.wikipedia.org/wiki/Charles_X_of_France"
         },
         {
-          "title": "Charles X of France — Wikidata",
+          "title": "Charles X — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q7758"
         }
       ]
@@ -3193,8 +3106,8 @@
       "end": 1848,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "King",
+        "fa": "پادشاه"
       },
       "exactStart": "1830-08-09",
       "exactEnd": "1848-02-24",
@@ -3381,29 +3294,6 @@
       ]
     },
     {
-      "person": "louis-eugene-cavaignac",
-      "state": "french-second-republic",
-      "start": 1848,
-      "end": 1848,
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
-      },
-      "exactStart": "1848-06-28",
-      "exactEnd": "1848-12-20",
-      "sources": [
-        {
-          "title": "Louis-Eugène Cavaignac — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Louis-Eug%C3%A8ne_Cavaignac"
-        },
-        {
-          "title": "Louis-Eugène Cavaignac — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q379702"
-        }
-      ]
-    },
-    {
       "person": "napoleon-iii",
       "state": "french-second-republic",
       "start": 1848,
@@ -3411,7 +3301,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1848-12-20",
       "exactEnd": "1852-12-02",
@@ -3433,7 +3323,7 @@
       "end": 1870,
       "office": "head-of-state",
       "title": {
-        "en": "Emperor of the French",
+        "en": "Emperor",
         "fa": "امپراتور"
       },
       "sources": [
@@ -3465,29 +3355,6 @@
       ]
     },
     {
-      "person": "louis-jules-trochu",
-      "state": "french-third-republic",
-      "start": 1870,
-      "end": 1871,
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
-      },
-      "exactStart": "1870-09-04",
-      "exactEnd": "1871-01-22",
-      "sources": [
-        {
-          "title": "Louis-Jules Trochu — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Louis-Jules_Trochu"
-        },
-        {
-          "title": "Louis-Jules Trochu — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q441235"
-        }
-      ]
-    },
-    {
       "person": "adolphe-thiers",
       "state": "french-third-republic",
       "start": 1871,
@@ -3495,7 +3362,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1871-08-31",
       "exactEnd": "1873-05-24",
@@ -3535,7 +3402,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1873-05-24",
       "exactEnd": "1879-01-30",
@@ -3730,7 +3597,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1879-01-30",
       "exactEnd": "1887-12-02",
@@ -4006,7 +3873,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1887-12-03",
       "exactEnd": "1894-06-25",
@@ -4163,29 +4030,6 @@
       "person": "charles-dupuy",
       "state": "french-third-republic",
       "start": 1894,
-      "end": 1894,
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
-      },
-      "exactStart": "1894-06-25",
-      "exactEnd": "1894-06-27",
-      "sources": [
-        {
-          "title": "Charles Dupuy — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Charles_Dupuy"
-        },
-        {
-          "title": "Charles Dupuy — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q356032"
-        }
-      ]
-    },
-    {
-      "person": "charles-dupuy",
-      "state": "french-third-republic",
-      "start": 1894,
       "end": 1895,
       "office": "head-of-government",
       "title": {
@@ -4213,7 +4057,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1894-06-27",
       "exactEnd": "1895-01-16",
@@ -4282,7 +4126,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1895-01-17",
       "exactEnd": "1899-02-16",
@@ -4397,7 +4241,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1899-02-18",
       "exactEnd": "1906-02-18",
@@ -4512,7 +4356,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1906-02-18",
       "exactEnd": "1913-02-18",
@@ -4696,7 +4540,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1913-02-18",
       "exactEnd": "1920-02-18",
@@ -4880,7 +4724,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1920-02-18",
       "exactEnd": "1920-09-21",
@@ -4926,7 +4770,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1920-09-23",
       "exactEnd": "1924-06-11",
@@ -5011,29 +4855,6 @@
       ]
     },
     {
-      "person": "frederic-francois-marsal",
-      "state": "french-third-republic",
-      "start": 1924,
-      "end": 1924,
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
-      },
-      "exactStart": "1924-06-11",
-      "exactEnd": "1924-06-13",
-      "sources": [
-        {
-          "title": "Frédéric François-Marsal — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Fran%C3%A7ois-Marsal"
-        },
-        {
-          "title": "Frédéric François-Marsal — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q459212"
-        }
-      ]
-    },
-    {
       "person": "edouard-herriot",
       "state": "french-third-republic",
       "start": 1924,
@@ -5064,7 +4885,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1924-06-13",
       "exactEnd": "1931-06-13",
@@ -5287,29 +5108,6 @@
       ]
     },
     {
-      "person": "paul-doumer",
-      "state": "french-third-republic",
-      "start": 1931,
-      "end": 1932,
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
-      },
-      "exactStart": "1931-06-13",
-      "exactEnd": "1932-05-07",
-      "sources": [
-        {
-          "title": "Paul Doumer — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Paul_Doumer"
-        },
-        {
-          "title": "Paul Doumer — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q12680"
-        }
-      ]
-    },
-    {
       "person": "pierre-laval",
       "state": "french-third-republic",
       "start": 1931,
@@ -5329,6 +5127,29 @@
         {
           "title": "Pierre Laval — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q151983"
+        }
+      ]
+    },
+    {
+      "person": "paul-doumer",
+      "state": "french-third-republic",
+      "start": 1931,
+      "end": 1932,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1931-06-13",
+      "exactEnd": "1932-05-07",
+      "sources": [
+        {
+          "title": "Paul Doumer — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paul_Doumer"
+        },
+        {
+          "title": "Paul Doumer — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12680"
         }
       ]
     },
@@ -5409,7 +5230,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1932-05-10",
       "exactEnd": "1940-07-11",
@@ -5747,6 +5568,40 @@
       ]
     },
     {
+      "person": "charles-de-gaulle",
+      "state": "free-france",
+      "office": "head-of-state",
+      "title": {
+        "en": "Leader of Free France",
+        "fa": "رهبر فرانسهٔ آزاد"
+      },
+      "start": 1940,
+      "end": 1944,
+      "sources": [
+        {
+          "title": "Charles de Gaulle — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Charles_de_Gaulle"
+        }
+      ]
+    },
+    {
+      "person": "philippe-petain",
+      "state": "vichy-france",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chief of the French State",
+        "fa": "رئیس دولت فرانسه"
+      },
+      "start": 1940,
+      "end": 1944,
+      "sources": [
+        {
+          "title": "Philippe Pétain — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Philippe_Pétain"
+        }
+      ]
+    },
+    {
       "person": "pierre-laval",
       "state": "vichy-france",
       "start": 1942,
@@ -5764,25 +5619,19 @@
       ]
     },
     {
-      "person": "georges-bidault",
-      "state": "french-fourth-republic",
-      "start": 1946,
-      "end": 1946,
+      "person": "charles-de-gaulle",
+      "state": "provisional-government-of-the-french-republic",
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "Chairman of the Provisional Government",
+        "fa": "رئیس دولت موقت"
       },
-      "exactStart": "1946-06-24",
-      "exactEnd": "1946-10-14",
+      "start": 1944,
+      "end": 1946,
       "sources": [
         {
-          "title": "Georges Bidault — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Georges_Bidault"
-        },
-        {
-          "title": "Georges Bidault — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q312026"
+          "title": "Charles de Gaulle — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Charles_de_Gaulle"
         }
       ]
     },
@@ -5863,7 +5712,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1947-01-16",
       "exactEnd": "1954-01-16",
@@ -6185,7 +6034,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1954-01-16",
       "sources": [
@@ -6317,20 +6166,14 @@
     {
       "person": "charles-de-gaulle",
       "state": "french-fifth-republic",
-      "start": 1958,
-      "end": 1959,
       "office": "head-of-government",
       "title": {
         "en": "President of the Council of Ministers",
         "fa": "رئیس شورای وزیران"
       },
-      "exactStart": "1958-06-01",
-      "exactEnd": "1959-01-08",
+      "start": 1958,
+      "end": 1959,
       "sources": [
-        {
-          "title": "Charles de Gaulle — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Charles_de_Gaulle"
-        },
         {
           "title": "Charles de Gaulle — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q2042"
@@ -6345,7 +6188,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactEnd": "1959-01-08",
       "sources": [
@@ -6362,20 +6205,14 @@
     {
       "person": "charles-de-gaulle",
       "state": "french-fifth-republic",
-      "start": 1959,
-      "end": 1959,
       "office": "head-of-government",
       "title": {
         "en": "Prime Minister",
         "fa": "نخست‌وزیر"
       },
-      "exactStart": "1959-01-08",
-      "exactEnd": "1959-01-08",
+      "start": 1959,
+      "end": 1959,
       "sources": [
-        {
-          "title": "Charles de Gaulle — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Charles_de_Gaulle"
-        },
         {
           "title": "Charles de Gaulle — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q2042"
@@ -6408,23 +6245,17 @@
     {
       "person": "charles-de-gaulle",
       "state": "french-fifth-republic",
-      "start": 1959,
-      "end": 1969,
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
-      "exactStart": "1959-01-08",
-      "exactEnd": "1969-04-28",
+      "start": 1959,
+      "end": 1969,
       "sources": [
         {
           "title": "Charles de Gaulle — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Charles_de_Gaulle"
-        },
-        {
-          "title": "Charles de Gaulle — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q2042"
         }
       ]
     },
@@ -6505,7 +6336,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1969-06-20",
       "exactEnd": "1974-04-02",
@@ -6574,7 +6405,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1974-05-27",
       "exactEnd": "1981-05-21",
@@ -6643,7 +6474,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1981-05-21",
       "exactEnd": "1995-05-17",
@@ -6827,7 +6658,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1995-05-17",
       "exactEnd": "2007-05-16",
@@ -6942,7 +6773,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "2007-05-16",
       "exactEnd": "2012-05-15",
@@ -6988,7 +6819,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "2012-05-15",
       "exactEnd": "2017-05-14",
@@ -7080,7 +6911,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "2017-05-14",
       "sources": [
@@ -7247,7 +7078,9 @@
           "title": "Flag of France (1790–1794).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_France_%281790%E2%80%931794%29.svg"
         }
-      ]
+      ],
+      "sha1": "8605d430eb117399f2609f9c9ae4641c6c439560",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "french-first-republic",
@@ -7263,7 +7096,9 @@
           "title": "Flag of France (1790–1794).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_France_%281790%E2%80%931794%29.svg"
         }
-      ]
+      ],
+      "sha1": "8605d430eb117399f2609f9c9ae4641c6c439560",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "french-first-republic",
@@ -7279,7 +7114,9 @@
           "title": "Flag of France.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg"
         }
-      ]
+      ],
+      "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "first-french-empire",
@@ -7295,7 +7132,9 @@
           "title": "Flag of France.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg"
         }
-      ]
+      ],
+      "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "bourbon-restoration",
@@ -7315,7 +7154,9 @@
           "title": "Flag of the Kingdom of France (1814-1830).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_France_%281814-1830%29.svg"
         }
-      ]
+      ],
+      "sha1": "53c242500ed251f98aed5f0b3c060bcbb1eb4232",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "july-monarchy",
@@ -7331,7 +7172,9 @@
           "title": "Flag of France.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg"
         }
-      ]
+      ],
+      "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "french-second-republic",
@@ -7347,7 +7190,9 @@
           "title": "Flag of France.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg"
         }
-      ]
+      ],
+      "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "second-french-empire",
@@ -7363,7 +7208,9 @@
           "title": "Flag of France.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg"
         }
-      ]
+      ],
+      "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "french-third-republic",
@@ -7379,7 +7226,9 @@
           "title": "Flag of France.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg"
         }
-      ]
+      ],
+      "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "vichy-france",
@@ -7395,7 +7244,9 @@
           "title": "Flag of France.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg"
         }
-      ]
+      ],
+      "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "free-france",
@@ -7415,7 +7266,9 @@
           "title": "Flag of Free France (1940-1944).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Free_France_%281940-1944%29.svg"
         }
-      ]
+      ],
+      "sha1": "57eb1ef69445bf0b89b3d4ea40baecde4907afa7",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "provisional-government-of-the-french-republic",
@@ -7431,7 +7284,9 @@
           "title": "Flag of France.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg"
         }
-      ]
+      ],
+      "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "french-fourth-republic",
@@ -7447,7 +7302,9 @@
           "title": "Flag of France.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg"
         }
-      ]
+      ],
+      "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "french-fifth-republic",
@@ -7463,7 +7320,9 @@
           "title": "Flag of France.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg"
         }
-      ]
+      ],
+      "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
+      "retrieved": "2026-11-16"
     }
   ]
 }

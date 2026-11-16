@@ -125,913 +125,6 @@
       ]
     }
   ],
-  "persons": [
-    {
-      "id": "agha-mohammad-khan-qajar",
-      "name": {
-        "en": "Agha Mohammad Khan Qajar",
-        "fa": "آقامحمدخان قاجار"
-      },
-      "born": 1742,
-      "died": 1797,
-      "wikidata": "Q324974",
-      "sources": [
-        {
-          "title": "Agha Mohammad Khan Qajar — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Agha_Mohammad_Khan_Qajar"
-        }
-      ]
-    },
-    {
-      "id": "fath-ali-shah-qajar",
-      "name": {
-        "en": "Fath-Ali Shah Qajar",
-        "fa": "فتحعلی‌شاه قاجار"
-      },
-      "born": 1772,
-      "died": 1834,
-      "wikidata": "Q175299",
-      "sources": [
-        {
-          "title": "Fath-Ali Shah Qajar — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Fath-Ali_Shah_Qajar"
-        }
-      ]
-    },
-    {
-      "id": "mohammad-shah-qajar",
-      "name": {
-        "en": "Mohammad Shah Qajar",
-        "fa": "محمدشاه قاجار"
-      },
-      "born": 1808,
-      "died": 1848,
-      "wikidata": "Q558231",
-      "sources": [
-        {
-          "title": "Mohammad Shah Qajar — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mohammad_Shah_Qajar"
-        }
-      ]
-    },
-    {
-      "id": "naser-al-din-shah-qajar",
-      "name": {
-        "en": "Naser al-Din Shah Qajar",
-        "fa": "ناصرالدین‌شاه قاجار"
-      },
-      "born": 1831,
-      "died": 1896,
-      "wikidata": "Q159416",
-      "sources": [
-        {
-          "title": "Naser al-Din Shah Qajar — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Naser_al-Din_Shah_Qajar"
-        }
-      ]
-    },
-    {
-      "id": "mozaffar-ad-din-shah-qajar",
-      "name": {
-        "en": "Mozaffar ad-Din Shah Qajar",
-        "fa": "مظفرالدین‌شاه قاجار"
-      },
-      "born": 1853,
-      "died": 1907,
-      "wikidata": "Q467021",
-      "sources": [
-        {
-          "title": "Mozaffar ad-Din Shah Qajar — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mozaffar_ad-Din_Shah_Qajar"
-        }
-      ]
-    },
-    {
-      "id": "mohammad-ali-shah-qajar",
-      "name": {
-        "en": "Mohammad Ali Shah Qajar",
-        "fa": "محمدعلی‌شاه قاجار"
-      },
-      "born": 1872,
-      "died": 1925,
-      "wikidata": "Q355603",
-      "sources": [
-        {
-          "title": "Mohammad Ali Shah Qajar — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mohammad_Ali_Shah_Qajar"
-        }
-      ]
-    },
-    {
-      "id": "ahmad-shah-qajar",
-      "name": {
-        "en": "Ahmad Shah Qajar",
-        "fa": "احمدشاه قاجار"
-      },
-      "born": 1898,
-      "died": 1930,
-      "wikidata": "Q317799",
-      "sources": [
-        {
-          "title": "Ahmad Shah Qajar — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Ahmad_Shah_Qajar"
-        }
-      ]
-    },
-    {
-      "id": "reza-shah",
-      "name": {
-        "en": "Reza Shah",
-        "fa": "رضاشاه"
-      },
-      "born": 1878,
-      "died": 1944,
-      "wikidata": "Q182921",
-      "sources": [
-        {
-          "title": "Reza Shah — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Reza_Shah"
-        }
-      ]
-    },
-    {
-      "id": "mohammad-reza-pahlavi",
-      "name": {
-        "en": "Mohammad Reza Pahlavi",
-        "fa": "محمدرضا پهلوی"
-      },
-      "born": 1919,
-      "died": 1980,
-      "wikidata": "Q128245",
-      "sources": [
-        {
-          "title": "Mohammad Reza Pahlavi — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mohammad_Reza_Pahlavi"
-        }
-      ]
-    },
-    {
-      "id": "ruhollah-khomeini",
-      "name": {
-        "en": "Ruhollah Khomeini",
-        "fa": "سید روح‌الله خمینی"
-      },
-      "died": 1989,
-      "wikidata": "Q38823",
-      "sources": [
-        {
-          "title": "Ruhollah Khomeini — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Ruhollah_Khomeini"
-        }
-      ]
-    },
-    {
-      "id": "ali-khamenei",
-      "name": {
-        "en": "Ali Khamenei",
-        "fa": "سید علی خامنه‌ای"
-      },
-      "born": 1939,
-      "died": 2026,
-      "wikidata": "Q57336",
-      "sources": [
-        {
-          "title": "Ali Khamenei — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Ali_Khamenei"
-        }
-      ]
-    },
-    {
-      "id": "mojtaba-khamenei",
-      "name": {
-        "en": "Mojtaba Khamenei",
-        "fa": "سید مجتبی خامنه‌ای"
-      },
-      "born": 1969,
-      "wikidata": "Q2919350",
-      "sources": [
-        {
-          "title": "Mojtaba Khamenei — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mojtaba_Khamenei"
-        }
-      ]
-    },
-    {
-      "id": "lotf-ali-khan-zand",
-      "name": {
-        "en": "Lotf Ali Khan Zand",
-        "fa": "لطفعلی‌خان زند"
-      },
-      "died": 1794,
-      "wikidata": "Q15859",
-      "sources": [
-        {
-          "title": "Lotf Ali Khan Zand — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Lotf_Ali_Khan"
-        }
-      ]
-    },
-    {
-      "id": "amir-kabir",
-      "name": {
-        "en": "Amir Kabir",
-        "fa": "امیرکبیر"
-      },
-      "wikidata": "Q472054",
-      "sources": [
-        {
-          "title": "Amir Kabir — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q472054"
-        }
-      ]
-    },
-    {
-      "id": "mirza-ali-asghar-khan-amin-al-soltan",
-      "name": {
-        "en": "Mirza Ali Asghar Khan Amin al-Soltan",
-        "fa": "میرزا علیاصغر اتابک"
-      },
-      "wikidata": "Q957636",
-      "sources": [
-        {
-          "title": "Mirza Ali Asghar Khan Amin al-Soltan — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q957636"
-        }
-      ]
-    },
-    {
-      "id": "mirza-ali-khan-amin-od-dowleh",
-      "name": {
-        "en": "Mirza Ali Khan Amin od-Dowleh",
-        "fa": "علی امینالدوله"
-      },
-      "wikidata": "Q4896149",
-      "sources": [
-        {
-          "title": "Mirza Ali Khan Amin od-Dowleh — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q4896149"
-        }
-      ]
-    },
-    {
-      "id": "abdol-majid-mirza",
-      "name": {
-        "en": "Abdol Majid Mirza",
-        "fa": "عینالدوله"
-      },
-      "wikidata": "Q308247",
-      "sources": [
-        {
-          "title": "Abdol Majid Mirza — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q308247"
-        }
-      ]
-    },
-    {
-      "id": "hossein-qoli-nezam-al-saltaneh-mafi",
-      "name": {
-        "en": "Hossein-Qoli Nezam al-Saltaneh Mafi",
-        "fa": "حسینقلی نظامالسلطنه"
-      },
-      "wikidata": "Q5691193",
-      "sources": [
-        {
-          "title": "Hossein-Qoli Nezam al-Saltaneh Mafi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5691193"
-        }
-      ]
-    },
-    {
-      "id": "mostowfi-ol-mamalek",
-      "name": {
-        "en": "Mostowfi ol-Mamalek",
-        "fa": "حسن مستوفی"
-      },
-      "wikidata": "Q1399358",
-      "sources": [
-        {
-          "title": "Mostowfi ol-Mamalek — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1399358"
-        }
-      ]
-    },
-    {
-      "id": "najaf-qoli-khan-bakhtiari",
-      "name": {
-        "en": "Najaf-Qoli Khan Bakhtiari",
-        "fa": "صمصامالسلطنه"
-      },
-      "wikidata": "Q981700",
-      "sources": [
-        {
-          "title": "Najaf-Qoli Khan Bakhtiari — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q981700"
-        }
-      ]
-    },
-    {
-      "id": "hassan-pirnia",
-      "name": {
-        "en": "Hassan Pirnia",
-        "fa": "حسن پیرنیا"
-      },
-      "wikidata": "Q1588597",
-      "sources": [
-        {
-          "title": "Hassan Pirnia — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1588597"
-        }
-      ]
-    },
-    {
-      "id": "abdol-hossein-farman-farma",
-      "name": {
-        "en": "Abdol-Hossein Farman Farma",
-        "fa": "عبدالحسین میرزا فرمانفرما"
-      },
-      "wikidata": "Q308243",
-      "sources": [
-        {
-          "title": "Abdol-Hossein Farman Farma — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q308243"
-        }
-      ]
-    },
-    {
-      "id": "vosugh-od-dowleh",
-      "name": {
-        "en": "Vosugh od-Dowleh",
-        "fa": "حسن وثوق"
-      },
-      "wikidata": "Q426031",
-      "sources": [
-        {
-          "title": "Vosugh od-Dowleh — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q426031"
-        }
-      ]
-    },
-    {
-      "id": "fathollah-khan-akbar",
-      "name": {
-        "en": "Fathollah Khan Akbar",
-        "fa": "فتحالله خان اکبر"
-      },
-      "wikidata": "Q1398054",
-      "sources": [
-        {
-          "title": "Fathollah Khan Akbar — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1398054"
-        }
-      ]
-    },
-    {
-      "id": "zia-ol-din-tabatabaee",
-      "name": {
-        "en": "Zia ol Din Tabatabaee",
-        "fa": "سید ضیاءالدین طباطبایی"
-      },
-      "wikidata": "Q793889",
-      "sources": [
-        {
-          "title": "Zia ol Din Tabatabaee — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q793889"
-        }
-      ]
-    },
-    {
-      "id": "ahmad-qavam",
-      "name": {
-        "en": "Ahmad Qavam",
-        "fa": "احمد قوام"
-      },
-      "wikidata": "Q400712",
-      "sources": [
-        {
-          "title": "Ahmad Qavam — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q400712"
-        }
-      ]
-    },
-    {
-      "id": "mohammad-ali-foroughi",
-      "name": {
-        "en": "Mohammad Ali Foroughi",
-        "fa": "محمدعلی فروغی"
-      },
-      "wikidata": "Q181451",
-      "sources": [
-        {
-          "title": "Mohammad Ali Foroughi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q181451"
-        }
-      ]
-    },
-    {
-      "id": "mehdi-qoli-hedayat",
-      "name": {
-        "en": "Mehdi Qoli Hedayat",
-        "fa": "مهدیقلی هدایت"
-      },
-      "wikidata": "Q957495",
-      "sources": [
-        {
-          "title": "Mehdi Qoli Hedayat — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q957495"
-        }
-      ]
-    },
-    {
-      "id": "mahmoud-djam",
-      "name": {
-        "en": "Mahmoud Djam",
-        "fa": "محمود جم"
-      },
-      "wikidata": "Q952389",
-      "sources": [
-        {
-          "title": "Mahmoud Djam — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q952389"
-        }
-      ]
-    },
-    {
-      "id": "ahmad-matin-daftari",
-      "name": {
-        "en": "Ahmad Matin-Daftari",
-        "fa": "احمد متیندفتری"
-      },
-      "wikidata": "Q400691",
-      "sources": [
-        {
-          "title": "Ahmad Matin-Daftari — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q400691"
-        }
-      ]
-    },
-    {
-      "id": "ali-soheili",
-      "name": {
-        "en": "Ali Soheili",
-        "fa": "علی سهیلی"
-      },
-      "wikidata": "Q959815",
-      "sources": [
-        {
-          "title": "Ali Soheili — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q959815"
-        }
-      ]
-    },
-    {
-      "id": "mohammad-saed",
-      "name": {
-        "en": "Mohammad Sa'ed",
-        "fa": "محمد ساعد"
-      },
-      "wikidata": "Q726837",
-      "sources": [
-        {
-          "title": "Mohammad Sa'ed — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q726837"
-        }
-      ]
-    },
-    {
-      "id": "morteza-qoli-bayat",
-      "name": {
-        "en": "Morteza-Qoli Bayat",
-        "fa": "مرتضیقلی بیات"
-      },
-      "wikidata": "Q983520",
-      "sources": [
-        {
-          "title": "Morteza-Qoli Bayat — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q983520"
-        }
-      ]
-    },
-    {
-      "id": "ebrahim-hakimi",
-      "name": {
-        "en": "Ebrahim Hakimi",
-        "fa": "ابراهیم حکیمی"
-      },
-      "wikidata": "Q722455",
-      "sources": [
-        {
-          "title": "Ebrahim Hakimi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q722455"
-        }
-      ]
-    },
-    {
-      "id": "mohsen-sadr",
-      "name": {
-        "en": "Mohsen Sadr",
-        "fa": "محسن صدر"
-      },
-      "wikidata": "Q526520",
-      "sources": [
-        {
-          "title": "Mohsen Sadr — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q526520"
-        }
-      ]
-    },
-    {
-      "id": "reza-hekmat",
-      "name": {
-        "en": "Reza Hekmat",
-        "fa": "رضا حکمت"
-      },
-      "wikidata": "Q3428941",
-      "sources": [
-        {
-          "title": "Reza Hekmat — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3428941"
-        }
-      ]
-    },
-    {
-      "id": "abdolhossein-hazhir",
-      "name": {
-        "en": "Abdolhossein Hazhir",
-        "fa": "عبدالحسین هژیر"
-      },
-      "wikidata": "Q308251",
-      "sources": [
-        {
-          "title": "Abdolhossein Hazhir — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q308251"
-        }
-      ]
-    },
-    {
-      "id": "ali-razmara",
-      "name": {
-        "en": "Ali Razmara",
-        "fa": "حاجی علی رزم آرا"
-      },
-      "wikidata": "Q1398936",
-      "sources": [
-        {
-          "title": "Ali Razmara — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1398936"
-        }
-      ]
-    },
-    {
-      "id": "hossein-ala",
-      "name": {
-        "en": "Hossein Ala'",
-        "fa": "حسین علاء"
-      },
-      "wikidata": "Q698713",
-      "sources": [
-        {
-          "title": "Hossein Ala' — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q698713"
-        }
-      ]
-    },
-    {
-      "id": "mohammad-mosaddegh",
-      "name": {
-        "en": "Mohammad Mosaddegh",
-        "fa": "محمد مصدق"
-      },
-      "wikidata": "Q123037",
-      "sources": [
-        {
-          "title": "Mohammad Mosaddegh — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q123037"
-        }
-      ]
-    },
-    {
-      "id": "fazlollah-zahedi",
-      "name": {
-        "en": "Fazlollah Zahedi",
-        "fa": "فضلالله زاهدی"
-      },
-      "wikidata": "Q1396878",
-      "sources": [
-        {
-          "title": "Fazlollah Zahedi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1396878"
-        }
-      ]
-    },
-    {
-      "id": "manouchehr-eghbal",
-      "name": {
-        "en": "Manouchehr Eghbal",
-        "fa": "منوچهر اقبال"
-      },
-      "wikidata": "Q876117",
-      "sources": [
-        {
-          "title": "Manouchehr Eghbal — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q876117"
-        }
-      ]
-    },
-    {
-      "id": "jafar-sharif-emami",
-      "name": {
-        "en": "Jafar Sharif-Emami",
-        "fa": "جعفر شریفامامی"
-      },
-      "wikidata": "Q951044",
-      "sources": [
-        {
-          "title": "Jafar Sharif-Emami — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q951044"
-        }
-      ]
-    },
-    {
-      "id": "ali-amini",
-      "name": {
-        "en": "Ali Amini",
-        "fa": "علی امینی"
-      },
-      "wikidata": "Q1774108",
-      "sources": [
-        {
-          "title": "Ali Amini — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1774108"
-        }
-      ]
-    },
-    {
-      "id": "asadollah-alam",
-      "name": {
-        "en": "Asadollah Alam",
-        "fa": "اسدالله علم"
-      },
-      "wikidata": "Q689394",
-      "sources": [
-        {
-          "title": "Asadollah Alam — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q689394"
-        }
-      ]
-    },
-    {
-      "id": "hassan-ali-mansur",
-      "name": {
-        "en": "Hassan Ali Mansur",
-        "fa": "حسنعلی منصور"
-      },
-      "wikidata": "Q142387",
-      "sources": [
-        {
-          "title": "Hassan Ali Mansur — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q142387"
-        }
-      ]
-    },
-    {
-      "id": "amir-abbas-hoveyda",
-      "name": {
-        "en": "Amir-Abbas Hoveyda",
-        "fa": "امیرعباس هویدا"
-      },
-      "wikidata": "Q471970",
-      "sources": [
-        {
-          "title": "Amir-Abbas Hoveyda — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q471970"
-        }
-      ]
-    },
-    {
-      "id": "gholam-reza-azhari",
-      "name": {
-        "en": "Gholam Reza Azhari",
-        "fa": "غلامرضا ازهاری"
-      },
-      "wikidata": "Q700668",
-      "sources": [
-        {
-          "title": "Gholam Reza Azhari — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q700668"
-        }
-      ]
-    },
-    {
-      "id": "mehdi-bazargan",
-      "name": {
-        "en": "Mehdi Bazargan",
-        "fa": "مهدی بازرگان"
-      },
-      "wikidata": "Q382369",
-      "sources": [
-        {
-          "title": "Mehdi Bazargan — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q382369"
-        }
-      ]
-    },
-    {
-      "id": "mohammad-ali-rajai",
-      "name": {
-        "en": "Mohammad-Ali Rajai",
-        "fa": "محمدعلی رجایی"
-      },
-      "wikidata": "Q310592",
-      "sources": [
-        {
-          "title": "Mohammad-Ali Rajai — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q310592"
-        }
-      ]
-    },
-    {
-      "id": "mohammad-javad-bahonar",
-      "name": {
-        "en": "Mohammad-Javad Bahonar",
-        "fa": "محمدجواد باهنر"
-      },
-      "wikidata": "Q722559",
-      "sources": [
-        {
-          "title": "Mohammad-Javad Bahonar — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q722559"
-        }
-      ]
-    },
-    {
-      "id": "mohammad-reza-mahdavi-kani",
-      "name": {
-        "en": "Mohammad-Reza Mahdavi Kani",
-        "fa": "محمدرضا مهدوی کنی"
-      },
-      "wikidata": "Q722774",
-      "sources": [
-        {
-          "title": "Mohammad-Reza Mahdavi Kani — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q722774"
-        }
-      ]
-    },
-    {
-      "id": "mir-hossein-mousavi",
-      "name": {
-        "en": "Mir-Hossein Mousavi",
-        "fa": "میرحسین موسوی"
-      },
-      "wikidata": "Q217154",
-      "sources": [
-        {
-          "title": "Mir-Hossein Mousavi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q217154"
-        }
-      ]
-    },
-    {
-      "id": "akbar-hashemi-rafsanjani",
-      "name": {
-        "en": "Akbar Hashemi Rafsanjani",
-        "fa": "اکبر هاشمی رفسنجانی"
-      },
-      "wikidata": "Q186111",
-      "sources": [
-        {
-          "title": "Akbar Hashemi Rafsanjani — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q186111"
-        }
-      ]
-    },
-    {
-      "id": "mohammad-khatami",
-      "name": {
-        "en": "Mohammad Khatami",
-        "fa": "سید محمد خاتمی"
-      },
-      "wikidata": "Q180795",
-      "sources": [
-        {
-          "title": "Mohammad Khatami — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q180795"
-        }
-      ]
-    },
-    {
-      "id": "mahmoud-ahmadinejad",
-      "name": {
-        "en": "Mahmoud Ahmadinejad",
-        "fa": "محمود احمدینژاد"
-      },
-      "wikidata": "Q34448",
-      "sources": [
-        {
-          "title": "Mahmoud Ahmadinejad — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q34448"
-        }
-      ]
-    },
-    {
-      "id": "hassan-rouhani",
-      "name": {
-        "en": "Hassan Rouhani",
-        "fa": "حسن روحانی"
-      },
-      "wikidata": "Q348144",
-      "sources": [
-        {
-          "title": "Hassan Rouhani — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q348144"
-        }
-      ]
-    },
-    {
-      "id": "ebrahim-raisi",
-      "name": {
-        "en": "Ebrahim Raisi",
-        "fa": "سید ابراهیم رئیسی"
-      },
-      "wikidata": "Q5947347",
-      "sources": [
-        {
-          "title": "Ebrahim Raisi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5947347"
-        }
-      ]
-    },
-    {
-      "id": "mohammad-mokhber",
-      "name": {
-        "en": "Mohammad Mokhber",
-        "fa": "محمد مخبر"
-      },
-      "wikidata": "Q5703610",
-      "sources": [
-        {
-          "title": "Mohammad Mokhber — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5703610"
-        }
-      ]
-    },
-    {
-      "id": "masoud-pezeshkian",
-      "name": {
-        "en": "Masoud Pezeshkian",
-        "fa": "مسعود پزشکیان"
-      },
-      "wikidata": "Q5933752",
-      "sources": [
-        {
-          "title": "Masoud Pezeshkian — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5933752"
-        }
-      ]
-    },
-    {
-      "id": "mirza-aqa-khan-nuri",
-      "name": {
-        "en": "Mirza Aqa Khan Nuri",
-        "fa": "میرزا آقاخان نوری"
-      },
-      "wikidata": "Q8216006",
-      "sources": [
-        {
-          "title": "Mirza Aqa Khan Nuri — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q8216006"
-        }
-      ]
-    },
-    {
-      "id": "mirza-hosein-khan-sepahsalar",
-      "name": {
-        "en": "Mirza Hosein Khan Sepahsalar",
-        "fa": "میرزا حسین‌خان سپهسالار"
-      },
-      "wikidata": "Q8215953",
-      "sources": [
-        {
-          "title": "Mirza Hosein Khan Sepahsalar — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q8215953"
-        }
-      ]
-    },
-    {
-      "id": "abolhassan-banisadr",
-      "name": {
-        "en": "Abolhassan Banisadr",
-        "fa": "ابوالحسن بنی‌صدر"
-      },
-      "wikidata": "Q273866",
-      "sources": [
-        {
-          "title": "Abolhassan Banisadr — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Abolhassan_Banisadr"
-        }
-      ]
-    }
-  ],
   "lane": [
     {
       "country": "iran",
@@ -1090,279 +183,304 @@
       ]
     }
   ],
-  "terms": [
+  "offices": [
     {
-      "person": "agha-mohammad-khan-qajar",
-      "state": "qajar-iran",
-      "office": "head-of-state",
+      "office": "Q184299",
+      "family": [
+        "Q189326",
+        "Q207991"
+      ],
       "title": {
         "en": "Shah",
         "fa": "شاه"
-      },
-      "start": 1789,
-      "end": 1797,
-      "sources": [
-        {
-          "title": "Agha Mohammad Khan Qajar — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Agha_Mohammad_Khan_Qajar"
-        }
-      ]
+      }
     },
     {
-      "person": "fath-ali-shah-qajar",
-      "state": "qajar-iran",
-      "office": "head-of-state",
-      "title": {
-        "en": "Shah",
-        "fa": "شاه"
-      },
-      "start": 1797,
-      "end": 1834,
-      "sources": [
-        {
-          "title": "Fath-Ali Shah Qajar — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Fath-Ali_Shah_Qajar"
-        }
-      ]
-    },
-    {
-      "person": "mohammad-shah-qajar",
-      "state": "qajar-iran",
-      "office": "head-of-state",
-      "title": {
-        "en": "Shah",
-        "fa": "شاه"
-      },
-      "start": 1834,
-      "end": 1848,
-      "sources": [
-        {
-          "title": "Mohammad Shah Qajar — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mohammad_Shah_Qajar"
-        }
-      ]
-    },
-    {
-      "person": "naser-al-din-shah-qajar",
-      "state": "qajar-iran",
-      "office": "head-of-state",
-      "title": {
-        "en": "Shah",
-        "fa": "شاه"
-      },
-      "start": 1848,
-      "end": 1896,
-      "sources": [
-        {
-          "title": "Naser al-Din Shah Qajar — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Naser_al-Din_Shah_Qajar"
-        }
-      ]
-    },
-    {
-      "person": "mozaffar-ad-din-shah-qajar",
-      "state": "qajar-iran",
-      "office": "head-of-state",
-      "title": {
-        "en": "Shah",
-        "fa": "شاه"
-      },
-      "start": 1896,
-      "end": 1907,
-      "sources": [
-        {
-          "title": "Mozaffar ad-Din Shah Qajar — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mozaffar_ad-Din_Shah_Qajar"
-        }
-      ]
-    },
-    {
-      "person": "mohammad-ali-shah-qajar",
-      "state": "qajar-iran",
-      "office": "head-of-state",
-      "title": {
-        "en": "Shah",
-        "fa": "شاه"
-      },
-      "start": 1907,
-      "end": 1909,
-      "sources": [
-        {
-          "title": "Mohammad Ali Shah Qajar — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mohammad_Ali_Shah_Qajar"
-        }
-      ]
-    },
-    {
-      "person": "ahmad-shah-qajar",
-      "state": "qajar-iran",
-      "office": "head-of-state",
-      "title": {
-        "en": "Shah",
-        "fa": "شاه"
-      },
-      "start": 1909,
-      "end": 1925,
-      "sources": [
-        {
-          "title": "Ahmad Shah Qajar — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Ahmad_Shah_Qajar"
-        }
-      ]
-    },
-    {
-      "person": "reza-shah",
-      "state": "pahlavi-iran",
-      "office": "head-of-state",
-      "title": {
-        "en": "Shah",
-        "fa": "شاه"
-      },
-      "start": 1925,
-      "end": 1941,
-      "sources": [
-        {
-          "title": "Reza Shah — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Reza_Shah"
-        }
-      ]
-    },
-    {
-      "person": "mohammad-reza-pahlavi",
-      "state": "pahlavi-iran",
-      "office": "head-of-state",
-      "title": {
-        "en": "Shah",
-        "fa": "شاه"
-      },
-      "start": 1941,
-      "end": 1979,
-      "sources": [
-        {
-          "title": "Mohammad Reza Pahlavi — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mohammad_Reza_Pahlavi"
-        }
-      ]
-    },
-    {
-      "person": "ruhollah-khomeini",
-      "state": "islamic-republic-of-iran",
-      "office": "head-of-state",
-      "title": {
-        "en": "Supreme Leader",
-        "fa": "رهبر"
-      },
-      "start": 1979,
-      "end": 1989,
-      "sources": [
-        {
-          "title": "Ruhollah Khomeini — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Ruhollah_Khomeini"
-        }
-      ]
-    },
-    {
-      "person": "ali-khamenei",
-      "state": "islamic-republic-of-iran",
-      "office": "head-of-state",
-      "title": {
-        "en": "Supreme Leader",
-        "fa": "رهبر"
-      },
-      "start": 1989,
-      "end": 2026,
-      "sources": [
-        {
-          "title": "Ali Khamenei — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Ali_Khamenei"
-        }
-      ]
-    },
-    {
-      "person": "mojtaba-khamenei",
-      "state": "islamic-republic-of-iran",
-      "office": "head-of-state",
-      "title": {
-        "en": "Supreme Leader",
-        "fa": "رهبر"
-      },
-      "start": 2026,
-      "end": null,
-      "sources": [
-        {
-          "title": "Mojtaba Khamenei — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mojtaba_Khamenei"
-        }
-      ]
-    },
-    {
-      "person": "lotf-ali-khan-zand",
+      "office": "Q184299",
+      "family": [
+        "Q97629053"
+      ],
       "state": "zand-iran",
-      "office": "head-of-state",
       "title": {
         "en": "Zand ruler",
         "fa": "فرمانروای زند"
-      },
-      "start": 1789,
-      "end": 1794,
-      "sources": [
-        {
-          "title": "Lotf Ali Khan Zand — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Lotf_Ali_Khan"
-        }
-      ]
+      }
     },
     {
-      "person": "amir-kabir",
-      "state": "qajar-iran",
-      "office": "head-of-government",
+      "office": "Q332486",
       "title": {
-        "en": "Grand Vizier",
-        "fa": "صدراعظم"
-      },
-      "start": 1848,
-      "end": 1851,
-      "sources": [
-        {
-          "title": "Amir Kabir — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q472054"
-        }
-      ]
+        "en": "Supreme Leader",
+        "fa": "رهبر"
+      }
+    }
+  ],
+  "persons": [
+    {
+      "id": "agha-mohammad-khan-qajar",
+      "wikidata": "Q324974"
     },
     {
-      "person": "mirza-aqa-khan-nuri",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Grand Vizier",
-        "fa": "صدراعظم"
-      },
-      "start": 1851,
-      "end": 1858,
-      "sources": [
-        {
-          "title": "Mirza Aqa Khan Nuri — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mirza_Aqa_Khan_Nuri"
-        }
-      ]
+      "id": "fath-ali-shah-qajar",
+      "wikidata": "Q175299"
     },
     {
-      "person": "mirza-hosein-khan-sepahsalar",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Grand Vizier",
-        "fa": "صدراعظم"
-      },
-      "start": 1871,
-      "end": 1873,
-      "sources": [
-        {
-          "title": "Mirza Hosein Khan Sepahsalar — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mirza_Hosein_Khan_Sepahsalar"
-        }
-      ]
+      "id": "mohammad-shah-qajar",
+      "wikidata": "Q558231"
     },
+    {
+      "id": "naser-al-din-shah-qajar",
+      "wikidata": "Q159416"
+    },
+    {
+      "id": "mozaffar-ad-din-shah-qajar",
+      "wikidata": "Q467021"
+    },
+    {
+      "id": "mohammad-ali-shah-qajar",
+      "wikidata": "Q355603"
+    },
+    {
+      "id": "ahmad-shah-qajar",
+      "wikidata": "Q317799"
+    },
+    {
+      "id": "reza-shah",
+      "wikidata": "Q182921"
+    },
+    {
+      "id": "mohammad-reza-pahlavi",
+      "wikidata": "Q128245"
+    },
+    {
+      "id": "ruhollah-khomeini",
+      "wikidata": "Q38823"
+    },
+    {
+      "id": "ali-khamenei",
+      "wikidata": "Q57336"
+    },
+    {
+      "id": "mojtaba-khamenei",
+      "wikidata": "Q2919350"
+    },
+    {
+      "id": "lotf-ali-khan-zand",
+      "wikidata": "Q15859",
+      "name": {
+        "en": "Lotf Ali Khan Zand"
+      },
+      "note": "en: the Wikipedia title is \"Lotf Ali Khan\""
+    },
+    {
+      "id": "amir-kabir",
+      "wikidata": "Q472054"
+    },
+    {
+      "id": "mirza-ali-asghar-khan-amin-al-soltan",
+      "wikidata": "Q957636"
+    },
+    {
+      "id": "mirza-ali-khan-amin-od-dowleh",
+      "wikidata": "Q4896149"
+    },
+    {
+      "id": "abdol-majid-mirza",
+      "wikidata": "Q308247"
+    },
+    {
+      "id": "hossein-qoli-nezam-al-saltaneh-mafi",
+      "wikidata": "Q5691193"
+    },
+    {
+      "id": "mostowfi-ol-mamalek",
+      "wikidata": "Q1399358"
+    },
+    {
+      "id": "najaf-qoli-khan-bakhtiari",
+      "wikidata": "Q981700"
+    },
+    {
+      "id": "hassan-pirnia",
+      "wikidata": "Q1588597"
+    },
+    {
+      "id": "abdol-hossein-farman-farma",
+      "wikidata": "Q308243"
+    },
+    {
+      "id": "vosugh-od-dowleh",
+      "wikidata": "Q426031"
+    },
+    {
+      "id": "fathollah-khan-akbar",
+      "wikidata": "Q1398054"
+    },
+    {
+      "id": "zia-ol-din-tabatabaee",
+      "wikidata": "Q793889"
+    },
+    {
+      "id": "ahmad-qavam",
+      "wikidata": "Q400712"
+    },
+    {
+      "id": "mohammad-ali-foroughi",
+      "wikidata": "Q181451"
+    },
+    {
+      "id": "mehdi-qoli-hedayat",
+      "wikidata": "Q957495"
+    },
+    {
+      "id": "mahmoud-djam",
+      "wikidata": "Q952389"
+    },
+    {
+      "id": "ahmad-matin-daftari",
+      "wikidata": "Q400691"
+    },
+    {
+      "id": "ali-soheili",
+      "wikidata": "Q959815"
+    },
+    {
+      "id": "mohammad-saed",
+      "wikidata": "Q726837"
+    },
+    {
+      "id": "morteza-qoli-bayat",
+      "wikidata": "Q983520"
+    },
+    {
+      "id": "ebrahim-hakimi",
+      "wikidata": "Q722455"
+    },
+    {
+      "id": "mohsen-sadr",
+      "wikidata": "Q526520"
+    },
+    {
+      "id": "reza-hekmat",
+      "wikidata": "Q3428941"
+    },
+    {
+      "id": "abdolhossein-hazhir",
+      "wikidata": "Q308251"
+    },
+    {
+      "id": "ali-razmara",
+      "wikidata": "Q1398936"
+    },
+    {
+      "id": "hossein-ala",
+      "wikidata": "Q698713"
+    },
+    {
+      "id": "mohammad-mosaddegh",
+      "wikidata": "Q123037"
+    },
+    {
+      "id": "fazlollah-zahedi",
+      "wikidata": "Q1396878"
+    },
+    {
+      "id": "manouchehr-eghbal",
+      "wikidata": "Q876117"
+    },
+    {
+      "id": "jafar-sharif-emami",
+      "wikidata": "Q951044"
+    },
+    {
+      "id": "ali-amini",
+      "wikidata": "Q1774108"
+    },
+    {
+      "id": "asadollah-alam",
+      "wikidata": "Q689394"
+    },
+    {
+      "id": "hassan-ali-mansur",
+      "wikidata": "Q142387"
+    },
+    {
+      "id": "amir-abbas-hoveyda",
+      "wikidata": "Q471970"
+    },
+    {
+      "id": "gholam-reza-azhari",
+      "wikidata": "Q700668"
+    },
+    {
+      "id": "mehdi-bazargan",
+      "wikidata": "Q382369"
+    },
+    {
+      "id": "mohammad-ali-rajai",
+      "wikidata": "Q310592"
+    },
+    {
+      "id": "mohammad-javad-bahonar",
+      "wikidata": "Q722559"
+    },
+    {
+      "id": "mohammad-reza-mahdavi-kani",
+      "wikidata": "Q722774"
+    },
+    {
+      "id": "mir-hossein-mousavi",
+      "wikidata": "Q217154"
+    },
+    {
+      "id": "akbar-hashemi-rafsanjani",
+      "wikidata": "Q186111"
+    },
+    {
+      "id": "mohammad-khatami",
+      "wikidata": "Q180795"
+    },
+    {
+      "id": "mahmoud-ahmadinejad",
+      "wikidata": "Q34448"
+    },
+    {
+      "id": "hassan-rouhani",
+      "wikidata": "Q348144"
+    },
+    {
+      "id": "ebrahim-raisi",
+      "wikidata": "Q5947347"
+    },
+    {
+      "id": "mohammad-mokhber",
+      "wikidata": "Q5703610"
+    },
+    {
+      "id": "masoud-pezeshkian",
+      "wikidata": "Q5933752"
+    },
+    {
+      "id": "mirza-aqa-khan-nuri",
+      "wikidata": "Q8216006"
+    },
+    {
+      "id": "mirza-hosein-khan-sepahsalar",
+      "wikidata": "Q8215953"
+    },
+    {
+      "id": "abolhassan-banisadr",
+      "wikidata": "Q273866"
+    },
+    {
+      "id": "jafar-khan-zand",
+      "wikidata": "Q81098"
+    },
+    {
+      "id": "seyd-morad-khan",
+      "wikidata": "Q135668"
+    }
+  ],
+  "terms": [
     {
       "person": "mirza-ali-asghar-khan-amin-al-soltan",
       "state": "qajar-iran",
@@ -1381,23 +499,6 @@
       ]
     },
     {
-      "person": "mirza-ali-khan-amin-od-dowleh",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Grand Vizier",
-        "fa": "صدراعظم"
-      },
-      "start": 1897,
-      "end": 1898,
-      "sources": [
-        {
-          "title": "Mirza Ali Khan Amin od-Dowleh — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q4896149"
-        }
-      ]
-    },
-    {
       "person": "mirza-ali-asghar-khan-amin-al-soltan",
       "state": "qajar-iran",
       "office": "head-of-government",
@@ -1407,6 +508,23 @@
       },
       "start": 1898,
       "end": 1903,
+      "sources": [
+        {
+          "title": "Mirza Ali Asghar Khan Amin al-Soltan — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q957636"
+        }
+      ]
+    },
+    {
+      "person": "mirza-ali-asghar-khan-amin-al-soltan",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1907,
+      "end": 1907,
       "sources": [
         {
           "title": "Mirza Ali Asghar Khan Amin al-Soltan — Wikidata",
@@ -1432,91 +550,6 @@
       ]
     },
     {
-      "person": "mirza-ali-asghar-khan-amin-al-soltan",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1907,
-      "end": 1907,
-      "sources": [
-        {
-          "title": "Mirza Ali Asghar Khan Amin al-Soltan — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q957636"
-        }
-      ]
-    },
-    {
-      "person": "hossein-qoli-nezam-al-saltaneh-mafi",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1907,
-      "end": 1908,
-      "sources": [
-        {
-          "title": "Hossein-Qoli Nezam al-Saltaneh Mafi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5691193"
-        }
-      ]
-    },
-    {
-      "person": "mostowfi-ol-mamalek",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1910,
-      "end": 1911,
-      "sources": [
-        {
-          "title": "Mostowfi ol-Mamalek — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1399358"
-        }
-      ]
-    },
-    {
-      "person": "najaf-qoli-khan-bakhtiari",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1911,
-      "end": 1913,
-      "sources": [
-        {
-          "title": "Najaf-Qoli Khan Bakhtiari — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q981700"
-        }
-      ]
-    },
-    {
-      "person": "mostowfi-ol-mamalek",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1913,
-      "end": 1915,
-      "sources": [
-        {
-          "title": "Mostowfi ol-Mamalek — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1399358"
-        }
-      ]
-    },
-    {
       "person": "abdol-majid-mirza",
       "state": "qajar-iran",
       "office": "head-of-government",
@@ -1530,278 +563,6 @@
         {
           "title": "Abdol Majid Mirza — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q308247"
-        }
-      ]
-    },
-    {
-      "person": "hassan-pirnia",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1915,
-      "end": 1915,
-      "sources": [
-        {
-          "title": "Hassan Pirnia — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1588597"
-        }
-      ]
-    },
-    {
-      "person": "mostowfi-ol-mamalek",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1915,
-      "end": 1915,
-      "sources": [
-        {
-          "title": "Mostowfi ol-Mamalek — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1399358"
-        }
-      ]
-    },
-    {
-      "person": "abdol-hossein-farman-farma",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1915,
-      "end": 1916,
-      "sources": [
-        {
-          "title": "Abdol-Hossein Farman Farma — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q308243"
-        }
-      ]
-    },
-    {
-      "person": "vosugh-od-dowleh",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1916,
-      "end": 1917,
-      "sources": [
-        {
-          "title": "Vosugh od-Dowleh — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q426031"
-        }
-      ]
-    },
-    {
-      "person": "mostowfi-ol-mamalek",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1918,
-      "end": 1918,
-      "sources": [
-        {
-          "title": "Mostowfi ol-Mamalek — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1399358"
-        }
-      ]
-    },
-    {
-      "person": "najaf-qoli-khan-bakhtiari",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1918,
-      "end": 1918,
-      "sources": [
-        {
-          "title": "Najaf-Qoli Khan Bakhtiari — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q981700"
-        }
-      ]
-    },
-    {
-      "person": "vosugh-od-dowleh",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1918,
-      "end": 1920,
-      "sources": [
-        {
-          "title": "Vosugh od-Dowleh — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q426031"
-        }
-      ]
-    },
-    {
-      "person": "hassan-pirnia",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1920,
-      "end": 1920,
-      "sources": [
-        {
-          "title": "Hassan Pirnia — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1588597"
-        }
-      ]
-    },
-    {
-      "person": "fathollah-khan-akbar",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1920,
-      "end": 1921,
-      "sources": [
-        {
-          "title": "Fathollah Khan Akbar — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1398054"
-        }
-      ]
-    },
-    {
-      "person": "zia-ol-din-tabatabaee",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1921,
-      "end": 1921,
-      "sources": [
-        {
-          "title": "Zia ol Din Tabatabaee — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q793889"
-        }
-      ]
-    },
-    {
-      "person": "ahmad-qavam",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1921,
-      "end": 1922,
-      "sources": [
-        {
-          "title": "Ahmad Qavam — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q400712"
-        }
-      ]
-    },
-    {
-      "person": "hassan-pirnia",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1922,
-      "end": 1922,
-      "sources": [
-        {
-          "title": "Hassan Pirnia — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1588597"
-        }
-      ]
-    },
-    {
-      "person": "ahmad-qavam",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1922,
-      "end": 1923,
-      "sources": [
-        {
-          "title": "Ahmad Qavam — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q400712"
-        }
-      ]
-    },
-    {
-      "person": "hassan-pirnia",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1923,
-      "end": 1923,
-      "sources": [
-        {
-          "title": "Hassan Pirnia — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1588597"
-        }
-      ]
-    },
-    {
-      "person": "mostowfi-ol-mamalek",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1923,
-      "end": 1923,
-      "sources": [
-        {
-          "title": "Mostowfi ol-Mamalek — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1399358"
-        }
-      ]
-    },
-    {
-      "person": "reza-shah",
-      "state": "qajar-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1923,
-      "end": 1925,
-      "sources": [
-        {
-          "title": "Reza Shah — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q182921"
         }
       ]
     },
@@ -1823,40 +584,6 @@
       ]
     },
     {
-      "person": "mostowfi-ol-mamalek",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1926,
-      "end": 1927,
-      "sources": [
-        {
-          "title": "Mostowfi ol-Mamalek — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1399358"
-        }
-      ]
-    },
-    {
-      "person": "mehdi-qoli-hedayat",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1927,
-      "end": 1933,
-      "sources": [
-        {
-          "title": "Mehdi Qoli Hedayat — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q957495"
-        }
-      ]
-    },
-    {
       "person": "mohammad-ali-foroughi",
       "state": "pahlavi-iran",
       "office": "head-of-government",
@@ -1870,40 +597,6 @@
         {
           "title": "Mohammad Ali Foroughi — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q181451"
-        }
-      ]
-    },
-    {
-      "person": "mahmoud-djam",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1935,
-      "end": 1939,
-      "sources": [
-        {
-          "title": "Mahmoud Djam — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q952389"
-        }
-      ]
-    },
-    {
-      "person": "ahmad-matin-daftari",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1939,
-      "end": 1940,
-      "sources": [
-        {
-          "title": "Ahmad Matin-Daftari — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q400691"
         }
       ]
     },
@@ -1925,465 +618,6 @@
       ]
     },
     {
-      "person": "ali-soheili",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1942,
-      "end": 1942,
-      "sources": [
-        {
-          "title": "Ali Soheili — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q959815"
-        }
-      ]
-    },
-    {
-      "person": "ahmad-qavam",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1942,
-      "end": 1943,
-      "sources": [
-        {
-          "title": "Ahmad Qavam — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q400712"
-        }
-      ]
-    },
-    {
-      "person": "ali-soheili",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1943,
-      "end": 1944,
-      "sources": [
-        {
-          "title": "Ali Soheili — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q959815"
-        }
-      ]
-    },
-    {
-      "person": "mohammad-saed",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1944,
-      "end": 1944,
-      "sources": [
-        {
-          "title": "Mohammad Sa'ed — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q726837"
-        }
-      ]
-    },
-    {
-      "person": "morteza-qoli-bayat",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1944,
-      "end": 1945,
-      "sources": [
-        {
-          "title": "Morteza-Qoli Bayat — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q983520"
-        }
-      ]
-    },
-    {
-      "person": "mohsen-sadr",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1945,
-      "end": 1945,
-      "sources": [
-        {
-          "title": "Mohsen Sadr — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q526520"
-        }
-      ]
-    },
-    {
-      "person": "ebrahim-hakimi",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1945,
-      "end": 1948,
-      "sources": [
-        {
-          "title": "Ebrahim Hakimi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q722455"
-        }
-      ]
-    },
-    {
-      "person": "ahmad-qavam",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1946,
-      "end": 1947,
-      "sources": [
-        {
-          "title": "Ahmad Qavam — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q400712"
-        }
-      ]
-    },
-    {
-      "person": "reza-hekmat",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1947,
-      "end": 1947,
-      "sources": [
-        {
-          "title": "Reza Hekmat — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3428941"
-        }
-      ]
-    },
-    {
-      "person": "abdolhossein-hazhir",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1948,
-      "end": 1948,
-      "sources": [
-        {
-          "title": "Abdolhossein Hazhir — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q308251"
-        }
-      ]
-    },
-    {
-      "person": "mohammad-saed",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1948,
-      "end": 1950,
-      "sources": [
-        {
-          "title": "Mohammad Sa'ed — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q726837"
-        }
-      ]
-    },
-    {
-      "person": "ali-razmara",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1950,
-      "end": 1951,
-      "sources": [
-        {
-          "title": "Ali Razmara — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1398936"
-        }
-      ]
-    },
-    {
-      "person": "hossein-ala",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1951,
-      "end": 1951,
-      "sources": [
-        {
-          "title": "Hossein Ala' — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q698713"
-        }
-      ]
-    },
-    {
-      "person": "mohammad-mosaddegh",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1951,
-      "end": 1952,
-      "sources": [
-        {
-          "title": "Mohammad Mosaddegh — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q123037"
-        }
-      ]
-    },
-    {
-      "person": "ahmad-qavam",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1952,
-      "end": 1952,
-      "sources": [
-        {
-          "title": "Ahmad Qavam — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q400712"
-        }
-      ]
-    },
-    {
-      "person": "mohammad-mosaddegh",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1952,
-      "end": 1953,
-      "sources": [
-        {
-          "title": "Mohammad Mosaddegh — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q123037"
-        }
-      ]
-    },
-    {
-      "person": "fazlollah-zahedi",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1953,
-      "end": 1955,
-      "sources": [
-        {
-          "title": "Fazlollah Zahedi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1396878"
-        }
-      ]
-    },
-    {
-      "person": "hossein-ala",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1955,
-      "end": 1957,
-      "sources": [
-        {
-          "title": "Hossein Ala' — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q698713"
-        }
-      ]
-    },
-    {
-      "person": "manouchehr-eghbal",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1957,
-      "end": 1960,
-      "sources": [
-        {
-          "title": "Manouchehr Eghbal — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q876117"
-        }
-      ]
-    },
-    {
-      "person": "jafar-sharif-emami",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1960,
-      "end": 1961,
-      "sources": [
-        {
-          "title": "Jafar Sharif-Emami — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q951044"
-        }
-      ]
-    },
-    {
-      "person": "ali-amini",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1961,
-      "end": 1962,
-      "sources": [
-        {
-          "title": "Ali Amini — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1774108"
-        }
-      ]
-    },
-    {
-      "person": "asadollah-alam",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1962,
-      "end": 1964,
-      "sources": [
-        {
-          "title": "Asadollah Alam — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q689394"
-        }
-      ]
-    },
-    {
-      "person": "hassan-ali-mansur",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1964,
-      "end": 1965,
-      "sources": [
-        {
-          "title": "Hassan Ali Mansur — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q142387"
-        }
-      ]
-    },
-    {
-      "person": "amir-abbas-hoveyda",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1965,
-      "end": 1977,
-      "sources": [
-        {
-          "title": "Amir-Abbas Hoveyda — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q471970"
-        }
-      ]
-    },
-    {
-      "person": "gholam-reza-azhari",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1978,
-      "end": 1978,
-      "sources": [
-        {
-          "title": "Gholam Reza Azhari — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q700668"
-        }
-      ]
-    },
-    {
-      "person": "jafar-sharif-emami",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1978,
-      "end": 1978,
-      "sources": [
-        {
-          "title": "Jafar Sharif-Emami — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q951044"
-        }
-      ]
-    },
-    {
-      "person": "mehdi-bazargan",
-      "state": "islamic-republic-of-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1979,
-      "end": 1979,
-      "sources": [
-        {
-          "title": "Mehdi Bazargan — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q382369"
-        }
-      ]
-    },
-    {
       "person": "mohammad-ali-rajai",
       "state": "islamic-republic-of-iran",
       "office": "head-of-government",
@@ -2401,142 +635,6 @@
       ]
     },
     {
-      "person": "mohammad-javad-bahonar",
-      "state": "islamic-republic-of-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1981,
-      "end": 1981,
-      "sources": [
-        {
-          "title": "Mohammad-Javad Bahonar — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q722559"
-        }
-      ]
-    },
-    {
-      "person": "mohammad-reza-mahdavi-kani",
-      "state": "islamic-republic-of-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1981,
-      "end": 1981,
-      "sources": [
-        {
-          "title": "Mohammad-Reza Mahdavi Kani — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q722774"
-        }
-      ]
-    },
-    {
-      "person": "mir-hossein-mousavi",
-      "state": "islamic-republic-of-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1981,
-      "end": 1989,
-      "sources": [
-        {
-          "title": "Mir-Hossein Mousavi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q217154"
-        }
-      ]
-    },
-    {
-      "person": "akbar-hashemi-rafsanjani",
-      "state": "islamic-republic-of-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1989,
-      "end": 1997,
-      "sources": [
-        {
-          "title": "Akbar Hashemi Rafsanjani — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q186111"
-        }
-      ]
-    },
-    {
-      "person": "mohammad-khatami",
-      "state": "islamic-republic-of-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1997,
-      "end": 2005,
-      "sources": [
-        {
-          "title": "Mohammad Khatami — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q180795"
-        }
-      ]
-    },
-    {
-      "person": "mahmoud-ahmadinejad",
-      "state": "islamic-republic-of-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 2005,
-      "end": 2013,
-      "sources": [
-        {
-          "title": "Mahmoud Ahmadinejad — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q34448"
-        }
-      ]
-    },
-    {
-      "person": "hassan-rouhani",
-      "state": "islamic-republic-of-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 2013,
-      "end": 2021,
-      "sources": [
-        {
-          "title": "Hassan Rouhani — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q348144"
-        }
-      ]
-    },
-    {
-      "person": "ebrahim-raisi",
-      "state": "islamic-republic-of-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 2021,
-      "end": 2024,
-      "sources": [
-        {
-          "title": "Ebrahim Raisi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5947347"
-        }
-      ]
-    },
-    {
       "person": "mohammad-mokhber",
       "state": "islamic-republic-of-iran",
       "office": "head-of-government",
@@ -2550,23 +648,6 @@
         {
           "title": "Mohammad Mokhber — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q5703610"
-        }
-      ]
-    },
-    {
-      "person": "masoud-pezeshkian",
-      "state": "islamic-republic-of-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 2024,
-      "end": null,
-      "sources": [
-        {
-          "title": "Masoud Pezeshkian — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5933752"
         }
       ]
     },
@@ -2620,6 +701,24 @@
           "url": "https://en.wikipedia.org/wiki/Ali_Khamenei"
         }
       ]
+    }
+  ],
+  "titles": [],
+  "exclude": [
+    {
+      "wikidata": "Q273866",
+      "office": "head-of-government",
+      "reason": "R8: Abolhassan Banisadr was President of Iran, recorded as office `other`; the Prime Minister was head of government until 1989"
+    },
+    {
+      "wikidata": "Q57336",
+      "office": "head-of-government",
+      "reason": "R8: Ali Khamenei was President of Iran 1981–1989, recorded as office `other`; the Prime Minister was head of government until 1989"
+    },
+    {
+      "wikidata": "Q3893833",
+      "office": "head-of-government",
+      "reason": "E1: Ata'ollah Mohajerani was never Prime Minister of Iran"
     }
   ],
   "flags": [

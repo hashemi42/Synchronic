@@ -346,1744 +346,6 @@
       ]
     }
   ],
-  "persons": [
-    {
-      "id": "louis-xvi",
-      "name": {
-        "en": "Louis XVI",
-        "fa": "لوئی شانزدهم"
-      },
-      "wikidata": "Q7732",
-      "sources": [
-        {
-          "title": "Louis XVI — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Louis_XVI"
-        }
-      ]
-    },
-    {
-      "id": "napoleon",
-      "name": {
-        "en": "Napoleon",
-        "fa": "ناپلئون بناپارت"
-      },
-      "wikidata": "Q517",
-      "sources": [
-        {
-          "title": "Napoleon — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Napoleon"
-        }
-      ]
-    },
-    {
-      "id": "louis-xviii",
-      "name": {
-        "en": "Louis XVIII",
-        "fa": "لوئی هجدهم"
-      },
-      "wikidata": "Q7750",
-      "sources": [
-        {
-          "title": "Louis XVIII — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Louis_XVIII"
-        }
-      ]
-    },
-    {
-      "id": "charles-x",
-      "name": {
-        "en": "Charles X",
-        "fa": "شارل دهم"
-      },
-      "wikidata": "Q7758",
-      "sources": [
-        {
-          "title": "Charles X of France — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Charles_X_of_France"
-        }
-      ]
-    },
-    {
-      "id": "louis-philippe-i",
-      "name": {
-        "en": "Louis Philippe I",
-        "fa": "لوئی فیلیپ یکم"
-      },
-      "wikidata": "Q7771",
-      "sources": [
-        {
-          "title": "Louis Philippe I — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Louis_Philippe_I"
-        }
-      ]
-    },
-    {
-      "id": "napoleon-iii",
-      "name": {
-        "en": "Napoleon III",
-        "fa": "ناپلئون سوم"
-      },
-      "wikidata": "Q7721",
-      "sources": [
-        {
-          "title": "Napoleon III — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Napoleon_III"
-        }
-      ]
-    },
-    {
-      "id": "adolphe-thiers",
-      "name": {
-        "en": "Adolphe Thiers",
-        "fa": "آدولف تیر"
-      },
-      "wikidata": "Q5738",
-      "sources": [
-        {
-          "title": "Adolphe Thiers — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Adolphe_Thiers"
-        }
-      ]
-    },
-    {
-      "id": "patrice-de-macmahon",
-      "name": {
-        "en": "Patrice de MacMahon",
-        "fa": "پاتریس دو مک‌ماهون"
-      },
-      "wikidata": "Q158838",
-      "sources": [
-        {
-          "title": "Patrice de MacMahon — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Patrice_de_MacMahon"
-        }
-      ]
-    },
-    {
-      "id": "jules-grevy",
-      "name": {
-        "en": "Jules Grévy",
-        "fa": "ژول گروی"
-      },
-      "wikidata": "Q296083",
-      "sources": [
-        {
-          "title": "Jules Grévy — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Jules_Grévy"
-        }
-      ]
-    },
-    {
-      "id": "sadi-carnot",
-      "name": {
-        "en": "Sadi Carnot",
-        "fa": "سعدی کارنو"
-      },
-      "wikidata": "Q215778",
-      "sources": [
-        {
-          "title": "Sadi Carnot (statesman) — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Sadi_Carnot_(statesman)"
-        }
-      ]
-    },
-    {
-      "id": "jean-casimir-perier",
-      "name": {
-        "en": "Jean Casimir-Perier",
-        "fa": "ژان کازیمیر-پریه"
-      },
-      "wikidata": "Q315656",
-      "sources": [
-        {
-          "title": "Jean Casimir-Perier — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Jean_Casimir-Perier"
-        }
-      ]
-    },
-    {
-      "id": "felix-faure",
-      "name": {
-        "en": "Félix Faure",
-        "fa": "فلیکس فوره"
-      },
-      "wikidata": "Q296076",
-      "sources": [
-        {
-          "title": "Félix Faure — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Félix_Faure"
-        }
-      ]
-    },
-    {
-      "id": "emile-loubet",
-      "name": {
-        "en": "Émile Loubet",
-        "fa": "امیل لوبه"
-      },
-      "wikidata": "Q169502",
-      "sources": [
-        {
-          "title": "Émile Loubet — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Émile_Loubet"
-        }
-      ]
-    },
-    {
-      "id": "armand-fallieres",
-      "name": {
-        "en": "Armand Fallières",
-        "fa": "آرمان فالیر"
-      },
-      "wikidata": "Q296673",
-      "sources": [
-        {
-          "title": "Armand Fallières — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Armand_Fallières"
-        }
-      ]
-    },
-    {
-      "id": "raymond-poincare",
-      "name": {
-        "en": "Raymond Poincaré",
-        "fa": "ریمون پوانکاره"
-      },
-      "wikidata": "Q191974",
-      "sources": [
-        {
-          "title": "Raymond Poincaré — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Raymond_Poincaré"
-        }
-      ]
-    },
-    {
-      "id": "paul-deschanel",
-      "name": {
-        "en": "Paul Deschanel",
-        "fa": "پل دشانل"
-      },
-      "wikidata": "Q309995",
-      "sources": [
-        {
-          "title": "Paul Deschanel — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Paul_Deschanel"
-        }
-      ]
-    },
-    {
-      "id": "alexandre-millerand",
-      "name": {
-        "en": "Alexandre Millerand",
-        "fa": "آلکساندر میلران"
-      },
-      "wikidata": "Q274540",
-      "sources": [
-        {
-          "title": "Alexandre Millerand — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Alexandre_Millerand"
-        }
-      ]
-    },
-    {
-      "id": "gaston-doumergue",
-      "name": {
-        "en": "Gaston Doumergue",
-        "fa": "گاستون دومرگ"
-      },
-      "wikidata": "Q296064",
-      "sources": [
-        {
-          "title": "Gaston Doumergue — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Gaston_Doumergue"
-        }
-      ]
-    },
-    {
-      "id": "paul-doumer",
-      "name": {
-        "en": "Paul Doumer",
-        "fa": "پل دومر"
-      },
-      "wikidata": "Q12680",
-      "sources": [
-        {
-          "title": "Paul Doumer — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Paul_Doumer"
-        }
-      ]
-    },
-    {
-      "id": "albert-lebrun",
-      "name": {
-        "en": "Albert Lebrun",
-        "fa": "آلبر لوبرن"
-      },
-      "wikidata": "Q158749",
-      "sources": [
-        {
-          "title": "Albert Lebrun — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Albert_Lebrun"
-        }
-      ]
-    },
-    {
-      "id": "philippe-petain",
-      "name": {
-        "en": "Philippe Pétain",
-        "fa": "فیلیپ پتن"
-      },
-      "wikidata": "Q5721",
-      "sources": [
-        {
-          "title": "Philippe Pétain — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Philippe_Pétain"
-        }
-      ]
-    },
-    {
-      "id": "charles-de-gaulle",
-      "name": {
-        "en": "Charles de Gaulle",
-        "fa": "شارل دو گل"
-      },
-      "wikidata": "Q2042",
-      "sources": [
-        {
-          "title": "Charles de Gaulle — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Charles_de_Gaulle"
-        }
-      ]
-    },
-    {
-      "id": "vincent-auriol",
-      "name": {
-        "en": "Vincent Auriol",
-        "fa": "ونسان اوریول"
-      },
-      "wikidata": "Q158772",
-      "sources": [
-        {
-          "title": "Vincent Auriol — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Vincent_Auriol"
-        }
-      ]
-    },
-    {
-      "id": "rene-coty",
-      "name": {
-        "en": "René Coty",
-        "fa": "رنه کوتی"
-      },
-      "wikidata": "Q158768",
-      "sources": [
-        {
-          "title": "René Coty — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/René_Coty"
-        }
-      ]
-    },
-    {
-      "id": "georges-pompidou",
-      "name": {
-        "en": "Georges Pompidou",
-        "fa": "ژرژ پمپیدو"
-      },
-      "wikidata": "Q2185",
-      "sources": [
-        {
-          "title": "Georges Pompidou — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Georges_Pompidou"
-        }
-      ]
-    },
-    {
-      "id": "valery-giscard-d-estaing",
-      "name": {
-        "en": "Valéry Giscard d'Estaing",
-        "fa": "والری ژیسکار دستن"
-      },
-      "wikidata": "Q2124",
-      "sources": [
-        {
-          "title": "Valéry Giscard d'Estaing — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Valéry_Giscard_d'Estaing"
-        }
-      ]
-    },
-    {
-      "id": "francois-mitterrand",
-      "name": {
-        "en": "François Mitterrand",
-        "fa": "فرانسوا میتران"
-      },
-      "wikidata": "Q2038",
-      "sources": [
-        {
-          "title": "François Mitterrand — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/François_Mitterrand"
-        }
-      ]
-    },
-    {
-      "id": "jacques-chirac",
-      "name": {
-        "en": "Jacques Chirac",
-        "fa": "ژاک شیراک"
-      },
-      "wikidata": "Q2105",
-      "sources": [
-        {
-          "title": "Jacques Chirac — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Jacques_Chirac"
-        }
-      ]
-    },
-    {
-      "id": "nicolas-sarkozy",
-      "name": {
-        "en": "Nicolas Sarkozy",
-        "fa": "نیکولا سارکوزی"
-      },
-      "wikidata": "Q329",
-      "sources": [
-        {
-          "title": "Nicolas Sarkozy — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nicolas_Sarkozy"
-        }
-      ]
-    },
-    {
-      "id": "francois-hollande",
-      "name": {
-        "en": "François Hollande",
-        "fa": "فرانسوا اولاند"
-      },
-      "wikidata": "Q157",
-      "sources": [
-        {
-          "title": "François Hollande — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/François_Hollande"
-        }
-      ]
-    },
-    {
-      "id": "emmanuel-macron",
-      "name": {
-        "en": "Emmanuel Macron",
-        "fa": "امانوئل مکرون"
-      },
-      "wikidata": "Q3052772",
-      "sources": [
-        {
-          "title": "Emmanuel Macron — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Emmanuel_Macron"
-        }
-      ]
-    },
-    {
-      "id": "louis-mathieu-mole",
-      "name": {
-        "en": "Louis-Mathieu Molé",
-        "fa": "لویی متیو مولیه"
-      },
-      "wikidata": "Q1371497",
-      "sources": [
-        {
-          "title": "Louis-Mathieu Molé — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1371497"
-        }
-      ]
-    },
-    {
-      "id": "louis-eugene-cavaignac",
-      "name": {
-        "en": "Louis-Eugène Cavaignac",
-        "fa": "لویی-اوژن کاوینیاک"
-      },
-      "wikidata": "Q379702",
-      "sources": [
-        {
-          "title": "Louis-Eugène Cavaignac — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q379702"
-        }
-      ]
-    },
-    {
-      "id": "jules-simon",
-      "name": {
-        "en": "Jules Simon",
-        "fa": "ژول سیمون"
-      },
-      "wikidata": "Q548532",
-      "sources": [
-        {
-          "title": "Jules Simon — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q548532"
-        }
-      ]
-    },
-    {
-      "id": "william-waddington",
-      "name": {
-        "en": "William Waddington",
-        "fa": "ویلیام وادینگتون"
-      },
-      "wikidata": "Q548696",
-      "sources": [
-        {
-          "title": "William Waddington — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q548696"
-        }
-      ]
-    },
-    {
-      "id": "jules-ferry",
-      "name": {
-        "en": "Jules Ferry",
-        "fa": "ژول فری"
-      },
-      "wikidata": "Q959708",
-      "sources": [
-        {
-          "title": "Jules Ferry — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q959708"
-        }
-      ]
-    },
-    {
-      "id": "leon-gambetta",
-      "name": {
-        "en": "Léon Gambetta",
-        "fa": "لئون گامبتا"
-      },
-      "wikidata": "Q295090",
-      "sources": [
-        {
-          "title": "Léon Gambetta — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q295090"
-        }
-      ]
-    },
-    {
-      "id": "leon-bourgeois",
-      "name": {
-        "en": "Léon Bourgeois",
-        "fa": "لئون بورژوآ"
-      },
-      "wikidata": "Q217706",
-      "sources": [
-        {
-          "title": "Léon Bourgeois — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q217706"
-        }
-      ]
-    },
-    {
-      "id": "jules-meline",
-      "name": {
-        "en": "Jules Méline",
-        "fa": "ژول ملین"
-      },
-      "wikidata": "Q459914",
-      "sources": [
-        {
-          "title": "Jules Méline — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q459914"
-        }
-      ]
-    },
-    {
-      "id": "georges-clemenceau",
-      "name": {
-        "en": "Georges Clemenceau",
-        "fa": "ژرژ کلمانسو"
-      },
-      "wikidata": "Q171730",
-      "sources": [
-        {
-          "title": "Georges Clemenceau — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q171730"
-        }
-      ]
-    },
-    {
-      "id": "aristide-briand",
-      "name": {
-        "en": "Aristide Briand",
-        "fa": "آریستی بریا"
-      },
-      "wikidata": "Q179888",
-      "sources": [
-        {
-          "title": "Aristide Briand — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q179888"
-        }
-      ]
-    },
-    {
-      "id": "louis-barthou",
-      "name": {
-        "en": "Louis Barthou",
-        "fa": "لوئی بارتو"
-      },
-      "wikidata": "Q271887",
-      "sources": [
-        {
-          "title": "Louis Barthou — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q271887"
-        }
-      ]
-    },
-    {
-      "id": "rene-viviani",
-      "name": {
-        "en": "René Viviani",
-        "fa": "رنه ویویانی"
-      },
-      "wikidata": "Q431074",
-      "sources": [
-        {
-          "title": "René Viviani — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q431074"
-        }
-      ]
-    },
-    {
-      "id": "paul-painleve",
-      "name": {
-        "en": "Paul Painlevé",
-        "fa": "پل پینلو"
-      },
-      "wikidata": "Q315434",
-      "sources": [
-        {
-          "title": "Paul Painlevé — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315434"
-        }
-      ]
-    },
-    {
-      "id": "edouard-herriot",
-      "name": {
-        "en": "Édouard Herriot",
-        "fa": "ادوار اریو"
-      },
-      "wikidata": "Q274344",
-      "sources": [
-        {
-          "title": "Édouard Herriot — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q274344"
-        }
-      ]
-    },
-    {
-      "id": "frederic-francois-marsal",
-      "name": {
-        "en": "Frédéric François-Marsal",
-        "fa": "فردریک فرانسوا-مارسال"
-      },
-      "wikidata": "Q459212",
-      "sources": [
-        {
-          "title": "Frédéric François-Marsal — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q459212"
-        }
-      ]
-    },
-    {
-      "id": "andre-tardieu",
-      "name": {
-        "en": "André Tardieu",
-        "fa": "آندره تاردیو"
-      },
-      "wikidata": "Q346648",
-      "sources": [
-        {
-          "title": "André Tardieu — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q346648"
-        }
-      ]
-    },
-    {
-      "id": "camille-chautemps",
-      "name": {
-        "en": "Camille Chautemps",
-        "fa": "کامیل چاوتمپس"
-      },
-      "wikidata": "Q263884",
-      "sources": [
-        {
-          "title": "Camille Chautemps — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q263884"
-        }
-      ]
-    },
-    {
-      "id": "theodore-steeg",
-      "name": {
-        "en": "Théodore Steeg",
-        "fa": "تئودور استیگ"
-      },
-      "wikidata": "Q717905",
-      "sources": [
-        {
-          "title": "Théodore Steeg — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q717905"
-        }
-      ]
-    },
-    {
-      "id": "pierre-laval",
-      "name": {
-        "en": "Pierre Laval",
-        "fa": "پیر لاوال"
-      },
-      "wikidata": "Q151983",
-      "sources": [
-        {
-          "title": "Pierre Laval — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q151983"
-        }
-      ]
-    },
-    {
-      "id": "joseph-paul-boncour",
-      "name": {
-        "en": "Joseph Paul-Boncour",
-        "fa": "ژوزف پل-بونکور"
-      },
-      "wikidata": "Q285865",
-      "sources": [
-        {
-          "title": "Joseph Paul-Boncour — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q285865"
-        }
-      ]
-    },
-    {
-      "id": "albert-sarraut",
-      "name": {
-        "en": "Albert Sarraut",
-        "fa": "آلبرت ساروت"
-      },
-      "wikidata": "Q460318",
-      "sources": [
-        {
-          "title": "Albert Sarraut — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q460318"
-        }
-      ]
-    },
-    {
-      "id": "edouard-daladier",
-      "name": {
-        "en": "Édouard Daladier",
-        "fa": "ادوار دالادیه"
-      },
-      "wikidata": "Q213526",
-      "sources": [
-        {
-          "title": "Édouard Daladier — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q213526"
-        }
-      ]
-    },
-    {
-      "id": "pierre-etienne-flandin",
-      "name": {
-        "en": "Pierre-Étienne Flandin",
-        "fa": "پین-اتین فلاندین"
-      },
-      "wikidata": "Q471296",
-      "sources": [
-        {
-          "title": "Pierre-Étienne Flandin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q471296"
-        }
-      ]
-    },
-    {
-      "id": "fernand-bouisson",
-      "name": {
-        "en": "Fernand Bouisson",
-        "fa": "فرناند بوویسون"
-      },
-      "wikidata": "Q459510",
-      "sources": [
-        {
-          "title": "Fernand Bouisson — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q459510"
-        }
-      ]
-    },
-    {
-      "id": "leon-blum",
-      "name": {
-        "en": "Léon Blum",
-        "fa": "لئون بلوم"
-      },
-      "wikidata": "Q18434",
-      "sources": [
-        {
-          "title": "Léon Blum — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q18434"
-        }
-      ]
-    },
-    {
-      "id": "paul-ramadier",
-      "name": {
-        "en": "Paul Ramadier",
-        "fa": "پل رامادیر"
-      },
-      "wikidata": "Q328235",
-      "sources": [
-        {
-          "title": "Paul Ramadier — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q328235"
-        }
-      ]
-    },
-    {
-      "id": "robert-schuman",
-      "name": {
-        "en": "Robert Schuman",
-        "fa": "رابرت شومان"
-      },
-      "wikidata": "Q15981",
-      "sources": [
-        {
-          "title": "Robert Schuman — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q15981"
-        }
-      ]
-    },
-    {
-      "id": "andre-marie",
-      "name": {
-        "en": "André Marie",
-        "fa": "آندره ماری"
-      },
-      "wikidata": "Q440565",
-      "sources": [
-        {
-          "title": "André Marie — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q440565"
-        }
-      ]
-    },
-    {
-      "id": "henri-queuille",
-      "name": {
-        "en": "Henri Queuille",
-        "fa": "آنری کوئیل"
-      },
-      "wikidata": "Q455655",
-      "sources": [
-        {
-          "title": "Henri Queuille — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q455655"
-        }
-      ]
-    },
-    {
-      "id": "georges-bidault",
-      "name": {
-        "en": "Georges Bidault",
-        "fa": "ژرژ بیدو"
-      },
-      "wikidata": "Q312026",
-      "sources": [
-        {
-          "title": "Georges Bidault — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q312026"
-        }
-      ]
-    },
-    {
-      "id": "rene-pleven",
-      "name": {
-        "en": "René Pleven",
-        "fa": "رنه پلون"
-      },
-      "wikidata": "Q314545",
-      "sources": [
-        {
-          "title": "René Pleven — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q314545"
-        }
-      ]
-    },
-    {
-      "id": "edgar-faure",
-      "name": {
-        "en": "Edgar Faure",
-        "fa": "ادگار فور"
-      },
-      "wikidata": "Q327013",
-      "sources": [
-        {
-          "title": "Edgar Faure — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q327013"
-        }
-      ]
-    },
-    {
-      "id": "antoine-pinay",
-      "name": {
-        "en": "Antoine Pinay",
-        "fa": "آنتوان پینای"
-      },
-      "wikidata": "Q356724",
-      "sources": [
-        {
-          "title": "Antoine Pinay — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q356724"
-        }
-      ]
-    },
-    {
-      "id": "joseph-laniel",
-      "name": {
-        "en": "Joseph Laniel",
-        "fa": "ژوزف لانیل"
-      },
-      "wikidata": "Q328240",
-      "sources": [
-        {
-          "title": "Joseph Laniel — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q328240"
-        }
-      ]
-    },
-    {
-      "id": "rene-mayer",
-      "name": {
-        "en": "René Mayer",
-        "fa": "رنه مایر"
-      },
-      "wikidata": "Q382070",
-      "sources": [
-        {
-          "title": "René Mayer — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q382070"
-        }
-      ]
-    },
-    {
-      "id": "pierre-mendes-france",
-      "name": {
-        "en": "Pierre Mendès France",
-        "fa": "پیر مندس فرانس"
-      },
-      "wikidata": "Q314265",
-      "sources": [
-        {
-          "title": "Pierre Mendès France — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q314265"
-        }
-      ]
-    },
-    {
-      "id": "guy-mollet",
-      "name": {
-        "en": "Guy Mollet",
-        "fa": "گی موله"
-      },
-      "wikidata": "Q314006",
-      "sources": [
-        {
-          "title": "Guy Mollet — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q314006"
-        }
-      ]
-    },
-    {
-      "id": "felix-gaillard",
-      "name": {
-        "en": "Félix Gaillard",
-        "fa": "فلیکس گایلار"
-      },
-      "wikidata": "Q365413",
-      "sources": [
-        {
-          "title": "Félix Gaillard — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q365413"
-        }
-      ]
-    },
-    {
-      "id": "maurice-bourges-maunoury",
-      "name": {
-        "en": "Maurice Bourgès-Maunoury",
-        "fa": "موریس بورژس-مونوری"
-      },
-      "wikidata": "Q380992",
-      "sources": [
-        {
-          "title": "Maurice Bourgès-Maunoury — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q380992"
-        }
-      ]
-    },
-    {
-      "id": "pierre-pflimlin",
-      "name": {
-        "en": "Pierre Pflimlin",
-        "fa": "پیر پفلیملین"
-      },
-      "wikidata": "Q328504",
-      "sources": [
-        {
-          "title": "Pierre Pflimlin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q328504"
-        }
-      ]
-    },
-    {
-      "id": "michel-debre",
-      "name": {
-        "en": "Michel Debré",
-        "fa": "میشل دبره"
-      },
-      "wikidata": "Q296386",
-      "sources": [
-        {
-          "title": "Michel Debré — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q296386"
-        }
-      ]
-    },
-    {
-      "id": "maurice-couve-de-murville",
-      "name": {
-        "en": "Maurice Couve de Murville",
-        "fa": "موریس کوو دو مورویل"
-      },
-      "wikidata": "Q312034",
-      "sources": [
-        {
-          "title": "Maurice Couve de Murville — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q312034"
-        }
-      ]
-    },
-    {
-      "id": "jacques-chaban-delmas",
-      "name": {
-        "en": "Jacques Chaban-Delmas",
-        "fa": "ژاک شابان-دلما"
-      },
-      "wikidata": "Q12940",
-      "sources": [
-        {
-          "title": "Jacques Chaban-Delmas — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q12940"
-        }
-      ]
-    },
-    {
-      "id": "pierre-messmer",
-      "name": {
-        "en": "Pierre Messmer",
-        "fa": "پیر مسمر"
-      },
-      "wikidata": "Q271822",
-      "sources": [
-        {
-          "title": "Pierre Messmer — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q271822"
-        }
-      ]
-    },
-    {
-      "id": "raymond-barre",
-      "name": {
-        "en": "Raymond Barre",
-        "fa": "ریموند باره"
-      },
-      "wikidata": "Q12957",
-      "sources": [
-        {
-          "title": "Raymond Barre — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q12957"
-        }
-      ]
-    },
-    {
-      "id": "pierre-mauroy",
-      "name": {
-        "en": "Pierre Mauroy",
-        "fa": "پیر مائوروی"
-      },
-      "wikidata": "Q156511",
-      "sources": [
-        {
-          "title": "Pierre Mauroy — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q156511"
-        }
-      ]
-    },
-    {
-      "id": "laurent-fabius",
-      "name": {
-        "en": "Laurent Fabius",
-        "fa": "لوران فابیوس"
-      },
-      "wikidata": "Q217070",
-      "sources": [
-        {
-          "title": "Laurent Fabius — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q217070"
-        }
-      ]
-    },
-    {
-      "id": "michel-rocard",
-      "name": {
-        "en": "Michel Rocard",
-        "fa": "میشل روکار"
-      },
-      "wikidata": "Q12946",
-      "sources": [
-        {
-          "title": "Michel Rocard — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q12946"
-        }
-      ]
-    },
-    {
-      "id": "edith-cresson",
-      "name": {
-        "en": "Édith Cresson",
-        "fa": "ادیت کرسون"
-      },
-      "wikidata": "Q230861",
-      "sources": [
-        {
-          "title": "Édith Cresson — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q230861"
-        }
-      ]
-    },
-    {
-      "id": "pierre-beregovoy",
-      "name": {
-        "en": "Pierre Bérégovoy",
-        "fa": "پیر برگووی"
-      },
-      "wikidata": "Q298355",
-      "sources": [
-        {
-          "title": "Pierre Bérégovoy — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q298355"
-        }
-      ]
-    },
-    {
-      "id": "alain-juppe",
-      "name": {
-        "en": "Alain Juppé",
-        "fa": "آلن ژوپه"
-      },
-      "wikidata": "Q215569",
-      "sources": [
-        {
-          "title": "Alain Juppé — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q215569"
-        }
-      ]
-    },
-    {
-      "id": "lionel-jospin",
-      "name": {
-        "en": "Lionel Jospin",
-        "fa": "لیونل ژوسپن"
-      },
-      "wikidata": "Q187099",
-      "sources": [
-        {
-          "title": "Lionel Jospin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q187099"
-        }
-      ]
-    },
-    {
-      "id": "jean-pierre-raffarin",
-      "name": {
-        "en": "Jean-Pierre Raffarin",
-        "fa": "ژان پیر رافارن"
-      },
-      "wikidata": "Q63263",
-      "sources": [
-        {
-          "title": "Jean-Pierre Raffarin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q63263"
-        }
-      ]
-    },
-    {
-      "id": "dominique-de-villepin",
-      "name": {
-        "en": "Dominique de Villepin",
-        "fa": "دومینیک دو ویلپن"
-      },
-      "wikidata": "Q131660",
-      "sources": [
-        {
-          "title": "Dominique de Villepin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q131660"
-        }
-      ]
-    },
-    {
-      "id": "francois-fillon",
-      "name": {
-        "en": "François Fillon",
-        "fa": "فرانسوا فیو"
-      },
-      "wikidata": "Q101410",
-      "sources": [
-        {
-          "title": "François Fillon — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q101410"
-        }
-      ]
-    },
-    {
-      "id": "jean-marc-ayrault",
-      "name": {
-        "en": "Jean-Marc Ayrault",
-        "fa": "ژان مارک ارو"
-      },
-      "wikidata": "Q7711",
-      "sources": [
-        {
-          "title": "Jean-Marc Ayrault — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7711"
-        }
-      ]
-    },
-    {
-      "id": "manuel-valls",
-      "name": {
-        "en": "Manuel Valls",
-        "fa": "مانوئل والس"
-      },
-      "wikidata": "Q10287",
-      "sources": [
-        {
-          "title": "Manuel Valls — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q10287"
-        }
-      ]
-    },
-    {
-      "id": "bernard-cazeneuve",
-      "name": {
-        "en": "Bernard Cazeneuve",
-        "fa": "برنار کازنو"
-      },
-      "wikidata": "Q560890",
-      "sources": [
-        {
-          "title": "Bernard Cazeneuve — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q560890"
-        }
-      ]
-    },
-    {
-      "id": "edouard-philippe",
-      "name": {
-        "en": "Édouard Philippe",
-        "fa": "ادوار فیلیپ"
-      },
-      "wikidata": "Q3579995",
-      "sources": [
-        {
-          "title": "Édouard Philippe — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3579995"
-        }
-      ]
-    },
-    {
-      "id": "jean-castex",
-      "name": {
-        "en": "Jean Castex",
-        "fa": "ژان کاستکس"
-      },
-      "wikidata": "Q3171170",
-      "sources": [
-        {
-          "title": "Jean Castex — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3171170"
-        }
-      ]
-    },
-    {
-      "id": "elisabeth-borne",
-      "name": {
-        "en": "Élisabeth Borne",
-        "fa": "الیزابت بورن"
-      },
-      "wikidata": "Q20020731",
-      "sources": [
-        {
-          "title": "Élisabeth Borne — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q20020731"
-        }
-      ]
-    },
-    {
-      "id": "michel-barnier",
-      "name": {
-        "en": "Michel Barnier",
-        "fa": "میشل بارنیه"
-      },
-      "wikidata": "Q438465",
-      "sources": [
-        {
-          "title": "Michel Barnier — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q438465"
-        }
-      ]
-    },
-    {
-      "id": "gabriel-attal",
-      "name": {
-        "en": "Gabriel Attal",
-        "fa": "گابریل اتل"
-      },
-      "wikidata": "Q30339350",
-      "sources": [
-        {
-          "title": "Gabriel Attal — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q30339350"
-        }
-      ]
-    },
-    {
-      "id": "francois-bayrou",
-      "name": {
-        "en": "François Bayrou",
-        "fa": "فرانسوا بایرو"
-      },
-      "wikidata": "Q12963",
-      "sources": [
-        {
-          "title": "François Bayrou — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q12963"
-        }
-      ]
-    },
-    {
-      "id": "sebastien-lecornu",
-      "name": {
-        "en": "Sébastien Lecornu",
-        "fa": "سباستین لکورنو"
-      },
-      "wikidata": "Q20089181",
-      "sources": [
-        {
-          "title": "Sébastien Lecornu — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q20089181"
-        }
-      ]
-    },
-    {
-      "id": "jacques-laffitte",
-      "name": {
-        "en": "Jacques Laffitte",
-        "fa": "ژاک لافیت"
-      },
-      "wikidata": "Q665957",
-      "sources": [
-        {
-          "title": "Jacques Laffitte — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q665957"
-        }
-      ]
-    },
-    {
-      "id": "casimir-pierre-perier",
-      "name": {
-        "en": "Casimir Pierre Périer",
-        "fa": "کازیمیر پریه"
-      },
-      "wikidata": "Q284683",
-      "sources": [
-        {
-          "title": "Casimir Pierre Périer — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q284683"
-        }
-      ]
-    },
-    {
-      "id": "jules-armand-dufaure",
-      "name": {
-        "en": "Jules Armand Dufaure",
-        "fa": "ژول دوفور"
-      },
-      "wikidata": "Q182701",
-      "sources": [
-        {
-          "title": "Jules Armand Dufaure — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q182701"
-        }
-      ]
-    },
-    {
-      "id": "gaetan-de-rochebouet",
-      "name": {
-        "en": "Gaëtan de Rochebouët",
-        "fa": "گائتان دو روشبوئه"
-      },
-      "wikidata": "Q524668",
-      "sources": [
-        {
-          "title": "Gaëtan de Rochebouët — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q524668"
-        }
-      ]
-    },
-    {
-      "id": "charles-de-freycinet",
-      "name": {
-        "en": "Charles de Freycinet",
-        "fa": "شارل دو فرسینه"
-      },
-      "wikidata": "Q317957",
-      "sources": [
-        {
-          "title": "Charles de Freycinet — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q317957"
-        }
-      ]
-    },
-    {
-      "id": "charles-duclerc",
-      "name": {
-        "en": "Charles Duclerc",
-        "fa": "شارل دوکلرک"
-      },
-      "wikidata": "Q551572",
-      "sources": [
-        {
-          "title": "Charles Duclerc — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q551572"
-        }
-      ]
-    },
-    {
-      "id": "henri-brisson",
-      "name": {
-        "en": "Henri Brisson",
-        "fa": "آنری بریسون"
-      },
-      "wikidata": "Q669725",
-      "sources": [
-        {
-          "title": "Henri Brisson — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q669725"
-        }
-      ]
-    },
-    {
-      "id": "rene-goblet",
-      "name": {
-        "en": "René Goblet",
-        "fa": "رنه گوبله"
-      },
-      "wikidata": "Q559645",
-      "sources": [
-        {
-          "title": "René Goblet — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q559645"
-        }
-      ]
-    },
-    {
-      "id": "pierre-tirard",
-      "name": {
-        "en": "Pierre Tirard",
-        "fa": "پیر تیرار"
-      },
-      "wikidata": "Q708359",
-      "sources": [
-        {
-          "title": "Pierre Tirard — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q708359"
-        }
-      ]
-    },
-    {
-      "id": "maurice-rouvier",
-      "name": {
-        "en": "Maurice Rouvier",
-        "fa": "موریس روویه"
-      },
-      "wikidata": "Q471293",
-      "sources": [
-        {
-          "title": "Maurice Rouvier — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q471293"
-        }
-      ]
-    },
-    {
-      "id": "charles-floquet",
-      "name": {
-        "en": "Charles Floquet",
-        "fa": "شارل فلوکه"
-      },
-      "wikidata": "Q471311",
-      "sources": [
-        {
-          "title": "Charles Floquet — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q471311"
-        }
-      ]
-    },
-    {
-      "id": "alexandre-ribot",
-      "name": {
-        "en": "Alexandre Ribot",
-        "fa": "الکساندر ریبو"
-      },
-      "wikidata": "Q358387",
-      "sources": [
-        {
-          "title": "Alexandre Ribot — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q358387"
-        }
-      ]
-    },
-    {
-      "id": "charles-dupuy",
-      "name": {
-        "en": "Charles Dupuy",
-        "fa": "شارل دوپوی"
-      },
-      "wikidata": "Q356032",
-      "sources": [
-        {
-          "title": "Charles Dupuy — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q356032"
-        }
-      ]
-    },
-    {
-      "id": "pierre-waldeck-rousseau",
-      "name": {
-        "en": "Pierre Waldeck-Rousseau",
-        "fa": "پیر والدک-روسو"
-      },
-      "wikidata": "Q358452",
-      "sources": [
-        {
-          "title": "Pierre Waldeck-Rousseau — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q358452"
-        }
-      ]
-    },
-    {
-      "id": "ferdinand-sarrien",
-      "name": {
-        "en": "Ferdinand Sarrien",
-        "fa": "فردینان سارین"
-      },
-      "wikidata": "Q718698",
-      "sources": [
-        {
-          "title": "Ferdinand Sarrien — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q718698"
-        }
-      ]
-    },
-    {
-      "id": "joseph-caillaux",
-      "name": {
-        "en": "Joseph Caillaux",
-        "fa": "ژوزف کایو"
-      },
-      "wikidata": "Q450463",
-      "sources": [
-        {
-          "title": "Joseph Caillaux — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q450463"
-        }
-      ]
-    },
-    {
-      "id": "ernest-monis",
-      "name": {
-        "en": "Ernest Monis",
-        "fa": "ارنست مونیس"
-      },
-      "wikidata": "Q561583",
-      "sources": [
-        {
-          "title": "Ernest Monis — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q561583"
-        }
-      ]
-    },
-    {
-      "id": "georges-leygues",
-      "name": {
-        "en": "Georges Leygues",
-        "fa": "ژرژ لگ"
-      },
-      "wikidata": "Q728806",
-      "sources": [
-        {
-          "title": "Georges Leygues — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q728806"
-        }
-      ]
-    },
-    {
-      "id": "edouard-balladur",
-      "name": {
-        "en": "Édouard Balladur",
-        "fa": "ادوار بالادور"
-      },
-      "wikidata": "Q12959",
-      "sources": [
-        {
-          "title": "Édouard Balladur — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q12959"
-        }
-      ]
-    },
-    {
-      "id": "emile-combes",
-      "name": {
-        "en": "Émile Combes",
-        "fa": "امیل کومب"
-      },
-      "wikidata": "Q275020",
-      "sources": [
-        {
-          "title": "Émile Combes — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q275020"
-        }
-      ]
-    },
-    {
-      "id": "jean-de-dieu-soult",
-      "name": {
-        "en": "Jean-de-Dieu Soult",
-        "fa": "ژان دو دیو سولت"
-      },
-      "wikidata": "Q296023",
-      "sources": [
-        {
-          "title": "Jean-de-Dieu Soult — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q296023"
-        }
-      ]
-    },
-    {
-      "id": "edouard-mortier",
-      "name": {
-        "en": "Édouard Mortier",
-        "fa": "ادوارد مورتیه"
-      },
-      "wikidata": "Q273883",
-      "sources": [
-        {
-          "title": "Édouard Mortier — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q273883"
-        }
-      ]
-    },
-    {
-      "id": "victor-de-broglie",
-      "name": {
-        "en": "Victor de Broglie",
-        "fa": "ویکتور دو بروی"
-      },
-      "wikidata": "Q338386",
-      "sources": [
-        {
-          "title": "Victor de Broglie — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q338386"
-        }
-      ]
-    },
-    {
-      "id": "francois-guizot",
-      "name": {
-        "en": "François Guizot",
-        "fa": "فرانسوا گیزو"
-      },
-      "wikidata": "Q157324",
-      "sources": [
-        {
-          "title": "François Guizot — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q157324"
-        }
-      ]
-    },
-    {
-      "id": "emile-ollivier",
-      "name": {
-        "en": "Émile Ollivier",
-        "fa": "امیل اولیویه"
-      },
-      "wikidata": "Q286293",
-      "sources": [
-        {
-          "title": "Émile Ollivier — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q286293"
-        }
-      ]
-    },
-    {
-      "id": "albert-de-broglie",
-      "name": {
-        "en": "Albert de Broglie",
-        "fa": "آلبر دو بروی"
-      },
-      "wikidata": "Q434932",
-      "sources": [
-        {
-          "title": "Albert de Broglie — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q434932"
-        }
-      ]
-    },
-    {
-      "id": "ernest-courtot-de-cissey",
-      "name": {
-        "en": "Ernest Courtot de Cissey",
-        "fa": "ارنست کورتو دو سیسه"
-      },
-      "wikidata": "Q471302",
-      "sources": [
-        {
-          "title": "Ernest Courtot de Cissey — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q471302"
-        }
-      ]
-    },
-    {
-      "id": "louis-buffet",
-      "name": {
-        "en": "Louis Buffet",
-        "fa": "لویی بوفه"
-      },
-      "wikidata": "Q548687",
-      "sources": [
-        {
-          "title": "Louis Buffet — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q548687"
-        }
-      ]
-    }
-  ],
   "lane": [
     {
       "country": "france",
@@ -2259,6 +521,554 @@
       ]
     }
   ],
+  "offices": [
+    {
+      "office": "Q191954",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      }
+    },
+    {
+      "office": "Q3439798",
+      "title": {
+        "en": "King",
+        "fa": "پادشاه"
+      }
+    },
+    {
+      "office": "Q3439814",
+      "title": {
+        "en": "King",
+        "fa": "پادشاه"
+      }
+    },
+    {
+      "office": "Q5373953",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      }
+    }
+  ],
+  "persons": [
+    {
+      "id": "louis-xvi",
+      "wikidata": "Q7732"
+    },
+    {
+      "id": "napoleon",
+      "wikidata": "Q517"
+    },
+    {
+      "id": "louis-xviii",
+      "wikidata": "Q7750"
+    },
+    {
+      "id": "charles-x",
+      "wikidata": "Q7758",
+      "name": {
+        "en": "Charles X"
+      },
+      "note": "en: the Wikipedia title is \"Charles X of France\""
+    },
+    {
+      "id": "louis-philippe-i",
+      "wikidata": "Q7771"
+    },
+    {
+      "id": "napoleon-iii",
+      "wikidata": "Q7721"
+    },
+    {
+      "id": "adolphe-thiers",
+      "wikidata": "Q5738"
+    },
+    {
+      "id": "patrice-de-macmahon",
+      "wikidata": "Q158838"
+    },
+    {
+      "id": "jules-grevy",
+      "wikidata": "Q296083"
+    },
+    {
+      "id": "sadi-carnot",
+      "wikidata": "Q215778",
+      "name": {
+        "fa": "سعدی کارنو"
+      },
+      "note": "fa: no usable fa.wikipedia title; the Wikidata label is «ماری فرانسوا سعدی کارنو»"
+    },
+    {
+      "id": "jean-casimir-perier",
+      "wikidata": "Q315656"
+    },
+    {
+      "id": "felix-faure",
+      "wikidata": "Q296076"
+    },
+    {
+      "id": "emile-loubet",
+      "wikidata": "Q169502"
+    },
+    {
+      "id": "armand-fallieres",
+      "wikidata": "Q296673"
+    },
+    {
+      "id": "raymond-poincare",
+      "wikidata": "Q191974"
+    },
+    {
+      "id": "paul-deschanel",
+      "wikidata": "Q309995"
+    },
+    {
+      "id": "alexandre-millerand",
+      "wikidata": "Q274540"
+    },
+    {
+      "id": "gaston-doumergue",
+      "wikidata": "Q296064"
+    },
+    {
+      "id": "paul-doumer",
+      "wikidata": "Q12680"
+    },
+    {
+      "id": "albert-lebrun",
+      "wikidata": "Q158749"
+    },
+    {
+      "id": "philippe-petain",
+      "wikidata": "Q5721"
+    },
+    {
+      "id": "charles-de-gaulle",
+      "wikidata": "Q2042"
+    },
+    {
+      "id": "vincent-auriol",
+      "wikidata": "Q158772"
+    },
+    {
+      "id": "rene-coty",
+      "wikidata": "Q158768"
+    },
+    {
+      "id": "georges-pompidou",
+      "wikidata": "Q2185"
+    },
+    {
+      "id": "valery-giscard-d-estaing",
+      "wikidata": "Q2124"
+    },
+    {
+      "id": "francois-mitterrand",
+      "wikidata": "Q2038"
+    },
+    {
+      "id": "jacques-chirac",
+      "wikidata": "Q2105"
+    },
+    {
+      "id": "nicolas-sarkozy",
+      "wikidata": "Q329"
+    },
+    {
+      "id": "francois-hollande",
+      "wikidata": "Q157"
+    },
+    {
+      "id": "emmanuel-macron",
+      "wikidata": "Q3052772"
+    },
+    {
+      "id": "louis-mathieu-mole",
+      "wikidata": "Q1371497"
+    },
+    {
+      "id": "louis-eugene-cavaignac",
+      "wikidata": "Q379702"
+    },
+    {
+      "id": "jules-simon",
+      "wikidata": "Q548532"
+    },
+    {
+      "id": "william-waddington",
+      "wikidata": "Q548696"
+    },
+    {
+      "id": "jules-ferry",
+      "wikidata": "Q959708"
+    },
+    {
+      "id": "leon-gambetta",
+      "wikidata": "Q295090"
+    },
+    {
+      "id": "leon-bourgeois",
+      "wikidata": "Q217706"
+    },
+    {
+      "id": "jules-meline",
+      "wikidata": "Q459914"
+    },
+    {
+      "id": "georges-clemenceau",
+      "wikidata": "Q171730"
+    },
+    {
+      "id": "aristide-briand",
+      "wikidata": "Q179888"
+    },
+    {
+      "id": "louis-barthou",
+      "wikidata": "Q271887"
+    },
+    {
+      "id": "rene-viviani",
+      "wikidata": "Q431074"
+    },
+    {
+      "id": "paul-painleve",
+      "wikidata": "Q315434"
+    },
+    {
+      "id": "edouard-herriot",
+      "wikidata": "Q274344"
+    },
+    {
+      "id": "frederic-francois-marsal",
+      "wikidata": "Q459212"
+    },
+    {
+      "id": "andre-tardieu",
+      "wikidata": "Q346648"
+    },
+    {
+      "id": "camille-chautemps",
+      "wikidata": "Q263884"
+    },
+    {
+      "id": "theodore-steeg",
+      "wikidata": "Q717905"
+    },
+    {
+      "id": "pierre-laval",
+      "wikidata": "Q151983"
+    },
+    {
+      "id": "joseph-paul-boncour",
+      "wikidata": "Q285865"
+    },
+    {
+      "id": "albert-sarraut",
+      "wikidata": "Q460318"
+    },
+    {
+      "id": "edouard-daladier",
+      "wikidata": "Q213526"
+    },
+    {
+      "id": "pierre-etienne-flandin",
+      "wikidata": "Q471296"
+    },
+    {
+      "id": "fernand-bouisson",
+      "wikidata": "Q459510"
+    },
+    {
+      "id": "leon-blum",
+      "wikidata": "Q18434"
+    },
+    {
+      "id": "paul-ramadier",
+      "wikidata": "Q328235"
+    },
+    {
+      "id": "robert-schuman",
+      "wikidata": "Q15981"
+    },
+    {
+      "id": "andre-marie",
+      "wikidata": "Q440565"
+    },
+    {
+      "id": "henri-queuille",
+      "wikidata": "Q455655"
+    },
+    {
+      "id": "georges-bidault",
+      "wikidata": "Q312026"
+    },
+    {
+      "id": "rene-pleven",
+      "wikidata": "Q314545"
+    },
+    {
+      "id": "edgar-faure",
+      "wikidata": "Q327013"
+    },
+    {
+      "id": "antoine-pinay",
+      "wikidata": "Q356724"
+    },
+    {
+      "id": "joseph-laniel",
+      "wikidata": "Q328240"
+    },
+    {
+      "id": "rene-mayer",
+      "wikidata": "Q382070"
+    },
+    {
+      "id": "pierre-mendes-france",
+      "wikidata": "Q314265"
+    },
+    {
+      "id": "guy-mollet",
+      "wikidata": "Q314006"
+    },
+    {
+      "id": "felix-gaillard",
+      "wikidata": "Q365413"
+    },
+    {
+      "id": "maurice-bourges-maunoury",
+      "wikidata": "Q380992"
+    },
+    {
+      "id": "pierre-pflimlin",
+      "wikidata": "Q328504"
+    },
+    {
+      "id": "michel-debre",
+      "wikidata": "Q296386"
+    },
+    {
+      "id": "maurice-couve-de-murville",
+      "wikidata": "Q312034"
+    },
+    {
+      "id": "jacques-chaban-delmas",
+      "wikidata": "Q12940"
+    },
+    {
+      "id": "pierre-messmer",
+      "wikidata": "Q271822"
+    },
+    {
+      "id": "raymond-barre",
+      "wikidata": "Q12957"
+    },
+    {
+      "id": "pierre-mauroy",
+      "wikidata": "Q156511"
+    },
+    {
+      "id": "laurent-fabius",
+      "wikidata": "Q217070"
+    },
+    {
+      "id": "michel-rocard",
+      "wikidata": "Q12946"
+    },
+    {
+      "id": "edith-cresson",
+      "wikidata": "Q230861"
+    },
+    {
+      "id": "pierre-beregovoy",
+      "wikidata": "Q298355"
+    },
+    {
+      "id": "alain-juppe",
+      "wikidata": "Q215569"
+    },
+    {
+      "id": "lionel-jospin",
+      "wikidata": "Q187099"
+    },
+    {
+      "id": "jean-pierre-raffarin",
+      "wikidata": "Q63263"
+    },
+    {
+      "id": "dominique-de-villepin",
+      "wikidata": "Q131660"
+    },
+    {
+      "id": "francois-fillon",
+      "wikidata": "Q101410"
+    },
+    {
+      "id": "jean-marc-ayrault",
+      "wikidata": "Q7711"
+    },
+    {
+      "id": "manuel-valls",
+      "wikidata": "Q10287"
+    },
+    {
+      "id": "bernard-cazeneuve",
+      "wikidata": "Q560890"
+    },
+    {
+      "id": "edouard-philippe",
+      "wikidata": "Q3579995"
+    },
+    {
+      "id": "jean-castex",
+      "wikidata": "Q3171170"
+    },
+    {
+      "id": "elisabeth-borne",
+      "wikidata": "Q20020731"
+    },
+    {
+      "id": "michel-barnier",
+      "wikidata": "Q438465"
+    },
+    {
+      "id": "gabriel-attal",
+      "wikidata": "Q30339350"
+    },
+    {
+      "id": "francois-bayrou",
+      "wikidata": "Q12963"
+    },
+    {
+      "id": "sebastien-lecornu",
+      "wikidata": "Q20089181"
+    },
+    {
+      "id": "jacques-laffitte",
+      "wikidata": "Q665957"
+    },
+    {
+      "id": "casimir-pierre-perier",
+      "wikidata": "Q284683"
+    },
+    {
+      "id": "jules-armand-dufaure",
+      "wikidata": "Q182701"
+    },
+    {
+      "id": "gaetan-de-rochebouet",
+      "wikidata": "Q524668"
+    },
+    {
+      "id": "charles-de-freycinet",
+      "wikidata": "Q317957"
+    },
+    {
+      "id": "charles-duclerc",
+      "wikidata": "Q551572"
+    },
+    {
+      "id": "henri-brisson",
+      "wikidata": "Q669725"
+    },
+    {
+      "id": "rene-goblet",
+      "wikidata": "Q559645"
+    },
+    {
+      "id": "pierre-tirard",
+      "wikidata": "Q708359"
+    },
+    {
+      "id": "maurice-rouvier",
+      "wikidata": "Q471293"
+    },
+    {
+      "id": "charles-floquet",
+      "wikidata": "Q471311"
+    },
+    {
+      "id": "alexandre-ribot",
+      "wikidata": "Q358387"
+    },
+    {
+      "id": "charles-dupuy",
+      "wikidata": "Q356032"
+    },
+    {
+      "id": "pierre-waldeck-rousseau",
+      "wikidata": "Q358452"
+    },
+    {
+      "id": "ferdinand-sarrien",
+      "wikidata": "Q718698"
+    },
+    {
+      "id": "joseph-caillaux",
+      "wikidata": "Q450463"
+    },
+    {
+      "id": "ernest-monis",
+      "wikidata": "Q561583"
+    },
+    {
+      "id": "georges-leygues",
+      "wikidata": "Q728806"
+    },
+    {
+      "id": "edouard-balladur",
+      "wikidata": "Q12959"
+    },
+    {
+      "id": "emile-combes",
+      "wikidata": "Q275020"
+    },
+    {
+      "id": "jean-de-dieu-soult",
+      "wikidata": "Q296023"
+    },
+    {
+      "id": "edouard-mortier",
+      "wikidata": "Q273883",
+      "name": {
+        "en": "Édouard Mortier"
+      },
+      "note": "en: the Wikipedia title is \"Édouard Mortier, Duke of Treviso\""
+    },
+    {
+      "id": "victor-de-broglie",
+      "wikidata": "Q338386"
+    },
+    {
+      "id": "francois-guizot",
+      "wikidata": "Q157324"
+    },
+    {
+      "id": "emile-ollivier",
+      "wikidata": "Q286293",
+      "name": {
+        "fa": "امیل اولیویه"
+      },
+      "note": "fa: no usable fa.wikipedia title; the Wikidata label is «امیل اولیویر»"
+    },
+    {
+      "id": "albert-de-broglie",
+      "wikidata": "Q434932",
+      "name": {
+        "en": "Albert de Broglie"
+      },
+      "note": "en: the Wikipedia title is \"Albert de Broglie, 4th Duke of Broglie\""
+    },
+    {
+      "id": "ernest-courtot-de-cissey",
+      "wikidata": "Q471302"
+    },
+    {
+      "id": "louis-buffet",
+      "wikidata": "Q548687"
+    }
+  ],
   "terms": [
     {
       "person": "louis-xvi",
@@ -2329,312 +1139,6 @@
       ]
     },
     {
-      "person": "charles-x",
-      "state": "bourbon-restoration",
-      "office": "head-of-state",
-      "title": {
-        "en": "King",
-        "fa": "پادشاه"
-      },
-      "start": 1824,
-      "end": 1830,
-      "sources": [
-        {
-          "title": "Charles X of France — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Charles_X_of_France"
-        }
-      ]
-    },
-    {
-      "person": "louis-philippe-i",
-      "state": "july-monarchy",
-      "office": "head-of-state",
-      "title": {
-        "en": "King",
-        "fa": "پادشاه"
-      },
-      "start": 1830,
-      "end": 1848,
-      "sources": [
-        {
-          "title": "Louis Philippe I — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Louis_Philippe_I"
-        }
-      ]
-    },
-    {
-      "person": "napoleon-iii",
-      "state": "french-second-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1848,
-      "end": 1852,
-      "sources": [
-        {
-          "title": "Napoleon III — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Napoleon_III"
-        }
-      ]
-    },
-    {
-      "person": "napoleon-iii",
-      "state": "second-french-empire",
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
-      },
-      "start": 1852,
-      "end": 1870,
-      "sources": [
-        {
-          "title": "Napoleon III — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Napoleon_III"
-        }
-      ]
-    },
-    {
-      "person": "adolphe-thiers",
-      "state": "french-third-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1871,
-      "end": 1873,
-      "sources": [
-        {
-          "title": "Adolphe Thiers — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Adolphe_Thiers"
-        }
-      ]
-    },
-    {
-      "person": "patrice-de-macmahon",
-      "state": "french-third-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1873,
-      "end": 1879,
-      "sources": [
-        {
-          "title": "Patrice de MacMahon — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Patrice_de_MacMahon"
-        }
-      ]
-    },
-    {
-      "person": "jules-grevy",
-      "state": "french-third-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1879,
-      "end": 1887,
-      "sources": [
-        {
-          "title": "Jules Grévy — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Jules_Grévy"
-        }
-      ]
-    },
-    {
-      "person": "sadi-carnot",
-      "state": "french-third-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1887,
-      "end": 1894,
-      "sources": [
-        {
-          "title": "Sadi Carnot (statesman) — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Sadi_Carnot_(statesman)"
-        }
-      ]
-    },
-    {
-      "person": "jean-casimir-perier",
-      "state": "french-third-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1894,
-      "end": 1895,
-      "sources": [
-        {
-          "title": "Jean Casimir-Perier — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Jean_Casimir-Perier"
-        }
-      ]
-    },
-    {
-      "person": "felix-faure",
-      "state": "french-third-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1895,
-      "end": 1899,
-      "sources": [
-        {
-          "title": "Félix Faure — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Félix_Faure"
-        }
-      ]
-    },
-    {
-      "person": "emile-loubet",
-      "state": "french-third-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1899,
-      "end": 1906,
-      "sources": [
-        {
-          "title": "Émile Loubet — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Émile_Loubet"
-        }
-      ]
-    },
-    {
-      "person": "armand-fallieres",
-      "state": "french-third-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1906,
-      "end": 1913,
-      "sources": [
-        {
-          "title": "Armand Fallières — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Armand_Fallières"
-        }
-      ]
-    },
-    {
-      "person": "raymond-poincare",
-      "state": "french-third-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1913,
-      "end": 1920,
-      "sources": [
-        {
-          "title": "Raymond Poincaré — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Raymond_Poincaré"
-        }
-      ]
-    },
-    {
-      "person": "paul-deschanel",
-      "state": "french-third-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1920,
-      "end": 1920,
-      "sources": [
-        {
-          "title": "Paul Deschanel — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Paul_Deschanel"
-        }
-      ]
-    },
-    {
-      "person": "alexandre-millerand",
-      "state": "french-third-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1920,
-      "end": 1924,
-      "sources": [
-        {
-          "title": "Alexandre Millerand — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Alexandre_Millerand"
-        }
-      ]
-    },
-    {
-      "person": "gaston-doumergue",
-      "state": "french-third-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1924,
-      "end": 1931,
-      "sources": [
-        {
-          "title": "Gaston Doumergue — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Gaston_Doumergue"
-        }
-      ]
-    },
-    {
-      "person": "paul-doumer",
-      "state": "french-third-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1931,
-      "end": 1932,
-      "sources": [
-        {
-          "title": "Paul Doumer — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Paul_Doumer"
-        }
-      ]
-    },
-    {
-      "person": "albert-lebrun",
-      "state": "french-third-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1932,
-      "end": 1940,
-      "sources": [
-        {
-          "title": "Albert Lebrun — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Albert_Lebrun"
-        }
-      ]
-    },
-    {
       "person": "philippe-petain",
       "state": "vichy-france",
       "office": "head-of-state",
@@ -2686,57 +1190,6 @@
       ]
     },
     {
-      "person": "vincent-auriol",
-      "state": "french-fourth-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1947,
-      "end": 1954,
-      "sources": [
-        {
-          "title": "Vincent Auriol — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Vincent_Auriol"
-        }
-      ]
-    },
-    {
-      "person": "rene-coty",
-      "state": "french-fourth-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1954,
-      "end": 1958,
-      "sources": [
-        {
-          "title": "René Coty — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/René_Coty"
-        }
-      ]
-    },
-    {
-      "person": "rene-coty",
-      "state": "french-fifth-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1958,
-      "end": 1959,
-      "sources": [
-        {
-          "title": "René Coty — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/René_Coty"
-        }
-      ]
-    },
-    {
       "person": "charles-de-gaulle",
       "state": "french-fifth-republic",
       "office": "head-of-state",
@@ -2754,2097 +1207,6 @@
       ]
     },
     {
-      "person": "georges-pompidou",
-      "state": "french-fifth-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1969,
-      "end": 1974,
-      "sources": [
-        {
-          "title": "Georges Pompidou — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Georges_Pompidou"
-        }
-      ]
-    },
-    {
-      "person": "valery-giscard-d-estaing",
-      "state": "french-fifth-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1974,
-      "end": 1981,
-      "sources": [
-        {
-          "title": "Valéry Giscard d'Estaing — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Valéry_Giscard_d'Estaing"
-        }
-      ]
-    },
-    {
-      "person": "francois-mitterrand",
-      "state": "french-fifth-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1981,
-      "end": 1995,
-      "sources": [
-        {
-          "title": "François Mitterrand — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/François_Mitterrand"
-        }
-      ]
-    },
-    {
-      "person": "jacques-chirac",
-      "state": "french-fifth-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1995,
-      "end": 2007,
-      "sources": [
-        {
-          "title": "Jacques Chirac — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Jacques_Chirac"
-        }
-      ]
-    },
-    {
-      "person": "nicolas-sarkozy",
-      "state": "french-fifth-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 2007,
-      "end": 2012,
-      "sources": [
-        {
-          "title": "Nicolas Sarkozy — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nicolas_Sarkozy"
-        }
-      ]
-    },
-    {
-      "person": "francois-hollande",
-      "state": "french-fifth-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 2012,
-      "end": 2017,
-      "sources": [
-        {
-          "title": "François Hollande — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/François_Hollande"
-        }
-      ]
-    },
-    {
-      "person": "emmanuel-macron",
-      "state": "french-fifth-republic",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 2017,
-      "end": null,
-      "sources": [
-        {
-          "title": "Emmanuel Macron — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Emmanuel_Macron"
-        }
-      ]
-    },
-    {
-      "person": "jacques-laffitte",
-      "state": "july-monarchy",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1830,
-      "end": 1831,
-      "sources": [
-        {
-          "title": "Jacques Laffitte — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q665957"
-        }
-      ]
-    },
-    {
-      "person": "casimir-pierre-perier",
-      "state": "july-monarchy",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1831,
-      "end": 1832,
-      "sources": [
-        {
-          "title": "Casimir Pierre Périer — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q284683"
-        }
-      ]
-    },
-    {
-      "person": "jean-de-dieu-soult",
-      "state": "july-monarchy",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1832,
-      "end": 1834,
-      "sources": [
-        {
-          "title": "Jean-de-Dieu Soult — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Jean-de-Dieu_Soult"
-        }
-      ]
-    },
-    {
-      "person": "edouard-mortier",
-      "state": "july-monarchy",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1834,
-      "end": 1835,
-      "sources": [
-        {
-          "title": "Édouard Mortier, Duke of Treviso — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Édouard_Mortier,_Duke_of_Treviso"
-        }
-      ]
-    },
-    {
-      "person": "victor-de-broglie",
-      "state": "july-monarchy",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1835,
-      "end": 1836,
-      "sources": [
-        {
-          "title": "Victor de Broglie (1785–1870) — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Victor_de_Broglie_(1785–1870)"
-        }
-      ]
-    },
-    {
-      "person": "louis-mathieu-mole",
-      "state": "july-monarchy",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1836,
-      "end": 1839,
-      "sources": [
-        {
-          "title": "Louis-Mathieu Molé — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1371497"
-        }
-      ]
-    },
-    {
-      "person": "jean-de-dieu-soult",
-      "state": "july-monarchy",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1839,
-      "end": 1840,
-      "sources": [
-        {
-          "title": "Jean-de-Dieu Soult — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Jean-de-Dieu_Soult"
-        }
-      ]
-    },
-    {
-      "person": "jean-de-dieu-soult",
-      "state": "july-monarchy",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1840,
-      "end": 1847,
-      "sources": [
-        {
-          "title": "Jean-de-Dieu Soult — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Jean-de-Dieu_Soult"
-        }
-      ]
-    },
-    {
-      "person": "francois-guizot",
-      "state": "july-monarchy",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1847,
-      "end": 1848,
-      "sources": [
-        {
-          "title": "François Guizot — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/François_Guizot"
-        }
-      ]
-    },
-    {
-      "person": "louis-eugene-cavaignac",
-      "state": "french-second-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1848,
-      "end": 1848,
-      "sources": [
-        {
-          "title": "Louis-Eugène Cavaignac — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q379702"
-        }
-      ]
-    },
-    {
-      "person": "emile-ollivier",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1870,
-      "end": 1870,
-      "sources": [
-        {
-          "title": "Émile Ollivier — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Émile_Ollivier"
-        }
-      ]
-    },
-    {
-      "person": "albert-de-broglie",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1873,
-      "end": 1874,
-      "sources": [
-        {
-          "title": "Albert de Broglie, 4th Duke of Broglie — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Albert_de_Broglie,_4th_Duke_of_Broglie"
-        }
-      ]
-    },
-    {
-      "person": "ernest-courtot-de-cissey",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1874,
-      "end": 1875,
-      "sources": [
-        {
-          "title": "Ernest Courtot de Cissey — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Ernest_Courtot_de_Cissey"
-        }
-      ]
-    },
-    {
-      "person": "louis-buffet",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1875,
-      "end": 1876,
-      "sources": [
-        {
-          "title": "Louis Buffet — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Louis_Buffet"
-        }
-      ]
-    },
-    {
-      "person": "jules-armand-dufaure",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1876,
-      "end": 1876,
-      "sources": [
-        {
-          "title": "Jules Armand Dufaure — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q182701"
-        }
-      ]
-    },
-    {
-      "person": "jules-simon",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1876,
-      "end": 1877,
-      "sources": [
-        {
-          "title": "Jules Simon — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q548532"
-        }
-      ]
-    },
-    {
-      "person": "gaetan-de-rochebouet",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1877,
-      "end": 1877,
-      "sources": [
-        {
-          "title": "Gaëtan de Rochebouët — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q524668"
-        }
-      ]
-    },
-    {
-      "person": "jules-armand-dufaure",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1877,
-      "end": 1879,
-      "sources": [
-        {
-          "title": "Jules Armand Dufaure — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q182701"
-        }
-      ]
-    },
-    {
-      "person": "william-waddington",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1879,
-      "end": 1879,
-      "sources": [
-        {
-          "title": "William Waddington — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q548696"
-        }
-      ]
-    },
-    {
-      "person": "charles-de-freycinet",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1879,
-      "end": 1880,
-      "sources": [
-        {
-          "title": "Charles de Freycinet — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q317957"
-        }
-      ]
-    },
-    {
-      "person": "jules-ferry",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1880,
-      "end": 1881,
-      "sources": [
-        {
-          "title": "Jules Ferry — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q959708"
-        }
-      ]
-    },
-    {
-      "person": "leon-gambetta",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1881,
-      "end": 1882,
-      "sources": [
-        {
-          "title": "Léon Gambetta — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q295090"
-        }
-      ]
-    },
-    {
-      "person": "charles-de-freycinet",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1882,
-      "end": 1882,
-      "sources": [
-        {
-          "title": "Charles de Freycinet — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q317957"
-        }
-      ]
-    },
-    {
-      "person": "charles-duclerc",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1882,
-      "end": 1883,
-      "sources": [
-        {
-          "title": "Charles Duclerc — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q551572"
-        }
-      ]
-    },
-    {
-      "person": "armand-fallieres",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1883,
-      "end": 1883,
-      "sources": [
-        {
-          "title": "Armand Fallières — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q296673"
-        }
-      ]
-    },
-    {
-      "person": "jules-ferry",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1883,
-      "end": 1885,
-      "sources": [
-        {
-          "title": "Jules Ferry — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q959708"
-        }
-      ]
-    },
-    {
-      "person": "henri-brisson",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1885,
-      "end": 1886,
-      "sources": [
-        {
-          "title": "Henri Brisson — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q669725"
-        }
-      ]
-    },
-    {
-      "person": "charles-de-freycinet",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1886,
-      "end": 1886,
-      "sources": [
-        {
-          "title": "Charles de Freycinet — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q317957"
-        }
-      ]
-    },
-    {
-      "person": "rene-goblet",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1886,
-      "end": 1887,
-      "sources": [
-        {
-          "title": "René Goblet — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q559645"
-        }
-      ]
-    },
-    {
-      "person": "maurice-rouvier",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1887,
-      "end": 1887,
-      "sources": [
-        {
-          "title": "Maurice Rouvier — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q471293"
-        }
-      ]
-    },
-    {
-      "person": "pierre-tirard",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1887,
-      "end": 1888,
-      "sources": [
-        {
-          "title": "Pierre Tirard — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q708359"
-        }
-      ]
-    },
-    {
-      "person": "charles-floquet",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1888,
-      "end": 1889,
-      "sources": [
-        {
-          "title": "Charles Floquet — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q471311"
-        }
-      ]
-    },
-    {
-      "person": "pierre-tirard",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1889,
-      "end": 1890,
-      "sources": [
-        {
-          "title": "Pierre Tirard — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q708359"
-        }
-      ]
-    },
-    {
-      "person": "charles-de-freycinet",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1890,
-      "end": 1892,
-      "sources": [
-        {
-          "title": "Charles de Freycinet — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q317957"
-        }
-      ]
-    },
-    {
-      "person": "alexandre-ribot",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1892,
-      "end": 1893,
-      "sources": [
-        {
-          "title": "Alexandre Ribot — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q358387"
-        }
-      ]
-    },
-    {
-      "person": "charles-dupuy",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1893,
-      "end": 1893,
-      "sources": [
-        {
-          "title": "Charles Dupuy — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q356032"
-        }
-      ]
-    },
-    {
-      "person": "jean-casimir-perier",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1893,
-      "end": 1894,
-      "sources": [
-        {
-          "title": "Jean Casimir-Perier — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315656"
-        }
-      ]
-    },
-    {
-      "person": "charles-dupuy",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1894,
-      "end": 1895,
-      "sources": [
-        {
-          "title": "Charles Dupuy — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q356032"
-        }
-      ]
-    },
-    {
-      "person": "alexandre-ribot",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1895,
-      "end": 1895,
-      "sources": [
-        {
-          "title": "Alexandre Ribot — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q358387"
-        }
-      ]
-    },
-    {
-      "person": "leon-bourgeois",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1895,
-      "end": 1896,
-      "sources": [
-        {
-          "title": "Léon Bourgeois — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q217706"
-        }
-      ]
-    },
-    {
-      "person": "jules-meline",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1896,
-      "end": 1898,
-      "sources": [
-        {
-          "title": "Jules Méline — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q459914"
-        }
-      ]
-    },
-    {
-      "person": "henri-brisson",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1898,
-      "end": 1898,
-      "sources": [
-        {
-          "title": "Henri Brisson — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q669725"
-        }
-      ]
-    },
-    {
-      "person": "charles-dupuy",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1898,
-      "end": 1899,
-      "sources": [
-        {
-          "title": "Charles Dupuy — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q356032"
-        }
-      ]
-    },
-    {
-      "person": "pierre-waldeck-rousseau",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1899,
-      "end": 1902,
-      "sources": [
-        {
-          "title": "Pierre Waldeck-Rousseau — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q358452"
-        }
-      ]
-    },
-    {
-      "person": "emile-combes",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1902,
-      "end": 1905,
-      "sources": [
-        {
-          "title": "Émile Combes — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q275020"
-        }
-      ]
-    },
-    {
-      "person": "maurice-rouvier",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1905,
-      "end": 1906,
-      "sources": [
-        {
-          "title": "Maurice Rouvier — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q471293"
-        }
-      ]
-    },
-    {
-      "person": "ferdinand-sarrien",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1906,
-      "end": 1906,
-      "sources": [
-        {
-          "title": "Ferdinand Sarrien — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q718698"
-        }
-      ]
-    },
-    {
-      "person": "georges-clemenceau",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1906,
-      "end": 1909,
-      "sources": [
-        {
-          "title": "Georges Clemenceau — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q171730"
-        }
-      ]
-    },
-    {
-      "person": "aristide-briand",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1909,
-      "end": 1911,
-      "sources": [
-        {
-          "title": "Aristide Briand — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q179888"
-        }
-      ]
-    },
-    {
-      "person": "ernest-monis",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1911,
-      "end": 1911,
-      "sources": [
-        {
-          "title": "Ernest Monis — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q561583"
-        }
-      ]
-    },
-    {
-      "person": "joseph-caillaux",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1911,
-      "end": 1912,
-      "sources": [
-        {
-          "title": "Joseph Caillaux — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q450463"
-        }
-      ]
-    },
-    {
-      "person": "raymond-poincare",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1912,
-      "end": 1913,
-      "sources": [
-        {
-          "title": "Raymond Poincaré — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q191974"
-        }
-      ]
-    },
-    {
-      "person": "aristide-briand",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1913,
-      "end": 1913,
-      "sources": [
-        {
-          "title": "Aristide Briand — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q179888"
-        }
-      ]
-    },
-    {
-      "person": "louis-barthou",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1913,
-      "end": 1913,
-      "sources": [
-        {
-          "title": "Louis Barthou — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q271887"
-        }
-      ]
-    },
-    {
-      "person": "gaston-doumergue",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1913,
-      "end": 1914,
-      "sources": [
-        {
-          "title": "Gaston Doumergue — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q296064"
-        }
-      ]
-    },
-    {
-      "person": "alexandre-ribot",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1914,
-      "end": 1914,
-      "sources": [
-        {
-          "title": "Alexandre Ribot — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q358387"
-        }
-      ]
-    },
-    {
-      "person": "rene-viviani",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1914,
-      "end": 1915,
-      "sources": [
-        {
-          "title": "René Viviani — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q431074"
-        }
-      ]
-    },
-    {
-      "person": "aristide-briand",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1915,
-      "end": 1917,
-      "sources": [
-        {
-          "title": "Aristide Briand — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q179888"
-        }
-      ]
-    },
-    {
-      "person": "alexandre-ribot",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1917,
-      "end": 1917,
-      "sources": [
-        {
-          "title": "Alexandre Ribot — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q358387"
-        }
-      ]
-    },
-    {
-      "person": "paul-painleve",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1917,
-      "end": 1917,
-      "sources": [
-        {
-          "title": "Paul Painlevé — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315434"
-        }
-      ]
-    },
-    {
-      "person": "georges-clemenceau",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1917,
-      "end": 1920,
-      "sources": [
-        {
-          "title": "Georges Clemenceau — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q171730"
-        }
-      ]
-    },
-    {
-      "person": "alexandre-millerand",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1920,
-      "end": 1920,
-      "sources": [
-        {
-          "title": "Alexandre Millerand — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q274540"
-        }
-      ]
-    },
-    {
-      "person": "georges-leygues",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1920,
-      "end": 1921,
-      "sources": [
-        {
-          "title": "Georges Leygues — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q728806"
-        }
-      ]
-    },
-    {
-      "person": "aristide-briand",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1921,
-      "end": 1922,
-      "sources": [
-        {
-          "title": "Aristide Briand — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q179888"
-        }
-      ]
-    },
-    {
-      "person": "raymond-poincare",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1922,
-      "end": 1924,
-      "sources": [
-        {
-          "title": "Raymond Poincaré — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q191974"
-        }
-      ]
-    },
-    {
-      "person": "frederic-francois-marsal",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1924,
-      "end": 1924,
-      "sources": [
-        {
-          "title": "Frédéric François-Marsal — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q459212"
-        }
-      ]
-    },
-    {
-      "person": "edouard-herriot",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1924,
-      "end": 1925,
-      "sources": [
-        {
-          "title": "Édouard Herriot — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q274344"
-        }
-      ]
-    },
-    {
-      "person": "paul-painleve",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1925,
-      "end": 1925,
-      "sources": [
-        {
-          "title": "Paul Painlevé — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315434"
-        }
-      ]
-    },
-    {
-      "person": "aristide-briand",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1925,
-      "end": 1926,
-      "sources": [
-        {
-          "title": "Aristide Briand — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q179888"
-        }
-      ]
-    },
-    {
-      "person": "edouard-herriot",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1926,
-      "end": 1926,
-      "sources": [
-        {
-          "title": "Édouard Herriot — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q274344"
-        }
-      ]
-    },
-    {
-      "person": "raymond-poincare",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1926,
-      "end": 1929,
-      "sources": [
-        {
-          "title": "Raymond Poincaré — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q191974"
-        }
-      ]
-    },
-    {
-      "person": "aristide-briand",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1929,
-      "end": 1929,
-      "sources": [
-        {
-          "title": "Aristide Briand — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q179888"
-        }
-      ]
-    },
-    {
-      "person": "andre-tardieu",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1929,
-      "end": 1930,
-      "sources": [
-        {
-          "title": "André Tardieu — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q346648"
-        }
-      ]
-    },
-    {
-      "person": "andre-tardieu",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1930,
-      "end": 1930,
-      "sources": [
-        {
-          "title": "André Tardieu — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q346648"
-        }
-      ]
-    },
-    {
-      "person": "camille-chautemps",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1930,
-      "end": 1930,
-      "sources": [
-        {
-          "title": "Camille Chautemps — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q263884"
-        }
-      ]
-    },
-    {
-      "person": "theodore-steeg",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1930,
-      "end": 1931,
-      "sources": [
-        {
-          "title": "Théodore Steeg — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q717905"
-        }
-      ]
-    },
-    {
-      "person": "pierre-laval",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1931,
-      "end": 1932,
-      "sources": [
-        {
-          "title": "Pierre Laval — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q151983"
-        }
-      ]
-    },
-    {
-      "person": "andre-tardieu",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1932,
-      "end": 1932,
-      "sources": [
-        {
-          "title": "André Tardieu — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q346648"
-        }
-      ]
-    },
-    {
-      "person": "edouard-herriot",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1932,
-      "end": 1932,
-      "sources": [
-        {
-          "title": "Édouard Herriot — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q274344"
-        }
-      ]
-    },
-    {
-      "person": "joseph-paul-boncour",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1932,
-      "end": 1933,
-      "sources": [
-        {
-          "title": "Joseph Paul-Boncour — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q285865"
-        }
-      ]
-    },
-    {
-      "person": "albert-sarraut",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1933,
-      "end": 1933,
-      "sources": [
-        {
-          "title": "Albert Sarraut — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q460318"
-        }
-      ]
-    },
-    {
-      "person": "edouard-daladier",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1933,
-      "end": 1933,
-      "sources": [
-        {
-          "title": "Édouard Daladier — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q213526"
-        }
-      ]
-    },
-    {
-      "person": "camille-chautemps",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1933,
-      "end": 1934,
-      "sources": [
-        {
-          "title": "Camille Chautemps — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q263884"
-        }
-      ]
-    },
-    {
-      "person": "edouard-daladier",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1934,
-      "end": 1934,
-      "sources": [
-        {
-          "title": "Édouard Daladier — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q213526"
-        }
-      ]
-    },
-    {
-      "person": "gaston-doumergue",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1934,
-      "end": 1934,
-      "sources": [
-        {
-          "title": "Gaston Doumergue — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q296064"
-        }
-      ]
-    },
-    {
-      "person": "pierre-etienne-flandin",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1934,
-      "end": 1935,
-      "sources": [
-        {
-          "title": "Pierre-Étienne Flandin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q471296"
-        }
-      ]
-    },
-    {
-      "person": "fernand-bouisson",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1935,
-      "end": 1935,
-      "sources": [
-        {
-          "title": "Fernand Bouisson — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q459510"
-        }
-      ]
-    },
-    {
-      "person": "pierre-laval",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1935,
-      "end": 1936,
-      "sources": [
-        {
-          "title": "Pierre Laval — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q151983"
-        }
-      ]
-    },
-    {
-      "person": "albert-sarraut",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1936,
-      "end": 1936,
-      "sources": [
-        {
-          "title": "Albert Sarraut — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q460318"
-        }
-      ]
-    },
-    {
-      "person": "leon-blum",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1936,
-      "end": 1937,
-      "sources": [
-        {
-          "title": "Léon Blum — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q18434"
-        }
-      ]
-    },
-    {
-      "person": "camille-chautemps",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1937,
-      "end": 1938,
-      "sources": [
-        {
-          "title": "Camille Chautemps — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q263884"
-        }
-      ]
-    },
-    {
-      "person": "leon-blum",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1938,
-      "end": 1938,
-      "sources": [
-        {
-          "title": "Léon Blum — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q18434"
-        }
-      ]
-    },
-    {
-      "person": "edouard-daladier",
-      "state": "french-third-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1938,
-      "end": 1940,
-      "sources": [
-        {
-          "title": "Édouard Daladier — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q213526"
-        }
-      ]
-    },
-    {
-      "person": "philippe-petain",
-      "state": "vichy-france",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1940,
-      "end": 1942,
-      "sources": [
-        {
-          "title": "Philippe Pétain — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5721"
-        }
-      ]
-    },
-    {
-      "person": "pierre-laval",
-      "state": "vichy-france",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1942,
-      "end": 1944,
-      "sources": [
-        {
-          "title": "Pierre Laval — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Pierre_Laval"
-        }
-      ]
-    },
-    {
-      "person": "leon-blum",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1946,
-      "end": 1947,
-      "sources": [
-        {
-          "title": "Léon Blum — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q18434"
-        }
-      ]
-    },
-    {
-      "person": "paul-ramadier",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1947,
-      "end": 1947,
-      "sources": [
-        {
-          "title": "Paul Ramadier — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q328235"
-        }
-      ]
-    },
-    {
-      "person": "robert-schuman",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1947,
-      "end": 1948,
-      "sources": [
-        {
-          "title": "Robert Schuman — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q15981"
-        }
-      ]
-    },
-    {
-      "person": "andre-marie",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1948,
-      "end": 1948,
-      "sources": [
-        {
-          "title": "André Marie — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q440565"
-        }
-      ]
-    },
-    {
-      "person": "robert-schuman",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1948,
-      "end": 1948,
-      "sources": [
-        {
-          "title": "Robert Schuman — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q15981"
-        }
-      ]
-    },
-    {
-      "person": "henri-queuille",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1948,
-      "end": 1949,
-      "sources": [
-        {
-          "title": "Henri Queuille — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q455655"
-        }
-      ]
-    },
-    {
-      "person": "georges-bidault",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1949,
-      "end": 1950,
-      "sources": [
-        {
-          "title": "Georges Bidault — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q312026"
-        }
-      ]
-    },
-    {
-      "person": "henri-queuille",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1950,
-      "end": 1950,
-      "sources": [
-        {
-          "title": "Henri Queuille — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q455655"
-        }
-      ]
-    },
-    {
-      "person": "rene-pleven",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1950,
-      "end": 1951,
-      "sources": [
-        {
-          "title": "René Pleven — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q314545"
-        }
-      ]
-    },
-    {
-      "person": "henri-queuille",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1951,
-      "end": 1951,
-      "sources": [
-        {
-          "title": "Henri Queuille — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q455655"
-        }
-      ]
-    },
-    {
-      "person": "rene-pleven",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1951,
-      "end": 1952,
-      "sources": [
-        {
-          "title": "René Pleven — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q314545"
-        }
-      ]
-    },
-    {
-      "person": "edgar-faure",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1952,
-      "end": 1952,
-      "sources": [
-        {
-          "title": "Edgar Faure — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q327013"
-        }
-      ]
-    },
-    {
-      "person": "antoine-pinay",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1952,
-      "end": 1953,
-      "sources": [
-        {
-          "title": "Antoine Pinay — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q356724"
-        }
-      ]
-    },
-    {
-      "person": "rene-mayer",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1953,
-      "end": 1953,
-      "sources": [
-        {
-          "title": "René Mayer — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q382070"
-        }
-      ]
-    },
-    {
-      "person": "joseph-laniel",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1953,
-      "end": 1954,
-      "sources": [
-        {
-          "title": "Joseph Laniel — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q328240"
-        }
-      ]
-    },
-    {
-      "person": "pierre-mendes-france",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1954,
-      "end": 1955,
-      "sources": [
-        {
-          "title": "Pierre Mendès France — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q314265"
-        }
-      ]
-    },
-    {
-      "person": "edgar-faure",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1955,
-      "end": 1956,
-      "sources": [
-        {
-          "title": "Edgar Faure — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q327013"
-        }
-      ]
-    },
-    {
-      "person": "guy-mollet",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1956,
-      "end": 1957,
-      "sources": [
-        {
-          "title": "Guy Mollet — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q314006"
-        }
-      ]
-    },
-    {
-      "person": "maurice-bourges-maunoury",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1957,
-      "end": 1957,
-      "sources": [
-        {
-          "title": "Maurice Bourgès-Maunoury — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q380992"
-        }
-      ]
-    },
-    {
-      "person": "felix-gaillard",
-      "state": "french-fourth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1957,
-      "end": 1958,
-      "sources": [
-        {
-          "title": "Félix Gaillard — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q365413"
-        }
-      ]
-    },
-    {
-      "person": "pierre-pflimlin",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "President of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1958,
-      "end": 1958,
-      "sources": [
-        {
-          "title": "Pierre Pflimlin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q328504"
-        }
-      ]
-    },
-    {
       "person": "charles-de-gaulle",
       "state": "french-fifth-republic",
       "office": "head-of-government",
@@ -4877,499 +1239,34 @@
           "url": "https://www.wikidata.org/wiki/Q2042"
         }
       ]
+    }
+  ],
+  "titles": [],
+  "exclude": [
+    {
+      "wikidata": "Q12950",
+      "office": "head-of-state",
+      "reason": "R3: Alain Poher, acting President of France in 1969 (less than a year)"
     },
     {
-      "person": "michel-debre",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1959,
-      "end": 1962,
-      "sources": [
-        {
-          "title": "Michel Debré — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q296386"
-        }
-      ]
+      "wikidata": "Q49765",
+      "office": "head-of-state",
+      "reason": "Louis XVII was a claimant who never reigned (1793–1795)"
     },
     {
-      "person": "georges-pompidou",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1962,
-      "end": 1968,
-      "sources": [
-        {
-          "title": "Georges Pompidou — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q2185"
-        }
-      ]
+      "wikidata": "Q379702",
+      "office": "head-of-state",
+      "reason": "R3: Louis-Eugène Cavaignac, interim head of the executive power, June–December 1848 (less than a year)"
     },
     {
-      "person": "maurice-couve-de-murville",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1968,
-      "end": 1969,
-      "sources": [
-        {
-          "title": "Maurice Couve de Murville — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q312034"
-        }
-      ]
+      "wikidata": "Q441235",
+      "office": "head-of-state",
+      "reason": "R3: Louis-Jules Trochu, president of the provisional Government of National Defence, September 1870–February 1871 (less than a year)"
     },
     {
-      "person": "jacques-chaban-delmas",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1969,
-      "end": 1972,
-      "sources": [
-        {
-          "title": "Jacques Chaban-Delmas — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q12940"
-        }
-      ]
-    },
-    {
-      "person": "pierre-messmer",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1972,
-      "end": 1974,
-      "sources": [
-        {
-          "title": "Pierre Messmer — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q271822"
-        }
-      ]
-    },
-    {
-      "person": "jacques-chirac",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1974,
-      "end": 1976,
-      "sources": [
-        {
-          "title": "Jacques Chirac — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q2105"
-        }
-      ]
-    },
-    {
-      "person": "raymond-barre",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1976,
-      "end": 1981,
-      "sources": [
-        {
-          "title": "Raymond Barre — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q12957"
-        }
-      ]
-    },
-    {
-      "person": "pierre-mauroy",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1981,
-      "end": 1984,
-      "sources": [
-        {
-          "title": "Pierre Mauroy — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q156511"
-        }
-      ]
-    },
-    {
-      "person": "laurent-fabius",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1984,
-      "end": 1986,
-      "sources": [
-        {
-          "title": "Laurent Fabius — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q217070"
-        }
-      ]
-    },
-    {
-      "person": "jacques-chirac",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1986,
-      "end": 1988,
-      "sources": [
-        {
-          "title": "Jacques Chirac — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q2105"
-        }
-      ]
-    },
-    {
-      "person": "michel-rocard",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1988,
-      "end": 1991,
-      "sources": [
-        {
-          "title": "Michel Rocard — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q12946"
-        }
-      ]
-    },
-    {
-      "person": "edith-cresson",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1991,
-      "end": 1992,
-      "sources": [
-        {
-          "title": "Édith Cresson — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q230861"
-        }
-      ]
-    },
-    {
-      "person": "pierre-beregovoy",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1992,
-      "end": 1993,
-      "sources": [
-        {
-          "title": "Pierre Bérégovoy — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q298355"
-        }
-      ]
-    },
-    {
-      "person": "edouard-balladur",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1993,
-      "end": 1995,
-      "sources": [
-        {
-          "title": "Édouard Balladur — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q12959"
-        }
-      ]
-    },
-    {
-      "person": "alain-juppe",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1995,
-      "end": 1997,
-      "sources": [
-        {
-          "title": "Alain Juppé — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q215569"
-        }
-      ]
-    },
-    {
-      "person": "lionel-jospin",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1997,
-      "end": 2002,
-      "sources": [
-        {
-          "title": "Lionel Jospin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q187099"
-        }
-      ]
-    },
-    {
-      "person": "jean-pierre-raffarin",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2002,
-      "end": 2005,
-      "sources": [
-        {
-          "title": "Jean-Pierre Raffarin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q63263"
-        }
-      ]
-    },
-    {
-      "person": "dominique-de-villepin",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2005,
-      "end": 2007,
-      "sources": [
-        {
-          "title": "Dominique de Villepin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q131660"
-        }
-      ]
-    },
-    {
-      "person": "francois-fillon",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2007,
-      "end": 2012,
-      "sources": [
-        {
-          "title": "François Fillon — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q101410"
-        }
-      ]
-    },
-    {
-      "person": "jean-marc-ayrault",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2012,
-      "end": 2014,
-      "sources": [
-        {
-          "title": "Jean-Marc Ayrault — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7711"
-        }
-      ]
-    },
-    {
-      "person": "manuel-valls",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2014,
-      "end": 2016,
-      "sources": [
-        {
-          "title": "Manuel Valls — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q10287"
-        }
-      ]
-    },
-    {
-      "person": "bernard-cazeneuve",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2016,
-      "end": 2017,
-      "sources": [
-        {
-          "title": "Bernard Cazeneuve — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q560890"
-        }
-      ]
-    },
-    {
-      "person": "edouard-philippe",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2017,
-      "end": 2020,
-      "sources": [
-        {
-          "title": "Édouard Philippe — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3579995"
-        }
-      ]
-    },
-    {
-      "person": "jean-castex",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2020,
-      "end": 2022,
-      "sources": [
-        {
-          "title": "Jean Castex — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3171170"
-        }
-      ]
-    },
-    {
-      "person": "elisabeth-borne",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2022,
-      "end": 2024,
-      "sources": [
-        {
-          "title": "Élisabeth Borne — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q20020731"
-        }
-      ]
-    },
-    {
-      "person": "gabriel-attal",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2024,
-      "end": 2024,
-      "sources": [
-        {
-          "title": "Gabriel Attal — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q30339350"
-        }
-      ]
-    },
-    {
-      "person": "michel-barnier",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2024,
-      "end": 2024,
-      "sources": [
-        {
-          "title": "Michel Barnier — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q438465"
-        }
-      ]
-    },
-    {
-      "person": "francois-bayrou",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2024,
-      "end": 2025,
-      "sources": [
-        {
-          "title": "François Bayrou — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q12963"
-        }
-      ]
-    },
-    {
-      "person": "sebastien-lecornu",
-      "state": "french-fifth-republic",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2025,
-      "end": null,
-      "sources": [
-        {
-          "title": "Sébastien Lecornu — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q20089181"
-        }
-      ]
+      "wikidata": "Q312026",
+      "office": "head-of-state",
+      "reason": "R3: Georges Bidault, chairman of the Provisional Government, June–November 1946 (less than a year)"
     }
   ],
   "flags": [

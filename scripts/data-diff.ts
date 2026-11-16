@@ -12,7 +12,7 @@ if (!base) {
   process.exit(1);
 }
 
-const DIR = "data/overrides/countries";
+const DIR = "data/merged";
 
 type Row = Record<string, unknown>;
 type CountryData = Record<string, Row[] | Row>;

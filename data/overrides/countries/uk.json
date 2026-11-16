@@ -99,806 +99,6 @@
       ]
     }
   ],
-  "persons": [
-    {
-      "id": "george-iii",
-      "name": {
-        "en": "George III",
-        "fa": "جرج سوم"
-      },
-      "wikidata": "Q127318",
-      "sources": [
-        {
-          "title": "George III — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/George_III"
-        }
-      ]
-    },
-    {
-      "id": "george-iv",
-      "name": {
-        "en": "George IV",
-        "fa": "جرج چهارم"
-      },
-      "wikidata": "Q130586",
-      "sources": [
-        {
-          "title": "George IV — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/George_IV"
-        }
-      ]
-    },
-    {
-      "id": "william-iv",
-      "name": {
-        "en": "William IV",
-        "fa": "ویلیام چهارم"
-      },
-      "wikidata": "Q130822",
-      "sources": [
-        {
-          "title": "William IV — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/William_IV"
-        }
-      ]
-    },
-    {
-      "id": "victoria",
-      "name": {
-        "en": "Victoria",
-        "fa": "ویکتوریا"
-      },
-      "wikidata": "Q9439",
-      "sources": [
-        {
-          "title": "Queen Victoria — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Queen_Victoria"
-        }
-      ]
-    },
-    {
-      "id": "edward-vii",
-      "name": {
-        "en": "Edward VII",
-        "fa": "ادوارد هفتم"
-      },
-      "wikidata": "Q20875",
-      "sources": [
-        {
-          "title": "Edward VII — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Edward_VII"
-        }
-      ]
-    },
-    {
-      "id": "george-v",
-      "name": {
-        "en": "George V",
-        "fa": "جرج پنجم"
-      },
-      "wikidata": "Q269412",
-      "sources": [
-        {
-          "title": "George V — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/George_V"
-        }
-      ]
-    },
-    {
-      "id": "edward-viii",
-      "name": {
-        "en": "Edward VIII",
-        "fa": "ادوارد هشتم"
-      },
-      "wikidata": "Q590227",
-      "sources": [
-        {
-          "title": "Edward VIII — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Edward_VIII"
-        }
-      ]
-    },
-    {
-      "id": "george-vi",
-      "name": {
-        "en": "George VI",
-        "fa": "جرج ششم"
-      },
-      "wikidata": "Q280856",
-      "sources": [
-        {
-          "title": "George VI — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/George_VI"
-        }
-      ]
-    },
-    {
-      "id": "elizabeth-ii",
-      "name": {
-        "en": "Elizabeth II",
-        "fa": "الیزابت دوم"
-      },
-      "wikidata": "Q9682",
-      "sources": [
-        {
-          "title": "Elizabeth II — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Elizabeth_II"
-        }
-      ]
-    },
-    {
-      "id": "charles-iii",
-      "name": {
-        "en": "Charles III",
-        "fa": "چارلز سوم"
-      },
-      "wikidata": "Q43274",
-      "sources": [
-        {
-          "title": "Charles III — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Charles_III"
-        }
-      ]
-    },
-    {
-      "id": "william-pitt-the-younger",
-      "name": {
-        "en": "William Pitt the Younger",
-        "fa": "ویلیام پیت"
-      },
-      "wikidata": "Q128902",
-      "sources": [
-        {
-          "title": "William Pitt the Younger — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q128902"
-        }
-      ]
-    },
-    {
-      "id": "henry-addington",
-      "name": {
-        "en": "Henry Addington",
-        "fa": "هنری ادینگتون"
-      },
-      "wikidata": "Q312577",
-      "sources": [
-        {
-          "title": "Henry Addington — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q312577"
-        }
-      ]
-    },
-    {
-      "id": "william-grenville-1st-baron-grenville",
-      "name": {
-        "en": "William Grenville, 1st Baron Grenville",
-        "fa": "ویلیام گرنویل"
-      },
-      "wikidata": "Q312596",
-      "sources": [
-        {
-          "title": "William Grenville, 1st Baron Grenville — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q312596"
-        }
-      ]
-    },
-    {
-      "id": "william-cavendish-bentinck-3rd-duke-of-portland",
-      "name": {
-        "en": "William Cavendish-Bentinck, 3rd Duke of Portland",
-        "fa": "ویلیام چاتهام"
-      },
-      "wikidata": "Q157208",
-      "sources": [
-        {
-          "title": "William Cavendish-Bentinck, 3rd Duke of Portland — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q157208"
-        }
-      ]
-    },
-    {
-      "id": "spencer-perceval",
-      "name": {
-        "en": "Spencer Perceval",
-        "fa": "اسپنسر پرسوال"
-      },
-      "wikidata": "Q233992",
-      "sources": [
-        {
-          "title": "Spencer Perceval — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q233992"
-        }
-      ]
-    },
-    {
-      "id": "robert-jenkinson-2nd-earl-of-liverpool",
-      "name": {
-        "en": "Robert Jenkinson, 2nd Earl of Liverpool",
-        "fa": "رابرت جنکینسون"
-      },
-      "wikidata": "Q312569",
-      "sources": [
-        {
-          "title": "Robert Jenkinson, 2nd Earl of Liverpool — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q312569"
-        }
-      ]
-    },
-    {
-      "id": "f-j-robinson-1st-viscount-goderich",
-      "name": {
-        "en": "F. J. Robinson, 1st Viscount Goderich",
-        "fa": "فردریک رابینسون"
-      },
-      "wikidata": "Q312591",
-      "sources": [
-        {
-          "title": "F. J. Robinson, 1st Viscount Goderich — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q312591"
-        }
-      ]
-    },
-    {
-      "id": "george-canning",
-      "name": {
-        "en": "George Canning",
-        "fa": "جورج کنینگ"
-      },
-      "wikidata": "Q219731",
-      "sources": [
-        {
-          "title": "George Canning — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q219731"
-        }
-      ]
-    },
-    {
-      "id": "arthur-wellesley-1st-duke-of-wellington",
-      "name": {
-        "en": "Arthur Wellesley, 1st Duke of Wellington",
-        "fa": "آرتور ولزلی، اولین دوک ولینگتون"
-      },
-      "wikidata": "Q131691",
-      "sources": [
-        {
-          "title": "Arthur Wellesley, 1st Duke of Wellington — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q131691"
-        }
-      ]
-    },
-    {
-      "id": "charles-grey-2nd-earl-grey",
-      "name": {
-        "en": "Charles Grey, 2nd Earl Grey",
-        "fa": "چارلز گری"
-      },
-      "wikidata": "Q294662",
-      "sources": [
-        {
-          "title": "Charles Grey, 2nd Earl Grey — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q294662"
-        }
-      ]
-    },
-    {
-      "id": "william-lamb-2nd-viscount-melbourne",
-      "name": {
-        "en": "William Lamb, 2nd Viscount Melbourne",
-        "fa": "ویلیام لمب وایکنت ملبورن"
-      },
-      "wikidata": "Q312567",
-      "sources": [
-        {
-          "title": "William Lamb, 2nd Viscount Melbourne — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q312567"
-        }
-      ]
-    },
-    {
-      "id": "robert-peel",
-      "name": {
-        "en": "Robert Peel",
-        "fa": "رابرت پیل"
-      },
-      "wikidata": "Q181875",
-      "sources": [
-        {
-          "title": "Robert Peel — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q181875"
-        }
-      ]
-    },
-    {
-      "id": "john-russell-1st-earl-russell",
-      "name": {
-        "en": "John Russell, 1st Earl Russell",
-        "fa": "جان راسل"
-      },
-      "wikidata": "Q157259",
-      "sources": [
-        {
-          "title": "John Russell, 1st Earl Russell — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q157259"
-        }
-      ]
-    },
-    {
-      "id": "george-hamilton-gordon-4th-earl-of-aberdeen",
-      "name": {
-        "en": "George Hamilton-Gordon, 4th Earl of Aberdeen",
-        "fa": "جورج همیلتون-گوردون"
-      },
-      "wikidata": "Q24631",
-      "sources": [
-        {
-          "title": "George Hamilton-Gordon, 4th Earl of Aberdeen — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q24631"
-        }
-      ]
-    },
-    {
-      "id": "edward-smith-stanley-14th-earl-of-derby",
-      "name": {
-        "en": "Edward Smith-Stanley, 14th Earl of Derby",
-        "fa": "ادوارد اسمیت دربی"
-      },
-      "wikidata": "Q237829",
-      "sources": [
-        {
-          "title": "Edward Smith-Stanley, 14th Earl of Derby — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q237829"
-        }
-      ]
-    },
-    {
-      "id": "henry-john-temple-3rd-viscount-palmerston",
-      "name": {
-        "en": "Henry John Temple, 3rd Viscount Palmerston",
-        "fa": "هنری جان تمپل"
-      },
-      "wikidata": "Q193656",
-      "sources": [
-        {
-          "title": "Henry John Temple, 3rd Viscount Palmerston — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q193656"
-        }
-      ]
-    },
-    {
-      "id": "benjamin-disraeli",
-      "name": {
-        "en": "Benjamin Disraeli",
-        "fa": "بنجامین دیزرائیلی"
-      },
-      "wikidata": "Q82006",
-      "sources": [
-        {
-          "title": "Benjamin Disraeli — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q82006"
-        }
-      ]
-    },
-    {
-      "id": "william-ewart-gladstone",
-      "name": {
-        "en": "William Ewart Gladstone",
-        "fa": "ویلیام اوارت گلدستون"
-      },
-      "wikidata": "Q160852",
-      "sources": [
-        {
-          "title": "William Ewart Gladstone — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q160852"
-        }
-      ]
-    },
-    {
-      "id": "robert-gascoyne-cecil-3rd-marquess-of-salisbury",
-      "name": {
-        "en": "Robert Gascoyne-Cecil, 3rd Marquess of Salisbury",
-        "fa": "مارکیز آو سالیسبوری"
-      },
-      "wikidata": "Q243705",
-      "sources": [
-        {
-          "title": "Robert Gascoyne-Cecil, 3rd Marquess of Salisbury — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q243705"
-        }
-      ]
-    },
-    {
-      "id": "archibald-primrose-5th-earl-of-rosebery",
-      "name": {
-        "en": "Archibald Primrose, 5th Earl of Rosebery",
-        "fa": "آرچیبالد پریمروز"
-      },
-      "wikidata": "Q244620",
-      "sources": [
-        {
-          "title": "Archibald Primrose, 5th Earl of Rosebery — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q244620"
-        }
-      ]
-    },
-    {
-      "id": "arthur-balfour",
-      "name": {
-        "en": "Arthur Balfour",
-        "fa": "آرتور بالفور"
-      },
-      "wikidata": "Q19008",
-      "sources": [
-        {
-          "title": "Arthur Balfour — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q19008"
-        }
-      ]
-    },
-    {
-      "id": "henry-campbell-bannerman",
-      "name": {
-        "en": "Henry Campbell-Bannerman",
-        "fa": "هنری کمپل-بانرمن"
-      },
-      "wikidata": "Q106618",
-      "sources": [
-        {
-          "title": "Henry Campbell-Bannerman — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q106618"
-        }
-      ]
-    },
-    {
-      "id": "h-h-asquith",
-      "name": {
-        "en": "H. H. Asquith",
-        "fa": "هربرت هنری اسکویت"
-      },
-      "wikidata": "Q166714",
-      "sources": [
-        {
-          "title": "H. H. Asquith — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q166714"
-        }
-      ]
-    },
-    {
-      "id": "david-lloyd-george",
-      "name": {
-        "en": "David Lloyd George",
-        "fa": "دیوید لوید جرج"
-      },
-      "wikidata": "Q134982",
-      "sources": [
-        {
-          "title": "David Lloyd George — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q134982"
-        }
-      ]
-    },
-    {
-      "id": "bonar-law",
-      "name": {
-        "en": "Bonar Law",
-        "fa": "اندرو بونار لاو"
-      },
-      "wikidata": "Q166663",
-      "sources": [
-        {
-          "title": "Bonar Law — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q166663"
-        }
-      ]
-    },
-    {
-      "id": "stanley-baldwin",
-      "name": {
-        "en": "Stanley Baldwin",
-        "fa": "استنلی بالدوین"
-      },
-      "wikidata": "Q166635",
-      "sources": [
-        {
-          "title": "Stanley Baldwin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q166635"
-        }
-      ]
-    },
-    {
-      "id": "ramsay-macdonald",
-      "name": {
-        "en": "Ramsay MacDonald",
-        "fa": "رمزی مکدونالد"
-      },
-      "wikidata": "Q166646",
-      "sources": [
-        {
-          "title": "Ramsay MacDonald — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q166646"
-        }
-      ]
-    },
-    {
-      "id": "neville-chamberlain",
-      "name": {
-        "en": "Neville Chamberlain",
-        "fa": "نویل چمبرلین"
-      },
-      "wikidata": "Q10664",
-      "sources": [
-        {
-          "title": "Neville Chamberlain — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q10664"
-        }
-      ]
-    },
-    {
-      "id": "winston-churchill",
-      "name": {
-        "en": "Winston Churchill",
-        "fa": "وینستون چرچیل"
-      },
-      "wikidata": "Q8016",
-      "sources": [
-        {
-          "title": "Winston Churchill — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q8016"
-        }
-      ]
-    },
-    {
-      "id": "clement-attlee",
-      "name": {
-        "en": "Clement Attlee",
-        "fa": "کلمنت اتلی"
-      },
-      "wikidata": "Q129006",
-      "sources": [
-        {
-          "title": "Clement Attlee — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q129006"
-        }
-      ]
-    },
-    {
-      "id": "anthony-eden",
-      "name": {
-        "en": "Anthony Eden",
-        "fa": "آنتونی ایدن"
-      },
-      "wikidata": "Q128995",
-      "sources": [
-        {
-          "title": "Anthony Eden — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q128995"
-        }
-      ]
-    },
-    {
-      "id": "harold-macmillan",
-      "name": {
-        "en": "Harold Macmillan",
-        "fa": "هارولد مکمیلان"
-      },
-      "wikidata": "Q128985",
-      "sources": [
-        {
-          "title": "Harold Macmillan — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q128985"
-        }
-      ]
-    },
-    {
-      "id": "alec-douglas-home",
-      "name": {
-        "en": "Alec Douglas-Home",
-        "fa": "آلک داگلاس-هیوم"
-      },
-      "wikidata": "Q128976",
-      "sources": [
-        {
-          "title": "Alec Douglas-Home — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q128976"
-        }
-      ]
-    },
-    {
-      "id": "harold-wilson",
-      "name": {
-        "en": "Harold Wilson",
-        "fa": "هارولد ویلسون"
-      },
-      "wikidata": "Q128956",
-      "sources": [
-        {
-          "title": "Harold Wilson — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q128956"
-        }
-      ]
-    },
-    {
-      "id": "edward-heath",
-      "name": {
-        "en": "Edward Heath",
-        "fa": "ادوارد هیس"
-      },
-      "wikidata": "Q128967",
-      "sources": [
-        {
-          "title": "Edward Heath — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q128967"
-        }
-      ]
-    },
-    {
-      "id": "james-callaghan",
-      "name": {
-        "en": "James Callaghan",
-        "fa": "جیمز کالاهان"
-      },
-      "wikidata": "Q9576",
-      "sources": [
-        {
-          "title": "James Callaghan — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9576"
-        }
-      ]
-    },
-    {
-      "id": "margaret-thatcher",
-      "name": {
-        "en": "Margaret Thatcher",
-        "fa": "مارگارت تاچر"
-      },
-      "wikidata": "Q7416",
-      "sources": [
-        {
-          "title": "Margaret Thatcher — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7416"
-        }
-      ]
-    },
-    {
-      "id": "john-major",
-      "name": {
-        "en": "John Major",
-        "fa": "جان میجر"
-      },
-      "wikidata": "Q9559",
-      "sources": [
-        {
-          "title": "John Major — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9559"
-        }
-      ]
-    },
-    {
-      "id": "tony-blair",
-      "name": {
-        "en": "Tony Blair",
-        "fa": "تونی بلر"
-      },
-      "wikidata": "Q9545",
-      "sources": [
-        {
-          "title": "Tony Blair — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9545"
-        }
-      ]
-    },
-    {
-      "id": "david-cameron",
-      "name": {
-        "en": "David Cameron",
-        "fa": "دیوید کامرون"
-      },
-      "wikidata": "Q192",
-      "sources": [
-        {
-          "title": "David Cameron — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q192"
-        }
-      ]
-    },
-    {
-      "id": "theresa-may",
-      "name": {
-        "en": "Theresa May",
-        "fa": "ترزا می"
-      },
-      "wikidata": "Q264766",
-      "sources": [
-        {
-          "title": "Theresa May — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q264766"
-        }
-      ]
-    },
-    {
-      "id": "boris-johnson",
-      "name": {
-        "en": "Boris Johnson",
-        "fa": "بوریس جانسون"
-      },
-      "wikidata": "Q180589",
-      "sources": [
-        {
-          "title": "Boris Johnson — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q180589"
-        }
-      ]
-    },
-    {
-      "id": "liz-truss",
-      "name": {
-        "en": "Liz Truss",
-        "fa": "الیزابت تراس"
-      },
-      "wikidata": "Q272201",
-      "sources": [
-        {
-          "title": "Liz Truss — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q272201"
-        }
-      ]
-    },
-    {
-      "id": "keir-starmer",
-      "name": {
-        "en": "Keir Starmer",
-        "fa": "کر استارمر"
-      },
-      "wikidata": "Q6383803",
-      "sources": [
-        {
-          "title": "Keir Starmer — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q6383803"
-        }
-      ]
-    },
-    {
-      "id": "andy-burnham",
-      "name": {
-        "en": "Andy Burnham",
-        "fa": "اندی برنهم"
-      },
-      "wikidata": "Q269909",
-      "sources": [
-        {
-          "title": "Andy Burnham — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q269909"
-        }
-      ]
-    },
-    {
-      "id": "gordon-brown",
-      "name": {
-        "en": "Gordon Brown",
-        "fa": "گوردون براون"
-      },
-      "wikidata": "Q10648",
-      "sources": [
-        {
-          "title": "Gordon Brown — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q10648"
-        }
-      ]
-    },
-    {
-      "id": "rishi-sunak",
-      "name": {
-        "en": "Rishi Sunak",
-        "fa": "ریشی سوناک"
-      },
-      "wikidata": "Q20055561",
-      "sources": [
-        {
-          "title": "Rishi Sunak — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q20055561"
-        }
-      ]
-    }
-  ],
   "lane": [
     {
       "country": "uk",
@@ -940,109 +140,269 @@
       ]
     }
   ],
+  "offices": [
+    {
+      "office": "Q110324075",
+      "title": {
+        "en": "King",
+        "fa": "پادشاه"
+      }
+    },
+    {
+      "office": "Q111722535",
+      "title": {
+        "en": "King",
+        "fa": "پادشاه"
+      }
+    },
+    {
+      "office": "Q9134365",
+      "title": {
+        "en": "King",
+        "fa": "پادشاه"
+      }
+    }
+  ],
+  "persons": [
+    {
+      "id": "george-iii",
+      "wikidata": "Q127318"
+    },
+    {
+      "id": "george-iv",
+      "wikidata": "Q130586"
+    },
+    {
+      "id": "william-iv",
+      "wikidata": "Q130822"
+    },
+    {
+      "id": "victoria",
+      "wikidata": "Q9439",
+      "name": {
+        "en": "Victoria",
+        "fa": "ویکتوریا"
+      },
+      "note": "en: the Wikipedia title is \"Queen Victoria\"; fa: the fa.wikipedia title «ملکه ویکتوریا» adds a title; the name is kept short, as in English"
+    },
+    {
+      "id": "edward-vii",
+      "wikidata": "Q20875"
+    },
+    {
+      "id": "george-v",
+      "wikidata": "Q269412"
+    },
+    {
+      "id": "edward-viii",
+      "wikidata": "Q590227"
+    },
+    {
+      "id": "george-vi",
+      "wikidata": "Q280856"
+    },
+    {
+      "id": "elizabeth-ii",
+      "wikidata": "Q9682"
+    },
+    {
+      "id": "charles-iii",
+      "wikidata": "Q43274"
+    },
+    {
+      "id": "william-pitt-the-younger",
+      "wikidata": "Q128902"
+    },
+    {
+      "id": "henry-addington",
+      "wikidata": "Q312577"
+    },
+    {
+      "id": "william-grenville-1st-baron-grenville",
+      "wikidata": "Q312596"
+    },
+    {
+      "id": "william-cavendish-bentinck-3rd-duke-of-portland",
+      "wikidata": "Q157208"
+    },
+    {
+      "id": "spencer-perceval",
+      "wikidata": "Q233992"
+    },
+    {
+      "id": "robert-jenkinson-2nd-earl-of-liverpool",
+      "wikidata": "Q312569"
+    },
+    {
+      "id": "f-j-robinson-1st-viscount-goderich",
+      "wikidata": "Q312591"
+    },
+    {
+      "id": "george-canning",
+      "wikidata": "Q219731"
+    },
+    {
+      "id": "arthur-wellesley-1st-duke-of-wellington",
+      "wikidata": "Q131691"
+    },
+    {
+      "id": "charles-grey-2nd-earl-grey",
+      "wikidata": "Q294662"
+    },
+    {
+      "id": "william-lamb-2nd-viscount-melbourne",
+      "wikidata": "Q312567"
+    },
+    {
+      "id": "robert-peel",
+      "wikidata": "Q181875"
+    },
+    {
+      "id": "john-russell-1st-earl-russell",
+      "wikidata": "Q157259",
+      "name": {
+        "fa": "جان راسل"
+      },
+      "note": "fa: no usable fa.wikipedia title; the Wikidata label is «جان راسل (نخست‌وزیر)»"
+    },
+    {
+      "id": "george-hamilton-gordon-4th-earl-of-aberdeen",
+      "wikidata": "Q24631"
+    },
+    {
+      "id": "edward-smith-stanley-14th-earl-of-derby",
+      "wikidata": "Q237829"
+    },
+    {
+      "id": "henry-john-temple-3rd-viscount-palmerston",
+      "wikidata": "Q193656"
+    },
+    {
+      "id": "benjamin-disraeli",
+      "wikidata": "Q82006"
+    },
+    {
+      "id": "william-ewart-gladstone",
+      "wikidata": "Q160852"
+    },
+    {
+      "id": "robert-gascoyne-cecil-3rd-marquess-of-salisbury",
+      "wikidata": "Q243705"
+    },
+    {
+      "id": "archibald-primrose-5th-earl-of-rosebery",
+      "wikidata": "Q244620"
+    },
+    {
+      "id": "arthur-balfour",
+      "wikidata": "Q19008"
+    },
+    {
+      "id": "henry-campbell-bannerman",
+      "wikidata": "Q106618"
+    },
+    {
+      "id": "h-h-asquith",
+      "wikidata": "Q166714"
+    },
+    {
+      "id": "david-lloyd-george",
+      "wikidata": "Q134982"
+    },
+    {
+      "id": "bonar-law",
+      "wikidata": "Q166663"
+    },
+    {
+      "id": "stanley-baldwin",
+      "wikidata": "Q166635"
+    },
+    {
+      "id": "ramsay-macdonald",
+      "wikidata": "Q166646"
+    },
+    {
+      "id": "neville-chamberlain",
+      "wikidata": "Q10664"
+    },
+    {
+      "id": "winston-churchill",
+      "wikidata": "Q8016"
+    },
+    {
+      "id": "clement-attlee",
+      "wikidata": "Q129006"
+    },
+    {
+      "id": "anthony-eden",
+      "wikidata": "Q128995"
+    },
+    {
+      "id": "harold-macmillan",
+      "wikidata": "Q128985"
+    },
+    {
+      "id": "alec-douglas-home",
+      "wikidata": "Q128976"
+    },
+    {
+      "id": "harold-wilson",
+      "wikidata": "Q128956"
+    },
+    {
+      "id": "edward-heath",
+      "wikidata": "Q128967"
+    },
+    {
+      "id": "james-callaghan",
+      "wikidata": "Q9576"
+    },
+    {
+      "id": "margaret-thatcher",
+      "wikidata": "Q7416"
+    },
+    {
+      "id": "john-major",
+      "wikidata": "Q9559"
+    },
+    {
+      "id": "tony-blair",
+      "wikidata": "Q9545"
+    },
+    {
+      "id": "david-cameron",
+      "wikidata": "Q192"
+    },
+    {
+      "id": "theresa-may",
+      "wikidata": "Q264766"
+    },
+    {
+      "id": "boris-johnson",
+      "wikidata": "Q180589"
+    },
+    {
+      "id": "liz-truss",
+      "wikidata": "Q272201"
+    },
+    {
+      "id": "keir-starmer",
+      "wikidata": "Q6383803"
+    },
+    {
+      "id": "andy-burnham",
+      "wikidata": "Q269909"
+    },
+    {
+      "id": "gordon-brown",
+      "wikidata": "Q10648"
+    },
+    {
+      "id": "rishi-sunak",
+      "wikidata": "Q20055561"
+    }
+  ],
   "terms": [
-    {
-      "person": "george-iii",
-      "state": "kingdom-of-great-britain",
-      "office": "head-of-state",
-      "title": {
-        "en": "King",
-        "fa": "پادشاه"
-      },
-      "start": 1760,
-      "end": 1801,
-      "sources": [
-        {
-          "title": "George III — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/George_III"
-        }
-      ]
-    },
-    {
-      "person": "george-iii",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-state",
-      "title": {
-        "en": "King",
-        "fa": "پادشاه"
-      },
-      "start": 1801,
-      "end": 1820,
-      "sources": [
-        {
-          "title": "George III — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/George_III"
-        }
-      ]
-    },
-    {
-      "person": "george-iv",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-state",
-      "title": {
-        "en": "King",
-        "fa": "پادشاه"
-      },
-      "start": 1820,
-      "end": 1830,
-      "sources": [
-        {
-          "title": "George IV — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/George_IV"
-        }
-      ]
-    },
-    {
-      "person": "william-iv",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-state",
-      "title": {
-        "en": "King",
-        "fa": "پادشاه"
-      },
-      "start": 1830,
-      "end": 1837,
-      "sources": [
-        {
-          "title": "William IV — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/William_IV"
-        }
-      ]
-    },
-    {
-      "person": "victoria",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-state",
-      "title": {
-        "en": "Queen",
-        "fa": "ملکه"
-      },
-      "start": 1837,
-      "end": 1901,
-      "sources": [
-        {
-          "title": "Queen Victoria — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Queen_Victoria"
-        }
-      ]
-    },
-    {
-      "person": "edward-vii",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-state",
-      "title": {
-        "en": "King",
-        "fa": "پادشاه"
-      },
-      "start": 1901,
-      "end": 1910,
-      "sources": [
-        {
-          "title": "Edward VII — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Edward_VII"
-        }
-      ]
-    },
     {
       "person": "george-v",
       "state": "uk-of-great-britain-and-ireland",
@@ -1076,1198 +436,29 @@
           "url": "https://en.wikipedia.org/wiki/George_V"
         }
       ]
-    },
+    }
+  ],
+  "titles": [
     {
-      "person": "edward-viii",
-      "state": "united-kingdom",
+      "person": "victoria",
       "office": "head-of-state",
-      "title": {
-        "en": "King",
-        "fa": "پادشاه"
-      },
-      "start": 1936,
-      "end": 1936,
-      "sources": [
-        {
-          "title": "Edward VIII — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Edward_VIII"
-        }
-      ]
-    },
-    {
-      "person": "george-vi",
-      "state": "united-kingdom",
-      "office": "head-of-state",
-      "title": {
-        "en": "King",
-        "fa": "پادشاه"
-      },
-      "start": 1936,
-      "end": 1952,
-      "sources": [
-        {
-          "title": "George VI — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/George_VI"
-        }
-      ]
-    },
-    {
-      "person": "elizabeth-ii",
-      "state": "united-kingdom",
-      "office": "head-of-state",
+      "state": "uk-of-great-britain-and-ireland",
       "title": {
         "en": "Queen",
         "fa": "ملکه"
-      },
-      "start": 1952,
-      "end": 2022,
-      "sources": [
-        {
-          "title": "Elizabeth II — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Elizabeth_II"
-        }
-      ]
+      }
     },
     {
-      "person": "charles-iii",
-      "state": "united-kingdom",
+      "person": "elizabeth-ii",
       "office": "head-of-state",
-      "title": {
-        "en": "King",
-        "fa": "پادشاه"
-      },
-      "start": 2022,
-      "end": null,
-      "sources": [
-        {
-          "title": "Charles III — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Charles_III"
-        }
-      ]
-    },
-    {
-      "person": "william-pitt-the-younger",
-      "state": "kingdom-of-great-britain",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1789,
-      "end": 1801,
-      "sources": [
-        {
-          "title": "William Pitt the Younger — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q128902"
-        }
-      ]
-    },
-    {
-      "person": "henry-addington",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1801,
-      "end": 1804,
-      "sources": [
-        {
-          "title": "Henry Addington — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q312577"
-        }
-      ]
-    },
-    {
-      "person": "william-pitt-the-younger",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1801,
-      "end": 1806,
-      "sources": [
-        {
-          "title": "William Pitt the Younger — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q128902"
-        }
-      ]
-    },
-    {
-      "person": "william-grenville-1st-baron-grenville",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1806,
-      "end": 1807,
-      "sources": [
-        {
-          "title": "William Grenville, 1st Baron Grenville — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q312596"
-        }
-      ]
-    },
-    {
-      "person": "william-cavendish-bentinck-3rd-duke-of-portland",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1807,
-      "end": 1809,
-      "sources": [
-        {
-          "title": "William Cavendish-Bentinck, 3rd Duke of Portland — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q157208"
-        }
-      ]
-    },
-    {
-      "person": "spencer-perceval",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1809,
-      "end": 1812,
-      "sources": [
-        {
-          "title": "Spencer Perceval — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q233992"
-        }
-      ]
-    },
-    {
-      "person": "robert-jenkinson-2nd-earl-of-liverpool",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1812,
-      "end": 1827,
-      "sources": [
-        {
-          "title": "Robert Jenkinson, 2nd Earl of Liverpool — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q312569"
-        }
-      ]
-    },
-    {
-      "person": "george-canning",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1827,
-      "end": 1827,
-      "sources": [
-        {
-          "title": "George Canning — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q219731"
-        }
-      ]
-    },
-    {
-      "person": "f-j-robinson-1st-viscount-goderich",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1827,
-      "end": 1828,
-      "sources": [
-        {
-          "title": "F. J. Robinson, 1st Viscount Goderich — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q312591"
-        }
-      ]
-    },
-    {
-      "person": "arthur-wellesley-1st-duke-of-wellington",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1828,
-      "end": 1830,
-      "sources": [
-        {
-          "title": "Arthur Wellesley, 1st Duke of Wellington — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q131691"
-        }
-      ]
-    },
-    {
-      "person": "charles-grey-2nd-earl-grey",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1830,
-      "end": 1834,
-      "sources": [
-        {
-          "title": "Charles Grey, 2nd Earl Grey — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q294662"
-        }
-      ]
-    },
-    {
-      "person": "arthur-wellesley-1st-duke-of-wellington",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1834,
-      "end": 1834,
-      "sources": [
-        {
-          "title": "Arthur Wellesley, 1st Duke of Wellington — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q131691"
-        }
-      ]
-    },
-    {
-      "person": "william-lamb-2nd-viscount-melbourne",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1834,
-      "end": 1834,
-      "sources": [
-        {
-          "title": "William Lamb, 2nd Viscount Melbourne — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q312567"
-        }
-      ]
-    },
-    {
-      "person": "robert-peel",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1834,
-      "end": 1835,
-      "sources": [
-        {
-          "title": "Robert Peel — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q181875"
-        }
-      ]
-    },
-    {
-      "person": "william-lamb-2nd-viscount-melbourne",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1835,
-      "end": 1841,
-      "sources": [
-        {
-          "title": "William Lamb, 2nd Viscount Melbourne — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q312567"
-        }
-      ]
-    },
-    {
-      "person": "robert-peel",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1841,
-      "end": 1846,
-      "sources": [
-        {
-          "title": "Robert Peel — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q181875"
-        }
-      ]
-    },
-    {
-      "person": "john-russell-1st-earl-russell",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1846,
-      "end": 1852,
-      "sources": [
-        {
-          "title": "John Russell, 1st Earl Russell — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q157259"
-        }
-      ]
-    },
-    {
-      "person": "edward-smith-stanley-14th-earl-of-derby",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1852,
-      "end": 1852,
-      "sources": [
-        {
-          "title": "Edward Smith-Stanley, 14th Earl of Derby — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q237829"
-        }
-      ]
-    },
-    {
-      "person": "george-hamilton-gordon-4th-earl-of-aberdeen",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1852,
-      "end": 1855,
-      "sources": [
-        {
-          "title": "George Hamilton-Gordon, 4th Earl of Aberdeen — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q24631"
-        }
-      ]
-    },
-    {
-      "person": "henry-john-temple-3rd-viscount-palmerston",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1855,
-      "end": 1858,
-      "sources": [
-        {
-          "title": "Henry John Temple, 3rd Viscount Palmerston — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q193656"
-        }
-      ]
-    },
-    {
-      "person": "edward-smith-stanley-14th-earl-of-derby",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1858,
-      "end": 1859,
-      "sources": [
-        {
-          "title": "Edward Smith-Stanley, 14th Earl of Derby — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q237829"
-        }
-      ]
-    },
-    {
-      "person": "henry-john-temple-3rd-viscount-palmerston",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1859,
-      "end": 1865,
-      "sources": [
-        {
-          "title": "Henry John Temple, 3rd Viscount Palmerston — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q193656"
-        }
-      ]
-    },
-    {
-      "person": "john-russell-1st-earl-russell",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1865,
-      "end": 1866,
-      "sources": [
-        {
-          "title": "John Russell, 1st Earl Russell — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q157259"
-        }
-      ]
-    },
-    {
-      "person": "edward-smith-stanley-14th-earl-of-derby",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1866,
-      "end": 1868,
-      "sources": [
-        {
-          "title": "Edward Smith-Stanley, 14th Earl of Derby — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q237829"
-        }
-      ]
-    },
-    {
-      "person": "benjamin-disraeli",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1868,
-      "end": 1868,
-      "sources": [
-        {
-          "title": "Benjamin Disraeli — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q82006"
-        }
-      ]
-    },
-    {
-      "person": "william-ewart-gladstone",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1868,
-      "end": 1874,
-      "sources": [
-        {
-          "title": "William Ewart Gladstone — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q160852"
-        }
-      ]
-    },
-    {
-      "person": "benjamin-disraeli",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1874,
-      "end": 1880,
-      "sources": [
-        {
-          "title": "Benjamin Disraeli — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q82006"
-        }
-      ]
-    },
-    {
-      "person": "william-ewart-gladstone",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1880,
-      "end": 1885,
-      "sources": [
-        {
-          "title": "William Ewart Gladstone — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q160852"
-        }
-      ]
-    },
-    {
-      "person": "robert-gascoyne-cecil-3rd-marquess-of-salisbury",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1885,
-      "end": 1886,
-      "sources": [
-        {
-          "title": "Robert Gascoyne-Cecil, 3rd Marquess of Salisbury — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q243705"
-        }
-      ]
-    },
-    {
-      "person": "william-ewart-gladstone",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1886,
-      "end": 1886,
-      "sources": [
-        {
-          "title": "William Ewart Gladstone — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q160852"
-        }
-      ]
-    },
-    {
-      "person": "robert-gascoyne-cecil-3rd-marquess-of-salisbury",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1886,
-      "end": 1892,
-      "sources": [
-        {
-          "title": "Robert Gascoyne-Cecil, 3rd Marquess of Salisbury — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q243705"
-        }
-      ]
-    },
-    {
-      "person": "william-ewart-gladstone",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1892,
-      "end": 1894,
-      "sources": [
-        {
-          "title": "William Ewart Gladstone — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q160852"
-        }
-      ]
-    },
-    {
-      "person": "archibald-primrose-5th-earl-of-rosebery",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1894,
-      "end": 1895,
-      "sources": [
-        {
-          "title": "Archibald Primrose, 5th Earl of Rosebery — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q244620"
-        }
-      ]
-    },
-    {
-      "person": "robert-gascoyne-cecil-3rd-marquess-of-salisbury",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1895,
-      "end": 1902,
-      "sources": [
-        {
-          "title": "Robert Gascoyne-Cecil, 3rd Marquess of Salisbury — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q243705"
-        }
-      ]
-    },
-    {
-      "person": "arthur-balfour",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1902,
-      "end": 1905,
-      "sources": [
-        {
-          "title": "Arthur Balfour — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q19008"
-        }
-      ]
-    },
-    {
-      "person": "henry-campbell-bannerman",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1905,
-      "end": 1908,
-      "sources": [
-        {
-          "title": "Henry Campbell-Bannerman — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q106618"
-        }
-      ]
-    },
-    {
-      "person": "h-h-asquith",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1908,
-      "end": 1916,
-      "sources": [
-        {
-          "title": "H. H. Asquith — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q166714"
-        }
-      ]
-    },
-    {
-      "person": "david-lloyd-george",
-      "state": "uk-of-great-britain-and-ireland",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1916,
-      "end": 1922,
-      "sources": [
-        {
-          "title": "David Lloyd George — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q134982"
-        }
-      ]
-    },
-    {
-      "person": "bonar-law",
       "state": "united-kingdom",
-      "office": "head-of-government",
       "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1922,
-      "end": 1923,
-      "sources": [
-        {
-          "title": "Bonar Law — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q166663"
-        }
-      ]
-    },
-    {
-      "person": "stanley-baldwin",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1923,
-      "end": 1924,
-      "sources": [
-        {
-          "title": "Stanley Baldwin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q166635"
-        }
-      ]
-    },
-    {
-      "person": "ramsay-macdonald",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1924,
-      "end": 1924,
-      "sources": [
-        {
-          "title": "Ramsay MacDonald — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q166646"
-        }
-      ]
-    },
-    {
-      "person": "stanley-baldwin",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1924,
-      "end": 1929,
-      "sources": [
-        {
-          "title": "Stanley Baldwin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q166635"
-        }
-      ]
-    },
-    {
-      "person": "ramsay-macdonald",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1929,
-      "end": 1935,
-      "sources": [
-        {
-          "title": "Ramsay MacDonald — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q166646"
-        }
-      ]
-    },
-    {
-      "person": "stanley-baldwin",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1935,
-      "end": 1937,
-      "sources": [
-        {
-          "title": "Stanley Baldwin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q166635"
-        }
-      ]
-    },
-    {
-      "person": "neville-chamberlain",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1937,
-      "end": 1940,
-      "sources": [
-        {
-          "title": "Neville Chamberlain — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q10664"
-        }
-      ]
-    },
-    {
-      "person": "winston-churchill",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1940,
-      "end": 1945,
-      "sources": [
-        {
-          "title": "Winston Churchill — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q8016"
-        }
-      ]
-    },
-    {
-      "person": "clement-attlee",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1945,
-      "end": 1951,
-      "sources": [
-        {
-          "title": "Clement Attlee — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q129006"
-        }
-      ]
-    },
-    {
-      "person": "winston-churchill",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1951,
-      "end": 1955,
-      "sources": [
-        {
-          "title": "Winston Churchill — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q8016"
-        }
-      ]
-    },
-    {
-      "person": "anthony-eden",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1955,
-      "end": 1957,
-      "sources": [
-        {
-          "title": "Anthony Eden — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q128995"
-        }
-      ]
-    },
-    {
-      "person": "harold-macmillan",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1957,
-      "end": 1963,
-      "sources": [
-        {
-          "title": "Harold Macmillan — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q128985"
-        }
-      ]
-    },
-    {
-      "person": "alec-douglas-home",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1963,
-      "end": 1964,
-      "sources": [
-        {
-          "title": "Alec Douglas-Home — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q128976"
-        }
-      ]
-    },
-    {
-      "person": "harold-wilson",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1964,
-      "end": 1970,
-      "sources": [
-        {
-          "title": "Harold Wilson — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q128956"
-        }
-      ]
-    },
-    {
-      "person": "edward-heath",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1970,
-      "end": 1974,
-      "sources": [
-        {
-          "title": "Edward Heath — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q128967"
-        }
-      ]
-    },
-    {
-      "person": "harold-wilson",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1974,
-      "end": 1976,
-      "sources": [
-        {
-          "title": "Harold Wilson — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q128956"
-        }
-      ]
-    },
-    {
-      "person": "james-callaghan",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1976,
-      "end": 1979,
-      "sources": [
-        {
-          "title": "James Callaghan — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9576"
-        }
-      ]
-    },
-    {
-      "person": "margaret-thatcher",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1979,
-      "end": 1990,
-      "sources": [
-        {
-          "title": "Margaret Thatcher — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7416"
-        }
-      ]
-    },
-    {
-      "person": "john-major",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1990,
-      "end": 1997,
-      "sources": [
-        {
-          "title": "John Major — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9559"
-        }
-      ]
-    },
-    {
-      "person": "tony-blair",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1997,
-      "end": 2007,
-      "sources": [
-        {
-          "title": "Tony Blair — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9545"
-        }
-      ]
-    },
-    {
-      "person": "gordon-brown",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2007,
-      "end": 2010,
-      "sources": [
-        {
-          "title": "Gordon Brown — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q10648"
-        }
-      ]
-    },
-    {
-      "person": "david-cameron",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2010,
-      "end": 2016,
-      "sources": [
-        {
-          "title": "David Cameron — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q192"
-        }
-      ]
-    },
-    {
-      "person": "theresa-may",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2016,
-      "end": 2019,
-      "sources": [
-        {
-          "title": "Theresa May — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q264766"
-        }
-      ]
-    },
-    {
-      "person": "boris-johnson",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2019,
-      "end": 2022,
-      "sources": [
-        {
-          "title": "Boris Johnson — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q180589"
-        }
-      ]
-    },
-    {
-      "person": "liz-truss",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2022,
-      "end": 2022,
-      "sources": [
-        {
-          "title": "Liz Truss — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q272201"
-        }
-      ]
-    },
-    {
-      "person": "rishi-sunak",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2022,
-      "end": 2024,
-      "sources": [
-        {
-          "title": "Rishi Sunak — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q20055561"
-        }
-      ]
-    },
-    {
-      "person": "keir-starmer",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2024,
-      "end": 2026,
-      "sources": [
-        {
-          "title": "Keir Starmer — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q6383803"
-        }
-      ]
-    },
-    {
-      "person": "andy-burnham",
-      "state": "united-kingdom",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2026,
-      "end": null,
-      "sources": [
-        {
-          "title": "Andy Burnham — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q269909"
-        }
-      ]
+        "en": "Queen",
+        "fa": "ملکه"
+      }
     }
   ],
+  "exclude": [],
   "flags": [
     {
       "state": "kingdom-of-great-britain",

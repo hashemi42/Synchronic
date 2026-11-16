@@ -1,0 +1,15 @@
+{
+"query": "commons imageinfo: Flag of Russia (1858–1896).svg | Flag of Russia (1991–1993).svg | Flag of Russia.svg | Flag of the Russian Soviet Federative Socialist Republic (1918–1925).svg | Flag of the Soviet Union (1922–1923).svg | Flag of the Soviet Union (1924).svg | Flag of the Soviet Union (1924–1936).svg | Flag of the Soviet Union (1936 – 1955).svg | Flag of the Soviet Union.svg",
+"fetchedAt": "2026-11-16T21:31:35.835Z",
+"rows": [
+{"file":"Flag of Russia (1858–1896).svg","sha1":"84fc3c9af71b1f4deb4af62709de383cc6f24a49","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Кёне, Бернгард Васильевич"},
+{"file":"Flag of Russia (1991–1993).svg","sha1":"0feeeed5a76b3d8b167cd37e0b3cf4ba951de497","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"svg by R-41, reworked by Pianist"},
+{"file":"Flag of Russia.svg","sha1":"82d5af67d5fa23efd124d8a24941f7cc615907d4","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Peter the Great"},
+{"file":"Flag of the Russian Soviet Federative Socialist Republic (1918–1925).svg","sha1":"3ba304aff27afbe5b75565a28cab9ccba30414b1","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Sergey Chekhonin"},
+{"file":"Flag of the Soviet Union (1922–1923).svg","sha1":"2c063c7eefc7ff558231837b949b375aa4d6d841","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"UnknownUnknown This W3C-unspecified vector image was created with Inkscape ."},
+{"file":"Flag of the Soviet Union (1924–1936).svg","sha1":"e6ca012955deb1c22bae9e3984e82e16850ef179","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Supreme Dragon"},
+{"file":"Flag of the Soviet Union (1924).svg","sha1":"56cdd0b177992eae8f72d046e4a99fe1b9215fd9","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Supreme Dragon"},
+{"file":"Flag of the Soviet Union (1936 – 1955).svg","sha1":"b4d45224eabe3f55f8f456da2b54e5bbb7291467","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"created by rotemliss from Image:Flag of the Soviet Union.svg."},
+{"file":"Flag of the Soviet Union.svg","sha1":"b7c85f273275e563ad3ea71bbba4fa13aca6a17c","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"СССР"}
+]
+}

@@ -1,11 +1,13 @@
 /**
  * Pipeline, stages 2 and 3 (PRD §6.3): raw Wikidata rows → records in the schema, then the curated
- * layer on top. Pure: no network and no file access, so the same raw files always give the same
- * output.
+ * layer on top, which always wins. Pure: no network and no file access, so the same raw files and
+ * the same curated file always give the same output.
  *
- * Curated input, never taken from Wikidata: the country record, which states make up the lane and
- * when, record ids (they are in shared URLs), flags, narratives, the office rules and the
- * exclusions. Everything else is read from statements.
+ * From Wikidata: who held which office and when (P39 on the offices, P35 and P6 on the states),
+ * people's names and years, and each flag's licence from Commons.
+ * Curated (data/overrides/countries/<id>.json): the country, its states, the lane, which offices
+ * count and what their holders are called, record ids, flags, and the patches: terms Wikidata
+ * lacks or gets wrong, names kept against the default, and holders left out, each with a reason.
  */
 import type { Raw } from "./fetch";
 import { EXCLUDE, EXCLUDE_TERMS, RULES } from "./rules";
@@ -18,31 +20,56 @@ export type Term = {
   person: string; state: string; office: Office; title: Localized;
   start: number; end: number | null; exactStart?: string; exactEnd?: string; sources: Source[];
 };
-export type Person = { id: string; name: Localized; born?: number; died?: number; wikidata?: string; sources: Source[] };
+export type Person = { id: string; name: Localized; localName?: string; born?: number; died?: number; wikidata?: string; sources: Source[] };
 export type State = {
   id: string; name: Localized; officialName?: Localized; localName?: string; start: number; end: number | null;
   circa?: boolean; capital?: Localized; system?: Localized; wikidata?: string; sources: Source[];
 };
 export type LanePeriod = { country: string; state: string | null; start: number; end: number | null; kind: string; [k: string]: unknown };
+export type Flag = { state: string; file: string; start: number; end: number | null; license: string; licenseUrl?: string; attribution: string; sha1?: string; retrieved?: string; [k: string]: unknown };
 export type CountryFile = {
   country: { id: string; name: Localized; wikidata: string; [k: string]: unknown };
-  states: State[]; persons: Person[]; lane: LanePeriod[]; terms: Term[]; flags: Record<string, unknown>[]; narratives?: unknown[];
+  states: State[]; persons: Person[]; lane: LanePeriod[]; terms: Term[]; flags: Flag[]; narratives?: unknown[];
 };
 
-/** A head-of-state office found on Wikidata; `state` is set when its holders belong to one state only. */
-export type HeadOffice = { office: string; state: string | null };
+/** A head-of-state office: its holders (P39) become head-of-state terms with this title. */
+export type OfficeRule = {
+  office: string;
+  title: Localized;
+  /** Set when the holders belong to one state off the main sequence; otherwise they are placed by date. */
+  state?: string;
+  /** The office counts only from, or until, this year (the Republic of China's presidency until 1949). */
+  from?: number;
+  until?: number;
+  /** Only holders of these families (P53): a title shared across countries, narrowed to one dynasty. */
+  family?: string[];
+  note?: string;
+};
+/** The curated file of one country: data/overrides/countries/<id>.json. */
+export type Curated = {
+  country: CountryFile["country"];
+  states: State[];
+  lane: LanePeriod[];
+  offices: OfficeRule[];
+  /** Every person's id (ids are in shared URLs), and any name kept against the default, with the reason. */
+  persons: { id: string; wikidata: string; name?: Partial<Localized>; note?: string }[];
+  /** Terms Wikidata lacks or gets wrong. They replace the pipeline's terms for that person and office. */
+  terms: Term[];
+  /** A title for one term where the office's title does not fit ("Queen", "Empress"). */
+  titles: { person: string; office: Office; state: string; title: Localized }[];
+  /** Holders on Wikidata left out on purpose, by rule (docs/data-rules.md). */
+  exclude: { wikidata: string; office: "head-of-state" | "head-of-government"; reason: string }[];
+  flags: Flag[];
+  narratives?: unknown[];
+};
 /** A head-of-government term Wikidata lacks (data/overrides/heads-of-government.json). */
 export type AddedTerm = { country: string; office: string; person: string; name: Localized; start: number; end: number | null; sources?: Source[] };
 
 export type Config = {
-  /** The country file as curated today: the source of the lane, the state list and the ids. */
-  curated: CountryFile;
+  curated: Curated;
   hogOffices: string[];
   /** Offices that became the head of government in a given year (Turkey's presidency, 2018). */
   hogFrom: Record<string, number>;
-  hosOffices: HeadOffice[];
-  /** "Q…:office" → the rule that leaves this holder out (docs/data-rules.md). */
-  excluded: Map<string, string>;
   /** Persian names for people with no Persian Wikipedia article or label, by Wikidata id. */
   manualFa: Record<string, string>;
   addedTerms: AddedTerm[];
@@ -50,19 +77,21 @@ export type Config = {
 
 export type NameSource = "fa.wikipedia" | "Wikidata label" | "persian-names.json" | "override" | "none";
 export type Note = { kind: string; record: string; detail: string };
-export type Candidate = { state: string; file: string; start: number | null; end: number | null; rank: string };
 export type Result = {
   file: CountryFile;
-  /** Where each Persian name came from, by Wikidata id, and the fa.wikipedia title when it was trimmed. */
-  persian: Map<string, { from: NameSource; title?: string }>;
+  /** Where each person's Persian name came from, by Wikidata id. */
+  persian: Map<string, NameSource>;
+  /** How many terms came from Wikidata statements and how many from the curated file. */
+  origin: { wikidata: number; curated: number };
   notes: Note[];
-  flagCandidates: Candidate[];
 };
 
 const GENERIC: Record<string, Localized> = {
   "head-of-state": { en: "Head of state", fa: "رئیس کشور" },
   "head-of-government": { en: "Head of government", fa: "رئیس دولت" },
 };
+/** Flags may be used under these licences (data phase proposal, section 2). */
+export const LICENCES = /^(public domain|pd\b|cc0|cc by(-sa)? \d)/i;
 
 export const slug = (s: string) =>
   s.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/['’.]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -85,9 +114,21 @@ export function indexNames(rows: Row[]): Map<string, Names> {
 }
 
 /**
+ * The Persian name rule: the fa.wikipedia title, unless it carries brackets or a comma (a
+ * disambiguator or a full formal name: "لئوپولد دوم، امپراتور مقدس روم"), then Wikidata's Persian
+ * label, then data/overrides/persian-names.json.
+ */
+export function persianName(n: Names | undefined, manual: string | undefined): { value: string | null; from: NameSource } {
+  if (n?.wikiFa && !/[()،,]/.test(n.wikiFa)) return { value: n.wikiFa, from: "fa.wikipedia" };
+  if (n?.labelFa) return { value: n.labelFa, from: "Wikidata label" };
+  if (manual) return { value: manual, from: "persian-names.json" };
+  return { value: n?.wikiFa ? clean(n.wikiFa) : null, from: n?.wikiFa ? "fa.wikipedia" : "none" };
+}
+
+/**
  * Joins terms of one person in one state and office that overlap (successive cabinets on one
- * statement each). `rank` says how good each term's title is (lower wins): a curated rule, the
- * office's name on Wikidata, or the generic fallback.
+ * statement each). `rank` says how good each term's title is (lower wins): a curated rule, or the
+ * generic fallback.
  */
 export function joinTerms(terms: Term[], rank: (t: Term) => number = () => 0): Term[] {
   const sorted = [...terms].sort(
@@ -114,7 +155,17 @@ export function joinTerms(terms: Term[], rank: (t: Term) => number = () => 0): T
       out.push(copy);
     }
   }
-  return out.sort((a, b) => a.start - b.start || (a.end ?? Infinity) - (b.end ?? Infinity) || a.person.localeCompare(b.person));
+  return out;
+}
+
+const byStart = (a: Term, b: Term) =>
+  a.start - b.start || (a.end ?? Infinity) - (b.end ?? Infinity) || a.office.localeCompare(b.office) || a.person.localeCompare(b.person) || a.state.localeCompare(b.state);
+
+/** R3: is this statement qualified as acting or interim, and for less than a year? */
+function briefStandIn(nature: string | undefined, start: When, end: When | null): boolean {
+  if (!nature || !/\b(acting|interim|caretaker|provisional)\b/i.test(nature) || !end) return false;
+  if (start.exact?.length === 10 && end.exact?.length === 10) return Date.parse(end.exact) - Date.parse(start.exact) < 365 * 86_400_000;
+  return end.year - start.year < 1;
 }
 
 export function normalize(raw: Raw, cfg: Config): Result {
@@ -122,22 +173,10 @@ export function normalize(raw: Raw, cfg: Config): Result {
   const country = curated.country.id;
   const notes: Note[] = [];
   const names = indexNames(raw.names);
-  const persian = new Map<string, { from: NameSource; title?: string }>();
-
+  const persian = new Map<string, NameSource>();
   const en = (q: string) => {
     const n = names.get(q);
     return n?.wikiEn ? clean(n.wikiEn) : (n?.labelEn ?? n?.labelMul ?? null);
-  };
-  const fa = (q: string): string | null => {
-    const n = names.get(q);
-    if (n?.wikiFa) {
-      const trimmed = clean(n.wikiFa);
-      persian.set(q, { from: "fa.wikipedia", title: trimmed === n.wikiFa ? undefined : n.wikiFa });
-      return trimmed;
-    }
-    const value = n?.labelFa ?? cfg.manualFa[q] ?? null;
-    persian.set(q, { from: n?.labelFa ? "Wikidata label" : cfg.manualFa[q] ? "persian-names.json" : "none" });
-    return value;
   };
   const sourcesOf = (q: string, name: string): Source[] => {
     const n = names.get(q);
@@ -147,12 +186,8 @@ export function normalize(raw: Raw, cfg: Config): Result {
     ];
   };
   const time = (r: Row, k: "at" | "start" | "end") => when(r[k], r[`${k}Prec`], r[`${k}Cal`]);
-  const preferred = (rows: Row[]) => {
-    const best = rows.filter((r) => r.rank.endsWith("PreferredRank"));
-    return best.length ? best : rows;
-  };
 
-  // ------------------------------------------------------------ the lane (curated)
+  // ------------------------------------------------------------ the lane and the states (curated)
   const mainline = curated.lane.filter((p) => p.kind !== "rival" && p.kind !== "parallel" && p.state).sort((a, b) => a.start - b.start);
   const first = Math.min(...curated.lane.map((p) => p.start));
   const stateAt = (y: number) => mainline.find((p) => p.start <= y && (p.end === null || y < p.end))?.state ?? null;
@@ -162,114 +197,80 @@ export function normalize(raw: Raw, cfg: Config): Result {
     if (periods.length === 0) return null;
     return { start: Math.min(...periods.map((p) => p.start)), end: periods.some((p) => p.end === null) ? null : Math.max(...periods.map((p) => p.end!)) };
   };
-
-  // ------------------------------------------------------------ states
-  const byState = Map.groupBy(raw.states, (r) => qid(r.item));
-  const states: State[] = curated.states.map((hand) => {
-    if (!hand.wikidata) {
-      notes.push({ kind: "state without a Wikidata item", record: hand.id, detail: "Kept as curated; the pipeline cannot fetch it." });
-      return hand;
-    }
-    const q = hand.wikidata;
-    const rows = byState.get(q) ?? [];
-    const prop = (p: string) => rows.filter((r) => r.prop === p);
-    const lane = span(hand.id);
-    // An item such as Q794 (Iran) lists several inceptions; the one meant is the nearest to the lane.
-    const nearest = (p: string, target: number | null | undefined) => {
-      const years = prop(p).map((r) => time(r, "at")?.year).filter((y): y is number => y != null);
-      if (years.length === 0) return null;
-      return target == null ? Math.max(...years) : years.sort((a, b) => Math.abs(a - target) - Math.abs(b - target))[0];
-    };
-    const start = nearest("P571", lane?.start ?? hand.start);
-    const end = lane?.end === null && !curated.states.some((s) => s.wikidata === q && s.id !== hand.id) ? null : nearest("P576", lane?.end ?? hand.end);
-    if (start === null) notes.push({ kind: "state: no inception on Wikidata", record: hand.id, detail: q });
-
-    const pick = (p: string): string | null => {
-      const all = prop(p).filter((r) => r.value.startsWith("http://www.wikidata.org/entity/Q"));
-      const best = preferred(all);
-      const current = best.filter((r) => !r.end);
-      const chosen = best.length === 1 ? best : current.length === 1 ? current : [];
-      if (chosen.length === 0 && all.length > 1)
-        notes.push({ kind: `state: ${p === "P36" ? "capital" : "system"} is ambiguous on Wikidata`, record: hand.id, detail: `${new Set(all.map((r) => qid(r.value))).size} values, none preferred` });
-      return chosen[0] ? qid(chosen[0].value) : null;
-    };
-    const localized = (item: string | null): Localized | undefined => {
-      if (!item) return undefined;
-      const [e, f] = [en(item), fa(item)];
-      return e && f ? { en: e, fa: f } : undefined;
-    };
-    const official = (lang: string) => {
-      const list = preferred(prop("P1448").filter((r) => r.valueLang === lang));
-      return (list.find((r) => !r.end) ?? list.at(-1))?.value;
-    };
-    const nameEn = en(q) ?? hand.name.en;
-    const state: State = {
-      id: hand.id,
-      name: { en: nameEn, fa: fa(q) ?? "" },
-      ...(official("en") && official("fa") ? { officialName: { en: official("en")!, fa: official("fa")! } } : {}),
-      start: start ?? hand.start,
-      end,
-      ...(localized(pick("P36")) ? { capital: localized(pick("P36")) } : {}),
-      ...(localized(pick("P122")) ? { system: localized(pick("P122")) } : {}),
-      wikidata: q,
-      sources: sourcesOf(q, nameEn),
-    };
-    return state;
-  });
-  const stateById = new Map(states.map((s) => [s.id, s]));
   const stateIdsOf = (q: string) => curated.states.filter((s) => s.wikidata === q).map((s) => s.id);
 
-  // ------------------------------------------------------------ statements → pieces of terms
-  type Statement = { person: string; office: "head-of-state" | "head-of-government"; start: When | null; end: When | null; state: string | null; title: Localized | null; via: string; sources?: Source[] };
-  const statements: Statement[] = [];
-  // An office's name without the country: "President of France" → "President", «رئیس‌جمهور فرانسه» → «رئیس‌جمهور».
-  const places = [curated.country.name, ...curated.states.map((s) => s.name)];
-  const title = (item: string | undefined): Localized | null => {
-    if (!item) return null;
-    let [e, f] = [en(item), fa(item)];
-    if (!e || !f) return null;
-    for (const p of places) {
-      for (const tail of [` of the ${p.en}`, ` of ${p.en}`]) if (e.toLowerCase().endsWith(tail.toLowerCase())) e = e.slice(0, -tail.length);
-      if (f.endsWith(` ${p.fa}`)) f = f.slice(0, -p.fa.length - 1);
+  // ------------------------------------------------------------ people
+  const facts = new Map<string, { born?: number; died?: number; family: Set<string> }>();
+  for (const r of raw.people) {
+    const e = facts.get(qid(r.item)) ?? { family: new Set<string>() };
+    if (r.prop === "P53") e.family.add(qid(r.value));
+    else {
+      const y = time(r, "at")?.year;
+      if (y != null) e[r.prop === "P569" ? "born" : "died"] ??= y;
     }
-    return { en: e[0].toUpperCase() + e.slice(1), fa: f };
+    facts.set(qid(r.item), e);
+  }
+  const registry = new Map(curated.persons.map((p) => [p.wikidata, p]));
+  const added = new Map(cfg.addedTerms.map((t) => [t.person, t.name]));
+  const persons = new Map<string, Person>();
+  const personOf = (q: string): Person => {
+    let p = persons.get(q);
+    if (p) return p;
+    const kept = registry.get(q);
+    const nameEn = kept?.name?.en ?? en(q) ?? added.get(q)?.en ?? q;
+    const auto = persianName(names.get(q), cfg.manualFa[q]);
+    const nameFa = kept?.name?.fa ?? auto.value ?? added.get(q)?.fa ?? "";
+    persian.set(q, kept?.name?.fa || !auto.value ? (nameFa ? "override" : "none") : auto.from);
+    let id = kept?.id ?? slug(nameEn);
+    if (!kept && ([...persons.values()].some((x) => x.id === id) || curated.persons.some((x) => x.id === id))) id = `${id}-${q.toLowerCase()}`;
+    const f = facts.get(q);
+    p = { id, name: { en: nameEn, fa: nameFa }, ...(f?.born != null ? { born: f.born } : {}), ...(f?.died != null ? { died: f.died } : {}), wikidata: q, sources: sourcesOf(q, nameEn) };
+    persons.set(q, p);
+    return p;
   };
 
+  // ------------------------------------------------------------ statements
+  type Statement = { person: string; office: "head-of-state" | "head-of-government"; start: When | null; end: When | null; state: string | null; title: Localized | null; via: string; nature?: string; sources?: Source[] };
+  const statements: Statement[] = [];
+  const natureOf = (r: Row) => (r.nature ? (en(qid(r.nature)) ?? undefined) : undefined);
+
   // P35 and P6 on the state items. An item shared by several states of the lane (Q142 for every
-  // French republic) is placed by date.
+  // French republic) is placed by date. They carry no office, so the title comes from the same
+  // person's P39 statement where there is one, or from the curated file.
   for (const r of raw.states.filter((x) => x.prop === "P35" || x.prop === "P6")) {
     if (!r.value.startsWith("http://www.wikidata.org/entity/Q")) continue;
     const item = qid(r.item);
     const ids = stateIdsOf(item);
-    const officeProp = r.prop === "P35" ? "P1906" : "P1313";
-    const offices = [...new Set((byState.get(item) ?? []).filter((x) => x.prop === officeProp).map((x) => qid(x.value)))];
     statements.push({
-      person: qid(r.value),
-      office: r.prop === "P35" ? "head-of-state" : "head-of-government",
-      start: time(r, "start"), end: time(r, "end"),
-      state: ids.length === 1 ? ids[0] : null,
-      title: offices.length === 1 ? title(offices[0]) : null,
-      via: `${r.prop} on ${item}`,
+      person: qid(r.value), office: r.prop === "P35" ? "head-of-state" : "head-of-government",
+      start: time(r, "start"), end: time(r, "end"), state: ids.length === 1 ? ids[0] : null, title: null, via: `${r.prop} on ${item}`, nature: natureOf(r),
     });
   }
-  // P39: holders of the head-of-state offices …
-  const hos = new Map(cfg.hosOffices.map((o) => [o.office, o]));
   for (const r of raw.holders) {
     const office = qid(r.office);
-    const head = hos.get(office);
-    if (head) {
-      statements.push({ person: qid(r.person), office: "head-of-state", start: time(r, "start"), end: time(r, "end"), state: head.state, title: title(office), via: `P39 ${office}` });
+    const person = qid(r.person);
+    let start = time(r, "start");
+    let end = time(r, "end");
+    for (const head of curated.offices.filter((o) => o.office === office)) {
+      const inFamily = !head.family || head.family.some((f) => facts.get(person)?.family.has(f));
+      const tooEarly = head.from !== undefined && end && end.year <= head.from;
+      const tooLate = head.until !== undefined && start && start.year >= head.until;
+      if (inFamily && !tooEarly && !tooLate) {
+        if (head.from !== undefined && start && start.year < head.from) start = { year: head.from };
+        if (head.until !== undefined && start && (!end || end.year > head.until)) end = { year: head.until };
+        statements.push({ person, office: "head-of-state", start, end, state: head.state ?? null, title: head.title, via: `P39 ${office}`, nature: natureOf(r) });
+      }
+      start = time(r, "start");
+      end = time(r, "end");
     }
-    // … and of the head-of-government offices, each placed and titled by its rule.
+    // Head-of-government offices are placed and titled by their rule (scripts/pipeline/rules.ts).
     if (cfg.hogOffices.includes(office)) {
-      let start = time(r, "start");
-      const end = time(r, "end");
       const from = cfg.hogFrom[office];
       if (from !== undefined && end && end.year <= from) continue;
       if (from !== undefined && start && start.year < from) start = { year: from };
       const rule = start ? RULES[office]?.(start.year) : null;
       if (start && !rule) continue;
-      statements.push({ person: qid(r.person), office: "head-of-government", start, end, state: rule?.state ?? null, title: rule?.title ?? null, via: `P39 ${office}` });
+      statements.push({ person, office: "head-of-government", start, end, state: rule?.state ?? null, title: rule?.title ?? null, via: `P39 ${office}`, nature: natureOf(r) });
     }
   }
   for (const t of cfg.addedTerms.filter((x) => x.country === country)) {
@@ -278,39 +279,14 @@ export function normalize(raw: Raw, cfg: Config): Result {
     statements.push({ person: t.person, office: "head-of-government", start: { year: t.start }, end: t.end === null ? null : { year: t.end }, state: rule.state, title: rule.title, via: "data/overrides/heads-of-government.json", sources: t.sources });
   }
 
-  const born = new Map<string, { born?: number; died?: number }>();
-  for (const r of raw.people) {
-    const e = born.get(qid(r.item)) ?? {};
-    const y = time(r, "at")?.year;
-    if (y != null) e[r.prop === "P569" ? "born" : "died"] ??= y;
-    born.set(qid(r.item), e);
-  }
-
-  const ids = new Map(curated.persons.filter((p) => p.wikidata).map((p) => [p.wikidata!, p.id]));
-  const added = new Map(cfg.addedTerms.map((t) => [t.person, t.name]));
-  const persons = new Map<string, Person>();
-  const personOf = (q: string): Person => {
-    let p = persons.get(q);
-    if (p) return p;
-    const nameEn = en(q) ?? added.get(q)?.en ?? q;
-    let nameFa = fa(q);
-    if (!nameFa && added.get(q)) {
-      nameFa = added.get(q)!.fa;
-      persian.set(q, { from: "override" });
-    }
-    let id = ids.get(q) ?? slug(nameEn);
-    if (!ids.has(q) && ([...persons.values()].some((x) => x.id === id) || curated.persons.some((x) => x.id === id))) id = `${id}-${q.toLowerCase()}`;
-    p = { id, name: { en: nameEn, fa: nameFa ?? "" }, ...born.get(q), wikidata: q, sources: sourcesOf(q, nameEn) };
-    persons.set(q, p);
-    return p;
-  };
-
+  // ------------------------------------------------------------ statements → terms
+  const excluded = new Map(curated.exclude.map((x) => [`${x.wikidata}:${x.office}`, x.reason]));
+  const curatedGroups = new Set(curated.terms.map((t) => `${t.person}|${t.office}`));
   const pieces: Term[] = [];
   const titleRank = new Map<Term, number>();
   for (const s of statements) {
     const label = `${en(s.person) ?? s.person} · ${s.office}`;
-    const why = cfg.excluded.get(`${s.person}:${s.office}`) ?? (s.office === "head-of-government" ? EXCLUDE[s.person] : undefined);
-    if (why) continue;
+    if (excluded.has(`${s.person}:${s.office}`) || (s.office === "head-of-government" && EXCLUDE[s.person])) continue;
     if (s.office === "head-of-government" && EXCLUDE_TERMS[`${s.person}:${s.start?.year ?? null}-${s.end?.year ?? null}`]) continue;
     if (!s.start) {
       notes.push({ kind: "statement without a start date", record: label, detail: `${s.via}; end ${s.end?.year ?? "none"}` });
@@ -318,18 +294,25 @@ export function normalize(raw: Raw, cfg: Config): Result {
     }
     if (s.end && s.end.year < first) continue;
     // No end date means "still in office" only for the living; for the dead it is a missing date.
-    if (!s.end && born.get(s.person)?.died != null) {
+    if (!s.end && facts.get(s.person)?.died != null) {
       notes.push({ kind: "statement without an end date", record: label, detail: `${s.via}; start ${s.start.year}` });
       continue;
     }
+    if (briefStandIn(s.nature, s.start, s.end)) {
+      notes.push({ kind: "R3: acting or interim for less than a year, left out", record: label, detail: `${s.via}; ${s.start.exact ?? s.start.year}–${s.end?.exact ?? s.end?.year}; ${s.nature}` });
+      continue;
+    }
+    // A term that began before the lane's first year keeps its true start, back to the state's
+    // own first year. Heads of government placed by date start with the lane, as they always have.
+    const early = s.office === "head-of-state" || s.state !== null;
     const place = (id: string, from: number) => {
-      const lane = span(id);
-      if (!lane) return null;
+      const held = span(id);
+      if (!held) return null;
+      const own = curated.states.find((x) => x.id === id)!;
+      const lane = held.start === first && early ? { ...held, start: Math.min(held.start, own.start) } : held;
       if (from < lane.start && (s.end?.year ?? Infinity) < lane.start) return null;
       if (lane.end !== null && from > lane.end) return null;
-      const start = Math.max(from, lane.start);
-      const end = s.end === null ? lane.end : lane.end === null ? s.end.year : Math.min(s.end.year, lane.end);
-      return { state: id, start, end };
+      return { state: id, start: Math.max(from, lane.start), end: s.end === null ? lane.end : lane.end === null ? s.end.year : Math.min(s.end.year, lane.end) };
     };
     const found: { state: string; start: number; end: number | null }[] = [];
     if (s.state) {
@@ -340,7 +323,7 @@ export function normalize(raw: Raw, cfg: Config): Result {
       for (;;) {
         const id = stateAt(y) ?? (s.end?.year === y ? stateAt(y - 1) : null);
         if (!id) break;
-        const p = place(id, y);
+        const p = place(id, y === first ? s.start.year : y);
         if (!p) break;
         found.push(p);
         if (p.end === null || s.end === null || p.end >= s.end.year || p.end === y) break;
@@ -352,6 +335,7 @@ export function normalize(raw: Raw, cfg: Config): Result {
       continue;
     }
     const person = personOf(s.person);
+    if (curatedGroups.has(`${person.id}|${s.office}`)) continue;
     for (const p of found) {
       const piece: Term = {
         person: person.id, ...p, office: s.office, title: s.title ?? GENERIC[s.office],
@@ -359,45 +343,54 @@ export function normalize(raw: Raw, cfg: Config): Result {
         ...(s.end?.exact && p.end === s.end.year ? { exactEnd: s.end.exact } : {}),
         sources: s.sources ?? person.sources,
       };
-      titleRank.set(piece, !s.title ? 2 : s.via.startsWith("P39") && s.office === "head-of-government" ? 0 : s.via.startsWith("data/") ? 0 : 1);
+      titleRank.set(piece, s.title ? 0 : 1);
       pieces.push(piece);
     }
   }
 
-  const terms = joinTerms(pieces, (t) => titleRank.get(t) ?? 0);
-  for (const t of terms) {
-    const s = stateById.get(t.state)!;
-    if (t.start < s.start || (t.end ?? Infinity) > (s.end ?? Infinity)) {
-      notes.push({ kind: "term outside the state's years on Wikidata", record: `${t.person} · ${t.state}`, detail: `term ${t.start}–${t.end ?? "…"}, state ${s.start}–${s.end ?? "…"}` });
-    }
+  const fromWikidata = joinTerms(pieces, (t) => titleRank.get(t) ?? 0);
+  const titled = new Map(curated.titles.map((t) => [`${t.person}|${t.office}|${t.state}`, t.title]));
+  for (const t of fromWikidata) {
+    const own = titled.get(`${t.person}|${t.office}|${t.state}`);
+    if (own) t.title = own;
+    else if (t.title.en === GENERIC[t.office]?.en) notes.push({ kind: "term with no title: the office is not in the curated list", record: `${t.person} · ${t.state}`, detail: `${t.start}–${t.end ?? "…"}` });
   }
+  // Curated terms name people by id; make sure each has a record.
+  for (const t of curated.terms) {
+    const known = curated.persons.find((p) => p.id === t.person);
+    if (known) personOf(known.wikidata);
+  }
+  const terms = [...fromWikidata, ...curated.terms].sort(byStart);
   const used = new Set(terms.map((t) => t.person));
 
-  // ------------------------------------------------------------ flag candidates (P41)
-  const flagCandidates: Candidate[] = raw.states
-    .filter((r) => r.prop === "P41")
-    .flatMap((r) =>
-      stateIdsOf(qid(r.item)).map((state) => ({
-        state,
-        file: decodeURIComponent(r.value.split("/Special:FilePath/").pop()!).replaceAll("_", " "),
-        start: time(r, "start")?.year ?? null,
-        end: time(r, "end")?.year ?? null,
-        rank: r.rank.split("#").pop()!.replace("Rank", "").toLowerCase(),
-      })),
-    );
+  // ------------------------------------------------------------ flags: licence and author from Commons
+  const commons = new Map(raw.flags.map((r) => [r.file, r]));
+  const flags = curated.flags.map((f) => {
+    const c = commons.get(f.file);
+    if (!c) {
+      notes.push({ kind: "flag: file not found on Commons", record: `${f.state} · ${f.file}`, detail: "" });
+      return f;
+    }
+    if (!LICENCES.test(c.license)) notes.push({ kind: "flag: licence not on the allowlist", record: `${f.state} · ${f.file}`, detail: c.license || "none stated" });
+    const free = /^(public domain|pd\b|cc0)/i.test(c.license);
+    if (!free && !c.licenseUrl) notes.push({ kind: "flag: no licence URL", record: `${f.state} · ${f.file}`, detail: c.license });
+    const rest: Flag = { ...f };
+    delete rest.licenseUrl;
+    return { ...rest, license: c.license || f.license, ...(c.licenseUrl ? { licenseUrl: c.licenseUrl } : {}), attribution: f.attribution || c.attribution, sha1: c.sha1, retrieved: raw.flagsRetrieved };
+  });
 
   return {
     file: {
       country: curated.country,
-      states,
+      states: curated.states,
       persons: [...persons.values()].filter((p) => used.has(p.id)).sort((a, b) => a.id.localeCompare(b.id)),
       lane: curated.lane,
       terms,
-      flags: curated.flags,
+      flags,
       ...(curated.narratives ? { narratives: curated.narratives } : {}),
     },
     persian,
+    origin: { wikidata: fromWikidata.length, curated: curated.terms.length },
     notes,
-    flagCandidates,
   };
 }

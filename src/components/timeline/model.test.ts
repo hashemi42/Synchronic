@@ -1,11 +1,11 @@
 import { describe, expect, it } from "vitest";
-import china from "../../../data/overrides/countries/china.json";
-import france from "../../../data/overrides/countries/france.json";
-import india from "../../../data/overrides/countries/india.json";
-import germany from "../../../data/overrides/countries/germany.json";
-import russia from "../../../data/overrides/countries/russia.json";
-import turkey from "../../../data/overrides/countries/turkey.json";
-import uk from "../../../data/overrides/countries/uk.json";
+import china from "../../../data/merged/china.json";
+import france from "../../../data/merged/france.json";
+import india from "../../../data/merged/india.json";
+import germany from "../../../data/merged/germany.json";
+import russia from "../../../data/merged/russia.json";
+import turkey from "../../../data/merged/turkey.json";
+import uk from "../../../data/merged/uk.json";
 import { validateCountryFile } from "@/lib/data/validate";
 import { getCountryFile } from "@/lib/data/load";
 import { buildLaneModel, governmentAt, headAt, othersAt, overlaps, reignAt } from "./model";

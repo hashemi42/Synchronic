@@ -8,6 +8,7 @@
 
 **If it changes data** (`data/`):
 
+- [ ] `pnpm data:pipeline` was run and `data/merged/` is committed with the curated file.
 - [ ] Every new or changed fact has a source in its `sources` field.
 - [ ] English and Persian names are both filled in.
 - [ ] New flags: licence and attribution are set, and `pnpm mirror:flags` was run and its files committed.

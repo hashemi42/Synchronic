@@ -151,6 +151,9 @@ export const Flag = z
     license: z.string().min(1),
     licenseUrl: z.url({ protocol: /^https?$/ }).optional(),
     attribution: z.string().min(1),
+    /** SHA-1 of the original file on Commons when its licence was read, and the date it was read. */
+    sha1: z.string().regex(/^[0-9a-f]{40}$/).optional(),
+    retrieved: z.iso.date().optional(),
     withheld: z.boolean().default(false),
     ...sourced,
   })
@@ -194,7 +197,7 @@ export const Narrative = z.strictObject({
   ...sourced,
 });
 
-/** One file per country in data/overrides/countries/. */
+/** One file per country in data/merged/, written by the pipeline (`pnpm data:pipeline`). */
 export const CountryFile = z.strictObject({
   $schema: z.string().optional(),
   country: Country,

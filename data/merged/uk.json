@@ -34,15 +34,15 @@
         "en": "London",
         "fa": "لندن"
       },
+      "system": {
+        "en": "Constitutional monarchy",
+        "fa": "پادشاهی مشروطه"
+      },
       "wikidata": "Q161885",
       "sources": [
         {
           "title": "Kingdom of Great Britain — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Kingdom_of_Great_Britain"
-        },
-        {
-          "title": "Kingdom of Great Britain — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q161885"
         }
       ]
     },
@@ -53,20 +53,20 @@
         "fa": "پادشاهی متحد بریتانیای کبیر و ایرلند"
       },
       "start": 1801,
-      "end": 1927,
+      "end": 1922,
       "capital": {
         "en": "London",
         "fa": "لندن"
+      },
+      "system": {
+        "en": "Constitutional monarchy",
+        "fa": "پادشاهی مشروطه"
       },
       "wikidata": "Q174193",
       "sources": [
         {
           "title": "United Kingdom of Great Britain and Ireland — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/United_Kingdom_of_Great_Britain_and_Ireland"
-        },
-        {
-          "title": "United Kingdom of Great Britain and Ireland — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q174193"
         }
       ]
     },
@@ -76,7 +76,11 @@
         "en": "United Kingdom",
         "fa": "بریتانیا"
       },
-      "start": 1921,
+      "officialName": {
+        "en": "United Kingdom of Great Britain and Northern Ireland",
+        "fa": "پادشاهی متحد بریتانیای کبیر و ایرلند شمالی"
+      },
+      "start": 1922,
       "end": null,
       "capital": {
         "en": "London",
@@ -91,10 +95,6 @@
         {
           "title": "United Kingdom — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/United_Kingdom"
-        },
-        {
-          "title": "United Kingdom — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q145"
         }
       ]
     }
@@ -203,7 +203,7 @@
       "id": "arthur-wellesley-1st-duke-of-wellington",
       "name": {
         "en": "Arthur Wellesley, 1st Duke of Wellington",
-        "fa": "آرتور ولزلی"
+        "fa": "آرتور ولزلی، اولین دوک ولینگتون"
       },
       "born": 1769,
       "died": 1852,
@@ -659,7 +659,7 @@
       "id": "harold-macmillan",
       "name": {
         "en": "Harold Macmillan",
-        "fa": "هارولد مکمیلان"
+        "fa": "هارولد مک‌میلان"
       },
       "born": 1894,
       "died": 1986,
@@ -818,7 +818,7 @@
       "id": "keir-starmer",
       "name": {
         "en": "Keir Starmer",
-        "fa": "کییر استارمر"
+        "fa": "کی‌یر استارمر"
       },
       "born": 1962,
       "wikidata": "Q6383803",
@@ -896,7 +896,7 @@
       "id": "ramsay-macdonald",
       "name": {
         "en": "Ramsay MacDonald",
-        "fa": "رمزی مکدونالد"
+        "fa": "رمزی مک‌دونالد"
       },
       "born": 1866,
       "died": 1937,
@@ -1072,8 +1072,8 @@
     {
       "id": "victoria",
       "name": {
-        "en": "Queen Victoria",
-        "fa": "ملکه ویکتوریا"
+        "en": "Victoria",
+        "fa": "ویکتوریا"
       },
       "born": 1819,
       "died": 1901,
@@ -1084,7 +1084,7 @@
           "url": "https://en.wikipedia.org/wiki/Queen_Victoria"
         },
         {
-          "title": "Queen Victoria — Wikidata",
+          "title": "Victoria — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q9439"
         }
       ]
@@ -1193,7 +1193,7 @@
       "id": "william-pitt-the-younger",
       "name": {
         "en": "William Pitt the Younger",
-        "fa": "ویلیام پیت جوانتر"
+        "fa": "ویلیام پیت جوان‌تر"
       },
       "born": 1759,
       "died": 1806,
@@ -1275,13 +1275,14 @@
     {
       "person": "george-iii",
       "state": "kingdom-of-great-britain",
-      "start": 1789,
+      "start": 1760,
       "end": 1801,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "King",
+        "fa": "پادشاه"
       },
+      "exactStart": "1760-10-25",
       "exactEnd": "1801-01-01",
       "sources": [
         {
@@ -1368,8 +1369,8 @@
       "end": 1820,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "King",
+        "fa": "پادشاه"
       },
       "exactStart": "1801-01-01",
       "exactEnd": "1820-01-29",
@@ -1483,8 +1484,8 @@
       "end": 1830,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "King",
+        "fa": "پادشاه"
       },
       "exactStart": "1820-01-29",
       "exactEnd": "1830-06-26",
@@ -1598,8 +1599,8 @@
       "end": 1837,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "King",
+        "fa": "پادشاه"
       },
       "exactStart": "1830-06-26",
       "exactEnd": "1837-06-20",
@@ -1713,8 +1714,8 @@
       "end": 1901,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Queen",
+        "fa": "ملکه"
       },
       "exactStart": "1837-06-20",
       "exactEnd": "1901-01-22",
@@ -1724,7 +1725,7 @@
           "url": "https://en.wikipedia.org/wiki/Queen_Victoria"
         },
         {
-          "title": "Queen Victoria — Wikidata",
+          "title": "Victoria — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q9439"
         }
       ]
@@ -2173,8 +2174,8 @@
       "end": 1910,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "King",
+        "fa": "پادشاه"
       },
       "exactStart": "1901-01-22",
       "exactEnd": "1910-05-06",
@@ -2261,22 +2262,17 @@
     {
       "person": "george-v",
       "state": "uk-of-great-britain-and-ireland",
-      "start": 1910,
-      "end": 1922,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "King",
+        "fa": "پادشاه"
       },
-      "exactStart": "1910-05-06",
+      "start": 1910,
+      "end": 1922,
       "sources": [
         {
           "title": "George V — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/George_V"
-        },
-        {
-          "title": "George V — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q269412"
         }
       ]
     },
@@ -2329,22 +2325,17 @@
     {
       "person": "george-v",
       "state": "united-kingdom",
-      "start": 1922,
-      "end": 1927,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "King",
+        "fa": "پادشاه"
       },
-      "exactEnd": "1927-04-12",
+      "start": 1922,
+      "end": 1936,
       "sources": [
         {
           "title": "George V — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/George_V"
-        },
-        {
-          "title": "George V — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q269412"
         }
       ]
     },
@@ -2418,29 +2409,6 @@
       ]
     },
     {
-      "person": "george-v",
-      "state": "united-kingdom",
-      "start": 1927,
-      "end": 1936,
-      "office": "head-of-state",
-      "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
-      },
-      "exactStart": "1927-04-12",
-      "exactEnd": "1936-01-20",
-      "sources": [
-        {
-          "title": "George V — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/George_V"
-        },
-        {
-          "title": "George V — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q269412"
-        }
-      ]
-    },
-    {
       "person": "ramsay-macdonald",
       "state": "united-kingdom",
       "start": 1929,
@@ -2493,8 +2461,8 @@
       "end": 1936,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "King",
+        "fa": "پادشاه"
       },
       "exactStart": "1936-01-20",
       "exactEnd": "1936-12-11",
@@ -2516,8 +2484,8 @@
       "end": 1952,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "King",
+        "fa": "پادشاه"
       },
       "exactStart": "1936-12-11",
       "exactEnd": "1952-02-06",
@@ -2631,8 +2599,8 @@
       "end": 2022,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Queen",
+        "fa": "ملکه"
       },
       "exactStart": "1952-02-06",
       "exactEnd": "2022-09-08",
@@ -3022,8 +2990,8 @@
       "end": null,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "King",
+        "fa": "پادشاه"
       },
       "exactStart": "2022-09-08",
       "sources": [
@@ -3098,7 +3066,9 @@
           "title": "Flag of Great Britain (1707–1800).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Great_Britain_%281707%E2%80%931800%29.svg"
         }
-      ]
+      ],
+      "sha1": "4bd65ef449bd7f4557791d37a5c5ad0ea0aacc37",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "uk-of-great-britain-and-ireland",
@@ -3114,7 +3084,9 @@
           "title": "Flag of the United Kingdom (1-2).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom_%281-2%29.svg"
         }
-      ]
+      ],
+      "sha1": "574dcaf9b0f699c967fffb99499f89b92b75f8be",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "united-kingdom",
@@ -3130,7 +3102,9 @@
           "title": "Flag of the United Kingdom (1-2).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom_%281-2%29.svg"
         }
-      ]
+      ],
+      "sha1": "574dcaf9b0f699c967fffb99499f89b92b75f8be",
+      "retrieved": "2026-11-16"
     }
   ]
 }

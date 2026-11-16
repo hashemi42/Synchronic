@@ -14,8 +14,8 @@ separately, by origin:
    https://creativecommons.org/publicdomain/zero/1.0/legalcode
 
    The pipeline's output under data/merged/ combines 1 and 2: the records it
-   takes from Wikidata are CC0, and the curated parts carried into it (lanes,
-   ids, flags, overrides) are CC BY-SA 4.0.
+   takes from Wikidata are CC0, and the curated parts carried into it (states,
+   lanes, ids, titles, flags, corrections) are CC BY-SA 4.0.
 
 3. Wikipedia excerpts
    CC BY-SA, attributed in the interface next to each excerpt.

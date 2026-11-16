@@ -3,7 +3,7 @@
  * Pure. Every difference is one row; records that agree are only counted.
  */
 import { fold } from "../../src/lib/search";
-import type { Candidate, CountryFile, Note, Term } from "./normalize";
+import type { CountryFile, Note, Term } from "./normalize";
 
 export type DiffRow = {
   country: string;
@@ -39,7 +39,7 @@ export function spans(terms: Term[]): Span[] {
 export function diffCountry(
   hand: CountryFile,
   made: CountryFile,
-  extra: { notes: Note[]; flagCandidates: Candidate[]; verified: Record<string, string>; first: number },
+  extra: { notes: Note[]; verified: Record<string, string>; first: number },
 ): { rows: DiffRow[]; counts: Counts; titles: Map<string, number> } {
   const country = hand.country.id;
   const rows: DiffRow[] = [];
@@ -60,8 +60,8 @@ export function diffCountry(
   // ---------------------------------------------------------------- states
   const madeStates = new Map(made.states.map((s) => [s.id, s]));
   for (const s of hand.states) {
-    const m = madeStates.get(s.id)!;
-    if (!s.wikidata) continue;
+    const m = madeStates.get(s.id);
+    if (!m) continue;
     const link = wd(s.wikidata);
     field("state", "state: name (en)", s.id, "name.en", s.name.en, m.name.en, link);
     field("state", "state: name (fa)", s.id, "name.fa", s.name.fa, m.name.fa, link, fold(s.name.fa) === fold(m.name.fa) ? "spelling only" : "");
@@ -140,18 +140,14 @@ export function diffCountry(
     }
   }
 
-  // ---------------------------------------------------------------- flags against P41
-  for (const f of hand.flags as { state: string; file: string; start: number; end: number | null }[]) {
-    const c = extra.flagCandidates.filter((x) => x.state === f.state && x.file === f.file);
-    const stateQ = hand.states.find((s) => s.id === f.state)?.wikidata;
-    if (c.length === 0) {
-      tally("flag", "onlyOurs");
-      rows.push({ country, entity: "flag", record: `${f.state} · ${f.file}`, field: "file", status: "only in hand data", ours: years(f), pipeline: "", note: "not a flag image (P41) of the state's item", link: wd(stateQ) });
-    } else if (c.some((x) => (x.start === null || x.start === f.start) && (x.end === null || x.end === f.end))) tally("flag", "same");
-    else {
-      tally("flag", "differs");
-      rows.push({ country, entity: "flag", record: `${f.state} · ${f.file}`, field: "years", status: "differs", ours: years(f), pipeline: c.map((x) => `${x.start ?? "?"}–${x.end ?? "…"}`).join(" | "), note: "", link: wd(stateQ) });
-    }
+  // ---------------------------------------------------------------- flags: licence and author
+  for (const f of hand.flags) {
+    const m = made.flags.find((x) => x.state === f.state && x.file === f.file && x.start === f.start);
+    const record = `${f.state} · ${f.file}`;
+    const link = `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(f.file.replaceAll(" ", "_"))}`;
+    field("flag", "flag: licence", record, "license", f.license, m?.license, link);
+    field("flag", "flag: licence", record, "licenseUrl", f.licenseUrl, m?.licenseUrl, link);
+    field("flag", "flag: author", record, "attribution", f.attribution, m?.attribution, link);
   }
   return { rows, counts, titles };
 }

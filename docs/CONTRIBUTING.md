@@ -6,20 +6,28 @@ Not ready to edit files? Report a [data error](https://github.com/hashemi42/Sync
 
 ## Add or fix data
 
-1. Edit (or create) `data/overrides/countries/<country>.json`. Use `iran.json` as the model.
-2. Run `pnpm data:validate` and `pnpm test`.
-3. Open a pull request. CI runs the same checks.
+1. Edit `data/overrides/countries/<country>.json`, the curated file. Use `iran.json` as the model.
+2. Run `pnpm data:pipeline`. It rebuilds `data/merged/<country>.json`, the file the site reads, from Wikidata's cached answers in `data/raw/` and your curated file. Never edit `data/merged/` by hand.
+3. Run `pnpm data:validate` and `pnpm test`.
+4. Open a pull request with both files. CI runs the same checks and fails if `data/merged/` is not what the pipeline produces.
 
-A country file has five parts:
+Who held which office, and when, comes from Wikidata. So do people's names and years. The curated file holds what Wikidata cannot decide, and corrections, each with a source or a reason:
 
 | Part | What it holds |
 | --- | --- |
 | `country` | The modern country: id, English and Persian name, aliases, Wikidata id |
-| `states` | Every historical state on that land: names, years, capital, system |
-| `persons` | People who held office |
+| `states` | Every historical state on that land: names, years, capital, system, Wikidata id |
 | `lane` | Which state covered which years — the lane the reader sees |
-| `terms` | Who was head of state or head of government, and when |
+| `offices` | The Wikidata items of the head-of-state offices, and the title their holders get ("Shah"). An office can be limited to a state, to years (`from`, `until`) or to a family |
+| `persons` | Each person's id and Wikidata id. Add `name` only to keep a name against the default, and say why in `note` |
+| `terms` | Terms Wikidata lacks or gets wrong, in full, with a source. They replace whatever the pipeline finds for that person and office |
+| `titles` | A title for one person where the office's title does not fit ("Queen", "Empress") |
+| `exclude` | People Wikidata lists as holders who are left out on purpose, with the rule ([data rules](data-rules.md)) |
 | `flags` | Which Wikimedia Commons file flew over which state, and when |
+
+**To fix a date or add a missing ruler:** fix it on Wikidata if it is wrong there, then run `pnpm data:pipeline --refresh <country>`. If Wikidata is right but models the office differently, or you cannot wait for it, add the term to `terms` with a source.
+
+**Persian names** default to the title of the person's Persian Wikipedia article. A title with brackets or a comma (a disambiguator, or a full formal name) is passed over for the item's Persian label on Wikidata, then `data/overrides/persian-names.json`.
 
 ### Rules the validator enforces
 
@@ -31,13 +39,14 @@ A country file has five parts:
 - **Sources**: every record needs at least one `{ "title", "url" }`. Wikidata or Wikipedia by default; any other source with a URL is welcome.
 - **Both languages**: every label needs `en` and `fa`. There is no silent fallback.
 - **No gaps or overlaps** in a lane. If two governments existed at once, mark the second `"kind": "rival"`. If there was no state, add a `"kind": "no-state"` period with a short `note` — never leave a blank.
-- **Flags** name a Wikimedia Commons file and carry its `license` and `attribution`. Set `certainty` honestly: `documented`, `simplified` (right design, modern drawing) or `reconstructed`. A state has one flag at a time; leave years without a known flag empty. `pnpm fetch:flags` lists candidates in `data/raw/flags.json`. After adding a flag, run `pnpm mirror:flags` and commit the new files in `public/flags/`: the site serves its own copies, and a unit test fails if one is missing.
-- **Heads of government** are generated: `pnpm fetch:hog` then `pnpm merge:hog` rewrite every `head-of-government` term. Do not edit them in the country files. Fix the source instead: on Wikidata, or in `data/overrides/heads-of-government.json` (missing terms), `data/overrides/persian-names.json` (missing Persian names) or the `EXCLUDE` and `RULES` tables in `scripts/merge-heads-of-government.ts`.
+- **Flags** name a Wikimedia Commons file. The pipeline reads its licence from Commons and refuses anything but public domain, CC0, CC BY or CC BY-SA; you set `attribution` and `certainty`: `documented`, `simplified` (right design, modern drawing) or `reconstructed`. A state has one flag at a time; leave years without a known flag empty. `pnpm fetch:flags` lists candidates in `data/raw/flags.json`. After adding a flag, run `pnpm mirror:flags` and commit the new files in `public/flags/`: the site serves its own copies, and a unit test fails if one is missing.
+- **Heads of government** come from the offices in `scripts/offices.ts`, placed and titled by the rules in `scripts/pipeline/rules.ts`. Terms Wikidata lacks go in `data/overrides/heads-of-government.json`.
+- **Acting holders** for less than a year are left out (rule R3). The pipeline does this itself where Wikidata marks the statement as acting; otherwise add the person to `exclude`.
 - **Ids** are lowercase kebab-case (`ahmad-shah-qajar`).
 
 ### Cross-checking with Wikidata
 
-`pnpm data:audit` compares every term with Wikidata (P35/P6, and P39 for heads of government), every Persian name with the item's Persian label, and fetches every source URL. It writes only the problems to `artifacts/data-review/audit.csv`. Wikidata is a cross-check, not the truth: where they disagree, the cited source decides.
+`pnpm data:audit` compares every term with Wikidata (P35/P6, and P39 for heads of government), every Persian name with the item's Persian label, and fetches every source URL. It writes only the problems to `artifacts/data-review/audit.csv`. `pnpm data:pipeline` also writes `artifacts/data-review/completeness.md`: which lanes are complete, and every year of a state that still lacks a head of state, a head of government or a flag. Wikidata is a cross-check, not the truth: where they disagree, the cited source decides.
 
 ### If the fact is wrong upstream
 

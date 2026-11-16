@@ -1,0 +1,8 @@
+{
+"query": "commons imageinfo: Flag of Great Britain (1707–1800).svg | Flag of the United Kingdom (1-2).svg",
+"fetchedAt": "2026-11-16T21:32:15.324Z",
+"rows": [
+{"file":"Flag of Great Britain (1707–1800).svg","sha1":"4bd65ef449bd7f4557791d37a5c5ad0ea0aacc37","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Hoshie"},
+{"file":"Flag of the United Kingdom (1-2).svg","sha1":"574dcaf9b0f699c967fffb99499f89b92b75f8be","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Original: Acts of Union 1800 Vector: Zscout370"}
+]
+}

@@ -12,7 +12,7 @@ import { readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const UA = { "User-Agent": "SynchronicDataPipeline/0.1 (open-source history timeline)" };
-const dir = path.join(process.cwd(), "data/overrides/countries");
+const dir = path.join(process.cwd(), "data/merged");
 
 type Candidate = {
   country: string;

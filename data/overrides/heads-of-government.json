@@ -1,5 +1,5 @@
 {
-  "description": "Head-of-government terms that Wikidata lacks or leaves undated. Merged by `pnpm merge:hog`; these win over Wikidata for the same person and years.",
+  "description": "Head-of-government terms that Wikidata lacks or leaves undated. Added by `pnpm data:pipeline`, each placed and titled by its office's rule in scripts/pipeline/rules.ts.",
   "terms": [
     {
       "country": "germany",

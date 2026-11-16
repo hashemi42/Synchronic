@@ -1,0 +1,98 @@
+﻿country,entity,record,field,status,before,after,note,link
+china,person,zhou-enlai,name.fa,differs,چو انلای,جئو ئن لای,,https://www.wikidata.org/wiki/Q17410
+china,person,zhu-rongji,name.fa,differs,ژو رانگجی,ژو رانگ‌جی,spelling only,https://www.wikidata.org/wiki/Q18285
+china,person,wen-jiabao,name.fa,differs,ون جیاباو,ون جیابائو,,https://www.wikidata.org/wiki/Q16628
+china,person,zhao-ziyang,name.fa,differs,ژائو زیانگ,جائو تسیانگ,,https://www.wikidata.org/wiki/Q99829
+china,person,soong-ching-ling,name.fa,differs,سونگ چینگ‌لینگ,سونگ چینگ لینگ,,https://www.wikidata.org/wiki/Q17132
+france,person,louis-mathieu-mole,name.fa,differs,لویی متیو مولیه,لوئی متیو مولیه,spelling only,https://www.wikidata.org/wiki/Q1371497
+france,person,louis-eugene-cavaignac,name.fa,differs,لویی-اوژن کاوینیاک,لوئی-اوژن کاوینیاک,spelling only,https://www.wikidata.org/wiki/Q379702
+france,person,aristide-briand,name.fa,differs,آریستی بریا,آریستید بریان,,https://www.wikidata.org/wiki/Q179888
+france,person,louis-barthou,name.fa,differs,لوئی بارتو,لویی بارتو,spelling only,https://www.wikidata.org/wiki/Q271887
+france,person,pierre-etienne-flandin,name.fa,differs,پین-اتین فلاندین,پیر-اتین فلاندن,,https://www.wikidata.org/wiki/Q471296
+france,person,robert-schuman,name.fa,differs,رابرت شومان,روبر شومان,,https://www.wikidata.org/wiki/Q15981
+france,person,antoine-pinay,name.fa,differs,آنتوان پینای,آنتوان پینه,,https://www.wikidata.org/wiki/Q356724
+france,person,raymond-barre,name.fa,differs,ریموند باره,رمون بار,,https://www.wikidata.org/wiki/Q12957
+france,person,pierre-mauroy,name.fa,differs,پیر مائوروی,پی‌یر مائوروی,,https://www.wikidata.org/wiki/Q156511
+france,person,pierre-beregovoy,name.fa,differs,پیر برگووی,پی‌یر برگووی,,https://www.wikidata.org/wiki/Q298355
+france,person,francois-fillon,name.fa,differs,فرانسوا فیو,فرانسوا فیون,,https://www.wikidata.org/wiki/Q101410
+france,person,jean-marc-ayrault,name.fa,differs,ژان مارک ارو,ژان-مارک ارو,,https://www.wikidata.org/wiki/Q7711
+france,person,jean-castex,name.fa,differs,ژان کاستکس,ژان کستکس,,https://www.wikidata.org/wiki/Q3171170
+france,person,jean-de-dieu-soult,name.fa,differs,ژان دو دیو سولت,نیکولاس ژان-دی-دیو سول,,https://www.wikidata.org/wiki/Q296023
+germany,person,bernhard-von-bulow,name.fa,differs,برنهارد فن بولو,برنهارت فون بولو,,https://www.wikidata.org/wiki/Q60113
+germany,person,franz-von-papen,name.fa,differs,فرانتس فن پاپن,فرانتس فون پاپن,,https://www.wikidata.org/wiki/Q150552
+germany,person,kurt-von-schleicher,name.fa,differs,کورت فن شلایشر,کورت فون شلایشر,,https://www.wikidata.org/wiki/Q57133
+germany,person,lutz-graf-schwerin-von-krosigk,name.fa,differs,لوتس گراف شورین فن کروسیک,لوتس شورین فون کروسیک,,https://www.wikidata.org/wiki/Q57136
+germany,person,konrad-adenauer,name.fa,differs,کنراد آدناور,کنراد آدناوئر,,https://www.wikidata.org/wiki/Q2492
+india,person,narendra-modi,name.fa,differs,نریندر مودی,نارندرا مودی,,https://www.wikidata.org/wiki/Q1058
+iran,person,fath-ali-shah-qajar,name.fa,differs,فتحعلی‌شاه قاجار,فتحعلی‌شاه,,https://www.wikidata.org/wiki/Q175299
+iran,person,mohammad-shah-qajar,name.fa,differs,محمدشاه قاجار,محمدشاه,,https://www.wikidata.org/wiki/Q558231
+iran,person,naser-al-din-shah-qajar,name.fa,differs,ناصرالدین‌شاه قاجار,ناصرالدین‌شاه,,https://www.wikidata.org/wiki/Q159416
+iran,person,mozaffar-ad-din-shah-qajar,name.fa,differs,مظفرالدین‌شاه قاجار,مظفرالدین‌شاه,,https://www.wikidata.org/wiki/Q467021
+iran,person,mohammad-ali-shah-qajar,name.fa,differs,محمدعلی‌شاه قاجار,محمدعلی‌شاه,,https://www.wikidata.org/wiki/Q355603
+iran,person,ahmad-shah-qajar,name.fa,differs,احمدشاه قاجار,احمدشاه,,https://www.wikidata.org/wiki/Q317799
+iran,person,mirza-ali-asghar-khan-amin-al-soltan,name.fa,differs,میرزا علیاصغر اتابک,میرزا علی‌اصغر اتابک,spelling only,https://www.wikidata.org/wiki/Q957636
+iran,person,mirza-ali-khan-amin-od-dowleh,name.fa,differs,علی امینالدوله,علی امین‌الدوله,spelling only,https://www.wikidata.org/wiki/Q4896149
+iran,person,abdol-majid-mirza,name.fa,differs,عینالدوله,عبدالمجید عین‌الدوله,,https://www.wikidata.org/wiki/Q308247
+iran,person,hossein-qoli-nezam-al-saltaneh-mafi,name.fa,differs,حسینقلی نظامالسلطنه,حسینقلی نظام‌السلطنه,spelling only,https://www.wikidata.org/wiki/Q5691193
+iran,person,mostowfi-ol-mamalek,name.fa,differs,حسن مستوفی,حسن مستوفی‌الممالک,,https://www.wikidata.org/wiki/Q1399358
+iran,person,najaf-qoli-khan-bakhtiari,name.fa,differs,صمصامالسلطنه,صمصام‌السلطنه,spelling only,https://www.wikidata.org/wiki/Q981700
+iran,person,vosugh-od-dowleh,name.fa,differs,حسن وثوق,وثوق‌الدوله,,https://www.wikidata.org/wiki/Q426031
+iran,person,fathollah-khan-akbar,name.fa,differs,فتحالله خان اکبر,فتح‌الله خان اکبر,spelling only,https://www.wikidata.org/wiki/Q1398054
+iran,person,mehdi-qoli-hedayat,name.fa,differs,مهدیقلی هدایت,مهدی‌قلی هدایت,spelling only,https://www.wikidata.org/wiki/Q957495
+iran,person,ahmad-matin-daftari,name.fa,differs,احمد متیندفتری,احمد متین‌دفتری,spelling only,https://www.wikidata.org/wiki/Q400691
+iran,person,mohammad-saed,name.fa,differs,محمد ساعد,محمد ساعد مراغه‌ای,,https://www.wikidata.org/wiki/Q726837
+iran,person,morteza-qoli-bayat,name.fa,differs,مرتضیقلی بیات,مرتضی‌قلی بیات,spelling only,https://www.wikidata.org/wiki/Q983520
+iran,person,ali-razmara,name.fa,differs,حاجی علی رزم آرا,حاجعلی رزم‌آرا,,https://www.wikidata.org/wiki/Q1398936
+iran,person,fazlollah-zahedi,name.fa,differs,فضلالله زاهدی,فضل‌الله زاهدی,spelling only,https://www.wikidata.org/wiki/Q1396878
+iran,person,jafar-sharif-emami,name.fa,differs,جعفر شریفامامی,جعفر شریف‌امامی,spelling only,https://www.wikidata.org/wiki/Q951044
+iran,person,mahmoud-ahmadinejad,name.fa,differs,محمود احمدینژاد,محمود احمدی‌نژاد,spelling only,https://www.wikidata.org/wiki/Q34448
+iran,term,Jafar Khan Zand · head-of-state · zand-iran,years,only in pipeline,,1785–1789,the hand data does not have this person in this office,https://www.wikidata.org/wiki/Q81098
+iran,term,Seyd Morad Khan · head-of-state · zand-iran,years,only in pipeline,,1789–1789,the hand data does not have this person in this office,https://www.wikidata.org/wiki/Q135668
+japan,person,yamagata-aritomo,name.fa,differs,یاماگاتا آریتومو,آریتومو یاماگاتا,,https://www.wikidata.org/wiki/Q297636
+japan,person,sanjo-sanetomi,name.fa,differs,سانجو سانهتومی,سانجو سانه‌تومی,spelling only,https://www.wikidata.org/wiki/Q516646
+japan,person,okuma-shigenobu,name.fa,differs,اکوما شیجنوبا,اوکوما شیگه‌نوبو,,https://www.wikidata.org/wiki/Q243141
+japan,person,saionji-kinmochi,name.fa,differs,سایاونجی کینموچی,سای‌اونجی کینموچی,spelling only,https://www.wikidata.org/wiki/Q297628
+japan,person,takahashi-korekiyo,name.fa,differs,تاکاهاشی کورهکیو,تاکاهاشی کوره‌کیو,spelling only,https://www.wikidata.org/wiki/Q315842
+japan,person,tanaka-giichi,name.fa,differs,تاناکا گیایچی,تاناکا گی‌ایچی,spelling only,https://www.wikidata.org/wiki/Q145416
+japan,person,inukai-tsuyoshi,name.fa,differs,اینوکای تسویوشی,تسویوشی اینوکای,,https://www.wikidata.org/wiki/Q354687
+japan,person,okada-keisuke,name.fa,differs,اوکادا کیسوکه,کیسوکه اوکادا,,https://www.wikidata.org/wiki/Q714951
+japan,person,koki-hirota,name.fa,differs,هیروتا کوکی,کوکی هیروتا,,https://www.wikidata.org/wiki/Q351652
+japan,person,senjuro-hayashi,name.fa,differs,سنجورو هایاشی,سن‌جورو هایاشی,spelling only,https://www.wikidata.org/wiki/Q351665
+japan,person,fumimaro-konoe,name.fa,differs,کیسوکه اوکادا,فومیمارو کونوئه,,https://www.wikidata.org/wiki/Q315594
+japan,person,hiranuma-kiichiro,name.fa,differs,هیرانوما کیایچیرو,کی‌ایچیرو هیرانوما,,https://www.wikidata.org/wiki/Q379996
+japan,person,mitsumasa-yonai,name.fa,differs,یونای میتسوماسا,میتسوماسا یونای,,https://www.wikidata.org/wiki/Q715231
+japan,person,hideki-tojo,name.fa,differs,هیدکی توجو,هیده‌کی توجو,,https://www.wikidata.org/wiki/Q160847
+japan,person,kuniaki-koiso,name.fa,differs,کونیآکی کوایسو,کونی‌آکی کوایسو,spelling only,https://www.wikidata.org/wiki/Q315549
+japan,person,kijuro-shidehara,name.fa,differs,کیجورو شیدههارا,کیجورو شیده‌هارا,spelling only,https://www.wikidata.org/wiki/Q335191
+japan,person,shigeru-yoshida,name.fa,differs,یوشیدا شیگهرو,یوشیدا شیگه‌رو,spelling only,https://www.wikidata.org/wiki/Q301804
+japan,person,tanzan-ishibashi,name.fa,differs,تانزان ایشیباشی,تانزان ایشی‌باشی,spelling only,https://www.wikidata.org/wiki/Q351656
+japan,person,kakuei-tanaka,name.fa,differs,کاکوئی تاناکا,تاناکا کاکوئی,,https://www.wikidata.org/wiki/Q297644
+japan,person,noboru-takeshita,name.fa,differs,نوبورو تاکهشیتا,نوبورو تاکه‌شیتا,spelling only,https://www.wikidata.org/wiki/Q315561
+japan,person,kiichi-miyazawa,name.fa,differs,کیایچی میازاوا,کی‌ایچی میازاوا,spelling only,https://www.wikidata.org/wiki/Q315565
+japan,person,sanae-takaichi,name.fa,differs,سانائه تاکایچی,سانائه تاکائیچی,,https://www.wikidata.org/wiki/Q1705028
+russia,person,alexander-kerensky,name.fa,differs,الکساندر فیودورویچ کرنسکی,الکساندر کرنسکی,,https://www.wikidata.org/wiki/Q48211
+russia,person,kliment-voroshilov,name.fa,differs,کلیمنت ووروشیلوف,کلیمنت ووراشیلوف,,https://www.wikidata.org/wiki/Q186185
+russia,person,nikolai-podgorny,name.fa,differs,نیکولای پادگورنی,نیکلای پادگورنی,,https://www.wikidata.org/wiki/Q295781
+turkey,person,abdulaziz,name.fa,differs,عبدالعزیز,عبدالعزیز یکم,,https://www.wikidata.org/wiki/Q151500
+turkey,person,ahmed-izzet-pasha,name.fa,differs,احمد عزت باشا,احمد عزت پاشا,,https://www.wikidata.org/wiki/Q247611
+turkey,person,sukru-saracoglu,name.fa,differs,شکری سراجاوغلو,شکری سراج‌اوغلو,spelling only,https://www.wikidata.org/wiki/Q390725
+turkey,person,semsettin-gunaltay,name.fa,differs,شمسالدین گونآلتای,شمس‌الدین گون‌آلتای,spelling only,https://www.wikidata.org/wiki/Q388771
+turkey,person,bulend-ulusu,name.fa,differs,بولنت اولوسو,بلند اولوسو,,https://www.wikidata.org/wiki/Q375687
+turkey,person,y-ld-r-m-akbulut,name.fa,differs,ییلدیریم آکبولوت,ییلدیریم آک‌بولوت,spelling only,https://www.wikidata.org/wiki/Q558287
+turkey,person,necmettin-erbakan,name.fa,differs,نجمالدین اربکان,نجم‌الدین اربکان,spelling only,https://www.wikidata.org/wiki/Q243550
+turkey,person,ahmet-davutoglu,name.fa,differs,احمد داوداغلو,احمد داووداغلو,,https://www.wikidata.org/wiki/Q58198
+turkey,person,binali-y-ld-r-m,name.fa,differs,بنعلی ییلدریم,بن‌علی ییلدیریم,,https://www.wikidata.org/wiki/Q863496
+turkey,term,Abdul Hamid I · head-of-state · ottoman-empire,years,only in pipeline,,1774–1789,the hand data does not have this person in this office,https://www.wikidata.org/wiki/Q170707
+uk,person,william-pitt-the-younger,name.fa,differs,ویلیام پیت,ویلیام پیت جوان‌تر,,https://www.wikidata.org/wiki/Q128902
+uk,person,f-j-robinson-1st-viscount-goderich,name.fa,differs,فردریک رابینسون,اف.جی. رابینسون,,https://www.wikidata.org/wiki/Q312591
+uk,person,george-canning,name.fa,differs,جورج کنینگ,جرج کنینگ,,https://www.wikidata.org/wiki/Q219731
+uk,person,george-hamilton-gordon-4th-earl-of-aberdeen,name.fa,differs,جورج همیلتون-گوردون,جرج همیلتون-گوردون,,https://www.wikidata.org/wiki/Q24631
+uk,person,william-ewart-gladstone,name.fa,differs,ویلیام اوارت گلدستون,ویلیام اوارت گلادستون,,https://www.wikidata.org/wiki/Q160852
+uk,person,robert-gascoyne-cecil-3rd-marquess-of-salisbury,name.fa,differs,مارکیز آو سالیسبوری,رابرت گاسکوین-سسیل,,https://www.wikidata.org/wiki/Q243705
+uk,person,henry-campbell-bannerman,name.fa,differs,هنری کمپل-بانرمن,هنری کمبل-بنرمن,,https://www.wikidata.org/wiki/Q106618
+uk,person,ramsay-macdonald,name.fa,differs,رمزی مکدونالد,رمزی مک‌دونالد,spelling only,https://www.wikidata.org/wiki/Q166646
+uk,person,harold-macmillan,name.fa,differs,هارولد مکمیلان,هارولد مک‌میلان,spelling only,https://www.wikidata.org/wiki/Q128985
+uk,person,edward-heath,name.fa,differs,ادوارد هیس,ادوارد هیت,,https://www.wikidata.org/wiki/Q128967
+uk,person,liz-truss,name.fa,differs,الیزابت تراس,لیز تراس,,https://www.wikidata.org/wiki/Q272201
+uk,person,keir-starmer,name.fa,differs,کر استارمر,کی‌یر استارمر,,https://www.wikidata.org/wiki/Q6383803
+uk,person,andy-burnham,name.fa,differs,اندی برنهم,اندی برنام,,https://www.wikidata.org/wiki/Q269909

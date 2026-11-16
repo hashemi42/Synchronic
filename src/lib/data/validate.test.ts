@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import iran from "../../../data/overrides/countries/iran.json";
+import iran from "../../../data/merged/iran.json";
 import { flagFor, periodsAt, termAt } from "./query";
 import { WorldPeriod, Year } from "./schema";
 import { getWorldPeriods } from "./load";

@@ -593,7 +593,7 @@ const csv = (v: string) => (/[",\n]/.test(v) ? `"${v.replaceAll('"', '""')}"` : 
 async function main() {
   await mkdir(cacheDir, { recursive: true });
   await mkdir(outDir, { recursive: true });
-  const dir = path.join(root, "data/overrides/countries");
+  const dir = path.join(root, "data/merged");
   const files: CountryFile[] = [];
   for (const name of (await readdir(dir)).filter((f) => f.endsWith(".json")).sort())
     files.push(JSON.parse(await readFile(path.join(dir, name), "utf8")));
