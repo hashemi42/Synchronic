@@ -1,0 +1,2088 @@
+{
+  "country": {
+    "id": "india",
+    "name": {
+      "en": "India",
+      "fa": "هند"
+    },
+    "aliases": [
+      "Bharat",
+      "Hindustan",
+      "هندوستان"
+    ],
+    "wikidata": "Q668",
+    "sources": [
+      {
+        "title": "India — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/India"
+      }
+    ]
+  },
+  "states": [
+    {
+      "id": "company-rule-in-india",
+      "name": {
+        "en": "Company rule in India",
+        "fa": "حکومت کمپانی هند شرقی بر هندوستان"
+      },
+      "start": 1757,
+      "end": 1858,
+      "capital": {
+        "en": "Kolkata",
+        "fa": "کلکته"
+      },
+      "wikidata": "Q2001966",
+      "sources": [
+        {
+          "title": "Company rule in India — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Company_rule_in_India"
+        },
+        {
+          "title": "Company rule in India — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2001966"
+        }
+      ]
+    },
+    {
+      "id": "mughal-empire",
+      "name": {
+        "en": "Mughal Empire",
+        "fa": "امپراتوری گورکانی"
+      },
+      "start": 1526,
+      "end": 1857,
+      "system": {
+        "en": "Absolute monarchy",
+        "fa": "پادشاهی مطلقه"
+      },
+      "wikidata": "Q33296",
+      "sources": [
+        {
+          "title": "Mughal Empire — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
+        },
+        {
+          "title": "Mughal Empire — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q33296"
+        }
+      ]
+    },
+    {
+      "id": "maratha-confederacy",
+      "name": {
+        "en": "Maratha Empire",
+        "fa": "امپراتوری مراتا"
+      },
+      "start": 1674,
+      "end": 1818,
+      "system": {
+        "en": "Absolute monarchy",
+        "fa": "پادشاهی مطلقه"
+      },
+      "wikidata": "Q83618",
+      "sources": [
+        {
+          "title": "Maratha Empire — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Maratha_Empire"
+        },
+        {
+          "title": "Maratha Empire — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q83618"
+        }
+      ]
+    },
+    {
+      "id": "british-raj",
+      "name": {
+        "en": "British Raj",
+        "fa": "راج بریتانیا"
+      },
+      "start": 1858,
+      "end": 1947,
+      "system": {
+        "en": "Constitutional monarchy",
+        "fa": "پادشاهی مشروطه"
+      },
+      "wikidata": "Q129286",
+      "sources": [
+        {
+          "title": "British Raj — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/British_Raj"
+        },
+        {
+          "title": "British Raj — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q129286"
+        }
+      ]
+    },
+    {
+      "id": "dominion-of-india",
+      "name": {
+        "en": "Dominion of India",
+        "fa": "قلمرو هند"
+      },
+      "start": 1947,
+      "end": 1950,
+      "capital": {
+        "en": "New Delhi",
+        "fa": "دهلی نو"
+      },
+      "wikidata": "Q1775277",
+      "sources": [
+        {
+          "title": "Dominion of India — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dominion_of_India"
+        },
+        {
+          "title": "Dominion of India — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1775277"
+        }
+      ]
+    },
+    {
+      "id": "republic-of-india",
+      "name": {
+        "en": "India",
+        "fa": "هند"
+      },
+      "start": 1947,
+      "end": null,
+      "capital": {
+        "en": "New Delhi",
+        "fa": "دهلی نو"
+      },
+      "wikidata": "Q668",
+      "sources": [
+        {
+          "title": "India — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/India"
+        },
+        {
+          "title": "India — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q668"
+        }
+      ]
+    }
+  ],
+  "persons": [
+    {
+      "id": "a-p-j-abdul-kalam",
+      "name": {
+        "en": "A. P. J. Abdul Kalam",
+        "fa": "ابوبکر زینالعابدین عبدالکلام"
+      },
+      "born": 1931,
+      "died": 2015,
+      "wikidata": "Q9513",
+      "sources": [
+        {
+          "title": "A. P. J. Abdul Kalam — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam"
+        },
+        {
+          "title": "A. P. J. Abdul Kalam — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9513"
+        }
+      ]
+    },
+    {
+      "id": "akbar-ii",
+      "name": {
+        "en": "Akbar II",
+        "fa": "اکبر دوم"
+      },
+      "born": 1760,
+      "died": 1837,
+      "wikidata": "Q2091579",
+      "sources": [
+        {
+          "title": "Akbar II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Akbar_II"
+        },
+        {
+          "title": "Akbar II — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2091579"
+        }
+      ]
+    },
+    {
+      "id": "atal-bihari-vajpayee",
+      "name": {
+        "en": "Atal Bihari Vajpayee",
+        "fa": "آتال بیهاری واجپایی"
+      },
+      "born": 1924,
+      "died": 2018,
+      "wikidata": "Q233289",
+      "sources": [
+        {
+          "title": "Atal Bihari Vajpayee — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Atal_Bihari_Vajpayee"
+        },
+        {
+          "title": "Atal Bihari Vajpayee — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q233289"
+        }
+      ]
+    },
+    {
+      "id": "bahadur-shah-ii",
+      "name": {
+        "en": "Bahadur Shah Zafar",
+        "fa": "بهادر شاه دوم"
+      },
+      "born": 1775,
+      "died": 1862,
+      "wikidata": "Q127369",
+      "sources": [
+        {
+          "title": "Bahadur Shah Zafar — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bahadur_Shah_Zafar"
+        },
+        {
+          "title": "Bahadur Shah Zafar — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q127369"
+        }
+      ]
+    },
+    {
+      "id": "chandra-shekhar",
+      "name": {
+        "en": "Chandra Shekhar",
+        "fa": "چاندرا شکهر"
+      },
+      "born": 1927,
+      "died": 2007,
+      "wikidata": "Q334279",
+      "sources": [
+        {
+          "title": "Chandra Shekhar — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chandra_Shekhar"
+        },
+        {
+          "title": "Chandra Shekhar — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q334279"
+        }
+      ]
+    },
+    {
+      "id": "charan-singh",
+      "name": {
+        "en": "Charan Singh",
+        "fa": "چودهاری چاران سینگ"
+      },
+      "born": 1902,
+      "died": 1987,
+      "wikidata": "Q319824",
+      "sources": [
+        {
+          "title": "Charan Singh — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Charan_Singh"
+        },
+        {
+          "title": "Charan Singh — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q319824"
+        }
+      ]
+    },
+    {
+      "id": "droupadi-murmu",
+      "name": {
+        "en": "Droupadi Murmu",
+        "fa": "دروپدی مرمو"
+      },
+      "born": 1958,
+      "wikidata": "Q19901232",
+      "sources": [
+        {
+          "title": "Droupadi Murmu — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Droupadi_Murmu"
+        },
+        {
+          "title": "Droupadi Murmu — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q19901232"
+        }
+      ]
+    },
+    {
+      "id": "edward-vii",
+      "name": {
+        "en": "Edward VII",
+        "fa": "ادوارد هفتم"
+      },
+      "born": 1841,
+      "died": 1910,
+      "wikidata": "Q20875",
+      "sources": [
+        {
+          "title": "Edward VII — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Edward_VII"
+        },
+        {
+          "title": "Edward VII — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q20875"
+        }
+      ]
+    },
+    {
+      "id": "edward-viii",
+      "name": {
+        "en": "Edward VIII",
+        "fa": "ادوارد هشتم"
+      },
+      "born": 1894,
+      "died": 1972,
+      "wikidata": "Q590227",
+      "sources": [
+        {
+          "title": "Edward VIII — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Edward_VIII"
+        },
+        {
+          "title": "Edward VIII — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q590227"
+        }
+      ]
+    },
+    {
+      "id": "fakhruddin-ali-ahmed",
+      "name": {
+        "en": "Fakhruddin Ali Ahmed",
+        "fa": "فخرالدین علی احمد"
+      },
+      "born": 1905,
+      "died": 1977,
+      "wikidata": "Q317778",
+      "sources": [
+        {
+          "title": "Fakhruddin Ali Ahmed — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fakhruddin_Ali_Ahmed"
+        },
+        {
+          "title": "Fakhruddin Ali Ahmed — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q317778"
+        }
+      ]
+    },
+    {
+      "id": "george-v",
+      "name": {
+        "en": "George V",
+        "fa": "جرج پنجم"
+      },
+      "born": 1865,
+      "died": 1936,
+      "wikidata": "Q269412",
+      "sources": [
+        {
+          "title": "George V — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_V"
+        },
+        {
+          "title": "George V — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q269412"
+        }
+      ]
+    },
+    {
+      "id": "george-vi",
+      "name": {
+        "en": "George VI",
+        "fa": "جرج ششم"
+      },
+      "born": 1895,
+      "died": 1952,
+      "wikidata": "Q280856",
+      "sources": [
+        {
+          "title": "George VI — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_VI"
+        },
+        {
+          "title": "George VI — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q280856"
+        }
+      ]
+    },
+    {
+      "id": "gulzarilal-nanda",
+      "name": {
+        "en": "Gulzarilal Nanda",
+        "fa": "گلزار لعل ناندا"
+      },
+      "born": 1898,
+      "died": 1998,
+      "wikidata": "Q317769",
+      "sources": [
+        {
+          "title": "Gulzarilal Nanda — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gulzarilal_Nanda"
+        },
+        {
+          "title": "Gulzarilal Nanda — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q317769"
+        }
+      ]
+    },
+    {
+      "id": "h-d-deve-gowda",
+      "name": {
+        "en": "H. D. Deve Gowda",
+        "fa": "اچ.دی. دوی گودا"
+      },
+      "born": 1933,
+      "wikidata": "Q377870",
+      "sources": [
+        {
+          "title": "H. D. Deve Gowda — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/H._D._Deve_Gowda"
+        },
+        {
+          "title": "H. D. Deve Gowda — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q377870"
+        }
+      ]
+    },
+    {
+      "id": "inder-kumar-gujral",
+      "name": {
+        "en": "Inder Kumar Gujral",
+        "fa": "اندر کومار گجرال"
+      },
+      "born": 1919,
+      "died": 2012,
+      "wikidata": "Q248484",
+      "sources": [
+        {
+          "title": "Inder Kumar Gujral — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Inder_Kumar_Gujral"
+        },
+        {
+          "title": "Inder Kumar Gujral — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q248484"
+        }
+      ]
+    },
+    {
+      "id": "indira-gandhi",
+      "name": {
+        "en": "Indira Gandhi",
+        "fa": "ایندیرا گاندی"
+      },
+      "born": 1917,
+      "died": 1984,
+      "wikidata": "Q1149",
+      "sources": [
+        {
+          "title": "Indira Gandhi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Indira_Gandhi"
+        },
+        {
+          "title": "Indira Gandhi — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1149"
+        }
+      ]
+    },
+    {
+      "id": "jawaharlal-nehru",
+      "name": {
+        "en": "Jawaharlal Nehru",
+        "fa": "جواهر لعل نهرو"
+      },
+      "born": 1889,
+      "died": 1964,
+      "wikidata": "Q1047",
+      "sources": [
+        {
+          "title": "Jawaharlal Nehru — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jawaharlal_Nehru"
+        },
+        {
+          "title": "Jawaharlal Nehru — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1047"
+        }
+      ]
+    },
+    {
+      "id": "k-r-narayanan",
+      "name": {
+        "en": "K. R. Narayanan",
+        "fa": "ک.ر. نارایان"
+      },
+      "born": 1920,
+      "died": 2005,
+      "wikidata": "Q235454",
+      "sources": [
+        {
+          "title": "K. R. Narayanan — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/K._R._Narayanan"
+        },
+        {
+          "title": "K. R. Narayanan — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q235454"
+        }
+      ]
+    },
+    {
+      "id": "lal-bahadur-shastri",
+      "name": {
+        "en": "Lal Bahadur Shastri",
+        "fa": "بهادر شاستری"
+      },
+      "born": 1904,
+      "died": 1966,
+      "wikidata": "Q244689",
+      "sources": [
+        {
+          "title": "Lal Bahadur Shastri — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lal_Bahadur_Shastri"
+        },
+        {
+          "title": "Lal Bahadur Shastri — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q244689"
+        }
+      ]
+    },
+    {
+      "id": "manmohan-singh",
+      "name": {
+        "en": "Manmohan Singh",
+        "fa": "مانموهان سینگ"
+      },
+      "born": 1932,
+      "died": 2024,
+      "wikidata": "Q41914",
+      "sources": [
+        {
+          "title": "Manmohan Singh — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manmohan_Singh"
+        },
+        {
+          "title": "Manmohan Singh — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q41914"
+        }
+      ]
+    },
+    {
+      "id": "morarji-desai",
+      "name": {
+        "en": "Morarji Desai",
+        "fa": "مورارجی دسای"
+      },
+      "born": 1896,
+      "died": 1995,
+      "wikidata": "Q218661",
+      "sources": [
+        {
+          "title": "Morarji Desai — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Morarji_Desai"
+        },
+        {
+          "title": "Morarji Desai — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q218661"
+        }
+      ]
+    },
+    {
+      "id": "narendra-modi",
+      "name": {
+        "en": "Narendra Modi",
+        "fa": "نارندرا مودی"
+      },
+      "born": 1950,
+      "wikidata": "Q1058",
+      "sources": [
+        {
+          "title": "Narendra Modi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Narendra_Modi"
+        },
+        {
+          "title": "Narendra Modi — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1058"
+        }
+      ]
+    },
+    {
+      "id": "neelam-sanjiva-reddy",
+      "name": {
+        "en": "Neelam Sanjiva Reddy",
+        "fa": "نیلم سنجیوا ردی"
+      },
+      "born": 1913,
+      "died": 1996,
+      "wikidata": "Q336913",
+      "sources": [
+        {
+          "title": "Neelam Sanjiva Reddy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neelam_Sanjiva_Reddy"
+        },
+        {
+          "title": "Neelam Sanjiva Reddy — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q336913"
+        }
+      ]
+    },
+    {
+      "id": "p-v-narasimha-rao",
+      "name": {
+        "en": "P. V. Narasimha Rao",
+        "fa": "پی.وی. ناراسیما رائو"
+      },
+      "born": 1921,
+      "died": 2004,
+      "wikidata": "Q275146",
+      "sources": [
+        {
+          "title": "P. V. Narasimha Rao — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/P._V._Narasimha_Rao"
+        },
+        {
+          "title": "P. V. Narasimha Rao — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q275146"
+        }
+      ]
+    },
+    {
+      "id": "pranab-mukherjee",
+      "name": {
+        "en": "Pranab Mukherjee",
+        "fa": "پراناب موکرجی"
+      },
+      "born": 1935,
+      "died": 2020,
+      "wikidata": "Q57446",
+      "sources": [
+        {
+          "title": "Pranab Mukherjee — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pranab_Mukherjee"
+        },
+        {
+          "title": "Pranab Mukherjee — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57446"
+        }
+      ]
+    },
+    {
+      "id": "pratibha-patil",
+      "name": {
+        "en": "Pratibha Patil",
+        "fa": "پراتیبا پتیل"
+      },
+      "born": 1934,
+      "wikidata": "Q47854",
+      "sources": [
+        {
+          "title": "Pratibha Patil — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pratibha_Patil"
+        },
+        {
+          "title": "Pratibha Patil — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q47854"
+        }
+      ]
+    },
+    {
+      "id": "rajendra-prasad",
+      "name": {
+        "en": "Rajendra Prasad",
+        "fa": "راجندرا پراساد"
+      },
+      "born": 1884,
+      "died": 1963,
+      "wikidata": "Q197736",
+      "sources": [
+        {
+          "title": "Rajendra Prasad — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rajendra_Prasad"
+        },
+        {
+          "title": "Rajendra Prasad — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q197736"
+        }
+      ]
+    },
+    {
+      "id": "rajiv-gandhi",
+      "name": {
+        "en": "Rajiv Gandhi",
+        "fa": "راجیو گاندی"
+      },
+      "born": 1944,
+      "died": 1991,
+      "wikidata": "Q4593",
+      "sources": [
+        {
+          "title": "Rajiv Gandhi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rajiv_Gandhi"
+        },
+        {
+          "title": "Rajiv Gandhi — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4593"
+        }
+      ]
+    },
+    {
+      "id": "ram-nath-kovind",
+      "name": {
+        "en": "Ram Nath Kovind",
+        "fa": "رام نات کوویند"
+      },
+      "born": 1945,
+      "wikidata": "Q16845347",
+      "sources": [
+        {
+          "title": "Ram Nath Kovind — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ram_Nath_Kovind"
+        },
+        {
+          "title": "Ram Nath Kovind — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16845347"
+        }
+      ]
+    },
+    {
+      "id": "ramaswamy-venkataraman",
+      "name": {
+        "en": "Ramaswamy Venkataraman",
+        "fa": "رمسومی ونکترمن"
+      },
+      "born": 1910,
+      "died": 2009,
+      "wikidata": "Q297950",
+      "sources": [
+        {
+          "title": "Ramaswamy Venkataraman — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ramaswamy_Venkataraman"
+        },
+        {
+          "title": "Ramaswamy Venkataraman — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q297950"
+        }
+      ]
+    },
+    {
+      "id": "sarvepalli-radhakrishnan",
+      "name": {
+        "en": "Sarvepalli Radhakrishnan",
+        "fa": "سروپلی رادهاکرشنن"
+      },
+      "born": 1888,
+      "died": 1975,
+      "wikidata": "Q156349",
+      "sources": [
+        {
+          "title": "Sarvepalli Radhakrishnan — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sarvepalli_Radhakrishnan"
+        },
+        {
+          "title": "Sarvepalli Radhakrishnan — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q156349"
+        }
+      ]
+    },
+    {
+      "id": "shah-alam-ii",
+      "name": {
+        "en": "Shah Alam II",
+        "fa": "شاه عالم دوم"
+      },
+      "born": 1728,
+      "died": 1806,
+      "wikidata": "Q719449",
+      "sources": [
+        {
+          "title": "Shah Alam II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shah_Alam_II"
+        },
+        {
+          "title": "Shah Alam II — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q719449"
+        }
+      ]
+    },
+    {
+      "id": "shankar-dayal-sharma",
+      "name": {
+        "en": "Shankar Dayal Sharma",
+        "fa": "شانکار دایال شارما"
+      },
+      "born": 1918,
+      "died": 1999,
+      "wikidata": "Q332157",
+      "sources": [
+        {
+          "title": "Shankar Dayal Sharma — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shankar_Dayal_Sharma"
+        },
+        {
+          "title": "Shankar Dayal Sharma — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q332157"
+        }
+      ]
+    },
+    {
+      "id": "v-p-singh",
+      "name": {
+        "en": "V. P. Singh",
+        "fa": "وی.پی. سینگ"
+      },
+      "born": 1931,
+      "died": 2008,
+      "wikidata": "Q315338",
+      "sources": [
+        {
+          "title": "V. P. Singh — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/V._P._Singh"
+        },
+        {
+          "title": "V. P. Singh — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q315338"
+        }
+      ]
+    },
+    {
+      "id": "v-v-giri",
+      "name": {
+        "en": "V. V. Giri",
+        "fa": "وی.وی. گیری"
+      },
+      "born": 1894,
+      "died": 1980,
+      "wikidata": "Q312557",
+      "sources": [
+        {
+          "title": "V. V. Giri — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/V._V._Giri"
+        },
+        {
+          "title": "V. V. Giri — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q312557"
+        }
+      ]
+    },
+    {
+      "id": "victoria",
+      "name": {
+        "en": "Queen Victoria",
+        "fa": "ملکه ویکتوریا"
+      },
+      "born": 1819,
+      "died": 1901,
+      "wikidata": "Q9439",
+      "sources": [
+        {
+          "title": "Queen Victoria — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Queen_Victoria"
+        },
+        {
+          "title": "Queen Victoria — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9439"
+        }
+      ]
+    },
+    {
+      "id": "zail-singh",
+      "name": {
+        "en": "Zail Singh",
+        "fa": "زیل سینگ"
+      },
+      "born": 1916,
+      "died": 1994,
+      "wikidata": "Q334851",
+      "sources": [
+        {
+          "title": "Zail Singh — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zail_Singh"
+        },
+        {
+          "title": "Zail Singh — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q334851"
+        }
+      ]
+    },
+    {
+      "id": "zakir-husain",
+      "name": {
+        "en": "Zakir Husain",
+        "fa": "ذاکر حسین"
+      },
+      "born": 1897,
+      "died": 1969,
+      "wikidata": "Q144732",
+      "sources": [
+        {
+          "title": "Zakir Husain — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zakir_Husain"
+        },
+        {
+          "title": "Zakir Husain — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q144732"
+        }
+      ]
+    }
+  ],
+  "lane": [
+    {
+      "country": "india",
+      "state": "company-rule-in-india",
+      "start": 1789,
+      "end": 1858,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "Company rule in India — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Company_rule_in_India"
+        }
+      ]
+    },
+    {
+      "country": "india",
+      "state": "mughal-empire",
+      "start": 1789,
+      "end": 1857,
+      "kind": "rival",
+      "note": {
+        "en": "The Mughal emperor in Delhi remained the nominal sovereign of much of India until 1857.",
+        "fa": "امپراتور گورکانی در دهلی تا ۱۸۵۷ فرمانروای اسمی بخش بزرگی از هند بود."
+      },
+      "sources": [
+        {
+          "title": "Mughal Empire — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
+        }
+      ]
+    },
+    {
+      "country": "india",
+      "state": "maratha-confederacy",
+      "start": 1789,
+      "end": 1818,
+      "kind": "rival",
+      "note": {
+        "en": "The Maratha Confederacy controlled much of central and western India until its defeat in 1818.",
+        "fa": "کنفدراسیون ماراتا تا شکست در ۱۸۱۸ بخش بزرگی از مرکز و غرب هند را در دست داشت."
+      },
+      "sources": [
+        {
+          "title": "Maratha Empire — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Maratha_Empire"
+        }
+      ]
+    },
+    {
+      "country": "india",
+      "state": "british-raj",
+      "start": 1858,
+      "end": 1947,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "British Raj — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/British_Raj"
+        }
+      ]
+    },
+    {
+      "country": "india",
+      "state": "dominion-of-india",
+      "start": 1947,
+      "end": 1950,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "Dominion of India — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dominion_of_India"
+        }
+      ]
+    },
+    {
+      "country": "india",
+      "state": "republic-of-india",
+      "start": 1950,
+      "end": null,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "India — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/India"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "person": "shah-alam-ii",
+      "state": "mughal-empire",
+      "start": 1789,
+      "end": 1806,
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of state",
+        "fa": "رئیس کشور"
+      },
+      "exactEnd": "1806-11-19",
+      "sources": [
+        {
+          "title": "Shah Alam II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shah_Alam_II"
+        },
+        {
+          "title": "Shah Alam II — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q719449"
+        }
+      ]
+    },
+    {
+      "person": "akbar-ii",
+      "state": "mughal-empire",
+      "start": 1806,
+      "end": 1837,
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of state",
+        "fa": "رئیس کشور"
+      },
+      "exactStart": "1806-11-19",
+      "exactEnd": "1837-09-28",
+      "sources": [
+        {
+          "title": "Akbar II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Akbar_II"
+        },
+        {
+          "title": "Akbar II — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2091579"
+        }
+      ]
+    },
+    {
+      "person": "bahadur-shah-ii",
+      "state": "mughal-empire",
+      "start": 1837,
+      "end": 1857,
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of state",
+        "fa": "رئیس کشور"
+      },
+      "exactStart": "1837-09-28",
+      "exactEnd": "1857-09-21",
+      "sources": [
+        {
+          "title": "Bahadur Shah Zafar — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bahadur_Shah_Zafar"
+        },
+        {
+          "title": "Bahadur Shah Zafar — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q127369"
+        }
+      ]
+    },
+    {
+      "person": "victoria",
+      "state": "british-raj",
+      "start": 1876,
+      "end": 1901,
+      "office": "head-of-state",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      },
+      "exactStart": "1876-05-01",
+      "exactEnd": "1901-01-22",
+      "sources": [
+        {
+          "title": "Queen Victoria — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Queen_Victoria"
+        },
+        {
+          "title": "Queen Victoria — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9439"
+        }
+      ]
+    },
+    {
+      "person": "edward-vii",
+      "state": "british-raj",
+      "start": 1901,
+      "end": 1910,
+      "office": "head-of-state",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      },
+      "exactStart": "1901-01-22",
+      "exactEnd": "1910-05-06",
+      "sources": [
+        {
+          "title": "Edward VII — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Edward_VII"
+        },
+        {
+          "title": "Edward VII — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q20875"
+        }
+      ]
+    },
+    {
+      "person": "george-v",
+      "state": "british-raj",
+      "start": 1910,
+      "end": 1936,
+      "office": "head-of-state",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      },
+      "exactStart": "1910-05-06",
+      "exactEnd": "1936-01-20",
+      "sources": [
+        {
+          "title": "George V — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_V"
+        },
+        {
+          "title": "George V — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q269412"
+        }
+      ]
+    },
+    {
+      "person": "edward-viii",
+      "state": "british-raj",
+      "start": 1936,
+      "end": 1936,
+      "office": "head-of-state",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      },
+      "exactStart": "1936-01-20",
+      "exactEnd": "1936-12-11",
+      "sources": [
+        {
+          "title": "Edward VIII — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Edward_VIII"
+        },
+        {
+          "title": "Edward VIII — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q590227"
+        }
+      ]
+    },
+    {
+      "person": "george-vi",
+      "state": "british-raj",
+      "start": 1936,
+      "end": 1947,
+      "office": "head-of-state",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      },
+      "exactStart": "1936-12-11",
+      "sources": [
+        {
+          "title": "George VI — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_VI"
+        },
+        {
+          "title": "George VI — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q280856"
+        }
+      ]
+    },
+    {
+      "person": "george-vi",
+      "state": "dominion-of-india",
+      "start": 1947,
+      "end": 1950,
+      "office": "head-of-state",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      },
+      "exactStart": "1947-08-15",
+      "exactEnd": "1950-01-26",
+      "sources": [
+        {
+          "title": "George VI — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_VI"
+        },
+        {
+          "title": "George VI — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q280856"
+        }
+      ]
+    },
+    {
+      "person": "jawaharlal-nehru",
+      "state": "dominion-of-india",
+      "start": 1947,
+      "end": 1950,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "1947-08-15",
+      "exactEnd": "1950-01-26",
+      "sources": [
+        {
+          "title": "Jawaharlal Nehru — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jawaharlal_Nehru"
+        },
+        {
+          "title": "Jawaharlal Nehru — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1047"
+        }
+      ]
+    },
+    {
+      "person": "rajendra-prasad",
+      "state": "republic-of-india",
+      "start": 1950,
+      "end": 1962,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "1950-01-26",
+      "exactEnd": "1962-05-12",
+      "sources": [
+        {
+          "title": "Rajendra Prasad — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rajendra_Prasad"
+        },
+        {
+          "title": "Rajendra Prasad — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q197736"
+        }
+      ]
+    },
+    {
+      "person": "jawaharlal-nehru",
+      "state": "republic-of-india",
+      "start": 1950,
+      "end": 1964,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactEnd": "1964-05-27",
+      "sources": [
+        {
+          "title": "Jawaharlal Nehru — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jawaharlal_Nehru"
+        },
+        {
+          "title": "Jawaharlal Nehru — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1047"
+        }
+      ]
+    },
+    {
+      "person": "sarvepalli-radhakrishnan",
+      "state": "republic-of-india",
+      "start": 1962,
+      "end": 1967,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "1962-05-13",
+      "exactEnd": "1967-05-13",
+      "sources": [
+        {
+          "title": "Sarvepalli Radhakrishnan — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sarvepalli_Radhakrishnan"
+        },
+        {
+          "title": "Sarvepalli Radhakrishnan — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q156349"
+        }
+      ]
+    },
+    {
+      "person": "gulzarilal-nanda",
+      "state": "republic-of-india",
+      "start": 1964,
+      "end": 1964,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "1964-05-27",
+      "exactEnd": "1964-06-09",
+      "sources": [
+        {
+          "title": "Gulzarilal Nanda — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gulzarilal_Nanda"
+        },
+        {
+          "title": "Gulzarilal Nanda — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q317769"
+        }
+      ]
+    },
+    {
+      "person": "lal-bahadur-shastri",
+      "state": "republic-of-india",
+      "start": 1964,
+      "end": 1966,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "1964-06-09",
+      "exactEnd": "1966-01-11",
+      "sources": [
+        {
+          "title": "Lal Bahadur Shastri — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lal_Bahadur_Shastri"
+        },
+        {
+          "title": "Lal Bahadur Shastri — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q244689"
+        }
+      ]
+    },
+    {
+      "person": "gulzarilal-nanda",
+      "state": "republic-of-india",
+      "start": 1966,
+      "end": 1966,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "1966-01-11",
+      "exactEnd": "1966-01-24",
+      "sources": [
+        {
+          "title": "Gulzarilal Nanda — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gulzarilal_Nanda"
+        },
+        {
+          "title": "Gulzarilal Nanda — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q317769"
+        }
+      ]
+    },
+    {
+      "person": "indira-gandhi",
+      "state": "republic-of-india",
+      "start": 1966,
+      "end": 1977,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "1966-01-24",
+      "exactEnd": "1977-03-24",
+      "sources": [
+        {
+          "title": "Indira Gandhi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Indira_Gandhi"
+        },
+        {
+          "title": "Indira Gandhi — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1149"
+        }
+      ]
+    },
+    {
+      "person": "zakir-husain",
+      "state": "republic-of-india",
+      "start": 1967,
+      "end": 1969,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "1967-05-13",
+      "exactEnd": "1969-05-03",
+      "sources": [
+        {
+          "title": "Zakir Husain — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zakir_Husain"
+        },
+        {
+          "title": "Zakir Husain — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q144732"
+        }
+      ]
+    },
+    {
+      "person": "v-v-giri",
+      "state": "republic-of-india",
+      "start": 1969,
+      "end": 1974,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "1969-05-03",
+      "exactEnd": "1974-08-24",
+      "sources": [
+        {
+          "title": "V. V. Giri — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/V._V._Giri"
+        },
+        {
+          "title": "V. V. Giri — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q312557"
+        }
+      ]
+    },
+    {
+      "person": "fakhruddin-ali-ahmed",
+      "state": "republic-of-india",
+      "start": 1974,
+      "end": 1977,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "1974-08-24",
+      "exactEnd": "1977-02-11",
+      "sources": [
+        {
+          "title": "Fakhruddin Ali Ahmed — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fakhruddin_Ali_Ahmed"
+        },
+        {
+          "title": "Fakhruddin Ali Ahmed — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q317778"
+        }
+      ]
+    },
+    {
+      "person": "morarji-desai",
+      "state": "republic-of-india",
+      "start": 1977,
+      "end": 1979,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "1977-03-24",
+      "exactEnd": "1979-07-28",
+      "sources": [
+        {
+          "title": "Morarji Desai — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Morarji_Desai"
+        },
+        {
+          "title": "Morarji Desai — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q218661"
+        }
+      ]
+    },
+    {
+      "person": "neelam-sanjiva-reddy",
+      "state": "republic-of-india",
+      "start": 1977,
+      "end": 1982,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "1977-07-25",
+      "exactEnd": "1982-07-25",
+      "sources": [
+        {
+          "title": "Neelam Sanjiva Reddy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neelam_Sanjiva_Reddy"
+        },
+        {
+          "title": "Neelam Sanjiva Reddy — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q336913"
+        }
+      ]
+    },
+    {
+      "person": "charan-singh",
+      "state": "republic-of-india",
+      "start": 1979,
+      "end": 1980,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "1979-07-28",
+      "exactEnd": "1980-01-14",
+      "sources": [
+        {
+          "title": "Charan Singh — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Charan_Singh"
+        },
+        {
+          "title": "Charan Singh — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q319824"
+        }
+      ]
+    },
+    {
+      "person": "indira-gandhi",
+      "state": "republic-of-india",
+      "start": 1980,
+      "end": 1984,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "1980-01-14",
+      "exactEnd": "1984-10-31",
+      "sources": [
+        {
+          "title": "Indira Gandhi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Indira_Gandhi"
+        },
+        {
+          "title": "Indira Gandhi — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1149"
+        }
+      ]
+    },
+    {
+      "person": "zail-singh",
+      "state": "republic-of-india",
+      "start": 1982,
+      "end": 1987,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "1982-07-25",
+      "exactEnd": "1987-07-25",
+      "sources": [
+        {
+          "title": "Zail Singh — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zail_Singh"
+        },
+        {
+          "title": "Zail Singh — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q334851"
+        }
+      ]
+    },
+    {
+      "person": "rajiv-gandhi",
+      "state": "republic-of-india",
+      "start": 1984,
+      "end": 1989,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "1984-10-31",
+      "exactEnd": "1989-12-02",
+      "sources": [
+        {
+          "title": "Rajiv Gandhi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rajiv_Gandhi"
+        },
+        {
+          "title": "Rajiv Gandhi — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4593"
+        }
+      ]
+    },
+    {
+      "person": "ramaswamy-venkataraman",
+      "state": "republic-of-india",
+      "start": 1987,
+      "end": 1992,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "1987-07-25",
+      "exactEnd": "1992-07-25",
+      "sources": [
+        {
+          "title": "Ramaswamy Venkataraman — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ramaswamy_Venkataraman"
+        },
+        {
+          "title": "Ramaswamy Venkataraman — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q297950"
+        }
+      ]
+    },
+    {
+      "person": "v-p-singh",
+      "state": "republic-of-india",
+      "start": 1989,
+      "end": 1990,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "1989-12-02",
+      "exactEnd": "1990-11-10",
+      "sources": [
+        {
+          "title": "V. P. Singh — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/V._P._Singh"
+        },
+        {
+          "title": "V. P. Singh — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q315338"
+        }
+      ]
+    },
+    {
+      "person": "chandra-shekhar",
+      "state": "republic-of-india",
+      "start": 1990,
+      "end": 1991,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "1990-11-10",
+      "exactEnd": "1991-06-21",
+      "sources": [
+        {
+          "title": "Chandra Shekhar — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chandra_Shekhar"
+        },
+        {
+          "title": "Chandra Shekhar — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q334279"
+        }
+      ]
+    },
+    {
+      "person": "p-v-narasimha-rao",
+      "state": "republic-of-india",
+      "start": 1991,
+      "end": 1996,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "1991-06-21",
+      "exactEnd": "1996-05-16",
+      "sources": [
+        {
+          "title": "P. V. Narasimha Rao — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/P._V._Narasimha_Rao"
+        },
+        {
+          "title": "P. V. Narasimha Rao — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q275146"
+        }
+      ]
+    },
+    {
+      "person": "shankar-dayal-sharma",
+      "state": "republic-of-india",
+      "start": 1992,
+      "end": 1997,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "1992-07-25",
+      "exactEnd": "1997-07-25",
+      "sources": [
+        {
+          "title": "Shankar Dayal Sharma — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shankar_Dayal_Sharma"
+        },
+        {
+          "title": "Shankar Dayal Sharma — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q332157"
+        }
+      ]
+    },
+    {
+      "person": "atal-bihari-vajpayee",
+      "state": "republic-of-india",
+      "start": 1996,
+      "end": 1996,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "1996-05-16",
+      "exactEnd": "1996-06-01",
+      "sources": [
+        {
+          "title": "Atal Bihari Vajpayee — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Atal_Bihari_Vajpayee"
+        },
+        {
+          "title": "Atal Bihari Vajpayee — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q233289"
+        }
+      ]
+    },
+    {
+      "person": "h-d-deve-gowda",
+      "state": "republic-of-india",
+      "start": 1996,
+      "end": 1997,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "1996-06-01",
+      "exactEnd": "1997-04-21",
+      "sources": [
+        {
+          "title": "H. D. Deve Gowda — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/H._D._Deve_Gowda"
+        },
+        {
+          "title": "H. D. Deve Gowda — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q377870"
+        }
+      ]
+    },
+    {
+      "person": "inder-kumar-gujral",
+      "state": "republic-of-india",
+      "start": 1997,
+      "end": 1998,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "1997-04-21",
+      "exactEnd": "1998-03-19",
+      "sources": [
+        {
+          "title": "Inder Kumar Gujral — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Inder_Kumar_Gujral"
+        },
+        {
+          "title": "Inder Kumar Gujral — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q248484"
+        }
+      ]
+    },
+    {
+      "person": "k-r-narayanan",
+      "state": "republic-of-india",
+      "start": 1997,
+      "end": 2002,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "1997-07-25",
+      "exactEnd": "2002-07-25",
+      "sources": [
+        {
+          "title": "K. R. Narayanan — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/K._R._Narayanan"
+        },
+        {
+          "title": "K. R. Narayanan — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q235454"
+        }
+      ]
+    },
+    {
+      "person": "atal-bihari-vajpayee",
+      "state": "republic-of-india",
+      "start": 1998,
+      "end": 2004,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "1998-03-19",
+      "exactEnd": "2004-05-22",
+      "sources": [
+        {
+          "title": "Atal Bihari Vajpayee — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Atal_Bihari_Vajpayee"
+        },
+        {
+          "title": "Atal Bihari Vajpayee — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q233289"
+        }
+      ]
+    },
+    {
+      "person": "a-p-j-abdul-kalam",
+      "state": "republic-of-india",
+      "start": 2002,
+      "end": 2007,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "2002-07-25",
+      "exactEnd": "2007-07-25",
+      "sources": [
+        {
+          "title": "A. P. J. Abdul Kalam — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam"
+        },
+        {
+          "title": "A. P. J. Abdul Kalam — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9513"
+        }
+      ]
+    },
+    {
+      "person": "manmohan-singh",
+      "state": "republic-of-india",
+      "start": 2004,
+      "end": 2014,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "2004-05-22",
+      "exactEnd": "2014-05-26",
+      "sources": [
+        {
+          "title": "Manmohan Singh — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manmohan_Singh"
+        },
+        {
+          "title": "Manmohan Singh — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q41914"
+        }
+      ]
+    },
+    {
+      "person": "pratibha-patil",
+      "state": "republic-of-india",
+      "start": 2007,
+      "end": 2012,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "2007-07-25",
+      "exactEnd": "2012-07-25",
+      "sources": [
+        {
+          "title": "Pratibha Patil — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pratibha_Patil"
+        },
+        {
+          "title": "Pratibha Patil — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q47854"
+        }
+      ]
+    },
+    {
+      "person": "pranab-mukherjee",
+      "state": "republic-of-india",
+      "start": 2012,
+      "end": 2017,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "2012-07-25",
+      "exactEnd": "2017-07-25",
+      "sources": [
+        {
+          "title": "Pranab Mukherjee — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pranab_Mukherjee"
+        },
+        {
+          "title": "Pranab Mukherjee — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57446"
+        }
+      ]
+    },
+    {
+      "person": "narendra-modi",
+      "state": "republic-of-india",
+      "start": 2014,
+      "end": null,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "2014-05-26",
+      "sources": [
+        {
+          "title": "Narendra Modi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Narendra_Modi"
+        },
+        {
+          "title": "Narendra Modi — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1058"
+        }
+      ]
+    },
+    {
+      "person": "ram-nath-kovind",
+      "state": "republic-of-india",
+      "start": 2017,
+      "end": 2022,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "2017-07-25",
+      "exactEnd": "2022-07-25",
+      "sources": [
+        {
+          "title": "Ram Nath Kovind — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ram_Nath_Kovind"
+        },
+        {
+          "title": "Ram Nath Kovind — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16845347"
+        }
+      ]
+    },
+    {
+      "person": "droupadi-murmu",
+      "state": "republic-of-india",
+      "start": 2022,
+      "end": null,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیسجمهور"
+      },
+      "exactStart": "2022-07-25",
+      "sources": [
+        {
+          "title": "Droupadi Murmu — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Droupadi_Murmu"
+        },
+        {
+          "title": "Droupadi Murmu — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q19901232"
+        }
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "state": "company-rule-in-india",
+      "file": "Flag of the British East India Company (1801).svg",
+      "name": {
+        "en": "Flag of the East India Company",
+        "fa": "پرچم کمپانی هند شرقی"
+      },
+      "start": 1801,
+      "end": 1858,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Wikimedia Commons contributors",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the British East India Company (1801).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_British_East_India_Company_%281801%29.svg"
+        }
+      ]
+    },
+    {
+      "state": "maratha-confederacy",
+      "file": "Flag of the Maratha Empire.svg",
+      "start": 1674,
+      "end": 1818,
+      "certainty": "reconstructed",
+      "license": "Public domain",
+      "attribution": "DarkEvil",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Maratha Empire.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Maratha_Empire.svg"
+        }
+      ]
+    },
+    {
+      "state": "british-raj",
+      "file": "British Raj Red Ensign.svg",
+      "name": {
+        "en": "Red Ensign with the Star of India (unofficial)",
+        "fa": "پرچم سرخ با ستارهٔ هند (غیررسمی)"
+      },
+      "start": 1880,
+      "end": 1947,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Barryob",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "British Raj Red Ensign.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:British_Raj_Red_Ensign.svg"
+        }
+      ]
+    },
+    {
+      "state": "dominion-of-india",
+      "file": "Flag of India.svg",
+      "start": 1947,
+      "end": 1950,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Government of India",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of India.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_India.svg"
+        }
+      ]
+    },
+    {
+      "state": "republic-of-india",
+      "file": "Flag of India.svg",
+      "start": 1950,
+      "end": null,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Government of India",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of India.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_India.svg"
+        }
+      ]
+    }
+  ]
+}

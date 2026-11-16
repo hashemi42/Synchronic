@@ -1,0 +1,9 @@
+{
+"query": "\nSELECT ?office (COUNT(?st) AS ?n) WHERE {\n  VALUES ?office { wd:Q184299 wd:Q27628370 wd:Q332486 }\n  ?person p:P39 ?st . ?st ps:P39 ?office .\n} GROUP BY ?office",
+"fetchedAt": "2026-11-15T22:37:01.916Z",
+"rows": [
+{"n":"3","office":"http://www.wikidata.org/entity/Q27628370"},
+{"n":"3","office":"http://www.wikidata.org/entity/Q332486"},
+{"n":"49","office":"http://www.wikidata.org/entity/Q184299"}
+]
+}

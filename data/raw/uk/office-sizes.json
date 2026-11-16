@@ -1,0 +1,31 @@
+{
+"query": "\nSELECT ?office (COUNT(?st) AS ?n) WHERE {\n  VALUES ?office { wd:Q111722535 wd:Q1346992 wd:Q14931511 wd:Q14931512 wd:Q14931517 wd:Q16153574 wd:Q16852400 wd:Q26869636 wd:Q26869642 wd:Q26869646 wd:Q26869648 wd:Q26869650 wd:Q26869653 wd:Q280751 wd:Q3052674 wd:Q34517433 wd:Q34517722 wd:Q34517851 wd:Q34518009 wd:Q34518124 wd:Q34519042 wd:Q460057 wd:Q5352166 wd:Q54854376 wd:Q9134365 }\n  ?person p:P39 ?st . ?st ps:P39 ?office .\n} GROUP BY ?office",
+"fetchedAt": "2026-11-15T22:37:15.110Z",
+"rows": [
+{"n":"2","office":"http://www.wikidata.org/entity/Q1346992"},
+{"n":"2","office":"http://www.wikidata.org/entity/Q26869636"},
+{"n":"2","office":"http://www.wikidata.org/entity/Q26869642"},
+{"n":"2","office":"http://www.wikidata.org/entity/Q26869646"},
+{"n":"2","office":"http://www.wikidata.org/entity/Q26869648"},
+{"n":"2","office":"http://www.wikidata.org/entity/Q26869650"},
+{"n":"2","office":"http://www.wikidata.org/entity/Q26869653"},
+{"n":"2","office":"http://www.wikidata.org/entity/Q3052674"},
+{"n":"2","office":"http://www.wikidata.org/entity/Q34517433"},
+{"n":"2","office":"http://www.wikidata.org/entity/Q34517722"},
+{"n":"2","office":"http://www.wikidata.org/entity/Q34517851"},
+{"n":"2","office":"http://www.wikidata.org/entity/Q34518009"},
+{"n":"2","office":"http://www.wikidata.org/entity/Q34518124"},
+{"n":"2","office":"http://www.wikidata.org/entity/Q460057"},
+{"n":"3","office":"http://www.wikidata.org/entity/Q14931512"},
+{"n":"3","office":"http://www.wikidata.org/entity/Q280751"},
+{"n":"3","office":"http://www.wikidata.org/entity/Q34519042"},
+{"n":"3","office":"http://www.wikidata.org/entity/Q54854376"},
+{"n":"4","office":"http://www.wikidata.org/entity/Q14931517"},
+{"n":"4","office":"http://www.wikidata.org/entity/Q16852400"},
+{"n":"46","office":"http://www.wikidata.org/entity/Q16153574"},
+{"n":"5","office":"http://www.wikidata.org/entity/Q9134365"},
+{"n":"6","office":"http://www.wikidata.org/entity/Q111722535"},
+{"n":"6","office":"http://www.wikidata.org/entity/Q5352166"},
+{"n":"7","office":"http://www.wikidata.org/entity/Q14931511"}
+]
+}

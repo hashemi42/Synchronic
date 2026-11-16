@@ -32,6 +32,7 @@ Open <http://localhost:3000> — it redirects to `/en`; Persian (right-to-left) 
 | `pnpm test` | Vitest (schema, lane validation, calendars) |
 | `pnpm test:e2e` | Playwright flows and axe accessibility checks; run `pnpm build` first (first time: `pnpm exec playwright install chromium`) |
 | `pnpm data:audit` | Cross-check terms and Persian names against Wikidata and fetch every source URL; writes problems to `artifacts/data-review/` |
+| `pnpm data:pipeline` | Build every country from Wikidata into `data/merged/` and report how it differs from the hand-entered data (`--refresh` queries Wikidata again). It never changes `data/overrides/` |
 | `pnpm data:build` | Validate the data and emit one content-hashed file per country to `public/data/` (runs before `dev`, `build` and `typecheck`) |
 | `pnpm data:validate` | Validate every file in `data/overrides/countries/` |
 | `pnpm fetch:flags` | Fetch flag candidates and licences from Wikidata and Commons into `data/raw/` |
@@ -45,7 +46,8 @@ Open <http://localhost:3000> — it redirects to `/en`; Persian (right-to-left) 
 ```
 data/overrides/countries/   Curated country files (states, lane, people, terms)
 data/policy/                Content-policy lists (withheld symbols)
-data/raw/                   Cached Wikidata responses
+data/raw/                   Cached Wikidata responses (one folder per country for the pipeline)
+data/merged/                Pipeline output, for review; the site does not read it yet
 messages/                   UI strings: en.json, fa.json
 scripts/                    Data pipeline scripts
 src/app/[locale]/           Pages; the locale is a root param
