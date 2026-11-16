@@ -696,6 +696,23 @@
       ]
     },
     {
+      "person": "yegor-gaidar",
+      "state": "russian-federation",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1992,
+      "end": 1992,
+      "sources": [
+        {
+          "title": "Yegor Gaidar — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q82695"
+        }
+      ]
+    },
+    {
       "person": "viktor-zubkov",
       "state": "russian-federation",
       "office": "head-of-government",
@@ -806,33 +823,6 @@
       "title": {
         "en": "Empress",
         "fa": "امپراتریس"
-      }
-    },
-    {
-      "person": "boris-yeltsin",
-      "office": "head-of-government",
-      "state": "russian-federation",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      }
-    },
-    {
-      "person": "yegor-gaidar",
-      "office": "head-of-government",
-      "state": "russian-federation",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      }
-    },
-    {
-      "person": "viktor-chernomyrdin",
-      "office": "head-of-government",
-      "state": "russian-federation",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
       }
     }
   ],

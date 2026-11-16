@@ -82,6 +82,9 @@ export const LanePeriod = z
     /** Null only for `no-state` periods. */
     state: Id.nullable(),
     ...range,
+    /** Exact dates of the period, where they matter: a rival government of a few months. */
+    exactStart: PartialDate.optional(),
+    exactEnd: PartialDate.optional(),
     kind: LaneKind,
     /** Primary label when it differs from the state's name (content policy §7.3). */
     label: Localized.optional(),
@@ -89,7 +92,9 @@ export const LanePeriod = z
     note: Localized.optional(),
     ...sourced,
   })
-  .refine(startBeforeEnd, startBeforeEndMessage)
+  // A rival period may begin and end within one year (the Hundred Days, 1815), like an office term.
+  .refine((p) => startBeforeEnd(p) || (p.kind === "rival" && p.start === p.end), startBeforeEndMessage)
+  .refine((p) => sameYear(p.exactStart, p.start), { message: "exactStart must fall in the start year", path: ["exactStart"] })
   .refine((p) => (p.kind === "no-state") === (p.state === null), {
     message: "`state` must be null for no-state periods and set for every other kind",
     path: ["state"],

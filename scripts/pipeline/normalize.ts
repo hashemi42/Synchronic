@@ -57,7 +57,10 @@ export type Curated = {
   terms: Term[];
   /** A title for one term where the office's title does not fit ("Queen", "Empress"). */
   titles: { person: string; office: Office; state: string; title: Localized }[];
-  /** Holders on Wikidata left out on purpose, by rule (docs/data-rules.md). */
+  /**
+   * Holders on Wikidata left out on purpose, by rule (docs/data-rules.md). An entry whose reason
+   * starts with "R3" is a stand-in: left out only while someone else covers those years.
+   */
   exclude: { wikidata: string; office: "head-of-state" | "head-of-government"; reason: string }[];
   flags: Flag[];
   narratives?: unknown[];
@@ -161,7 +164,10 @@ export function joinTerms(terms: Term[], rank: (t: Term) => number = () => 0): T
 const byStart = (a: Term, b: Term) =>
   a.start - b.start || (a.end ?? Infinity) - (b.end ?? Infinity) || a.office.localeCompare(b.office) || a.person.localeCompare(b.person) || a.state.localeCompare(b.state);
 
-/** R3: is this statement qualified as acting or interim, and for less than a year? */
+/**
+ * R3: is this statement qualified as acting or interim, and for less than a year? Such a holder is
+ * left out only when someone else covers those years: R3 never leaves a year without a holder.
+ */
 function briefStandIn(nature: string | undefined, start: When, end: When | null): boolean {
   if (!nature || !/\b(acting|interim|caretaker|provisional)\b/i.test(nature) || !end) return false;
   if (start.exact?.length === 10 && end.exact?.length === 10) return Date.parse(end.exact) - Date.parse(start.exact) < 365 * 86_400_000;
@@ -283,10 +289,13 @@ export function normalize(raw: Raw, cfg: Config): Result {
   const excluded = new Map(curated.exclude.map((x) => [`${x.wikidata}:${x.office}`, x.reason]));
   const curatedGroups = new Set(curated.terms.map((t) => `${t.person}|${t.office}`));
   const pieces: Term[] = [];
+  const standIns: { person: string; office: Office; state: string; start: number; end: number; why: string }[] = [];
   const titleRank = new Map<Term, number>();
   for (const s of statements) {
     const label = `${en(s.person) ?? s.person} · ${s.office}`;
-    if (excluded.has(`${s.person}:${s.office}`) || (s.office === "head-of-government" && EXCLUDE[s.person])) continue;
+    const why = excluded.get(`${s.person}:${s.office}`);
+    const named = why?.startsWith("R3");
+    if ((why && !named) || (s.office === "head-of-government" && EXCLUDE[s.person])) continue;
     if (s.office === "head-of-government" && EXCLUDE_TERMS[`${s.person}:${s.start?.year ?? null}-${s.end?.year ?? null}`]) continue;
     if (!s.start) {
       notes.push({ kind: "statement without a start date", record: label, detail: `${s.via}; end ${s.end?.year ?? "none"}` });
@@ -298,10 +307,7 @@ export function normalize(raw: Raw, cfg: Config): Result {
       notes.push({ kind: "statement without an end date", record: label, detail: `${s.via}; start ${s.start.year}` });
       continue;
     }
-    if (briefStandIn(s.nature, s.start, s.end)) {
-      notes.push({ kind: "R3: acting or interim for less than a year, left out", record: label, detail: `${s.via}; ${s.start.exact ?? s.start.year}–${s.end?.exact ?? s.end?.year}; ${s.nature}` });
-      continue;
-    }
+    const standIn = named || briefStandIn(s.nature, s.start, s.end);
     // A term that began before the lane's first year keeps its true start, back to the state's
     // own first year. Heads of government placed by date start with the lane, as they always have.
     const early = s.office === "head-of-state" || s.state !== null;
@@ -345,10 +351,31 @@ export function normalize(raw: Raw, cfg: Config): Result {
       };
       titleRank.set(piece, s.title ? 0 : 1);
       pieces.push(piece);
+      if (standIn) standIns.push({ person: person.id, office: s.office, state: p.state, start: p.start, end: p.end ?? p.start, why: why ?? `R3: ${person.name.en}, ${s.nature?.toLowerCase()} for less than a year` });
     }
   }
 
-  const fromWikidata = joinTerms(pieces, (t) => titleRank.get(t) ?? 0);
+  const joined = joinTerms(pieces, (t) => titleRank.get(t) ?? 0);
+
+  // R3: a stand-in is left out only if every year of the term is covered by someone else in the
+  // same state (a head of state by a head of state or a leader). Earliest first, so that of two
+  // stand-ins in a row the one that leaves a gap is kept.
+  const sameSeat = (a: Office, b: Office) => (a === "head-of-government") === (b === "head-of-government") && a !== "other" && b !== "other";
+  const isStandIn = (t: Term) => standIns.find((x) => x.person === t.person && x.office === t.office && x.state === t.state && x.start <= t.start && (t.end ?? Infinity) <= x.end);
+  const dropped = new Set<Term>();
+  for (const t of joined.filter(isStandIn).sort(byStart)) {
+    const others = [...joined, ...curated.terms].filter((o) => o !== t && !dropped.has(o) && o.state === t.state && sameSeat(o.office, t.office) && o.person !== t.person);
+    const covered = (y: number) => others.some((o) => o.start <= y && (o.end === null || y <= o.end));
+    const years = Array.from({ length: (t.end ?? t.start) - t.start + 1 }, (_, i) => t.start + i);
+    const rule = isStandIn(t)!;
+    if (years.every(covered)) {
+      dropped.add(t);
+      notes.push({ kind: "R3: stand-in for less than a year, left out", record: `${t.person} · ${t.office} · ${t.state}`, detail: `${t.exactStart ?? t.start}–${t.exactEnd ?? t.end}; ${rule.why}` });
+    } else {
+      notes.push({ kind: "R3: stand-in kept, nobody else covers the year", record: `${t.person} · ${t.office} · ${t.state}`, detail: `${t.exactStart ?? t.start}–${t.exactEnd ?? t.end}; uncovered: ${years.filter((y) => !covered(y)).join(", ")}` });
+    }
+  }
+  const fromWikidata = joined.filter((t) => !dropped.has(t));
   const titled = new Map(curated.titles.map((t) => [`${t.person}|${t.office}|${t.state}`, t.title]));
   for (const t of fromWikidata) {
     const own = titled.get(`${t.person}|${t.office}|${t.state}`);

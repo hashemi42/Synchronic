@@ -567,57 +567,6 @@
       ]
     },
     {
-      "person": "mohammad-ali-foroughi",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1925,
-      "end": 1926,
-      "sources": [
-        {
-          "title": "Mohammad Ali Foroughi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q181451"
-        }
-      ]
-    },
-    {
-      "person": "mohammad-ali-foroughi",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1933,
-      "end": 1935,
-      "sources": [
-        {
-          "title": "Mohammad Ali Foroughi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q181451"
-        }
-      ]
-    },
-    {
-      "person": "mohammad-ali-foroughi",
-      "state": "pahlavi-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1941,
-      "end": 1942,
-      "sources": [
-        {
-          "title": "Mohammad Ali Foroughi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q181451"
-        }
-      ]
-    },
-    {
       "person": "mohammad-ali-rajai",
       "state": "islamic-republic-of-iran",
       "office": "head-of-government",
@@ -631,23 +580,6 @@
         {
           "title": "Mohammad-Ali Rajai — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q310592"
-        }
-      ]
-    },
-    {
-      "person": "mohammad-mokhber",
-      "state": "islamic-republic-of-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 2024,
-      "end": 2024,
-      "sources": [
-        {
-          "title": "Mohammad Mokhber — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5703610"
         }
       ]
     },

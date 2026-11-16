@@ -72,7 +72,7 @@
         "fa": "امپراتوری اول فرانسه"
       },
       "start": 1804,
-      "end": 1814,
+      "end": 1815,
       "capital": {
         "en": "Paris",
         "fa": "پاریس"
@@ -86,6 +86,10 @@
         {
           "title": "First French Empire — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/First_French_Empire"
+        },
+        {
+          "title": "Hundred Days — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hundred_Days"
         }
       ]
     },
@@ -517,6 +521,33 @@
         {
           "title": "French Fifth Republic — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/French_Fifth_Republic"
+        }
+      ]
+    },
+    {
+      "country": "france",
+      "state": "first-french-empire",
+      "start": 1815,
+      "end": 1815,
+      "exactStart": "1815-03-20",
+      "exactEnd": "1815-07-08",
+      "kind": "rival",
+      "label": {
+        "en": "Hundred Days",
+        "fa": "بازگشت صدروزهٔ ناپلئون"
+      },
+      "note": {
+        "en": "Napoleon returned from exile and ruled again from 20 March 1815. He abdicated on 22 June, and the period ended on 8 July 1815.",
+        "fa": "ناپلئون از تبعید بازگشت و از ۲۰ مارس ۱۸۱۵ دوباره حکومت کرد. او در ۲۲ ژوئن کناره‌گیری کرد و این دوره در ۸ ژوئیهٔ ۱۸۱۵ پایان یافت."
+      },
+      "sources": [
+        {
+          "title": "Hundred Days — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hundred_Days"
+        },
+        {
+          "title": "Napoleon — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Napoleon"
         }
       ]
     }
@@ -1067,6 +1098,10 @@
     {
       "id": "louis-buffet",
       "wikidata": "Q548687"
+    },
+    {
+      "id": "louis-jules-trochu",
+      "wikidata": "Q441235"
     }
   ],
   "terms": [
@@ -1239,9 +1274,60 @@
           "url": "https://www.wikidata.org/wiki/Q2042"
         }
       ]
+    },
+    {
+      "person": "napoleon",
+      "state": "first-french-empire",
+      "office": "head-of-state",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      },
+      "start": 1815,
+      "end": 1815,
+      "exactStart": "1815-03-20",
+      "exactEnd": "1815-06-22",
+      "sources": [
+        {
+          "title": "Hundred Days — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hundred_Days"
+        },
+        {
+          "title": "Napoleon — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Napoleon"
+        }
+      ]
     }
   ],
-  "titles": [],
+  "titles": [
+    {
+      "person": "louis-eugene-cavaignac",
+      "office": "head-of-state",
+      "state": "french-second-republic",
+      "title": {
+        "en": "Chief of the Executive Power",
+        "fa": "رئیس قوهٔ مجریه"
+      }
+    },
+    {
+      "person": "louis-jules-trochu",
+      "office": "head-of-state",
+      "state": "french-third-republic",
+      "title": {
+        "en": "President of the Government of National Defence",
+        "fa": "رئیس دولت دفاع ملی"
+      }
+    },
+    {
+      "person": "georges-bidault",
+      "office": "head-of-state",
+      "state": "french-fourth-republic",
+      "title": {
+        "en": "Chairman of the Provisional Government",
+        "fa": "رئیس دولت موقت"
+      }
+    }
+  ],
   "exclude": [
     {
       "wikidata": "Q12950",
@@ -1252,21 +1338,6 @@
       "wikidata": "Q49765",
       "office": "head-of-state",
       "reason": "Louis XVII was a claimant who never reigned (1793–1795)"
-    },
-    {
-      "wikidata": "Q379702",
-      "office": "head-of-state",
-      "reason": "R3: Louis-Eugène Cavaignac, interim head of the executive power, June–December 1848 (less than a year)"
-    },
-    {
-      "wikidata": "Q441235",
-      "office": "head-of-state",
-      "reason": "R3: Louis-Jules Trochu, president of the provisional Government of National Defence, September 1870–February 1871 (less than a year)"
-    },
-    {
-      "wikidata": "Q312026",
-      "office": "head-of-state",
-      "reason": "R3: Georges Bidault, chairman of the Provisional Government, June–November 1946 (less than a year)"
     }
   ],
   "flags": [

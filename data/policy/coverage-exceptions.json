@@ -1,4 +1,149 @@
 {
   "description": "Recorded vacancies for the completeness report (`pnpm data:pipeline`, data phase proposal D10): years of a state that truly had no head of state, head of government or flag. Each entry names a source; a gap is never closed by leaving it blank.",
-  "exceptions": []
+  "exceptions": [
+    {
+      "country": "china",
+      "state": "qing-dynasty",
+      "need": "head of government",
+      "start": 1800,
+      "end": 1910,
+      "reason": "None: the office of Prime Minister of the Imperial Cabinet was created on 8 May 1911.",
+      "source": "https://en.wikipedia.org/wiki/Prime_Minister_of_the_Imperial_Cabinet"
+    },
+    {
+      "country": "japan",
+      "state": "tokugawa-shogunate",
+      "need": "head of government",
+      "start": 1800,
+      "end": 1867,
+      "reason": "None: the office of Prime Minister of Japan was created on 22 December 1885.",
+      "source": "https://en.wikipedia.org/wiki/Prime_Minister_of_Japan"
+    },
+    {
+      "country": "japan",
+      "state": "empire-of-japan",
+      "need": "head of government",
+      "start": 1868,
+      "end": 1884,
+      "reason": "None: the office of Prime Minister of Japan was created on 22 December 1885.",
+      "source": "https://en.wikipedia.org/wiki/Prime_Minister_of_Japan"
+    },
+    {
+      "country": "russia",
+      "state": "russian-empire",
+      "need": "head of government",
+      "start": 1800,
+      "end": 1904,
+      "reason": "None: the office of Chairman of the Council of Ministers was created on 6 November 1905.",
+      "source": "https://en.wikipedia.org/wiki/Prime_Minister_of_Russia"
+    },
+    {
+      "country": "russia",
+      "state": "soviet-union",
+      "need": "head of government",
+      "start": 1922,
+      "end": 1922,
+      "reason": "None: the Council of People's Commissars of the Soviet Union was formed on 6 July 1923.",
+      "source": "https://en.wikipedia.org/wiki/Council_of_People%27s_Commissars_of_the_Soviet_Union"
+    },
+    {
+      "country": "india",
+      "state": "company-rule-in-india",
+      "need": "head of government",
+      "start": 1800,
+      "end": 1857,
+      "reason": "None: the office of Prime Minister of India was created on 15 August 1947.",
+      "source": "https://en.wikipedia.org/wiki/Prime_Minister_of_India"
+    },
+    {
+      "country": "india",
+      "state": "british-raj",
+      "need": "head of government",
+      "start": 1858,
+      "end": 1946,
+      "reason": "None: the office of Prime Minister of India was created on 15 August 1947.",
+      "source": "https://en.wikipedia.org/wiki/Prime_Minister_of_India"
+    },
+    {
+      "country": "germany",
+      "state": "holy-roman-empire",
+      "need": "head of government",
+      "start": 1800,
+      "end": 1805,
+      "reason": "None: the office of Chancellor (of the North German Confederation, then of Germany) was created on 1 July 1867.",
+      "source": "https://en.wikipedia.org/wiki/Chancellor_of_Germany"
+    },
+    {
+      "country": "germany",
+      "state": "confederation-of-the-rhine",
+      "need": "head of government",
+      "start": 1806,
+      "end": 1812,
+      "reason": "None: the office of Chancellor (of the North German Confederation, then of Germany) was created on 1 July 1867.",
+      "source": "https://en.wikipedia.org/wiki/Chancellor_of_Germany"
+    },
+    {
+      "country": "germany",
+      "state": "german-confederation",
+      "need": "head of government",
+      "start": 1815,
+      "end": 1865,
+      "reason": "None: the office of Chancellor (of the North German Confederation, then of Germany) was created on 1 July 1867.",
+      "source": "https://en.wikipedia.org/wiki/Chancellor_of_Germany"
+    },
+    {
+      "country": "germany",
+      "state": "north-german-confederation",
+      "need": "head of government",
+      "start": 1866,
+      "end": 1866,
+      "reason": "None: the office of Chancellor (of the North German Confederation, then of Germany) was created on 1 July 1867.",
+      "source": "https://en.wikipedia.org/wiki/Chancellor_of_Germany"
+    },
+    {
+      "country": "france",
+      "state": "french-first-republic",
+      "need": "head of government",
+      "start": 1800,
+      "end": 1803,
+      "reason": "None: the office of President of the Council of Ministers was created on 9 July 1815.",
+      "source": "https://en.wikipedia.org/wiki/Prime_Minister_of_France"
+    },
+    {
+      "country": "france",
+      "state": "first-french-empire",
+      "need": "head of government",
+      "start": 1804,
+      "end": 1813,
+      "reason": "None: the office of President of the Council of Ministers was created on 9 July 1815.",
+      "source": "https://en.wikipedia.org/wiki/Prime_Minister_of_France"
+    },
+    {
+      "country": "france",
+      "state": "bourbon-restoration",
+      "need": "head of government",
+      "start": 1814,
+      "end": 1814,
+      "reason": "None: the office of President of the Council of Ministers was created on 9 July 1815.",
+      "source": "https://en.wikipedia.org/wiki/Prime_Minister_of_France"
+    },
+    {
+      "country": "germany",
+      "state": "allied-occupied-germany",
+      "need": "head of state",
+      "start": 1945,
+      "end": 1948,
+      "reason": "None: Germany was under Allied military occupation and had no head of state.",
+      "source": "https://en.wikipedia.org/wiki/Allied-occupied_Germany"
+    },
+    {
+      "country": "germany",
+      "state": "allied-occupied-germany",
+      "need": "head of government",
+      "start": 1946,
+      "end": 1948,
+      "reason": "None: Germany was under Allied military occupation and had no government of its own.",
+      "source": "https://en.wikipedia.org/wiki/Allied-occupied_Germany"
+    }
+  ]
 }

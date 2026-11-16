@@ -1041,25 +1041,6 @@
       ]
     },
     {
-      "id": "mohammad-mokhber",
-      "name": {
-        "en": "Mohammad Mokhber",
-        "fa": "محمد مخبر"
-      },
-      "born": 1955,
-      "wikidata": "Q5703610",
-      "sources": [
-        {
-          "title": "Mohammad Mokhber — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mohammad_Mokhber"
-        },
-        {
-          "title": "Mohammad Mokhber — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5703610"
-        }
-      ]
-    },
-    {
       "id": "mohammad-mosaddegh",
       "name": {
         "en": "Mohammad Mosaddegh",
@@ -2334,14 +2315,20 @@
     {
       "person": "mohammad-ali-foroughi",
       "state": "pahlavi-iran",
+      "start": 1925,
+      "end": 1926,
       "office": "head-of-government",
       "title": {
         "en": "Prime Minister",
         "fa": "نخست‌وزیر"
       },
-      "start": 1925,
-      "end": 1926,
+      "exactStart": "1925-11-01",
+      "exactEnd": "1926-06-13",
       "sources": [
+        {
+          "title": "Mohammad Ali Foroughi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mohammad_Ali_Foroughi"
+        },
         {
           "title": "Mohammad Ali Foroughi — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q181451"
@@ -2420,14 +2407,20 @@
     {
       "person": "mohammad-ali-foroughi",
       "state": "pahlavi-iran",
+      "start": 1933,
+      "end": 1935,
       "office": "head-of-government",
       "title": {
         "en": "Prime Minister",
         "fa": "نخست‌وزیر"
       },
-      "start": 1933,
-      "end": 1935,
+      "exactStart": "1933-09-18",
+      "exactEnd": "1935-12-03",
       "sources": [
+        {
+          "title": "Mohammad Ali Foroughi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mohammad_Ali_Foroughi"
+        },
         {
           "title": "Mohammad Ali Foroughi — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q181451"
@@ -2483,14 +2476,20 @@
     {
       "person": "mohammad-ali-foroughi",
       "state": "pahlavi-iran",
+      "start": 1941,
+      "end": 1942,
       "office": "head-of-government",
       "title": {
         "en": "Prime Minister",
         "fa": "نخست‌وزیر"
       },
-      "start": 1941,
-      "end": 1942,
+      "exactStart": "1941-08-27",
+      "exactEnd": "1942-03-09",
       "sources": [
+        {
+          "title": "Mohammad Ali Foroughi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mohammad_Ali_Foroughi"
+        },
         {
           "title": "Mohammad Ali Foroughi — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q181451"
@@ -3434,23 +3433,6 @@
         {
           "title": "Ebrahim Raisi — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q5947347"
-        }
-      ]
-    },
-    {
-      "person": "mohammad-mokhber",
-      "state": "islamic-republic-of-iran",
-      "office": "head-of-government",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 2024,
-      "end": 2024,
-      "sources": [
-        {
-          "title": "Mohammad Mokhber — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5703610"
         }
       ]
     },

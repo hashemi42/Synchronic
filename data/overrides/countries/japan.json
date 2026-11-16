@@ -474,40 +474,6 @@
       ]
     },
     {
-      "person": "sanjo-sanetomi",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1889,
-      "end": 1889,
-      "sources": [
-        {
-          "title": "Sanjō Sanetomi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q516646"
-        }
-      ]
-    },
-    {
-      "person": "masayoshi-ito",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1980,
-      "end": 1980,
-      "sources": [
-        {
-          "title": "Masayoshi Ito — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q744989"
-        }
-      ]
-    },
-    {
       "person": "shinzo-abe",
       "state": "state-of-japan",
       "office": "head-of-government",

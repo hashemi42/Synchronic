@@ -91,6 +91,18 @@
         {
           "title": "Constitutional Protection junta — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Constitutional_Protection_junta"
+        },
+        {
+          "title": "Canton government of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canton_government_of_the_Republic_of_China"
+        },
+        {
+          "title": "Army and Navy Generalissimo's Headquarters — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Army_and_Navy_Generalissimo%27s_Headquarters"
+        },
+        {
+          "title": "Nationalist government — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nationalist_government"
         }
       ]
     },
@@ -115,6 +127,94 @@
         {
           "title": "China — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/China"
+        }
+      ]
+    },
+    {
+      "id": "taiping-heavenly-kingdom",
+      "name": {
+        "en": "Taiping Heavenly Kingdom",
+        "fa": "پادشاهی آسمانی تایپینگ"
+      },
+      "start": 1851,
+      "end": 1864,
+      "capital": {
+        "en": "Tianjing (now Nanjing)",
+        "fa": "تیانجینگ (نانجینگ کنونی)"
+      },
+      "system": {
+        "en": "Theocratic absolute monarchy",
+        "fa": "پادشاهی مطلقهٔ دین‌سالار"
+      },
+      "wikidata": "Q3486676",
+      "sources": [
+        {
+          "title": "Taiping Heavenly Kingdom — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Taiping_Heavenly_Kingdom"
+        },
+        {
+          "title": "شورش تایپینگ — Wikipedia",
+          "url": "https://fa.wikipedia.org/wiki/%D8%B4%D9%88%D8%B1%D8%B4_%D8%AA%D8%A7%DB%8C%D9%BE%DB%8C%D9%86%DA%AF"
+        }
+      ]
+    },
+    {
+      "id": "wang-jingwei-regime",
+      "name": {
+        "en": "Wang Jingwei regime",
+        "fa": "رژیم وانگ جینگ وی"
+      },
+      "officialName": {
+        "en": "Republic of China",
+        "fa": "جمهوری چین"
+      },
+      "start": 1940,
+      "end": 1945,
+      "capital": {
+        "en": "Nanjing",
+        "fa": "نانجینگ"
+      },
+      "system": {
+        "en": "One-party republic under Japanese occupation",
+        "fa": "جمهوری تک‌حزبی زیر اشغال ژاپن"
+      },
+      "wikidata": "Q696242",
+      "sources": [
+        {
+          "title": "Wang Jingwei regime — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei_regime"
+        },
+        {
+          "title": "رژیم وانگ جینگ وی — Wikipedia",
+          "url": "https://fa.wikipedia.org/wiki/%D8%B1%DA%98%DB%8C%D9%85_%D9%88%D8%A7%D9%86%DA%AF_%D8%AC%DB%8C%D9%86%DA%AF_%D9%88%DB%8C"
+        }
+      ]
+    },
+    {
+      "id": "manchukuo",
+      "name": {
+        "en": "Manchukuo",
+        "fa": "منچوکو"
+      },
+      "start": 1932,
+      "end": 1945,
+      "capital": {
+        "en": "Hsinking (Changchun)",
+        "fa": "شین‌جینگ (چانگچون)"
+      },
+      "system": {
+        "en": "Provisional government; monarchy from 1934",
+        "fa": "دولت موقت؛ از ۱۹۳۴ پادشاهی"
+      },
+      "wikidata": "Q30623",
+      "sources": [
+        {
+          "title": "Manchukuo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manchukuo"
+        },
+        {
+          "title": "منچوکو — Wikipedia",
+          "url": "https://fa.wikipedia.org/wiki/%D9%85%D9%86%DA%86%D9%88%DA%A9%D9%88"
         }
       ]
     }
@@ -160,6 +260,18 @@
         {
           "title": "Constitutional Protection junta — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Constitutional_Protection_junta"
+        },
+        {
+          "title": "Canton government of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canton_government_of_the_Republic_of_China"
+        },
+        {
+          "title": "Army and Navy Generalissimo's Headquarters — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Army_and_Navy_Generalissimo%27s_Headquarters"
+        },
+        {
+          "title": "Nationalist government — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nationalist_government"
         }
       ]
     },
@@ -173,6 +285,89 @@
         {
           "title": "China — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/China"
+        }
+      ]
+    },
+    {
+      "country": "china",
+      "state": "taiping-heavenly-kingdom",
+      "start": 1851,
+      "end": 1864,
+      "exactStart": "1851-01-11",
+      "exactEnd": "1864-07-19",
+      "kind": "rival",
+      "note": {
+        "en": "A rebel kingdom led by Hong Xiuquan that sought to overthrow the Qing dynasty; its capital was Tianjing, today's Nanjing.",
+        "fa": "پادشاهی شورشی به رهبری هونگ شیوچوان که در پی براندازی دودمان چینگ بود؛ پایتخت آن تیانجینگ، نانجینگ کنونی، بود."
+      },
+      "sources": [
+        {
+          "title": "Taiping Heavenly Kingdom — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Taiping_Heavenly_Kingdom"
+        },
+        {
+          "title": "شورش تایپینگ — Wikipedia",
+          "url": "https://fa.wikipedia.org/wiki/%D8%B4%D9%88%D8%B1%D8%B4_%D8%AA%D8%A7%DB%8C%D9%BE%DB%8C%D9%86%DA%AF"
+        }
+      ]
+    },
+    {
+      "country": "china",
+      "state": "wang-jingwei-regime",
+      "start": 1940,
+      "end": 1945,
+      "exactStart": "1940-03-30",
+      "exactEnd": "1945-08-16",
+      "kind": "rival",
+      "label": {
+        "en": "Japanese puppet government",
+        "fa": "دولت دست‌نشاندهٔ ژاپن"
+      },
+      "officialName": {
+        "en": "Reorganized National Government of the Republic of China",
+        "fa": "دولت ملی بازسازمان‌یافتهٔ جمهوری چین"
+      },
+      "note": {
+        "en": "A collaborationist government at Nanjing that administered Japanese-occupied China, as a rival to the National Government.",
+        "fa": "دولتی همکار ژاپن در نانجینگ که چینِ زیر اشغال ژاپن را اداره می‌کرد و رقیب دولت ملی بود."
+      },
+      "sources": [
+        {
+          "title": "Wang Jingwei regime — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei_regime"
+        },
+        {
+          "title": "رژیم وانگ جینگ وی — Wikipedia",
+          "url": "https://fa.wikipedia.org/wiki/%D8%B1%DA%98%DB%8C%D9%85_%D9%88%D8%A7%D9%86%DA%AF_%D8%AC%DB%8C%D9%86%DA%AF_%D9%88%DB%8C"
+        }
+      ]
+    },
+    {
+      "country": "china",
+      "state": "manchukuo",
+      "start": 1932,
+      "end": 1945,
+      "kind": "rival",
+      "label": {
+        "en": "Japanese puppet state",
+        "fa": "دولت دست‌نشاندهٔ ژاپن"
+      },
+      "officialName": {
+        "en": "Manchukuo",
+        "fa": "منچوکو"
+      },
+      "note": {
+        "en": "A puppet state of the Empire of Japan in Manchuria, on land seized in the Japanese invasion of Manchuria.",
+        "fa": "دولت دست‌نشاندهٔ امپراتوری ژاپن در منچوری، در سرزمین‌هایی که ژاپن در تهاجم به منچوری گرفت."
+      },
+      "sources": [
+        {
+          "title": "Manchukuo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manchukuo"
+        },
+        {
+          "title": "منچوکو — Wikipedia",
+          "url": "https://fa.wikipedia.org/wiki/%D9%85%D9%86%DA%86%D9%88%DA%A9%D9%88"
         }
       ]
     }
@@ -434,6 +629,22 @@
     {
       "id": "yang-shangkun",
       "wikidata": "Q377935"
+    },
+    {
+      "id": "hong-xiuquan",
+      "wikidata": "Q334732"
+    },
+    {
+      "id": "chen-gongbo",
+      "wikidata": "Q704276"
+    },
+    {
+      "id": "zheng-xiaoxu",
+      "wikidata": "Q704607"
+    },
+    {
+      "id": "zhang-jinghui",
+      "wikidata": "Q197223"
     }
   ],
   "terms": [
@@ -818,6 +1029,206 @@
           "url": "https://en.wikipedia.org/wiki/Dong_Biwu"
         }
       ]
+    },
+    {
+      "person": "hong-xiuquan",
+      "state": "taiping-heavenly-kingdom",
+      "office": "head-of-state",
+      "title": {
+        "en": "Heavenly King",
+        "fa": "پادشاه آسمانی"
+      },
+      "start": 1851,
+      "end": 1864,
+      "exactStart": "1851-01-11",
+      "exactEnd": "1864-06-01",
+      "sources": [
+        {
+          "title": "Hong Xiuquan — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hong_Xiuquan"
+        },
+        {
+          "title": "Taiping Heavenly Kingdom — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Taiping_Heavenly_Kingdom"
+        }
+      ]
+    },
+    {
+      "person": "wang-jingwei",
+      "state": "wang-jingwei-regime",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1940,
+      "end": 1944,
+      "sources": [
+        {
+          "title": "Wang Jingwei regime — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei_regime"
+        },
+        {
+          "title": "Wang Jingwei — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei"
+        }
+      ]
+    },
+    {
+      "person": "chen-gongbo",
+      "state": "wang-jingwei-regime",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1944,
+      "end": 1945,
+      "sources": [
+        {
+          "title": "Wang Jingwei regime — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei_regime"
+        },
+        {
+          "title": "Chen Gongbo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chen_Gongbo"
+        }
+      ]
+    },
+    {
+      "person": "wang-jingwei",
+      "state": "wang-jingwei-regime",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1940,
+      "end": 1944,
+      "exactStart": "1940-03-30",
+      "exactEnd": "1944-11-10",
+      "sources": [
+        {
+          "title": "Wang Jingwei — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei"
+        },
+        {
+          "title": "Wang Jingwei regime — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei_regime"
+        }
+      ]
+    },
+    {
+      "person": "chen-gongbo",
+      "state": "wang-jingwei-regime",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1944,
+      "end": 1945,
+      "sources": [
+        {
+          "title": "Chen Gongbo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chen_Gongbo"
+        },
+        {
+          "title": "Wang Jingwei regime — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei_regime"
+        }
+      ]
+    },
+    {
+      "person": "puyi",
+      "state": "manchukuo",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chief Executive",
+        "fa": "رئیس اجرایی"
+      },
+      "start": 1932,
+      "end": 1934,
+      "exactEnd": "1934-03-01",
+      "sources": [
+        {
+          "title": "Puyi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Puyi"
+        },
+        {
+          "title": "Manchukuo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manchukuo"
+        }
+      ]
+    },
+    {
+      "person": "puyi",
+      "state": "manchukuo",
+      "office": "head-of-state",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      },
+      "start": 1934,
+      "end": 1945,
+      "exactStart": "1934-03-01",
+      "exactEnd": "1945-08-17",
+      "sources": [
+        {
+          "title": "Puyi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Puyi"
+        },
+        {
+          "title": "Manchukuo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manchukuo"
+        }
+      ]
+    },
+    {
+      "person": "zheng-xiaoxu",
+      "state": "manchukuo",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1932,
+      "end": 1935,
+      "exactStart": "1932-03-09",
+      "exactEnd": "1935-05-21",
+      "sources": [
+        {
+          "title": "Zheng Xiaoxu — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zheng_Xiaoxu"
+        },
+        {
+          "title": "Manchukuo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manchukuo"
+        }
+      ]
+    },
+    {
+      "person": "zhang-jinghui",
+      "state": "manchukuo",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1935,
+      "end": 1945,
+      "exactStart": "1935-05-21",
+      "exactEnd": "1945-08-20",
+      "sources": [
+        {
+          "title": "Zhang Jinghui — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zhang_Jinghui"
+        },
+        {
+          "title": "Manchukuo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manchukuo"
+        }
+      ]
     }
   ],
   "titles": [
@@ -862,17 +1273,17 @@
     {
       "wikidata": "Q334732",
       "office": "head-of-state",
-      "reason": "Hong Xiuquan led the Taiping Heavenly Kingdom, a rebel state that is not in the lane; he was never Emperor of China"
+      "reason": "Hong Xiuquan led the Taiping Heavenly Kingdom; he is recorded there as a curated term, not as Emperor of China"
     },
     {
       "wikidata": "Q22303",
       "office": "head-of-state",
-      "reason": "Wang Jingwei headed the Reorganized National Government at Nanjing under Japanese occupation (1940–1944), which is not in the lane"
+      "reason": "Wang Jingwei headed the Nanjing government of 1940–1945; he is recorded there as a curated term, not in the Republic's main sequence"
     },
     {
       "wikidata": "Q704276",
       "office": "head-of-state",
-      "reason": "Chen Gongbo headed the Reorganized National Government at Nanjing under Japanese occupation (1944–1945), which is not in the lane"
+      "reason": "Chen Gongbo headed the Nanjing government of 1940–1945; he is recorded there as a curated term, not in the Republic's main sequence"
     }
   ],
   "flags": [
@@ -957,6 +1368,46 @@
         {
           "title": "Flag of the People's Republic of China.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg"
+        }
+      ]
+    },
+    {
+      "state": "wang-jingwei-regime",
+      "file": "Flag of the Republic of China-Nanjing (Peace, Anti-Communism, National Construction).svg",
+      "start": 1940,
+      "end": 1945,
+      "certainty": "documented",
+      "license": "",
+      "attribution": "",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Republic of China-Nanjing (Peace, Anti-Communism, National Construction).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_China-Nanjing_%28Peace%2C_Anti-Communism%2C_National_Construction%29.svg"
+        },
+        {
+          "title": "Wang Jingwei regime — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei_regime"
+        }
+      ]
+    },
+    {
+      "state": "manchukuo",
+      "file": "Flag of Manchukuo.svg",
+      "start": 1932,
+      "end": 1945,
+      "certainty": "documented",
+      "license": "",
+      "attribution": "",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of Manchukuo.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Manchukuo.svg"
+        },
+        {
+          "title": "Manchukuo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manchukuo"
         }
       ]
     }

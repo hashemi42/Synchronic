@@ -2852,29 +2852,6 @@
       "person": "walter-scheel",
       "state": "federal-republic-of-germany",
       "start": 1974,
-      "end": 1974,
-      "office": "head-of-government",
-      "title": {
-        "en": "Chancellor",
-        "fa": "صدراعظم"
-      },
-      "exactStart": "1974-05-07",
-      "exactEnd": "1974-05-16",
-      "sources": [
-        {
-          "title": "Walter Scheel — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Walter_Scheel"
-        },
-        {
-          "title": "Walter Scheel — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q2571"
-        }
-      ]
-    },
-    {
-      "person": "walter-scheel",
-      "state": "federal-republic-of-germany",
-      "start": 1974,
       "end": 1979,
       "office": "head-of-state",
       "title": {

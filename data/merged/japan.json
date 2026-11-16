@@ -734,26 +734,6 @@
       ]
     },
     {
-      "id": "masayoshi-ito",
-      "name": {
-        "en": "Masayoshi Ito",
-        "fa": "ماسايوشي إيتو"
-      },
-      "born": 1913,
-      "died": 1994,
-      "wikidata": "Q744989",
-      "sources": [
-        {
-          "title": "Masayoshi Ito — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Masayoshi_Ito"
-        },
-        {
-          "title": "Masayoshi Ito — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q744989"
-        }
-      ]
-    },
-    {
       "id": "masayoshi-ohira",
       "name": {
         "en": "Masayoshi Ōhira",
@@ -1066,26 +1046,6 @@
         {
           "title": "Sanae Takaichi — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q1705028"
-        }
-      ]
-    },
-    {
-      "id": "sanjo-sanetomi",
-      "name": {
-        "en": "Sanjō Sanetomi",
-        "fa": "سانجو سانه‌تومی"
-      },
-      "born": 1837,
-      "died": 1891,
-      "wikidata": "Q516646",
-      "sources": [
-        {
-          "title": "Sanjō Sanetomi — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Sanj%C5%8D_Sanetomi"
-        },
-        {
-          "title": "Sanjō Sanetomi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q516646"
         }
       ]
     },
@@ -1796,23 +1756,6 @@
         {
           "title": "Kuroda Kiyotaka — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q714049"
-        }
-      ]
-    },
-    {
-      "person": "sanjo-sanetomi",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1889,
-      "end": 1889,
-      "sources": [
-        {
-          "title": "Sanjō Sanetomi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q516646"
         }
       ]
     },
@@ -3352,23 +3295,6 @@
         {
           "title": "Masayoshi Ōhira — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q315568"
-        }
-      ]
-    },
-    {
-      "person": "masayoshi-ito",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1980,
-      "end": 1980,
-      "sources": [
-        {
-          "title": "Masayoshi Ito — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q744989"
         }
       ]
     },

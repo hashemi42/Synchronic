@@ -137,7 +137,16 @@ describe("normalize", () => {
   });
   it("leaves out brief stand-ins (R3), named exclusions and holders before the lane", () => {
     expect(out.file.persons.map((p) => p.wikidata).sort()).toEqual(["Q10", "Q11", "Q13", "Q15"]);
-    expect(out.notes).toContainEqual(expect.objectContaining({ kind: "R3: acting or interim for less than a year, left out" }));
+    expect(out.notes).toContainEqual(expect.objectContaining({ kind: "R3: stand-in for less than a year, left out" }));
+  });
+  it("keeps a stand-in when leaving them out would leave a year with nobody (R3 never makes a gap)", () => {
+    // With no king or queen on record, the acting holder of 1850 is all there is.
+    const kept = normalize({ ...raw, holders: raw.holders.filter((h) => h.person.endsWith("Q12")), names: [...raw.names, { item: `${E}Q12`, kind: "label:en", name: "S" }, { item: `${E}Q12`, kind: "label:fa", name: "س" }] }, cfg);
+    expect(kept.file.terms.map((x) => x.person)).toContain("s");
+    expect(kept.notes).toContainEqual(expect.objectContaining({ kind: "R3: stand-in kept, nobody else covers the year" }));
+    // A named R3 exclusion follows the same rule.
+    const named = normalize(raw, { ...cfg, curated: { ...curated, exclude: [{ wikidata: "Q13", office: "head-of-state", reason: "R3: R, regent" }] } });
+    expect(named.file.terms.map((x) => x.person)).toContain("r");
   });
   it("adds curated terms and keeps curated names and ids", () => {
     expect(rows).toContainEqual(["leader-l", "s", "leader", "Leader", 1950, 1960]);

@@ -72,7 +72,7 @@
         "fa": "امپراتوری اول فرانسه"
       },
       "start": 1804,
-      "end": 1814,
+      "end": 1815,
       "capital": {
         "en": "Paris",
         "fa": "پاریس"
@@ -86,6 +86,10 @@
         {
           "title": "First French Empire — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/First_French_Empire"
+        },
+        {
+          "title": "Hundred Days — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hundred_Days"
         }
       ]
     },
@@ -1933,6 +1937,26 @@
       ]
     },
     {
+      "id": "louis-jules-trochu",
+      "name": {
+        "en": "Louis-Jules Trochu",
+        "fa": "لوئی-ژول تروشو"
+      },
+      "born": 1815,
+      "died": 1896,
+      "wikidata": "Q441235",
+      "sources": [
+        {
+          "title": "Louis-Jules Trochu — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Louis-Jules_Trochu"
+        },
+        {
+          "title": "Louis-Jules Trochu — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q441235"
+        }
+      ]
+    },
+    {
       "id": "louis-mathieu-mole",
       "name": {
         "en": "Louis-Mathieu Molé",
@@ -2982,6 +3006,33 @@
           "url": "https://en.wikipedia.org/wiki/French_Fifth_Republic"
         }
       ]
+    },
+    {
+      "country": "france",
+      "state": "first-french-empire",
+      "start": 1815,
+      "end": 1815,
+      "exactStart": "1815-03-20",
+      "exactEnd": "1815-07-08",
+      "kind": "rival",
+      "label": {
+        "en": "Hundred Days",
+        "fa": "بازگشت صدروزهٔ ناپلئون"
+      },
+      "note": {
+        "en": "Napoleon returned from exile and ruled again from 20 March 1815. He abdicated on 22 June, and the period ended on 8 July 1815.",
+        "fa": "ناپلئون از تبعید بازگشت و از ۲۰ مارس ۱۸۱۵ دوباره حکومت کرد. او در ۲۲ ژوئن کناره‌گیری کرد و این دوره در ۸ ژوئیهٔ ۱۸۱۵ پایان یافت."
+      },
+      "sources": [
+        {
+          "title": "Hundred Days — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hundred_Days"
+        },
+        {
+          "title": "Napoleon — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Napoleon"
+        }
+      ]
     }
   ],
   "terms": [
@@ -3050,6 +3101,29 @@
         {
           "title": "Louis XVIII — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Louis_XVIII"
+        }
+      ]
+    },
+    {
+      "person": "napoleon",
+      "state": "first-french-empire",
+      "office": "head-of-state",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      },
+      "start": 1815,
+      "end": 1815,
+      "exactStart": "1815-03-20",
+      "exactEnd": "1815-06-22",
+      "sources": [
+        {
+          "title": "Hundred Days — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hundred_Days"
+        },
+        {
+          "title": "Napoleon — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Napoleon"
         }
       ]
     },
@@ -3294,6 +3368,29 @@
       ]
     },
     {
+      "person": "louis-eugene-cavaignac",
+      "state": "french-second-republic",
+      "start": 1848,
+      "end": 1848,
+      "office": "head-of-state",
+      "title": {
+        "en": "Chief of the Executive Power",
+        "fa": "رئیس قوهٔ مجریه"
+      },
+      "exactStart": "1848-06-28",
+      "exactEnd": "1848-12-20",
+      "sources": [
+        {
+          "title": "Louis-Eugène Cavaignac — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Louis-Eug%C3%A8ne_Cavaignac"
+        },
+        {
+          "title": "Louis-Eugène Cavaignac — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q379702"
+        }
+      ]
+    },
+    {
       "person": "napoleon-iii",
       "state": "french-second-republic",
       "start": 1848,
@@ -3351,6 +3448,29 @@
         {
           "title": "Émile Ollivier — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Émile_Ollivier"
+        }
+      ]
+    },
+    {
+      "person": "louis-jules-trochu",
+      "state": "french-third-republic",
+      "start": 1870,
+      "end": 1871,
+      "office": "head-of-state",
+      "title": {
+        "en": "President of the Government of National Defence",
+        "fa": "رئیس دولت دفاع ملی"
+      },
+      "exactStart": "1870-09-04",
+      "exactEnd": "1871-01-22",
+      "sources": [
+        {
+          "title": "Louis-Jules Trochu — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Louis-Jules_Trochu"
+        },
+        {
+          "title": "Louis-Jules Trochu — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q441235"
         }
       ]
     },
@@ -5632,6 +5752,29 @@
         {
           "title": "Charles de Gaulle — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Charles_de_Gaulle"
+        }
+      ]
+    },
+    {
+      "person": "georges-bidault",
+      "state": "french-fourth-republic",
+      "start": 1946,
+      "end": 1946,
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Provisional Government",
+        "fa": "رئیس دولت موقت"
+      },
+      "exactStart": "1946-06-24",
+      "exactEnd": "1946-10-14",
+      "sources": [
+        {
+          "title": "Georges Bidault — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Georges_Bidault"
+        },
+        {
+          "title": "Georges Bidault — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q312026"
         }
       ]
     },

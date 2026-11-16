@@ -2325,20 +2325,14 @@
     {
       "person": "yegor-gaidar",
       "state": "russian-federation",
-      "start": 1992,
-      "end": 1992,
       "office": "head-of-government",
       "title": {
         "en": "Prime Minister",
         "fa": "نخست‌وزیر"
       },
-      "exactStart": "1992-06-15",
-      "exactEnd": "1992-12-15",
+      "start": 1992,
+      "end": 1992,
       "sources": [
-        {
-          "title": "Yegor Gaidar — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Yegor_Gaidar"
-        },
         {
           "title": "Yegor Gaidar — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q82695"
@@ -2388,29 +2382,6 @@
         {
           "title": "Sergey Kiriyenko — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q313915"
-        }
-      ]
-    },
-    {
-      "person": "viktor-chernomyrdin",
-      "state": "russian-federation",
-      "start": 1998,
-      "end": 1998,
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "exactStart": "1998-08-23",
-      "exactEnd": "1998-09-11",
-      "sources": [
-        {
-          "title": "Viktor Chernomyrdin — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Viktor_Chernomyrdin"
-        },
-        {
-          "title": "Viktor Chernomyrdin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q190884"
         }
       ]
     },
