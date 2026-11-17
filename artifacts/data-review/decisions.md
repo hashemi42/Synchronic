@@ -96,7 +96,7 @@ Kept. The state and its lane period now cite the three later governments as well
 
 - **Manchukuo was not covered.** It is added the same way as the Nanjing government, with its two prime ministers and its flag.
 - **The Hundred Days begins and ends within 1815.** A rival period may now have the same start and end year, as an office term may. The First French Empire's end moves to 1815 to hold it; its place in the lane still ends in 1814.
-- **Persian wording.** «دولت دست‌نشاندهٔ ژاپن» follows fa.wikipedia, which calls both «دولت دست‌نشانده». The Persian of the notes, of "Heavenly King" and "Chief Executive", and of three titles for the restored French heads is my translation. Three people have no fa.wikipedia article and are transliterated in `data/overrides/persian-names.json`: Louis-Jules Trochu, Hong Xiuquan, Zheng Xiaoxu. All of these are for your review.
+- **Persian wording.** «دولت دست‌نشاندهٔ ژاپن» follows fa.wikipedia, which calls both «دولت دست‌نشانده». The Persian of the notes, of "Heavenly King" and "Chief Executive", and of three titles for the restored French heads is my translation. Three people have no fa.wikipedia article and are transliterated in `data/overrides/persian-names.json`: Louis-Jules Trochu, Hong Xiuquan, Zheng Xiaoxu. All of these are for your review. The kingdom's name, «پادشاهی آسمانی تایپینگ», is confirmed.
 
 ### Gaps: 58 became 44
 
