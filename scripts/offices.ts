@@ -14,10 +14,11 @@ export const OFFICES: Record<string, string[]> = {
   china: ["Q5369523", "Q30060907", "Q702650", "Q4122271"],
   india: ["Q192711"], // Prime Minister of India
   japan: ["Q274948"], // Prime Minister of Japan
+  us: ["Q11696"], // President of the United States: head of state and of government from 1789
 };
 
 /**
  * Offices that became the head of government in a given year: a term already under way then counts
  * from that year (Erdoğan's presidency from 2018). Used by the merge script and the audit (A1).
  */
-export const HEAD_OF_GOVERNMENT_FROM: Record<string, number> = { Q1922067: 2018, Q838380: 1989 };
+export const HEAD_OF_GOVERNMENT_FROM: Record<string, number> = { Q1922067: 2018, Q838380: 1989, Q11696: 1789 };

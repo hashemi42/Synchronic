@@ -1,0 +1,3725 @@
+{
+  "country": {
+    "id": "us",
+    "name": {
+      "en": "United States",
+      "fa": "ایالات متحده آمریکا"
+    },
+    "aliases": [
+      "USA",
+      "US",
+      "America",
+      "United States of America",
+      "آمریکا",
+      "امریکا",
+      "ایالات متحده"
+    ],
+    "wikidata": "Q30",
+    "sources": [
+      {
+        "title": "United States — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/United_States"
+      }
+    ]
+  },
+  "states": [
+    {
+      "id": "united-states",
+      "name": {
+        "en": "United States",
+        "fa": "ایالات متحده آمریکا"
+      },
+      "officialName": {
+        "en": "United States of America",
+        "fa": "ایالات متحدهٔ آمریکا"
+      },
+      "start": 1776,
+      "end": null,
+      "capital": {
+        "en": "Washington, D.C.",
+        "fa": "واشینگتن، دی.سی."
+      },
+      "system": {
+        "en": "Federal presidential republic",
+        "fa": "جمهوری فدرال ریاستی"
+      },
+      "wikidata": "Q30",
+      "sources": [
+        {
+          "title": "United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/United_States"
+        }
+      ]
+    }
+  ],
+  "persons": [
+    {
+      "id": "abraham-lincoln",
+      "name": {
+        "en": "Abraham Lincoln",
+        "fa": "آبراهام لینکلن"
+      },
+      "born": 1809,
+      "died": 1865,
+      "wikidata": "Q91",
+      "sources": [
+        {
+          "title": "Abraham Lincoln — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abraham_Lincoln"
+        },
+        {
+          "title": "Abraham Lincoln — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q91"
+        }
+      ]
+    },
+    {
+      "id": "andrew-jackson",
+      "name": {
+        "en": "Andrew Jackson",
+        "fa": "اندرو جکسون"
+      },
+      "born": 1767,
+      "died": 1845,
+      "wikidata": "Q11817",
+      "sources": [
+        {
+          "title": "Andrew Jackson — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Andrew_Jackson"
+        },
+        {
+          "title": "Andrew Jackson — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11817"
+        }
+      ]
+    },
+    {
+      "id": "andrew-johnson",
+      "name": {
+        "en": "Andrew Johnson",
+        "fa": "اندرو جانسون"
+      },
+      "born": 1808,
+      "died": 1875,
+      "wikidata": "Q8612",
+      "sources": [
+        {
+          "title": "Andrew Johnson — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Andrew_Johnson"
+        },
+        {
+          "title": "Andrew Johnson — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q8612"
+        }
+      ]
+    },
+    {
+      "id": "barack-obama",
+      "name": {
+        "en": "Barack Obama",
+        "fa": "باراک اوباما"
+      },
+      "born": 1961,
+      "wikidata": "Q76",
+      "sources": [
+        {
+          "title": "Barack Obama — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama"
+        },
+        {
+          "title": "Barack Obama — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q76"
+        }
+      ]
+    },
+    {
+      "id": "benjamin-harrison",
+      "name": {
+        "en": "Benjamin Harrison",
+        "fa": "بنجامین هریسون"
+      },
+      "born": 1833,
+      "died": 1901,
+      "wikidata": "Q35678",
+      "sources": [
+        {
+          "title": "Benjamin Harrison — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Benjamin_Harrison"
+        },
+        {
+          "title": "Benjamin Harrison — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35678"
+        }
+      ]
+    },
+    {
+      "id": "bill-clinton",
+      "name": {
+        "en": "Bill Clinton",
+        "fa": "بیل کلینتون"
+      },
+      "born": 1946,
+      "wikidata": "Q1124",
+      "sources": [
+        {
+          "title": "Bill Clinton — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+        },
+        {
+          "title": "Bill Clinton — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1124"
+        }
+      ]
+    },
+    {
+      "id": "calvin-coolidge",
+      "name": {
+        "en": "Calvin Coolidge",
+        "fa": "کالوین کولیج"
+      },
+      "born": 1872,
+      "died": 1933,
+      "wikidata": "Q36023",
+      "sources": [
+        {
+          "title": "Calvin Coolidge — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Calvin_Coolidge"
+        },
+        {
+          "title": "Calvin Coolidge — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q36023"
+        }
+      ]
+    },
+    {
+      "id": "chester-a-arthur",
+      "name": {
+        "en": "Chester A. Arthur",
+        "fa": "چستر آلن آرتور"
+      },
+      "born": 1829,
+      "died": 1886,
+      "wikidata": "Q35498",
+      "sources": [
+        {
+          "title": "Chester A. Arthur — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chester_A._Arthur"
+        },
+        {
+          "title": "Chester A. Arthur — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35498"
+        }
+      ]
+    },
+    {
+      "id": "donald-trump",
+      "name": {
+        "en": "Donald Trump",
+        "fa": "دونالد ترامپ"
+      },
+      "born": 1946,
+      "wikidata": "Q22686",
+      "sources": [
+        {
+          "title": "Donald Trump — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Donald_Trump"
+        },
+        {
+          "title": "Donald Trump — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q22686"
+        }
+      ]
+    },
+    {
+      "id": "dwight-d-eisenhower",
+      "name": {
+        "en": "Dwight D. Eisenhower",
+        "fa": "دوایت آیزنهاور"
+      },
+      "born": 1890,
+      "died": 1969,
+      "wikidata": "Q9916",
+      "sources": [
+        {
+          "title": "Dwight D. Eisenhower — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower"
+        },
+        {
+          "title": "Dwight D. Eisenhower — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9916"
+        }
+      ]
+    },
+    {
+      "id": "franklin-d-roosevelt",
+      "name": {
+        "en": "Franklin D. Roosevelt",
+        "fa": "فرانکلین دی. روزولت"
+      },
+      "born": 1882,
+      "died": 1945,
+      "wikidata": "Q8007",
+      "sources": [
+        {
+          "title": "Franklin D. Roosevelt — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt"
+        },
+        {
+          "title": "Franklin D. Roosevelt — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q8007"
+        }
+      ]
+    },
+    {
+      "id": "franklin-pierce",
+      "name": {
+        "en": "Franklin Pierce",
+        "fa": "فرانکلین پیرس"
+      },
+      "born": 1804,
+      "died": 1869,
+      "wikidata": "Q12312",
+      "sources": [
+        {
+          "title": "Franklin Pierce — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Franklin_Pierce"
+        },
+        {
+          "title": "Franklin Pierce — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12312"
+        }
+      ]
+    },
+    {
+      "id": "george-h-w-bush",
+      "name": {
+        "en": "George H. W. Bush",
+        "fa": "جرج اچ. دابلیو. بوش"
+      },
+      "born": 1924,
+      "died": 2018,
+      "wikidata": "Q23505",
+      "sources": [
+        {
+          "title": "George H. W. Bush — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_H._W._Bush"
+        },
+        {
+          "title": "George H. W. Bush — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q23505"
+        }
+      ]
+    },
+    {
+      "id": "george-w-bush",
+      "name": {
+        "en": "George W. Bush",
+        "fa": "جرج دابلیو. بوش"
+      },
+      "born": 1946,
+      "wikidata": "Q207",
+      "sources": [
+        {
+          "title": "George W. Bush — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_W._Bush"
+        },
+        {
+          "title": "George W. Bush — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q207"
+        }
+      ]
+    },
+    {
+      "id": "george-washington",
+      "name": {
+        "en": "George Washington",
+        "fa": "جرج واشینگتن"
+      },
+      "born": 1732,
+      "died": 1799,
+      "wikidata": "Q23",
+      "sources": [
+        {
+          "title": "George Washington — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_Washington"
+        },
+        {
+          "title": "George Washington — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q23"
+        }
+      ]
+    },
+    {
+      "id": "gerald-ford",
+      "name": {
+        "en": "Gerald Ford",
+        "fa": "جرالد فورد"
+      },
+      "born": 1913,
+      "died": 2006,
+      "wikidata": "Q9582",
+      "sources": [
+        {
+          "title": "Gerald Ford — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gerald_Ford"
+        },
+        {
+          "title": "Gerald Ford — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9582"
+        }
+      ]
+    },
+    {
+      "id": "grover-cleveland",
+      "name": {
+        "en": "Grover Cleveland",
+        "fa": "گروور کلیولند"
+      },
+      "born": 1837,
+      "died": 1908,
+      "wikidata": "Q35171",
+      "sources": [
+        {
+          "title": "Grover Cleveland — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grover_Cleveland"
+        },
+        {
+          "title": "Grover Cleveland — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35171"
+        }
+      ]
+    },
+    {
+      "id": "harry-s-truman",
+      "name": {
+        "en": "Harry S. Truman",
+        "fa": "هری ترومن"
+      },
+      "born": 1884,
+      "died": 1972,
+      "wikidata": "Q11613",
+      "sources": [
+        {
+          "title": "Harry S. Truman — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Harry_S._Truman"
+        },
+        {
+          "title": "Harry S. Truman — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11613"
+        }
+      ]
+    },
+    {
+      "id": "herbert-hoover",
+      "name": {
+        "en": "Herbert Hoover",
+        "fa": "هربرت هوور"
+      },
+      "born": 1874,
+      "died": 1964,
+      "wikidata": "Q35236",
+      "sources": [
+        {
+          "title": "Herbert Hoover — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Herbert_Hoover"
+        },
+        {
+          "title": "Herbert Hoover — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35236"
+        }
+      ]
+    },
+    {
+      "id": "james-a-garfield",
+      "name": {
+        "en": "James A. Garfield",
+        "fa": "جیمز آبرام گارفیلد"
+      },
+      "born": 1831,
+      "died": 1881,
+      "wikidata": "Q34597",
+      "sources": [
+        {
+          "title": "James A. Garfield — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_A._Garfield"
+        },
+        {
+          "title": "James A. Garfield — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q34597"
+        }
+      ]
+    },
+    {
+      "id": "james-buchanan",
+      "name": {
+        "en": "James Buchanan",
+        "fa": "جیمز بیوکنن"
+      },
+      "born": 1791,
+      "died": 1868,
+      "wikidata": "Q12325",
+      "sources": [
+        {
+          "title": "James Buchanan — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_Buchanan"
+        },
+        {
+          "title": "James Buchanan — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12325"
+        }
+      ]
+    },
+    {
+      "id": "james-k-polk",
+      "name": {
+        "en": "James K. Polk",
+        "fa": "جیمز ناکس پولک"
+      },
+      "born": 1795,
+      "died": 1849,
+      "wikidata": "Q11891",
+      "sources": [
+        {
+          "title": "James K. Polk — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_K._Polk"
+        },
+        {
+          "title": "James K. Polk — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11891"
+        }
+      ]
+    },
+    {
+      "id": "james-madison",
+      "name": {
+        "en": "James Madison",
+        "fa": "جیمز مدیسون"
+      },
+      "born": 1751,
+      "died": 1836,
+      "wikidata": "Q11813",
+      "sources": [
+        {
+          "title": "James Madison — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_Madison"
+        },
+        {
+          "title": "James Madison — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11813"
+        }
+      ]
+    },
+    {
+      "id": "james-monroe",
+      "name": {
+        "en": "James Monroe",
+        "fa": "جیمز مونرو"
+      },
+      "born": 1758,
+      "died": 1831,
+      "wikidata": "Q11815",
+      "sources": [
+        {
+          "title": "James Monroe — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_Monroe"
+        },
+        {
+          "title": "James Monroe — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11815"
+        }
+      ]
+    },
+    {
+      "id": "jimmy-carter",
+      "name": {
+        "en": "Jimmy Carter",
+        "fa": "جیمی کارتر"
+      },
+      "born": 1924,
+      "died": 2024,
+      "wikidata": "Q23685",
+      "sources": [
+        {
+          "title": "Jimmy Carter — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jimmy_Carter"
+        },
+        {
+          "title": "Jimmy Carter — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q23685"
+        }
+      ]
+    },
+    {
+      "id": "joe-biden",
+      "name": {
+        "en": "Joe Biden",
+        "fa": "جو بایدن"
+      },
+      "born": 1942,
+      "wikidata": "Q6279",
+      "sources": [
+        {
+          "title": "Joe Biden — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Joe_Biden"
+        },
+        {
+          "title": "Joe Biden — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6279"
+        }
+      ]
+    },
+    {
+      "id": "john-adams",
+      "name": {
+        "en": "John Adams",
+        "fa": "جان آدامز"
+      },
+      "born": 1735,
+      "died": 1826,
+      "wikidata": "Q11806",
+      "sources": [
+        {
+          "title": "John Adams — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_Adams"
+        },
+        {
+          "title": "John Adams — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11806"
+        }
+      ]
+    },
+    {
+      "id": "john-f-kennedy",
+      "name": {
+        "en": "John F. Kennedy",
+        "fa": "جان اف. کندی"
+      },
+      "born": 1917,
+      "died": 1963,
+      "wikidata": "Q9696",
+      "sources": [
+        {
+          "title": "John F. Kennedy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_F._Kennedy"
+        },
+        {
+          "title": "John F. Kennedy — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9696"
+        }
+      ]
+    },
+    {
+      "id": "john-quincy-adams",
+      "name": {
+        "en": "John Quincy Adams",
+        "fa": "جان کویینسی آدامز"
+      },
+      "born": 1767,
+      "died": 1848,
+      "wikidata": "Q11816",
+      "sources": [
+        {
+          "title": "John Quincy Adams — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_Quincy_Adams"
+        },
+        {
+          "title": "John Quincy Adams — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11816"
+        }
+      ]
+    },
+    {
+      "id": "john-tyler",
+      "name": {
+        "en": "John Tyler",
+        "fa": "جان تایلر"
+      },
+      "born": 1790,
+      "died": 1862,
+      "wikidata": "Q11881",
+      "sources": [
+        {
+          "title": "John Tyler — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_Tyler"
+        },
+        {
+          "title": "John Tyler — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11881"
+        }
+      ]
+    },
+    {
+      "id": "lyndon-b-johnson",
+      "name": {
+        "en": "Lyndon B. Johnson",
+        "fa": "لیندون بی. جانسون"
+      },
+      "born": 1908,
+      "died": 1973,
+      "wikidata": "Q9640",
+      "sources": [
+        {
+          "title": "Lyndon B. Johnson — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lyndon_B._Johnson"
+        },
+        {
+          "title": "Lyndon B. Johnson — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9640"
+        }
+      ]
+    },
+    {
+      "id": "martin-van-buren",
+      "name": {
+        "en": "Martin Van Buren",
+        "fa": "مارتین ون بیورن"
+      },
+      "born": 1782,
+      "died": 1862,
+      "wikidata": "Q11820",
+      "sources": [
+        {
+          "title": "Martin Van Buren — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Martin_Van_Buren"
+        },
+        {
+          "title": "Martin Van Buren — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11820"
+        }
+      ]
+    },
+    {
+      "id": "millard-fillmore",
+      "name": {
+        "en": "Millard Fillmore",
+        "fa": "میلارد فیلمور"
+      },
+      "born": 1800,
+      "died": 1874,
+      "wikidata": "Q12306",
+      "sources": [
+        {
+          "title": "Millard Fillmore — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Millard_Fillmore"
+        },
+        {
+          "title": "Millard Fillmore — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12306"
+        }
+      ]
+    },
+    {
+      "id": "richard-nixon",
+      "name": {
+        "en": "Richard Nixon",
+        "fa": "ریچارد نیکسون"
+      },
+      "born": 1913,
+      "died": 1994,
+      "wikidata": "Q9588",
+      "sources": [
+        {
+          "title": "Richard Nixon — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Richard_Nixon"
+        },
+        {
+          "title": "Richard Nixon — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9588"
+        }
+      ]
+    },
+    {
+      "id": "ronald-reagan",
+      "name": {
+        "en": "Ronald Reagan",
+        "fa": "رونالد ریگان"
+      },
+      "born": 1911,
+      "died": 2004,
+      "wikidata": "Q9960",
+      "sources": [
+        {
+          "title": "Ronald Reagan — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ronald_Reagan"
+        },
+        {
+          "title": "Ronald Reagan — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9960"
+        }
+      ]
+    },
+    {
+      "id": "rutherford-b-hayes",
+      "name": {
+        "en": "Rutherford B. Hayes",
+        "fa": "رادرفورد بیرچارد هیز"
+      },
+      "born": 1822,
+      "died": 1893,
+      "wikidata": "Q35686",
+      "sources": [
+        {
+          "title": "Rutherford B. Hayes — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rutherford_B._Hayes"
+        },
+        {
+          "title": "Rutherford B. Hayes — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35686"
+        }
+      ]
+    },
+    {
+      "id": "theodore-roosevelt",
+      "name": {
+        "en": "Theodore Roosevelt",
+        "fa": "تئودور روزولت"
+      },
+      "born": 1858,
+      "died": 1919,
+      "wikidata": "Q33866",
+      "sources": [
+        {
+          "title": "Theodore Roosevelt — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Theodore_Roosevelt"
+        },
+        {
+          "title": "Theodore Roosevelt — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q33866"
+        }
+      ]
+    },
+    {
+      "id": "thomas-jefferson",
+      "name": {
+        "en": "Thomas Jefferson",
+        "fa": "توماس جفرسون"
+      },
+      "born": 1743,
+      "died": 1826,
+      "wikidata": "Q11812",
+      "sources": [
+        {
+          "title": "Thomas Jefferson — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thomas_Jefferson"
+        },
+        {
+          "title": "Thomas Jefferson — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11812"
+        }
+      ]
+    },
+    {
+      "id": "ulysses-s-grant",
+      "name": {
+        "en": "Ulysses S. Grant",
+        "fa": "یولیسیز اس گرانت"
+      },
+      "born": 1822,
+      "died": 1885,
+      "wikidata": "Q34836",
+      "sources": [
+        {
+          "title": "Ulysses S. Grant — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ulysses_S._Grant"
+        },
+        {
+          "title": "Ulysses S. Grant — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q34836"
+        }
+      ]
+    },
+    {
+      "id": "warren-g-harding",
+      "name": {
+        "en": "Warren G. Harding",
+        "fa": "وارن جی. هاردینگ"
+      },
+      "born": 1865,
+      "died": 1923,
+      "wikidata": "Q35286",
+      "sources": [
+        {
+          "title": "Warren G. Harding — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Warren_G._Harding"
+        },
+        {
+          "title": "Warren G. Harding — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35286"
+        }
+      ]
+    },
+    {
+      "id": "william-henry-harrison",
+      "name": {
+        "en": "William Henry Harrison",
+        "fa": "ویلیام هنری هریسون"
+      },
+      "born": 1773,
+      "died": 1841,
+      "wikidata": "Q11869",
+      "sources": [
+        {
+          "title": "William Henry Harrison — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/William_Henry_Harrison"
+        },
+        {
+          "title": "William Henry Harrison — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11869"
+        }
+      ]
+    },
+    {
+      "id": "william-howard-taft",
+      "name": {
+        "en": "William Howard Taft",
+        "fa": "ویلیام هاوارد تفت"
+      },
+      "born": 1857,
+      "died": 1930,
+      "wikidata": "Q35648",
+      "sources": [
+        {
+          "title": "William Howard Taft — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/William_Howard_Taft"
+        },
+        {
+          "title": "William Howard Taft — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35648"
+        }
+      ]
+    },
+    {
+      "id": "william-mckinley",
+      "name": {
+        "en": "William McKinley",
+        "fa": "ویلیام مک‌کینلی"
+      },
+      "born": 1843,
+      "died": 1901,
+      "wikidata": "Q35041",
+      "sources": [
+        {
+          "title": "William McKinley — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/William_McKinley"
+        },
+        {
+          "title": "William McKinley — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35041"
+        }
+      ]
+    },
+    {
+      "id": "woodrow-wilson",
+      "name": {
+        "en": "Woodrow Wilson",
+        "fa": "وودرو ویلسون"
+      },
+      "born": 1856,
+      "died": 1924,
+      "wikidata": "Q34296",
+      "sources": [
+        {
+          "title": "Woodrow Wilson — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Woodrow_Wilson"
+        },
+        {
+          "title": "Woodrow Wilson — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q34296"
+        }
+      ]
+    },
+    {
+      "id": "zachary-taylor",
+      "name": {
+        "en": "Zachary Taylor",
+        "fa": "زکری تیلور"
+      },
+      "born": 1784,
+      "died": 1850,
+      "wikidata": "Q11896",
+      "sources": [
+        {
+          "title": "Zachary Taylor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zachary_Taylor"
+        },
+        {
+          "title": "Zachary Taylor — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11896"
+        }
+      ]
+    }
+  ],
+  "lane": [
+    {
+      "country": "us",
+      "state": "united-states",
+      "start": 1789,
+      "end": null,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/United_States"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "person": "george-washington",
+      "state": "united-states",
+      "start": 1789,
+      "end": 1797,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1789-04-30",
+      "exactEnd": "1797-03-04",
+      "sources": [
+        {
+          "title": "George Washington — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_Washington"
+        },
+        {
+          "title": "George Washington — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q23"
+        }
+      ]
+    },
+    {
+      "person": "george-washington",
+      "state": "united-states",
+      "start": 1789,
+      "end": 1797,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1789-04-30",
+      "exactEnd": "1797-03-04",
+      "sources": [
+        {
+          "title": "George Washington — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_Washington"
+        },
+        {
+          "title": "George Washington — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q23"
+        }
+      ]
+    },
+    {
+      "person": "john-adams",
+      "state": "united-states",
+      "start": 1797,
+      "end": 1801,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1797-03-04",
+      "exactEnd": "1801-03-04",
+      "sources": [
+        {
+          "title": "John Adams — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_Adams"
+        },
+        {
+          "title": "John Adams — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11806"
+        }
+      ]
+    },
+    {
+      "person": "john-adams",
+      "state": "united-states",
+      "start": 1797,
+      "end": 1801,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1797-03-04",
+      "exactEnd": "1801-03-04",
+      "sources": [
+        {
+          "title": "John Adams — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_Adams"
+        },
+        {
+          "title": "John Adams — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11806"
+        }
+      ]
+    },
+    {
+      "person": "thomas-jefferson",
+      "state": "united-states",
+      "start": 1801,
+      "end": 1809,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1801-03-04",
+      "exactEnd": "1809-03-04",
+      "sources": [
+        {
+          "title": "Thomas Jefferson — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thomas_Jefferson"
+        },
+        {
+          "title": "Thomas Jefferson — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11812"
+        }
+      ]
+    },
+    {
+      "person": "thomas-jefferson",
+      "state": "united-states",
+      "start": 1801,
+      "end": 1809,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1801-03-04",
+      "exactEnd": "1809-03-04",
+      "sources": [
+        {
+          "title": "Thomas Jefferson — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thomas_Jefferson"
+        },
+        {
+          "title": "Thomas Jefferson — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11812"
+        }
+      ]
+    },
+    {
+      "person": "james-madison",
+      "state": "united-states",
+      "start": 1809,
+      "end": 1817,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1809-03-04",
+      "exactEnd": "1817-03-04",
+      "sources": [
+        {
+          "title": "James Madison — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_Madison"
+        },
+        {
+          "title": "James Madison — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11813"
+        }
+      ]
+    },
+    {
+      "person": "james-madison",
+      "state": "united-states",
+      "start": 1809,
+      "end": 1817,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1809-03-04",
+      "exactEnd": "1817-03-04",
+      "sources": [
+        {
+          "title": "James Madison — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_Madison"
+        },
+        {
+          "title": "James Madison — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11813"
+        }
+      ]
+    },
+    {
+      "person": "james-monroe",
+      "state": "united-states",
+      "start": 1817,
+      "end": 1825,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1817-03-04",
+      "exactEnd": "1825-03-04",
+      "sources": [
+        {
+          "title": "James Monroe — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_Monroe"
+        },
+        {
+          "title": "James Monroe — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11815"
+        }
+      ]
+    },
+    {
+      "person": "james-monroe",
+      "state": "united-states",
+      "start": 1817,
+      "end": 1825,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1817-03-04",
+      "exactEnd": "1825-03-04",
+      "sources": [
+        {
+          "title": "James Monroe — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_Monroe"
+        },
+        {
+          "title": "James Monroe — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11815"
+        }
+      ]
+    },
+    {
+      "person": "john-quincy-adams",
+      "state": "united-states",
+      "start": 1825,
+      "end": 1829,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1825-03-04",
+      "exactEnd": "1829-03-04",
+      "sources": [
+        {
+          "title": "John Quincy Adams — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_Quincy_Adams"
+        },
+        {
+          "title": "John Quincy Adams — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11816"
+        }
+      ]
+    },
+    {
+      "person": "john-quincy-adams",
+      "state": "united-states",
+      "start": 1825,
+      "end": 1829,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1825-03-04",
+      "exactEnd": "1829-03-04",
+      "sources": [
+        {
+          "title": "John Quincy Adams — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_Quincy_Adams"
+        },
+        {
+          "title": "John Quincy Adams — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11816"
+        }
+      ]
+    },
+    {
+      "person": "andrew-jackson",
+      "state": "united-states",
+      "start": 1829,
+      "end": 1837,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1829-03-04",
+      "exactEnd": "1837-03-04",
+      "sources": [
+        {
+          "title": "Andrew Jackson — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Andrew_Jackson"
+        },
+        {
+          "title": "Andrew Jackson — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11817"
+        }
+      ]
+    },
+    {
+      "person": "andrew-jackson",
+      "state": "united-states",
+      "start": 1829,
+      "end": 1837,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1829-03-04",
+      "exactEnd": "1837-03-04",
+      "sources": [
+        {
+          "title": "Andrew Jackson — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Andrew_Jackson"
+        },
+        {
+          "title": "Andrew Jackson — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11817"
+        }
+      ]
+    },
+    {
+      "person": "martin-van-buren",
+      "state": "united-states",
+      "start": 1837,
+      "end": 1841,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1837-03-04",
+      "exactEnd": "1841-03-04",
+      "sources": [
+        {
+          "title": "Martin Van Buren — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Martin_Van_Buren"
+        },
+        {
+          "title": "Martin Van Buren — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11820"
+        }
+      ]
+    },
+    {
+      "person": "martin-van-buren",
+      "state": "united-states",
+      "start": 1837,
+      "end": 1841,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1837-03-04",
+      "exactEnd": "1841-03-04",
+      "sources": [
+        {
+          "title": "Martin Van Buren — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Martin_Van_Buren"
+        },
+        {
+          "title": "Martin Van Buren — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11820"
+        }
+      ]
+    },
+    {
+      "person": "william-henry-harrison",
+      "state": "united-states",
+      "start": 1841,
+      "end": 1841,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1841-03-04",
+      "exactEnd": "1841-04-04",
+      "sources": [
+        {
+          "title": "William Henry Harrison — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/William_Henry_Harrison"
+        },
+        {
+          "title": "William Henry Harrison — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11869"
+        }
+      ]
+    },
+    {
+      "person": "william-henry-harrison",
+      "state": "united-states",
+      "start": 1841,
+      "end": 1841,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1841-03-04",
+      "exactEnd": "1841-04-04",
+      "sources": [
+        {
+          "title": "William Henry Harrison — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/William_Henry_Harrison"
+        },
+        {
+          "title": "William Henry Harrison — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11869"
+        }
+      ]
+    },
+    {
+      "person": "john-tyler",
+      "state": "united-states",
+      "start": 1841,
+      "end": 1845,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1841-04-04",
+      "exactEnd": "1845-03-04",
+      "sources": [
+        {
+          "title": "John Tyler — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_Tyler"
+        },
+        {
+          "title": "John Tyler — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11881"
+        }
+      ]
+    },
+    {
+      "person": "john-tyler",
+      "state": "united-states",
+      "start": 1841,
+      "end": 1845,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1841-04-04",
+      "exactEnd": "1845-03-04",
+      "sources": [
+        {
+          "title": "John Tyler — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_Tyler"
+        },
+        {
+          "title": "John Tyler — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11881"
+        }
+      ]
+    },
+    {
+      "person": "james-k-polk",
+      "state": "united-states",
+      "start": 1845,
+      "end": 1849,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1845-03-04",
+      "exactEnd": "1849-03-04",
+      "sources": [
+        {
+          "title": "James K. Polk — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_K._Polk"
+        },
+        {
+          "title": "James K. Polk — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11891"
+        }
+      ]
+    },
+    {
+      "person": "james-k-polk",
+      "state": "united-states",
+      "start": 1845,
+      "end": 1849,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1845-03-04",
+      "exactEnd": "1849-03-04",
+      "sources": [
+        {
+          "title": "James K. Polk — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_K._Polk"
+        },
+        {
+          "title": "James K. Polk — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11891"
+        }
+      ]
+    },
+    {
+      "person": "zachary-taylor",
+      "state": "united-states",
+      "start": 1849,
+      "end": 1850,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1849-03-04",
+      "exactEnd": "1850-07-09",
+      "sources": [
+        {
+          "title": "Zachary Taylor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zachary_Taylor"
+        },
+        {
+          "title": "Zachary Taylor — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11896"
+        }
+      ]
+    },
+    {
+      "person": "zachary-taylor",
+      "state": "united-states",
+      "start": 1849,
+      "end": 1850,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1849-03-04",
+      "exactEnd": "1850-07-09",
+      "sources": [
+        {
+          "title": "Zachary Taylor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zachary_Taylor"
+        },
+        {
+          "title": "Zachary Taylor — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11896"
+        }
+      ]
+    },
+    {
+      "person": "millard-fillmore",
+      "state": "united-states",
+      "start": 1850,
+      "end": 1853,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1850-07-09",
+      "exactEnd": "1853-03-04",
+      "sources": [
+        {
+          "title": "Millard Fillmore — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Millard_Fillmore"
+        },
+        {
+          "title": "Millard Fillmore — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12306"
+        }
+      ]
+    },
+    {
+      "person": "millard-fillmore",
+      "state": "united-states",
+      "start": 1850,
+      "end": 1853,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1850-07-09",
+      "exactEnd": "1853-03-04",
+      "sources": [
+        {
+          "title": "Millard Fillmore — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Millard_Fillmore"
+        },
+        {
+          "title": "Millard Fillmore — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12306"
+        }
+      ]
+    },
+    {
+      "person": "franklin-pierce",
+      "state": "united-states",
+      "start": 1853,
+      "end": 1857,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1853-03-04",
+      "exactEnd": "1857-03-04",
+      "sources": [
+        {
+          "title": "Franklin Pierce — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Franklin_Pierce"
+        },
+        {
+          "title": "Franklin Pierce — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12312"
+        }
+      ]
+    },
+    {
+      "person": "franklin-pierce",
+      "state": "united-states",
+      "start": 1853,
+      "end": 1857,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1853-03-04",
+      "exactEnd": "1857-03-04",
+      "sources": [
+        {
+          "title": "Franklin Pierce — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Franklin_Pierce"
+        },
+        {
+          "title": "Franklin Pierce — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12312"
+        }
+      ]
+    },
+    {
+      "person": "james-buchanan",
+      "state": "united-states",
+      "start": 1857,
+      "end": 1861,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1857-03-04",
+      "exactEnd": "1861-03-04",
+      "sources": [
+        {
+          "title": "James Buchanan — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_Buchanan"
+        },
+        {
+          "title": "James Buchanan — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12325"
+        }
+      ]
+    },
+    {
+      "person": "james-buchanan",
+      "state": "united-states",
+      "start": 1857,
+      "end": 1861,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1857-03-04",
+      "exactEnd": "1861-03-04",
+      "sources": [
+        {
+          "title": "James Buchanan — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_Buchanan"
+        },
+        {
+          "title": "James Buchanan — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12325"
+        }
+      ]
+    },
+    {
+      "person": "abraham-lincoln",
+      "state": "united-states",
+      "start": 1861,
+      "end": 1865,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1861-03-04",
+      "exactEnd": "1865-04-15",
+      "sources": [
+        {
+          "title": "Abraham Lincoln — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abraham_Lincoln"
+        },
+        {
+          "title": "Abraham Lincoln — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q91"
+        }
+      ]
+    },
+    {
+      "person": "abraham-lincoln",
+      "state": "united-states",
+      "start": 1861,
+      "end": 1865,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1861-03-04",
+      "exactEnd": "1865-04-15",
+      "sources": [
+        {
+          "title": "Abraham Lincoln — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abraham_Lincoln"
+        },
+        {
+          "title": "Abraham Lincoln — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q91"
+        }
+      ]
+    },
+    {
+      "person": "andrew-johnson",
+      "state": "united-states",
+      "start": 1865,
+      "end": 1869,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1865-04-15",
+      "exactEnd": "1869-03-04",
+      "sources": [
+        {
+          "title": "Andrew Johnson — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Andrew_Johnson"
+        },
+        {
+          "title": "Andrew Johnson — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q8612"
+        }
+      ]
+    },
+    {
+      "person": "andrew-johnson",
+      "state": "united-states",
+      "start": 1865,
+      "end": 1869,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1865-04-15",
+      "exactEnd": "1869-03-04",
+      "sources": [
+        {
+          "title": "Andrew Johnson — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Andrew_Johnson"
+        },
+        {
+          "title": "Andrew Johnson — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q8612"
+        }
+      ]
+    },
+    {
+      "person": "ulysses-s-grant",
+      "state": "united-states",
+      "start": 1869,
+      "end": 1877,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1869-03-04",
+      "exactEnd": "1877-03-04",
+      "sources": [
+        {
+          "title": "Ulysses S. Grant — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ulysses_S._Grant"
+        },
+        {
+          "title": "Ulysses S. Grant — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q34836"
+        }
+      ]
+    },
+    {
+      "person": "ulysses-s-grant",
+      "state": "united-states",
+      "start": 1869,
+      "end": 1877,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1869-03-04",
+      "exactEnd": "1877-03-04",
+      "sources": [
+        {
+          "title": "Ulysses S. Grant — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ulysses_S._Grant"
+        },
+        {
+          "title": "Ulysses S. Grant — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q34836"
+        }
+      ]
+    },
+    {
+      "person": "rutherford-b-hayes",
+      "state": "united-states",
+      "start": 1877,
+      "end": 1881,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1877-03-04",
+      "exactEnd": "1881-03-04",
+      "sources": [
+        {
+          "title": "Rutherford B. Hayes — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rutherford_B._Hayes"
+        },
+        {
+          "title": "Rutherford B. Hayes — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35686"
+        }
+      ]
+    },
+    {
+      "person": "rutherford-b-hayes",
+      "state": "united-states",
+      "start": 1877,
+      "end": 1881,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1877-03-04",
+      "exactEnd": "1881-03-04",
+      "sources": [
+        {
+          "title": "Rutherford B. Hayes — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rutherford_B._Hayes"
+        },
+        {
+          "title": "Rutherford B. Hayes — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35686"
+        }
+      ]
+    },
+    {
+      "person": "james-a-garfield",
+      "state": "united-states",
+      "start": 1881,
+      "end": 1881,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1881-03-04",
+      "exactEnd": "1881-09-19",
+      "sources": [
+        {
+          "title": "James A. Garfield — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_A._Garfield"
+        },
+        {
+          "title": "James A. Garfield — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q34597"
+        }
+      ]
+    },
+    {
+      "person": "james-a-garfield",
+      "state": "united-states",
+      "start": 1881,
+      "end": 1881,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1881-03-04",
+      "exactEnd": "1881-09-19",
+      "sources": [
+        {
+          "title": "James A. Garfield — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_A._Garfield"
+        },
+        {
+          "title": "James A. Garfield — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q34597"
+        }
+      ]
+    },
+    {
+      "person": "chester-a-arthur",
+      "state": "united-states",
+      "start": 1881,
+      "end": 1885,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1881-09-19",
+      "exactEnd": "1885-03-04",
+      "sources": [
+        {
+          "title": "Chester A. Arthur — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chester_A._Arthur"
+        },
+        {
+          "title": "Chester A. Arthur — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35498"
+        }
+      ]
+    },
+    {
+      "person": "chester-a-arthur",
+      "state": "united-states",
+      "start": 1881,
+      "end": 1885,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1881-09-19",
+      "exactEnd": "1885-03-04",
+      "sources": [
+        {
+          "title": "Chester A. Arthur — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chester_A._Arthur"
+        },
+        {
+          "title": "Chester A. Arthur — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35498"
+        }
+      ]
+    },
+    {
+      "person": "grover-cleveland",
+      "state": "united-states",
+      "start": 1885,
+      "end": 1889,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1885-03-04",
+      "exactEnd": "1889-03-04",
+      "sources": [
+        {
+          "title": "Grover Cleveland — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grover_Cleveland"
+        },
+        {
+          "title": "Grover Cleveland — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35171"
+        }
+      ]
+    },
+    {
+      "person": "grover-cleveland",
+      "state": "united-states",
+      "start": 1885,
+      "end": 1889,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1885-03-04",
+      "exactEnd": "1889-03-04",
+      "sources": [
+        {
+          "title": "Grover Cleveland — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grover_Cleveland"
+        },
+        {
+          "title": "Grover Cleveland — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35171"
+        }
+      ]
+    },
+    {
+      "person": "benjamin-harrison",
+      "state": "united-states",
+      "start": 1889,
+      "end": 1893,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1889-03-04",
+      "exactEnd": "1893-03-04",
+      "sources": [
+        {
+          "title": "Benjamin Harrison — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Benjamin_Harrison"
+        },
+        {
+          "title": "Benjamin Harrison — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35678"
+        }
+      ]
+    },
+    {
+      "person": "benjamin-harrison",
+      "state": "united-states",
+      "start": 1889,
+      "end": 1893,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1889-03-04",
+      "exactEnd": "1893-03-04",
+      "sources": [
+        {
+          "title": "Benjamin Harrison — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Benjamin_Harrison"
+        },
+        {
+          "title": "Benjamin Harrison — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35678"
+        }
+      ]
+    },
+    {
+      "person": "grover-cleveland",
+      "state": "united-states",
+      "start": 1893,
+      "end": 1897,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1893-03-04",
+      "exactEnd": "1897-03-04",
+      "sources": [
+        {
+          "title": "Grover Cleveland — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grover_Cleveland"
+        },
+        {
+          "title": "Grover Cleveland — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35171"
+        }
+      ]
+    },
+    {
+      "person": "grover-cleveland",
+      "state": "united-states",
+      "start": 1893,
+      "end": 1897,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1893-03-04",
+      "exactEnd": "1897-03-04",
+      "sources": [
+        {
+          "title": "Grover Cleveland — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grover_Cleveland"
+        },
+        {
+          "title": "Grover Cleveland — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35171"
+        }
+      ]
+    },
+    {
+      "person": "william-mckinley",
+      "state": "united-states",
+      "start": 1897,
+      "end": 1901,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1897-03-04",
+      "exactEnd": "1901-09-14",
+      "sources": [
+        {
+          "title": "William McKinley — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/William_McKinley"
+        },
+        {
+          "title": "William McKinley — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35041"
+        }
+      ]
+    },
+    {
+      "person": "william-mckinley",
+      "state": "united-states",
+      "start": 1897,
+      "end": 1901,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1897-03-04",
+      "exactEnd": "1901-09-14",
+      "sources": [
+        {
+          "title": "William McKinley — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/William_McKinley"
+        },
+        {
+          "title": "William McKinley — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35041"
+        }
+      ]
+    },
+    {
+      "person": "theodore-roosevelt",
+      "state": "united-states",
+      "start": 1901,
+      "end": 1909,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1901-09-14",
+      "exactEnd": "1909-03-04",
+      "sources": [
+        {
+          "title": "Theodore Roosevelt — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Theodore_Roosevelt"
+        },
+        {
+          "title": "Theodore Roosevelt — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q33866"
+        }
+      ]
+    },
+    {
+      "person": "theodore-roosevelt",
+      "state": "united-states",
+      "start": 1901,
+      "end": 1909,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1901-09-14",
+      "exactEnd": "1909-03-04",
+      "sources": [
+        {
+          "title": "Theodore Roosevelt — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Theodore_Roosevelt"
+        },
+        {
+          "title": "Theodore Roosevelt — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q33866"
+        }
+      ]
+    },
+    {
+      "person": "william-howard-taft",
+      "state": "united-states",
+      "start": 1909,
+      "end": 1913,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1909-03-04",
+      "exactEnd": "1913-03-04",
+      "sources": [
+        {
+          "title": "William Howard Taft — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/William_Howard_Taft"
+        },
+        {
+          "title": "William Howard Taft — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35648"
+        }
+      ]
+    },
+    {
+      "person": "william-howard-taft",
+      "state": "united-states",
+      "start": 1909,
+      "end": 1913,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1909-03-04",
+      "exactEnd": "1913-03-04",
+      "sources": [
+        {
+          "title": "William Howard Taft — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/William_Howard_Taft"
+        },
+        {
+          "title": "William Howard Taft — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35648"
+        }
+      ]
+    },
+    {
+      "person": "woodrow-wilson",
+      "state": "united-states",
+      "start": 1913,
+      "end": 1921,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1913-03-04",
+      "exactEnd": "1921-03-04",
+      "sources": [
+        {
+          "title": "Woodrow Wilson — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Woodrow_Wilson"
+        },
+        {
+          "title": "Woodrow Wilson — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q34296"
+        }
+      ]
+    },
+    {
+      "person": "woodrow-wilson",
+      "state": "united-states",
+      "start": 1913,
+      "end": 1921,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1913-03-04",
+      "exactEnd": "1921-03-04",
+      "sources": [
+        {
+          "title": "Woodrow Wilson — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Woodrow_Wilson"
+        },
+        {
+          "title": "Woodrow Wilson — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q34296"
+        }
+      ]
+    },
+    {
+      "person": "warren-g-harding",
+      "state": "united-states",
+      "start": 1921,
+      "end": 1923,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1921-03-04",
+      "exactEnd": "1923-08-02",
+      "sources": [
+        {
+          "title": "Warren G. Harding — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Warren_G._Harding"
+        },
+        {
+          "title": "Warren G. Harding — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35286"
+        }
+      ]
+    },
+    {
+      "person": "warren-g-harding",
+      "state": "united-states",
+      "start": 1921,
+      "end": 1923,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1921-03-04",
+      "exactEnd": "1923-08-02",
+      "sources": [
+        {
+          "title": "Warren G. Harding — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Warren_G._Harding"
+        },
+        {
+          "title": "Warren G. Harding — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35286"
+        }
+      ]
+    },
+    {
+      "person": "calvin-coolidge",
+      "state": "united-states",
+      "start": 1923,
+      "end": 1929,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1923-08-02",
+      "exactEnd": "1929-03-04",
+      "sources": [
+        {
+          "title": "Calvin Coolidge — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Calvin_Coolidge"
+        },
+        {
+          "title": "Calvin Coolidge — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q36023"
+        }
+      ]
+    },
+    {
+      "person": "calvin-coolidge",
+      "state": "united-states",
+      "start": 1923,
+      "end": 1929,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1923-08-02",
+      "exactEnd": "1929-03-04",
+      "sources": [
+        {
+          "title": "Calvin Coolidge — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Calvin_Coolidge"
+        },
+        {
+          "title": "Calvin Coolidge — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q36023"
+        }
+      ]
+    },
+    {
+      "person": "herbert-hoover",
+      "state": "united-states",
+      "start": 1929,
+      "end": 1933,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1929-03-04",
+      "exactEnd": "1933-03-04",
+      "sources": [
+        {
+          "title": "Herbert Hoover — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Herbert_Hoover"
+        },
+        {
+          "title": "Herbert Hoover — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35236"
+        }
+      ]
+    },
+    {
+      "person": "herbert-hoover",
+      "state": "united-states",
+      "start": 1929,
+      "end": 1933,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1929-03-04",
+      "exactEnd": "1933-03-04",
+      "sources": [
+        {
+          "title": "Herbert Hoover — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Herbert_Hoover"
+        },
+        {
+          "title": "Herbert Hoover — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q35236"
+        }
+      ]
+    },
+    {
+      "person": "franklin-d-roosevelt",
+      "state": "united-states",
+      "start": 1933,
+      "end": 1945,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1933-03-04",
+      "exactEnd": "1945-04-12",
+      "sources": [
+        {
+          "title": "Franklin D. Roosevelt — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt"
+        },
+        {
+          "title": "Franklin D. Roosevelt — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q8007"
+        }
+      ]
+    },
+    {
+      "person": "franklin-d-roosevelt",
+      "state": "united-states",
+      "start": 1933,
+      "end": 1945,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1933-03-04",
+      "exactEnd": "1945-04-12",
+      "sources": [
+        {
+          "title": "Franklin D. Roosevelt — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt"
+        },
+        {
+          "title": "Franklin D. Roosevelt — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q8007"
+        }
+      ]
+    },
+    {
+      "person": "harry-s-truman",
+      "state": "united-states",
+      "start": 1945,
+      "end": 1953,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1945-04-12",
+      "exactEnd": "1953-01-20",
+      "sources": [
+        {
+          "title": "Harry S. Truman — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Harry_S._Truman"
+        },
+        {
+          "title": "Harry S. Truman — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11613"
+        }
+      ]
+    },
+    {
+      "person": "harry-s-truman",
+      "state": "united-states",
+      "start": 1945,
+      "end": 1953,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1945-04-12",
+      "exactEnd": "1953-01-20",
+      "sources": [
+        {
+          "title": "Harry S. Truman — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Harry_S._Truman"
+        },
+        {
+          "title": "Harry S. Truman — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11613"
+        }
+      ]
+    },
+    {
+      "person": "dwight-d-eisenhower",
+      "state": "united-states",
+      "start": 1953,
+      "end": 1961,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1953-01-20",
+      "exactEnd": "1961-01-20",
+      "sources": [
+        {
+          "title": "Dwight D. Eisenhower — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower"
+        },
+        {
+          "title": "Dwight D. Eisenhower — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9916"
+        }
+      ]
+    },
+    {
+      "person": "dwight-d-eisenhower",
+      "state": "united-states",
+      "start": 1953,
+      "end": 1961,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1953-01-20",
+      "exactEnd": "1961-01-20",
+      "sources": [
+        {
+          "title": "Dwight D. Eisenhower — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower"
+        },
+        {
+          "title": "Dwight D. Eisenhower — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9916"
+        }
+      ]
+    },
+    {
+      "person": "john-f-kennedy",
+      "state": "united-states",
+      "start": 1961,
+      "end": 1963,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1961-01-20",
+      "exactEnd": "1963-11-22",
+      "sources": [
+        {
+          "title": "John F. Kennedy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_F._Kennedy"
+        },
+        {
+          "title": "John F. Kennedy — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9696"
+        }
+      ]
+    },
+    {
+      "person": "john-f-kennedy",
+      "state": "united-states",
+      "start": 1961,
+      "end": 1963,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1961-01-20",
+      "exactEnd": "1963-11-22",
+      "sources": [
+        {
+          "title": "John F. Kennedy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_F._Kennedy"
+        },
+        {
+          "title": "John F. Kennedy — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9696"
+        }
+      ]
+    },
+    {
+      "person": "lyndon-b-johnson",
+      "state": "united-states",
+      "start": 1963,
+      "end": 1969,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1963-11-22",
+      "exactEnd": "1969-01-20",
+      "sources": [
+        {
+          "title": "Lyndon B. Johnson — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lyndon_B._Johnson"
+        },
+        {
+          "title": "Lyndon B. Johnson — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9640"
+        }
+      ]
+    },
+    {
+      "person": "lyndon-b-johnson",
+      "state": "united-states",
+      "start": 1963,
+      "end": 1969,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1963-11-22",
+      "exactEnd": "1969-01-20",
+      "sources": [
+        {
+          "title": "Lyndon B. Johnson — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lyndon_B._Johnson"
+        },
+        {
+          "title": "Lyndon B. Johnson — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9640"
+        }
+      ]
+    },
+    {
+      "person": "richard-nixon",
+      "state": "united-states",
+      "start": 1969,
+      "end": 1974,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1969-01-20",
+      "exactEnd": "1974-08-09",
+      "sources": [
+        {
+          "title": "Richard Nixon — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Richard_Nixon"
+        },
+        {
+          "title": "Richard Nixon — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9588"
+        }
+      ]
+    },
+    {
+      "person": "richard-nixon",
+      "state": "united-states",
+      "start": 1969,
+      "end": 1974,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1969-01-20",
+      "exactEnd": "1974-08-09",
+      "sources": [
+        {
+          "title": "Richard Nixon — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Richard_Nixon"
+        },
+        {
+          "title": "Richard Nixon — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9588"
+        }
+      ]
+    },
+    {
+      "person": "gerald-ford",
+      "state": "united-states",
+      "start": 1974,
+      "end": 1977,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1974-08-09",
+      "exactEnd": "1977-01-20",
+      "sources": [
+        {
+          "title": "Gerald Ford — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gerald_Ford"
+        },
+        {
+          "title": "Gerald Ford — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9582"
+        }
+      ]
+    },
+    {
+      "person": "gerald-ford",
+      "state": "united-states",
+      "start": 1974,
+      "end": 1977,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1974-08-09",
+      "exactEnd": "1977-01-20",
+      "sources": [
+        {
+          "title": "Gerald Ford — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gerald_Ford"
+        },
+        {
+          "title": "Gerald Ford — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9582"
+        }
+      ]
+    },
+    {
+      "person": "jimmy-carter",
+      "state": "united-states",
+      "start": 1977,
+      "end": 1981,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1977-01-20",
+      "exactEnd": "1981-01-20",
+      "sources": [
+        {
+          "title": "Jimmy Carter — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jimmy_Carter"
+        },
+        {
+          "title": "Jimmy Carter — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q23685"
+        }
+      ]
+    },
+    {
+      "person": "jimmy-carter",
+      "state": "united-states",
+      "start": 1977,
+      "end": 1981,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1977-01-20",
+      "exactEnd": "1981-01-20",
+      "sources": [
+        {
+          "title": "Jimmy Carter — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jimmy_Carter"
+        },
+        {
+          "title": "Jimmy Carter — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q23685"
+        }
+      ]
+    },
+    {
+      "person": "ronald-reagan",
+      "state": "united-states",
+      "start": 1981,
+      "end": 1989,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1981-01-20",
+      "exactEnd": "1989-01-20",
+      "sources": [
+        {
+          "title": "Ronald Reagan — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ronald_Reagan"
+        },
+        {
+          "title": "Ronald Reagan — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9960"
+        }
+      ]
+    },
+    {
+      "person": "ronald-reagan",
+      "state": "united-states",
+      "start": 1981,
+      "end": 1989,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1981-01-20",
+      "exactEnd": "1989-01-20",
+      "sources": [
+        {
+          "title": "Ronald Reagan — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ronald_Reagan"
+        },
+        {
+          "title": "Ronald Reagan — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9960"
+        }
+      ]
+    },
+    {
+      "person": "george-h-w-bush",
+      "state": "united-states",
+      "start": 1989,
+      "end": 1993,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1989-01-20",
+      "exactEnd": "1993-01-20",
+      "sources": [
+        {
+          "title": "George H. W. Bush — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_H._W._Bush"
+        },
+        {
+          "title": "George H. W. Bush — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q23505"
+        }
+      ]
+    },
+    {
+      "person": "george-h-w-bush",
+      "state": "united-states",
+      "start": 1989,
+      "end": 1993,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1989-01-20",
+      "exactEnd": "1993-01-20",
+      "sources": [
+        {
+          "title": "George H. W. Bush — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_H._W._Bush"
+        },
+        {
+          "title": "George H. W. Bush — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q23505"
+        }
+      ]
+    },
+    {
+      "person": "bill-clinton",
+      "state": "united-states",
+      "start": 1993,
+      "end": 2001,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1993-01-20",
+      "exactEnd": "2001-01-20",
+      "sources": [
+        {
+          "title": "Bill Clinton — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+        },
+        {
+          "title": "Bill Clinton — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1124"
+        }
+      ]
+    },
+    {
+      "person": "bill-clinton",
+      "state": "united-states",
+      "start": 1993,
+      "end": 2001,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1993-01-20",
+      "exactEnd": "2001-01-20",
+      "sources": [
+        {
+          "title": "Bill Clinton — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+        },
+        {
+          "title": "Bill Clinton — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1124"
+        }
+      ]
+    },
+    {
+      "person": "george-w-bush",
+      "state": "united-states",
+      "start": 2001,
+      "end": 2009,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "2001-01-20",
+      "exactEnd": "2009-01-20",
+      "sources": [
+        {
+          "title": "George W. Bush — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_W._Bush"
+        },
+        {
+          "title": "George W. Bush — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q207"
+        }
+      ]
+    },
+    {
+      "person": "george-w-bush",
+      "state": "united-states",
+      "start": 2001,
+      "end": 2009,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "2001-01-20",
+      "exactEnd": "2009-01-20",
+      "sources": [
+        {
+          "title": "George W. Bush — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_W._Bush"
+        },
+        {
+          "title": "George W. Bush — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q207"
+        }
+      ]
+    },
+    {
+      "person": "barack-obama",
+      "state": "united-states",
+      "start": 2009,
+      "end": 2017,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "2009-01-20",
+      "exactEnd": "2017-01-20",
+      "sources": [
+        {
+          "title": "Barack Obama — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama"
+        },
+        {
+          "title": "Barack Obama — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q76"
+        }
+      ]
+    },
+    {
+      "person": "barack-obama",
+      "state": "united-states",
+      "start": 2009,
+      "end": 2017,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "2009-01-20",
+      "exactEnd": "2017-01-20",
+      "sources": [
+        {
+          "title": "Barack Obama — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama"
+        },
+        {
+          "title": "Barack Obama — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q76"
+        }
+      ]
+    },
+    {
+      "person": "donald-trump",
+      "state": "united-states",
+      "start": 2017,
+      "end": 2021,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "2017-01-20",
+      "exactEnd": "2021-01-20",
+      "sources": [
+        {
+          "title": "Donald Trump — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Donald_Trump"
+        },
+        {
+          "title": "Donald Trump — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q22686"
+        }
+      ]
+    },
+    {
+      "person": "donald-trump",
+      "state": "united-states",
+      "start": 2017,
+      "end": 2021,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "2017-01-20",
+      "exactEnd": "2021-01-20",
+      "sources": [
+        {
+          "title": "Donald Trump — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Donald_Trump"
+        },
+        {
+          "title": "Donald Trump — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q22686"
+        }
+      ]
+    },
+    {
+      "person": "joe-biden",
+      "state": "united-states",
+      "start": 2021,
+      "end": 2025,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "2021-01-20",
+      "exactEnd": "2025-01-20",
+      "sources": [
+        {
+          "title": "Joe Biden — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Joe_Biden"
+        },
+        {
+          "title": "Joe Biden — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6279"
+        }
+      ]
+    },
+    {
+      "person": "joe-biden",
+      "state": "united-states",
+      "start": 2021,
+      "end": 2025,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "2021-01-20",
+      "exactEnd": "2025-01-20",
+      "sources": [
+        {
+          "title": "Joe Biden — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Joe_Biden"
+        },
+        {
+          "title": "Joe Biden — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6279"
+        }
+      ]
+    },
+    {
+      "person": "donald-trump",
+      "state": "united-states",
+      "start": 2025,
+      "end": null,
+      "office": "head-of-government",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "2025-01-20",
+      "sources": [
+        {
+          "title": "Donald Trump — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Donald_Trump"
+        },
+        {
+          "title": "Donald Trump — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q22686"
+        }
+      ]
+    },
+    {
+      "person": "donald-trump",
+      "state": "united-states",
+      "start": 2025,
+      "end": null,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "2025-01-20",
+      "sources": [
+        {
+          "title": "Donald Trump — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Donald_Trump"
+        },
+        {
+          "title": "Donald Trump — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q22686"
+        }
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "state": "united-states",
+      "file": "Flag of the United States (1777–1795).svg",
+      "start": 1777,
+      "end": 1795,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the United States (1777–1795).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States_(1777%E2%80%931795).svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "54986f8e99395e8bd4a90479b8340bf1296f46b9",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 15 stars.svg",
+      "start": 1795,
+      "end": 1818,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 15 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_15_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "32f9d51600f91db456a7a04873a3cafe4b758a8a",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 20 stars.svg",
+      "start": 1818,
+      "end": 1819,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 20 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_20_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "3ebdd5d945b75eb195c49ffb6357b1f0b59a997f",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 21 stars.svg",
+      "start": 1819,
+      "end": 1820,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 21 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_21_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "16fa2bf7921b9cfb7ab2f971137e95ca37790439",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 23 stars.svg",
+      "start": 1820,
+      "end": 1822,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 23 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_23_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "7d2ec15548d65d94eded5f50a873fd0abe92f77b",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 24 stars.svg",
+      "start": 1822,
+      "end": 1836,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 24 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_24_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "75342d1cabc32e41ffbb44fe8a0dd3c4496b53b6",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 25 stars.svg",
+      "start": 1836,
+      "end": 1837,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 25 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_25_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "ea2b37aac7791937898d69759f43bbf6060fb6e9",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 26 stars.svg",
+      "start": 1837,
+      "end": 1845,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 26 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_26_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "35823b94610185ddcc61e6f35df6b7e38ea5b2d2",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 27 stars.svg",
+      "start": 1845,
+      "end": 1846,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 27 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_27_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "cce9dba4136568a17acf009f258d62f192232216",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 28 stars.svg",
+      "start": 1846,
+      "end": 1847,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 28 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_28_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "719f17a9dad52925c82aa753436d3b9e434b36f7",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 29 stars.svg",
+      "start": 1847,
+      "end": 1848,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 29 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_29_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "062b6375513ee65c1860fb4c3a5c0de16ba9ce78",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 30 stars.svg",
+      "start": 1848,
+      "end": 1851,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 30 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_30_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "b5ccd7f8fa6a6d60d2d30589d6c6d7595d8f6e09",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 31 stars.svg",
+      "start": 1851,
+      "end": 1858,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 31 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_31_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "ec982e85967dd1a11e9fa33ec51ee982ff04b342",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 32 stars.svg",
+      "start": 1858,
+      "end": 1859,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 32 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_32_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "aaed78fa726a05d08f17a73181df434fdf8fd8cb",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 33 stars.svg",
+      "start": 1859,
+      "end": 1861,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 33 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_33_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "55097d74b7a9c299f611ab487843d3048ed4b358",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 34 stars.svg",
+      "start": 1861,
+      "end": 1863,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 34 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_34_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "30b3846ac8d04bbb76e935182c53d5d5f51c0c5f",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 35 stars.svg",
+      "start": 1863,
+      "end": 1865,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 35 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_35_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "b6ef4a4813d6e45b255000358aa3c3306239eab2",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 36 stars.svg",
+      "start": 1865,
+      "end": 1867,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 36 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_36_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "56c20421e81b4bcc0bd0d416b363361ac0ababa6",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 37 stars.svg",
+      "start": 1867,
+      "end": 1877,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 37 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_37_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "e6eeb37b52d230bb02598345605f66f01e1cb472",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 38 stars.svg",
+      "start": 1877,
+      "end": 1890,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 38 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_38_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "51fe762a068864d6159aeb616d26a6574cb47b15",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 43 stars.svg",
+      "start": 1890,
+      "end": 1891,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 43 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_43_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "98f28c689b751ca1c8f5d769150b7fdadaa84fcc",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 44 stars.svg",
+      "start": 1891,
+      "end": 1896,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 44 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_44_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "ae17834492087e4d01fa0df06264d44419089eff",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 45 stars.svg",
+      "start": 1896,
+      "end": 1908,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 45 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_45_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "8dd50c30ba488dbfe420c33adfe92f4d172f9571",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 46 stars.svg",
+      "start": 1908,
+      "end": 1912,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 46 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_46_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "08975c8f5183ae1ad4ca4e50464b913dc6ea3040",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 48 stars.svg",
+      "start": 1912,
+      "end": 1959,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 48 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_48_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "3106fe4f9da4d21fd5aba2deb4dcb199555ba928",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "Flag of the United States (1959–1960).svg",
+      "start": 1959,
+      "end": 1960,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Gunter Küchler (SVG); design by the U.S. Government",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the United States (1959–1960).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States_(1959%E2%80%931960).svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "f9c103e6479b2debfdcbaa6b9f0b7246b7a07f02",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "united-states",
+      "file": "Flag of the United States.svg",
+      "start": 1960,
+      "end": null,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Dbenbenn, Zscout370, Jacobolus, Indolences, Technion and others",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the United States.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ],
+      "sha1": "79243868c053599aa77c2dd1ac5c68c718cfcc09",
+      "retrieved": "2026-11-17"
+    }
+  ]
+}
