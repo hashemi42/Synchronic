@@ -181,6 +181,11 @@ describe("gaps", () => {
     const open = gaps(file, 1800, 1960, [{ country: "x", state: "s", need: "head of government", start: 1800, end: 1960, reason: "no cabinet", source: "https://example.org" }]);
     expect(open.some((g) => g.state === "s" && g.need === "head of government")).toBe(false);
   });
+  it("takes a recorded “no documented flag” as the answer for its years, and no more", () => {
+    const none = { state: "r", start: 1800, end: 1805, status: "no-documented-flag" as const };
+    const flagGaps = gaps({ ...file, noFlag: [none] }, 1800, 1960).filter((g) => g.need === "flag");
+    expect(flagGaps).toEqual([{ state: "r", need: "flag", start: 1805, end: 1809 }]);
+  });
 });
 
 describe("diffCountry", () => {

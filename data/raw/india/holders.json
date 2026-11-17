@@ -1,6 +1,6 @@
 {
 "query": "\nSELECT ?office ?person ?st ?rank ?start ?startPrec ?startCal ?end ?endPrec ?endCal ?nature WHERE {\n  VALUES ?office { wd:Q192711 wd:Q313383 wd:Q5352166 wd:Q15390704 }\n  ?person p:P39 ?st . ?st ps:P39 ?office ; wikibase:rank ?rank .\n  FILTER(?rank != wikibase:DeprecatedRank)\n  OPTIONAL { ?st pqv:P580 [ wikibase:timeValue ?start ; wikibase:timePrecision ?startPrec ; wikibase:timeCalendarModel ?startCal ] . }\n  OPTIONAL { ?st pqv:P582 [ wikibase:timeValue ?end ; wikibase:timePrecision ?endPrec ; wikibase:timeCalendarModel ?endCal ] . }\n  OPTIONAL { ?st pq:P5102 ?nature . }\n}",
-"fetchedAt": "2026-11-16T21:30:46.967Z",
+"fetchedAt": "2026-11-17T06:33:13.974Z",
 "rows": [
 {"end":"1531-01-05T00:00:00Z","endCal":"http://www.wikidata.org/entity/Q1985786","endPrec":"11","office":"http://www.wikidata.org/entity/Q15390704","person":"http://www.wikidata.org/entity/Q797848","rank":"http://wikiba.se/ontology#NormalRank","st":"http://www.wikidata.org/entity/statement/Q797848-8DA13210-329E-4F3C-AFA8-7D42D3FB9361","start":"1526-05-01T00:00:00Z","startCal":"http://www.wikidata.org/entity/Q1985786","startPrec":"11"},
 {"end":"1540-05-27T00:00:00Z","endCal":"http://www.wikidata.org/entity/Q1985786","endPrec":"11","office":"http://www.wikidata.org/entity/Q15390704","person":"http://www.wikidata.org/entity/Q486188","rank":"http://wikiba.se/ontology#NormalRank","st":"http://www.wikidata.org/entity/statement/Q486188-72870EA2-278C-461C-84D3-D32B06D2DB99","start":"1531-01-05T00:00:00Z","startCal":"http://www.wikidata.org/entity/Q1985786","startPrec":"11"},

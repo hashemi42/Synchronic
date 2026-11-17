@@ -266,6 +266,26 @@
       ]
     },
     {
+      "id": "baji-rao-ii",
+      "name": {
+        "en": "Baji Rao II",
+        "fa": "باجی راؤ دوم"
+      },
+      "born": 1775,
+      "died": 1851,
+      "wikidata": "Q4848887",
+      "sources": [
+        {
+          "title": "Baji Rao II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Baji_Rao_II"
+        },
+        {
+          "title": "Baji Rao II — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4848887"
+        }
+      ]
+    },
+    {
       "id": "chandra-shekhar",
       "name": {
         "en": "Chandra Shekhar",
@@ -302,6 +322,26 @@
         {
           "title": "Charan Singh — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q319824"
+        }
+      ]
+    },
+    {
+      "id": "daulat-rao-sindhia",
+      "name": {
+        "en": "Daulat Rao Shinde",
+        "fa": "دولت راؤ سیندیا"
+      },
+      "born": 1779,
+      "died": 1827,
+      "wikidata": "Q5228002",
+      "sources": [
+        {
+          "title": "Daulat Rao Sindhia — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Daulat_Rao_Sindhia"
+        },
+        {
+          "title": "Daulat Rao Shinde — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5228002"
         }
       ]
     },
@@ -683,6 +723,26 @@
       ]
     },
     {
+      "id": "pratap-singh-of-satara",
+      "name": {
+        "en": "Pratap Singh of Satara",
+        "fa": "پرتاپ سینگ"
+      },
+      "born": 1793,
+      "died": 1847,
+      "wikidata": "Q13117237",
+      "sources": [
+        {
+          "title": "Pratap Singh of Satara — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pratap_Singh_of_Satara"
+        },
+        {
+          "title": "Pratap Singh of Satara — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q13117237"
+        }
+      ]
+    },
+    {
       "id": "pratibha-patil",
       "name": {
         "en": "Pratibha Patil",
@@ -817,6 +877,26 @@
         {
           "title": "Shah Alam II — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q719449"
+        }
+      ]
+    },
+    {
+      "id": "shahu-ii-of-satara",
+      "name": {
+        "en": "Shahu II of Satara",
+        "fa": "شاهو دوم"
+      },
+      "born": 1763,
+      "died": 1808,
+      "wikidata": "Q16858248",
+      "sources": [
+        {
+          "title": "Shahu II of Satara — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shahu_II_of_Satara"
+        },
+        {
+          "title": "Shahu II of Satara — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16858248"
         }
       ]
     },
@@ -1048,6 +1128,25 @@
       ]
     },
     {
+      "person": "shahu-ii-of-satara",
+      "state": "maratha-confederacy",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chhatrapati",
+        "fa": "چهاتراپاتی"
+      },
+      "start": 1777,
+      "end": 1808,
+      "exactStart": "1777-12-11",
+      "exactEnd": "1808-05-03",
+      "sources": [
+        {
+          "title": "Shahu II of Satara — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shahu_II_of_Satara"
+        }
+      ]
+    },
+    {
       "person": "shah-alam-ii",
       "state": "mughal-empire",
       "office": "head-of-state",
@@ -1061,6 +1160,69 @@
         {
           "title": "Shah Alam II — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Shah_Alam_II"
+        }
+      ]
+    },
+    {
+      "person": "daulat-rao-sindhia",
+      "state": "mughal-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "وزیر اعظم"
+      },
+      "start": 1794,
+      "end": 1803,
+      "sources": [
+        {
+          "title": "List of Mughal grand viziers — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_Mughal_grand_viziers"
+        }
+      ]
+    },
+    {
+      "person": "baji-rao-ii",
+      "state": "maratha-confederacy",
+      "office": "head-of-government",
+      "title": {
+        "en": "Peshwa",
+        "fa": "پیشوا"
+      },
+      "start": 1796,
+      "end": 1802,
+      "exactStart": "1796-12-06",
+      "exactEnd": "1802-10-25",
+      "sources": [
+        {
+          "title": "Baji Rao II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Baji_Rao_II"
+        },
+        {
+          "title": "Peshwa — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peshwa"
+        }
+      ]
+    },
+    {
+      "person": "baji-rao-ii",
+      "state": "maratha-confederacy",
+      "office": "head-of-government",
+      "title": {
+        "en": "Peshwa",
+        "fa": "پیشوا"
+      },
+      "start": 1803,
+      "end": 1818,
+      "exactStart": "1803-05-13",
+      "exactEnd": "1818-06-03",
+      "sources": [
+        {
+          "title": "Baji Rao II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Baji_Rao_II"
+        },
+        {
+          "title": "Peshwa — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peshwa"
         }
       ]
     },
@@ -1084,6 +1246,25 @@
         {
           "title": "Akbar II — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q2091579"
+        }
+      ]
+    },
+    {
+      "person": "pratap-singh-of-satara",
+      "state": "maratha-confederacy",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chhatrapati",
+        "fa": "چهاتراپاتی"
+      },
+      "start": 1808,
+      "end": 1818,
+      "exactStart": "1808-05-03",
+      "exactEnd": "1818-06-03",
+      "sources": [
+        {
+          "title": "Pratap Singh of Satara — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pratap_Singh_of_Satara"
         }
       ]
     },
@@ -2059,7 +2240,7 @@
         }
       ],
       "sha1": "2ad0dcb817a04c06526c05f575f19fe0f19ead05",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "maratha-confederacy",
@@ -2077,7 +2258,7 @@
         }
       ],
       "sha1": "4e319030a8207a84dbf853c76ceeedcd8659417d",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "british-raj",
@@ -2099,7 +2280,7 @@
         }
       ],
       "sha1": "df0d4e8729b043b8452736e5af4f384f3a0dd193",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "dominion-of-india",
@@ -2117,7 +2298,7 @@
         }
       ],
       "sha1": "e69ebcb30211f4f175bd61942547946a97c7340e",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "republic-of-india",
@@ -2135,7 +2316,27 @@
         }
       ],
       "sha1": "e69ebcb30211f4f175bd61942547946a97c7340e",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
+    }
+  ],
+  "noFlag": [
+    {
+      "state": "company-rule-in-india",
+      "start": 1789,
+      "end": 1801,
+      "status": "no-documented-flag"
+    },
+    {
+      "state": "mughal-empire",
+      "start": 1789,
+      "end": 1857,
+      "status": "no-documented-flag"
+    },
+    {
+      "state": "british-raj",
+      "start": 1858,
+      "end": 1880,
+      "status": "no-documented-flag"
     }
   ]
 }

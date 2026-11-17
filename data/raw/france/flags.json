@@ -1,6 +1,6 @@
 {
 "query": "commons imageinfo: Flag of France (1790–1794).svg | Flag of France.svg | Flag of Free France (1940-1944).svg | Flag of the Kingdom of France (1814-1830).svg",
-"fetchedAt": "2026-11-16T21:30:02.487Z",
+"fetchedAt": "2026-11-17T06:32:17.858Z",
 "rows": [
 {"file":"Flag of France (1790–1794).svg","sha1":"8605d430eb117399f2609f9c9ae4641c6c439560","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Own work."},
 {"file":"Flag of France.svg","sha1":"66bdc8e9edf0515a0742b58a4f04fa1103084d56","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Original: Unknown Vector: SKopp"},

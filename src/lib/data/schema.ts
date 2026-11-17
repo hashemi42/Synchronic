@@ -164,6 +164,21 @@ export const Flag = z
   })
   .refine(startBeforeEnd, startBeforeEndMessage);
 
+/**
+ * Years of a state for which no flag is documented (PRD §7.7: uncertainty is shown, never left
+ * blank). It records that the flag was looked for and not found, so it needs no source of its
+ * own; one may be given where a source says so.
+ */
+export const NoFlag = z
+  .strictObject({
+    state: Id,
+    ...range,
+    status: z.literal("no-documented-flag"),
+    note: Localized.optional(),
+    sources: z.array(Source).optional(),
+  })
+  .refine(startBeforeEnd, startBeforeEndMessage);
+
 export const RelationType = z.enum(["treaty", "war", "union", "partition"]);
 
 export const Relation = z
@@ -211,6 +226,7 @@ export const CountryFile = z.strictObject({
   lane: z.array(LanePeriod).min(1),
   terms: z.array(OfficeTerm),
   flags: z.array(Flag).default([]),
+  noFlag: z.array(NoFlag).default([]),
   narratives: z.array(Narrative).default([]),
 });
 
@@ -254,6 +270,7 @@ export type LanePeriod = z.infer<typeof LanePeriod>;
 export type OfficeTerm = z.infer<typeof OfficeTerm>;
 export type Person = z.infer<typeof Person>;
 export type Flag = z.infer<typeof Flag>;
+export type NoFlag = z.infer<typeof NoFlag>;
 export type Relation = z.infer<typeof Relation>;
 export type HistoricalEvent = z.infer<typeof HistoricalEvent>;
 export type Narrative = z.infer<typeof Narrative>;

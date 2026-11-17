@@ -461,6 +461,26 @@
     {
       "id": "h-d-deve-gowda",
       "wikidata": "Q377870"
+    },
+    {
+      "id": "shahu-ii-of-satara",
+      "wikidata": "Q16858248"
+    },
+    {
+      "id": "pratap-singh-of-satara",
+      "wikidata": "Q13117237"
+    },
+    {
+      "id": "baji-rao-ii",
+      "wikidata": "Q4848887"
+    },
+    {
+      "id": "daulat-rao-sindhia",
+      "wikidata": "Q5228002",
+      "name": {
+        "en": "Daulat Rao Shinde"
+      },
+      "note": "en: as the cited list of Mughal grand viziers spells it; the Wikipedia title is \"Daulat Rao Sindhia\""
     }
   ],
   "terms": [
@@ -529,6 +549,107 @@
         {
           "title": "Queen Victoria — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Queen_Victoria"
+        }
+      ]
+    },
+    {
+      "person": "shahu-ii-of-satara",
+      "state": "maratha-confederacy",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chhatrapati",
+        "fa": "چهاتراپاتی"
+      },
+      "start": 1777,
+      "end": 1808,
+      "exactStart": "1777-12-11",
+      "exactEnd": "1808-05-03",
+      "sources": [
+        {
+          "title": "Shahu II of Satara — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shahu_II_of_Satara"
+        }
+      ]
+    },
+    {
+      "person": "pratap-singh-of-satara",
+      "state": "maratha-confederacy",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chhatrapati",
+        "fa": "چهاتراپاتی"
+      },
+      "start": 1808,
+      "end": 1818,
+      "exactStart": "1808-05-03",
+      "exactEnd": "1818-06-03",
+      "sources": [
+        {
+          "title": "Pratap Singh of Satara — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pratap_Singh_of_Satara"
+        }
+      ]
+    },
+    {
+      "person": "baji-rao-ii",
+      "state": "maratha-confederacy",
+      "office": "head-of-government",
+      "title": {
+        "en": "Peshwa",
+        "fa": "پیشوا"
+      },
+      "start": 1796,
+      "end": 1802,
+      "exactStart": "1796-12-06",
+      "exactEnd": "1802-10-25",
+      "sources": [
+        {
+          "title": "Baji Rao II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Baji_Rao_II"
+        },
+        {
+          "title": "Peshwa — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peshwa"
+        }
+      ]
+    },
+    {
+      "person": "baji-rao-ii",
+      "state": "maratha-confederacy",
+      "office": "head-of-government",
+      "title": {
+        "en": "Peshwa",
+        "fa": "پیشوا"
+      },
+      "start": 1803,
+      "end": 1818,
+      "exactStart": "1803-05-13",
+      "exactEnd": "1818-06-03",
+      "sources": [
+        {
+          "title": "Baji Rao II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Baji_Rao_II"
+        },
+        {
+          "title": "Peshwa — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peshwa"
+        }
+      ]
+    },
+    {
+      "person": "daulat-rao-sindhia",
+      "state": "mughal-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "وزیر اعظم"
+      },
+      "start": 1794,
+      "end": 1803,
+      "sources": [
+        {
+          "title": "List of Mughal grand viziers — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_Mughal_grand_viziers"
         }
       ]
     }
@@ -654,6 +775,26 @@
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_India.svg"
         }
       ]
+    }
+  ],
+  "noFlag": [
+    {
+      "state": "company-rule-in-india",
+      "start": 1789,
+      "end": 1801,
+      "status": "no-documented-flag"
+    },
+    {
+      "state": "mughal-empire",
+      "start": 1789,
+      "end": 1857,
+      "status": "no-documented-flag"
+    },
+    {
+      "state": "british-raj",
+      "start": 1858,
+      "end": 1880,
+      "status": "no-documented-flag"
     }
   ]
 }

@@ -644,5 +644,19 @@
         }
       ]
     }
+  ],
+  "noFlag": [
+    {
+      "state": "tokugawa-shogunate",
+      "start": 1789,
+      "end": 1868,
+      "status": "no-documented-flag"
+    },
+    {
+      "state": "empire-of-japan",
+      "start": 1868,
+      "end": 1870,
+      "status": "no-documented-flag"
+    }
   ]
 }

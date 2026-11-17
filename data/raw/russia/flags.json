@@ -1,6 +1,6 @@
 {
 "query": "commons imageinfo: Flag of Russia (1858–1896).svg | Flag of Russia (1991–1993).svg | Flag of Russia.svg | Flag of the Russian Soviet Federative Socialist Republic (1918–1925).svg | Flag of the Soviet Union (1922–1923).svg | Flag of the Soviet Union (1924).svg | Flag of the Soviet Union (1924–1936).svg | Flag of the Soviet Union (1936 – 1955).svg | Flag of the Soviet Union.svg",
-"fetchedAt": "2026-11-16T21:31:35.835Z",
+"fetchedAt": "2026-11-17T06:35:02.798Z",
 "rows": [
 {"file":"Flag of Russia (1858–1896).svg","sha1":"84fc3c9af71b1f4deb4af62709de383cc6f24a49","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Кёне, Бернгард Васильевич"},
 {"file":"Flag of Russia (1991–1993).svg","sha1":"0feeeed5a76b3d8b167cd37e0b3cf4ba951de497","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"svg by R-41, reworked by Pianist"},

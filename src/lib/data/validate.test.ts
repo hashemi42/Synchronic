@@ -108,6 +108,15 @@ describe("flags", () => {
     expect(messages(file).join("\n")).toMatch(/Overlaps flags\[1\] of "pahlavi-iran"/);
   });
 
+  it("accepts “no documented flag” for years without a flag, and fails where a flag holds", () => {
+    const file = clone();
+    const first = file.flags.filter((f) => f.state === "pahlavi-iran").sort((a, b) => a.start - b.start)[0];
+    file.noFlag = [{ state: "pahlavi-iran", start: first.start - 5, end: first.start, status: "no-documented-flag" }];
+    expect(messages(file)).toEqual([]);
+    file.noFlag[0].end = first.start + 1;
+    expect(messages(file).join("\n")).toMatch(/noFlag\[0\]: Overlaps flags/);
+  });
+
   it("picks the flag at the cursor, or the period's last flag", () => {
     const { data } = validateCountryFile(iran);
     const pahlavi = data!.lane.find((p) => p.state === "pahlavi-iran")!;

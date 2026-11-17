@@ -2683,7 +2683,7 @@
         }
       ],
       "sha1": "82d5af67d5fa23efd124d8a24941f7cc615907d4",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "russian-empire",
@@ -2701,7 +2701,7 @@
         }
       ],
       "sha1": "84fc3c9af71b1f4deb4af62709de383cc6f24a49",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "russian-empire",
@@ -2719,7 +2719,7 @@
         }
       ],
       "sha1": "82d5af67d5fa23efd124d8a24941f7cc615907d4",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "russian-sfsr",
@@ -2737,7 +2737,7 @@
         }
       ],
       "sha1": "3ba304aff27afbe5b75565a28cab9ccba30414b1",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "soviet-union",
@@ -2755,7 +2755,7 @@
         }
       ],
       "sha1": "2c063c7eefc7ff558231837b949b375aa4d6d841",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "soviet-union",
@@ -2773,7 +2773,7 @@
         }
       ],
       "sha1": "56cdd0b177992eae8f72d046e4a99fe1b9215fd9",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "soviet-union",
@@ -2791,7 +2791,7 @@
         }
       ],
       "sha1": "e6ca012955deb1c22bae9e3984e82e16850ef179",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "soviet-union",
@@ -2809,7 +2809,7 @@
         }
       ],
       "sha1": "b4d45224eabe3f55f8f456da2b54e5bbb7291467",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "soviet-union",
@@ -2827,7 +2827,7 @@
         }
       ],
       "sha1": "b7c85f273275e563ad3ea71bbba4fa13aca6a17c",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "russian-federation",
@@ -2845,7 +2845,7 @@
         }
       ],
       "sha1": "0feeeed5a76b3d8b167cd37e0b3cf4ba951de497",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "russian-federation",
@@ -2863,7 +2863,15 @@
         }
       ],
       "sha1": "82d5af67d5fa23efd124d8a24941f7cc615907d4",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
+    }
+  ],
+  "noFlag": [
+    {
+      "state": "russian-sfsr",
+      "start": 1917,
+      "end": 1918,
+      "status": "no-documented-flag"
     }
   ]
 }

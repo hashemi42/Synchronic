@@ -4077,7 +4077,7 @@
         }
       ],
       "sha1": "032e27bda4cb886bb6080f293d77f51a0eb9fa19",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "state-of-japan",
@@ -4095,7 +4095,7 @@
         }
       ],
       "sha1": "032e27bda4cb886bb6080f293d77f51a0eb9fa19",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "state-of-japan",
@@ -4113,7 +4113,21 @@
         }
       ],
       "sha1": "bda514e7fbea77ed21b325dec24b920cd42e31dd",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
+    }
+  ],
+  "noFlag": [
+    {
+      "state": "tokugawa-shogunate",
+      "start": 1789,
+      "end": 1868,
+      "status": "no-documented-flag"
+    },
+    {
+      "state": "empire-of-japan",
+      "start": 1868,
+      "end": 1870,
+      "status": "no-documented-flag"
     }
   ]
 }

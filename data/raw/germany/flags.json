@@ -1,6 +1,6 @@
 {
 "query": "commons imageinfo: Banner of the Holy Roman Emperor with haloes (1430-1806).svg | Flag of Germany (1867–1918).svg | Flag of Germany (1933–1935).svg | Flag of Germany (1935–1945).svg | Flag of Germany (3-2).svg | Flag of Germany.svg | Flag of the German Democratic Republic.svg | Merchant flag of Germany (1946–1949).svg",
-"fetchedAt": "2026-11-16T21:30:36.221Z",
+"fetchedAt": "2026-11-17T06:33:02.936Z",
 "rows": [
 {"file":"Banner of the Holy Roman Emperor with haloes (1430-1806).svg","sha1":"d2f3d0bb900f561438ab204c3721ee3935d0dd87","mime":"image/svg+xml","license":"CC BY-SA 3.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0","attribution":"David Liuzzo, eagle by N3MO"},
 {"file":"Flag of Germany (1867–1918).svg","sha1":"59fe0e22197ef0fa883aeb99f3122f686633d350","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Original: Adolf Soetbeer, Otto von Bismarck Vector: B1mbo, Madden"},
