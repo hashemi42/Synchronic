@@ -1,6 +1,6 @@
 {
 "query": "commons imageinfo: Flag of Japan (1870–1999).svg | Flag of Japan.svg",
-"fetchedAt": "2026-11-16T21:31:29.138Z",
+"fetchedAt": "2026-11-17T06:34:16.584Z",
 "rows": [
 {"file":"Flag of Japan (1870–1999).svg","sha1":"032e27bda4cb886bb6080f293d77f51a0eb9fa19","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"kahusi - (Talk)"},
 {"file":"Flag of Japan.svg","sha1":"bda514e7fbea77ed21b325dec24b920cd42e31dd","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Various"}

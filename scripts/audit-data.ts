@@ -491,7 +491,8 @@ function mentions(page: string, names: string[]): boolean {
     const n = fold(name);
     if (n.length >= 3 && page.includes(n)) return true;
     // "Mehmed VI Vahideddin" is cited on a page that says "Mehmed VI": first and last word both present.
-    const words = n.split(" ").filter((w) => w.length >= 3);
+    // Hyphens split too: "Asef al-Dowleh" is cited on a page that says "Asef od-Dowleh".
+    const words = n.split(/[ -]/).filter((w) => w.length >= 3);
     if (words.length >= 2 && page.includes(words[0]) && page.includes(words.at(-1)!)) return true;
   }
   return false;
@@ -547,7 +548,7 @@ async function checkUrls(files: CountryFile[], known: Map<string, Labels>) {
 /**
  * A term Wikidata does not have is `source-confirmed` when a cited page states it as a range:
  * "1873–1874", "26 November 1873 – 22 May 1874", "from 1912 to 1916", or "1990 – present" for an
- * open term, with no other year in between. A term within one year needs that year within
+ * open term, with no other year in between; or as a row of a list (see `rowStates`). A term within one year needs that year within
  * 400 characters of the person's name. Merely containing both years somewhere is too weak (a
  * birth or death date can supply one), so that looser result is only noted in `detail`.
  */
@@ -561,6 +562,23 @@ function statesRange(page: string, start: number, end: number | null): boolean {
       ? `(?:${start}${GAP}(?:–|-|—)\\s*(?:present|incumbent)|since ${start})`
       : `${start}${GAP}(?:–|-|—|\\bto\\b|\\buntil\\b)${GAP}${end}`;
   return new RegExp(pattern).test(page);
+}
+
+/**
+ * A list article states a term as a table row: the name, then the start date and the end date in
+ * the next cells, with no dash between them. That counts when the full name is followed, within
+ * 250 characters, by the start year and then the end year with no other year between. Lifespans
+ * in brackets after the name, "(1754–1838)", are skipped.
+ */
+function rowStates(page: string, names: string[], start: number, end: number): boolean {
+  const range = new RegExp(`${start}${GAP}${end}`);
+  for (const key of new Set(names.map(fold).filter((k) => k.length >= 6)))
+    for (let at = page.indexOf(key); at !== -1; at = page.indexOf(key, at + 1)) {
+      const row = page.slice(at + key.length, at + key.length + 250).replace(/\([^)]{0,30}\)/g, " ");
+      const first = row.search(/\d{4}/);
+      if (first !== -1 && row.slice(first).search(range) === 0) return true;
+    }
+  return false;
 }
 
 function yearNearName(page: string, names: string[], year: string): boolean {
@@ -595,7 +613,9 @@ function confirmFromSources(known: Map<string, Labels>, files: CountryFile[]) {
         continue;
       }
       if (!loose && wanted.every((y) => body.includes(y))) loose = url;
-      const ok = start !== null && (start === end ? yearNearName(body, allNames, String(start)) : statesRange(body, start, end));
+      const ok =
+        start !== null &&
+        (start === end ? yearNearName(body, allNames, String(start)) : statesRange(body, start, end) || (end !== null && rowStates(body, allNames, start, end)));
       if (!strict && ok) strict = url;
     }
     if (strict) {

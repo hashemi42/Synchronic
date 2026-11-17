@@ -241,6 +241,26 @@
       ]
     },
     {
+      "id": "cen-chunxuan",
+      "name": {
+        "en": "Cen Chunxuan",
+        "fa": "تسن چون‌شوان"
+      },
+      "born": 1861,
+      "died": 1933,
+      "wikidata": "Q2944205",
+      "sources": [
+        {
+          "title": "Cen Chunxuan — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cen_Chunxuan"
+        },
+        {
+          "title": "Cen Chunxuan — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2944205"
+        }
+      ]
+    },
+    {
       "id": "chen-gongbo",
       "name": {
         "en": "Chen Gongbo",
@@ -461,6 +481,26 @@
       ]
     },
     {
+      "id": "hu-hanmin",
+      "name": {
+        "en": "Hu Hanmin",
+        "fa": "هو هان‌مین"
+      },
+      "born": 1879,
+      "died": 1936,
+      "wikidata": "Q709979",
+      "sources": [
+        {
+          "title": "Hu Hanmin — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hu_Hanmin"
+        },
+        {
+          "title": "Hu Hanmin — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q709979"
+        }
+      ]
+    },
+    {
       "id": "hu-jintao",
       "name": {
         "en": "Hu Jintao",
@@ -496,6 +536,26 @@
         {
           "title": "Hua Guofeng — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q41570"
+        }
+      ]
+    },
+    {
+      "id": "jia-deyao",
+      "name": {
+        "en": "Jia Deyao",
+        "fa": "جیا ده‌یائو"
+      },
+      "born": 1880,
+      "died": 1940,
+      "wikidata": "Q701536",
+      "sources": [
+        {
+          "title": "Jia Deyao — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jia_Deyao"
+        },
+        {
+          "title": "Jia Deyao — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q701536"
         }
       ]
     },
@@ -536,6 +596,26 @@
         {
           "title": "Jiaqing Emperor — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q333178"
+        }
+      ]
+    },
+    {
+      "id": "jin-yunpeng",
+      "name": {
+        "en": "Jin Yunpeng",
+        "fa": "جین یون‌پنگ"
+      },
+      "born": 1877,
+      "died": 1951,
+      "wikidata": "Q616603",
+      "sources": [
+        {
+          "title": "Jin Yunpeng — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jin_Yunpeng"
+        },
+        {
+          "title": "Jin Yunpeng — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q616603"
         }
       ]
     },
@@ -659,6 +739,26 @@
       ]
     },
     {
+      "id": "liang-shiyi",
+      "name": {
+        "en": "Liang Shiyi",
+        "fa": "لیانگ شی‌یی"
+      },
+      "born": 1869,
+      "died": 1933,
+      "wikidata": "Q601663",
+      "sources": [
+        {
+          "title": "Liang Shiyi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Liang_Shiyi"
+        },
+        {
+          "title": "Liang Shiyi — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q601663"
+        }
+      ]
+    },
+    {
       "id": "lin-sen",
       "name": {
         "en": "Lin Sen",
@@ -759,6 +859,26 @@
       ]
     },
     {
+      "id": "qian-nengxun",
+      "name": {
+        "en": "Qian Nengxun",
+        "fa": "چیان ننگ‌شون"
+      },
+      "born": 1869,
+      "died": 1924,
+      "wikidata": "Q6094039",
+      "sources": [
+        {
+          "title": "Qian Nengxun — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Qian_Nengxun"
+        },
+        {
+          "title": "Qian Nengxun — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6094039"
+        }
+      ]
+    },
+    {
       "id": "qianlong-emperor",
       "name": {
         "en": "Qianlong Emperor",
@@ -799,6 +919,26 @@
       ]
     },
     {
+      "id": "sun-baoqi",
+      "name": {
+        "en": "Sun Baoqi",
+        "fa": "سون بائوچی"
+      },
+      "born": 1867,
+      "died": 1931,
+      "wikidata": "Q711071",
+      "sources": [
+        {
+          "title": "Sun Baoqi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sun_Baoqi"
+        },
+        {
+          "title": "Sun Baoqi — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q711071"
+        }
+      ]
+    },
+    {
       "id": "sun-fo",
       "name": {
         "en": "Sun Fo",
@@ -815,6 +955,26 @@
         {
           "title": "Sun Fo — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q701897"
+        }
+      ]
+    },
+    {
+      "id": "sun-yat-sen",
+      "name": {
+        "en": "Sun Yat-sen",
+        "fa": "سون یات سن"
+      },
+      "born": 1866,
+      "died": 1925,
+      "wikidata": "Q8573",
+      "sources": [
+        {
+          "title": "Sun Yat-sen — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sun_Yat-sen"
+        },
+        {
+          "title": "Sun Yat-sen — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q8573"
         }
       ]
     },
@@ -899,6 +1059,46 @@
       ]
     },
     {
+      "id": "wang-chonghui",
+      "name": {
+        "en": "Wang Chonghui",
+        "fa": "وانگ چونگ‌هویی"
+      },
+      "born": 1881,
+      "died": 1958,
+      "wikidata": "Q710100",
+      "sources": [
+        {
+          "title": "Wang Chonghui — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Chonghui"
+        },
+        {
+          "title": "Wang Chonghui — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q710100"
+        }
+      ]
+    },
+    {
+      "id": "wang-daxie",
+      "name": {
+        "en": "Wang Daxie",
+        "fa": "وانگ داشیه"
+      },
+      "born": 1860,
+      "died": 1929,
+      "wikidata": "Q6125901",
+      "sources": [
+        {
+          "title": "Wang Daxie — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Daxie"
+        },
+        {
+          "title": "Wang Daxie — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6125901"
+        }
+      ]
+    },
+    {
       "id": "wang-jingwei",
       "name": {
         "en": "Wang Jingwei",
@@ -915,6 +1115,26 @@
         {
           "title": "Wang Jingwei — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q22303"
+        }
+      ]
+    },
+    {
+      "id": "wang-shizhen",
+      "name": {
+        "en": "Wang Shizhen",
+        "fa": "وانگ شی‌ژن"
+      },
+      "born": 1861,
+      "died": 1930,
+      "wikidata": "Q700333",
+      "sources": [
+        {
+          "title": "Wang Shizhen (Beiyang government) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Shizhen_(Beiyang_government)"
+        },
+        {
+          "title": "Wang Shizhen — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q700333"
         }
       ]
     },
@@ -1057,6 +1277,46 @@
       ]
     },
     {
+      "id": "xu-shiying",
+      "name": {
+        "en": "Xu Shiying",
+        "fa": "شو شی‌یینگ"
+      },
+      "born": 1873,
+      "died": 1964,
+      "wikidata": "Q6126771",
+      "sources": [
+        {
+          "title": "Xu Shiying — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Xu_Shiying"
+        },
+        {
+          "title": "Xu Shiying — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6126771"
+        }
+      ]
+    },
+    {
+      "id": "yan-huiqing",
+      "name": {
+        "en": "Yan Huiqing",
+        "fa": "یان هویی‌چینگ"
+      },
+      "born": 1877,
+      "died": 1950,
+      "wikidata": "Q708819",
+      "sources": [
+        {
+          "title": "Yan Huiqing — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yan_Huiqing"
+        },
+        {
+          "title": "Yan Huiqing — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q708819"
+        }
+      ]
+    },
+    {
       "id": "yang-shangkun",
       "name": {
         "en": "Yang Shangkun",
@@ -1173,6 +1433,26 @@
         {
           "title": "Zhang Qun — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q702934"
+        }
+      ]
+    },
+    {
+      "id": "zhang-shaozeng",
+      "name": {
+        "en": "Zhang Shaozeng",
+        "fa": "ژانگ شائوزنگ"
+      },
+      "born": 1870,
+      "died": 1928,
+      "wikidata": "Q701526",
+      "sources": [
+        {
+          "title": "Zhang Shaozeng — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zhang_Shaozeng"
+        },
+        {
+          "title": "Zhang Shaozeng — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q701526"
         }
       ]
     },
@@ -1851,6 +2131,63 @@
       ]
     },
     {
+      "person": "lu-zhengxiang",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1915,
+      "end": 1916,
+      "exactStart": "1915-12-22",
+      "exactEnd": "1916-03-22",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
+        }
+      ]
+    },
+    {
+      "person": "xu-shichang",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1916,
+      "end": 1916,
+      "exactStart": "1916-03-22",
+      "exactEnd": "1916-04-22",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
+        }
+      ]
+    },
+    {
+      "person": "duan-qirui",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1916,
+      "end": 1917,
+      "exactStart": "1916-04-22",
+      "exactEnd": "1917-05-23",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
+        }
+      ]
+    },
+    {
       "person": "li-yuanhong",
       "state": "republic-of-china",
       "office": "head-of-state",
@@ -1864,6 +2201,25 @@
         {
           "title": "Li Yuanhong — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Li_Yuanhong"
+        }
+      ]
+    },
+    {
+      "person": "duan-qirui",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1917,
+      "end": 1917,
+      "exactStart": "1917-07-14",
+      "exactEnd": "1917-11-22",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
         }
       ]
     },
@@ -1891,6 +2247,25 @@
       ]
     },
     {
+      "person": "wang-shizhen",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1917,
+      "end": 1918,
+      "exactStart": "1917-11-30",
+      "exactEnd": "1918-03-23",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
+        }
+      ]
+    },
+    {
       "person": "feng-guozhang",
       "state": "republic-of-china",
       "start": 1917,
@@ -1914,6 +2289,78 @@
       ]
     },
     {
+      "person": "sun-yat-sen",
+      "state": "guangzhou-government",
+      "office": "head-of-state",
+      "title": {
+        "en": "Generalissimo",
+        "fa": "فرمانده کل"
+      },
+      "start": 1917,
+      "end": 1918,
+      "sources": [
+        {
+          "title": "Constitutional Protection junta — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Constitutional_Protection_junta"
+        }
+      ]
+    },
+    {
+      "person": "duan-qirui",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1918,
+      "end": 1918,
+      "exactStart": "1918-03-23",
+      "exactEnd": "1918-10-10",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
+        }
+      ]
+    },
+    {
+      "person": "qian-nengxun",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1918,
+      "end": 1919,
+      "exactStart": "1918-10-10",
+      "exactEnd": "1919-06-13",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
+        }
+      ]
+    },
+    {
+      "person": "cen-chunxuan",
+      "state": "guangzhou-government",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Presidium",
+        "fa": "رئیس هیئت رئیسه"
+      },
+      "start": 1918,
+      "end": 1920,
+      "sources": [
+        {
+          "title": "Constitutional Protection junta — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Constitutional_Protection_junta"
+        }
+      ]
+    },
+    {
       "person": "xu-shichang",
       "state": "republic-of-china",
       "start": 1918,
@@ -1933,6 +2380,173 @@
         {
           "title": "Xu Shichang — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q702428"
+        }
+      ]
+    },
+    {
+      "person": "jin-yunpeng",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1919,
+      "end": 1920,
+      "exactStart": "1919-09-24",
+      "exactEnd": "1920-05-14",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
+        }
+      ]
+    },
+    {
+      "person": "jin-yunpeng",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1920,
+      "end": 1921,
+      "exactStart": "1920-08-09",
+      "exactEnd": "1921-12-18",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
+        }
+      ]
+    },
+    {
+      "person": "sun-yat-sen",
+      "state": "guangzhou-government",
+      "office": "head-of-state",
+      "title": {
+        "en": "Generalissimo",
+        "fa": "فرمانده کل"
+      },
+      "start": 1920,
+      "end": 1921,
+      "sources": [
+        {
+          "title": "Constitutional Protection junta — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Constitutional_Protection_junta"
+        }
+      ]
+    },
+    {
+      "person": "liang-shiyi",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1921,
+      "end": 1922,
+      "exactStart": "1921-12-24",
+      "exactEnd": "1922-01-25",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
+        }
+      ]
+    },
+    {
+      "person": "sun-yat-sen",
+      "state": "guangzhou-government",
+      "office": "head-of-state",
+      "title": {
+        "en": "Grand President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1921,
+      "end": 1922,
+      "sources": [
+        {
+          "title": "Canton government of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canton_government_of_the_Republic_of_China"
+        }
+      ]
+    },
+    {
+      "person": "tang-shaoyi",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1922,
+      "end": 1922,
+      "exactStart": "1922-08-05",
+      "exactEnd": "1922-09-19",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
+        }
+      ]
+    },
+    {
+      "person": "wang-chonghui",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1922,
+      "end": 1922,
+      "exactStart": "1922-09-19",
+      "exactEnd": "1922-11-29",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
+        }
+      ]
+    },
+    {
+      "person": "wang-daxie",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1922,
+      "end": 1922,
+      "exactStart": "1922-11-29",
+      "exactEnd": "1922-12-11",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
+        }
+      ]
+    },
+    {
+      "person": "yan-huiqing",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1922,
+      "end": 1922,
+      "exactStart": "1922-06-12",
+      "exactEnd": "1922-08-05",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
         }
       ]
     },
@@ -1977,6 +2591,25 @@
       ]
     },
     {
+      "person": "zhang-shaozeng",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1923,
+      "end": 1923,
+      "exactStart": "1923-01-04",
+      "exactEnd": "1923-06-13",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
+        }
+      ]
+    },
+    {
       "person": "cao-kun",
       "state": "republic-of-china",
       "start": 1923,
@@ -2000,6 +2633,61 @@
       ]
     },
     {
+      "person": "sun-yat-sen",
+      "state": "guangzhou-government",
+      "office": "head-of-state",
+      "title": {
+        "en": "Army and Navy Marshal",
+        "fa": "فرمانده کل ارتش و نیروی دریایی"
+      },
+      "start": 1923,
+      "end": 1925,
+      "sources": [
+        {
+          "title": "Army and Navy Generalissimo's Headquarters — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Army_and_Navy_Generalissimo's_Headquarters"
+        }
+      ]
+    },
+    {
+      "person": "sun-baoqi",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1924,
+      "end": 1924,
+      "exactStart": "1924-01-12",
+      "exactEnd": "1924-07-02",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
+        }
+      ]
+    },
+    {
+      "person": "yan-huiqing",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1924,
+      "end": 1924,
+      "exactStart": "1924-09-14",
+      "exactEnd": "1924-10-31",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
+        }
+      ]
+    },
+    {
       "person": "duan-qirui",
       "state": "republic-of-china",
       "office": "head-of-state",
@@ -2013,6 +2701,80 @@
         {
           "title": "Duan Qirui — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Duan_Qirui"
+        }
+      ]
+    },
+    {
+      "person": "hu-hanmin",
+      "state": "guangzhou-government",
+      "office": "head-of-state",
+      "title": {
+        "en": "Army and Navy Marshal",
+        "fa": "فرمانده کل ارتش و نیروی دریایی"
+      },
+      "start": 1925,
+      "end": 1925,
+      "sources": [
+        {
+          "title": "Army and Navy Generalissimo's Headquarters — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Army_and_Navy_Generalissimo's_Headquarters"
+        }
+      ]
+    },
+    {
+      "person": "xu-shiying",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1925,
+      "end": 1926,
+      "exactStart": "1925-12-26",
+      "exactEnd": "1926-03-04",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
+        }
+      ]
+    },
+    {
+      "person": "wang-jingwei",
+      "state": "guangzhou-government",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the National Government",
+        "fa": "رئیس دولت ملی"
+      },
+      "start": 1925,
+      "end": 1926,
+      "exactStart": "1925-07-01",
+      "exactEnd": "1926-03-23",
+      "sources": [
+        {
+          "title": "Wang Jingwei — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei"
+        }
+      ]
+    },
+    {
+      "person": "jia-deyao",
+      "state": "republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1926,
+      "end": 1926,
+      "exactStart": "1926-03-04",
+      "exactEnd": "1926-04-20",
+      "sources": [
+        {
+          "title": "List of premiers of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China"
         }
       ]
     },
@@ -3127,7 +3889,7 @@
         }
       ],
       "sha1": "6654d651a11f2445ef589edbe431caff249d21ea",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "qing-dynasty",
@@ -3145,7 +3907,7 @@
         }
       ],
       "sha1": "1fa7ab71045f183034233831f5c3bab78dd69694",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "republic-of-china",
@@ -3167,7 +3929,7 @@
         }
       ],
       "sha1": "0836dabdb2133595b1a67985b7e5081934707daa",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "republic-of-china",
@@ -3185,7 +3947,7 @@
         }
       ],
       "sha1": "784cf273d4caa8130068c0bdc730a43af7047657",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "peoples-republic-of-china",
@@ -3203,7 +3965,7 @@
         }
       ],
       "sha1": "e8782cb5c16e9b68b3b1539267ae99f726da0227",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "wang-jingwei-regime",
@@ -3225,7 +3987,7 @@
         }
       ],
       "sha1": "6d06726e6324f080dad2fcc9b43bee1d3a605d47",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "manchukuo",
@@ -3247,7 +4009,79 @@
         }
       ],
       "sha1": "3f2e22a94d035f94c306d3ebee739e06f3d4138f",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "guangzhou-government",
+      "file": "Flag of China (1912–1928).svg",
+      "name": {
+        "en": "Five-coloured flag",
+        "fa": "پرچم پنج‌رنگ"
+      },
+      "start": 1917,
+      "end": 1921,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Original: en:Provisional Government of the Republic of China (1912) Vector: Kibinsky",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of China (1912–1928).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_China_%281912%E2%80%931928%29.svg"
+        },
+        {
+          "title": "Constitutional Protection junta — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Constitutional_Protection_junta"
+        }
+      ],
+      "sha1": "0836dabdb2133595b1a67985b7e5081934707daa",
+      "retrieved": "2026-11-17"
+    },
+    {
+      "state": "guangzhou-government",
+      "file": "Flag of the Republic of China.svg",
+      "start": 1921,
+      "end": 1925,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Sun Yat-sen",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Republic of China.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_China.svg"
+        },
+        {
+          "title": "Canton government of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canton_government_of_the_Republic_of_China"
+        },
+        {
+          "title": "Army and Navy Generalissimo's Headquarters — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Army_and_Navy_Generalissimo's_Headquarters"
+        }
+      ],
+      "sha1": "784cf273d4caa8130068c0bdc730a43af7047657",
+      "retrieved": "2026-11-17"
+    }
+  ],
+  "noFlag": [
+    {
+      "state": "qing-dynasty",
+      "start": 1789,
+      "end": 1862,
+      "status": "no-documented-flag"
+    },
+    {
+      "state": "taiping-heavenly-kingdom",
+      "start": 1851,
+      "end": 1864,
+      "status": "no-documented-flag"
+    },
+    {
+      "state": "guangzhou-government",
+      "start": 1925,
+      "end": 1928,
+      "status": "no-documented-flag"
     }
   ]
 }

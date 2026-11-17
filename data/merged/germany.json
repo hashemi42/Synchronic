@@ -427,6 +427,26 @@
       ]
     },
     {
+      "id": "ferdinand-i-of-austria",
+      "name": {
+        "en": "Ferdinand I of Austria",
+        "fa": "فردیناند یکم"
+      },
+      "born": 1793,
+      "died": 1875,
+      "wikidata": "Q183579",
+      "sources": [
+        {
+          "title": "Ferdinand I of Austria — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ferdinand_I_of_Austria"
+        },
+        {
+          "title": "Ferdinand I of Austria — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q183579"
+        }
+      ]
+    },
+    {
       "id": "francis-ii",
       "name": {
         "en": "Francis II",
@@ -462,6 +482,26 @@
         {
           "title": "Frank-Walter Steinmeier — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q76658"
+        }
+      ]
+    },
+    {
+      "id": "franz-joseph-i",
+      "name": {
+        "en": "Franz Joseph I",
+        "fa": "فرانتس یوزف یکم"
+      },
+      "born": 1830,
+      "died": 1916,
+      "wikidata": "Q51056",
+      "sources": [
+        {
+          "title": "Franz Joseph I — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Franz_Joseph_I"
+        },
+        {
+          "title": "Franz Joseph I — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q51056"
         }
       ]
     },
@@ -1795,6 +1835,57 @@
         {
           "title": "Napoleon — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Napoleon"
+        }
+      ]
+    },
+    {
+      "person": "francis-ii",
+      "state": "german-confederation",
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of the presiding power (Emperor of Austria)",
+        "fa": "رئیس قدرت ریاست‌کننده (امپراتور اتریش)"
+      },
+      "start": 1815,
+      "end": 1835,
+      "sources": [
+        {
+          "title": "German Confederation — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/German_Confederation"
+        }
+      ]
+    },
+    {
+      "person": "ferdinand-i-of-austria",
+      "state": "german-confederation",
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of the presiding power (Emperor of Austria)",
+        "fa": "رئیس قدرت ریاست‌کننده (امپراتور اتریش)"
+      },
+      "start": 1835,
+      "end": 1848,
+      "sources": [
+        {
+          "title": "German Confederation — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/German_Confederation"
+        }
+      ]
+    },
+    {
+      "person": "franz-joseph-i",
+      "state": "german-confederation",
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of the presiding power (Emperor of Austria)",
+        "fa": "رئیس قدرت ریاست‌کننده (امپراتور اتریش)"
+      },
+      "start": 1850,
+      "end": 1866,
+      "sources": [
+        {
+          "title": "German Confederation — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/German_Confederation"
         }
       ]
     },
@@ -3369,7 +3460,7 @@
       ],
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "sha1": "d2f3d0bb900f561438ab204c3721ee3935d0dd87",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "north-german-confederation",
@@ -3387,7 +3478,7 @@
         }
       ],
       "sha1": "59fe0e22197ef0fa883aeb99f3122f686633d350",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "german-empire",
@@ -3405,7 +3496,7 @@
         }
       ],
       "sha1": "59fe0e22197ef0fa883aeb99f3122f686633d350",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "weimar-republic",
@@ -3423,7 +3514,7 @@
         }
       ],
       "sha1": "f61067178038983bcdb0c07c889284eaa1a778fe",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "nazi-germany",
@@ -3441,7 +3532,7 @@
         }
       ],
       "sha1": "0c7beacb540a38f3b07b77da86986818fd025567",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "nazi-germany",
@@ -3459,7 +3550,7 @@
         }
       ],
       "sha1": "5874c48f937a9eb432942823af91a4d864793ed1",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "allied-occupied-germany",
@@ -3481,7 +3572,7 @@
         }
       ],
       "sha1": "8f19eed82cd555d38167daa25b992f78d4034f04",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "federal-republic-of-germany",
@@ -3499,7 +3590,7 @@
         }
       ],
       "sha1": "c48217a5ca039133249c04c1e4248af6e2021020",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "east-germany",
@@ -3517,7 +3608,7 @@
         }
       ],
       "sha1": "c48217a5ca039133249c04c1e4248af6e2021020",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "east-germany",
@@ -3535,7 +3626,39 @@
         }
       ],
       "sha1": "ab7abbc699a9e0a59e5e590f2a538755aff6ad44",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
+    }
+  ],
+  "noFlag": [
+    {
+      "state": "confederation-of-the-rhine",
+      "start": 1806,
+      "end": 1813,
+      "status": "no-documented-flag"
+    },
+    {
+      "state": "german-confederation",
+      "start": 1815,
+      "end": 1866,
+      "status": "no-documented-flag"
+    },
+    {
+      "state": "north-german-confederation",
+      "start": 1866,
+      "end": 1867,
+      "status": "no-documented-flag"
+    },
+    {
+      "state": "weimar-republic",
+      "start": 1918,
+      "end": 1919,
+      "status": "no-documented-flag"
+    },
+    {
+      "state": "allied-occupied-germany",
+      "start": 1945,
+      "end": 1946,
+      "status": "no-documented-flag"
     }
   ]
 }

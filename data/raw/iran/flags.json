@@ -1,6 +1,6 @@
 {
 "query": "commons imageinfo: First Flag of I.R.Iran.svg | Flag of Iran.svg | State flag of Iran (1933–1964).svg | State flag of Iran (1964–1980).svg | State flag of Persia (1907–1933).svg",
-"fetchedAt": "2026-11-16T21:31:02.633Z",
+"fetchedAt": "2026-11-17T06:34:02.567Z",
 "rows": [
 {"file":"First Flag of I.R.Iran.svg","sha1":"fe08f6e17a3b4ca2adceeb47f1a42e89afcc2894","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"MrInfo2012"},
 {"file":"Flag of Iran.svg","sha1":"41993e3fe7cd02a33f2b8ff95f3403ceb2accec8","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"SVG file: SiBr4Designer: Hamid NadimiConstruction: ISIRI"},

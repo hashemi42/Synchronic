@@ -587,6 +587,18 @@
     {
       "id": "abdul-hamid-i",
       "wikidata": "Q170707"
+    },
+    {
+      "id": "ahmed-cevad-pasha",
+      "wikidata": "Q401199"
+    },
+    {
+      "id": "fevzi-cakmak",
+      "wikidata": "Q328331"
+    },
+    {
+      "id": "rauf-orbay",
+      "wikidata": "Q282179"
     }
   ],
   "terms": [
@@ -723,6 +735,105 @@
         {
           "title": "Ahmet Davutoğlu — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q58198"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-emin-ali-pasha",
+      "state": "ottoman-empire",
+      "start": 1852,
+      "end": 1852,
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "exactStart": "1852-08-07",
+      "exactEnd": "1852-10-04",
+      "sources": [
+        {
+          "title": "Mehmed Emin Âli Pasha — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mehmed_Emin_%C3%82li_Pasha"
+        },
+        {
+          "title": "Mehmed Emin Âli Pasha — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q439237"
+        }
+      ]
+    },
+    {
+      "person": "mehmed-emin-ali-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1867,
+      "end": 1871,
+      "exactStart": "1867-02-11",
+      "exactEnd": "1871-09-07",
+      "sources": [
+        {
+          "title": "List of Ottoman grand viziers — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_Ottoman_grand_viziers"
+        }
+      ]
+    },
+    {
+      "person": "ahmed-cevad-pasha",
+      "state": "ottoman-empire",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1891,
+      "end": 1895,
+      "exactStart": "1891-09-04",
+      "exactEnd": "1895-06-08",
+      "sources": [
+        {
+          "title": "List of Ottoman grand viziers — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_Ottoman_grand_viziers"
+        }
+      ]
+    },
+    {
+      "person": "fevzi-cakmak",
+      "state": "ankara-government",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1921,
+      "end": 1922,
+      "exactStart": "1921-01-24",
+      "exactEnd": "1922-07-09",
+      "sources": [
+        {
+          "title": "List of prime ministers of Turkey — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_Turkey"
+        }
+      ]
+    },
+    {
+      "person": "rauf-orbay",
+      "state": "ankara-government",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1922,
+      "end": 1923,
+      "exactStart": "1922-07-12",
+      "exactEnd": "1923-08-04",
+      "sources": [
+        {
+          "title": "List of prime ministers of Turkey — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_Turkey"
         }
       ]
     }
@@ -918,6 +1029,14 @@
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkey.svg"
         }
       ]
+    }
+  ],
+  "noFlag": [
+    {
+      "state": "ottoman-empire",
+      "start": 1789,
+      "end": 1844,
+      "status": "no-documented-flag"
     }
   ]
 }

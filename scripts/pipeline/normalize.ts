@@ -27,9 +27,10 @@ export type State = {
 };
 export type LanePeriod = { country: string; state: string | null; start: number; end: number | null; kind: string; [k: string]: unknown };
 export type Flag = { state: string; file: string; start: number; end: number | null; license: string; licenseUrl?: string; attribution: string; sha1?: string; retrieved?: string; [k: string]: unknown };
+export type NoFlag = { state: string; start: number; end: number | null; status: "no-documented-flag"; note?: Localized; sources?: Source[] };
 export type CountryFile = {
   country: { id: string; name: Localized; wikidata: string; [k: string]: unknown };
-  states: State[]; persons: Person[]; lane: LanePeriod[]; terms: Term[]; flags: Flag[]; narratives?: unknown[];
+  states: State[]; persons: Person[]; lane: LanePeriod[]; terms: Term[]; flags: Flag[]; noFlag?: NoFlag[]; narratives?: unknown[];
 };
 
 /** A head-of-state office: its holders (P39) become head-of-state terms with this title. */
@@ -63,6 +64,8 @@ export type Curated = {
    */
   exclude: { wikidata: string; office: "head-of-state" | "head-of-government"; reason: string }[];
   flags: Flag[];
+  /** Years of a state with no documented flag (PRD §7.7). */
+  noFlag?: NoFlag[];
   narratives?: unknown[];
 };
 /** A head-of-government term Wikidata lacks (data/overrides/heads-of-government.json). */
@@ -414,6 +417,7 @@ export function normalize(raw: Raw, cfg: Config): Result {
       lane: curated.lane,
       terms,
       flags,
+      ...(curated.noFlag?.length ? { noFlag: curated.noFlag } : {}),
       ...(curated.narratives ? { narratives: curated.narratives } : {}),
     },
     persian,

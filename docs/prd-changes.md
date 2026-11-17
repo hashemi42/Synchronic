@@ -102,7 +102,9 @@ And in the §4 scope table, under "Connections (treaties, wars)", note that this
 >
 > Border snapshot — `id`, `year`, `file`, `dataset` (name, version, URL), `license`, `licenseUrl`, `attribution`; features carry `state`, `country`, `name` and `disputed`. State ids are unique across all country files.
 
-**Why.** §11 requires a licence per flag and per border source; these are the fields that state it. A Commons file can be overwritten under the same name, so the record identifies the file the site serves. The border shape stays provisional until the source spike (§13).
+> No flag — `state`, `start`, `end`, `status` (`no-documented-flag`), optional `note` and `sources`: years of a state for which no flag is documented. It answers the flag question for those years in the completeness report without a source for the absence (§7.7).
+
+**Why.** §11 requires a licence per flag and per border source; these are the fields that state it. A Commons file can be overwritten under the same name, so the record identifies the file the site serves. Many states had no flag in their early years, and an absence has no page to cite; saying "no documented flag" keeps it visible instead of blank. The border shape stays provisional until the source spike (§13).
 
 ## 9. Core region (§6.1, §6.3 step 1, §13)
 

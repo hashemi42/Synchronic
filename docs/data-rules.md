@@ -90,6 +90,10 @@ After the change, the earlier pieces are compared on their own; where Wikidata h
 
 **Resolves (2):** Nikolay Rumyantsev (1810–1812), and Ivan Shcheglovitov (1917), who was Chairman of the State Council, not of the Council of Ministers. The latter is an error in Wikidata.
 
+## R9. Years without a flag
+
+**Rule.** Where a state had no flag, or none is documented, the curated file says so in `noFlag` with the status `no-documented-flag`, for exactly those years. It needs no source: there is no page to cite for an absence (PRD §7.7). A flag is entered instead as soon as the state's article shows one for those years. A missing head of state, head of government or capital still needs a sourced entry in `data/policy/coverage-exceptions.json`.
+
 ## R8. Iran's presidency, 1980–1989 (applied in PR #2)
 
 **Applied:** a fourth office type, `other`, named by the term's title. Iran's presidents are recorded under it: Abolhassan Banisadr (4 February 1980 – 22 June 1981), Mohammad-Ali Rajai (2–30 August 1981) and Ali Khamenei (9 October 1981 – 16 August 1989), each checked against the English Wikipedia infobox. The politics card shows them as "President in 1985"; the ruler row stays the Supreme Leader. `pnpm merge:hog` leaves `other` terms alone.

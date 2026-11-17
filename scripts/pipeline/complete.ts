@@ -3,7 +3,7 @@
  *
  * Complete means: every year has a lane period, and every year of a state (a main, rival, parallel
  * or occupation period) has a head of state or leader, a head of government, a capital, a system
- * and a flag, in both languages. A year that truly had none of these is closed by a recorded
+ * and a flag or a recorded "no documented flag", in both languages. A year that truly had none of these is closed by a recorded
  * exception with a source (data/policy/coverage-exceptions.json), never by leaving it blank.
  * Pure.
  */
@@ -43,7 +43,8 @@ export function gaps(file: CountryFile, from: number, to: number, exceptions: Co
     const missing = (need: Need, has: (y: number) => boolean) => add(id, need, mine.filter((y) => !has(y) && !excused(id, need, y)));
     missing("head of state", (y) => terms.some((t) => (t.office === "head-of-state" || t.office === "leader") && holds(t, y)));
     missing("head of government", (y) => terms.some((t) => t.office === "head-of-government" && holds(t, y)));
-    missing("flag", (y) => file.flags.some((f) => f.state === id && holds(f, y)));
+    // A recorded "no documented flag" answers the question for its years (PRD §7.7); ranges are half-open.
+    missing("flag", (y) => file.flags.some((f) => f.state === id && holds(f, y)) || (file.noFlag ?? []).some((n) => n.state === id && inLane(n, y)));
     if (!state.capital) missing("capital", () => false);
     if (!state.system) missing("system", () => false);
   }

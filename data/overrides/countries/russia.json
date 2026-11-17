@@ -1100,5 +1100,13 @@
         }
       ]
     }
+  ],
+  "noFlag": [
+    {
+      "state": "russian-sfsr",
+      "start": 1917,
+      "end": 1918,
+      "status": "no-documented-flag"
+    }
   ]
 }

@@ -1,6 +1,6 @@
 # Review decisions: replacing the nine country files
 
-Decided on 2026-11-17 in two rounds: first under the rules given for the review, then under the answers to the seven questions it raised. Every change to the data the site shows is a row in [replacement.csv](replacement.csv), before and after.
+Decided on 2026-11-17 in three rounds: first under the rules given for the review, then under the answers to the seven questions it raised, then closing the gaps in a second pull request. Every change to the data the site shows is a row in [replacement.csv](replacement.csv), before and after.
 
 ## What changed for a reader of the site
 
@@ -108,6 +108,71 @@ Sixteen recorded vacancies are in `data/policy/coverage-exceptions.json`, each w
 The Nanjing government and Manchukuo came with their heads of government and flags, so they add no gaps. The Taiping kingdom adds two (head of government, flag).
 
 The 44 that remain are in [completeness.md](completeness.md). They are left for the next pull request, as you set out: rulers entered from Wikipedia list articles, and a "no documented flag" status in place of a source for absence.
+
+## Round 3: closing the gaps (the pull request after this one)
+
+The 44 open gaps became 1. Eight of nine lanes are complete for 1800 to today.
+
+### Office-holders entered from list articles
+
+71 terms for 46 new people and 11 already in the data. Each term cites the list or article it was read from.
+
+| Country | What was entered | Source |
+| --- | --- | --- |
+| France | Presidents of the Council 1815–1830 (Talleyrand to Polignac), 1848–1851 (Barrot, Hautpoul, Faucher), Dufaure 1871–1873, de Gaulle as Chairman of the Provisional Government 1944–1946 | [List of prime ministers of France](https://en.wikipedia.org/wiki/List_of_prime_ministers_of_France) |
+| Iran | Grand viziers from Hajji Ebrahim Shirazi (1794) to Mirza Yusuf Ashtiani (1886), and Amin al-Soltan's acting years 1886–1888 | [List of grand viziers of Persia](https://en.wikipedia.org/wiki/List_of_grand_viziers_of_Persia) |
+| Iran | Prime ministers of 1907–1911 that were missing: Moshir al-Saltaneh, Naser ol-Molk, Tonekaboni | [List of prime ministers of Iran](https://en.wikipedia.org/wiki/List_of_prime_ministers_of_Iran) |
+| China | Premiers of the Republic 1915–1926, 18 terms | [List of premiers of the Republic of China](https://en.wikipedia.org/wiki/List_of_premiers_of_the_Republic_of_China) |
+| China | Heads of the Guangzhou governments 1917–1926: Sun Yat-sen, Cen Chunxuan, Hu Hanmin, Wang Jingwei | The infoboxes of the three governments' articles, and Wang Jingwei's |
+| Turkey | Âli Pasha's fifth term 1867–1871, Ahmed Cevad Pasha 1891–1895 | [List of Ottoman grand viziers](https://en.wikipedia.org/wiki/List_of_Ottoman_grand_viziers) |
+| Turkey | Fevzi Çakmak 1921–1922 and Rauf Orbay 1922–1923, Ankara government | [List of prime ministers of Turkey](https://en.wikipedia.org/wiki/List_of_prime_ministers_of_Turkey) |
+| Germany | Heads of the presiding power of the German Confederation: Francis I 1815–1835, Ferdinand I 1835–1848, Franz Joseph I 1850–1866 | [German Confederation](https://en.wikipedia.org/wiki/German_Confederation), infobox |
+| India | Chhatrapatis Shahu II (to 1808) and Pratap Singh (1808–1818); Peshwa Baji Rao II (1796–1802, 1803–1818) | Their articles' infoboxes, and [Peshwa](https://en.wikipedia.org/wiki/Peshwa) |
+| India | Daulat Rao Shinde, the last entry in the list of Mughal grand viziers, 1794–1803 | [List of Mughal grand viziers](https://en.wikipedia.org/wiki/List_of_Mughal_grand_viziers) |
+
+R3 applied as before: the lists' acting holders of under a year are not entered where someone else covers the year (the Republic of China's acting premiers of 1917–1926, Sa'd al-Dowleh in Iran in 1909).
+
+**Confirmed by the audit.** The audit now also reads a list's table row: the full name followed by the start year and then the end year, with no other year between. It confirmed 29 of the new terms that way and the rest by the existing checks. Eight it could not confirm by itself, because the list spells the name differently ("Asef od-Dowleh", "Jean-Joseph, Marquis Dessolles") or gives the term in two or more rows; each was read by hand and is recorded, with the row's wording, in `data/policy/audit-exceptions.json`.
+
+### "No documented flag"
+
+A new record, `noFlag`, with the status `no-documented-flag` (data rule R9, PRD §7.7). It needs no source. 16 are entered, for exactly the years where the data has no flag:
+
+Qing to 1862 · Taiping kingdom · Guangzhou government 1925–1928 · Confederation of the Rhine · German Confederation · North German Confederation 1866 · Weimar Republic 1918 · Allied-occupied Germany 1945 · Company rule to 1801 · Mughal Empire · British Raj to 1880 · Qajar Iran to 1907 · Tokugawa shogunate · Empire of Japan to 1870 · Russian SFSR 1917 · Ottoman Empire to 1844.
+
+For five of these the state's article has an empty flag field (Taiping, the German Confederation, the Confederation of the Rhine, Company rule, the Mughal Empire). The site does not show the status yet; that is display work.
+
+Two flags were added where an article does show one: the Guangzhou government flies the five-coloured flag for 1917–1921 and the Republic's flag for 1921–1925, as the infoboxes of its governments give them.
+
+### Recorded vacancies: 16 became 27
+
+| State | Missing | Years | What the source says |
+| --- | --- | --- | --- |
+| Qajar Iran | head of government | 1863–1864 | The list: "The office was vacant", late 1862 to 23 March 1865 |
+| Second French Empire | head of government | 1852–1869 | The list: "Position vacant (absolute rule by Napoleon III)" |
+| Free France | head of government | 1940–1943 | The infobox lists only the Chairman of the National Committee, de Gaulle |
+| Holy Roman Empire | capital | 1800–1805 | The infobox gives the capital as "Multiple" |
+| German Confederation | head of state | 1849 | The infobox lists nobody between 1848 and 1850 |
+| North German Confederation | head of state | 1866 | The President is listed from 1867 |
+| Weimar Republic | head of state | 1918 | The presidency was created on 11 February 1919 |
+| Company rule in India | head of state | 1800–1857 | The infobox lists only the Governor-General |
+| Mughal Empire | head of government | 1804–1856 | The list of grand viziers ends in 1803 |
+| Guangzhou government | head of government | 1917–1927 | Its governments' infoboxes list only a leader |
+| Taiping Heavenly Kingdom | head of government | 1851–1863 | The infobox lists the Heavenly King and subordinate kings |
+
+Free France's capital is entered as "London (de facto, to 1942), then Algiers", from its infobox.
+
+### Escalated
+
+- **Not sourced: who headed the Guangzhou government in 1927.** Wang Jingwei's infobox gives him as Chairman of the National Government Committee until 23 March 1926; Tan Yankai's begins on 7 February 1928. Nothing I read states who held it between. It is the one open gap.
+- **Sources disagree: the last Mughal grand vizier.** The list of grand viziers ends with Daulat Rao Shinde, 1794–1803. The Mughal Empire's infobox ends the grand viziers with Asaf-ud-Daula in 1797 and names Shinde as Vicegerent, 1794–1818. The list is followed, as you asked for list articles.
+- **A label to confirm: Company rule has no head of state.** The vacancy follows the infobox, but it is a statement about sovereignty.
+
+### Persian wording for review
+
+- 25 people have no fa.wikipedia article and no Persian label on Wikidata. They are transliterated in `data/overrides/persian-names.json`: the eight French presidents of the council, the four Indian office-holders, Ahmed Cevad Pasha, and twelve Chinese premiers.
+- New titles are my translation: «کفیل صدارت» (Acting Grand Vizier), «رئیس‌الوزرا» (Chief Minister), «رئیس شورای دولت» (Head of the State Council), «چهاتراپاتی», «پیشوا», «وزیر اعظم» (Mughal Grand Vizier), «رئیس قدرت ریاست‌کننده (امپراتور اتریش)», «فرمانده کل» (Generalissimo), «رئیس هیئت رئیسه», «فرمانده کل ارتش و نیروی دریایی», «رئیس دولت ملی».
+- Francis I of Austria appears under the name the data already has for him, "Francis II", his number as Holy Roman Emperor.
 
 ## The audit gate
 

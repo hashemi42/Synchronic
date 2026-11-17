@@ -101,6 +101,13 @@ export function checkReferences(file: CountryFile): Issue[] {
       issues.push({ path: `flags[${i}]`, message: `Overlaps flags[${clash}] of "${flag.state}" (${fmt(flag.start)}–${fmt(endOf(flag))})` });
   });
 
+  file.noFlag.forEach((none, i) => {
+    if (!states.has(none.state)) issues.push({ path: `noFlag[${i}].state`, message: `Unknown state "${none.state}"` });
+    // "No documented flag" and a flag cannot both hold for the same years.
+    const clash = file.flags.findIndex((flag) => flag.state === none.state && flag.start < endOf(none) && none.start < endOf(flag));
+    if (clash !== -1) issues.push({ path: `noFlag[${i}]`, message: `Overlaps flags[${clash}] of "${none.state}"` });
+  });
+
   return issues;
 }
 

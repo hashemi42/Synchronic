@@ -187,6 +187,46 @@
       ]
     },
     {
+      "id": "abdollah-khan-amin-ol-dowleh",
+      "name": {
+        "en": "Abdollah Khan Amin ol-Dowleh",
+        "fa": "عبدالله خان امین‌الدوله"
+      },
+      "born": 1779,
+      "died": 1847,
+      "wikidata": "Q22977603",
+      "sources": [
+        {
+          "title": "Abdollah Khan Amin ol-Dowleh — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abdollah_Khan_Amin_ol-Dowleh"
+        },
+        {
+          "title": "Abdollah Khan Amin ol-Dowleh — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q22977603"
+        }
+      ]
+    },
+    {
+      "id": "abol-qasem-qaem-maqam",
+      "name": {
+        "en": "Abol-Qasem Qa'em-Maqam",
+        "fa": "قائم‌مقام فراهانی"
+      },
+      "born": 1779,
+      "died": 1835,
+      "wikidata": "Q4116470",
+      "sources": [
+        {
+          "title": "Abol-Qasem Qa'em-Maqam — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abol-Qasem_Qa'em-Maqam"
+        },
+        {
+          "title": "Abol-Qasem Qa'em-Maqam — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4116470"
+        }
+      ]
+    },
+    {
       "id": "abolhassan-banisadr",
       "name": {
         "en": "Abolhassan Banisadr",
@@ -203,6 +243,26 @@
         {
           "title": "Abolhassan Banisadr — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q273866"
+        }
+      ]
+    },
+    {
+      "id": "abolqasem-naser-ol-molk",
+      "name": {
+        "en": "Abolqasem Naser ol-Molk",
+        "fa": "ابوالقاسم ناصرالملک"
+      },
+      "born": 1863,
+      "died": 1927,
+      "wikidata": "Q322765",
+      "sources": [
+        {
+          "title": "Abolqasem Naser ol-Molk — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abolqasem_Naser_ol-Molk"
+        },
+        {
+          "title": "Abolqasem Naser ol-Molk — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q322765"
         }
       ]
     },
@@ -243,6 +303,26 @@
         {
           "title": "Ahmad Matin-Daftari — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q400691"
+        }
+      ]
+    },
+    {
+      "id": "ahmad-moshir-al-saltaneh",
+      "name": {
+        "en": "Ahmad Moshir al-Saltaneh",
+        "fa": "احمد مشیرالسلطنه"
+      },
+      "born": 1844,
+      "died": 1918,
+      "wikidata": "Q6418867",
+      "sources": [
+        {
+          "title": "Ahmad Moshir al-Saltaneh — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ahmad_Moshir_al-Saltaneh"
+        },
+        {
+          "title": "Ahmad Moshir al-Saltaneh — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6418867"
         }
       ]
     },
@@ -447,6 +527,26 @@
       ]
     },
     {
+      "id": "asef-al-dowleh",
+      "name": {
+        "en": "Asef al-Dowleh",
+        "fa": "الله‌یار خان آصف‌الدوله"
+      },
+      "born": 1757,
+      "died": 1832,
+      "wikidata": "Q16364440",
+      "sources": [
+        {
+          "title": "Asef al-Dowleh — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Asef_al-Dowleh"
+        },
+        {
+          "title": "Asef al-Dowleh — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16364440"
+        }
+      ]
+    },
+    {
       "id": "ebrahim-hakimi",
       "name": {
         "en": "Ebrahim Hakimi",
@@ -567,6 +667,66 @@
       ]
     },
     {
+      "id": "haji-mirza-aqasi",
+      "name": {
+        "en": "Haji Mirza Aqasi",
+        "fa": "حاجی میرزا آقاسی"
+      },
+      "born": 1783,
+      "died": 1849,
+      "wikidata": "Q3055730",
+      "sources": [
+        {
+          "title": "Haji Mirza Aqasi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Haji_Mirza_Aqasi"
+        },
+        {
+          "title": "Haji Mirza Aqasi — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3055730"
+        }
+      ]
+    },
+    {
+      "id": "hajji-ebrahim-shirazi",
+      "name": {
+        "en": "Hajji Ebrahim Shirazi",
+        "fa": "حاج ابراهیم کلانتر"
+      },
+      "born": 1745,
+      "died": 1801,
+      "wikidata": "Q1655987",
+      "sources": [
+        {
+          "title": "Hajji Ebrahim Shirazi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hajji_Ebrahim_Shirazi"
+        },
+        {
+          "title": "Hajji Ebrahim Shirazi — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1655987"
+        }
+      ]
+    },
+    {
+      "id": "hajji-mohammad-hossein-isfahani",
+      "name": {
+        "en": "Hajji Mohammad Hossein Isfahani",
+        "fa": "محمدحسین صدر اصفهانی"
+      },
+      "born": 1771,
+      "died": 1823,
+      "wikidata": "Q5639912",
+      "sources": [
+        {
+          "title": "Hajji Mohammad Hossein Isfahani — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hajji_Mohammad_Hossein_Isfahani"
+        },
+        {
+          "title": "Hajji Mohammad Hossein Isfahani — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5639912"
+        }
+      ]
+    },
+    {
       "id": "hassan-ali-mansur",
       "name": {
         "en": "Hassan Ali Mansur",
@@ -662,6 +822,25 @@
         {
           "title": "Hossein-Qoli Nezam al-Saltaneh Mafi — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q5691193"
+        }
+      ]
+    },
+    {
+      "id": "jafar-khan-moshir-od-dowleh",
+      "name": {
+        "en": "Jafar Khan Moshir od-Dowleh",
+        "fa": "جعفر مشیرالدوله"
+      },
+      "died": 1862,
+      "wikidata": "Q6414819",
+      "sources": [
+        {
+          "title": "Jafar Khan Moshir od-Dowleh — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jafar_Khan_Moshir_od-Dowleh"
+        },
+        {
+          "title": "Jafar Khan Moshir od-Dowleh — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6414819"
         }
       ]
     },
@@ -942,6 +1121,65 @@
       ]
     },
     {
+      "id": "mirza-mohammad-khan-sepahsalar",
+      "name": {
+        "en": "Mirza Mohammad Khan Sepahsalar",
+        "fa": "میرزا محمدخان سپهسالار"
+      },
+      "died": 1867,
+      "wikidata": "Q22001275",
+      "sources": [
+        {
+          "title": "Mirza Mohammad Khan Sepahsalar — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mirza_Mohammad_Khan_Sepahsalar"
+        },
+        {
+          "title": "Mirza Mohammad Khan Sepahsalar — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q22001275"
+        }
+      ]
+    },
+    {
+      "id": "mirza-shafi-mazandarani",
+      "name": {
+        "en": "Mirza Shafi Mazandarani",
+        "fa": "میرزا شفیع مازندرانی"
+      },
+      "born": 1746,
+      "died": 1819,
+      "wikidata": "Q10859129",
+      "sources": [
+        {
+          "title": "Mirza Shafi Mazandarani — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mirza_Shafi_Mazandarani"
+        },
+        {
+          "title": "Mirza Shafi Mazandarani — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q10859129"
+        }
+      ]
+    },
+    {
+      "id": "mirza-yusuf-ashtiani",
+      "name": {
+        "en": "Mirza Yusuf Ashtiani",
+        "fa": "میرزا یوسف آشتیانی"
+      },
+      "born": 1812,
+      "died": 1886,
+      "wikidata": "Q5946187",
+      "sources": [
+        {
+          "title": "Mirza Yusuf Ashtiani — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mirza_Yusuf_Ashtiani"
+        },
+        {
+          "title": "Mirza Yusuf Ashtiani — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5946187"
+        }
+      ]
+    },
+    {
       "id": "mohammad-ali-foroughi",
       "name": {
         "en": "Mohammad Ali Foroughi",
@@ -1137,6 +1375,26 @@
         {
           "title": "Mohammad Shah Qajar — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q558231"
+        }
+      ]
+    },
+    {
+      "id": "mohammad-vali-khan-tonekaboni",
+      "name": {
+        "en": "Mohammad Vali Khan Khalatbari Tonekaboni",
+        "fa": "محمدولی‌خان تنکابنی"
+      },
+      "born": 1847,
+      "died": 1926,
+      "wikidata": "Q179901",
+      "sources": [
+        {
+          "title": "Mohammad Vali Khan Khalatbari Tonekaboni — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mohammad_Vali_Khan_Khalatbari_Tonekaboni"
+        },
+        {
+          "title": "Mohammad Vali Khan Khalatbari Tonekaboni — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q179901"
         }
       ]
     },
@@ -1550,6 +1808,25 @@
       ]
     },
     {
+      "person": "hajji-ebrahim-shirazi",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1794,
+      "end": 1801,
+      "exactStart": "1794-11",
+      "exactEnd": "1801-04-14",
+      "sources": [
+        {
+          "title": "List of grand viziers of Persia — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_grand_viziers_of_Persia"
+        }
+      ]
+    },
+    {
       "person": "fath-ali-shah-qajar",
       "state": "qajar-iran",
       "start": 1797,
@@ -1573,6 +1850,96 @@
       ]
     },
     {
+      "person": "mirza-shafi-mazandarani",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1801,
+      "end": 1819,
+      "exactStart": "1801-04-14",
+      "exactEnd": "1819-07-12",
+      "sources": [
+        {
+          "title": "List of grand viziers of Persia — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_grand_viziers_of_Persia"
+        }
+      ]
+    },
+    {
+      "person": "hajji-mohammad-hossein-isfahani",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1819,
+      "end": 1823,
+      "sources": [
+        {
+          "title": "List of grand viziers of Persia — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_grand_viziers_of_Persia"
+        }
+      ]
+    },
+    {
+      "person": "abdollah-khan-amin-ol-dowleh",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1823,
+      "end": 1825,
+      "sources": [
+        {
+          "title": "List of grand viziers of Persia — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_grand_viziers_of_Persia"
+        }
+      ]
+    },
+    {
+      "person": "asef-al-dowleh",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1825,
+      "end": 1828,
+      "exactEnd": "1828-03-21",
+      "sources": [
+        {
+          "title": "List of grand viziers of Persia — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_grand_viziers_of_Persia"
+        }
+      ]
+    },
+    {
+      "person": "abdollah-khan-amin-ol-dowleh",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1828,
+      "end": 1834,
+      "exactStart": "1828-03-21",
+      "exactEnd": "1834-10-23",
+      "sources": [
+        {
+          "title": "List of grand viziers of Persia — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_grand_viziers_of_Persia"
+        }
+      ]
+    },
+    {
       "person": "mohammad-shah-qajar",
       "state": "qajar-iran",
       "start": 1834,
@@ -1592,6 +1959,43 @@
         {
           "title": "Mohammad Shah Qajar — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q558231"
+        }
+      ]
+    },
+    {
+      "person": "abol-qasem-qaem-maqam",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1835,
+      "end": 1835,
+      "exactStart": "1835-01",
+      "exactEnd": "1835-06-26",
+      "sources": [
+        {
+          "title": "List of grand viziers of Persia — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_grand_viziers_of_Persia"
+        }
+      ]
+    },
+    {
+      "person": "haji-mirza-aqasi",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1835,
+      "end": 1848,
+      "exactEnd": "1848-10-20",
+      "sources": [
+        {
+          "title": "List of grand viziers of Persia — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_grand_viziers_of_Persia"
         }
       ]
     },
@@ -1659,6 +2063,62 @@
       ]
     },
     {
+      "person": "jafar-khan-moshir-od-dowleh",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Head of the State Council",
+        "fa": "رئیس شورای دولت"
+      },
+      "start": 1858,
+      "end": 1862,
+      "exactStart": "1858-09-15",
+      "sources": [
+        {
+          "title": "List of grand viziers of Persia — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_grand_viziers_of_Persia"
+        }
+      ]
+    },
+    {
+      "person": "mirza-mohammad-khan-sepahsalar",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1865,
+      "end": 1866,
+      "exactStart": "1865-03-23",
+      "exactEnd": "1866-06-16",
+      "sources": [
+        {
+          "title": "List of grand viziers of Persia — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_grand_viziers_of_Persia"
+        }
+      ]
+    },
+    {
+      "person": "mirza-yusuf-ashtiani",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Chief Minister",
+        "fa": "رئیس‌الوزرا"
+      },
+      "start": 1867,
+      "end": 1871,
+      "exactStart": "1867-10-14",
+      "exactEnd": "1871-11-13",
+      "sources": [
+        {
+          "title": "List of grand viziers of Persia — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_grand_viziers_of_Persia"
+        }
+      ]
+    },
+    {
       "person": "mirza-hosein-khan-sepahsalar",
       "state": "qajar-iran",
       "start": 1871,
@@ -1672,6 +2132,78 @@
         {
           "title": "Mirza Hosein Khan Sepahsalar — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Mirza_Hosein_Khan_Sepahsalar"
+        }
+      ]
+    },
+    {
+      "person": "mirza-hosein-khan-sepahsalar",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Acting Grand Vizier",
+        "fa": "کفیل صدارت"
+      },
+      "start": 1873,
+      "end": 1880,
+      "sources": [
+        {
+          "title": "List of grand viziers of Persia — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_grand_viziers_of_Persia"
+        }
+      ]
+    },
+    {
+      "person": "mirza-yusuf-ashtiani",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Acting Grand Vizier",
+        "fa": "کفیل صدارت"
+      },
+      "start": 1873,
+      "end": 1884,
+      "exactEnd": "1884-06-24",
+      "sources": [
+        {
+          "title": "List of grand viziers of Persia — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_grand_viziers_of_Persia"
+        }
+      ]
+    },
+    {
+      "person": "mirza-yusuf-ashtiani",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Grand Vizier",
+        "fa": "صدراعظم"
+      },
+      "start": 1884,
+      "end": 1886,
+      "exactStart": "1884-06-24",
+      "exactEnd": "1886-04-07",
+      "sources": [
+        {
+          "title": "List of grand viziers of Persia — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_grand_viziers_of_Persia"
+        }
+      ]
+    },
+    {
+      "person": "mirza-ali-asghar-khan-amin-al-soltan",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Acting Grand Vizier",
+        "fa": "کفیل صدارت"
+      },
+      "start": 1886,
+      "end": 1888,
+      "exactStart": "1886-04-07",
+      "sources": [
+        {
+          "title": "List of grand viziers of Persia — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_grand_viziers_of_Persia"
         }
       ]
     },
@@ -1773,6 +2305,44 @@
       ]
     },
     {
+      "person": "abolqasem-naser-ol-molk",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1907,
+      "end": 1907,
+      "exactStart": "1907-10-27",
+      "exactEnd": "1907-12-21",
+      "sources": [
+        {
+          "title": "List of prime ministers of Iran — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_Iran"
+        }
+      ]
+    },
+    {
+      "person": "ahmad-moshir-al-saltaneh",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1907,
+      "end": 1907,
+      "exactStart": "1907-09-16",
+      "exactEnd": "1907-10-27",
+      "sources": [
+        {
+          "title": "List of prime ministers of Iran — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_Iran"
+        }
+      ]
+    },
+    {
       "person": "mirza-ali-asghar-khan-amin-al-soltan",
       "state": "qajar-iran",
       "office": "head-of-government",
@@ -1836,6 +2406,44 @@
       ]
     },
     {
+      "person": "ahmad-moshir-al-saltaneh",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1908,
+      "end": 1909,
+      "exactStart": "1908-06-07",
+      "exactEnd": "1909-04-29",
+      "sources": [
+        {
+          "title": "List of prime ministers of Iran — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_Iran"
+        }
+      ]
+    },
+    {
+      "person": "mohammad-vali-khan-tonekaboni",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1909,
+      "end": 1910,
+      "exactStart": "1909-09-30",
+      "exactEnd": "1910-07-25",
+      "sources": [
+        {
+          "title": "List of prime ministers of Iran — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_Iran"
+        }
+      ]
+    },
+    {
       "person": "ahmad-shah-qajar",
       "state": "qajar-iran",
       "start": 1909,
@@ -1878,6 +2486,25 @@
         {
           "title": "Mostowfi ol-Mamalek — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q1399358"
+        }
+      ]
+    },
+    {
+      "person": "mohammad-vali-khan-tonekaboni",
+      "state": "qajar-iran",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1911,
+      "end": 1911,
+      "exactStart": "1911-03-12",
+      "exactEnd": "1911-07-26",
+      "sources": [
+        {
+          "title": "List of prime ministers of Iran — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_Iran"
         }
       ]
     },
@@ -3498,7 +4125,7 @@
         }
       ],
       "sha1": "a18bb53539fc089a63a3208456e2de6deda17dda",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "pahlavi-iran",
@@ -3516,7 +4143,7 @@
         }
       ],
       "sha1": "a18bb53539fc089a63a3208456e2de6deda17dda",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "pahlavi-iran",
@@ -3534,7 +4161,7 @@
         }
       ],
       "sha1": "adc84169a3a0980b6a70237a5ff4766cf5870cfd",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "pahlavi-iran",
@@ -3552,7 +4179,7 @@
         }
       ],
       "sha1": "6dc19e6ba4ce477d298ec5f9410388b6f95edde8",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "islamic-republic-of-iran",
@@ -3570,7 +4197,7 @@
         }
       ],
       "sha1": "fe08f6e17a3b4ca2adceeb47f1a42e89afcc2894",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "islamic-republic-of-iran",
@@ -3588,7 +4215,15 @@
         }
       ],
       "sha1": "41993e3fe7cd02a33f2b8ff95f3403ceb2accec8",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
+    }
+  ],
+  "noFlag": [
+    {
+      "state": "qajar-iran",
+      "start": 1789,
+      "end": 1907,
+      "status": "no-documented-flag"
     }
   ]
 }

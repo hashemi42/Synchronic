@@ -267,7 +267,11 @@
           "title": "Free France — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Free_France"
         }
-      ]
+      ],
+      "capital": {
+        "en": "London (de facto, to 1942), then Algiers",
+        "fa": "لندن (عملاً تا ۱۹۴۲)، سپس الجزیره"
+      }
     },
     {
       "id": "provisional-government-of-the-french-republic",
@@ -491,6 +495,26 @@
       ]
     },
     {
+      "id": "alphonse-henri-d-hautpoul",
+      "name": {
+        "en": "Alphonse Henri d'Hautpoul",
+        "fa": "آلفونس هانری دوپول"
+      },
+      "born": 1789,
+      "died": 1865,
+      "wikidata": "Q1955865",
+      "sources": [
+        {
+          "title": "Alphonse Henri d'Hautpoul — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alphonse_Henri_d'Hautpoul"
+        },
+        {
+          "title": "Alphonse Henri d'Hautpoul — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1955865"
+        }
+      ]
+    },
+    {
       "id": "andre-marie",
       "name": {
         "en": "André Marie",
@@ -567,6 +591,26 @@
         {
           "title": "Aristide Briand — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q179888"
+        }
+      ]
+    },
+    {
+      "id": "armand-emmanuel-de-richelieu",
+      "name": {
+        "en": "Armand Emmanuel de Vignerot du Plessis, 5th Duke of Richelieu",
+        "fa": "آرمان-امانوئل دو ریشلیو"
+      },
+      "born": 1766,
+      "died": 1822,
+      "wikidata": "Q459197",
+      "sources": [
+        {
+          "title": "Armand Emmanuel de Vignerot du Plessis, 5th Duke of Richelieu — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armand_Emmanuel_de_Vignerot_du_Plessis%2C_5th_Duke_of_Richelieu"
+        },
+        {
+          "title": "Armand Emmanuel de Vignerot du Plessis, 5th Duke of Richelieu — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q459197"
         }
       ]
     },
@@ -750,6 +794,26 @@
       ]
     },
     {
+      "id": "charles-maurice-de-talleyrand-perigord",
+      "name": {
+        "en": "Charles Maurice de Talleyrand-Périgord",
+        "fa": "شارل موریس دو تالیران-پریگور"
+      },
+      "born": 1754,
+      "died": 1838,
+      "wikidata": "Q160499",
+      "sources": [
+        {
+          "title": "Charles Maurice de Talleyrand-Périgord — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Charles_Maurice_de_Talleyrand-P%C3%A9rigord"
+        },
+        {
+          "title": "Charles Maurice de Talleyrand-Périgord — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q160499"
+        }
+      ]
+    },
+    {
       "id": "charles-x",
       "name": {
         "en": "Charles X",
@@ -923,6 +987,26 @@
         {
           "title": "Édouard Philippe — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q3579995"
+        }
+      ]
+    },
+    {
+      "id": "elie-decazes",
+      "name": {
+        "en": "Élie, duc Decazes",
+        "fa": "الی دوکاز"
+      },
+      "born": 1780,
+      "died": 1860,
+      "wikidata": "Q202289",
+      "sources": [
+        {
+          "title": "Élie, duc Decazes — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/%C3%89lie%2C_duc_Decazes"
+        },
+        {
+          "title": "Élie, duc Decazes — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q202289"
         }
       ]
     },
@@ -1521,6 +1605,26 @@
       ]
     },
     {
+      "id": "jean-baptiste-de-martignac",
+      "name": {
+        "en": "Jean Baptiste Gay, 1st Viscount of Martignac",
+        "fa": "ژان-باتیست دو مارتینیاک"
+      },
+      "born": 1778,
+      "died": 1832,
+      "wikidata": "Q958953",
+      "sources": [
+        {
+          "title": "Jean Baptiste Gay, 1st Viscount of Martignac — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jean_Baptiste_Gay%2C_1st_Viscount_of_Martignac"
+        },
+        {
+          "title": "Jean Baptiste Gay, 1st Viscount of Martignac — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q958953"
+        }
+      ]
+    },
+    {
       "id": "jean-casimir-perier",
       "name": {
         "en": "Jean Casimir-Perier",
@@ -1576,6 +1680,26 @@
         {
           "title": "Jean-de-Dieu Soult — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q296023"
+        }
+      ]
+    },
+    {
+      "id": "jean-joseph-dessolles",
+      "name": {
+        "en": "Jean Joseph Dessolles, 1st Marquis Dessolles",
+        "fa": "ژان-ژوزف دسول"
+      },
+      "born": 1767,
+      "died": 1828,
+      "wikidata": "Q742723",
+      "sources": [
+        {
+          "title": "Jean Joseph Dessolles, 1st Marquis Dessolles — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jean_Joseph_Dessolles%2C_1st_Marquis_Dessolles"
+        },
+        {
+          "title": "Jean Joseph Dessolles, 1st Marquis Dessolles — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q742723"
         }
       ]
     },
@@ -1638,6 +1762,26 @@
       ]
     },
     {
+      "id": "joseph-de-villele",
+      "name": {
+        "en": "Joseph de Villèle",
+        "fa": "ژوزف دو ویلل"
+      },
+      "born": 1773,
+      "died": 1854,
+      "wikidata": "Q959645",
+      "sources": [
+        {
+          "title": "Joseph de Villèle — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Joseph_de_Vill%C3%A8le"
+        },
+        {
+          "title": "Joseph de Villèle — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q959645"
+        }
+      ]
+    },
+    {
       "id": "joseph-laniel",
       "name": {
         "en": "Joseph Laniel",
@@ -1694,6 +1838,26 @@
         {
           "title": "Jules Armand Dufaure — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q182701"
+        }
+      ]
+    },
+    {
+      "id": "jules-de-polignac",
+      "name": {
+        "en": "Jules de Polignac",
+        "fa": "ژول دو پولینیاک"
+      },
+      "born": 1780,
+      "died": 1847,
+      "wikidata": "Q350613",
+      "sources": [
+        {
+          "title": "Jules de Polignac — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jules_de_Polignac"
+        },
+        {
+          "title": "Jules de Polignac — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q350613"
         }
       ]
     },
@@ -1833,6 +1997,26 @@
         {
           "title": "Léon Bourgeois — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q217706"
+        }
+      ]
+    },
+    {
+      "id": "leon-faucher",
+      "name": {
+        "en": "Léon Faucher",
+        "fa": "لئون فوشه"
+      },
+      "born": 1803,
+      "died": 1854,
+      "wikidata": "Q954880",
+      "sources": [
+        {
+          "title": "Léon Faucher — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/L%C3%A9on_Faucher"
+        },
+        {
+          "title": "Léon Faucher — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q954880"
         }
       ]
     },
@@ -2230,6 +2414,26 @@
         {
           "title": "Nicolas Sarkozy — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q329"
+        }
+      ]
+    },
+    {
+      "id": "odilon-barrot",
+      "name": {
+        "en": "Odilon Barrot",
+        "fa": "اودیلون بارو"
+      },
+      "born": 1791,
+      "died": 1873,
+      "wikidata": "Q602644",
+      "sources": [
+        {
+          "title": "Odilon Barrot — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Odilon_Barrot"
+        },
+        {
+          "title": "Odilon Barrot — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q602644"
         }
       ]
     },
@@ -3105,6 +3309,25 @@
       ]
     },
     {
+      "person": "charles-maurice-de-talleyrand-perigord",
+      "state": "bourbon-restoration",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1815,
+      "end": 1815,
+      "exactStart": "1815-07-09",
+      "exactEnd": "1815-09-26",
+      "sources": [
+        {
+          "title": "List of prime ministers of France — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_France"
+        }
+      ]
+    },
+    {
       "person": "napoleon",
       "state": "first-french-empire",
       "office": "head-of-state",
@@ -3128,6 +3351,101 @@
       ]
     },
     {
+      "person": "armand-emmanuel-de-richelieu",
+      "state": "bourbon-restoration",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1815,
+      "end": 1818,
+      "exactStart": "1815-09-26",
+      "exactEnd": "1818-12-29",
+      "sources": [
+        {
+          "title": "List of prime ministers of France — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_France"
+        }
+      ]
+    },
+    {
+      "person": "jean-joseph-dessolles",
+      "state": "bourbon-restoration",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1818,
+      "end": 1819,
+      "exactStart": "1818-12-29",
+      "exactEnd": "1819-11-19",
+      "sources": [
+        {
+          "title": "List of prime ministers of France — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_France"
+        }
+      ]
+    },
+    {
+      "person": "elie-decazes",
+      "state": "bourbon-restoration",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1819,
+      "end": 1820,
+      "exactStart": "1819-11-19",
+      "exactEnd": "1820-02-20",
+      "sources": [
+        {
+          "title": "List of prime ministers of France — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_France"
+        }
+      ]
+    },
+    {
+      "person": "armand-emmanuel-de-richelieu",
+      "state": "bourbon-restoration",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1820,
+      "end": 1821,
+      "exactStart": "1820-02-20",
+      "exactEnd": "1821-12-14",
+      "sources": [
+        {
+          "title": "List of prime ministers of France — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_France"
+        }
+      ]
+    },
+    {
+      "person": "joseph-de-villele",
+      "state": "bourbon-restoration",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1821,
+      "end": 1828,
+      "exactStart": "1821-12-14",
+      "exactEnd": "1828-01-04",
+      "sources": [
+        {
+          "title": "List of prime ministers of France — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_France"
+        }
+      ]
+    },
+    {
       "person": "charles-x",
       "state": "bourbon-restoration",
       "start": 1824,
@@ -3147,6 +3465,44 @@
         {
           "title": "Charles X — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q7758"
+        }
+      ]
+    },
+    {
+      "person": "jean-baptiste-de-martignac",
+      "state": "bourbon-restoration",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1828,
+      "end": 1829,
+      "exactStart": "1828-01-04",
+      "exactEnd": "1829-08-08",
+      "sources": [
+        {
+          "title": "List of prime ministers of France — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_France"
+        }
+      ]
+    },
+    {
+      "person": "jules-de-polignac",
+      "state": "bourbon-restoration",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1829,
+      "end": 1830,
+      "exactStart": "1829-08-08",
+      "exactEnd": "1830-07-29",
+      "sources": [
+        {
+          "title": "List of prime ministers of France — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_France"
         }
       ]
     },
@@ -3391,6 +3747,25 @@
       ]
     },
     {
+      "person": "odilon-barrot",
+      "state": "french-second-republic",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1848,
+      "end": 1849,
+      "exactStart": "1848-12-20",
+      "exactEnd": "1849-10-31",
+      "sources": [
+        {
+          "title": "List of prime ministers of France — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_France"
+        }
+      ]
+    },
+    {
       "person": "napoleon-iii",
       "state": "french-second-republic",
       "start": 1848,
@@ -3410,6 +3785,44 @@
         {
           "title": "Napoleon III — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q7721"
+        }
+      ]
+    },
+    {
+      "person": "alphonse-henri-d-hautpoul",
+      "state": "french-second-republic",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1849,
+      "end": 1851,
+      "exactStart": "1849-10-31",
+      "exactEnd": "1851-01-24",
+      "sources": [
+        {
+          "title": "List of prime ministers of France — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_France"
+        }
+      ]
+    },
+    {
+      "person": "leon-faucher",
+      "state": "french-second-republic",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1851,
+      "end": 1851,
+      "exactStart": "1851-04-10",
+      "exactEnd": "1851-10-26",
+      "sources": [
+        {
+          "title": "List of prime ministers of France — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_France"
         }
       ]
     },
@@ -3471,6 +3884,25 @@
         {
           "title": "Louis-Jules Trochu — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q441235"
+        }
+      ]
+    },
+    {
+      "person": "jules-armand-dufaure",
+      "state": "french-third-republic",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1871,
+      "end": 1873,
+      "exactStart": "1871-02-19",
+      "exactEnd": "1873-05-24",
+      "sources": [
+        {
+          "title": "List of prime ministers of France — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_France"
         }
       ]
     },
@@ -5741,6 +6173,25 @@
     {
       "person": "charles-de-gaulle",
       "state": "provisional-government-of-the-french-republic",
+      "office": "head-of-government",
+      "title": {
+        "en": "Chairman of the Provisional Government",
+        "fa": "رئیس دولت موقت"
+      },
+      "start": 1944,
+      "end": 1946,
+      "exactStart": "1944-06-03",
+      "exactEnd": "1946-01-26",
+      "sources": [
+        {
+          "title": "List of prime ministers of France — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_France"
+        }
+      ]
+    },
+    {
+      "person": "charles-de-gaulle",
+      "state": "provisional-government-of-the-french-republic",
       "office": "head-of-state",
       "title": {
         "en": "Chairman of the Provisional Government",
@@ -7223,7 +7674,7 @@
         }
       ],
       "sha1": "8605d430eb117399f2609f9c9ae4641c6c439560",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "french-first-republic",
@@ -7241,7 +7692,7 @@
         }
       ],
       "sha1": "8605d430eb117399f2609f9c9ae4641c6c439560",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "french-first-republic",
@@ -7259,7 +7710,7 @@
         }
       ],
       "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "first-french-empire",
@@ -7277,7 +7728,7 @@
         }
       ],
       "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "bourbon-restoration",
@@ -7299,7 +7750,7 @@
         }
       ],
       "sha1": "53c242500ed251f98aed5f0b3c060bcbb1eb4232",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "july-monarchy",
@@ -7317,7 +7768,7 @@
         }
       ],
       "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "french-second-republic",
@@ -7335,7 +7786,7 @@
         }
       ],
       "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "second-french-empire",
@@ -7353,7 +7804,7 @@
         }
       ],
       "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "french-third-republic",
@@ -7371,7 +7822,7 @@
         }
       ],
       "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "vichy-france",
@@ -7389,7 +7840,7 @@
         }
       ],
       "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "free-france",
@@ -7411,7 +7862,7 @@
         }
       ],
       "sha1": "57eb1ef69445bf0b89b3d4ea40baecde4907afa7",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "provisional-government-of-the-french-republic",
@@ -7429,7 +7880,7 @@
         }
       ],
       "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "french-fourth-republic",
@@ -7447,7 +7898,7 @@
         }
       ],
       "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     },
     {
       "state": "french-fifth-republic",
@@ -7465,7 +7916,7 @@
         }
       ],
       "sha1": "66bdc8e9edf0515a0742b58a4f04fa1103084d56",
-      "retrieved": "2026-11-16"
+      "retrieved": "2026-11-17"
     }
   ]
 }

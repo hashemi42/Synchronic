@@ -144,6 +144,105 @@
       "end": 1948,
       "reason": "None: Germany was under Allied military occupation and had no government of its own.",
       "source": "https://en.wikipedia.org/wiki/Allied-occupied_Germany"
+    },
+    {
+      "country": "iran",
+      "state": "qajar-iran",
+      "need": "head of government",
+      "start": 1863,
+      "end": 1864,
+      "reason": "None: the office was vacant from late 1862 to 23 March 1865.",
+      "source": "https://en.wikipedia.org/wiki/List_of_grand_viziers_of_Persia"
+    },
+    {
+      "country": "france",
+      "state": "second-french-empire",
+      "need": "head of government",
+      "start": 1852,
+      "end": 1869,
+      "reason": "None: the position was vacant from 2 December 1852 to 27 December 1869, under the personal rule of Napoleon III.",
+      "source": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_France"
+    },
+    {
+      "country": "france",
+      "state": "free-france",
+      "need": "head of government",
+      "start": 1940,
+      "end": 1943,
+      "reason": "None of its own: the only office listed is the Chairman of the National Committee, Charles de Gaulle, who is entered as its leader.",
+      "source": "https://en.wikipedia.org/wiki/Free_France"
+    },
+    {
+      "country": "germany",
+      "state": "holy-roman-empire",
+      "need": "capital",
+      "start": 1800,
+      "end": 1805,
+      "reason": "No single capital: the Empire's capital is given as \"Multiple\".",
+      "source": "https://en.wikipedia.org/wiki/Holy_Roman_Empire"
+    },
+    {
+      "country": "germany",
+      "state": "german-confederation",
+      "need": "head of state",
+      "start": 1849,
+      "end": 1849,
+      "reason": "None listed: the heads of the presiding power are Ferdinand I to 1848 and Franz Joseph I from 1850.",
+      "source": "https://en.wikipedia.org/wiki/German_Confederation"
+    },
+    {
+      "country": "germany",
+      "state": "north-german-confederation",
+      "need": "head of state",
+      "start": 1866,
+      "end": 1866,
+      "reason": "None: the President of the Confederation, Wilhelm I, is listed from 1867.",
+      "source": "https://en.wikipedia.org/wiki/North_German_Confederation"
+    },
+    {
+      "country": "germany",
+      "state": "weimar-republic",
+      "need": "head of state",
+      "start": 1918,
+      "end": 1918,
+      "reason": "None: the office of President of Germany was created on 11 February 1919.",
+      "source": "https://en.wikipedia.org/wiki/President_of_Germany_(1919%E2%80%931945)"
+    },
+    {
+      "country": "india",
+      "state": "company-rule-in-india",
+      "need": "head of state",
+      "start": 1800,
+      "end": 1857,
+      "reason": "None of its own: the only office listed is the Governor-General, the Company's representative, who is entered as head of government.",
+      "source": "https://en.wikipedia.org/wiki/Company_rule_in_India"
+    },
+    {
+      "country": "india",
+      "state": "mughal-empire",
+      "need": "head of government",
+      "start": 1804,
+      "end": 1856,
+      "reason": "None: the list of grand viziers ends with Daulat Rao Sindhia in 1803.",
+      "source": "https://en.wikipedia.org/wiki/List_of_Mughal_grand_viziers"
+    },
+    {
+      "country": "china",
+      "state": "guangzhou-government",
+      "need": "head of government",
+      "start": 1917,
+      "end": 1927,
+      "reason": "None of its own: the successive Guangzhou governments list only their leader.",
+      "source": "https://en.wikipedia.org/wiki/Constitutional_Protection_junta"
+    },
+    {
+      "country": "china",
+      "state": "taiping-heavenly-kingdom",
+      "need": "head of government",
+      "start": 1851,
+      "end": 1863,
+      "reason": "None listed: under the Heavenly King the kingdom lists only its subordinate kings.",
+      "source": "https://en.wikipedia.org/wiki/Taiping_Heavenly_Kingdom"
     }
   ]
 }

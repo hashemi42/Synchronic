@@ -736,6 +736,14 @@
     {
       "id": "sabine-bergmann-pohl",
       "wikidata": "Q57232"
+    },
+    {
+      "id": "ferdinand-i-of-austria",
+      "wikidata": "Q183579"
+    },
+    {
+      "id": "franz-joseph-i",
+      "wikidata": "Q51056"
     }
   ],
   "terms": [
@@ -804,6 +812,80 @@
         {
           "title": "Karl Dönitz — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Karl_Dönitz"
+        }
+      ]
+    },
+    {
+      "person": "francis-ii",
+      "state": "holy-roman-empire",
+      "start": 1792,
+      "end": 1806,
+      "office": "head-of-state",
+      "title": {
+        "en": "Holy Roman Emperor",
+        "fa": "امپراتور مقدس روم"
+      },
+      "exactStart": "1792-07-05",
+      "exactEnd": "1806-08-06",
+      "sources": [
+        {
+          "title": "Francis II, Holy Roman Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Francis_II%2C_Holy_Roman_Emperor"
+        },
+        {
+          "title": "Francis II — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q130834"
+        }
+      ]
+    },
+    {
+      "person": "francis-ii",
+      "state": "german-confederation",
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of the presiding power (Emperor of Austria)",
+        "fa": "رئیس قدرت ریاست‌کننده (امپراتور اتریش)"
+      },
+      "start": 1815,
+      "end": 1835,
+      "sources": [
+        {
+          "title": "German Confederation — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/German_Confederation"
+        }
+      ]
+    },
+    {
+      "person": "ferdinand-i-of-austria",
+      "state": "german-confederation",
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of the presiding power (Emperor of Austria)",
+        "fa": "رئیس قدرت ریاست‌کننده (امپراتور اتریش)"
+      },
+      "start": 1835,
+      "end": 1848,
+      "sources": [
+        {
+          "title": "German Confederation — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/German_Confederation"
+        }
+      ]
+    },
+    {
+      "person": "franz-joseph-i",
+      "state": "german-confederation",
+      "office": "head-of-state",
+      "title": {
+        "en": "Head of the presiding power (Emperor of Austria)",
+        "fa": "رئیس قدرت ریاست‌کننده (امپراتور اتریش)"
+      },
+      "start": 1850,
+      "end": 1866,
+      "sources": [
+        {
+          "title": "German Confederation — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/German_Confederation"
         }
       ]
     }
@@ -1033,6 +1115,38 @@
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg"
         }
       ]
+    }
+  ],
+  "noFlag": [
+    {
+      "state": "confederation-of-the-rhine",
+      "start": 1806,
+      "end": 1813,
+      "status": "no-documented-flag"
+    },
+    {
+      "state": "german-confederation",
+      "start": 1815,
+      "end": 1866,
+      "status": "no-documented-flag"
+    },
+    {
+      "state": "north-german-confederation",
+      "start": 1866,
+      "end": 1867,
+      "status": "no-documented-flag"
+    },
+    {
+      "state": "weimar-republic",
+      "start": 1918,
+      "end": 1919,
+      "status": "no-documented-flag"
+    },
+    {
+      "state": "allied-occupied-germany",
+      "start": 1945,
+      "end": 1946,
+      "status": "no-documented-flag"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
 "query": "commons imageinfo: Flag of Turkey.svg | Flag of the Ottoman Empire (1844–1922).svg",
-"fetchedAt": "2026-11-16T21:31:41.226Z",
+"fetchedAt": "2026-11-17T06:35:23.092Z",
 "rows": [
 {"file":"Flag of the Ottoman Empire (1844–1922).svg","sha1":"f94cd07a56e664ec196965335687620a62f6ca3c","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"User:Orwellianist"},
 {"file":"Flag of Turkey.svg","sha1":"09edc7fca05aa88c1b316f1d3f97c587cdec5adb","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"David Benbennick (original author)"}
