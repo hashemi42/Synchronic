@@ -174,6 +174,29 @@ Free France's capital is entered as "London (de facto, to 1942), then Algiers", 
 - New titles are my translation: «کفیل صدارت» (Acting Grand Vizier), «رئیس‌الوزرا» (Chief Minister), «رئیس شورای دولت» (Head of the State Council), «چهاتراپاتی», «پیشوا», «وزیر اعظم» (Mughal Grand Vizier), «رئیس قدرت ریاست‌کننده (امپراتور اتریش)», «فرمانده کل» (Generalissimo), «رئیس هیئت رئیسه», «فرمانده کل ارتش و نیروی دریایی», «رئیس دولت ملی».
 - Francis I of Austria appears under the name the data already has for him, "Francis II", his number as Holy Roman Emperor.
 
+## Round 4: your decisions on the three escalations (the third pull request)
+
+All nine lanes are now complete: 0 open gaps.
+
+### Guangzhou government ends in 1926
+
+The sources do show when the Nationalist government left Guangzhou: [Wuhan government of the Republic of China](https://en.wikipedia.org/wiki/Wuhan_government_of_the_Republic_of_China) says "the Nationalist government based in Guangzhou moved there in December 1926". So the state and its rival period now end in 1926 (exact end December 1926), not 1928, and the "1927 head of state" gap no longer exists. Nothing is named for 1927 from memory.
+
+- Wang Jingwei's term as Chairman of the National Government Committee (1 July 1925 – 23 March 1926) is the last entry. His infobox gives no successor until Tan Yankai in 1928, and by then the government sat in Wuhan and Nanjing.
+- The "no documented flag" record and the head-of-government vacancy of the Guangzhou government end in 1926 too.
+- The period's note now says the government moved to Wuhan in December 1926.
+- **Not entered:** the Wuhan government itself (5 December 1926 – 21 September 1927), a rival to Nanjing. Its article gives dates and leaders, so it can be added as a rival period in the next China pass; it was not part of this decision.
+
+### Mughal grand vizier: the list is kept, with a note (PRD §7.4)
+
+Daulat Rao Shinde stays as Grand Vizier 1794–1803, from the list of grand viziers. The term now carries a `note`: the infobox of the Mughal Empire ends the office with Asaf-ud-Daula in 1797 and lists Daulat Rao Shinde as Vicegerent, 1794–1818. The infobox article is cited on the term too. This needs one schema change: an office term may now carry an optional `note` in both languages, for any term where sources disagree.
+
+### Company rule in India: no head of state, confirmed, with a note
+
+The vacancy stands. The period's note states the ambiguity, from two articles it cites: [Mughal Empire](https://en.wikipedia.org/wiki/Mughal_Empire) ("lip service continued to be paid to the Mughal Emperor as the highest manifestation of sovereignty") and [British East India Company](https://en.wikipedia.org/wiki/British_East_India_Company) (the Law Officers' Pratt–Yorke opinion of 1757, that the Crown of Great Britain enjoyed sovereignty over the Company's acquisitions).
+
+The Persian of the three notes is my translation, for your review.
+
 ## The audit gate
 
 `pnpm data:audit` now separates open rows from closed ones. A row closes only by a correction or a recorded exception: a term checked by hand or confirmed by its cited source, a holder left out by rule, a Persian name recorded in the overrides. Open rows go to [audit.csv](audit.csv); closed rows, with what closed each, to [audit-closed.csv](audit-closed.csv).

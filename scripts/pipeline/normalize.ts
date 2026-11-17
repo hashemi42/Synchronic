@@ -18,7 +18,7 @@ export type Source = { title: string; url: string };
 export type Office = "head-of-state" | "head-of-government" | "leader" | "other";
 export type Term = {
   person: string; state: string; office: Office; title: Localized;
-  start: number; end: number | null; exactStart?: string; exactEnd?: string; sources: Source[];
+  start: number; end: number | null; exactStart?: string; exactEnd?: string; note?: Localized; sources: Source[];
 };
 export type Person = { id: string; name: Localized; localName?: string; born?: number; died?: number; wikidata?: string; sources: Source[] };
 export type State = {

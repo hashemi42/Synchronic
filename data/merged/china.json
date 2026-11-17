@@ -77,7 +77,7 @@
         "fa": "حکومت گوانگ‌ژو"
       },
       "start": 1917,
-      "end": 1928,
+      "end": 1926,
       "capital": {
         "en": "Guangzhou",
         "fa": "گوانگ‌ژو"
@@ -103,6 +103,10 @@
         {
           "title": "Nationalist government — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Nationalist_government"
+        },
+        {
+          "title": "Wuhan government of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wuhan_government_of_the_Republic_of_China"
         }
       ]
     },
@@ -1628,11 +1632,11 @@
       "country": "china",
       "state": "guangzhou-government",
       "start": 1917,
-      "end": 1928,
+      "end": 1926,
       "kind": "rival",
       "note": {
-        "en": "Sun Yat-sen's Kuomintang set up rival governments in Guangzhou from 1917; their successor reunified most of China in 1928.",
-        "fa": "کومینتانگ به رهبری سون یات‌سن از ۱۹۱۷ در گوانگ‌ژو حکومت‌های رقیب برپا کرد؛ جانشین آن‌ها در ۱۹۲۸ بیشتر چین را دوباره یکپارچه کرد."
+        "en": "Sun Yat-sen's Kuomintang set up rival governments in Guangzhou from 1917; the Nationalist government based there moved to Wuhan in December 1926.",
+        "fa": "کومینتانگ به رهبری سون یات‌سن از ۱۹۱۷ در گوانگ‌ژو حکومت‌های رقیب برپا کرد؛ دولت ملی مستقر در آنجا در دسامبر ۱۹۲۶ به ووهان منتقل شد."
       },
       "sources": [
         {
@@ -1650,8 +1654,13 @@
         {
           "title": "Nationalist government — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Nationalist_government"
+        },
+        {
+          "title": "Wuhan government of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wuhan_government_of_the_Republic_of_China"
         }
-      ]
+      ],
+      "exactEnd": "1926-12"
     },
     {
       "country": "china",
@@ -4080,7 +4089,7 @@
     {
       "state": "guangzhou-government",
       "start": 1925,
-      "end": 1928,
+      "end": 1926,
       "status": "no-documented-flag"
     }
   ]
