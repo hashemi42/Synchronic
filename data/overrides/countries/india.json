@@ -195,8 +195,20 @@
         {
           "title": "Company rule in India — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Company_rule_in_India"
+        },
+        {
+          "title": "Mughal Empire — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
+        },
+        {
+          "title": "British East India Company — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/British_East_India_Company"
         }
-      ]
+      ],
+      "note": {
+        "en": "Sovereignty was ambiguous. Lip service continued to be paid to the Mughal emperor as the highest manifestation of sovereignty, while the Crown's law officers held in 1757 that the Crown of Great Britain enjoyed sovereignty over the territories the Company acquired.",
+        "fa": "حاکمیت مبهم بود. به امپراتور گورکانی همچنان به‌عنوان بالاترین جلوهٔ حاکمیت ادای احترام می‌شد، در حالی که مشاوران حقوقی تاج در ۱۷۵۷ نظر دادند که تاج بریتانیا بر سرزمین‌هایی که شرکت به دست می‌آورد حاکمیت دارد."
+      }
     },
     {
       "country": "india",
@@ -650,8 +662,16 @@
         {
           "title": "List of Mughal grand viziers — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_Mughal_grand_viziers"
+        },
+        {
+          "title": "Mughal Empire — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
         }
-      ]
+      ],
+      "note": {
+        "en": "The list of grand viziers is followed. The infobox of the Mughal Empire ends the office of Grand Vizier with Asaf-ud-Daula in 1797 and lists Daulat Rao Shinde as Vicegerent, 1794–1818.",
+        "fa": "فهرست وزیران اعظم دنبال شده است. جعبهٔ اطلاعات مقالهٔ امپراتوری گورکانی منصب وزیر اعظم را با آصف‌الدوله در ۱۷۹۷ پایان‌یافته می‌داند و دولت‌راؤ شیندی را نایب‌السلطنه (۱۷۹۴ تا ۱۸۱۸) می‌نامد."
+      }
     }
   ],
   "titles": [

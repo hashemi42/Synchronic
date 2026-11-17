@@ -125,6 +125,8 @@ export const OfficeTerm = z
     ...range,
     exactStart: PartialDate.optional(),
     exactEnd: PartialDate.optional(),
+    /** Where sources disagree about the term, say how (PRD §7.4): which source is followed and what the other says. */
+    note: Localized.optional(),
     ...sourced,
   })
   .refine((t) => sameYear(t.exactStart, t.start), { message: "exactStart must fall in the start year", path: ["exactStart"] })
