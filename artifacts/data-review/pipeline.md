@@ -26,7 +26,7 @@ Curated terms are those Wikidata lacks, dates differently from the cited source,
 | france | 125 | 98 | 2 | 20 | 6 |
 | germany | 65 | 62 | 5 | 0 | 2 |
 | india | 38 | 37 | 1 | 0 | 2 |
-| iran | 64 | 65 | 0 | 0 | 0 |
+| iran | 64 | 59 | 0 | 0 | 6 |
 | japan | 74 | 74 | 2 | 0 | 0 |
 | russia | 50 | 43 | 1 | 5 | 3 |
 | turkey | 104 | 58 | 0 | 48 | 0 |

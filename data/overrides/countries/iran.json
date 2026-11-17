@@ -221,27 +221,51 @@
     },
     {
       "id": "fath-ali-shah-qajar",
-      "wikidata": "Q175299"
+      "wikidata": "Q175299",
+      "name": {
+        "fa": "فتحعلی‌شاه قاجار"
+      },
+      "note": "fa: the dynasty is part of the common name; the fa.wikipedia title is «فتحعلی‌شاه»"
     },
     {
       "id": "mohammad-shah-qajar",
-      "wikidata": "Q558231"
+      "wikidata": "Q558231",
+      "name": {
+        "fa": "محمدشاه قاجار"
+      },
+      "note": "fa: the dynasty is part of the common name; the fa.wikipedia title is «محمدشاه»"
     },
     {
       "id": "naser-al-din-shah-qajar",
-      "wikidata": "Q159416"
+      "wikidata": "Q159416",
+      "name": {
+        "fa": "ناصرالدین‌شاه قاجار"
+      },
+      "note": "fa: the dynasty is part of the common name; the fa.wikipedia title is «ناصرالدین‌شاه»"
     },
     {
       "id": "mozaffar-ad-din-shah-qajar",
-      "wikidata": "Q467021"
+      "wikidata": "Q467021",
+      "name": {
+        "fa": "مظفرالدین‌شاه قاجار"
+      },
+      "note": "fa: the dynasty is part of the common name; the fa.wikipedia title is «مظفرالدین‌شاه»"
     },
     {
       "id": "mohammad-ali-shah-qajar",
-      "wikidata": "Q355603"
+      "wikidata": "Q355603",
+      "name": {
+        "fa": "محمدعلی‌شاه قاجار"
+      },
+      "note": "fa: the dynasty is part of the common name; the fa.wikipedia title is «محمدعلی‌شاه»"
     },
     {
       "id": "ahmad-shah-qajar",
-      "wikidata": "Q317799"
+      "wikidata": "Q317799",
+      "name": {
+        "fa": "احمدشاه قاجار"
+      },
+      "note": "fa: the dynasty is part of the common name; the fa.wikipedia title is «احمدشاه»"
     },
     {
       "id": "reza-shah",

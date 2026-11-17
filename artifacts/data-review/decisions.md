@@ -6,7 +6,7 @@ Decided on 2026-11-17 in two rounds: first under the rules given for the review,
 
 | Change | Count |
 | --- | ---: |
-| Persian names of people changed to the fa.wikipedia title | 62 |
+| Persian names of people changed to the fa.wikipedia title | 56 |
 | Persian names that only regained a lost half-space (ZWNJ) | 31 |
 | Rival periods added (three new states, and the Hundred Days) | 4 |
 | Office terms added | 16 |
@@ -49,7 +49,8 @@ All other terms come from Wikidata and match the old data year for year. The spl
 
 ### Persian names
 
-- **Applied:** 93 fa.wikipedia titles (62 real changes, 31 half-space only).
+- **Applied:** 87 fa.wikipedia titles (56 real changes, 31 half-space only).
+- **Kept ours, the dynasty is part of the common name** (6): the Qajar shahs from Fath-Ali Shah to Ahmad Shah keep «… قاجار» («احمدشاه قاجار», where the fa.wikipedia title is «احمدشاه»). Decided after the first review of this pull request. The other 56 changed names were checked for the same pattern; none drops a dynasty or house name.
 - **Kept ours, by the rule** (15): 12 where the title has brackets or a comma, or there is no article; Victoria («ملکه ویکتوریا» adds a title), A. P. J. Abdul Kalam (full formal name), Chlodwig zu Hohenlohe (the title is a bare first name).
 - **State names:** all kept as confirmed.
 - **English names:** 19 kept short where the Wikipedia title adds a disambiguator ("Alexander I" for "Alexander I of Russia", "Victoria" for "Queen Victoria").
@@ -129,7 +130,7 @@ The Wikidata query service drops the half-space (zero-width non-joiner) from eve
 | 3 | France | Louis-Jules Trochu | not in the data | 1870–1871, President of the Government of National Defence | Nobody else covers 1870, so R3 keeps him |
 | 4 | Germany | Walter Scheel, Chancellor | 1974 | removed | Acting for nine days in May 1974; Brandt and Schmidt cover the year |
 | 5 | Japan | Fumimaro Konoe, Persian name | کیسوکه اوکادا | فومیمارو کونوئه | The old value was another prime minister's name |
-| 6 | Iran | Fath-Ali Shah, Persian name | فتحعلی‌شاه قاجار | فتحعلی‌شاه | fa.wikipedia title; the same for five other Qajar shahs |
+| 6 | Iran | Fath-Ali Shah, Persian name | فتحعلی‌شاه قاجار | kept; the fa.wikipedia title is «فتحعلی‌شاه» | The dynasty is part of the common name; the same for five other Qajar shahs |
 | 7 | Germany | Leopold II, Persian name | لئوپولد دوم | kept | The fa.wikipedia title is «لئوپولد دوم، امپراتور مقدس روم» |
 | 8 | China | Nanjing government, 1940–1945 | not in the data | rival period, "Japanese puppet government" | Infobox status: "puppet government of the Empire of Japan" |
 | 9 | China | President of the Republic of China | found, not used | used until 1949 | Later holders served on Taiwan |

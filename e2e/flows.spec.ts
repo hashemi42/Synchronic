@@ -178,7 +178,7 @@ test.describe("Persian (§8)", () => {
     await expect(page.locator("html")).toHaveAttribute("dir", "rtl");
     await expect(page.locator("html")).toHaveAttribute("lang", "fa");
     await expect(page.getByRole("textbox", { name: "سال هجری خورشیدی" })).toHaveValue("۱۲۹۸");
-    await expect(lane(page, "iran")).toContainText("احمدشاه");
+    await expect(lane(page, "iran")).toContainText("احمدشاه قاجار");
   });
 
   test("labels point at the visible page, not the hidden previous one", async ({ page }) => {
