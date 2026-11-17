@@ -66,6 +66,8 @@ export const RULES: Record<string, Rule> = {
   Q4122271: only("peoples-republic-of-china", T.premier, 1949),
   Q192711: byDate(T.pm),
   Q274948: byDate(T.pm),
+  // United States: the President is head of government as well as head of state.
+  Q11696: only("united-states", T.president),
 };
 
 /** Statements on Wikidata that are wrong for this purpose, with the reason. */

@@ -1,0 +1,647 @@
+{
+  "country": {
+    "id": "us",
+    "name": {
+      "en": "United States",
+      "fa": "ایالات متحده آمریکا"
+    },
+    "aliases": [
+      "USA",
+      "US",
+      "America",
+      "United States of America",
+      "آمریکا",
+      "امریکا",
+      "ایالات متحده"
+    ],
+    "wikidata": "Q30",
+    "sources": [
+      {
+        "title": "United States — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/United_States"
+      }
+    ]
+  },
+  "states": [
+    {
+      "id": "united-states",
+      "name": {
+        "en": "United States",
+        "fa": "ایالات متحده آمریکا"
+      },
+      "officialName": {
+        "en": "United States of America",
+        "fa": "ایالات متحدهٔ آمریکا"
+      },
+      "start": 1776,
+      "end": null,
+      "capital": {
+        "en": "Washington, D.C.",
+        "fa": "واشینگتن، دی.سی."
+      },
+      "system": {
+        "en": "Federal presidential republic",
+        "fa": "جمهوری فدرال ریاستی"
+      },
+      "wikidata": "Q30",
+      "sources": [
+        {
+          "title": "United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/United_States"
+        }
+      ]
+    }
+  ],
+  "lane": [
+    {
+      "country": "us",
+      "state": "united-states",
+      "start": 1789,
+      "end": null,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/United_States"
+        }
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "office": "Q11696",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "state": "united-states"
+    }
+  ],
+  "persons": [],
+  "terms": [],
+  "titles": [],
+  "exclude": [
+    {
+      "wikidata": "Q113227667",
+      "office": "head-of-state",
+      "reason": "Quentin Trembley is a fictional character from Gravity Falls (Wikidata description), not on the list of presidents of the United States: a wrong P39 statement"
+    },
+    {
+      "wikidata": "Q107054330",
+      "office": "head-of-state",
+      "reason": "Phil Baker is a fictional character from the television series Supergirl (Wikidata description), not on the list of presidents of the United States: a wrong P39 statement"
+    },
+    {
+      "wikidata": "Q113227667",
+      "office": "head-of-government",
+      "reason": "Same statement, counted as head of government from 1789"
+    },
+    {
+      "wikidata": "Q107054330",
+      "office": "head-of-government",
+      "reason": "Same statement, counted as head of government from 1789"
+    }
+  ],
+  "flags": [
+    {
+      "state": "united-states",
+      "file": "Flag of the United States (1777–1795).svg",
+      "start": 1777,
+      "end": 1795,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the United States (1777–1795).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States_(1777%E2%80%931795).svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 15 stars.svg",
+      "start": 1795,
+      "end": 1818,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 15 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_15_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 20 stars.svg",
+      "start": 1818,
+      "end": 1819,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 20 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_20_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 21 stars.svg",
+      "start": 1819,
+      "end": 1820,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 21 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_21_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 23 stars.svg",
+      "start": 1820,
+      "end": 1822,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 23 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_23_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 24 stars.svg",
+      "start": 1822,
+      "end": 1836,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 24 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_24_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 25 stars.svg",
+      "start": 1836,
+      "end": 1837,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 25 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_25_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 26 stars.svg",
+      "start": 1837,
+      "end": 1845,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 26 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_26_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 27 stars.svg",
+      "start": 1845,
+      "end": 1846,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 27 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_27_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 28 stars.svg",
+      "start": 1846,
+      "end": 1847,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 28 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_28_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 29 stars.svg",
+      "start": 1847,
+      "end": 1848,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 29 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_29_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 30 stars.svg",
+      "start": 1848,
+      "end": 1851,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 30 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_30_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 31 stars.svg",
+      "start": 1851,
+      "end": 1858,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 31 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_31_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 32 stars.svg",
+      "start": 1858,
+      "end": 1859,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 32 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_32_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 33 stars.svg",
+      "start": 1859,
+      "end": 1861,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 33 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_33_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 34 stars.svg",
+      "start": 1861,
+      "end": 1863,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 34 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_34_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 35 stars.svg",
+      "start": 1863,
+      "end": 1865,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 35 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_35_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 36 stars.svg",
+      "start": 1865,
+      "end": 1867,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 36 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_36_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 37 stars.svg",
+      "start": 1867,
+      "end": 1877,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 37 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_37_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 38 stars.svg",
+      "start": 1877,
+      "end": 1890,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 38 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_38_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 43 stars.svg",
+      "start": 1890,
+      "end": 1891,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 43 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_43_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 44 stars.svg",
+      "start": 1891,
+      "end": 1896,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 44 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_44_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 45 stars.svg",
+      "start": 1896,
+      "end": 1908,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 45 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_45_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 46 stars.svg",
+      "start": 1908,
+      "end": 1912,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 46 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_46_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "US flag 48 stars.svg",
+      "start": 1912,
+      "end": 1959,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Jacobolus (SVG file; Commons records the author as assumed where none is stated)",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "US flag 48 stars.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:US_flag_48_stars.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "Flag of the United States (1959–1960).svg",
+      "start": 1959,
+      "end": 1960,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Gunter Küchler (SVG); design by the U.S. Government",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the United States (1959–1960).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States_(1959%E2%80%931960).svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "state": "united-states",
+      "file": "Flag of the United States.svg",
+      "start": 1960,
+      "end": null,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Dbenbenn, Zscout370, Jacobolus, Indolences, Technion and others",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the United States.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg"
+        },
+        {
+          "title": "Flag of the United States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+        }
+      ]
+    }
+  ]
+}
