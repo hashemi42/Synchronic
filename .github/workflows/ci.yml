@@ -23,6 +23,12 @@ jobs:
           node-version: 24
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+      # Rebuilds data/merged/ from the cached responses in data/raw/ (no network) and the curated files.
+      - name: Pipeline output is up to date
+        run: pnpm data:pipeline && git diff --exit-code -- data/merged artifacts/data-review/pipeline.md artifacts/data-review/completeness.md
+      # No network: checks that the audit was run on exactly this data and left no open row.
+      - name: Data audit has no open rows
+        run: pnpm data:audit --check
       - name: Validate data
         run: pnpm data:validate
       - name: Type check

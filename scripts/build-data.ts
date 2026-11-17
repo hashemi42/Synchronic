@@ -14,7 +14,7 @@ import path from "node:path";
 import { validateCountryFile } from "../src/lib/data/validate";
 
 const root = process.cwd();
-const source = path.join(root, "data/overrides/countries");
+const source = path.join(root, "data/merged");
 const out = path.join(root, "public/data/countries");
 const manifestPath = path.join(root, "src/generated/data-manifest.json");
 

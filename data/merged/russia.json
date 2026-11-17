@@ -30,29 +30,29 @@
       "end": 1917,
       "capital": {
         "en": "Saint Petersburg",
-        "fa": "سنت پترزبورگ"
+        "fa": "سن پترزبورگ"
       },
       "system": {
-        "en": "Constitutional monarchy",
-        "fa": "پادشاهی مشروطه"
+        "en": "Absolute monarchy",
+        "fa": "پادشاهی مطلقه"
       },
       "wikidata": "Q34266",
       "sources": [
         {
           "title": "Russian Empire — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Russian_Empire"
-        },
-        {
-          "title": "Russian Empire — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q34266"
         }
       ]
     },
     {
       "id": "russian-sfsr",
       "name": {
+        "en": "Soviet Russia",
+        "fa": "روسیهٔ شوروی"
+      },
+      "officialName": {
         "en": "Russian Soviet Federative Socialist Republic",
-        "fa": "جمهوری سوسیالیستی فدراتیو شوروی روسیه"
+        "fa": "جمهوری فدراتیو سوسیالیستی روسیهٔ شوروی"
       },
       "start": 1917,
       "end": 1991,
@@ -60,15 +60,15 @@
         "en": "Moscow",
         "fa": "مسکو"
       },
+      "system": {
+        "en": "One-party socialist republic",
+        "fa": "جمهوری سوسیالیستی تک‌حزبی"
+      },
       "wikidata": "Q2184",
       "sources": [
         {
           "title": "Russian Soviet Federative Socialist Republic — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Russian_Soviet_Federative_Socialist_Republic"
-        },
-        {
-          "title": "Russian Soviet Federative Socialist Republic — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q2184"
         }
       ]
     },
@@ -78,35 +78,47 @@
         "en": "Soviet Union",
         "fa": "اتحاد جماهیر شوروی"
       },
+      "officialName": {
+        "en": "Union of Soviet Socialist Republics",
+        "fa": "اتحاد جماهیر شوروی سوسیالیستی"
+      },
       "start": 1922,
       "end": 1991,
       "capital": {
         "en": "Moscow",
         "fa": "مسکو"
       },
+      "system": {
+        "en": "One-party socialist federation",
+        "fa": "فدراسیون سوسیالیستی تک‌حزبی"
+      },
       "wikidata": "Q15180",
       "sources": [
         {
           "title": "Soviet Union — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Soviet_Union"
-        },
-        {
-          "title": "Soviet Union — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q15180"
         }
       ]
     },
     {
       "id": "russian-federation",
       "name": {
-        "en": "Russia",
-        "fa": "روسیه"
+        "en": "Russian Federation",
+        "fa": "فدراسیون روسیه"
+      },
+      "officialName": {
+        "en": "Russian Federation",
+        "fa": "فدراسیون روسیه"
       },
       "start": 1991,
       "end": null,
       "capital": {
         "en": "Moscow",
         "fa": "مسکو"
+      },
+      "system": {
+        "en": "Federal semi-presidential republic",
+        "fa": "جمهوری فدرال نیمه‌ریاستی"
       },
       "wikidata": "Q159",
       "sources": [
@@ -115,8 +127,8 @@
           "url": "https://en.wikipedia.org/wiki/Russia"
         },
         {
-          "title": "Russia — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q159"
+          "title": "روسیه — ویکی‌پدیا",
+          "url": "https://fa.wikipedia.org/wiki/روسیه"
         }
       ]
     }
@@ -125,7 +137,7 @@
     {
       "id": "alexander-i",
       "name": {
-        "en": "Alexander I of Russia",
+        "en": "Alexander I",
         "fa": "الکساندر یکم"
       },
       "born": 1777,
@@ -137,7 +149,7 @@
           "url": "https://en.wikipedia.org/wiki/Alexander_I_of_Russia"
         },
         {
-          "title": "Alexander I of Russia — Wikidata",
+          "title": "Alexander I — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q15193"
         }
       ]
@@ -145,7 +157,7 @@
     {
       "id": "alexander-ii",
       "name": {
-        "en": "Alexander II of Russia",
+        "en": "Alexander II",
         "fa": "الکساندر دوم"
       },
       "born": 1818,
@@ -157,7 +169,7 @@
           "url": "https://en.wikipedia.org/wiki/Alexander_II_of_Russia"
         },
         {
-          "title": "Alexander II of Russia — Wikidata",
+          "title": "Alexander II — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q83171"
         }
       ]
@@ -165,7 +177,7 @@
     {
       "id": "alexander-iii",
       "name": {
-        "en": "Alexander III of Russia",
+        "en": "Alexander III",
         "fa": "الکساندر سوم"
       },
       "born": 1845,
@@ -177,7 +189,7 @@
           "url": "https://en.wikipedia.org/wiki/Alexander_III_of_Russia"
         },
         {
-          "title": "Alexander III of Russia — Wikidata",
+          "title": "Alexander III — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q120180"
         }
       ]
@@ -345,7 +357,7 @@
     {
       "id": "catherine-ii",
       "name": {
-        "en": "Catherine the Great",
+        "en": "Catherine II",
         "fa": "کاترین کبیر"
       },
       "born": 1729,
@@ -357,7 +369,7 @@
           "url": "https://en.wikipedia.org/wiki/Catherine_the_Great"
         },
         {
-          "title": "Catherine the Great — Wikidata",
+          "title": "Catherine II — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q36450"
         }
       ]
@@ -418,26 +430,6 @@
         {
           "title": "Georgy Malenkov — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q180588"
-        }
-      ]
-    },
-    {
-      "id": "grand-duke-michael-alexandrovich-of-russia",
-      "name": {
-        "en": "Grand Duke Michael Alexandrovich of Russia",
-        "fa": ""
-      },
-      "born": 1878,
-      "died": 1918,
-      "wikidata": "Q154444",
-      "sources": [
-        {
-          "title": "Grand Duke Michael Alexandrovich of Russia — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Grand_Duke_Michael_Alexandrovich_of_Russia"
-        },
-        {
-          "title": "Grand Duke Michael Alexandrovich of Russia — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q154444"
         }
       ]
     },
@@ -641,7 +633,7 @@
     {
       "id": "nicholas-i",
       "name": {
-        "en": "Nicholas I of Russia",
+        "en": "Nicholas I",
         "fa": "نیکلای یکم"
       },
       "born": 1796,
@@ -653,7 +645,7 @@
           "url": "https://en.wikipedia.org/wiki/Nicholas_I_of_Russia"
         },
         {
-          "title": "Nicholas I of Russia — Wikidata",
+          "title": "Nicholas I — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q130734"
         }
       ]
@@ -821,7 +813,7 @@
     {
       "id": "paul-i",
       "name": {
-        "en": "Paul I of Russia",
+        "en": "Paul I",
         "fa": "پاول یکم"
       },
       "born": 1754,
@@ -833,7 +825,7 @@
           "url": "https://en.wikipedia.org/wiki/Paul_I_of_Russia"
         },
         {
-          "title": "Paul I of Russia — Wikidata",
+          "title": "Paul I — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q15189"
         }
       ]
@@ -1192,12 +1184,12 @@
     {
       "person": "catherine-ii",
       "state": "russian-empire",
-      "start": 1789,
+      "start": 1762,
       "end": 1796,
       "office": "head-of-state",
       "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
+        "en": "Empress",
+        "fa": "امپراتریس"
       },
       "sources": [
         {
@@ -1205,7 +1197,7 @@
           "url": "https://en.wikipedia.org/wiki/Catherine_the_Great"
         },
         {
-          "title": "Catherine the Great — Wikidata",
+          "title": "Catherine II — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q36450"
         }
       ]
@@ -1226,7 +1218,7 @@
           "url": "https://en.wikipedia.org/wiki/Paul_I_of_Russia"
         },
         {
-          "title": "Paul I of Russia — Wikidata",
+          "title": "Paul I — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q15189"
         }
       ]
@@ -1247,7 +1239,7 @@
           "url": "https://en.wikipedia.org/wiki/Alexander_I_of_Russia"
         },
         {
-          "title": "Alexander I of Russia — Wikidata",
+          "title": "Alexander I — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q15193"
         }
       ]
@@ -1268,7 +1260,7 @@
           "url": "https://en.wikipedia.org/wiki/Nicholas_I_of_Russia"
         },
         {
-          "title": "Nicholas I of Russia — Wikidata",
+          "title": "Nicholas I — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q130734"
         }
       ]
@@ -1289,7 +1281,7 @@
           "url": "https://en.wikipedia.org/wiki/Alexander_II_of_Russia"
         },
         {
-          "title": "Alexander II of Russia — Wikidata",
+          "title": "Alexander II — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q83171"
         }
       ]
@@ -1310,7 +1302,7 @@
           "url": "https://en.wikipedia.org/wiki/Alexander_III_of_Russia"
         },
         {
-          "title": "Alexander III of Russia — Wikidata",
+          "title": "Alexander III — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q120180"
         }
       ]
@@ -1565,41 +1557,33 @@
       ]
     },
     {
-      "person": "grand-duke-michael-alexandrovich-of-russia",
+      "person": "vladimir-lenin",
       "state": "russian-sfsr",
-      "start": 1917,
-      "end": 1917,
-      "office": "head-of-state",
+      "office": "leader",
       "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
+        "en": "Soviet leader",
+        "fa": "رهبر شوروی"
       },
+      "start": 1917,
+      "end": 1922,
       "sources": [
         {
-          "title": "Grand Duke Michael Alexandrovich of Russia — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Grand_Duke_Michael_Alexandrovich_of_Russia"
-        },
-        {
-          "title": "Grand Duke Michael Alexandrovich of Russia — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q154444"
+          "title": "Vladimir Lenin — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vladimir_Lenin"
         }
       ]
     },
     {
       "person": "vladimir-lenin",
       "state": "russian-sfsr",
-      "start": 1917,
-      "end": 1922,
       "office": "head-of-government",
       "title": {
         "en": "Chairman of the Council of People's Commissars",
         "fa": "رئیس شورای کمیسرهای خلق"
       },
+      "start": 1917,
+      "end": 1924,
       "sources": [
-        {
-          "title": "Vladimir Lenin — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Vladimir_Lenin"
-        },
         {
           "title": "Vladimir Lenin — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q1394"
@@ -1608,66 +1592,49 @@
     },
     {
       "person": "vladimir-lenin",
-      "state": "russian-sfsr",
-      "start": 1922,
-      "end": 1922,
-      "office": "head-of-government",
+      "state": "soviet-union",
+      "office": "leader",
       "title": {
-        "en": "Head of government",
-        "fa": "رئیس دولت"
+        "en": "Soviet leader",
+        "fa": "رهبر شوروی"
       },
-      "exactStart": "1922-12-30",
+      "start": 1922,
+      "end": 1924,
       "sources": [
         {
           "title": "Vladimir Lenin — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Vladimir_Lenin"
-        },
-        {
-          "title": "Vladimir Lenin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1394"
         }
       ]
     },
     {
       "person": "mikhail-kalinin",
       "state": "soviet-union",
-      "start": 1922,
-      "end": 1946,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Chairman of the Central Executive Committee",
+        "fa": "رئیس کمیتهٔ اجرایی مرکزی"
       },
-      "exactStart": "1922-12-30",
-      "exactEnd": "1946-03-19",
+      "start": 1922,
+      "end": 1938,
       "sources": [
         {
           "title": "Mikhail Kalinin — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Mikhail_Kalinin"
-        },
-        {
-          "title": "Mikhail Kalinin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q229828"
         }
       ]
     },
     {
       "person": "vladimir-lenin",
       "state": "soviet-union",
-      "start": 1923,
-      "end": 1924,
       "office": "head-of-government",
       "title": {
         "en": "Chairman of the Council of People's Commissars",
         "fa": "رئیس شورای کمیسرهای خلق"
       },
-      "exactStart": "1923-07-06",
-      "exactEnd": "1924-01-21",
+      "start": 1923,
+      "end": 1924,
       "sources": [
-        {
-          "title": "Vladimir Lenin — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Vladimir_Lenin"
-        },
         {
           "title": "Vladimir Lenin — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q1394"
@@ -1698,6 +1665,23 @@
       ]
     },
     {
+      "person": "joseph-stalin",
+      "state": "soviet-union",
+      "office": "leader",
+      "title": {
+        "en": "Soviet leader",
+        "fa": "رهبر شوروی"
+      },
+      "start": 1924,
+      "end": 1953,
+      "sources": [
+        {
+          "title": "Joseph Stalin — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Stalin"
+        }
+      ]
+    },
+    {
       "person": "vyacheslav-molotov",
       "state": "soviet-union",
       "start": 1930,
@@ -1721,22 +1705,50 @@
       ]
     },
     {
+      "person": "mikhail-kalinin",
+      "state": "soviet-union",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
+      },
+      "start": 1938,
+      "end": 1946,
+      "sources": [
+        {
+          "title": "Mikhail Kalinin — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mikhail_Kalinin"
+        }
+      ]
+    },
+    {
       "person": "joseph-stalin",
       "state": "soviet-union",
-      "start": 1941,
-      "end": 1953,
       "office": "head-of-government",
       "title": {
         "en": "Chairman of the Council of People's Commissars",
         "fa": "رئیس شورای کمیسرهای خلق"
       },
-      "exactStart": "1941-05-06",
-      "exactEnd": "1953-03-05",
+      "start": 1941,
+      "end": 1946,
       "sources": [
         {
-          "title": "Joseph Stalin — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Joseph_Stalin"
-        },
+          "title": "Joseph Stalin — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q855"
+        }
+      ]
+    },
+    {
+      "person": "joseph-stalin",
+      "state": "soviet-union",
+      "office": "head-of-government",
+      "title": {
+        "en": "Chairman of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1946,
+      "end": 1953,
+      "sources": [
         {
           "title": "Joseph Stalin — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q855"
@@ -1750,8 +1762,8 @@
       "end": 1953,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
       },
       "exactStart": "1946-03-19",
       "exactEnd": "1953-03-15",
@@ -1763,6 +1775,23 @@
         {
           "title": "Nikolai Shvernik — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q355639"
+        }
+      ]
+    },
+    {
+      "person": "georgy-malenkov",
+      "state": "soviet-union",
+      "office": "leader",
+      "title": {
+        "en": "Soviet leader",
+        "fa": "رهبر شوروی"
+      },
+      "start": 1953,
+      "end": 1953,
+      "sources": [
+        {
+          "title": "Georgy Malenkov — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Georgy_Malenkov"
         }
       ]
     },
@@ -1796,8 +1825,8 @@
       "end": 1960,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
       },
       "exactStart": "1953-03-15",
       "exactEnd": "1960-05-07",
@@ -1809,6 +1838,23 @@
         {
           "title": "Kliment Voroshilov — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q186185"
+        }
+      ]
+    },
+    {
+      "person": "nikita-khrushchev",
+      "state": "soviet-union",
+      "office": "leader",
+      "title": {
+        "en": "Soviet leader",
+        "fa": "رهبر شوروی"
+      },
+      "start": 1953,
+      "end": 1964,
+      "sources": [
+        {
+          "title": "Nikita Khrushchev — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nikita_Khrushchev"
         }
       ]
     },
@@ -1865,8 +1911,8 @@
       "end": 1964,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
       },
       "exactStart": "1960-05-07",
       "exactEnd": "1964-07-15",
@@ -1888,8 +1934,8 @@
       "end": 1965,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
       },
       "exactStart": "1964-07-15",
       "exactEnd": "1965-12-09",
@@ -1928,14 +1974,31 @@
       ]
     },
     {
+      "person": "leonid-brezhnev",
+      "state": "soviet-union",
+      "office": "leader",
+      "title": {
+        "en": "Soviet leader",
+        "fa": "رهبر شوروی"
+      },
+      "start": 1964,
+      "end": 1982,
+      "sources": [
+        {
+          "title": "Leonid Brezhnev — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leonid_Brezhnev"
+        }
+      ]
+    },
+    {
       "person": "nikolai-podgorny",
       "state": "soviet-union",
       "start": 1965,
       "end": 1977,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
       },
       "exactStart": "1965-12-09",
       "exactEnd": "1977-06-16",
@@ -1957,8 +2020,8 @@
       "end": 1982,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
       },
       "exactStart": "1977-06-16",
       "exactEnd": "1982-11-10",
@@ -1999,12 +2062,29 @@
     {
       "person": "yuri-andropov",
       "state": "soviet-union",
+      "office": "leader",
+      "title": {
+        "en": "Soviet leader",
+        "fa": "رهبر شوروی"
+      },
+      "start": 1982,
+      "end": 1984,
+      "sources": [
+        {
+          "title": "Yuri Andropov — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yuri_Andropov"
+        }
+      ]
+    },
+    {
+      "person": "yuri-andropov",
+      "state": "soviet-union",
       "start": 1983,
       "end": 1984,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
       },
       "exactStart": "1983-06-16",
       "exactEnd": "1984-02-09",
@@ -2026,8 +2106,8 @@
       "end": 1985,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
       },
       "exactStart": "1984-04-11",
       "exactEnd": "1985-03-10",
@@ -2043,14 +2123,31 @@
       ]
     },
     {
+      "person": "konstantin-chernenko",
+      "state": "soviet-union",
+      "office": "leader",
+      "title": {
+        "en": "Soviet leader",
+        "fa": "رهبر شوروی"
+      },
+      "start": 1984,
+      "end": 1985,
+      "sources": [
+        {
+          "title": "Konstantin Chernenko — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Konstantin_Chernenko"
+        }
+      ]
+    },
+    {
       "person": "andrei-gromyko",
       "state": "soviet-union",
       "start": 1985,
       "end": 1988,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
       },
       "exactStart": "1985-07-02",
       "exactEnd": "1988-10-01",
@@ -2091,23 +2188,68 @@
     {
       "person": "mikhail-gorbachev",
       "state": "soviet-union",
-      "start": 1988,
-      "end": 1991,
-      "office": "head-of-state",
+      "office": "leader",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Soviet leader",
+        "fa": "رهبر شوروی"
       },
-      "exactStart": "1988-10-01",
-      "exactEnd": "1991-12-25",
+      "start": 1985,
+      "end": 1991,
       "sources": [
         {
           "title": "Mikhail Gorbachev — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev"
-        },
+        }
+      ]
+    },
+    {
+      "person": "mikhail-gorbachev",
+      "state": "soviet-union",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
+      },
+      "start": 1988,
+      "end": 1989,
+      "sources": [
         {
-          "title": "Mikhail Gorbachev — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q30487"
+          "title": "Mikhail Gorbachev — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev"
+        }
+      ]
+    },
+    {
+      "person": "mikhail-gorbachev",
+      "state": "soviet-union",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Supreme Soviet",
+        "fa": "رئیس شورای عالی"
+      },
+      "start": 1989,
+      "end": 1990,
+      "sources": [
+        {
+          "title": "Mikhail Gorbachev — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev"
+        }
+      ]
+    },
+    {
+      "person": "mikhail-gorbachev",
+      "state": "soviet-union",
+      "office": "head-of-state",
+      "title": {
+        "en": "President of the Soviet Union",
+        "fa": "رئیس‌جمهور اتحاد شوروی"
+      },
+      "start": 1990,
+      "end": 1991,
+      "sources": [
+        {
+          "title": "Mikhail Gorbachev — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev"
         }
       ]
     },
@@ -2165,7 +2307,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1991-07-10",
       "exactEnd": "1999-12-31",
@@ -2183,20 +2325,14 @@
     {
       "person": "yegor-gaidar",
       "state": "russian-federation",
-      "start": 1992,
-      "end": 1992,
       "office": "head-of-government",
       "title": {
         "en": "Prime Minister",
         "fa": "نخست‌وزیر"
       },
-      "exactStart": "1992-06-15",
-      "exactEnd": "1992-12-15",
+      "start": 1992,
+      "end": 1992,
       "sources": [
-        {
-          "title": "Yegor Gaidar — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Yegor_Gaidar"
-        },
         {
           "title": "Yegor Gaidar — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q82695"
@@ -2215,29 +2351,6 @@
       },
       "exactStart": "1992-12-14",
       "exactEnd": "1998-03-23",
-      "sources": [
-        {
-          "title": "Viktor Chernomyrdin — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Viktor_Chernomyrdin"
-        },
-        {
-          "title": "Viktor Chernomyrdin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q190884"
-        }
-      ]
-    },
-    {
-      "person": "viktor-chernomyrdin",
-      "state": "russian-federation",
-      "start": 1996,
-      "end": 1996,
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
-      },
-      "exactStart": "1996-11-05",
-      "exactEnd": "1996-11-06",
       "sources": [
         {
           "title": "Viktor Chernomyrdin — Wikipedia",
@@ -2269,29 +2382,6 @@
         {
           "title": "Sergey Kiriyenko — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q313915"
-        }
-      ]
-    },
-    {
-      "person": "viktor-chernomyrdin",
-      "state": "russian-federation",
-      "start": 1998,
-      "end": 1998,
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "exactStart": "1998-08-23",
-      "exactEnd": "1998-09-11",
-      "sources": [
-        {
-          "title": "Viktor Chernomyrdin — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Viktor_Chernomyrdin"
-        },
-        {
-          "title": "Viktor Chernomyrdin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q190884"
         }
       ]
     },
@@ -2365,6 +2455,23 @@
       ]
     },
     {
+      "person": "vladimir-putin",
+      "state": "russian-federation",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1999,
+      "end": 2008,
+      "sources": [
+        {
+          "title": "Vladimir Putin — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vladimir_Putin"
+        }
+      ]
+    },
+    {
       "person": "mikhail-kasyanov",
       "state": "russian-federation",
       "start": 2000,
@@ -2384,29 +2491,6 @@
         {
           "title": "Mikhail Kasyanov — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q62551"
-        }
-      ]
-    },
-    {
-      "person": "vladimir-putin",
-      "state": "russian-federation",
-      "start": 2000,
-      "end": 2008,
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
-      },
-      "exactStart": "2000-05-07",
-      "exactEnd": "2008-05-07",
-      "sources": [
-        {
-          "title": "Vladimir Putin — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Vladimir_Putin"
-        },
-        {
-          "title": "Vladimir Putin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7747"
         }
       ]
     },
@@ -2459,46 +2543,17 @@
     {
       "person": "viktor-zubkov",
       "state": "russian-federation",
-      "start": 2007,
-      "end": 2008,
       "office": "head-of-government",
       "title": {
         "en": "Prime Minister",
         "fa": "نخست‌وزیر"
       },
-      "exactStart": "2007-09-14",
-      "exactEnd": "2008-05-08",
+      "start": 2007,
+      "end": 2008,
       "sources": [
-        {
-          "title": "Viktor Zubkov — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Viktor_Zubkov"
-        },
         {
           "title": "Viktor Zubkov — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q147425"
-        }
-      ]
-    },
-    {
-      "person": "dmitry-medvedev",
-      "state": "russian-federation",
-      "start": 2008,
-      "end": 2012,
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
-      },
-      "exactStart": "2008-05-07",
-      "exactEnd": "2012-05-07",
-      "sources": [
-        {
-          "title": "Dmitry Medvedev — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Dmitry_Medvedev"
-        },
-        {
-          "title": "Dmitry Medvedev — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q23530"
         }
       ]
     },
@@ -2526,25 +2581,25 @@
       ]
     },
     {
-      "person": "viktor-zubkov",
+      "person": "dmitry-medvedev",
       "state": "russian-federation",
-      "start": 2012,
+      "start": 2008,
       "end": 2012,
-      "office": "head-of-government",
+      "office": "head-of-state",
       "title": {
-        "en": "Prime Minister",
-        "fa": "نخستوزیر"
+        "en": "President",
+        "fa": "رئیس‌جمهور"
       },
-      "exactStart": "2012-05-07",
-      "exactEnd": "2012-05-08",
+      "exactStart": "2008-05-07",
+      "exactEnd": "2012-05-07",
       "sources": [
         {
-          "title": "Viktor Zubkov — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Viktor_Zubkov"
+          "title": "Dmitry Medvedev — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dmitry_Medvedev"
         },
         {
-          "title": "Viktor Zubkov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q147425"
+          "title": "Dmitry Medvedev — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q23530"
         }
       ]
     },
@@ -2574,22 +2629,17 @@
     {
       "person": "vladimir-putin",
       "state": "russian-federation",
-      "start": 2012,
-      "end": null,
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
-      "exactStart": "2012-05-07",
+      "start": 2012,
+      "end": null,
       "sources": [
         {
           "title": "Vladimir Putin — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Vladimir_Putin"
-        },
-        {
-          "title": "Vladimir Putin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7747"
         }
       ]
     },
@@ -2631,7 +2681,9 @@
           "title": "Flag of Russia.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg"
         }
-      ]
+      ],
+      "sha1": "82d5af67d5fa23efd124d8a24941f7cc615907d4",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "russian-empire",
@@ -2647,7 +2699,9 @@
           "title": "Flag of Russia (1858–1896).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia_%281858%E2%80%931896%29.svg"
         }
-      ]
+      ],
+      "sha1": "84fc3c9af71b1f4deb4af62709de383cc6f24a49",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "russian-empire",
@@ -2663,7 +2717,9 @@
           "title": "Flag of Russia.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg"
         }
-      ]
+      ],
+      "sha1": "82d5af67d5fa23efd124d8a24941f7cc615907d4",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "russian-sfsr",
@@ -2679,7 +2735,9 @@
           "title": "Flag of the Russian Soviet Federative Socialist Republic (1918–1925).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Russian_Soviet_Federative_Socialist_Republic_%281918%E2%80%931925%29.svg"
         }
-      ]
+      ],
+      "sha1": "3ba304aff27afbe5b75565a28cab9ccba30414b1",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "soviet-union",
@@ -2695,7 +2753,9 @@
           "title": "Flag of the Soviet Union (1922–1923).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union_%281922%E2%80%931923%29.svg"
         }
-      ]
+      ],
+      "sha1": "2c063c7eefc7ff558231837b949b375aa4d6d841",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "soviet-union",
@@ -2711,7 +2771,9 @@
           "title": "Flag of the Soviet Union (1924).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union_%281924%29.svg"
         }
-      ]
+      ],
+      "sha1": "56cdd0b177992eae8f72d046e4a99fe1b9215fd9",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "soviet-union",
@@ -2727,7 +2789,9 @@
           "title": "Flag of the Soviet Union (1924–1936).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union_%281924%E2%80%931936%29.svg"
         }
-      ]
+      ],
+      "sha1": "e6ca012955deb1c22bae9e3984e82e16850ef179",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "soviet-union",
@@ -2743,7 +2807,9 @@
           "title": "Flag of the Soviet Union (1936 – 1955).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union_%281936_%E2%80%93_1955%29.svg"
         }
-      ]
+      ],
+      "sha1": "b4d45224eabe3f55f8f456da2b54e5bbb7291467",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "soviet-union",
@@ -2759,7 +2825,9 @@
           "title": "Flag of the Soviet Union.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union.svg"
         }
-      ]
+      ],
+      "sha1": "b7c85f273275e563ad3ea71bbba4fa13aca6a17c",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "russian-federation",
@@ -2775,7 +2843,9 @@
           "title": "Flag of Russia (1991–1993).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia_%281991%E2%80%931993%29.svg"
         }
-      ]
+      ],
+      "sha1": "0feeeed5a76b3d8b167cd37e0b3cf4ba951de497",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "russian-federation",
@@ -2791,7 +2861,9 @@
           "title": "Flag of Russia.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg"
         }
-      ]
+      ],
+      "sha1": "82d5af67d5fa23efd124d8a24941f7cc615907d4",
+      "retrieved": "2026-11-16"
     }
   ]
 }

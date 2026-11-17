@@ -95,1072 +95,6 @@
       ]
     }
   ],
-  "persons": [
-    {
-      "id": "emperor-kokaku",
-      "name": {
-        "en": "Emperor Kōkaku",
-        "fa": "امپراتور کوکاکو"
-      },
-      "wikidata": "Q313806",
-      "sources": [
-        {
-          "title": "Emperor Kōkaku — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Emperor_Kōkaku"
-        }
-      ]
-    },
-    {
-      "id": "emperor-ninko",
-      "name": {
-        "en": "Emperor Ninkō",
-        "fa": "امپراتور نینکو"
-      },
-      "wikidata": "Q312351",
-      "sources": [
-        {
-          "title": "Emperor Ninkō — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Emperor_Ninkō"
-        }
-      ]
-    },
-    {
-      "id": "emperor-komei",
-      "name": {
-        "en": "Emperor Kōmei",
-        "fa": "امپراتور کومی"
-      },
-      "wikidata": "Q299179",
-      "sources": [
-        {
-          "title": "Emperor Kōmei — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Emperor_Kōmei"
-        }
-      ]
-    },
-    {
-      "id": "emperor-meiji",
-      "name": {
-        "en": "Emperor Meiji",
-        "fa": "امپراتور میجی"
-      },
-      "wikidata": "Q174231",
-      "sources": [
-        {
-          "title": "Emperor Meiji — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Emperor_Meiji"
-        }
-      ]
-    },
-    {
-      "id": "emperor-taisho",
-      "name": {
-        "en": "Emperor Taishō",
-        "fa": "امپراتور تایشو"
-      },
-      "wikidata": "Q157052",
-      "sources": [
-        {
-          "title": "Emperor Taishō — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Emperor_Taishō"
-        }
-      ]
-    },
-    {
-      "id": "hirohito",
-      "name": {
-        "en": "Hirohito (Emperor Shōwa)",
-        "fa": "هیروهیتو"
-      },
-      "wikidata": "Q34479",
-      "sources": [
-        {
-          "title": "Hirohito — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Hirohito"
-        }
-      ]
-    },
-    {
-      "id": "akihito",
-      "name": {
-        "en": "Akihito",
-        "fa": "آکی‌هیتو"
-      },
-      "wikidata": "Q37979",
-      "sources": [
-        {
-          "title": "Akihito — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Akihito"
-        }
-      ]
-    },
-    {
-      "id": "naruhito",
-      "name": {
-        "en": "Naruhito",
-        "fa": "ناروهیتو"
-      },
-      "wikidata": "Q217096",
-      "sources": [
-        {
-          "title": "Naruhito — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Naruhito"
-        }
-      ]
-    },
-    {
-      "id": "ito-hirobumi",
-      "name": {
-        "en": "Itō Hirobumi",
-        "fa": "ایتو هیروبومی"
-      },
-      "wikidata": "Q174971",
-      "sources": [
-        {
-          "title": "Itō Hirobumi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q174971"
-        }
-      ]
-    },
-    {
-      "id": "kuroda-kiyotaka",
-      "name": {
-        "en": "Kuroda Kiyotaka",
-        "fa": "کورودا کیوتاکا"
-      },
-      "wikidata": "Q714049",
-      "sources": [
-        {
-          "title": "Kuroda Kiyotaka — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q714049"
-        }
-      ]
-    },
-    {
-      "id": "yamagata-aritomo",
-      "name": {
-        "en": "Yamagata Aritomo",
-        "fa": "یاماگاتا آریتومو"
-      },
-      "wikidata": "Q297636",
-      "sources": [
-        {
-          "title": "Yamagata Aritomo — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q297636"
-        }
-      ]
-    },
-    {
-      "id": "sanjo-sanetomi",
-      "name": {
-        "en": "Sanjō Sanetomi",
-        "fa": "سانجو سانهتومی"
-      },
-      "wikidata": "Q516646",
-      "sources": [
-        {
-          "title": "Sanjō Sanetomi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q516646"
-        }
-      ]
-    },
-    {
-      "id": "matsukata-masayoshi",
-      "name": {
-        "en": "Matsukata Masayoshi",
-        "fa": "ماتسوکاتا ماسایوشی"
-      },
-      "wikidata": "Q714039",
-      "sources": [
-        {
-          "title": "Matsukata Masayoshi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q714039"
-        }
-      ]
-    },
-    {
-      "id": "okuma-shigenobu",
-      "name": {
-        "en": "Ōkuma Shigenobu",
-        "fa": "اکوما شیجنوبا"
-      },
-      "wikidata": "Q243141",
-      "sources": [
-        {
-          "title": "Ōkuma Shigenobu — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q243141"
-        }
-      ]
-    },
-    {
-      "id": "katsura-taro",
-      "name": {
-        "en": "Katsura Tarō",
-        "fa": "کاتسورا تارو"
-      },
-      "wikidata": "Q159048",
-      "sources": [
-        {
-          "title": "Katsura Tarō — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q159048"
-        }
-      ]
-    },
-    {
-      "id": "saionji-kinmochi",
-      "name": {
-        "en": "Saionji Kinmochi",
-        "fa": "سایاونجی کینموچی"
-      },
-      "wikidata": "Q297628",
-      "sources": [
-        {
-          "title": "Saionji Kinmochi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q297628"
-        }
-      ]
-    },
-    {
-      "id": "yamamoto-gonnohyoe",
-      "name": {
-        "en": "Yamamoto Gonnohyōe",
-        "fa": "یاماموتو گونوهیوئه"
-      },
-      "wikidata": "Q41556",
-      "sources": [
-        {
-          "title": "Yamamoto Gonnohyōe — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q41556"
-        }
-      ]
-    },
-    {
-      "id": "terauchi-masatake",
-      "name": {
-        "en": "Terauchi Masatake",
-        "fa": "ترائوچی ماساتاکه"
-      },
-      "wikidata": "Q315559",
-      "sources": [
-        {
-          "title": "Terauchi Masatake — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315559"
-        }
-      ]
-    },
-    {
-      "id": "hara-takashi",
-      "name": {
-        "en": "Hara Takashi",
-        "fa": "هارا تاکاشی"
-      },
-      "wikidata": "Q315553",
-      "sources": [
-        {
-          "title": "Hara Takashi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315553"
-        }
-      ]
-    },
-    {
-      "id": "takahashi-korekiyo",
-      "name": {
-        "en": "Takahashi Korekiyo",
-        "fa": "تاکاهاشی کورهکیو"
-      },
-      "wikidata": "Q315842",
-      "sources": [
-        {
-          "title": "Takahashi Korekiyo — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315842"
-        }
-      ]
-    },
-    {
-      "id": "kato-tomosaburo",
-      "name": {
-        "en": "Katō Tomosaburō",
-        "fa": "توموسابورو كاتو"
-      },
-      "wikidata": "Q335203",
-      "sources": [
-        {
-          "title": "Katō Tomosaburō — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q335203"
-        }
-      ]
-    },
-    {
-      "id": "kiyoura-keigo",
-      "name": {
-        "en": "Kiyoura Keigo",
-        "fa": "کیوئورا کیگو"
-      },
-      "wikidata": "Q381739",
-      "sources": [
-        {
-          "title": "Kiyoura Keigo — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q381739"
-        }
-      ]
-    },
-    {
-      "id": "kato-takaaki",
-      "name": {
-        "en": "Katō Takaaki",
-        "fa": "کاتو تاکاآکی"
-      },
-      "wikidata": "Q315563",
-      "sources": [
-        {
-          "title": "Katō Takaaki — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315563"
-        }
-      ]
-    },
-    {
-      "id": "wakatsuki-reijiro",
-      "name": {
-        "en": "Wakatsuki Reijirō",
-        "fa": "واکاتسوکی ریجیرو"
-      },
-      "wikidata": "Q335177",
-      "sources": [
-        {
-          "title": "Wakatsuki Reijirō — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q335177"
-        }
-      ]
-    },
-    {
-      "id": "tanaka-giichi",
-      "name": {
-        "en": "Tanaka Giichi",
-        "fa": "تاناکا گیایچی"
-      },
-      "wikidata": "Q145416",
-      "sources": [
-        {
-          "title": "Tanaka Giichi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q145416"
-        }
-      ]
-    },
-    {
-      "id": "hamaguchi-osachi",
-      "name": {
-        "en": "Hamaguchi Osachi",
-        "fa": "اوساچی هاماگوچی"
-      },
-      "wikidata": "Q351661",
-      "sources": [
-        {
-          "title": "Hamaguchi Osachi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q351661"
-        }
-      ]
-    },
-    {
-      "id": "inukai-tsuyoshi",
-      "name": {
-        "en": "Inukai Tsuyoshi",
-        "fa": "اینوکای تسویوشی"
-      },
-      "wikidata": "Q354687",
-      "sources": [
-        {
-          "title": "Inukai Tsuyoshi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q354687"
-        }
-      ]
-    },
-    {
-      "id": "saito-makoto",
-      "name": {
-        "en": "Saitō Makoto",
-        "fa": "سایتو ماکوتو"
-      },
-      "wikidata": "Q335188",
-      "sources": [
-        {
-          "title": "Saitō Makoto — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q335188"
-        }
-      ]
-    },
-    {
-      "id": "okada-keisuke",
-      "name": {
-        "en": "Okada Keisuke",
-        "fa": "اوکادا کیسوکه"
-      },
-      "wikidata": "Q714951",
-      "sources": [
-        {
-          "title": "Okada Keisuke — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q714951"
-        }
-      ]
-    },
-    {
-      "id": "koki-hirota",
-      "name": {
-        "en": "Kōki Hirota",
-        "fa": "هیروتا کوکی"
-      },
-      "wikidata": "Q351652",
-      "sources": [
-        {
-          "title": "Kōki Hirota — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q351652"
-        }
-      ]
-    },
-    {
-      "id": "senjuro-hayashi",
-      "name": {
-        "en": "Senjūrō Hayashi",
-        "fa": "سنجورو هایاشی"
-      },
-      "wikidata": "Q351665",
-      "sources": [
-        {
-          "title": "Senjūrō Hayashi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q351665"
-        }
-      ]
-    },
-    {
-      "id": "fumimaro-konoe",
-      "name": {
-        "en": "Fumimaro Konoe",
-        "fa": "کیسوکه اوکادا"
-      },
-      "wikidata": "Q315594",
-      "sources": [
-        {
-          "title": "Fumimaro Konoe — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315594"
-        }
-      ]
-    },
-    {
-      "id": "hiranuma-kiichiro",
-      "name": {
-        "en": "Hiranuma Kiichirō",
-        "fa": "هیرانوما کیایچیرو"
-      },
-      "wikidata": "Q379996",
-      "sources": [
-        {
-          "title": "Hiranuma Kiichirō — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q379996"
-        }
-      ]
-    },
-    {
-      "id": "nobuyuki-abe",
-      "name": {
-        "en": "Nobuyuki Abe",
-        "fa": "نوبویوکی آبه"
-      },
-      "wikidata": "Q315574",
-      "sources": [
-        {
-          "title": "Nobuyuki Abe — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315574"
-        }
-      ]
-    },
-    {
-      "id": "mitsumasa-yonai",
-      "name": {
-        "en": "Mitsumasa Yonai",
-        "fa": "یونای میتسوماسا"
-      },
-      "wikidata": "Q715231",
-      "sources": [
-        {
-          "title": "Mitsumasa Yonai — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q715231"
-        }
-      ]
-    },
-    {
-      "id": "hideki-tojo",
-      "name": {
-        "en": "Hideki Tojo",
-        "fa": "هیدکی توجو"
-      },
-      "wikidata": "Q160847",
-      "sources": [
-        {
-          "title": "Hideki Tojo — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q160847"
-        }
-      ]
-    },
-    {
-      "id": "kuniaki-koiso",
-      "name": {
-        "en": "Kuniaki Koiso",
-        "fa": "کونیآکی کوایسو"
-      },
-      "wikidata": "Q315549",
-      "sources": [
-        {
-          "title": "Kuniaki Koiso — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315549"
-        }
-      ]
-    },
-    {
-      "id": "kijuro-shidehara",
-      "name": {
-        "en": "Kijūrō Shidehara",
-        "fa": "کیجورو شیدههارا"
-      },
-      "wikidata": "Q335191",
-      "sources": [
-        {
-          "title": "Kijūrō Shidehara — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q335191"
-        }
-      ]
-    },
-    {
-      "id": "kantaro-suzuki",
-      "name": {
-        "en": "Kantarō Suzuki",
-        "fa": "کانتارو سوزوکی"
-      },
-      "wikidata": "Q335198",
-      "sources": [
-        {
-          "title": "Kantarō Suzuki — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q335198"
-        }
-      ]
-    },
-    {
-      "id": "prince-naruhiko-higashikuni",
-      "name": {
-        "en": "Prince Naruhiko Higashikuni",
-        "fa": "شاهزاده ناروهیکو هیگاشیکونی"
-      },
-      "wikidata": "Q315717",
-      "sources": [
-        {
-          "title": "Prince Naruhiko Higashikuni — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315717"
-        }
-      ]
-    },
-    {
-      "id": "shigeru-yoshida",
-      "name": {
-        "en": "Shigeru Yoshida",
-        "fa": "یوشیدا شیگهرو"
-      },
-      "wikidata": "Q301804",
-      "sources": [
-        {
-          "title": "Shigeru Yoshida — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q301804"
-        }
-      ]
-    },
-    {
-      "id": "tetsu-katayama",
-      "name": {
-        "en": "Tetsu Katayama",
-        "fa": "تتسو کاتایاما"
-      },
-      "wikidata": "Q335194",
-      "sources": [
-        {
-          "title": "Tetsu Katayama — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q335194"
-        }
-      ]
-    },
-    {
-      "id": "hitoshi-ashida",
-      "name": {
-        "en": "Hitoshi Ashida",
-        "fa": "هیتوشی آشیدا"
-      },
-      "wikidata": "Q315725",
-      "sources": [
-        {
-          "title": "Hitoshi Ashida — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315725"
-        }
-      ]
-    },
-    {
-      "id": "ichiro-hatoyama",
-      "name": {
-        "en": "Ichirō Hatoyama",
-        "fa": "ایچیرو هاتویاما"
-      },
-      "wikidata": "Q333589",
-      "sources": [
-        {
-          "title": "Ichirō Hatoyama — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q333589"
-        }
-      ]
-    },
-    {
-      "id": "tanzan-ishibashi",
-      "name": {
-        "en": "Tanzan Ishibashi",
-        "fa": "تانزان ایشیباشی"
-      },
-      "wikidata": "Q351656",
-      "sources": [
-        {
-          "title": "Tanzan Ishibashi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q351656"
-        }
-      ]
-    },
-    {
-      "id": "nobusuke-kishi",
-      "name": {
-        "en": "Nobusuke Kishi",
-        "fa": "نوبوسوکه کیشی"
-      },
-      "wikidata": "Q315572",
-      "sources": [
-        {
-          "title": "Nobusuke Kishi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315572"
-        }
-      ]
-    },
-    {
-      "id": "hayato-ikeda",
-      "name": {
-        "en": "Hayato Ikeda",
-        "fa": "هایاتو ایکدا"
-      },
-      "wikidata": "Q299142",
-      "sources": [
-        {
-          "title": "Hayato Ikeda — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q299142"
-        }
-      ]
-    },
-    {
-      "id": "eisaku-sato",
-      "name": {
-        "en": "Eisaku Satō",
-        "fa": "ایساکو ساتو"
-      },
-      "wikidata": "Q179871",
-      "sources": [
-        {
-          "title": "Eisaku Satō — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q179871"
-        }
-      ]
-    },
-    {
-      "id": "kakuei-tanaka",
-      "name": {
-        "en": "Kakuei Tanaka",
-        "fa": "کاکوئی تاناکا"
-      },
-      "wikidata": "Q297644",
-      "sources": [
-        {
-          "title": "Kakuei Tanaka — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q297644"
-        }
-      ]
-    },
-    {
-      "id": "takeo-miki",
-      "name": {
-        "en": "Takeo Miki",
-        "fa": "تاکئو میکی"
-      },
-      "wikidata": "Q317675",
-      "sources": [
-        {
-          "title": "Takeo Miki — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q317675"
-        }
-      ]
-    },
-    {
-      "id": "takeo-fukuda",
-      "name": {
-        "en": "Takeo Fukuda",
-        "fa": "تاکئو فوکودا"
-      },
-      "wikidata": "Q315584",
-      "sources": [
-        {
-          "title": "Takeo Fukuda — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315584"
-        }
-      ]
-    },
-    {
-      "id": "masayoshi-ohira",
-      "name": {
-        "en": "Masayoshi Ōhira",
-        "fa": "ماسایوشی اوهیرا"
-      },
-      "wikidata": "Q315568",
-      "sources": [
-        {
-          "title": "Masayoshi Ōhira — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315568"
-        }
-      ]
-    },
-    {
-      "id": "masayoshi-ito",
-      "name": {
-        "en": "Masayoshi Ito",
-        "fa": "ماسايوشي إيتو"
-      },
-      "wikidata": "Q744989",
-      "sources": [
-        {
-          "title": "Masayoshi Ito — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q744989"
-        }
-      ]
-    },
-    {
-      "id": "zenko-suzuki",
-      "name": {
-        "en": "Zenkō Suzuki",
-        "fa": "زنکو سوزوکی"
-      },
-      "wikidata": "Q315551",
-      "sources": [
-        {
-          "title": "Zenkō Suzuki — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315551"
-        }
-      ]
-    },
-    {
-      "id": "yasuhiro-nakasone",
-      "name": {
-        "en": "Yasuhiro Nakasone",
-        "fa": "یاسوهیرو ناکاسونه"
-      },
-      "wikidata": "Q250828",
-      "sources": [
-        {
-          "title": "Yasuhiro Nakasone — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q250828"
-        }
-      ]
-    },
-    {
-      "id": "noboru-takeshita",
-      "name": {
-        "en": "Noboru Takeshita",
-        "fa": "نوبورو تاکهشیتا"
-      },
-      "wikidata": "Q315561",
-      "sources": [
-        {
-          "title": "Noboru Takeshita — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315561"
-        }
-      ]
-    },
-    {
-      "id": "toshiki-kaifu",
-      "name": {
-        "en": "Toshiki Kaifu",
-        "fa": "توشیکی کایفو"
-      },
-      "wikidata": "Q315579",
-      "sources": [
-        {
-          "title": "Toshiki Kaifu — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315579"
-        }
-      ]
-    },
-    {
-      "id": "sosuke-uno",
-      "name": {
-        "en": "Sōsuke Uno",
-        "fa": "سوسوکه اونو"
-      },
-      "wikidata": "Q315591",
-      "sources": [
-        {
-          "title": "Sōsuke Uno — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315591"
-        }
-      ]
-    },
-    {
-      "id": "kiichi-miyazawa",
-      "name": {
-        "en": "Kiichi Miyazawa",
-        "fa": "کیایچی میازاوا"
-      },
-      "wikidata": "Q315565",
-      "sources": [
-        {
-          "title": "Kiichi Miyazawa — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315565"
-        }
-      ]
-    },
-    {
-      "id": "morihiro-hosokawa",
-      "name": {
-        "en": "Morihiro Hosokawa",
-        "fa": "موریهیرو هوسوکاوا"
-      },
-      "wikidata": "Q315555",
-      "sources": [
-        {
-          "title": "Morihiro Hosokawa — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315555"
-        }
-      ]
-    },
-    {
-      "id": "tomiichi-murayama",
-      "name": {
-        "en": "Tomiichi Murayama",
-        "fa": "تومیچی مورایاما"
-      },
-      "wikidata": "Q310126",
-      "sources": [
-        {
-          "title": "Tomiichi Murayama — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q310126"
-        }
-      ]
-    },
-    {
-      "id": "tsutomu-hata",
-      "name": {
-        "en": "Tsutomu Hata",
-        "fa": "تسوتومو هاتا"
-      },
-      "wikidata": "Q315720",
-      "sources": [
-        {
-          "title": "Tsutomu Hata — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315720"
-        }
-      ]
-    },
-    {
-      "id": "ryutaro-hashimoto",
-      "name": {
-        "en": "Ryutaro Hashimoto",
-        "fa": "ریوتارو هاشیموتو"
-      },
-      "wikidata": "Q309374",
-      "sources": [
-        {
-          "title": "Ryutaro Hashimoto — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q309374"
-        }
-      ]
-    },
-    {
-      "id": "keizo-obuchi",
-      "name": {
-        "en": "Keizō Obuchi",
-        "fa": "کیزو اوبوچی"
-      },
-      "wikidata": "Q313339",
-      "sources": [
-        {
-          "title": "Keizō Obuchi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q313339"
-        }
-      ]
-    },
-    {
-      "id": "yoshiro-mori",
-      "name": {
-        "en": "Yoshirō Mori",
-        "fa": "یوشیرو موری"
-      },
-      "wikidata": "Q233499",
-      "sources": [
-        {
-          "title": "Yoshirō Mori — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q233499"
-        }
-      ]
-    },
-    {
-      "id": "junichiro-koizumi",
-      "name": {
-        "en": "Junichiro Koizumi",
-        "fa": "جونیچیرو کویزومی"
-      },
-      "wikidata": "Q130852",
-      "sources": [
-        {
-          "title": "Junichiro Koizumi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q130852"
-        }
-      ]
-    },
-    {
-      "id": "shinzo-abe",
-      "name": {
-        "en": "Shinzo Abe",
-        "fa": "شینزو آبه"
-      },
-      "wikidata": "Q132345",
-      "sources": [
-        {
-          "title": "Shinzo Abe — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q132345"
-        }
-      ]
-    },
-    {
-      "id": "yasuo-fukuda",
-      "name": {
-        "en": "Yasuo Fukuda",
-        "fa": "یاسوئو فوکودا"
-      },
-      "wikidata": "Q101137",
-      "sources": [
-        {
-          "title": "Yasuo Fukuda — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q101137"
-        }
-      ]
-    },
-    {
-      "id": "taro-aso",
-      "name": {
-        "en": "Tarō Asō",
-        "fa": "تارو آسو"
-      },
-      "wikidata": "Q132596",
-      "sources": [
-        {
-          "title": "Tarō Asō — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q132596"
-        }
-      ]
-    },
-    {
-      "id": "yukio-hatoyama",
-      "name": {
-        "en": "Yukio Hatoyama",
-        "fa": "یوکیو هاتویاما"
-      },
-      "wikidata": "Q131077",
-      "sources": [
-        {
-          "title": "Yukio Hatoyama — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q131077"
-        }
-      ]
-    },
-    {
-      "id": "naoto-kan",
-      "name": {
-        "en": "Naoto Kan",
-        "fa": "نائوتو کان"
-      },
-      "wikidata": "Q47846",
-      "sources": [
-        {
-          "title": "Naoto Kan — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q47846"
-        }
-      ]
-    },
-    {
-      "id": "yoshihiko-noda",
-      "name": {
-        "en": "Yoshihiko Noda",
-        "fa": "یوشیهیکو نودا"
-      },
-      "wikidata": "Q57647",
-      "sources": [
-        {
-          "title": "Yoshihiko Noda — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q57647"
-        }
-      ]
-    },
-    {
-      "id": "yoshihide-suga",
-      "name": {
-        "en": "Yoshihide Suga",
-        "fa": "یوشیهیده سوگا"
-      },
-      "wikidata": "Q122465",
-      "sources": [
-        {
-          "title": "Yoshihide Suga — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q122465"
-        }
-      ]
-    },
-    {
-      "id": "fumio-kishida",
-      "name": {
-        "en": "Fumio Kishida",
-        "fa": "فومیو کیشیدا"
-      },
-      "wikidata": "Q359480",
-      "sources": [
-        {
-          "title": "Fumio Kishida — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q359480"
-        }
-      ]
-    },
-    {
-      "id": "shigeru-ishiba",
-      "name": {
-        "en": "Shigeru Ishiba",
-        "fa": "شیگرو ایشیبا"
-      },
-      "wikidata": "Q1335527",
-      "sources": [
-        {
-          "title": "Shigeru Ishiba — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1335527"
-        }
-      ]
-    },
-    {
-      "id": "sanae-takaichi",
-      "name": {
-        "en": "Sanae Takaichi",
-        "fa": "سانائه تاکایچی"
-      },
-      "wikidata": "Q1705028",
-      "sources": [
-        {
-          "title": "Sanae Takaichi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1705028"
-        }
-      ]
-    }
-  ],
   "lane": [
     {
       "country": "japan",
@@ -1202,6 +136,325 @@
       ]
     }
   ],
+  "offices": [
+    {
+      "office": "Q208233",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      }
+    }
+  ],
+  "persons": [
+    {
+      "id": "emperor-kokaku",
+      "wikidata": "Q313806"
+    },
+    {
+      "id": "emperor-ninko",
+      "wikidata": "Q312351"
+    },
+    {
+      "id": "emperor-komei",
+      "wikidata": "Q299179"
+    },
+    {
+      "id": "emperor-meiji",
+      "wikidata": "Q174231"
+    },
+    {
+      "id": "emperor-taisho",
+      "wikidata": "Q157052"
+    },
+    {
+      "id": "hirohito",
+      "wikidata": "Q34479",
+      "name": {
+        "en": "Hirohito (Emperor Shōwa)"
+      },
+      "note": "en: the Wikipedia title is \"Hirohito\""
+    },
+    {
+      "id": "akihito",
+      "wikidata": "Q37979"
+    },
+    {
+      "id": "naruhito",
+      "wikidata": "Q217096"
+    },
+    {
+      "id": "ito-hirobumi",
+      "wikidata": "Q174971"
+    },
+    {
+      "id": "kuroda-kiyotaka",
+      "wikidata": "Q714049"
+    },
+    {
+      "id": "yamagata-aritomo",
+      "wikidata": "Q297636"
+    },
+    {
+      "id": "sanjo-sanetomi",
+      "wikidata": "Q516646"
+    },
+    {
+      "id": "matsukata-masayoshi",
+      "wikidata": "Q714039"
+    },
+    {
+      "id": "okuma-shigenobu",
+      "wikidata": "Q243141"
+    },
+    {
+      "id": "katsura-taro",
+      "wikidata": "Q159048"
+    },
+    {
+      "id": "saionji-kinmochi",
+      "wikidata": "Q297628"
+    },
+    {
+      "id": "yamamoto-gonnohyoe",
+      "wikidata": "Q41556"
+    },
+    {
+      "id": "terauchi-masatake",
+      "wikidata": "Q315559"
+    },
+    {
+      "id": "hara-takashi",
+      "wikidata": "Q315553"
+    },
+    {
+      "id": "takahashi-korekiyo",
+      "wikidata": "Q315842"
+    },
+    {
+      "id": "kato-tomosaburo",
+      "wikidata": "Q335203"
+    },
+    {
+      "id": "kiyoura-keigo",
+      "wikidata": "Q381739"
+    },
+    {
+      "id": "kato-takaaki",
+      "wikidata": "Q315563"
+    },
+    {
+      "id": "wakatsuki-reijiro",
+      "wikidata": "Q335177"
+    },
+    {
+      "id": "tanaka-giichi",
+      "wikidata": "Q145416"
+    },
+    {
+      "id": "hamaguchi-osachi",
+      "wikidata": "Q351661"
+    },
+    {
+      "id": "inukai-tsuyoshi",
+      "wikidata": "Q354687"
+    },
+    {
+      "id": "saito-makoto",
+      "wikidata": "Q335188"
+    },
+    {
+      "id": "okada-keisuke",
+      "wikidata": "Q714951"
+    },
+    {
+      "id": "koki-hirota",
+      "wikidata": "Q351652"
+    },
+    {
+      "id": "senjuro-hayashi",
+      "wikidata": "Q351665"
+    },
+    {
+      "id": "fumimaro-konoe",
+      "wikidata": "Q315594"
+    },
+    {
+      "id": "hiranuma-kiichiro",
+      "wikidata": "Q379996"
+    },
+    {
+      "id": "nobuyuki-abe",
+      "wikidata": "Q315574"
+    },
+    {
+      "id": "mitsumasa-yonai",
+      "wikidata": "Q715231"
+    },
+    {
+      "id": "hideki-tojo",
+      "wikidata": "Q160847"
+    },
+    {
+      "id": "kuniaki-koiso",
+      "wikidata": "Q315549"
+    },
+    {
+      "id": "kijuro-shidehara",
+      "wikidata": "Q335191"
+    },
+    {
+      "id": "kantaro-suzuki",
+      "wikidata": "Q335198"
+    },
+    {
+      "id": "prince-naruhiko-higashikuni",
+      "wikidata": "Q315717"
+    },
+    {
+      "id": "shigeru-yoshida",
+      "wikidata": "Q301804"
+    },
+    {
+      "id": "tetsu-katayama",
+      "wikidata": "Q335194"
+    },
+    {
+      "id": "hitoshi-ashida",
+      "wikidata": "Q315725"
+    },
+    {
+      "id": "ichiro-hatoyama",
+      "wikidata": "Q333589"
+    },
+    {
+      "id": "tanzan-ishibashi",
+      "wikidata": "Q351656"
+    },
+    {
+      "id": "nobusuke-kishi",
+      "wikidata": "Q315572"
+    },
+    {
+      "id": "hayato-ikeda",
+      "wikidata": "Q299142"
+    },
+    {
+      "id": "eisaku-sato",
+      "wikidata": "Q179871"
+    },
+    {
+      "id": "kakuei-tanaka",
+      "wikidata": "Q297644"
+    },
+    {
+      "id": "takeo-miki",
+      "wikidata": "Q317675"
+    },
+    {
+      "id": "takeo-fukuda",
+      "wikidata": "Q315584"
+    },
+    {
+      "id": "masayoshi-ohira",
+      "wikidata": "Q315568"
+    },
+    {
+      "id": "masayoshi-ito",
+      "wikidata": "Q744989"
+    },
+    {
+      "id": "zenko-suzuki",
+      "wikidata": "Q315551"
+    },
+    {
+      "id": "yasuhiro-nakasone",
+      "wikidata": "Q250828"
+    },
+    {
+      "id": "noboru-takeshita",
+      "wikidata": "Q315561"
+    },
+    {
+      "id": "toshiki-kaifu",
+      "wikidata": "Q315579"
+    },
+    {
+      "id": "sosuke-uno",
+      "wikidata": "Q315591"
+    },
+    {
+      "id": "kiichi-miyazawa",
+      "wikidata": "Q315565"
+    },
+    {
+      "id": "morihiro-hosokawa",
+      "wikidata": "Q315555"
+    },
+    {
+      "id": "tomiichi-murayama",
+      "wikidata": "Q310126"
+    },
+    {
+      "id": "tsutomu-hata",
+      "wikidata": "Q315720"
+    },
+    {
+      "id": "ryutaro-hashimoto",
+      "wikidata": "Q309374"
+    },
+    {
+      "id": "keizo-obuchi",
+      "wikidata": "Q313339"
+    },
+    {
+      "id": "yoshiro-mori",
+      "wikidata": "Q233499"
+    },
+    {
+      "id": "junichiro-koizumi",
+      "wikidata": "Q130852"
+    },
+    {
+      "id": "shinzo-abe",
+      "wikidata": "Q132345"
+    },
+    {
+      "id": "yasuo-fukuda",
+      "wikidata": "Q101137"
+    },
+    {
+      "id": "taro-aso",
+      "wikidata": "Q132596"
+    },
+    {
+      "id": "yukio-hatoyama",
+      "wikidata": "Q131077"
+    },
+    {
+      "id": "naoto-kan",
+      "wikidata": "Q47846"
+    },
+    {
+      "id": "yoshihiko-noda",
+      "wikidata": "Q57647"
+    },
+    {
+      "id": "yoshihide-suga",
+      "wikidata": "Q122465"
+    },
+    {
+      "id": "fumio-kishida",
+      "wikidata": "Q359480"
+    },
+    {
+      "id": "shigeru-ishiba",
+      "wikidata": "Q1335527"
+    },
+    {
+      "id": "sanae-takaichi",
+      "wikidata": "Q1705028"
+    }
+  ],
   "terms": [
     {
       "person": "emperor-kokaku",
@@ -1221,1621 +474,6 @@
       ]
     },
     {
-      "person": "emperor-ninko",
-      "state": "tokugawa-shogunate",
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
-      },
-      "start": 1817,
-      "end": 1846,
-      "sources": [
-        {
-          "title": "Emperor Ninkō — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Emperor_Ninkō"
-        }
-      ]
-    },
-    {
-      "person": "emperor-komei",
-      "state": "tokugawa-shogunate",
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
-      },
-      "start": 1846,
-      "end": 1867,
-      "sources": [
-        {
-          "title": "Emperor Kōmei — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Emperor_Kōmei"
-        }
-      ]
-    },
-    {
-      "person": "emperor-meiji",
-      "state": "tokugawa-shogunate",
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
-      },
-      "start": 1867,
-      "end": 1868,
-      "sources": [
-        {
-          "title": "Emperor Meiji — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Emperor_Meiji"
-        }
-      ]
-    },
-    {
-      "person": "emperor-meiji",
-      "state": "empire-of-japan",
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
-      },
-      "start": 1868,
-      "end": 1912,
-      "sources": [
-        {
-          "title": "Emperor Meiji — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Emperor_Meiji"
-        }
-      ]
-    },
-    {
-      "person": "emperor-taisho",
-      "state": "empire-of-japan",
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
-      },
-      "start": 1912,
-      "end": 1926,
-      "sources": [
-        {
-          "title": "Emperor Taishō — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Emperor_Taishō"
-        }
-      ]
-    },
-    {
-      "person": "hirohito",
-      "state": "empire-of-japan",
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
-      },
-      "start": 1926,
-      "end": 1947,
-      "sources": [
-        {
-          "title": "Hirohito — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Hirohito"
-        }
-      ]
-    },
-    {
-      "person": "hirohito",
-      "state": "state-of-japan",
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
-      },
-      "start": 1947,
-      "end": 1989,
-      "sources": [
-        {
-          "title": "Hirohito — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Hirohito"
-        }
-      ]
-    },
-    {
-      "person": "akihito",
-      "state": "state-of-japan",
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
-      },
-      "start": 1989,
-      "end": 2019,
-      "sources": [
-        {
-          "title": "Akihito — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Akihito"
-        }
-      ]
-    },
-    {
-      "person": "naruhito",
-      "state": "state-of-japan",
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
-      },
-      "start": 2019,
-      "end": null,
-      "sources": [
-        {
-          "title": "Naruhito — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Naruhito"
-        }
-      ]
-    },
-    {
-      "person": "ito-hirobumi",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1885,
-      "end": 1888,
-      "sources": [
-        {
-          "title": "Itō Hirobumi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q174971"
-        }
-      ]
-    },
-    {
-      "person": "kuroda-kiyotaka",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1888,
-      "end": 1889,
-      "sources": [
-        {
-          "title": "Kuroda Kiyotaka — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q714049"
-        }
-      ]
-    },
-    {
-      "person": "sanjo-sanetomi",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1889,
-      "end": 1889,
-      "sources": [
-        {
-          "title": "Sanjō Sanetomi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q516646"
-        }
-      ]
-    },
-    {
-      "person": "yamagata-aritomo",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1889,
-      "end": 1891,
-      "sources": [
-        {
-          "title": "Yamagata Aritomo — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q297636"
-        }
-      ]
-    },
-    {
-      "person": "matsukata-masayoshi",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1891,
-      "end": 1892,
-      "sources": [
-        {
-          "title": "Matsukata Masayoshi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q714039"
-        }
-      ]
-    },
-    {
-      "person": "ito-hirobumi",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1892,
-      "end": 1896,
-      "sources": [
-        {
-          "title": "Itō Hirobumi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q174971"
-        }
-      ]
-    },
-    {
-      "person": "matsukata-masayoshi",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1896,
-      "end": 1898,
-      "sources": [
-        {
-          "title": "Matsukata Masayoshi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q714039"
-        }
-      ]
-    },
-    {
-      "person": "ito-hirobumi",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1898,
-      "end": 1898,
-      "sources": [
-        {
-          "title": "Itō Hirobumi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q174971"
-        }
-      ]
-    },
-    {
-      "person": "okuma-shigenobu",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1898,
-      "end": 1898,
-      "sources": [
-        {
-          "title": "Ōkuma Shigenobu — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q243141"
-        }
-      ]
-    },
-    {
-      "person": "yamagata-aritomo",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1898,
-      "end": 1900,
-      "sources": [
-        {
-          "title": "Yamagata Aritomo — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q297636"
-        }
-      ]
-    },
-    {
-      "person": "ito-hirobumi",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1900,
-      "end": 1901,
-      "sources": [
-        {
-          "title": "Itō Hirobumi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q174971"
-        }
-      ]
-    },
-    {
-      "person": "katsura-taro",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1901,
-      "end": 1906,
-      "sources": [
-        {
-          "title": "Katsura Tarō — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q159048"
-        }
-      ]
-    },
-    {
-      "person": "saionji-kinmochi",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1906,
-      "end": 1908,
-      "sources": [
-        {
-          "title": "Saionji Kinmochi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q297628"
-        }
-      ]
-    },
-    {
-      "person": "katsura-taro",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1908,
-      "end": 1911,
-      "sources": [
-        {
-          "title": "Katsura Tarō — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q159048"
-        }
-      ]
-    },
-    {
-      "person": "saionji-kinmochi",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1911,
-      "end": 1912,
-      "sources": [
-        {
-          "title": "Saionji Kinmochi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q297628"
-        }
-      ]
-    },
-    {
-      "person": "katsura-taro",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1912,
-      "end": 1913,
-      "sources": [
-        {
-          "title": "Katsura Tarō — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q159048"
-        }
-      ]
-    },
-    {
-      "person": "yamamoto-gonnohyoe",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1913,
-      "end": 1914,
-      "sources": [
-        {
-          "title": "Yamamoto Gonnohyōe — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q41556"
-        }
-      ]
-    },
-    {
-      "person": "okuma-shigenobu",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1914,
-      "end": 1916,
-      "sources": [
-        {
-          "title": "Ōkuma Shigenobu — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q243141"
-        }
-      ]
-    },
-    {
-      "person": "terauchi-masatake",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1916,
-      "end": 1918,
-      "sources": [
-        {
-          "title": "Terauchi Masatake — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315559"
-        }
-      ]
-    },
-    {
-      "person": "hara-takashi",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1918,
-      "end": 1921,
-      "sources": [
-        {
-          "title": "Hara Takashi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315553"
-        }
-      ]
-    },
-    {
-      "person": "takahashi-korekiyo",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1921,
-      "end": 1922,
-      "sources": [
-        {
-          "title": "Takahashi Korekiyo — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315842"
-        }
-      ]
-    },
-    {
-      "person": "kato-tomosaburo",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1922,
-      "end": 1923,
-      "sources": [
-        {
-          "title": "Katō Tomosaburō — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q335203"
-        }
-      ]
-    },
-    {
-      "person": "yamamoto-gonnohyoe",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1923,
-      "end": 1924,
-      "sources": [
-        {
-          "title": "Yamamoto Gonnohyōe — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q41556"
-        }
-      ]
-    },
-    {
-      "person": "kiyoura-keigo",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1924,
-      "end": 1924,
-      "sources": [
-        {
-          "title": "Kiyoura Keigo — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q381739"
-        }
-      ]
-    },
-    {
-      "person": "kato-takaaki",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1924,
-      "end": 1926,
-      "sources": [
-        {
-          "title": "Katō Takaaki — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315563"
-        }
-      ]
-    },
-    {
-      "person": "wakatsuki-reijiro",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1926,
-      "end": 1927,
-      "sources": [
-        {
-          "title": "Wakatsuki Reijirō — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q335177"
-        }
-      ]
-    },
-    {
-      "person": "tanaka-giichi",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1927,
-      "end": 1929,
-      "sources": [
-        {
-          "title": "Tanaka Giichi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q145416"
-        }
-      ]
-    },
-    {
-      "person": "hamaguchi-osachi",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1929,
-      "end": 1931,
-      "sources": [
-        {
-          "title": "Hamaguchi Osachi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q351661"
-        }
-      ]
-    },
-    {
-      "person": "wakatsuki-reijiro",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1931,
-      "end": 1931,
-      "sources": [
-        {
-          "title": "Wakatsuki Reijirō — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q335177"
-        }
-      ]
-    },
-    {
-      "person": "inukai-tsuyoshi",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1931,
-      "end": 1932,
-      "sources": [
-        {
-          "title": "Inukai Tsuyoshi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q354687"
-        }
-      ]
-    },
-    {
-      "person": "saito-makoto",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1932,
-      "end": 1934,
-      "sources": [
-        {
-          "title": "Saitō Makoto — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q335188"
-        }
-      ]
-    },
-    {
-      "person": "okada-keisuke",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1934,
-      "end": 1936,
-      "sources": [
-        {
-          "title": "Okada Keisuke — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q714951"
-        }
-      ]
-    },
-    {
-      "person": "koki-hirota",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1936,
-      "end": 1937,
-      "sources": [
-        {
-          "title": "Kōki Hirota — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q351652"
-        }
-      ]
-    },
-    {
-      "person": "senjuro-hayashi",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1937,
-      "end": 1937,
-      "sources": [
-        {
-          "title": "Senjūrō Hayashi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q351665"
-        }
-      ]
-    },
-    {
-      "person": "fumimaro-konoe",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1937,
-      "end": 1939,
-      "sources": [
-        {
-          "title": "Fumimaro Konoe — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315594"
-        }
-      ]
-    },
-    {
-      "person": "hiranuma-kiichiro",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1939,
-      "end": 1939,
-      "sources": [
-        {
-          "title": "Hiranuma Kiichirō — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q379996"
-        }
-      ]
-    },
-    {
-      "person": "nobuyuki-abe",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1939,
-      "end": 1940,
-      "sources": [
-        {
-          "title": "Nobuyuki Abe — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315574"
-        }
-      ]
-    },
-    {
-      "person": "mitsumasa-yonai",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1940,
-      "end": 1940,
-      "sources": [
-        {
-          "title": "Mitsumasa Yonai — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q715231"
-        }
-      ]
-    },
-    {
-      "person": "fumimaro-konoe",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1940,
-      "end": 1941,
-      "sources": [
-        {
-          "title": "Fumimaro Konoe — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315594"
-        }
-      ]
-    },
-    {
-      "person": "fumimaro-konoe",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1941,
-      "end": 1941,
-      "sources": [
-        {
-          "title": "Fumimaro Konoe — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315594"
-        }
-      ]
-    },
-    {
-      "person": "hideki-tojo",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1941,
-      "end": 1944,
-      "sources": [
-        {
-          "title": "Hideki Tojo — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q160847"
-        }
-      ]
-    },
-    {
-      "person": "kuniaki-koiso",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1944,
-      "end": 1945,
-      "sources": [
-        {
-          "title": "Kuniaki Koiso — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315549"
-        }
-      ]
-    },
-    {
-      "person": "kantaro-suzuki",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1945,
-      "end": 1945,
-      "sources": [
-        {
-          "title": "Kantarō Suzuki — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q335198"
-        }
-      ]
-    },
-    {
-      "person": "prince-naruhiko-higashikuni",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1945,
-      "end": 1945,
-      "sources": [
-        {
-          "title": "Prince Naruhiko Higashikuni — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315717"
-        }
-      ]
-    },
-    {
-      "person": "kijuro-shidehara",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1945,
-      "end": 1946,
-      "sources": [
-        {
-          "title": "Kijūrō Shidehara — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q335191"
-        }
-      ]
-    },
-    {
-      "person": "shigeru-yoshida",
-      "state": "empire-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1946,
-      "end": 1947,
-      "sources": [
-        {
-          "title": "Shigeru Yoshida — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q301804"
-        }
-      ]
-    },
-    {
-      "person": "tetsu-katayama",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1947,
-      "end": 1948,
-      "sources": [
-        {
-          "title": "Tetsu Katayama — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q335194"
-        }
-      ]
-    },
-    {
-      "person": "hitoshi-ashida",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1948,
-      "end": 1948,
-      "sources": [
-        {
-          "title": "Hitoshi Ashida — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315725"
-        }
-      ]
-    },
-    {
-      "person": "shigeru-yoshida",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1948,
-      "end": 1949,
-      "sources": [
-        {
-          "title": "Shigeru Yoshida — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q301804"
-        }
-      ]
-    },
-    {
-      "person": "shigeru-yoshida",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1949,
-      "end": 1952,
-      "sources": [
-        {
-          "title": "Shigeru Yoshida — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q301804"
-        }
-      ]
-    },
-    {
-      "person": "shigeru-yoshida",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1952,
-      "end": 1953,
-      "sources": [
-        {
-          "title": "Shigeru Yoshida — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q301804"
-        }
-      ]
-    },
-    {
-      "person": "shigeru-yoshida",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1953,
-      "end": 1954,
-      "sources": [
-        {
-          "title": "Shigeru Yoshida — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q301804"
-        }
-      ]
-    },
-    {
-      "person": "ichiro-hatoyama",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1954,
-      "end": 1955,
-      "sources": [
-        {
-          "title": "Ichirō Hatoyama — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q333589"
-        }
-      ]
-    },
-    {
-      "person": "ichiro-hatoyama",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1955,
-      "end": 1956,
-      "sources": [
-        {
-          "title": "Ichirō Hatoyama — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q333589"
-        }
-      ]
-    },
-    {
-      "person": "tanzan-ishibashi",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1956,
-      "end": 1957,
-      "sources": [
-        {
-          "title": "Tanzan Ishibashi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q351656"
-        }
-      ]
-    },
-    {
-      "person": "nobusuke-kishi",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1957,
-      "end": 1958,
-      "sources": [
-        {
-          "title": "Nobusuke Kishi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315572"
-        }
-      ]
-    },
-    {
-      "person": "nobusuke-kishi",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1958,
-      "end": 1960,
-      "sources": [
-        {
-          "title": "Nobusuke Kishi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315572"
-        }
-      ]
-    },
-    {
-      "person": "hayato-ikeda",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1960,
-      "end": 1963,
-      "sources": [
-        {
-          "title": "Hayato Ikeda — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q299142"
-        }
-      ]
-    },
-    {
-      "person": "hayato-ikeda",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1963,
-      "end": 1964,
-      "sources": [
-        {
-          "title": "Hayato Ikeda — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q299142"
-        }
-      ]
-    },
-    {
-      "person": "eisaku-sato",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1964,
-      "end": 1967,
-      "sources": [
-        {
-          "title": "Eisaku Satō — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q179871"
-        }
-      ]
-    },
-    {
-      "person": "eisaku-sato",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1967,
-      "end": 1970,
-      "sources": [
-        {
-          "title": "Eisaku Satō — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q179871"
-        }
-      ]
-    },
-    {
-      "person": "eisaku-sato",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1970,
-      "end": 1972,
-      "sources": [
-        {
-          "title": "Eisaku Satō — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q179871"
-        }
-      ]
-    },
-    {
-      "person": "kakuei-tanaka",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1972,
-      "end": 1974,
-      "sources": [
-        {
-          "title": "Kakuei Tanaka — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q297644"
-        }
-      ]
-    },
-    {
-      "person": "takeo-miki",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1974,
-      "end": 1976,
-      "sources": [
-        {
-          "title": "Takeo Miki — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q317675"
-        }
-      ]
-    },
-    {
-      "person": "takeo-fukuda",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1976,
-      "end": 1978,
-      "sources": [
-        {
-          "title": "Takeo Fukuda — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315584"
-        }
-      ]
-    },
-    {
-      "person": "masayoshi-ohira",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1978,
-      "end": 1979,
-      "sources": [
-        {
-          "title": "Masayoshi Ōhira — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315568"
-        }
-      ]
-    },
-    {
-      "person": "masayoshi-ohira",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1979,
-      "end": 1980,
-      "sources": [
-        {
-          "title": "Masayoshi Ōhira — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315568"
-        }
-      ]
-    },
-    {
-      "person": "masayoshi-ito",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1980,
-      "end": 1980,
-      "sources": [
-        {
-          "title": "Masayoshi Ito — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q744989"
-        }
-      ]
-    },
-    {
-      "person": "zenko-suzuki",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1980,
-      "end": 1982,
-      "sources": [
-        {
-          "title": "Zenkō Suzuki — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315551"
-        }
-      ]
-    },
-    {
-      "person": "yasuhiro-nakasone",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1982,
-      "end": 1983,
-      "sources": [
-        {
-          "title": "Yasuhiro Nakasone — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q250828"
-        }
-      ]
-    },
-    {
-      "person": "yasuhiro-nakasone",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1983,
-      "end": 1986,
-      "sources": [
-        {
-          "title": "Yasuhiro Nakasone — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q250828"
-        }
-      ]
-    },
-    {
-      "person": "yasuhiro-nakasone",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1986,
-      "end": 1987,
-      "sources": [
-        {
-          "title": "Yasuhiro Nakasone — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q250828"
-        }
-      ]
-    },
-    {
-      "person": "noboru-takeshita",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1987,
-      "end": 1989,
-      "sources": [
-        {
-          "title": "Noboru Takeshita — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315561"
-        }
-      ]
-    },
-    {
-      "person": "sosuke-uno",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1989,
-      "end": 1989,
-      "sources": [
-        {
-          "title": "Sōsuke Uno — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315591"
-        }
-      ]
-    },
-    {
-      "person": "toshiki-kaifu",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1989,
-      "end": 1990,
-      "sources": [
-        {
-          "title": "Toshiki Kaifu — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315579"
-        }
-      ]
-    },
-    {
-      "person": "toshiki-kaifu",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1990,
-      "end": 1991,
-      "sources": [
-        {
-          "title": "Toshiki Kaifu — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315579"
-        }
-      ]
-    },
-    {
-      "person": "kiichi-miyazawa",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1991,
-      "end": 1993,
-      "sources": [
-        {
-          "title": "Kiichi Miyazawa — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315565"
-        }
-      ]
-    },
-    {
-      "person": "morihiro-hosokawa",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1993,
-      "end": 1994,
-      "sources": [
-        {
-          "title": "Morihiro Hosokawa — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315555"
-        }
-      ]
-    },
-    {
-      "person": "tsutomu-hata",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1994,
-      "end": 1994,
-      "sources": [
-        {
-          "title": "Tsutomu Hata — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315720"
-        }
-      ]
-    },
-    {
-      "person": "tomiichi-murayama",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1994,
-      "end": 1996,
-      "sources": [
-        {
-          "title": "Tomiichi Murayama — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q310126"
-        }
-      ]
-    },
-    {
-      "person": "ryutaro-hashimoto",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1996,
-      "end": 1998,
-      "sources": [
-        {
-          "title": "Ryutaro Hashimoto — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q309374"
-        }
-      ]
-    },
-    {
-      "person": "keizo-obuchi",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1998,
-      "end": 2000,
-      "sources": [
-        {
-          "title": "Keizō Obuchi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q313339"
-        }
-      ]
-    },
-    {
-      "person": "yoshiro-mori",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2000,
-      "end": 2001,
-      "sources": [
-        {
-          "title": "Yoshirō Mori — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q233499"
-        }
-      ]
-    },
-    {
-      "person": "junichiro-koizumi",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2001,
-      "end": 2003,
-      "sources": [
-        {
-          "title": "Junichiro Koizumi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q130852"
-        }
-      ]
-    },
-    {
-      "person": "junichiro-koizumi",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2003,
-      "end": 2005,
-      "sources": [
-        {
-          "title": "Junichiro Koizumi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q130852"
-        }
-      ]
-    },
-    {
-      "person": "junichiro-koizumi",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2005,
-      "end": 2006,
-      "sources": [
-        {
-          "title": "Junichiro Koizumi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q130852"
-        }
-      ]
-    },
-    {
       "person": "shinzo-abe",
       "state": "state-of-japan",
       "office": "head-of-government",
@@ -2849,91 +487,6 @@
         {
           "title": "Shinzo Abe — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q132345"
-        }
-      ]
-    },
-    {
-      "person": "yasuo-fukuda",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2007,
-      "end": 2008,
-      "sources": [
-        {
-          "title": "Yasuo Fukuda — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q101137"
-        }
-      ]
-    },
-    {
-      "person": "taro-aso",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2008,
-      "end": 2009,
-      "sources": [
-        {
-          "title": "Tarō Asō — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q132596"
-        }
-      ]
-    },
-    {
-      "person": "yukio-hatoyama",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2009,
-      "end": 2010,
-      "sources": [
-        {
-          "title": "Yukio Hatoyama — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q131077"
-        }
-      ]
-    },
-    {
-      "person": "naoto-kan",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2010,
-      "end": 2011,
-      "sources": [
-        {
-          "title": "Naoto Kan — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q47846"
-        }
-      ]
-    },
-    {
-      "person": "yoshihiko-noda",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2011,
-      "end": 2012,
-      "sources": [
-        {
-          "title": "Yoshihiko Noda — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q57647"
         }
       ]
     },
@@ -2989,23 +542,6 @@
       ]
     },
     {
-      "person": "yoshihide-suga",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2020,
-      "end": 2021,
-      "sources": [
-        {
-          "title": "Yoshihide Suga — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q122465"
-        }
-      ]
-    },
-    {
       "person": "fumio-kishida",
       "state": "state-of-japan",
       "office": "head-of-government",
@@ -3055,42 +591,10 @@
           "url": "https://www.wikidata.org/wiki/Q359480"
         }
       ]
-    },
-    {
-      "person": "shigeru-ishiba",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2024,
-      "end": 2025,
-      "sources": [
-        {
-          "title": "Shigeru Ishiba — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1335527"
-        }
-      ]
-    },
-    {
-      "person": "sanae-takaichi",
-      "state": "state-of-japan",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2025,
-      "end": null,
-      "sources": [
-        {
-          "title": "Sanae Takaichi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1705028"
-        }
-      ]
     }
   ],
+  "titles": [],
+  "exclude": [],
   "flags": [
     {
       "state": "empire-of-japan",

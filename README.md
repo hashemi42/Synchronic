@@ -2,7 +2,7 @@
 
 **World history, side by side.** An open-source, bilingual (English and Persian) web app that shows who ruled where, and what was happening, across the world at the same moment.
 
-> Status: **MVP in progress** — the infographic view works for nine countries (Iran, UK, Russia, Turkey, France, Germany, China, India, Japan) from 1789 to today, with a time dock, anchoring, an add-country search dialog and shareable URLs. Each state has a politics card and historical flags from Wikimedia Commons, served from this site. Heads of government come from Wikidata, with curated fixes.
+> Status: **MVP in progress** — the infographic view works for nine countries (Iran, UK, Russia, Turkey, France, Germany, China, India, Japan) from 1789 to today, with a time dock, anchoring, an add-country search dialog and shareable URLs. Each state has a politics card and historical flags from Wikimedia Commons, served from this site. Office holders, their names and years come from Wikidata through a pipeline, with curated corrections.
 
 ## Screenshots
 
@@ -31,23 +31,20 @@ Open <http://localhost:3000> — it redirects to `/en`; Persian (right-to-left) 
 | `pnpm lint` | ESLint |
 | `pnpm test` | Vitest (schema, lane validation, calendars) |
 | `pnpm test:e2e` | Playwright flows and axe accessibility checks; run `pnpm build` first (first time: `pnpm exec playwright install chromium`) |
-| `pnpm data:audit` | Cross-check terms and Persian names against Wikidata and fetch every source URL; writes problems to `artifacts/data-review/` |
-| `pnpm data:pipeline` | Build every country from Wikidata into `data/merged/` and report how it differs from the hand-entered data (`--refresh` queries Wikidata again). It never changes `data/overrides/` |
+| `pnpm data:audit` | Cross-check terms and Persian names against Wikidata and fetch every source URL. Fails on any open row; `--check` (what CI runs) verifies the last audit covers the committed data |
+| `pnpm data:pipeline` | Build every country from Wikidata and the curated files into `data/merged/`, and report which lanes are complete (`--refresh` queries Wikidata again) |
 | `pnpm data:build` | Validate the data and emit one content-hashed file per country to `public/data/` (runs before `dev`, `build` and `typecheck`) |
-| `pnpm data:validate` | Validate every file in `data/overrides/countries/` |
-| `pnpm fetch:flags` | Fetch flag candidates and licences from Wikidata and Commons into `data/raw/` |
+| `pnpm data:validate` | Validate every file in `data/merged/` |
+| `pnpm fetch:flags` | List flag candidates from Wikidata and Commons in `data/raw/flags.json` |
 | `pnpm mirror:flags` | Download the flags the data uses into `public/flags/` (the site serves them itself; withheld flags are skipped) |
-| `pnpm fetch:hog` | Fetch head-of-government terms from Wikidata into `data/raw/` |
-| `pnpm merge:hog` | Merge them, with the curated fixes in `data/overrides/`, into the country files |
-| `pnpm spike:iran` | Fetch Iran's heads of state from Wikidata into `data/raw/` |
 
 ## Layout
 
 ```
-data/overrides/countries/   Curated country files (states, lane, people, terms)
+data/overrides/countries/   Curated files: states, lane, offices, ids and corrections
 data/policy/                Content-policy lists (withheld symbols)
-data/raw/                   Cached Wikidata responses (one folder per country for the pipeline)
-data/merged/                Pipeline output, for review; the site does not read it yet
+data/raw/                   Cached Wikidata and Commons responses, one folder per country
+data/merged/                Pipeline output: the country files the site is built from
 messages/                   UI strings: en.json, fa.json
 scripts/                    Data pipeline scripts
 src/app/[locale]/           Pages; the locale is a root param
@@ -72,7 +69,7 @@ See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for the full guide.
 History data is never finished. If a date, name, ruler or flag is wrong:
 
 1. Report a [data error](https://github.com/hashemi42/Synchronic/issues/new?template=data-error.yml) with a source, or
-2. Fix it yourself in `data/overrides/countries/<country>.json` and open a pull request; [CONTRIBUTING](docs/CONTRIBUTING.md) explains the format.
+2. Fix it yourself: on Wikidata if it is wrong there, or in `data/overrides/countries/<country>.json`, then run `pnpm data:pipeline` and open a pull request; [CONTRIBUTING](docs/CONTRIBUTING.md) explains how.
 
 Disputed history follows the [content policy](docs/CONTRIBUTING.md#content-policy). Wording or Persian names go in the [translation form](https://github.com/hashemi42/Synchronic/issues/new?template=translation.yml). Bugs go in the [bug form](https://github.com/hashemi42/Synchronic/issues/new?template=bug.yml); security problems are reported privately, see [SECURITY](docs/SECURITY.md). Everyone taking part follows the [code of conduct](docs/CODE_OF_CONDUCT.md).
 

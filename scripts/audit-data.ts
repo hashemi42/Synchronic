@@ -12,7 +12,16 @@
  * Writes only the problems to artifacts/data-review/audit.csv, worst first, plus a summary in
  * artifacts/data-review/README.md. Fetched pages are cached in .cache/audit/ (delete it to refetch).
  *
- * Run: pnpm data:audit            (add --no-sources to skip the URL check)
+ * A row is **open** until it is closed by a correction or by a recorded exception: a term checked
+ * by hand or confirmed by its cited source, a holder left out by rule, a Persian name recorded in
+ * the overrides. Only open rows go to audit.csv, and any open row fails the run.
+ *
+ * The run needs the network, so CI does not repeat it. It checks the stamp instead
+ * (artifacts/data-review/audit.json): that the audit was run on exactly the data now committed,
+ * and found no open row.
+ *
+ * Run: pnpm data:audit            (add --no-sources to skip the URL check; no stamp is written then)
+ *      pnpm data:audit --check    (no network: verify the stamp)
  */
 import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
@@ -26,6 +35,19 @@ const root = process.cwd();
 const cacheDir = path.join(root, ".cache/audit");
 const outDir = path.join(root, "artifacts/data-review");
 const checkSources = !process.argv.includes("--no-sources");
+const checkOnly = process.argv.includes("--check");
+const stampFile = path.join(outDir, "audit.json");
+
+/** A fingerprint of everything the audit reads: the merged data and the recorded exceptions. */
+async function dataHash(): Promise<string> {
+  const hash = createHash("sha256");
+  const dir = path.join(root, "data/merged");
+  const files = (await readdir(dir)).filter((f) => f.endsWith(".json")).sort().map((f) => path.join(dir, f));
+  for (const f of [...files, path.join(root, "data/policy/audit-exceptions.json"), path.join(root, "data/overrides/persian-names.json")]) {
+    hash.update(path.relative(root, f)).update(await readFile(f));
+  }
+  return hash.digest("hex");
+}
 const NOW = new Date().getUTCFullYear();
 const FIRST = 1789;
 
@@ -54,6 +76,8 @@ type Row = {
   detail: string;
   link: string;
   verdict?: string;
+  /** Why the row is closed; an open row has none. */
+  closed?: string;
   /** The Wikidata item a Persian-name row is about. */
   qid?: string;
   /** For a term Wikidata lacks: what the cited sources must show to confirm it. */
@@ -256,7 +280,7 @@ function compareTerms(file: CountryFile, statements: { P35: Statement[]; P6: Sta
           detail: `via ${[...new Set(verdict.best.parts)].join(", ")}`, link,
         });
       } else if (verdict.kind === "lacksDate") {
-        rows.push({ severity: "low", check: "term: Wikidata lacks a date", country, record, name, ours: years(span.start, span.end), wikidata: years(verdict.best.start, verdict.best.end), detail: `via ${[...new Set(verdict.best.parts)].join(", ")}`, link });
+        rows.push({ severity: "low", check: "term: Wikidata lacks a date", country, record, name, ours: years(span.start, span.end), wikidata: years(verdict.best.start, verdict.best.end), detail: `via ${[...new Set(verdict.best.parts)].join(", ")}`, link, evidence: { urls: [...new Set(span.sources)], names: [person?.name.en ?? name], start: span.start, end: span.end } });
       }
     };
 
@@ -577,7 +601,7 @@ function confirmFromSources(known: Map<string, Labels>, files: CountryFile[]) {
     if (strict) {
       row.verdict = "source-confirmed";
       row.severity = "low";
-      row.detail = `${start === end ? "The year appears next to the name" : "The term's years appear as a range"} in ${strict}.`;
+      row.detail = `${row.check === "term: Wikidata lacks a date" ? `${row.detail}. ` : ""}${start === end ? "The year appears next to the name" : "The term's years appear as a range"} in ${strict}.`;
       confirmed.strict++;
     } else if (loose) {
       row.detail += ` Both years appear in ${loose}, but not as a range: check by hand.`;
@@ -590,10 +614,31 @@ function confirmFromSources(known: Map<string, Labels>, files: CountryFile[]) {
 
 const csv = (v: string) => (/[",\n]/.test(v) ? `"${v.replaceAll('"', '""')}"` : v);
 
+async function check() {
+  let stamp: { data: string; open: number; checked: string };
+  try {
+    stamp = JSON.parse(await readFile(stampFile, "utf8"));
+  } catch {
+    console.error("✗ No audit stamp. Run `pnpm data:audit` and commit artifacts/data-review/.");
+    process.exit(1);
+  }
+  const now = await dataHash();
+  if (stamp.data !== now) {
+    console.error("✗ The data changed since the audit ran. Run `pnpm data:audit` and commit artifacts/data-review/.");
+    process.exit(1);
+  }
+  if (stamp.open > 0) {
+    console.error(`✗ ${stamp.open} open audit row(s): see artifacts/data-review/audit.csv. Close each by a correction or a recorded exception.`);
+    process.exit(1);
+  }
+  console.log(`Audit of ${stamp.checked}: no open rows, and the data has not changed since.`);
+}
+
 async function main() {
+  if (checkOnly) return check();
   await mkdir(cacheDir, { recursive: true });
   await mkdir(outDir, { recursive: true });
-  const dir = path.join(root, "data/overrides/countries");
+  const dir = path.join(root, "data/merged");
   const files: CountryFile[] = [];
   for (const name of (await readdir(dir)).filter((f) => f.endsWith(".json")).sort())
     files.push(JSON.parse(await readFile(path.join(dir, name), "utf8")));
@@ -622,6 +667,19 @@ async function main() {
   ].filter((q): q is string => !!q);
   const known = await labels([...qids, ...new Set(missing.map((m) => m.statement.person))]);
   const exceptions = (JSON.parse(await readFile(path.join(root, "data/policy/audit-exceptions.json"), "utf8")) as { missing: Record<string, string> }).missing;
+  // Holders left out by rule are recorded in each country's curated file, with the office and the reason.
+  const curatedNames = new Map<string, string>();
+  for (const name of (await readdir(path.join(root, "data/overrides/countries"))).filter((f) => f.endsWith(".json"))) {
+    const c = JSON.parse(await readFile(path.join(root, "data/overrides/countries", name), "utf8")) as {
+      exclude: { wikidata: string; reason: string }[];
+      persons: { wikidata: string; name?: { fa?: string }; note?: string }[];
+    };
+    for (const x of c.exclude) exceptions[x.wikidata] ??= x.reason;
+    for (const p of c.persons) if (p.name?.fa) curatedNames.set(p.wikidata, p.note ?? "kept in the curated file");
+  }
+  const recordedNames = JSON.parse(await readFile(path.join(root, "data/policy/audit-exceptions.json"), "utf8")) as { persianNames?: Record<string, string> };
+  const manualNames = (JSON.parse(await readFile(path.join(root, "data/overrides/persian-names.json"), "utf8")) as { names: Record<string, string> }).names;
+  const addedNames = new Set((JSON.parse(await readFile(path.join(root, "data/overrides/heads-of-government.json"), "utf8")) as { terms: { person: string }[] }).terms.map((t) => t.person));
   let excepted = 0;
   for (const { country, prop, statement: s } of missing) {
     if (exceptions[s.person]) {
@@ -653,11 +711,30 @@ async function main() {
 
   if (checkSources) confirmFromSources(known, files);
 
+  // Which rows are closed, and by what.
+  for (const r of rows) {
+    if (r.verdict === "verified") r.closed = "checked by hand (data/policy/audit-exceptions.json)";
+    else if (r.verdict === "source-confirmed") r.closed = "confirmed by its cited source";
+    else if (r.check.startsWith("Persian name") && r.qid) {
+      const q = r.qid;
+      if (recordedNames.persianNames?.[q]) r.closed = `recorded: ${recordedNames.persianNames[q]}`;
+      else if (curatedNames.has(q)) r.closed = `kept by the curated file: ${curatedNames.get(q)}`;
+      else if (manualNames[q]) r.closed = "recorded in data/overrides/persian-names.json";
+      else if (addedNames.has(q)) r.closed = "recorded in data/overrides/heads-of-government.json";
+    }
+  }
+  const closedRows = rows.filter((r) => r.closed);
+  const all = rows.length;
+  rows.splice(0, rows.length, ...rows.filter((r) => !r.closed));
+
   const order = { high: 0, medium: 1, low: 2 };
   rows.sort((a, b) => order[a.severity] - order[b.severity] || a.check.localeCompare(b.check) || a.country.localeCompare(b.country) || a.name.localeCompare(b.name));
   const header = ["severity", "check", "country", "record", "name", "ours", "wikidata", "detail", "link", "verdict", "fix"];
   const lines = [header.join(","), ...rows.map((r) => [r.severity, r.check, r.country, r.record, r.name, r.ours, r.wikidata, r.detail, r.link, r.verdict ?? "", ""].map(csv).join(","))];
   await writeFile(path.join(outDir, "audit.csv"), "﻿" + lines.join("\n") + "\n");
+  closedRows.sort((a, b) => a.check.localeCompare(b.check) || a.country.localeCompare(b.country) || a.name.localeCompare(b.name));
+  const closedLines = [["check", "country", "record", "name", "ours", "wikidata", "closed by", "link"].join(","), ...closedRows.map((r) => [r.check, r.country, r.record, r.name, r.ours, r.wikidata, r.closed!, r.link].map(csv).join(","))];
+  await writeFile(path.join(outDir, "audit-closed.csv"), "﻿" + closedLines.join("\n") + "\n");
   const persian = await persianSheet(files);
 
   const counts = new Map<string, number>();
@@ -665,13 +742,19 @@ async function main() {
   const summary = [
     "# Data review",
     "",
-    `Generated by \`pnpm data:audit\` on ${new Date().toISOString().slice(0, 10)}. It lists **only problems**: everything not listed matched.`,
+    `Generated by \`pnpm data:audit\` on ${new Date().toISOString().slice(0, 10)}.`,
+    "",
+    `**${rows.length} open row${rows.length === 1 ? "" : "s"}.** The audit raised ${all} rows; ${closedRows.length} are closed by a recorded exception and listed, with what closed each, in [audit-closed.csv](audit-closed.csv). CI fails while any row is open, or if the data changed after this run.`,
     "",
     `Checked ${terms} terms against Wikidata P35/P6 (and P39 for heads of government), ${names} Persian names against Wikidata labels${checkSources ? `, and ${urls} source URLs` : ""}.`,
     "",
-    "Open [audit.csv](audit.csv) in a spreadsheet, sort or filter by `severity` and `check`, and fill in `verdict` (ours right / Wikidata right / both wrong) and `fix`.",
+    "A row closes only by a correction or a recorded exception: a term checked by hand or confirmed by its cited source, a holder left out by rule, a Persian name recorded in the overrides. Open rows are in [audit.csv](audit.csv).",
     "",
-    "| Severity | Check | Rows |",
+    "| Closed by | Rows |",
+    "| --- | ---: |",
+    ...[...Map.groupBy(closedRows, (r) => r.closed!.split(":")[0])].map(([k, v]) => `| ${k} | ${v.length} |`),
+    "",
+    "| Severity | Open check | Rows |",
     "| --- | --- | ---: |",
     ...[...counts].map(([k, n]) => {
       const [s, c] = k.split("|");
@@ -696,8 +779,12 @@ async function main() {
     "",
   ].join("\n");
   await writeFile(path.join(outDir, "README.md"), summary);
-  console.log(`\n${rows.length} problem row(s) → ${path.relative(root, path.join(outDir, "audit.csv"))}`);
+  if (checkSources) await writeFile(stampFile, JSON.stringify({ data: await dataHash(), open: rows.length, closed: closedRows.length, checked: new Date().toISOString().slice(0, 10) }, null, 2) + "\n");
+  else console.log("Sources were not checked, so no stamp was written.");
+  console.log(`\n${closedRows.length} row(s) closed by a recorded exception → audit-closed.csv`);
+  console.log(`\n${rows.length} open row(s) → ${path.relative(root, path.join(outDir, "audit.csv"))}`);
   for (const [k, n] of counts) console.log(`  ${n.toString().padStart(4)}  ${k.replace("|", "  ")}`);
+  if (rows.length > 0) process.exitCode = 1;
 }
 
 main().catch((err) => {

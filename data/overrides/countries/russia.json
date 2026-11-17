@@ -133,708 +133,6 @@
       ]
     }
   ],
-  "persons": [
-    {
-      "id": "catherine-ii",
-      "name": {
-        "en": "Catherine II",
-        "fa": "کاترین کبیر"
-      },
-      "wikidata": "Q36450",
-      "sources": [
-        {
-          "title": "Catherine the Great — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Catherine_the_Great"
-        }
-      ]
-    },
-    {
-      "id": "paul-i",
-      "name": {
-        "en": "Paul I",
-        "fa": "پاول یکم"
-      },
-      "wikidata": "Q15189",
-      "sources": [
-        {
-          "title": "Paul I of Russia — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Paul_I_of_Russia"
-        }
-      ]
-    },
-    {
-      "id": "alexander-i",
-      "name": {
-        "en": "Alexander I",
-        "fa": "الکساندر یکم"
-      },
-      "wikidata": "Q15193",
-      "sources": [
-        {
-          "title": "Alexander I of Russia — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Alexander_I_of_Russia"
-        }
-      ]
-    },
-    {
-      "id": "nicholas-i",
-      "name": {
-        "en": "Nicholas I",
-        "fa": "نیکلای یکم"
-      },
-      "wikidata": "Q130734",
-      "sources": [
-        {
-          "title": "Nicholas I of Russia — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nicholas_I_of_Russia"
-        }
-      ]
-    },
-    {
-      "id": "alexander-ii",
-      "name": {
-        "en": "Alexander II",
-        "fa": "الکساندر دوم"
-      },
-      "wikidata": "Q83171",
-      "sources": [
-        {
-          "title": "Alexander II of Russia — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Alexander_II_of_Russia"
-        }
-      ]
-    },
-    {
-      "id": "alexander-iii",
-      "name": {
-        "en": "Alexander III",
-        "fa": "الکساندر سوم"
-      },
-      "wikidata": "Q120180",
-      "sources": [
-        {
-          "title": "Alexander III of Russia — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Alexander_III_of_Russia"
-        }
-      ]
-    },
-    {
-      "id": "nicholas-ii",
-      "name": {
-        "en": "Nicholas II",
-        "fa": "نیکلای دوم"
-      },
-      "wikidata": "Q40787",
-      "sources": [
-        {
-          "title": "Nicholas II — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nicholas_II"
-        }
-      ]
-    },
-    {
-      "id": "vladimir-lenin",
-      "name": {
-        "en": "Vladimir Lenin",
-        "fa": "ولادیمیر لنین"
-      },
-      "wikidata": "Q1394",
-      "sources": [
-        {
-          "title": "Vladimir Lenin — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Vladimir_Lenin"
-        }
-      ]
-    },
-    {
-      "id": "joseph-stalin",
-      "name": {
-        "en": "Joseph Stalin",
-        "fa": "ژوزف استالین"
-      },
-      "wikidata": "Q855",
-      "sources": [
-        {
-          "title": "Joseph Stalin — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Joseph_Stalin"
-        }
-      ]
-    },
-    {
-      "id": "georgy-malenkov",
-      "name": {
-        "en": "Georgy Malenkov",
-        "fa": "گئورگی مالنکوف"
-      },
-      "wikidata": "Q180588",
-      "sources": [
-        {
-          "title": "Georgy Malenkov — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Georgy_Malenkov"
-        }
-      ]
-    },
-    {
-      "id": "nikita-khrushchev",
-      "name": {
-        "en": "Nikita Khrushchev",
-        "fa": "نیکیتا خروشچف"
-      },
-      "wikidata": "Q35314",
-      "sources": [
-        {
-          "title": "Nikita Khrushchev — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nikita_Khrushchev"
-        }
-      ]
-    },
-    {
-      "id": "leonid-brezhnev",
-      "name": {
-        "en": "Leonid Brezhnev",
-        "fa": "لئونید برژنف"
-      },
-      "wikidata": "Q765165",
-      "sources": [
-        {
-          "title": "Leonid Brezhnev — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Leonid_Brezhnev"
-        }
-      ]
-    },
-    {
-      "id": "yuri-andropov",
-      "name": {
-        "en": "Yuri Andropov",
-        "fa": "یوری آندروپوف"
-      },
-      "wikidata": "Q44071",
-      "sources": [
-        {
-          "title": "Yuri Andropov — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Yuri_Andropov"
-        }
-      ]
-    },
-    {
-      "id": "konstantin-chernenko",
-      "name": {
-        "en": "Konstantin Chernenko",
-        "fa": "کنستانتین چرنینکو"
-      },
-      "wikidata": "Q127442",
-      "sources": [
-        {
-          "title": "Konstantin Chernenko — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Konstantin_Chernenko"
-        }
-      ]
-    },
-    {
-      "id": "mikhail-gorbachev",
-      "name": {
-        "en": "Mikhail Gorbachev",
-        "fa": "میخائیل گورباچف"
-      },
-      "wikidata": "Q30487",
-      "sources": [
-        {
-          "title": "Mikhail Gorbachev — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev"
-        }
-      ]
-    },
-    {
-      "id": "boris-yeltsin",
-      "name": {
-        "en": "Boris Yeltsin",
-        "fa": "بوریس یلتسین"
-      },
-      "wikidata": "Q34453",
-      "sources": [
-        {
-          "title": "Boris Yeltsin — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Boris_Yeltsin"
-        }
-      ]
-    },
-    {
-      "id": "vladimir-putin",
-      "name": {
-        "en": "Vladimir Putin",
-        "fa": "ولادیمیر پوتین"
-      },
-      "wikidata": "Q7747",
-      "sources": [
-        {
-          "title": "Vladimir Putin — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Vladimir_Putin"
-        }
-      ]
-    },
-    {
-      "id": "dmitry-medvedev",
-      "name": {
-        "en": "Dmitry Medvedev",
-        "fa": "دمیتری مدودف"
-      },
-      "wikidata": "Q23530",
-      "sources": [
-        {
-          "title": "Dmitry Medvedev — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Dmitry_Medvedev"
-        }
-      ]
-    },
-    {
-      "id": "sergei-witte",
-      "name": {
-        "en": "Sergei Witte",
-        "fa": "سرگی ویته"
-      },
-      "wikidata": "Q155329",
-      "sources": [
-        {
-          "title": "Sergei Witte — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q155329"
-        }
-      ]
-    },
-    {
-      "id": "pyotr-stolypin",
-      "name": {
-        "en": "Pyotr Stolypin",
-        "fa": "پیوتر استولیپین"
-      },
-      "wikidata": "Q138487",
-      "sources": [
-        {
-          "title": "Pyotr Stolypin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q138487"
-        }
-      ]
-    },
-    {
-      "id": "georgy-lvov",
-      "name": {
-        "en": "Georgy Lvov",
-        "fa": "گئورگی لووف"
-      },
-      "wikidata": "Q297032",
-      "sources": [
-        {
-          "title": "Georgy Lvov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q297032"
-        }
-      ]
-    },
-    {
-      "id": "alexander-kerensky",
-      "name": {
-        "en": "Alexander Kerensky",
-        "fa": "الکساندر فیودورویچ کرنسکی"
-      },
-      "wikidata": "Q48211",
-      "sources": [
-        {
-          "title": "Alexander Kerensky — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q48211"
-        }
-      ]
-    },
-    {
-      "id": "alexei-rykov",
-      "name": {
-        "en": "Alexei Rykov",
-        "fa": "آلکسی رایکوف"
-      },
-      "wikidata": "Q294339",
-      "sources": [
-        {
-          "title": "Alexei Rykov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q294339"
-        }
-      ]
-    },
-    {
-      "id": "vyacheslav-molotov",
-      "name": {
-        "en": "Vyacheslav Molotov",
-        "fa": "ویاچسلاو مولوتف"
-      },
-      "wikidata": "Q132899",
-      "sources": [
-        {
-          "title": "Vyacheslav Molotov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q132899"
-        }
-      ]
-    },
-    {
-      "id": "nikolai-bulganin",
-      "name": {
-        "en": "Nikolai Bulganin",
-        "fa": "نیکلای بولگانین"
-      },
-      "wikidata": "Q48093",
-      "sources": [
-        {
-          "title": "Nikolai Bulganin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q48093"
-        }
-      ]
-    },
-    {
-      "id": "alexei-kosygin",
-      "name": {
-        "en": "Alexei Kosygin",
-        "fa": "آلکسی کاسیگین"
-      },
-      "wikidata": "Q202770",
-      "sources": [
-        {
-          "title": "Alexei Kosygin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q202770"
-        }
-      ]
-    },
-    {
-      "id": "nikolai-tikhonov",
-      "name": {
-        "en": "Nikolai Tikhonov",
-        "fa": "نیکولای تیخونوف"
-      },
-      "wikidata": "Q315518",
-      "sources": [
-        {
-          "title": "Nikolai Tikhonov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315518"
-        }
-      ]
-    },
-    {
-      "id": "nikolai-ryzhkov",
-      "name": {
-        "en": "Nikolai Ryzhkov",
-        "fa": "نیکولای ریژکوف"
-      },
-      "wikidata": "Q366524",
-      "sources": [
-        {
-          "title": "Nikolai Ryzhkov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q366524"
-        }
-      ]
-    },
-    {
-      "id": "yegor-gaidar",
-      "name": {
-        "en": "Yegor Gaidar",
-        "fa": "یگور گایدار"
-      },
-      "wikidata": "Q82695",
-      "sources": [
-        {
-          "title": "Yegor Gaidar — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q82695"
-        }
-      ]
-    },
-    {
-      "id": "viktor-chernomyrdin",
-      "name": {
-        "en": "Viktor Chernomyrdin",
-        "fa": "ویکتور چرنومیردین"
-      },
-      "wikidata": "Q190884",
-      "sources": [
-        {
-          "title": "Viktor Chernomyrdin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q190884"
-        }
-      ]
-    },
-    {
-      "id": "yevgeny-primakov",
-      "name": {
-        "en": "Yevgeny Primakov",
-        "fa": "یوگنی پریماکوف"
-      },
-      "wikidata": "Q270529",
-      "sources": [
-        {
-          "title": "Yevgeny Primakov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q270529"
-        }
-      ]
-    },
-    {
-      "id": "sergey-kiriyenko",
-      "name": {
-        "en": "Sergey Kiriyenko",
-        "fa": "سرگئی کرینکو"
-      },
-      "wikidata": "Q313915",
-      "sources": [
-        {
-          "title": "Sergey Kiriyenko — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q313915"
-        }
-      ]
-    },
-    {
-      "id": "sergei-stepashin",
-      "name": {
-        "en": "Sergei Stepashin",
-        "fa": "سرگئی استپاشین"
-      },
-      "wikidata": "Q313989",
-      "sources": [
-        {
-          "title": "Sergei Stepashin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q313989"
-        }
-      ]
-    },
-    {
-      "id": "mikhail-kasyanov",
-      "name": {
-        "en": "Mikhail Kasyanov",
-        "fa": "میخائیل کاسیانوف"
-      },
-      "wikidata": "Q62551",
-      "sources": [
-        {
-          "title": "Mikhail Kasyanov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q62551"
-        }
-      ]
-    },
-    {
-      "id": "mikhail-fradkov",
-      "name": {
-        "en": "Mikhail Fradkov",
-        "fa": "میخائیل فرادکوف"
-      },
-      "wikidata": "Q150080",
-      "sources": [
-        {
-          "title": "Mikhail Fradkov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q150080"
-        }
-      ]
-    },
-    {
-      "id": "viktor-khristenko",
-      "name": {
-        "en": "Viktor Khristenko",
-        "fa": "ویکتور خریستنکو"
-      },
-      "wikidata": "Q317667",
-      "sources": [
-        {
-          "title": "Viktor Khristenko — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q317667"
-        }
-      ]
-    },
-    {
-      "id": "viktor-zubkov",
-      "name": {
-        "en": "Viktor Zubkov",
-        "fa": "ویکتور زابکوف"
-      },
-      "wikidata": "Q147425",
-      "sources": [
-        {
-          "title": "Viktor Zubkov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q147425"
-        }
-      ]
-    },
-    {
-      "id": "mikhail-mishustin",
-      "name": {
-        "en": "Mikhail Mishustin",
-        "fa": "میخائیل میشوستین"
-      },
-      "wikidata": "Q4298520",
-      "sources": [
-        {
-          "title": "Mikhail Mishustin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q4298520"
-        }
-      ]
-    },
-    {
-      "id": "ivan-goremykin",
-      "name": {
-        "en": "Ivan Goremykin",
-        "fa": "ایوان گورمیکین"
-      },
-      "wikidata": "Q302668",
-      "sources": [
-        {
-          "title": "Ivan Goremykin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q302668"
-        }
-      ]
-    },
-    {
-      "id": "vladimir-kokovtsov",
-      "name": {
-        "en": "Vladimir Kokovtsov",
-        "fa": "ولادیمیر کوکوفتسوف"
-      },
-      "wikidata": "Q438448",
-      "sources": [
-        {
-          "title": "Vladimir Kokovtsov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q438448"
-        }
-      ]
-    },
-    {
-      "id": "nikolai-golitsyn",
-      "name": {
-        "en": "Nikolai Golitsyn",
-        "fa": "نیکلای گولیتسین"
-      },
-      "wikidata": "Q766517",
-      "sources": [
-        {
-          "title": "Nikolai Golitsyn — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q766517"
-        }
-      ]
-    },
-    {
-      "id": "boris-shturmer",
-      "name": {
-        "en": "Boris Shturmer",
-        "fa": "بوریس اشتورمر"
-      },
-      "wikidata": "Q834984",
-      "sources": [
-        {
-          "title": "Boris Shturmer — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q834984"
-        }
-      ]
-    },
-    {
-      "id": "alexander-trepov",
-      "name": {
-        "en": "Alexander Trepov",
-        "fa": "الکساندر ترپوف"
-      },
-      "wikidata": "Q620555",
-      "sources": [
-        {
-          "title": "Alexander Trepov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q620555"
-        }
-      ]
-    },
-    {
-      "id": "valentin-pavlov",
-      "name": {
-        "en": "Valentin Pavlov",
-        "fa": "والنتین پاولوف"
-      },
-      "wikidata": "Q435367",
-      "sources": [
-        {
-          "title": "Valentin Pavlov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q435367"
-        }
-      ]
-    },
-    {
-      "id": "mikhail-kalinin",
-      "name": {
-        "en": "Mikhail Kalinin",
-        "fa": "میخائیل کالینین"
-      },
-      "wikidata": "Q229828",
-      "sources": [
-        {
-          "title": "Mikhail Kalinin — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mikhail_Kalinin"
-        }
-      ]
-    },
-    {
-      "id": "nikolai-shvernik",
-      "name": {
-        "en": "Nikolai Shvernik",
-        "fa": "نیکولای شوورنیک"
-      },
-      "wikidata": "Q355639",
-      "sources": [
-        {
-          "title": "Nikolai Shvernik — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nikolai_Shvernik"
-        }
-      ]
-    },
-    {
-      "id": "kliment-voroshilov",
-      "name": {
-        "en": "Kliment Voroshilov",
-        "fa": "کلیمنت ووروشیلوف"
-      },
-      "wikidata": "Q186185",
-      "sources": [
-        {
-          "title": "Kliment Voroshilov — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Kliment_Voroshilov"
-        }
-      ]
-    },
-    {
-      "id": "anastas-mikoyan",
-      "name": {
-        "en": "Anastas Mikoyan",
-        "fa": "آناستاس میکویان"
-      },
-      "wikidata": "Q152738",
-      "sources": [
-        {
-          "title": "Anastas Mikoyan — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Anastas_Mikoyan"
-        }
-      ]
-    },
-    {
-      "id": "nikolai-podgorny",
-      "name": {
-        "en": "Nikolai Podgorny",
-        "fa": "نیکولای پادگورنی"
-      },
-      "wikidata": "Q295781",
-      "sources": [
-        {
-          "title": "Nikolai Podgorny — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nikolai_Podgorny"
-        }
-      ]
-    },
-    {
-      "id": "andrei-gromyko",
-      "name": {
-        "en": "Andrei Gromyko",
-        "fa": "آندری گرومیکو"
-      },
-      "wikidata": "Q184267",
-      "sources": [
-        {
-          "title": "Andrei Gromyko — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Andrei_Gromyko"
-        }
-      ]
-    }
-  ],
   "lane": [
     {
       "country": "russia",
@@ -889,126 +187,259 @@
       ]
     }
   ],
+  "offices": [
+    {
+      "office": "Q135215773",
+      "title": {
+        "en": "Chairman of the Presidium of the Supreme Soviet",
+        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
+      }
+    },
+    {
+      "office": "Q2618625",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      }
+    },
+    {
+      "office": "Q218295",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      }
+    }
+  ],
+  "persons": [
+    {
+      "id": "catherine-ii",
+      "wikidata": "Q36450",
+      "name": {
+        "en": "Catherine II"
+      },
+      "note": "en: the Wikipedia title is \"Catherine the Great\""
+    },
+    {
+      "id": "paul-i",
+      "wikidata": "Q15189",
+      "name": {
+        "en": "Paul I"
+      },
+      "note": "en: the Wikipedia title is \"Paul I of Russia\""
+    },
+    {
+      "id": "alexander-i",
+      "wikidata": "Q15193",
+      "name": {
+        "en": "Alexander I",
+        "fa": "الکساندر یکم"
+      },
+      "note": "en: the Wikipedia title is \"Alexander I of Russia\"; fa: no usable fa.wikipedia title; the Wikidata label is «الکساندر یکم، امپراتور روسیه»"
+    },
+    {
+      "id": "nicholas-i",
+      "wikidata": "Q130734",
+      "name": {
+        "en": "Nicholas I"
+      },
+      "note": "en: the Wikipedia title is \"Nicholas I of Russia\""
+    },
+    {
+      "id": "alexander-ii",
+      "wikidata": "Q83171",
+      "name": {
+        "en": "Alexander II",
+        "fa": "الکساندر دوم"
+      },
+      "note": "en: the Wikipedia title is \"Alexander II of Russia\"; fa: no usable fa.wikipedia title; the Wikidata label is «الکساندر دوم، امپراتور روسیه»"
+    },
+    {
+      "id": "alexander-iii",
+      "wikidata": "Q120180",
+      "name": {
+        "en": "Alexander III",
+        "fa": "الکساندر سوم"
+      },
+      "note": "en: the Wikipedia title is \"Alexander III of Russia\"; fa: no usable fa.wikipedia title; the Wikidata label is «الکساندر سوم، امپراتور روسیه»"
+    },
+    {
+      "id": "nicholas-ii",
+      "wikidata": "Q40787"
+    },
+    {
+      "id": "vladimir-lenin",
+      "wikidata": "Q1394"
+    },
+    {
+      "id": "joseph-stalin",
+      "wikidata": "Q855"
+    },
+    {
+      "id": "georgy-malenkov",
+      "wikidata": "Q180588"
+    },
+    {
+      "id": "nikita-khrushchev",
+      "wikidata": "Q35314"
+    },
+    {
+      "id": "leonid-brezhnev",
+      "wikidata": "Q765165"
+    },
+    {
+      "id": "yuri-andropov",
+      "wikidata": "Q44071"
+    },
+    {
+      "id": "konstantin-chernenko",
+      "wikidata": "Q127442"
+    },
+    {
+      "id": "mikhail-gorbachev",
+      "wikidata": "Q30487"
+    },
+    {
+      "id": "boris-yeltsin",
+      "wikidata": "Q34453"
+    },
+    {
+      "id": "vladimir-putin",
+      "wikidata": "Q7747"
+    },
+    {
+      "id": "dmitry-medvedev",
+      "wikidata": "Q23530"
+    },
+    {
+      "id": "sergei-witte",
+      "wikidata": "Q155329"
+    },
+    {
+      "id": "pyotr-stolypin",
+      "wikidata": "Q138487"
+    },
+    {
+      "id": "georgy-lvov",
+      "wikidata": "Q297032"
+    },
+    {
+      "id": "alexander-kerensky",
+      "wikidata": "Q48211"
+    },
+    {
+      "id": "alexei-rykov",
+      "wikidata": "Q294339"
+    },
+    {
+      "id": "vyacheslav-molotov",
+      "wikidata": "Q132899"
+    },
+    {
+      "id": "nikolai-bulganin",
+      "wikidata": "Q48093"
+    },
+    {
+      "id": "alexei-kosygin",
+      "wikidata": "Q202770"
+    },
+    {
+      "id": "nikolai-tikhonov",
+      "wikidata": "Q315518"
+    },
+    {
+      "id": "nikolai-ryzhkov",
+      "wikidata": "Q366524"
+    },
+    {
+      "id": "yegor-gaidar",
+      "wikidata": "Q82695"
+    },
+    {
+      "id": "viktor-chernomyrdin",
+      "wikidata": "Q190884"
+    },
+    {
+      "id": "yevgeny-primakov",
+      "wikidata": "Q270529"
+    },
+    {
+      "id": "sergey-kiriyenko",
+      "wikidata": "Q313915"
+    },
+    {
+      "id": "sergei-stepashin",
+      "wikidata": "Q313989"
+    },
+    {
+      "id": "mikhail-kasyanov",
+      "wikidata": "Q62551"
+    },
+    {
+      "id": "mikhail-fradkov",
+      "wikidata": "Q150080"
+    },
+    {
+      "id": "viktor-khristenko",
+      "wikidata": "Q317667"
+    },
+    {
+      "id": "viktor-zubkov",
+      "wikidata": "Q147425"
+    },
+    {
+      "id": "mikhail-mishustin",
+      "wikidata": "Q4298520"
+    },
+    {
+      "id": "ivan-goremykin",
+      "wikidata": "Q302668"
+    },
+    {
+      "id": "vladimir-kokovtsov",
+      "wikidata": "Q438448"
+    },
+    {
+      "id": "nikolai-golitsyn",
+      "wikidata": "Q766517"
+    },
+    {
+      "id": "boris-shturmer",
+      "wikidata": "Q834984"
+    },
+    {
+      "id": "alexander-trepov",
+      "wikidata": "Q620555"
+    },
+    {
+      "id": "valentin-pavlov",
+      "wikidata": "Q435367"
+    },
+    {
+      "id": "mikhail-kalinin",
+      "wikidata": "Q229828"
+    },
+    {
+      "id": "nikolai-shvernik",
+      "wikidata": "Q355639"
+    },
+    {
+      "id": "kliment-voroshilov",
+      "wikidata": "Q186185"
+    },
+    {
+      "id": "anastas-mikoyan",
+      "wikidata": "Q152738"
+    },
+    {
+      "id": "nikolai-podgorny",
+      "wikidata": "Q295781"
+    },
+    {
+      "id": "andrei-gromyko",
+      "wikidata": "Q184267"
+    }
+  ],
   "terms": [
-    {
-      "person": "catherine-ii",
-      "state": "russian-empire",
-      "office": "head-of-state",
-      "title": {
-        "en": "Empress",
-        "fa": "امپراتریس"
-      },
-      "start": 1762,
-      "end": 1796,
-      "sources": [
-        {
-          "title": "Catherine the Great — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Catherine_the_Great"
-        }
-      ]
-    },
-    {
-      "person": "paul-i",
-      "state": "russian-empire",
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
-      },
-      "start": 1796,
-      "end": 1801,
-      "sources": [
-        {
-          "title": "Paul I of Russia — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Paul_I_of_Russia"
-        }
-      ]
-    },
-    {
-      "person": "alexander-i",
-      "state": "russian-empire",
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
-      },
-      "start": 1801,
-      "end": 1825,
-      "sources": [
-        {
-          "title": "Alexander I of Russia — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Alexander_I_of_Russia"
-        }
-      ]
-    },
-    {
-      "person": "nicholas-i",
-      "state": "russian-empire",
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
-      },
-      "start": 1825,
-      "end": 1855,
-      "sources": [
-        {
-          "title": "Nicholas I of Russia — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nicholas_I_of_Russia"
-        }
-      ]
-    },
-    {
-      "person": "alexander-ii",
-      "state": "russian-empire",
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
-      },
-      "start": 1855,
-      "end": 1881,
-      "sources": [
-        {
-          "title": "Alexander II of Russia — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Alexander_II_of_Russia"
-        }
-      ]
-    },
-    {
-      "person": "alexander-iii",
-      "state": "russian-empire",
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
-      },
-      "start": 1881,
-      "end": 1894,
-      "sources": [
-        {
-          "title": "Alexander III of Russia — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Alexander_III_of_Russia"
-        }
-      ]
-    },
-    {
-      "person": "nicholas-ii",
-      "state": "russian-empire",
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
-      },
-      "start": 1894,
-      "end": 1917,
-      "sources": [
-        {
-          "title": "Nicholas II — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nicholas_II"
-        }
-      ]
-    },
     {
       "person": "vladimir-lenin",
       "state": "russian-sfsr",
@@ -1163,23 +594,6 @@
       ]
     },
     {
-      "person": "boris-yeltsin",
-      "state": "russian-federation",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 1991,
-      "end": 1999,
-      "sources": [
-        {
-          "title": "Boris Yeltsin — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Boris_Yeltsin"
-        }
-      ]
-    },
-    {
       "person": "vladimir-putin",
       "state": "russian-federation",
       "office": "head-of-state",
@@ -1197,23 +611,6 @@
       ]
     },
     {
-      "person": "dmitry-medvedev",
-      "state": "russian-federation",
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "start": 2008,
-      "end": 2012,
-      "sources": [
-        {
-          "title": "Dmitry Medvedev — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Dmitry_Medvedev"
-        }
-      ]
-    },
-    {
       "person": "vladimir-putin",
       "state": "russian-federation",
       "office": "head-of-state",
@@ -1227,176 +624,6 @@
         {
           "title": "Vladimir Putin — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Vladimir_Putin"
-        }
-      ]
-    },
-    {
-      "person": "sergei-witte",
-      "state": "russian-empire",
-      "office": "head-of-government",
-      "title": {
-        "en": "Chairman of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1905,
-      "end": 1906,
-      "sources": [
-        {
-          "title": "Sergei Witte — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q155329"
-        }
-      ]
-    },
-    {
-      "person": "ivan-goremykin",
-      "state": "russian-empire",
-      "office": "head-of-government",
-      "title": {
-        "en": "Chairman of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1906,
-      "end": 1906,
-      "sources": [
-        {
-          "title": "Ivan Goremykin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q302668"
-        }
-      ]
-    },
-    {
-      "person": "pyotr-stolypin",
-      "state": "russian-empire",
-      "office": "head-of-government",
-      "title": {
-        "en": "Chairman of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1906,
-      "end": 1911,
-      "sources": [
-        {
-          "title": "Pyotr Stolypin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q138487"
-        }
-      ]
-    },
-    {
-      "person": "vladimir-kokovtsov",
-      "state": "russian-empire",
-      "office": "head-of-government",
-      "title": {
-        "en": "Chairman of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1911,
-      "end": 1914,
-      "sources": [
-        {
-          "title": "Vladimir Kokovtsov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q438448"
-        }
-      ]
-    },
-    {
-      "person": "ivan-goremykin",
-      "state": "russian-empire",
-      "office": "head-of-government",
-      "title": {
-        "en": "Chairman of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1914,
-      "end": 1916,
-      "sources": [
-        {
-          "title": "Ivan Goremykin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q302668"
-        }
-      ]
-    },
-    {
-      "person": "alexander-trepov",
-      "state": "russian-empire",
-      "office": "head-of-government",
-      "title": {
-        "en": "Chairman of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1916,
-      "end": 1916,
-      "sources": [
-        {
-          "title": "Alexander Trepov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q620555"
-        }
-      ]
-    },
-    {
-      "person": "boris-shturmer",
-      "state": "russian-empire",
-      "office": "head-of-government",
-      "title": {
-        "en": "Chairman of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1916,
-      "end": 1916,
-      "sources": [
-        {
-          "title": "Boris Shturmer — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q834984"
-        }
-      ]
-    },
-    {
-      "person": "nikolai-golitsyn",
-      "state": "russian-empire",
-      "office": "head-of-government",
-      "title": {
-        "en": "Chairman of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1916,
-      "end": 1917,
-      "sources": [
-        {
-          "title": "Nikolai Golitsyn — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q766517"
-        }
-      ]
-    },
-    {
-      "person": "alexander-kerensky",
-      "state": "russian-empire",
-      "office": "head-of-government",
-      "title": {
-        "en": "Chairman of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1917,
-      "end": 1917,
-      "sources": [
-        {
-          "title": "Alexander Kerensky — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q48211"
-        }
-      ]
-    },
-    {
-      "person": "georgy-lvov",
-      "state": "russian-empire",
-      "office": "head-of-government",
-      "title": {
-        "en": "Chairman of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1917,
-      "end": 1917,
-      "sources": [
-        {
-          "title": "Georgy Lvov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q297032"
         }
       ]
     },
@@ -1435,40 +662,6 @@
       ]
     },
     {
-      "person": "alexei-rykov",
-      "state": "soviet-union",
-      "office": "head-of-government",
-      "title": {
-        "en": "Chairman of the Council of People's Commissars",
-        "fa": "رئیس شورای کمیسرهای خلق"
-      },
-      "start": 1924,
-      "end": 1930,
-      "sources": [
-        {
-          "title": "Alexei Rykov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q294339"
-        }
-      ]
-    },
-    {
-      "person": "vyacheslav-molotov",
-      "state": "soviet-union",
-      "office": "head-of-government",
-      "title": {
-        "en": "Chairman of the Council of People's Commissars",
-        "fa": "رئیس شورای کمیسرهای خلق"
-      },
-      "start": 1930,
-      "end": 1941,
-      "sources": [
-        {
-          "title": "Vyacheslav Molotov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q132899"
-        }
-      ]
-    },
-    {
       "person": "joseph-stalin",
       "state": "soviet-union",
       "office": "head-of-government",
@@ -1503,142 +696,6 @@
       ]
     },
     {
-      "person": "georgy-malenkov",
-      "state": "soviet-union",
-      "office": "head-of-government",
-      "title": {
-        "en": "Chairman of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1953,
-      "end": 1955,
-      "sources": [
-        {
-          "title": "Georgy Malenkov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q180588"
-        }
-      ]
-    },
-    {
-      "person": "nikolai-bulganin",
-      "state": "soviet-union",
-      "office": "head-of-government",
-      "title": {
-        "en": "Chairman of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1955,
-      "end": 1958,
-      "sources": [
-        {
-          "title": "Nikolai Bulganin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q48093"
-        }
-      ]
-    },
-    {
-      "person": "nikita-khrushchev",
-      "state": "soviet-union",
-      "office": "head-of-government",
-      "title": {
-        "en": "Chairman of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1958,
-      "end": 1964,
-      "sources": [
-        {
-          "title": "Nikita Khrushchev — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q35314"
-        }
-      ]
-    },
-    {
-      "person": "alexei-kosygin",
-      "state": "soviet-union",
-      "office": "head-of-government",
-      "title": {
-        "en": "Chairman of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1964,
-      "end": 1980,
-      "sources": [
-        {
-          "title": "Alexei Kosygin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q202770"
-        }
-      ]
-    },
-    {
-      "person": "nikolai-tikhonov",
-      "state": "soviet-union",
-      "office": "head-of-government",
-      "title": {
-        "en": "Chairman of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1980,
-      "end": 1985,
-      "sources": [
-        {
-          "title": "Nikolai Tikhonov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q315518"
-        }
-      ]
-    },
-    {
-      "person": "nikolai-ryzhkov",
-      "state": "soviet-union",
-      "office": "head-of-government",
-      "title": {
-        "en": "Chairman of the Council of Ministers",
-        "fa": "رئیس شورای وزیران"
-      },
-      "start": 1985,
-      "end": 1991,
-      "sources": [
-        {
-          "title": "Nikolai Ryzhkov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q366524"
-        }
-      ]
-    },
-    {
-      "person": "valentin-pavlov",
-      "state": "soviet-union",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1991,
-      "end": 1991,
-      "sources": [
-        {
-          "title": "Valentin Pavlov — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Valentin_Pavlov"
-        }
-      ]
-    },
-    {
-      "person": "boris-yeltsin",
-      "state": "russian-federation",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1991,
-      "end": 1992,
-      "sources": [
-        {
-          "title": "Boris Yeltsin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q34453"
-        }
-      ]
-    },
-    {
       "person": "yegor-gaidar",
       "state": "russian-federation",
       "office": "head-of-government",
@@ -1656,159 +713,6 @@
       ]
     },
     {
-      "person": "viktor-chernomyrdin",
-      "state": "russian-federation",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1992,
-      "end": 1998,
-      "sources": [
-        {
-          "title": "Viktor Chernomyrdin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q190884"
-        }
-      ]
-    },
-    {
-      "person": "sergey-kiriyenko",
-      "state": "russian-federation",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1998,
-      "end": 1998,
-      "sources": [
-        {
-          "title": "Sergey Kiriyenko — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q313915"
-        }
-      ]
-    },
-    {
-      "person": "viktor-chernomyrdin",
-      "state": "russian-federation",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1998,
-      "end": 1998,
-      "sources": [
-        {
-          "title": "Viktor Chernomyrdin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q190884"
-        }
-      ]
-    },
-    {
-      "person": "yevgeny-primakov",
-      "state": "russian-federation",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1998,
-      "end": 1999,
-      "sources": [
-        {
-          "title": "Yevgeny Primakov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q270529"
-        }
-      ]
-    },
-    {
-      "person": "sergei-stepashin",
-      "state": "russian-federation",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1999,
-      "end": 1999,
-      "sources": [
-        {
-          "title": "Sergei Stepashin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q313989"
-        }
-      ]
-    },
-    {
-      "person": "vladimir-putin",
-      "state": "russian-federation",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 1999,
-      "end": 2000,
-      "sources": [
-        {
-          "title": "Vladimir Putin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7747"
-        }
-      ]
-    },
-    {
-      "person": "mikhail-kasyanov",
-      "state": "russian-federation",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2000,
-      "end": 2004,
-      "sources": [
-        {
-          "title": "Mikhail Kasyanov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q62551"
-        }
-      ]
-    },
-    {
-      "person": "viktor-khristenko",
-      "state": "russian-federation",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2004,
-      "end": 2004,
-      "sources": [
-        {
-          "title": "Viktor Khristenko — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q317667"
-        }
-      ]
-    },
-    {
-      "person": "mikhail-fradkov",
-      "state": "russian-federation",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2004,
-      "end": 2007,
-      "sources": [
-        {
-          "title": "Mikhail Fradkov — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q150080"
-        }
-      ]
-    },
-    {
       "person": "viktor-zubkov",
       "state": "russian-federation",
       "office": "head-of-government",
@@ -1822,57 +726,6 @@
         {
           "title": "Viktor Zubkov — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q147425"
-        }
-      ]
-    },
-    {
-      "person": "vladimir-putin",
-      "state": "russian-federation",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2008,
-      "end": 2012,
-      "sources": [
-        {
-          "title": "Vladimir Putin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7747"
-        }
-      ]
-    },
-    {
-      "person": "dmitry-medvedev",
-      "state": "russian-federation",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2012,
-      "end": 2020,
-      "sources": [
-        {
-          "title": "Dmitry Medvedev — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q23530"
-        }
-      ]
-    },
-    {
-      "person": "mikhail-mishustin",
-      "state": "russian-federation",
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "start": 2020,
-      "end": null,
-      "sources": [
-        {
-          "title": "Mikhail Mishustin — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q4298520"
         }
       ]
     },
@@ -1907,159 +760,6 @@
         {
           "title": "Mikhail Kalinin — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Mikhail_Kalinin"
-        }
-      ]
-    },
-    {
-      "person": "nikolai-shvernik",
-      "state": "soviet-union",
-      "office": "head-of-state",
-      "title": {
-        "en": "Chairman of the Presidium of the Supreme Soviet",
-        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
-      },
-      "start": 1946,
-      "end": 1953,
-      "sources": [
-        {
-          "title": "Nikolai Shvernik — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nikolai_Shvernik"
-        }
-      ]
-    },
-    {
-      "person": "kliment-voroshilov",
-      "state": "soviet-union",
-      "office": "head-of-state",
-      "title": {
-        "en": "Chairman of the Presidium of the Supreme Soviet",
-        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
-      },
-      "start": 1953,
-      "end": 1960,
-      "sources": [
-        {
-          "title": "Kliment Voroshilov — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Kliment_Voroshilov"
-        }
-      ]
-    },
-    {
-      "person": "leonid-brezhnev",
-      "state": "soviet-union",
-      "office": "head-of-state",
-      "title": {
-        "en": "Chairman of the Presidium of the Supreme Soviet",
-        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
-      },
-      "start": 1960,
-      "end": 1964,
-      "sources": [
-        {
-          "title": "Leonid Brezhnev — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Leonid_Brezhnev"
-        }
-      ]
-    },
-    {
-      "person": "anastas-mikoyan",
-      "state": "soviet-union",
-      "office": "head-of-state",
-      "title": {
-        "en": "Chairman of the Presidium of the Supreme Soviet",
-        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
-      },
-      "start": 1964,
-      "end": 1965,
-      "sources": [
-        {
-          "title": "Anastas Mikoyan — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Anastas_Mikoyan"
-        }
-      ]
-    },
-    {
-      "person": "nikolai-podgorny",
-      "state": "soviet-union",
-      "office": "head-of-state",
-      "title": {
-        "en": "Chairman of the Presidium of the Supreme Soviet",
-        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
-      },
-      "start": 1965,
-      "end": 1977,
-      "sources": [
-        {
-          "title": "Nikolai Podgorny — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nikolai_Podgorny"
-        }
-      ]
-    },
-    {
-      "person": "leonid-brezhnev",
-      "state": "soviet-union",
-      "office": "head-of-state",
-      "title": {
-        "en": "Chairman of the Presidium of the Supreme Soviet",
-        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
-      },
-      "start": 1977,
-      "end": 1982,
-      "sources": [
-        {
-          "title": "Leonid Brezhnev — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Leonid_Brezhnev"
-        }
-      ]
-    },
-    {
-      "person": "yuri-andropov",
-      "state": "soviet-union",
-      "office": "head-of-state",
-      "title": {
-        "en": "Chairman of the Presidium of the Supreme Soviet",
-        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
-      },
-      "start": 1983,
-      "end": 1984,
-      "sources": [
-        {
-          "title": "Yuri Andropov — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Yuri_Andropov"
-        }
-      ]
-    },
-    {
-      "person": "konstantin-chernenko",
-      "state": "soviet-union",
-      "office": "head-of-state",
-      "title": {
-        "en": "Chairman of the Presidium of the Supreme Soviet",
-        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
-      },
-      "start": 1984,
-      "end": 1985,
-      "sources": [
-        {
-          "title": "Konstantin Chernenko — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Konstantin_Chernenko"
-        }
-      ]
-    },
-    {
-      "person": "andrei-gromyko",
-      "state": "soviet-union",
-      "office": "head-of-state",
-      "title": {
-        "en": "Chairman of the Presidium of the Supreme Soviet",
-        "fa": "رئیس هیئت‌رئیسهٔ شورای عالی"
-      },
-      "start": 1985,
-      "end": 1988,
-      "sources": [
-        {
-          "title": "Andrei Gromyko — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Andrei_Gromyko"
         }
       ]
     },
@@ -2113,6 +813,114 @@
           "url": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev"
         }
       ]
+    }
+  ],
+  "titles": [
+    {
+      "person": "catherine-ii",
+      "office": "head-of-state",
+      "state": "russian-empire",
+      "title": {
+        "en": "Empress",
+        "fa": "امپراتریس"
+      }
+    }
+  ],
+  "exclude": [
+    {
+      "wikidata": "Q325038",
+      "office": "head-of-state",
+      "reason": "R3: Vasily Kuznetsov, acting head of state of the USSR in 1982–83, 1984 and 1985 (each less than a year)"
+    },
+    {
+      "wikidata": "Q714552",
+      "office": "head-of-government",
+      "reason": "R3: Ivan Silayev, chairman of the interim economic committee of the USSR in 1991 (less than a year)"
+    },
+    {
+      "wikidata": "Q4082839",
+      "office": "head-of-government",
+      "reason": "R3: Andrey Belousov, acting Prime Minister of Russia in 2020 (less than a year)"
+    },
+    {
+      "wikidata": "Q5219529",
+      "office": "head-of-government",
+      "reason": "R6: Daniil Sulimov, head of government of the RSFSR, a republic of the USSR"
+    },
+    {
+      "wikidata": "Q2388652",
+      "office": "head-of-government",
+      "reason": "R6: Sergei Syrtsov, head of government of the RSFSR, a republic of the USSR"
+    },
+    {
+      "wikidata": "Q4105426",
+      "office": "head-of-government",
+      "reason": "R6: Vasily Vakhrushev, head of government of the RSFSR, a republic of the USSR"
+    },
+    {
+      "wikidata": "Q4500527",
+      "office": "head-of-government",
+      "reason": "R6: Ivan Khokhlov, head of government of the RSFSR, a republic of the USSR"
+    },
+    {
+      "wikidata": "Q4514162",
+      "office": "head-of-government",
+      "reason": "R6: Boris Chernousov, head of government of the RSFSR, a republic of the USSR"
+    },
+    {
+      "wikidata": "Q4383404",
+      "office": "head-of-government",
+      "reason": "R6: Alexander Puzanov, head of government of the RSFSR, a republic of the USSR"
+    },
+    {
+      "wikidata": "Q2492361",
+      "office": "head-of-government",
+      "reason": "R6: Mikhail Yasnov, head of government of the RSFSR, a republic of the USSR"
+    },
+    {
+      "wikidata": "Q1186441",
+      "office": "head-of-government",
+      "reason": "R6: Frol Kozlov, head of government of the RSFSR, a republic of the USSR"
+    },
+    {
+      "wikidata": "Q1232703",
+      "office": "head-of-government",
+      "reason": "R6: Dmitry Polyansky, head of government of the RSFSR, a republic of the USSR"
+    },
+    {
+      "wikidata": "Q1376506",
+      "office": "head-of-government",
+      "reason": "R6: Gennady Voronov, head of government of the RSFSR, a republic of the USSR"
+    },
+    {
+      "wikidata": "Q1342003",
+      "office": "head-of-government",
+      "reason": "R6: Mikhail Solomentsev, head of government of the RSFSR, a republic of the USSR"
+    },
+    {
+      "wikidata": "Q952122",
+      "office": "head-of-government",
+      "reason": "R6: Vitaly Vorotnikov, head of government of the RSFSR, a republic of the USSR"
+    },
+    {
+      "wikidata": "Q4113451",
+      "office": "head-of-government",
+      "reason": "R6: Alexander Vlasov, head of government of the RSFSR, a republic of the USSR"
+    },
+    {
+      "wikidata": "Q546048",
+      "office": "head-of-government",
+      "reason": "R7: Nikolay Rumyantsev chaired the State Council; the Russian Empire had no head of government before 1905"
+    },
+    {
+      "wikidata": "Q2027257",
+      "office": "head-of-government",
+      "reason": "R7: Ivan Shcheglovitov chaired the State Council, not the Council of Ministers"
+    },
+    {
+      "wikidata": "Q154444",
+      "office": "head-of-state",
+      "reason": "Grand Duke Michael Alexandrovich declined the throne in March 1917 and never reigned"
     }
   ],
   "flags": [

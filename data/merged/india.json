@@ -23,23 +23,23 @@
       "id": "company-rule-in-india",
       "name": {
         "en": "Company rule in India",
-        "fa": "حکومت کمپانی هند شرقی بر هندوستان"
+        "fa": "حکومت کمپانی در هند"
       },
       "start": 1757,
       "end": 1858,
       "capital": {
-        "en": "Kolkata",
+        "en": "Calcutta",
         "fa": "کلکته"
+      },
+      "system": {
+        "en": "Rule by the British East India Company",
+        "fa": "حکومت کمپانی هند شرقی بریتانیا"
       },
       "wikidata": "Q2001966",
       "sources": [
         {
           "title": "Company rule in India — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Company_rule_in_India"
-        },
-        {
-          "title": "Company rule in India — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q2001966"
         }
       ]
     },
@@ -51,43 +51,43 @@
       },
       "start": 1526,
       "end": 1857,
+      "capital": {
+        "en": "Delhi",
+        "fa": "دهلی"
+      },
       "system": {
-        "en": "Absolute monarchy",
-        "fa": "پادشاهی مطلقه"
+        "en": "Monarchy; nominal authority by this period",
+        "fa": "پادشاهی؛ در این دوره با اقتدار اسمی"
       },
       "wikidata": "Q33296",
       "sources": [
         {
           "title": "Mughal Empire — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
-        },
-        {
-          "title": "Mughal Empire — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q33296"
         }
       ]
     },
     {
       "id": "maratha-confederacy",
       "name": {
-        "en": "Maratha Empire",
-        "fa": "امپراتوری مراتا"
+        "en": "Maratha Confederacy",
+        "fa": "کنفدراسیون ماراتا"
       },
       "start": 1674,
       "end": 1818,
+      "capital": {
+        "en": "Pune",
+        "fa": "پونه"
+      },
       "system": {
-        "en": "Absolute monarchy",
-        "fa": "پادشاهی مطلقه"
+        "en": "Confederacy",
+        "fa": "کنفدراسیون"
       },
       "wikidata": "Q83618",
       "sources": [
         {
           "title": "Maratha Empire — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Maratha_Empire"
-        },
-        {
-          "title": "Maratha Empire — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q83618"
         }
       ]
     },
@@ -97,21 +97,25 @@
         "en": "British Raj",
         "fa": "راج بریتانیا"
       },
+      "officialName": {
+        "en": "Indian Empire",
+        "fa": "امپراتوری هند"
+      },
       "start": 1858,
       "end": 1947,
+      "capital": {
+        "en": "Calcutta; Delhi from 1911",
+        "fa": "کلکته؛ از ۱۹۱۱ دهلی"
+      },
       "system": {
-        "en": "Constitutional monarchy",
-        "fa": "پادشاهی مشروطه"
+        "en": "British Crown rule",
+        "fa": "حکومت تاج بریتانیا"
       },
       "wikidata": "Q129286",
       "sources": [
         {
           "title": "British Raj — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/British_Raj"
-        },
-        {
-          "title": "British Raj — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q129286"
         }
       ]
     },
@@ -119,13 +123,21 @@
       "id": "dominion-of-india",
       "name": {
         "en": "Dominion of India",
-        "fa": "قلمرو هند"
+        "fa": "دومینیون هند"
+      },
+      "officialName": {
+        "en": "Union of India",
+        "fa": "اتحادیهٔ هند"
       },
       "start": 1947,
       "end": 1950,
       "capital": {
         "en": "New Delhi",
         "fa": "دهلی نو"
+      },
+      "system": {
+        "en": "Constitutional monarchy",
+        "fa": "پادشاهی مشروطه"
       },
       "wikidata": "Q1775277",
       "sources": [
@@ -134,22 +146,30 @@
           "url": "https://en.wikipedia.org/wiki/Dominion_of_India"
         },
         {
-          "title": "Dominion of India — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1775277"
+          "title": "قلمرو هند — ویکی‌پدیا",
+          "url": "https://fa.wikipedia.org/wiki/قلمرو_هند"
         }
       ]
     },
     {
       "id": "republic-of-india",
       "name": {
-        "en": "India",
-        "fa": "هند"
+        "en": "Republic of India",
+        "fa": "جمهوری هند"
       },
-      "start": 1947,
+      "officialName": {
+        "en": "Republic of India",
+        "fa": "جمهوری هند"
+      },
+      "start": 1950,
       "end": null,
       "capital": {
         "en": "New Delhi",
         "fa": "دهلی نو"
+      },
+      "system": {
+        "en": "Federal parliamentary republic",
+        "fa": "جمهوری فدرال پارلمانی"
       },
       "wikidata": "Q668",
       "sources": [
@@ -158,8 +178,8 @@
           "url": "https://en.wikipedia.org/wiki/India"
         },
         {
-          "title": "India — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q668"
+          "title": "هند — ویکی‌پدیا",
+          "url": "https://fa.wikipedia.org/wiki/هند"
         }
       ]
     }
@@ -169,7 +189,7 @@
       "id": "a-p-j-abdul-kalam",
       "name": {
         "en": "A. P. J. Abdul Kalam",
-        "fa": "ابوبکر زینالعابدین عبدالکلام"
+        "fa": "ای. پی. جی. عبدالکلام"
       },
       "born": 1931,
       "died": 2015,
@@ -228,7 +248,7 @@
     {
       "id": "bahadur-shah-ii",
       "name": {
-        "en": "Bahadur Shah Zafar",
+        "en": "Bahadur Shah II",
         "fa": "بهادر شاه دوم"
       },
       "born": 1775,
@@ -240,7 +260,7 @@
           "url": "https://en.wikipedia.org/wiki/Bahadur_Shah_Zafar"
         },
         {
-          "title": "Bahadur Shah Zafar — Wikidata",
+          "title": "Bahadur Shah II — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q127369"
         }
       ]
@@ -863,8 +883,8 @@
     {
       "id": "victoria",
       "name": {
-        "en": "Queen Victoria",
-        "fa": "ملکه ویکتوریا"
+        "en": "Victoria",
+        "fa": "ویکتوریا"
       },
       "born": 1819,
       "died": 1901,
@@ -875,7 +895,7 @@
           "url": "https://en.wikipedia.org/wiki/Queen_Victoria"
         },
         {
-          "title": "Queen Victoria — Wikidata",
+          "title": "Victoria — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q9439"
         }
       ]
@@ -1013,22 +1033,34 @@
     {
       "person": "shah-alam-ii",
       "state": "mughal-empire",
-      "start": 1789,
-      "end": 1806,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Mughal Emperor",
+        "fa": "امپراتور گورکانی"
       },
-      "exactEnd": "1806-11-19",
+      "start": 1760,
+      "end": 1788,
       "sources": [
         {
           "title": "Shah Alam II — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Shah_Alam_II"
-        },
+        }
+      ]
+    },
+    {
+      "person": "shah-alam-ii",
+      "state": "mughal-empire",
+      "office": "head-of-state",
+      "title": {
+        "en": "Mughal Emperor",
+        "fa": "امپراتور گورکانی"
+      },
+      "start": 1788,
+      "end": 1806,
+      "sources": [
         {
-          "title": "Shah Alam II — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q719449"
+          "title": "Shah Alam II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shah_Alam_II"
         }
       ]
     },
@@ -1039,8 +1071,8 @@
       "end": 1837,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Mughal Emperor",
+        "fa": "امپراتور گورکانی"
       },
       "exactStart": "1806-11-19",
       "exactEnd": "1837-09-28",
@@ -1062,8 +1094,8 @@
       "end": 1857,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Mughal Emperor",
+        "fa": "امپراتور گورکانی"
       },
       "exactStart": "1837-09-28",
       "exactEnd": "1857-09-21",
@@ -1073,7 +1105,7 @@
           "url": "https://en.wikipedia.org/wiki/Bahadur_Shah_Zafar"
         },
         {
-          "title": "Bahadur Shah Zafar — Wikidata",
+          "title": "Bahadur Shah II — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q127369"
         }
       ]
@@ -1081,23 +1113,34 @@
     {
       "person": "victoria",
       "state": "british-raj",
-      "start": 1876,
-      "end": 1901,
       "office": "head-of-state",
       "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
+        "en": "Queen",
+        "fa": "ملکه"
       },
-      "exactStart": "1876-05-01",
-      "exactEnd": "1901-01-22",
+      "start": 1858,
+      "end": 1876,
       "sources": [
         {
           "title": "Queen Victoria — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Queen_Victoria"
-        },
+        }
+      ]
+    },
+    {
+      "person": "victoria",
+      "state": "british-raj",
+      "office": "head-of-state",
+      "title": {
+        "en": "Empress of India",
+        "fa": "امپراتریس هند"
+      },
+      "start": 1876,
+      "end": 1901,
+      "sources": [
         {
-          "title": "Queen Victoria — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q9439"
+          "title": "Queen Victoria — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Queen_Victoria"
         }
       ]
     },
@@ -1108,8 +1151,8 @@
       "end": 1910,
       "office": "head-of-state",
       "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
+        "en": "Emperor of India",
+        "fa": "امپراتور هند"
       },
       "exactStart": "1901-01-22",
       "exactEnd": "1910-05-06",
@@ -1131,8 +1174,8 @@
       "end": 1936,
       "office": "head-of-state",
       "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
+        "en": "Emperor of India",
+        "fa": "امپراتور هند"
       },
       "exactStart": "1910-05-06",
       "exactEnd": "1936-01-20",
@@ -1154,8 +1197,8 @@
       "end": 1936,
       "office": "head-of-state",
       "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
+        "en": "Emperor of India",
+        "fa": "امپراتور هند"
       },
       "exactStart": "1936-01-20",
       "exactEnd": "1936-12-11",
@@ -1177,33 +1220,10 @@
       "end": 1947,
       "office": "head-of-state",
       "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
+        "en": "Emperor of India",
+        "fa": "امپراتور هند"
       },
       "exactStart": "1936-12-11",
-      "sources": [
-        {
-          "title": "George VI — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/George_VI"
-        },
-        {
-          "title": "George VI — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q280856"
-        }
-      ]
-    },
-    {
-      "person": "george-vi",
-      "state": "dominion-of-india",
-      "start": 1947,
-      "end": 1950,
-      "office": "head-of-state",
-      "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
-      },
-      "exactStart": "1947-08-15",
-      "exactEnd": "1950-01-26",
       "sources": [
         {
           "title": "George VI — Wikipedia",
@@ -1239,6 +1259,29 @@
       ]
     },
     {
+      "person": "george-vi",
+      "state": "dominion-of-india",
+      "start": 1947,
+      "end": 1950,
+      "office": "head-of-state",
+      "title": {
+        "en": "King of India",
+        "fa": "پادشاه هند"
+      },
+      "exactStart": "1947-08-15",
+      "exactEnd": "1950-01-26",
+      "sources": [
+        {
+          "title": "George VI — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_VI"
+        },
+        {
+          "title": "George VI — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q280856"
+        }
+      ]
+    },
+    {
       "person": "rajendra-prasad",
       "state": "republic-of-india",
       "start": 1950,
@@ -1246,7 +1289,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1950-01-26",
       "exactEnd": "1962-05-12",
@@ -1291,7 +1334,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1962-05-13",
       "exactEnd": "1967-05-13",
@@ -1406,7 +1449,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1967-05-13",
       "exactEnd": "1969-05-03",
@@ -1429,7 +1472,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1969-05-03",
       "exactEnd": "1974-08-24",
@@ -1452,7 +1495,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1974-08-24",
       "exactEnd": "1977-02-11",
@@ -1498,7 +1541,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1977-07-25",
       "exactEnd": "1982-07-25",
@@ -1567,7 +1610,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1982-07-25",
       "exactEnd": "1987-07-25",
@@ -1613,7 +1656,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1987-07-25",
       "exactEnd": "1992-07-25",
@@ -1705,7 +1748,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1992-07-25",
       "exactEnd": "1997-07-25",
@@ -1797,7 +1840,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1997-07-25",
       "exactEnd": "2002-07-25",
@@ -1843,7 +1886,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "2002-07-25",
       "exactEnd": "2007-07-25",
@@ -1889,7 +1932,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "2007-07-25",
       "exactEnd": "2012-07-25",
@@ -1912,7 +1955,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "2012-07-25",
       "exactEnd": "2017-07-25",
@@ -1957,7 +2000,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "2017-07-25",
       "exactEnd": "2022-07-25",
@@ -1980,7 +2023,7 @@
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "2022-07-25",
       "sources": [
@@ -2014,7 +2057,9 @@
           "title": "Flag of the British East India Company (1801).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_British_East_India_Company_%281801%29.svg"
         }
-      ]
+      ],
+      "sha1": "2ad0dcb817a04c06526c05f575f19fe0f19ead05",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "maratha-confederacy",
@@ -2030,7 +2075,9 @@
           "title": "Flag of the Maratha Empire.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Maratha_Empire.svg"
         }
-      ]
+      ],
+      "sha1": "4e319030a8207a84dbf853c76ceeedcd8659417d",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "british-raj",
@@ -2050,7 +2097,9 @@
           "title": "British Raj Red Ensign.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:British_Raj_Red_Ensign.svg"
         }
-      ]
+      ],
+      "sha1": "df0d4e8729b043b8452736e5af4f384f3a0dd193",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "dominion-of-india",
@@ -2066,7 +2115,9 @@
           "title": "Flag of India.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_India.svg"
         }
-      ]
+      ],
+      "sha1": "e69ebcb30211f4f175bd61942547946a97c7340e",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "republic-of-india",
@@ -2082,7 +2133,9 @@
           "title": "Flag of India.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_India.svg"
         }
-      ]
+      ],
+      "sha1": "e69ebcb30211f4f175bd61942547946a97c7340e",
+      "retrieved": "2026-11-16"
     }
   ]
 }

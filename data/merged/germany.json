@@ -27,15 +27,15 @@
       },
       "start": 962,
       "end": 1806,
+      "system": {
+        "en": "Elective monarchy",
+        "fa": "پادشاهی انتخابی"
+      },
       "wikidata": "Q12548",
       "sources": [
         {
           "title": "Holy Roman Empire — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Holy_Roman_Empire"
-        },
-        {
-          "title": "Holy Roman Empire — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q12548"
         }
       ]
     },
@@ -47,19 +47,19 @@
       },
       "start": 1806,
       "end": 1813,
+      "capital": {
+        "en": "Frankfurt",
+        "fa": "فرانکفورت"
+      },
       "system": {
-        "en": "Confederation",
-        "fa": "کنفدراسیون"
+        "en": "Confederation of French client states",
+        "fa": "کنفدراسیون دولت‌های وابسته به فرانسه"
       },
       "wikidata": "Q154741",
       "sources": [
         {
           "title": "Confederation of the Rhine — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Confederation_of_the_Rhine"
-        },
-        {
-          "title": "Confederation of the Rhine — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q154741"
         }
       ]
     },
@@ -72,18 +72,18 @@
       "start": 1815,
       "end": 1866,
       "capital": {
-        "en": "Free City of Frankfurt",
-        "fa": "شهر آزاد فرانکفورت"
+        "en": "Frankfurt",
+        "fa": "فرانکفورت"
+      },
+      "system": {
+        "en": "Confederation of sovereign states",
+        "fa": "کنفدراسیون دولت‌های مستقل"
       },
       "wikidata": "Q151624",
       "sources": [
         {
           "title": "German Confederation — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/German_Confederation"
-        },
-        {
-          "title": "German Confederation — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q151624"
         }
       ]
     },
@@ -91,27 +91,23 @@
       "id": "north-german-confederation",
       "name": {
         "en": "North German Confederation",
-        "fa": "کنفدراسیون شمال آلمان"
+        "fa": "کنفدراسیون آلمان شمالی"
       },
-      "start": 1867,
-      "end": 1870,
+      "start": 1866,
+      "end": 1871,
       "capital": {
         "en": "Berlin",
         "fa": "برلین"
       },
       "system": {
-        "en": "Federal republic",
-        "fa": "جمهوری فدرال"
+        "en": "Federal constitutional monarchy",
+        "fa": "پادشاهی مشروطهٔ فدرال"
       },
       "wikidata": "Q150981",
       "sources": [
         {
           "title": "North German Confederation — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/North_German_Confederation"
-        },
-        {
-          "title": "North German Confederation — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q150981"
         }
       ]
     },
@@ -128,18 +124,14 @@
         "fa": "برلین"
       },
       "system": {
-        "en": "Constitutional monarchy",
-        "fa": "پادشاهی مشروطه"
+        "en": "Federal constitutional monarchy",
+        "fa": "پادشاهی مشروطهٔ فدرال"
       },
       "wikidata": "Q43287",
       "sources": [
         {
           "title": "German Empire — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/German_Empire"
-        },
-        {
-          "title": "German Empire — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q43287"
         }
       ]
     },
@@ -149,6 +141,10 @@
         "en": "Weimar Republic",
         "fa": "جمهوری وایمار"
       },
+      "officialName": {
+        "en": "German Reich",
+        "fa": "رایش آلمان"
+      },
       "start": 1918,
       "end": 1933,
       "capital": {
@@ -156,18 +152,14 @@
         "fa": "برلین"
       },
       "system": {
-        "en": "Semi-presidential system",
-        "fa": "نظام نیمهریاستی"
+        "en": "Semi-presidential republic",
+        "fa": "جمهوری نیمه‌ریاستی"
       },
       "wikidata": "Q41304",
       "sources": [
         {
           "title": "Weimar Republic — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Weimar_Republic"
-        },
-        {
-          "title": "Weimar Republic — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q41304"
         }
       ]
     },
@@ -177,21 +169,25 @@
         "en": "Nazi Germany",
         "fa": "آلمان نازی"
       },
+      "officialName": {
+        "en": "German Reich",
+        "fa": "رایش آلمان"
+      },
       "start": 1933,
       "end": 1945,
       "capital": {
         "en": "Berlin",
         "fa": "برلین"
       },
+      "system": {
+        "en": "One-party totalitarian dictatorship",
+        "fa": "دیکتاتوری تمامیت‌خواه تک‌حزبی"
+      },
       "wikidata": "Q7318",
       "sources": [
         {
           "title": "Nazi Germany — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Nazi_Germany"
-        },
-        {
-          "title": "Nazi Germany — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q7318"
         }
       ]
     },
@@ -207,39 +203,39 @@
         "en": "Berlin",
         "fa": "برلین"
       },
+      "system": {
+        "en": "Military occupation by four powers",
+        "fa": "اشغال نظامی چهار قدرت"
+      },
       "wikidata": "Q2415901",
       "sources": [
         {
           "title": "Allied-occupied Germany — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Allied-occupied_Germany"
-        },
-        {
-          "title": "Allied-occupied Germany — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q2415901"
         }
       ]
     },
     {
       "id": "federal-republic-of-germany",
       "name": {
-        "en": "Germany",
-        "fa": "آلمان"
+        "en": "Federal Republic of Germany",
+        "fa": "جمهوری فدرال آلمان"
       },
       "start": 1949,
       "end": null,
+      "capital": {
+        "en": "Bonn; Berlin from 1990",
+        "fa": "بن؛ از ۱۹۹۰ برلین"
+      },
       "system": {
         "en": "Federal parliamentary republic",
-        "fa": "جمهوری پارلمانی فدرال"
+        "fa": "جمهوری فدرال پارلمانی"
       },
       "wikidata": "Q183",
       "sources": [
         {
           "title": "Germany — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Germany"
-        },
-        {
-          "title": "Germany — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q183"
         }
       ]
     },
@@ -249,21 +245,25 @@
         "en": "East Germany",
         "fa": "آلمان شرقی"
       },
+      "officialName": {
+        "en": "German Democratic Republic",
+        "fa": "جمهوری دموکراتیک آلمان"
+      },
       "start": 1949,
       "end": 1990,
       "capital": {
         "en": "East Berlin",
         "fa": "برلین شرقی"
       },
+      "system": {
+        "en": "One-party socialist republic",
+        "fa": "جمهوری سوسیالیستی تک‌حزبی"
+      },
       "wikidata": "Q16957",
       "sources": [
         {
           "title": "East Germany — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/East_Germany"
-        },
-        {
-          "title": "East Germany — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q16957"
         }
       ]
     }
@@ -332,7 +332,7 @@
       "id": "chlodwig-prince-of-hohenlohe-schillingsfurst",
       "name": {
         "en": "Chlodwig, Prince of Hohenlohe-Schillingsfürst",
-        "fa": "شلودویگ"
+        "fa": "شلودویگ، شاهزاده هوهنلوهه-شیلینگسفورست"
       },
       "born": 1819,
       "died": 1901,
@@ -429,7 +429,7 @@
     {
       "id": "francis-ii",
       "name": {
-        "en": "Francis II, Holy Roman Emperor",
+        "en": "Francis II",
         "fa": "فرانتس دوم"
       },
       "born": 1768,
@@ -441,7 +441,7 @@
           "url": "https://en.wikipedia.org/wiki/Francis_II%2C_Holy_Roman_Emperor"
         },
         {
-          "title": "Francis II, Holy Roman Emperor — Wikidata",
+          "title": "Francis II — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q130834"
         }
       ]
@@ -450,7 +450,7 @@
       "id": "frank-walter-steinmeier",
       "name": {
         "en": "Frank-Walter Steinmeier",
-        "fa": "فرانک والتر اشتاینمایر"
+        "fa": "فرانک والتر اشتاین‌مایر"
       },
       "born": 1956,
       "wikidata": "Q76658",
@@ -506,30 +506,10 @@
       ]
     },
     {
-      "id": "friedrich-ebert-jr",
-      "name": {
-        "en": "Friedrich Ebert Jr.",
-        "fa": "فریدریش ابرت جونیور"
-      },
-      "born": 1894,
-      "died": 1979,
-      "wikidata": "Q61659",
-      "sources": [
-        {
-          "title": "Friedrich Ebert Jr. — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Friedrich_Ebert_Jr."
-        },
-        {
-          "title": "Friedrich Ebert Jr. — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q61659"
-        }
-      ]
-    },
-    {
       "id": "friedrich-iii",
       "name": {
-        "en": "Frederick III, German Emperor",
-        "fa": "فریدریش سوم، امپراتور آلمان"
+        "en": "Friedrich III",
+        "fa": "فریدریش سوم"
       },
       "born": 1831,
       "died": 1888,
@@ -540,7 +520,7 @@
           "url": "https://en.wikipedia.org/wiki/Frederick_III%2C_German_Emperor"
         },
         {
-          "title": "Frederick III, German Emperor — Wikidata",
+          "title": "Friedrich III — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q58600"
         }
       ]
@@ -570,8 +550,14 @@
         "en": "Georg Michaelis",
         "fa": "گئورگ میشائلیس"
       },
+      "born": 1857,
+      "died": 1936,
       "wikidata": "Q60115",
       "sources": [
+        {
+          "title": "Georg Michaelis — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Georg_Michaelis"
+        },
         {
           "title": "Georg Michaelis — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q60115"
@@ -1062,8 +1048,14 @@
         "en": "Leo von Caprivi",
         "fa": "لئو فون کاپریوی"
       },
+      "born": 1831,
+      "died": 1899,
       "wikidata": "Q10873",
       "sources": [
+        {
+          "title": "Leo von Caprivi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leo_von_Caprivi"
+        },
         {
           "title": "Leo von Caprivi — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q10873"
@@ -1073,8 +1065,8 @@
     {
       "id": "leopold-ii",
       "name": {
-        "en": "Leopold II, Holy Roman Emperor",
-        "fa": "لئوپولد دوم، امپراتور مقدس روم"
+        "en": "Leopold II",
+        "fa": "لئوپولد دوم"
       },
       "born": 1747,
       "died": 1792,
@@ -1085,7 +1077,7 @@
           "url": "https://en.wikipedia.org/wiki/Leopold_II%2C_Holy_Roman_Emperor"
         },
         {
-          "title": "Leopold II, Holy Roman Emperor — Wikidata",
+          "title": "Leopold II — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q151321"
         }
       ]
@@ -1166,6 +1158,26 @@
         {
           "title": "Manfred Gerlach — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q2601"
+        }
+      ]
+    },
+    {
+      "id": "napoleon",
+      "name": {
+        "en": "Napoleon",
+        "fa": "ناپلئون بناپارت"
+      },
+      "born": 1769,
+      "died": 1821,
+      "wikidata": "Q517",
+      "sources": [
+        {
+          "title": "Napoleon — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Napoleon"
+        },
+        {
+          "title": "Napoleon — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q517"
         }
       ]
     },
@@ -1333,8 +1345,14 @@
         "en": "Theobald von Bethmann Hollweg",
         "fa": "تئوبالت فون بتمان-هولوگ"
       },
+      "born": 1856,
+      "died": 1921,
       "wikidata": "Q77113",
       "sources": [
+        {
+          "title": "Theobald von Bethmann Hollweg — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Theobald_von_Bethmann_Hollweg"
+        },
         {
           "title": "Theobald von Bethmann Hollweg — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q77113"
@@ -1699,7 +1717,7 @@
     {
       "person": "joseph-ii",
       "state": "holy-roman-empire",
-      "start": 1789,
+      "start": 1765,
       "end": 1790,
       "office": "head-of-state",
       "title": {
@@ -1735,7 +1753,7 @@
           "url": "https://en.wikipedia.org/wiki/Leopold_II%2C_Holy_Roman_Emperor"
         },
         {
-          "title": "Leopold II, Holy Roman Emperor — Wikidata",
+          "title": "Leopold II — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q151321"
         }
       ]
@@ -1758,31 +1776,25 @@
           "url": "https://en.wikipedia.org/wiki/Francis_II%2C_Holy_Roman_Emperor"
         },
         {
-          "title": "Francis II, Holy Roman Emperor — Wikidata",
+          "title": "Francis II — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q130834"
         }
       ]
     },
     {
-      "person": "wilhelm-i",
-      "state": "north-german-confederation",
-      "start": 1867,
-      "end": 1870,
+      "person": "napoleon",
+      "state": "confederation-of-the-rhine",
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Protector",
+        "fa": "حامی"
       },
-      "exactStart": "1867-07-01",
-      "exactEnd": "1870-12-31",
+      "start": 1806,
+      "end": 1813,
       "sources": [
         {
-          "title": "Wilhelm I — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Wilhelm_I"
-        },
-        {
-          "title": "Wilhelm I — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q150652"
+          "title": "Napoleon — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Napoleon"
         }
       ]
     },
@@ -1805,24 +1817,35 @@
     },
     {
       "person": "wilhelm-i",
-      "state": "german-empire",
-      "start": 1871,
-      "end": 1888,
+      "state": "north-german-confederation",
       "office": "head-of-state",
       "title": {
-        "en": "German Emperor",
-        "fa": "قیصر"
+        "en": "President of the Confederation",
+        "fa": "رئیس کنفدراسیون"
       },
-      "exactStart": "1871-01-01",
-      "exactEnd": "1888-03-09",
+      "start": 1867,
+      "end": 1871,
       "sources": [
         {
           "title": "Wilhelm I — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Wilhelm_I"
-        },
+        }
+      ]
+    },
+    {
+      "person": "wilhelm-i",
+      "state": "german-empire",
+      "office": "head-of-state",
+      "title": {
+        "en": "German Emperor",
+        "fa": "امپراتور آلمان"
+      },
+      "start": 1871,
+      "end": 1888,
+      "sources": [
         {
-          "title": "Wilhelm I — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q150652"
+          "title": "Wilhelm I — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_I"
         }
       ]
     },
@@ -1851,7 +1874,7 @@
       "office": "head-of-state",
       "title": {
         "en": "German Emperor",
-        "fa": "قیصر"
+        "fa": "امپراتور آلمان"
       },
       "exactStart": "1888-03-09",
       "exactEnd": "1888-06-15",
@@ -1861,7 +1884,7 @@
           "url": "https://en.wikipedia.org/wiki/Frederick_III%2C_German_Emperor"
         },
         {
-          "title": "Frederick III, German Emperor — Wikidata",
+          "title": "Friedrich III — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q58600"
         }
       ]
@@ -1874,7 +1897,7 @@
       "office": "head-of-state",
       "title": {
         "en": "German Emperor",
-        "fa": "قیصر"
+        "fa": "امپراتور آلمان"
       },
       "exactStart": "1888-06-15",
       "exactEnd": "1918-11-09",
@@ -2085,8 +2108,8 @@
       "end": 1925,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور رایش"
+        "en": "Reich President",
+        "fa": "رئیس‌جمهور رایش"
       },
       "exactStart": "1919-02-11",
       "exactEnd": "1925-02-28",
@@ -2269,8 +2292,8 @@
       "end": 1933,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور رایش"
+        "en": "Reich President",
+        "fa": "رئیس‌جمهور رایش"
       },
       "exactStart": "1925-05-12",
       "sources": [
@@ -2406,8 +2429,8 @@
       "end": 1934,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور رایش"
+        "en": "Reich President",
+        "fa": "رئیس‌جمهور رایش"
       },
       "exactEnd": "1934-08-02",
       "sources": [
@@ -2451,8 +2474,8 @@
       "end": 1945,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور رایش"
+        "en": "Führer and Reich Chancellor",
+        "fa": "پیشوا و صدراعظم رایش"
       },
       "exactStart": "1934-08-02",
       "exactEnd": "1945-04-30",
@@ -2491,52 +2514,6 @@
       ]
     },
     {
-      "person": "karl-donitz",
-      "state": "allied-occupied-germany",
-      "start": 1945,
-      "end": 1945,
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیسجمهور رایش"
-      },
-      "exactStart": "1945-04-30",
-      "exactEnd": "1945-05-23",
-      "sources": [
-        {
-          "title": "Karl Dönitz — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Karl_D%C3%B6nitz"
-        },
-        {
-          "title": "Karl Dönitz — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q76437"
-        }
-      ]
-    },
-    {
-      "person": "karl-donitz",
-      "state": "nazi-germany",
-      "start": 1945,
-      "end": 1945,
-      "office": "head-of-state",
-      "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
-      },
-      "exactStart": "1945-04-30",
-      "exactEnd": "1945-05-23",
-      "sources": [
-        {
-          "title": "Karl Dönitz — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Karl_D%C3%B6nitz"
-        },
-        {
-          "title": "Karl Dönitz — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q76437"
-        }
-      ]
-    },
-    {
       "person": "lutz-graf-schwerin-von-krosigk",
       "state": "allied-occupied-germany",
       "start": 1945,
@@ -2560,14 +2537,31 @@
       ]
     },
     {
+      "person": "karl-donitz",
+      "state": "nazi-germany",
+      "office": "head-of-state",
+      "title": {
+        "en": "Reich President",
+        "fa": "رئیس‌جمهور رایش"
+      },
+      "start": 1945,
+      "end": 1945,
+      "sources": [
+        {
+          "title": "Karl Dönitz — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Karl_Dönitz"
+        }
+      ]
+    },
+    {
       "person": "theodor-heuss",
       "state": "federal-republic-of-germany",
       "start": 1949,
       "end": 1959,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "Federal President",
+        "fa": "رئیس‌جمهور فدرال"
       },
       "exactStart": "1949-09-12",
       "exactEnd": "1959-09-12",
@@ -2589,8 +2583,8 @@
       "end": 1960,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "President",
+        "fa": "رئیس‌جمهور"
       },
       "exactStart": "1949-10-11",
       "exactEnd": "1960-09-07",
@@ -2658,8 +2652,8 @@
       "end": 1969,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "Federal President",
+        "fa": "رئیس‌جمهور فدرال"
       },
       "exactStart": "1959-09-13",
       "exactEnd": "1969-06-30",
@@ -2681,8 +2675,8 @@
       "end": 1973,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Chairman of the State Council",
+        "fa": "رئیس شورای دولتی"
       },
       "exactStart": "1960-09-12",
       "exactEnd": "1973-08-01",
@@ -2765,29 +2759,6 @@
       ]
     },
     {
-      "person": "gustav-heinemann",
-      "state": "federal-republic-of-germany",
-      "start": 1969,
-      "end": 1974,
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
-      },
-      "exactStart": "1969-07-01",
-      "exactEnd": "1974-06-30",
-      "sources": [
-        {
-          "title": "Gustav Heinemann — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Gustav_Heinemann"
-        },
-        {
-          "title": "Gustav Heinemann — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q2573"
-        }
-      ]
-    },
-    {
       "person": "willy-brandt",
       "state": "federal-republic-of-germany",
       "start": 1969,
@@ -2811,25 +2782,25 @@
       ]
     },
     {
-      "person": "friedrich-ebert-jr",
-      "state": "east-germany",
-      "start": 1973,
-      "end": 1973,
+      "person": "gustav-heinemann",
+      "state": "federal-republic-of-germany",
+      "start": 1969,
+      "end": 1974,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Federal President",
+        "fa": "رئیس‌جمهور فدرال"
       },
-      "exactStart": "1973-08-01",
-      "exactEnd": "1973-10-03",
+      "exactStart": "1969-07-01",
+      "exactEnd": "1974-06-30",
       "sources": [
         {
-          "title": "Friedrich Ebert Jr. — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Friedrich_Ebert_Jr."
+          "title": "Gustav Heinemann — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gustav_Heinemann"
         },
         {
-          "title": "Friedrich Ebert Jr. — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q61659"
+          "title": "Gustav Heinemann — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2573"
         }
       ]
     },
@@ -2861,8 +2832,8 @@
       "end": 1976,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Chairman of the State Council",
+        "fa": "رئیس شورای دولتی"
       },
       "exactStart": "1973-10-03",
       "exactEnd": "1976-10-29",
@@ -2881,34 +2852,11 @@
       "person": "walter-scheel",
       "state": "federal-republic-of-germany",
       "start": 1974,
-      "end": 1974,
-      "office": "head-of-government",
-      "title": {
-        "en": "Chancellor",
-        "fa": "صدراعظم"
-      },
-      "exactStart": "1974-05-07",
-      "exactEnd": "1974-05-16",
-      "sources": [
-        {
-          "title": "Walter Scheel — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Walter_Scheel"
-        },
-        {
-          "title": "Walter Scheel — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q2571"
-        }
-      ]
-    },
-    {
-      "person": "walter-scheel",
-      "state": "federal-republic-of-germany",
-      "start": 1974,
       "end": 1979,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "Federal President",
+        "fa": "رئیس‌جمهور فدرال"
       },
       "exactStart": "1974-07-01",
       "exactEnd": "1979-06-30",
@@ -2947,29 +2895,6 @@
       ]
     },
     {
-      "person": "erich-honecker",
-      "state": "east-germany",
-      "start": 1976,
-      "end": 1989,
-      "office": "head-of-state",
-      "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
-      },
-      "exactStart": "1976-10-29",
-      "exactEnd": "1989-10-24",
-      "sources": [
-        {
-          "title": "Erich Honecker — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Erich_Honecker"
-        },
-        {
-          "title": "Erich Honecker — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q2607"
-        }
-      ]
-    },
-    {
       "person": "willi-stoph",
       "state": "east-germany",
       "start": 1976,
@@ -2991,14 +2916,37 @@
       ]
     },
     {
+      "person": "erich-honecker",
+      "state": "east-germany",
+      "start": 1976,
+      "end": 1989,
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the State Council",
+        "fa": "رئیس شورای دولتی"
+      },
+      "exactStart": "1976-10-29",
+      "exactEnd": "1989-10-24",
+      "sources": [
+        {
+          "title": "Erich Honecker — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Erich_Honecker"
+        },
+        {
+          "title": "Erich Honecker — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2607"
+        }
+      ]
+    },
+    {
       "person": "karl-carstens",
       "state": "federal-republic-of-germany",
       "start": 1979,
       "end": 1984,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "Federal President",
+        "fa": "رئیس‌جمهور فدرال"
       },
       "exactStart": "1979-07-01",
       "exactEnd": "1984-06-30",
@@ -3043,8 +2991,8 @@
       "end": 1994,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "Federal President",
+        "fa": "رئیس‌جمهور فدرال"
       },
       "exactStart": "1984-07-01",
       "exactEnd": "1994-06-30",
@@ -3066,8 +3014,8 @@
       "end": 1989,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Chairman of the State Council",
+        "fa": "رئیس شورای دولتی"
       },
       "exactStart": "1989-10-24",
       "exactEnd": "1989-12-06",
@@ -3110,8 +3058,8 @@
       "end": 1990,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "Chairman of the State Council",
+        "fa": "رئیس شورای دولتی"
       },
       "exactStart": "1989-12-06",
       "exactEnd": "1990-04-05",
@@ -3154,8 +3102,8 @@
       "end": 1990,
       "office": "head-of-state",
       "title": {
-        "en": "Head of state",
-        "fa": "رئیس کشور"
+        "en": "President of the People's Chamber (head of state)",
+        "fa": "رئیس مجلس خلق (رئیس کشور)"
       },
       "exactStart": "1990-04-05",
       "exactEnd": "1990-10-02",
@@ -3177,8 +3125,8 @@
       "end": 1999,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "Federal President",
+        "fa": "رئیس‌جمهور فدرال"
       },
       "exactStart": "1994-07-01",
       "exactEnd": "1999-06-30",
@@ -3223,8 +3171,8 @@
       "end": 2004,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "Federal President",
+        "fa": "رئیس‌جمهور فدرال"
       },
       "exactStart": "1999-07-01",
       "exactEnd": "2004-06-30",
@@ -3246,8 +3194,8 @@
       "end": 2010,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "Federal President",
+        "fa": "رئیس‌جمهور فدرال"
       },
       "exactStart": "2004-07-01",
       "exactEnd": "2010-05-31",
@@ -3292,8 +3240,8 @@
       "end": 2012,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "Federal President",
+        "fa": "رئیس‌جمهور فدرال"
       },
       "exactStart": "2010-06-30",
       "exactEnd": "2012-02-17",
@@ -3315,8 +3263,8 @@
       "end": 2017,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "Federal President",
+        "fa": "رئیس‌جمهور فدرال"
       },
       "exactStart": "2012-03-18",
       "exactEnd": "2017-03-18",
@@ -3338,8 +3286,8 @@
       "end": null,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "Federal President",
+        "fa": "رئیس‌جمهور فدرال"
       },
       "exactStart": "2017-03-19",
       "sources": [
@@ -3411,7 +3359,6 @@
       "end": 1806,
       "certainty": "reconstructed",
       "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "attribution": "David Liuzzo, eagle by N3MO",
       "withheld": false,
       "sources": [
@@ -3419,7 +3366,10 @@
           "title": "Banner of the Holy Roman Emperor with haloes (1430-1806).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Banner_of_the_Holy_Roman_Emperor_with_haloes_%281430-1806%29.svg"
         }
-      ]
+      ],
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sha1": "d2f3d0bb900f561438ab204c3721ee3935d0dd87",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "north-german-confederation",
@@ -3435,7 +3385,9 @@
           "title": "Flag of Germany (1867–1918).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_%281867%E2%80%931918%29.svg"
         }
-      ]
+      ],
+      "sha1": "59fe0e22197ef0fa883aeb99f3122f686633d350",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "german-empire",
@@ -3451,7 +3403,9 @@
           "title": "Flag of Germany (1867–1918).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_%281867%E2%80%931918%29.svg"
         }
-      ]
+      ],
+      "sha1": "59fe0e22197ef0fa883aeb99f3122f686633d350",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "weimar-republic",
@@ -3467,7 +3421,9 @@
           "title": "Flag of Germany (3-2).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_%283-2%29.svg"
         }
-      ]
+      ],
+      "sha1": "f61067178038983bcdb0c07c889284eaa1a778fe",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "nazi-germany",
@@ -3483,7 +3439,9 @@
           "title": "Flag of Germany (1933–1935).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_%281933%E2%80%931935%29.svg"
         }
-      ]
+      ],
+      "sha1": "0c7beacb540a38f3b07b77da86986818fd025567",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "nazi-germany",
@@ -3499,7 +3457,9 @@
           "title": "Flag of Germany (1935–1945).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_%281935%E2%80%931945%29.svg"
         }
-      ]
+      ],
+      "sha1": "5874c48f937a9eb432942823af91a4d864793ed1",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "allied-occupied-germany",
@@ -3519,7 +3479,9 @@
           "title": "Merchant flag of Germany (1946–1949).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Merchant_flag_of_Germany_%281946%E2%80%931949%29.svg"
         }
-      ]
+      ],
+      "sha1": "8f19eed82cd555d38167daa25b992f78d4034f04",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "federal-republic-of-germany",
@@ -3535,7 +3497,9 @@
           "title": "Flag of Germany.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany.svg"
         }
-      ]
+      ],
+      "sha1": "c48217a5ca039133249c04c1e4248af6e2021020",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "east-germany",
@@ -3551,7 +3515,9 @@
           "title": "Flag of Germany.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany.svg"
         }
-      ]
+      ],
+      "sha1": "c48217a5ca039133249c04c1e4248af6e2021020",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "east-germany",
@@ -3567,7 +3533,9 @@
           "title": "Flag of the German Democratic Republic.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg"
         }
-      ]
+      ],
+      "sha1": "ab7abbc699a9e0a59e5e590f2a538755aff6ad44",
+      "retrieved": "2026-11-16"
     }
   ]
 }

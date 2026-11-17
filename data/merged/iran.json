@@ -47,21 +47,26 @@
         "en": "Qajar Iran",
         "fa": "ایران قاجاری"
       },
+      "officialName": {
+        "en": "Sublime State of Iran",
+        "fa": "دولت علیّهٔ ایران"
+      },
+      "localName": "دولت علیّهٔ ایران",
       "start": 1789,
       "end": 1925,
       "capital": {
         "en": "Tehran",
         "fa": "تهران"
       },
+      "system": {
+        "en": "Absolute monarchy; constitutional monarchy from 1906",
+        "fa": "پادشاهی مطلقه؛ از ۱۹۰۶ پادشاهی مشروطه"
+      },
       "wikidata": "Q63158027",
       "sources": [
         {
           "title": "Qajar Iran — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Qajar_Iran"
-        },
-        {
-          "title": "Qajar Iran — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q63158027"
         }
       ]
     },
@@ -71,45 +76,51 @@
         "en": "Pahlavi Iran",
         "fa": "ایران پهلوی"
       },
+      "officialName": {
+        "en": "Imperial State of Iran",
+        "fa": "کشور شاهنشاهی ایران"
+      },
+      "localName": "کشور شاهنشاهی ایران",
       "start": 1925,
       "end": 1979,
       "capital": {
         "en": "Tehran",
         "fa": "تهران"
       },
+      "system": {
+        "en": "Constitutional monarchy",
+        "fa": "پادشاهی مشروطه"
+      },
       "wikidata": "Q107258515",
       "sources": [
         {
           "title": "Pahlavi Iran — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Pahlavi_Iran"
-        },
-        {
-          "title": "Pahlavi Iran — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q107258515"
         }
       ]
     },
     {
       "id": "islamic-republic-of-iran",
       "name": {
-        "en": "Iran",
-        "fa": "ایران"
+        "en": "Islamic Republic of Iran",
+        "fa": "جمهوری اسلامی ایران"
       },
+      "localName": "جمهوری اسلامی ایران",
       "start": 1979,
       "end": null,
       "capital": {
         "en": "Tehran",
         "fa": "تهران"
       },
+      "system": {
+        "en": "Islamic republic",
+        "fa": "جمهوری اسلامی"
+      },
       "wikidata": "Q794",
       "sources": [
         {
           "title": "Iran — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Iran"
-        },
-        {
-          "title": "Iran — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q794"
         }
       ]
     }
@@ -139,7 +150,7 @@
       "id": "abdol-majid-mirza",
       "name": {
         "en": "Abdol Majid Mirza",
-        "fa": "عبدالمجید عینالدوله"
+        "fa": "عبدالمجید عین‌الدوله"
       },
       "born": 1845,
       "died": 1927,
@@ -176,6 +187,26 @@
       ]
     },
     {
+      "id": "abolhassan-banisadr",
+      "name": {
+        "en": "Abolhassan Banisadr",
+        "fa": "ابوالحسن بنی‌صدر"
+      },
+      "born": 1933,
+      "died": 2021,
+      "wikidata": "Q273866",
+      "sources": [
+        {
+          "title": "Abolhassan Banisadr — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abolhassan_Banisadr"
+        },
+        {
+          "title": "Abolhassan Banisadr — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q273866"
+        }
+      ]
+    },
+    {
       "id": "agha-mohammad-khan-qajar",
       "name": {
         "en": "Agha Mohammad Khan Qajar",
@@ -199,7 +230,7 @@
       "id": "ahmad-matin-daftari",
       "name": {
         "en": "Ahmad Matin-Daftari",
-        "fa": "احمد متیندفتری"
+        "fa": "احمد متین‌دفتری"
       },
       "born": 1897,
       "died": 1971,
@@ -239,7 +270,7 @@
       "id": "ahmad-shah-qajar",
       "name": {
         "en": "Ahmad Shah Qajar",
-        "fa": "احمدشاه"
+        "fa": "احمدشاه قاجار"
       },
       "born": 1898,
       "died": 1930,
@@ -299,7 +330,7 @@
       "id": "ali-khamenei",
       "name": {
         "en": "Ali Khamenei",
-        "fa": "سید علی خامنهای"
+        "fa": "سید علی خامنه‌ای"
       },
       "born": 1939,
       "died": 2026,
@@ -319,7 +350,7 @@
       "id": "ali-razmara",
       "name": {
         "en": "Ali Razmara",
-        "fa": "حاجعلی رزمآرا"
+        "fa": "حاجعلی رزم‌آرا"
       },
       "born": 1901,
       "died": 1951,
@@ -459,7 +490,7 @@
       "id": "fath-ali-shah-qajar",
       "name": {
         "en": "Fath-Ali Shah Qajar",
-        "fa": "فتحعلیشاه"
+        "fa": "فتحعلی‌شاه قاجار"
       },
       "born": 1772,
       "died": 1834,
@@ -479,7 +510,7 @@
       "id": "fathollah-khan-akbar",
       "name": {
         "en": "Fathollah Khan Akbar",
-        "fa": "فتحالله خان اکبر"
+        "fa": "فتح‌الله خان اکبر"
       },
       "born": 1878,
       "died": 1947,
@@ -499,7 +530,7 @@
       "id": "fazlollah-zahedi",
       "name": {
         "en": "Fazlollah Zahedi",
-        "fa": "فضلالله زاهدی"
+        "fa": "فضل‌الله زاهدی"
       },
       "born": 1892,
       "died": 1963,
@@ -618,7 +649,7 @@
       "id": "hossein-qoli-nezam-al-saltaneh-mafi",
       "name": {
         "en": "Hossein-Qoli Nezam al-Saltaneh Mafi",
-        "fa": "حسینقلی نظامالسلطنه"
+        "fa": "حسینقلی نظام‌السلطنه"
       },
       "born": 1832,
       "died": 1908,
@@ -657,7 +688,7 @@
       "id": "jafar-sharif-emami",
       "name": {
         "en": "Jafar Sharif-Emami",
-        "fa": "جعفر شریفامامی"
+        "fa": "جعفر شریف‌امامی"
       },
       "born": 1910,
       "died": 1998,
@@ -676,8 +707,8 @@
     {
       "id": "lotf-ali-khan-zand",
       "name": {
-        "en": "Lotf Ali Khan",
-        "fa": "لطفعلیخان زند"
+        "en": "Lotf Ali Khan Zand",
+        "fa": "لطفعلی‌خان زند"
       },
       "born": 1769,
       "died": 1794,
@@ -688,7 +719,7 @@
           "url": "https://en.wikipedia.org/wiki/Lotf_Ali_Khan"
         },
         {
-          "title": "Lotf Ali Khan — Wikidata",
+          "title": "Lotf Ali Khan Zand — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q15859"
         }
       ]
@@ -697,7 +728,7 @@
       "id": "mahmoud-ahmadinejad",
       "name": {
         "en": "Mahmoud Ahmadinejad",
-        "fa": "محمود احمدینژاد"
+        "fa": "محمود احمدی‌نژاد"
       },
       "born": 1956,
       "wikidata": "Q34448",
@@ -795,7 +826,7 @@
       "id": "mehdi-qoli-hedayat",
       "name": {
         "en": "Mehdi Qoli Hedayat",
-        "fa": "مهدیقلی هدایت"
+        "fa": "مهدی‌قلی هدایت"
       },
       "born": 1863,
       "died": 1955,
@@ -834,7 +865,7 @@
       "id": "mirza-ali-asghar-khan-amin-al-soltan",
       "name": {
         "en": "Mirza Ali Asghar Khan Amin al-Soltan",
-        "fa": "میرزا علیاصغر اتابک"
+        "fa": "میرزا علی‌اصغر اتابک"
       },
       "born": 1858,
       "died": 1907,
@@ -854,7 +885,7 @@
       "id": "mirza-ali-khan-amin-od-dowleh",
       "name": {
         "en": "Mirza Ali Khan Amin od-Dowleh",
-        "fa": "علی امینالدوله"
+        "fa": "علی امین‌الدوله"
       },
       "born": 1844,
       "died": 1904,
@@ -894,7 +925,7 @@
       "id": "mirza-hosein-khan-sepahsalar",
       "name": {
         "en": "Mirza Hosein Khan Sepahsalar",
-        "fa": "میرزا حسینخان سپهسالار"
+        "fa": "میرزا حسین‌خان سپهسالار"
       },
       "born": 1828,
       "died": 1881,
@@ -954,7 +985,7 @@
       "id": "mohammad-ali-shah-qajar",
       "name": {
         "en": "Mohammad Ali Shah Qajar",
-        "fa": "محمدعلیشاه"
+        "fa": "محمدعلی‌شاه قاجار"
       },
       "born": 1872,
       "died": 1925,
@@ -1006,25 +1037,6 @@
         {
           "title": "Mohammad Khatami — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q180795"
-        }
-      ]
-    },
-    {
-      "id": "mohammad-mokhber",
-      "name": {
-        "en": "Mohammad Mokhber",
-        "fa": "محمد مخبر"
-      },
-      "born": 1955,
-      "wikidata": "Q5703610",
-      "sources": [
-        {
-          "title": "Mohammad Mokhber — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mohammad_Mokhber"
-        },
-        {
-          "title": "Mohammad Mokhber — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5703610"
         }
       ]
     },
@@ -1092,7 +1104,7 @@
       "id": "mohammad-saed",
       "name": {
         "en": "Mohammad Sa'ed",
-        "fa": "محمد ساعد مراغهای"
+        "fa": "محمد ساعد مراغه‌ای"
       },
       "born": 1881,
       "died": 1973,
@@ -1112,7 +1124,7 @@
       "id": "mohammad-shah-qajar",
       "name": {
         "en": "Mohammad Shah Qajar",
-        "fa": "محمدشاه"
+        "fa": "محمدشاه قاجار"
       },
       "born": 1808,
       "died": 1848,
@@ -1152,7 +1164,7 @@
       "id": "mojtaba-khamenei",
       "name": {
         "en": "Mojtaba Khamenei",
-        "fa": "سید مجتبی خامنهای"
+        "fa": "سید مجتبی خامنه‌ای"
       },
       "born": 1969,
       "wikidata": "Q2919350",
@@ -1171,7 +1183,7 @@
       "id": "morteza-qoli-bayat",
       "name": {
         "en": "Morteza-Qoli Bayat",
-        "fa": "مرتضیقلی بیات"
+        "fa": "مرتضی‌قلی بیات"
       },
       "born": 1882,
       "died": 1955,
@@ -1191,7 +1203,7 @@
       "id": "mostowfi-ol-mamalek",
       "name": {
         "en": "Mostowfi ol-Mamalek",
-        "fa": "حسن مستوفیالممالک"
+        "fa": "حسن مستوفی‌الممالک"
       },
       "born": 1875,
       "died": 1932,
@@ -1211,7 +1223,7 @@
       "id": "mozaffar-ad-din-shah-qajar",
       "name": {
         "en": "Mozaffar ad-Din Shah Qajar",
-        "fa": "مظفرالدینشاه"
+        "fa": "مظفرالدین‌شاه قاجار"
       },
       "born": 1853,
       "died": 1907,
@@ -1231,7 +1243,7 @@
       "id": "najaf-qoli-khan-bakhtiari",
       "name": {
         "en": "Najaf-Qoli Khan Bakhtiari",
-        "fa": "صمصامالسلطنه"
+        "fa": "صمصام‌السلطنه"
       },
       "born": 1851,
       "died": 1930,
@@ -1251,7 +1263,7 @@
       "id": "naser-al-din-shah-qajar",
       "name": {
         "en": "Naser al-Din Shah Qajar",
-        "fa": "ناصرالدینشاه"
+        "fa": "ناصرالدین‌شاه قاجار"
       },
       "born": 1831,
       "died": 1896,
@@ -1311,7 +1323,7 @@
       "id": "ruhollah-khomeini",
       "name": {
         "en": "Ruhollah Khomeini",
-        "fa": "سید روحالله خمینی"
+        "fa": "سید روح‌الله خمینی"
       },
       "born": 1900,
       "died": 1989,
@@ -1350,7 +1362,7 @@
       "id": "vosugh-od-dowleh",
       "name": {
         "en": "Vosugh od-Dowleh",
-        "fa": "وثوقالدوله"
+        "fa": "وثوق‌الدوله"
       },
       "born": 1868,
       "died": 1951,
@@ -1448,14 +1460,15 @@
   "terms": [
     {
       "person": "jafar-khan-zand",
-      "state": "qajar-iran",
-      "start": 1789,
+      "state": "zand-iran",
+      "start": 1785,
       "end": 1789,
       "office": "head-of-state",
       "title": {
-        "en": "Shah",
-        "fa": "شاه"
+        "en": "Zand ruler",
+        "fa": "فرمانروای زند"
       },
+      "exactStart": "1785-02-18",
       "exactEnd": "1789-01-23",
       "sources": [
         {
@@ -1470,13 +1483,13 @@
     },
     {
       "person": "seyd-morad-khan",
-      "state": "qajar-iran",
+      "state": "zand-iran",
       "start": 1789,
       "end": 1789,
       "office": "head-of-state",
       "title": {
-        "en": "Shah",
-        "fa": "شاه"
+        "en": "Zand ruler",
+        "fa": "فرمانروای زند"
       },
       "exactStart": "1789-01-23",
       "exactEnd": "1789-05-10",
@@ -1493,13 +1506,13 @@
     },
     {
       "person": "lotf-ali-khan-zand",
-      "state": "qajar-iran",
+      "state": "zand-iran",
       "start": 1789,
       "end": 1794,
       "office": "head-of-state",
       "title": {
-        "en": "Shah",
-        "fa": "شاه"
+        "en": "Zand ruler",
+        "fa": "فرمانروای زند"
       },
       "exactStart": "1789-01-23",
       "exactEnd": "1794-03-20",
@@ -1509,7 +1522,7 @@
           "url": "https://en.wikipedia.org/wiki/Lotf_Ali_Khan"
         },
         {
-          "title": "Lotf Ali Khan — Wikidata",
+          "title": "Lotf Ali Khan Zand — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q15859"
         }
       ]
@@ -1665,19 +1678,14 @@
     {
       "person": "mirza-ali-asghar-khan-amin-al-soltan",
       "state": "qajar-iran",
-      "start": 1888,
-      "end": 1896,
       "office": "head-of-government",
       "title": {
         "en": "Grand Vizier",
         "fa": "صدراعظم"
       },
-      "exactEnd": "1896-11-22",
+      "start": 1888,
+      "end": 1896,
       "sources": [
-        {
-          "title": "Mirza Ali Asghar Khan Amin al-Soltan — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mirza_Ali_Asghar_Khan_Amin_al-Soltan"
-        },
         {
           "title": "Mirza Ali Asghar Khan Amin al-Soltan — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q957636"
@@ -1733,20 +1741,14 @@
     {
       "person": "mirza-ali-asghar-khan-amin-al-soltan",
       "state": "qajar-iran",
-      "start": 1898,
-      "end": 1903,
       "office": "head-of-government",
       "title": {
         "en": "Grand Vizier",
         "fa": "صدراعظم"
       },
-      "exactStart": "1898-08-11",
-      "exactEnd": "1903-09-15",
+      "start": 1898,
+      "end": 1903,
       "sources": [
-        {
-          "title": "Mirza Ali Asghar Khan Amin al-Soltan — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mirza_Ali_Asghar_Khan_Amin_al-Soltan"
-        },
         {
           "title": "Mirza Ali Asghar Khan Amin al-Soltan — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q957636"
@@ -1756,20 +1758,14 @@
     {
       "person": "abdol-majid-mirza",
       "state": "qajar-iran",
-      "start": 1904,
-      "end": 1906,
       "office": "head-of-government",
       "title": {
         "en": "Grand Vizier",
         "fa": "صدراعظم"
       },
-      "exactStart": "1904-01",
-      "exactEnd": "1906-07",
+      "start": 1904,
+      "end": 1906,
       "sources": [
-        {
-          "title": "Abdol Majid Mirza — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Abdol_Majid_Mirza"
-        },
         {
           "title": "Abdol Majid Mirza — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q308247"
@@ -1779,20 +1775,14 @@
     {
       "person": "mirza-ali-asghar-khan-amin-al-soltan",
       "state": "qajar-iran",
-      "start": 1907,
-      "end": 1907,
       "office": "head-of-government",
       "title": {
         "en": "Prime Minister",
         "fa": "نخست‌وزیر"
       },
-      "exactStart": "1907-05-01",
-      "exactEnd": "1907-08-31",
+      "start": 1907,
+      "end": 1907,
       "sources": [
-        {
-          "title": "Mirza Ali Asghar Khan Amin al-Soltan — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mirza_Ali_Asghar_Khan_Amin_al-Soltan"
-        },
         {
           "title": "Mirza Ali Asghar Khan Amin al-Soltan — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q957636"
@@ -1940,20 +1930,14 @@
     {
       "person": "abdol-majid-mirza",
       "state": "qajar-iran",
-      "start": 1915,
-      "end": 1915,
       "office": "head-of-government",
       "title": {
         "en": "Prime Minister",
         "fa": "نخست‌وزیر"
       },
-      "exactStart": "1915-07-02",
-      "exactEnd": "1915-08-18",
+      "start": 1915,
+      "end": 1915,
       "sources": [
-        {
-          "title": "Abdol Majid Mirza — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Abdol_Majid_Mirza"
-        },
         {
           "title": "Abdol Majid Mirza — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q308247"
@@ -3162,7 +3146,7 @@
       "office": "head-of-state",
       "title": {
         "en": "Supreme Leader",
-        "fa": "رهبر جمهوری اسلامی"
+        "fa": "رهبر"
       },
       "exactStart": "1979-12-03",
       "exactEnd": "1989-06-03",
@@ -3180,20 +3164,14 @@
     {
       "person": "mohammad-ali-rajai",
       "state": "islamic-republic-of-iran",
-      "start": 1980,
-      "end": 1981,
       "office": "head-of-government",
       "title": {
         "en": "Prime Minister",
         "fa": "نخست‌وزیر"
       },
-      "exactStart": "1980-08-12",
-      "exactEnd": "1981-08-04",
+      "start": 1980,
+      "end": 1981,
       "sources": [
-        {
-          "title": "Mohammad-Ali Rajai — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mohammad-Ali_Rajai"
-        },
         {
           "title": "Mohammad-Ali Rajai — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q310592"
@@ -3201,25 +3179,19 @@
       ]
     },
     {
-      "person": "mohammad-ali-rajai",
+      "person": "abolhassan-banisadr",
       "state": "islamic-republic-of-iran",
-      "start": 1981,
-      "end": 1981,
-      "office": "head-of-government",
+      "office": "other",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
-      "exactStart": "1981-08-02",
-      "exactEnd": "1981-08-30",
+      "start": 1980,
+      "end": 1981,
       "sources": [
         {
-          "title": "Mohammad-Ali Rajai — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mohammad-Ali_Rajai"
-        },
-        {
-          "title": "Mohammad-Ali Rajai — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q310592"
+          "title": "Abolhassan Banisadr — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abolhassan_Banisadr"
         }
       ]
     },
@@ -3270,6 +3242,23 @@
       ]
     },
     {
+      "person": "mohammad-ali-rajai",
+      "state": "islamic-republic-of-iran",
+      "office": "other",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1981,
+      "end": 1981,
+      "sources": [
+        {
+          "title": "Mohammad-Ali Rajai — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mohammad-Ali_Rajai"
+        }
+      ]
+    },
+    {
       "person": "mir-hossein-mousavi",
       "state": "islamic-republic-of-iran",
       "start": 1981,
@@ -3289,6 +3278,23 @@
         {
           "title": "Mir-Hossein Mousavi — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q217154"
+        }
+      ]
+    },
+    {
+      "person": "ali-khamenei",
+      "state": "islamic-republic-of-iran",
+      "office": "other",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1981,
+      "end": 1989,
+      "sources": [
+        {
+          "title": "Ali Khamenei — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ali_Khamenei"
         }
       ]
     },
@@ -3323,7 +3329,7 @@
       "office": "head-of-state",
       "title": {
         "en": "Supreme Leader",
-        "fa": "رهبر جمهوری اسلامی"
+        "fa": "رهبر"
       },
       "exactStart": "1989-06-04",
       "exactEnd": "2026-02-28",
@@ -3431,29 +3437,6 @@
       ]
     },
     {
-      "person": "mohammad-mokhber",
-      "state": "islamic-republic-of-iran",
-      "start": 2024,
-      "end": 2024,
-      "office": "head-of-government",
-      "title": {
-        "en": "President",
-        "fa": "رئیس‌جمهور"
-      },
-      "exactStart": "2024-05-19",
-      "exactEnd": "2024-07-28",
-      "sources": [
-        {
-          "title": "Mohammad Mokhber — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mohammad_Mokhber"
-        },
-        {
-          "title": "Mohammad Mokhber — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5703610"
-        }
-      ]
-    },
-    {
       "person": "masoud-pezeshkian",
       "state": "islamic-republic-of-iran",
       "start": 2024,
@@ -3483,7 +3466,7 @@
       "office": "head-of-state",
       "title": {
         "en": "Supreme Leader",
-        "fa": "رهبر جمهوری اسلامی"
+        "fa": "رهبر"
       },
       "exactStart": "2026-03-08",
       "sources": [
@@ -3513,7 +3496,9 @@
           "title": "State flag of Persia (1907–1933).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:State_flag_of_Persia_%281907%E2%80%931933%29.svg"
         }
-      ]
+      ],
+      "sha1": "a18bb53539fc089a63a3208456e2de6deda17dda",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "pahlavi-iran",
@@ -3529,7 +3514,9 @@
           "title": "State flag of Persia (1907–1933).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:State_flag_of_Persia_%281907%E2%80%931933%29.svg"
         }
-      ]
+      ],
+      "sha1": "a18bb53539fc089a63a3208456e2de6deda17dda",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "pahlavi-iran",
@@ -3545,7 +3532,9 @@
           "title": "State flag of Iran (1933–1964).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:State_flag_of_Iran_%281933%E2%80%931964%29.svg"
         }
-      ]
+      ],
+      "sha1": "adc84169a3a0980b6a70237a5ff4766cf5870cfd",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "pahlavi-iran",
@@ -3561,7 +3550,9 @@
           "title": "State flag of Iran (1964–1980).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:State_flag_of_Iran_%281964%E2%80%931980%29.svg"
         }
-      ]
+      ],
+      "sha1": "6dc19e6ba4ce477d298ec5f9410388b6f95edde8",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "islamic-republic-of-iran",
@@ -3577,7 +3568,9 @@
           "title": "First Flag of I.R.Iran.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:First_Flag_of_I.R.Iran.svg"
         }
-      ]
+      ],
+      "sha1": "fe08f6e17a3b4ca2adceeb47f1a42e89afcc2894",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "islamic-republic-of-iran",
@@ -3593,7 +3586,9 @@
           "title": "Flag of Iran.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Iran.svg"
         }
-      ]
+      ],
+      "sha1": "41993e3fe7cd02a33f2b8ff95f3403ceb2accec8",
+      "retrieved": "2026-11-16"
     }
   ]
 }

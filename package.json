@@ -13,11 +13,8 @@
     "data:validate": "tsx scripts/validate-data.ts",
     "data:audit": "tsx scripts/audit-data.ts",
     "data:pipeline": "tsx scripts/pipeline/run.ts",
-    "spike:iran": "tsx scripts/spike-iran-heads-of-state.ts",
     "fetch:flags": "tsx scripts/fetch-flags.ts",
     "mirror:flags": "tsx scripts/mirror-flags.ts",
-    "fetch:hog": "tsx scripts/fetch-heads-of-government.ts",
-    "merge:hog": "tsx scripts/merge-heads-of-government.ts",
     "data:build": "tsx scripts/build-data.ts",
     "test:e2e": "playwright test"
   },

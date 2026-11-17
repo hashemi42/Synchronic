@@ -1,0 +1,11 @@
+{
+"query": "commons imageinfo: First Flag of I.R.Iran.svg | Flag of Iran.svg | State flag of Iran (1933–1964).svg | State flag of Iran (1964–1980).svg | State flag of Persia (1907–1933).svg",
+"fetchedAt": "2026-11-16T21:31:02.633Z",
+"rows": [
+{"file":"First Flag of I.R.Iran.svg","sha1":"fe08f6e17a3b4ca2adceeb47f1a42e89afcc2894","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"MrInfo2012"},
+{"file":"Flag of Iran.svg","sha1":"41993e3fe7cd02a33f2b8ff95f3403ceb2accec8","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"SVG file: SiBr4Designer: Hamid NadimiConstruction: ISIRI"},
+{"file":"State flag of Iran (1933–1964).svg","sha1":"adc84169a3a0980b6a70237a5ff4766cf5870cfd","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Orange Tuesday (talk)"},
+{"file":"State flag of Iran (1964–1980).svg","sha1":"6dc19e6ba4ce477d298ec5f9410388b6f95edde8","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Original: Unknown Vector: Sodacan (added new emblem to this file), Pouya, Jooja, and ConflictFan (current version and standardisation) See https://iranflag.org/modern-iranian-flag-history/ for more information"},
+{"file":"State flag of Persia (1907–1933).svg","sha1":"a18bb53539fc089a63a3208456e2de6deda17dda","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"SeNeKa"}
+]
+}

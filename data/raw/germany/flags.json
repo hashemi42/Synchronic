@@ -1,0 +1,14 @@
+{
+"query": "commons imageinfo: Banner of the Holy Roman Emperor with haloes (1430-1806).svg | Flag of Germany (1867–1918).svg | Flag of Germany (1933–1935).svg | Flag of Germany (1935–1945).svg | Flag of Germany (3-2).svg | Flag of Germany.svg | Flag of the German Democratic Republic.svg | Merchant flag of Germany (1946–1949).svg",
+"fetchedAt": "2026-11-16T21:30:36.221Z",
+"rows": [
+{"file":"Banner of the Holy Roman Emperor with haloes (1430-1806).svg","sha1":"d2f3d0bb900f561438ab204c3721ee3935d0dd87","mime":"image/svg+xml","license":"CC BY-SA 3.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0","attribution":"David Liuzzo, eagle by N3MO"},
+{"file":"Flag of Germany (1867–1918).svg","sha1":"59fe0e22197ef0fa883aeb99f3122f686633d350","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Original: Adolf Soetbeer, Otto von Bismarck Vector: B1mbo, Madden"},
+{"file":"Flag of Germany (1933–1935).svg","sha1":"0c7beacb540a38f3b07b77da86986818fd025567","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"SeNeKa @ commons (+ Alkari, Illegitimate Barrister, GeMet)R-41 @ ENWP"},
+{"file":"Flag of Germany (1935–1945).svg","sha1":"5874c48f937a9eb432942823af91a4d864793ed1","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"German government"},
+{"file":"Flag of Germany (3-2).svg","sha1":"f61067178038983bcdb0c07c889284eaa1a778fe","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"User:Mmxx"},
+{"file":"Flag of Germany.svg","sha1":"c48217a5ca039133249c04c1e4248af6e2021020","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"User:SKopp, User:Madden, and other users"},
+{"file":"Flag of the German Democratic Republic.svg","sha1":"ab7abbc699a9e0a59e5e590f2a538755aff6ad44","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Deutsche Demokratische Republik Flaggenentwurf: Fritz Behrendt"},
+{"file":"Merchant flag of Germany (1946–1949).svg","sha1":"8f19eed82cd555d38167daa25b992f78d4034f04","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"B1mbo"}
+]
+}

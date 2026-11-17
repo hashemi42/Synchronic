@@ -22,27 +22,23 @@
       "id": "tokugawa-shogunate",
       "name": {
         "en": "Tokugawa shogunate",
-        "fa": "شوگونسالاری توکوگاوا"
+        "fa": "شوگون‌سالاری توکوگاوا"
       },
       "start": 1603,
-      "end": 1867,
+      "end": 1868,
       "capital": {
         "en": "Edo",
         "fa": "ادو"
       },
       "system": {
-        "en": "Hereditary monarchy",
-        "fa": "پادشاهی موروثی"
+        "en": "Feudal military government under a shogun",
+        "fa": "حکومت نظامی فئودالی به ریاست شوگون"
       },
       "wikidata": "Q205662",
       "sources": [
         {
           "title": "Tokugawa shogunate — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Tokugawa_shogunate"
-        },
-        {
-          "title": "Tokugawa shogunate — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q205662"
         }
       ]
     },
@@ -58,15 +54,15 @@
         "en": "Tokyo",
         "fa": "توکیو"
       },
+      "system": {
+        "en": "Constitutional monarchy from 1890",
+        "fa": "از ۱۸۹۰ پادشاهی مشروطه"
+      },
       "wikidata": "Q188712",
       "sources": [
         {
           "title": "Empire of Japan — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Empire_of_Japan"
-        },
-        {
-          "title": "Empire of Japan — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q188712"
         }
       ]
     },
@@ -76,6 +72,10 @@
         "en": "Japan",
         "fa": "ژاپن"
       },
+      "officialName": {
+        "en": "State of Japan",
+        "fa": "کشور ژاپن"
+      },
       "start": 1947,
       "end": null,
       "capital": {
@@ -83,18 +83,14 @@
         "fa": "توکیو"
       },
       "system": {
-        "en": "Constitutional monarchy",
-        "fa": "پادشاهی مشروطه"
+        "en": "Parliamentary constitutional monarchy",
+        "fa": "پادشاهی مشروطهٔ پارلمانی"
       },
       "wikidata": "Q17",
       "sources": [
         {
           "title": "Japan — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Japan"
-        },
-        {
-          "title": "Japan — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q17"
         }
       ]
     }
@@ -104,7 +100,7 @@
       "id": "akihito",
       "name": {
         "en": "Akihito",
-        "fa": "آکیهیتو"
+        "fa": "آکی‌هیتو"
       },
       "born": 1933,
       "wikidata": "Q37979",
@@ -342,7 +338,7 @@
       "id": "hideki-tojo",
       "name": {
         "en": "Hideki Tojo",
-        "fa": "هیدهکی توجو"
+        "fa": "هیده‌کی توجو"
       },
       "born": 1884,
       "died": 1948,
@@ -362,7 +358,7 @@
       "id": "hiranuma-kiichiro",
       "name": {
         "en": "Hiranuma Kiichirō",
-        "fa": "کیایچیرو هیرانوما"
+        "fa": "کی‌ایچیرو هیرانوما"
       },
       "born": 1867,
       "died": 1952,
@@ -381,7 +377,7 @@
     {
       "id": "hirohito",
       "name": {
-        "en": "Hirohito",
+        "en": "Hirohito (Emperor Shōwa)",
         "fa": "هیروهیتو"
       },
       "born": 1901,
@@ -393,7 +389,7 @@
           "url": "https://en.wikipedia.org/wiki/Hirohito"
         },
         {
-          "title": "Hirohito — Wikidata",
+          "title": "Hirohito (Emperor Shōwa) — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q34479"
         }
       ]
@@ -621,7 +617,7 @@
       "id": "kiichi-miyazawa",
       "name": {
         "en": "Kiichi Miyazawa",
-        "fa": "کیایچی میازاوا"
+        "fa": "کی‌ایچی میازاوا"
       },
       "born": 1919,
       "died": 2007,
@@ -641,7 +637,7 @@
       "id": "kijuro-shidehara",
       "name": {
         "en": "Kijūrō Shidehara",
-        "fa": "کیجورو شیدههارا"
+        "fa": "کیجورو شیده‌هارا"
       },
       "born": 1872,
       "died": 1951,
@@ -701,7 +697,7 @@
       "id": "kuniaki-koiso",
       "name": {
         "en": "Kuniaki Koiso",
-        "fa": "کونیآکی کوایسو"
+        "fa": "کونی‌آکی کوایسو"
       },
       "born": 1880,
       "died": 1950,
@@ -734,26 +730,6 @@
         {
           "title": "Kuroda Kiyotaka — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q714049"
-        }
-      ]
-    },
-    {
-      "id": "masayoshi-ito",
-      "name": {
-        "en": "Masayoshi Ito",
-        "fa": "ماسايوشي إيتو"
-      },
-      "born": 1913,
-      "died": 1994,
-      "wikidata": "Q744989",
-      "sources": [
-        {
-          "title": "Masayoshi Ito — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Masayoshi_Ito"
-        },
-        {
-          "title": "Masayoshi Ito — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q744989"
         }
       ]
     },
@@ -878,7 +854,7 @@
       "id": "noboru-takeshita",
       "name": {
         "en": "Noboru Takeshita",
-        "fa": "نوبورو تاکهشیتا"
+        "fa": "نوبورو تاکه‌شیتا"
       },
       "born": 1924,
       "died": 2000,
@@ -958,7 +934,7 @@
       "id": "okuma-shigenobu",
       "name": {
         "en": "Ōkuma Shigenobu",
-        "fa": "اوکوما شیگهنوبو"
+        "fa": "اوکوما شیگه‌نوبو"
       },
       "born": 1838,
       "died": 1922,
@@ -1018,7 +994,7 @@
       "id": "saionji-kinmochi",
       "name": {
         "en": "Saionji Kinmochi",
-        "fa": "سایاونجی کینموچی"
+        "fa": "سای‌اونجی کینموچی"
       },
       "born": 1849,
       "died": 1940,
@@ -1074,30 +1050,10 @@
       ]
     },
     {
-      "id": "sanjo-sanetomi",
-      "name": {
-        "en": "Sanjō Sanetomi",
-        "fa": "سانجو سانهتومی"
-      },
-      "born": 1837,
-      "died": 1891,
-      "wikidata": "Q516646",
-      "sources": [
-        {
-          "title": "Sanjō Sanetomi — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Sanj%C5%8D_Sanetomi"
-        },
-        {
-          "title": "Sanjō Sanetomi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q516646"
-        }
-      ]
-    },
-    {
       "id": "senjuro-hayashi",
       "name": {
         "en": "Senjūrō Hayashi",
-        "fa": "سنجورو هایاشی"
+        "fa": "سن‌جورو هایاشی"
       },
       "born": 1876,
       "died": 1943,
@@ -1136,7 +1092,7 @@
       "id": "shigeru-yoshida",
       "name": {
         "en": "Shigeru Yoshida",
-        "fa": "یوشیدا شیگهرو"
+        "fa": "یوشیدا شیگه‌رو"
       },
       "born": 1878,
       "died": 1967,
@@ -1196,7 +1152,7 @@
       "id": "takahashi-korekiyo",
       "name": {
         "en": "Takahashi Korekiyo",
-        "fa": "تاکاهاشی کورهکیو"
+        "fa": "تاکاهاشی کوره‌کیو"
       },
       "born": 1854,
       "died": 1936,
@@ -1256,7 +1212,7 @@
       "id": "tanaka-giichi",
       "name": {
         "en": "Tanaka Giichi",
-        "fa": "تاناکا گیایچی"
+        "fa": "تاناکا گی‌ایچی"
       },
       "born": 1863,
       "died": 1929,
@@ -1276,7 +1232,7 @@
       "id": "tanzan-ishibashi",
       "name": {
         "en": "Tanzan Ishibashi",
-        "fa": "تانزان ایشیباشی"
+        "fa": "تانزان ایشی‌باشی"
       },
       "born": 1884,
       "died": 1973,
@@ -1653,22 +1609,17 @@
     {
       "person": "emperor-kokaku",
       "state": "tokugawa-shogunate",
-      "start": 1789,
-      "end": 1817,
       "office": "head-of-state",
       "title": {
         "en": "Emperor",
         "fa": "امپراتور"
       },
-      "exactEnd": "1817-05-07",
+      "start": 1780,
+      "end": 1817,
       "sources": [
         {
           "title": "Emperor Kōkaku — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Emperor_K%C5%8Dkaku"
-        },
-        {
-          "title": "Emperor Kōkaku — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q313806"
+          "url": "https://en.wikipedia.org/wiki/Emperor_Kōkaku"
         }
       ]
     },
@@ -1805,29 +1756,6 @@
         {
           "title": "Kuroda Kiyotaka — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q714049"
-        }
-      ]
-    },
-    {
-      "person": "sanjo-sanetomi",
-      "state": "empire-of-japan",
-      "start": 1889,
-      "end": 1889,
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "exactStart": "1889-10-25",
-      "exactEnd": "1889-12-24",
-      "sources": [
-        {
-          "title": "Sanjō Sanetomi — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Sanj%C5%8D_Sanetomi"
-        },
-        {
-          "title": "Sanjō Sanetomi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q516646"
         }
       ]
     },
@@ -2400,7 +2328,7 @@
           "url": "https://en.wikipedia.org/wiki/Hirohito"
         },
         {
-          "title": "Hirohito — Wikidata",
+          "title": "Hirohito (Emperor Shōwa) — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q34479"
         }
       ]
@@ -2905,7 +2833,7 @@
           "url": "https://en.wikipedia.org/wiki/Hirohito"
         },
         {
-          "title": "Hirohito — Wikidata",
+          "title": "Hirohito (Emperor Shōwa) — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q34479"
         }
       ]
@@ -3371,29 +3299,6 @@
       ]
     },
     {
-      "person": "masayoshi-ito",
-      "state": "state-of-japan",
-      "start": 1980,
-      "end": 1980,
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "exactStart": "1980-06-12",
-      "exactEnd": "1980-07-17",
-      "sources": [
-        {
-          "title": "Masayoshi Ito — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Masayoshi_Ito"
-        },
-        {
-          "title": "Masayoshi Ito — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q744989"
-        }
-      ]
-    },
-    {
       "person": "zenko-suzuki",
       "state": "state-of-japan",
       "start": 1980,
@@ -3833,20 +3738,14 @@
     {
       "person": "shinzo-abe",
       "state": "state-of-japan",
-      "start": 2006,
-      "end": 2007,
       "office": "head-of-government",
       "title": {
         "en": "Prime Minister",
         "fa": "نخست‌وزیر"
       },
-      "exactStart": "2006-09-26",
-      "exactEnd": "2007-09-25",
+      "start": 2006,
+      "end": 2007,
       "sources": [
-        {
-          "title": "Shinzo Abe — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Shinzo_Abe"
-        },
         {
           "title": "Shinzo Abe — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q132345"
@@ -3971,20 +3870,48 @@
     {
       "person": "shinzo-abe",
       "state": "state-of-japan",
-      "start": 2012,
-      "end": 2020,
       "office": "head-of-government",
       "title": {
         "en": "Prime Minister",
         "fa": "نخست‌وزیر"
       },
-      "exactStart": "2012-12-26",
-      "exactEnd": "2020-09-16",
+      "start": 2012,
+      "end": 2014,
       "sources": [
         {
-          "title": "Shinzo Abe — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Shinzo_Abe"
-        },
+          "title": "Shinzo Abe — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q132345"
+        }
+      ]
+    },
+    {
+      "person": "shinzo-abe",
+      "state": "state-of-japan",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 2014,
+      "end": 2017,
+      "sources": [
+        {
+          "title": "Shinzo Abe — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q132345"
+        }
+      ]
+    },
+    {
+      "person": "shinzo-abe",
+      "state": "state-of-japan",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 2017,
+      "end": 2020,
+      "sources": [
         {
           "title": "Shinzo Abe — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q132345"
@@ -4039,20 +3966,48 @@
     {
       "person": "fumio-kishida",
       "state": "state-of-japan",
-      "start": 2021,
-      "end": 2024,
       "office": "head-of-government",
       "title": {
         "en": "Prime Minister",
         "fa": "نخست‌وزیر"
       },
-      "exactStart": "2021-10-04",
-      "exactEnd": "2024-10-01",
+      "start": 2021,
+      "end": 2022,
       "sources": [
         {
-          "title": "Fumio Kishida — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Fumio_Kishida"
-        },
+          "title": "Fumio Kishida — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q359480"
+        }
+      ]
+    },
+    {
+      "person": "fumio-kishida",
+      "state": "state-of-japan",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 2022,
+      "end": 2023,
+      "sources": [
+        {
+          "title": "Fumio Kishida — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q359480"
+        }
+      ]
+    },
+    {
+      "person": "fumio-kishida",
+      "state": "state-of-japan",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 2023,
+      "end": 2024,
+      "sources": [
         {
           "title": "Fumio Kishida — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q359480"
@@ -4120,7 +4075,9 @@
           "title": "Flag of Japan (1870–1999).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan_%281870%E2%80%931999%29.svg"
         }
-      ]
+      ],
+      "sha1": "032e27bda4cb886bb6080f293d77f51a0eb9fa19",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "state-of-japan",
@@ -4136,7 +4093,9 @@
           "title": "Flag of Japan (1870–1999).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan_%281870%E2%80%931999%29.svg"
         }
-      ]
+      ],
+      "sha1": "032e27bda4cb886bb6080f293d77f51a0eb9fa19",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "state-of-japan",
@@ -4152,7 +4111,9 @@
           "title": "Flag of Japan.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan.svg"
         }
-      ]
+      ],
+      "sha1": "bda514e7fbea77ed21b325dec24b920cd42e31dd",
+      "retrieved": "2026-11-16"
     }
   ]
 }

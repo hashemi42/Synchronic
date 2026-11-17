@@ -24,8 +24,16 @@
         "en": "Qing dynasty",
         "fa": "دودمان چینگ"
       },
+      "officialName": {
+        "en": "Great Qing",
+        "fa": "چینگ بزرگ"
+      },
       "start": 1644,
       "end": 1912,
+      "capital": {
+        "en": "Beijing",
+        "fa": "پکن"
+      },
       "system": {
         "en": "Absolute monarchy",
         "fa": "پادشاهی مطلقه"
@@ -35,10 +43,6 @@
         {
           "title": "Qing dynasty — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Qing_dynasty"
-        },
-        {
-          "title": "Qing dynasty — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q8733"
         }
       ]
     },
@@ -50,30 +54,38 @@
       },
       "start": 1912,
       "end": 1949,
+      "capital": {
+        "en": "Beijing; Nanjing from 1928",
+        "fa": "پکن؛ از ۱۹۲۸ نانجینگ"
+      },
       "system": {
-        "en": "Republic",
-        "fa": "جمهوری"
+        "en": "Republic; one-party rule from 1928",
+        "fa": "جمهوری؛ از ۱۹۲۸ تک‌حزبی"
       },
       "wikidata": "Q13426199",
       "sources": [
         {
           "title": "Republic of China (1912–1949) — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Republic_of_China_(1912%E2%80%931949)"
-        },
-        {
-          "title": "Republic of China — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q13426199"
+          "url": "https://en.wikipedia.org/wiki/Republic_of_China_(1912–1949)"
         }
       ]
     },
     {
       "id": "guangzhou-government",
       "name": {
-        "en": "Constitutional Protection junta",
-        "fa": ""
+        "en": "Guangzhou government",
+        "fa": "حکومت گوانگ‌ژو"
       },
       "start": 1917,
-      "end": 1921,
+      "end": 1928,
+      "capital": {
+        "en": "Guangzhou",
+        "fa": "گوانگ‌ژو"
+      },
+      "system": {
+        "en": "Rival republican government",
+        "fa": "حکومت جمهوری‌خواه رقیب"
+      },
       "wikidata": "Q11076636",
       "sources": [
         {
@@ -81,16 +93,24 @@
           "url": "https://en.wikipedia.org/wiki/Constitutional_Protection_junta"
         },
         {
-          "title": "Constitutional Protection junta — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11076636"
+          "title": "Canton government of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canton_government_of_the_Republic_of_China"
+        },
+        {
+          "title": "Army and Navy Generalissimo's Headquarters — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Army_and_Navy_Generalissimo%27s_Headquarters"
+        },
+        {
+          "title": "Nationalist government — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nationalist_government"
         }
       ]
     },
     {
       "id": "peoples-republic-of-china",
       "name": {
-        "en": "China",
-        "fa": "چین"
+        "en": "People's Republic of China",
+        "fa": "جمهوری خلق چین"
       },
       "start": 1949,
       "end": null,
@@ -99,23 +119,147 @@
         "fa": "پکن"
       },
       "system": {
-        "en": "People's republic",
-        "fa": "جمهوری خلق"
+        "en": "One-party socialist republic",
+        "fa": "جمهوری سوسیالیستی تک‌حزبی"
       },
       "wikidata": "Q148",
       "sources": [
         {
           "title": "China — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/China"
+        }
+      ]
+    },
+    {
+      "id": "taiping-heavenly-kingdom",
+      "name": {
+        "en": "Taiping Heavenly Kingdom",
+        "fa": "پادشاهی آسمانی تایپینگ"
+      },
+      "start": 1851,
+      "end": 1864,
+      "capital": {
+        "en": "Tianjing (now Nanjing)",
+        "fa": "تیانجینگ (نانجینگ کنونی)"
+      },
+      "system": {
+        "en": "Theocratic absolute monarchy",
+        "fa": "پادشاهی مطلقهٔ دین‌سالار"
+      },
+      "wikidata": "Q3486676",
+      "sources": [
+        {
+          "title": "Taiping Heavenly Kingdom — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Taiping_Heavenly_Kingdom"
         },
         {
-          "title": "China — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q148"
+          "title": "شورش تایپینگ — Wikipedia",
+          "url": "https://fa.wikipedia.org/wiki/%D8%B4%D9%88%D8%B1%D8%B4_%D8%AA%D8%A7%DB%8C%D9%BE%DB%8C%D9%86%DA%AF"
+        }
+      ]
+    },
+    {
+      "id": "wang-jingwei-regime",
+      "name": {
+        "en": "Wang Jingwei regime",
+        "fa": "رژیم وانگ جینگ وی"
+      },
+      "officialName": {
+        "en": "Republic of China",
+        "fa": "جمهوری چین"
+      },
+      "start": 1940,
+      "end": 1945,
+      "capital": {
+        "en": "Nanjing",
+        "fa": "نانجینگ"
+      },
+      "system": {
+        "en": "One-party republic under Japanese occupation",
+        "fa": "جمهوری تک‌حزبی زیر اشغال ژاپن"
+      },
+      "wikidata": "Q696242",
+      "sources": [
+        {
+          "title": "Wang Jingwei regime — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei_regime"
+        },
+        {
+          "title": "رژیم وانگ جینگ وی — Wikipedia",
+          "url": "https://fa.wikipedia.org/wiki/%D8%B1%DA%98%DB%8C%D9%85_%D9%88%D8%A7%D9%86%DA%AF_%D8%AC%DB%8C%D9%86%DA%AF_%D9%88%DB%8C"
+        }
+      ]
+    },
+    {
+      "id": "manchukuo",
+      "name": {
+        "en": "Manchukuo",
+        "fa": "منچوکو"
+      },
+      "start": 1932,
+      "end": 1945,
+      "capital": {
+        "en": "Hsinking (Changchun)",
+        "fa": "شین‌جینگ (چانگچون)"
+      },
+      "system": {
+        "en": "Provisional government; monarchy from 1934",
+        "fa": "دولت موقت؛ از ۱۹۳۴ پادشاهی"
+      },
+      "wikidata": "Q30623",
+      "sources": [
+        {
+          "title": "Manchukuo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manchukuo"
+        },
+        {
+          "title": "منچوکو — Wikipedia",
+          "url": "https://fa.wikipedia.org/wiki/%D9%85%D9%86%DA%86%D9%88%DA%A9%D9%88"
         }
       ]
     }
   ],
   "persons": [
+    {
+      "id": "cao-kun",
+      "name": {
+        "en": "Cao Kun",
+        "fa": "تسائو کون"
+      },
+      "born": 1862,
+      "died": 1938,
+      "wikidata": "Q699591",
+      "sources": [
+        {
+          "title": "Cao Kun — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cao_Kun"
+        },
+        {
+          "title": "Cao Kun — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q699591"
+        }
+      ]
+    },
+    {
+      "id": "chen-gongbo",
+      "name": {
+        "en": "Chen Gongbo",
+        "fa": "چن گونگبو"
+      },
+      "born": 1892,
+      "died": 1946,
+      "wikidata": "Q704276",
+      "sources": [
+        {
+          "title": "Chen Gongbo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chen_Gongbo"
+        },
+        {
+          "title": "Chen Gongbo — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q704276"
+        }
+      ]
+    },
     {
       "id": "chengting-t-wang",
       "name": {
@@ -140,7 +284,7 @@
       "id": "chiang-kai-shek",
       "name": {
         "en": "Chiang Kai-shek",
-        "fa": "چیانگ کایشک"
+        "fa": "چیانگ کای‌شک"
       },
       "born": 1887,
       "died": 1975,
@@ -173,6 +317,26 @@
         {
           "title": "Daoguang Emperor — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q334351"
+        }
+      ]
+    },
+    {
+      "id": "deng-xiaoping",
+      "name": {
+        "en": "Deng Xiaoping",
+        "fa": "دنگ شیائوپینگ"
+      },
+      "born": 1904,
+      "died": 1997,
+      "wikidata": "Q16977",
+      "sources": [
+        {
+          "title": "Deng Xiaoping — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Deng_Xiaoping"
+        },
+        {
+          "title": "Deng Xiaoping — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16977"
         }
       ]
     },
@@ -213,6 +377,26 @@
         {
           "title": "Duan Qirui — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q706172"
+        }
+      ]
+    },
+    {
+      "id": "feng-guozhang",
+      "name": {
+        "en": "Feng Guozhang",
+        "fa": "فنگ گوئوژانگ"
+      },
+      "born": 1859,
+      "died": 1919,
+      "wikidata": "Q700576",
+      "sources": [
+        {
+          "title": "Feng Guozhang — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Feng_Guozhang"
+        },
+        {
+          "title": "Feng Guozhang — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q700576"
         }
       ]
     },
@@ -260,7 +444,7 @@
       "id": "hong-xiuquan",
       "name": {
         "en": "Hong Xiuquan",
-        "fa": ""
+        "fa": "هونگ شیوچوان"
       },
       "born": 1814,
       "died": 1864,
@@ -455,6 +639,46 @@
       ]
     },
     {
+      "id": "li-yuanhong",
+      "name": {
+        "en": "Li Yuanhong",
+        "fa": "لی یوان هونگ"
+      },
+      "born": 1864,
+      "died": 1928,
+      "wikidata": "Q716136",
+      "sources": [
+        {
+          "title": "Li Yuanhong — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Li_Yuanhong"
+        },
+        {
+          "title": "Li Yuanhong — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q716136"
+        }
+      ]
+    },
+    {
+      "id": "lin-sen",
+      "name": {
+        "en": "Lin Sen",
+        "fa": "لین سن"
+      },
+      "born": 1868,
+      "died": 1943,
+      "wikidata": "Q705872",
+      "sources": [
+        {
+          "title": "Lin Sen — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lin_Sen"
+        },
+        {
+          "title": "Lin Sen — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q705872"
+        }
+      ]
+    },
+    {
       "id": "liu-shaoqi",
       "name": {
         "en": "Liu Shaoqi",
@@ -498,7 +722,7 @@
       "id": "mao-zedong",
       "name": {
         "en": "Mao Zedong",
-        "fa": "مائو تسهتونگ"
+        "fa": "مائو تسه‌تونگ"
       },
       "born": 1893,
       "died": 1976,
@@ -517,7 +741,7 @@
     {
       "id": "puyi",
       "name": {
-        "en": "Puyi",
+        "en": "Puyi (Xuantong Emperor)",
         "fa": "پویی"
       },
       "born": 1906,
@@ -529,7 +753,7 @@
           "url": "https://en.wikipedia.org/wiki/Puyi"
         },
         {
-          "title": "Puyi — Wikidata",
+          "title": "Puyi (Xuantong Emperor) — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q185152"
         }
       ]
@@ -538,7 +762,7 @@
       "id": "qianlong-emperor",
       "name": {
         "en": "Qianlong Emperor",
-        "fa": "امپراتور چیانلونگ"
+        "fa": "امپراتور چیان‌لونگ"
       },
       "born": 1711,
       "died": 1799,
@@ -658,7 +882,7 @@
       "id": "tongzhi-emperor",
       "name": {
         "en": "Tongzhi Emperor",
-        "fa": "امپراتور تونگژی"
+        "fa": "امپراتور تونگ‌ژی"
       },
       "born": 1856,
       "died": 1875,
@@ -757,7 +981,7 @@
       "id": "xi-jinping",
       "name": {
         "en": "Xi Jinping",
-        "fa": "شی جینپینگ"
+        "fa": "شی جین‌پینگ"
       },
       "born": 1953,
       "wikidata": "Q15031",
@@ -776,7 +1000,7 @@
       "id": "xianfeng-emperor",
       "name": {
         "en": "Xianfeng Emperor",
-        "fa": "امپراتور شیانفنگ"
+        "fa": "امپراتور شیان‌فنگ"
       },
       "born": 1831,
       "died": 1861,
@@ -873,6 +1097,26 @@
       ]
     },
     {
+      "id": "yikuang",
+      "name": {
+        "en": "Yikuang",
+        "fa": "ییکوانگ"
+      },
+      "born": 1838,
+      "died": 1917,
+      "wikidata": "Q1204208",
+      "sources": [
+        {
+          "title": "Yikuang — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yikuang"
+        },
+        {
+          "title": "Yikuang — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1204208"
+        }
+      ]
+    },
+    {
       "id": "yuan-shikai",
       "name": {
         "en": "Yuan Shikai",
@@ -893,6 +1137,26 @@
       ]
     },
     {
+      "id": "zhang-jinghui",
+      "name": {
+        "en": "Zhang Jinghui",
+        "fa": "ژانگ جینگ هویی"
+      },
+      "born": 1871,
+      "died": 1959,
+      "wikidata": "Q197223",
+      "sources": [
+        {
+          "title": "Zhang Jinghui — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zhang_Jinghui"
+        },
+        {
+          "title": "Zhang Jinghui — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q197223"
+        }
+      ]
+    },
+    {
       "id": "zhang-qun",
       "name": {
         "en": "Zhang Qun",
@@ -909,6 +1173,26 @@
         {
           "title": "Zhang Qun — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q702934"
+        }
+      ]
+    },
+    {
+      "id": "zhang-zuolin",
+      "name": {
+        "en": "Zhang Zuolin",
+        "fa": "ژانگ زولین"
+      },
+      "born": 1875,
+      "died": 1928,
+      "wikidata": "Q197358",
+      "sources": [
+        {
+          "title": "Zhang Zuolin — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zhang_Zuolin"
+        },
+        {
+          "title": "Zhang Zuolin — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q197358"
         }
       ]
     },
@@ -949,6 +1233,26 @@
         {
           "title": "Zhao Ziyang — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q99829"
+        }
+      ]
+    },
+    {
+      "id": "zheng-xiaoxu",
+      "name": {
+        "en": "Zheng Xiaoxu",
+        "fa": "ژنگ شیائوشو"
+      },
+      "born": 1860,
+      "died": 1938,
+      "wikidata": "Q704607",
+      "sources": [
+        {
+          "title": "Zheng Xiaoxu — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zheng_Xiaoxu"
+        },
+        {
+          "title": "Zheng Xiaoxu — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q704607"
         }
       ]
     },
@@ -996,7 +1300,7 @@
       "id": "zhu-rongji",
       "name": {
         "en": "Zhu Rongji",
-        "fa": "ژو رانگجی"
+        "fa": "ژو رانگ‌جی"
       },
       "born": 1928,
       "died": 2026,
@@ -1054,6 +1358,18 @@
         {
           "title": "Constitutional Protection junta — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Constitutional_Protection_junta"
+        },
+        {
+          "title": "Canton government of the Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canton_government_of_the_Republic_of_China"
+        },
+        {
+          "title": "Army and Navy Generalissimo's Headquarters — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Army_and_Navy_Generalissimo%27s_Headquarters"
+        },
+        {
+          "title": "Nationalist government — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nationalist_government"
         }
       ]
     },
@@ -1069,19 +1385,103 @@
           "url": "https://en.wikipedia.org/wiki/China"
         }
       ]
+    },
+    {
+      "country": "china",
+      "state": "taiping-heavenly-kingdom",
+      "start": 1851,
+      "end": 1864,
+      "exactStart": "1851-01-11",
+      "exactEnd": "1864-07-19",
+      "kind": "rival",
+      "note": {
+        "en": "A rebel kingdom led by Hong Xiuquan that sought to overthrow the Qing dynasty; its capital was Tianjing, today's Nanjing.",
+        "fa": "پادشاهی شورشی به رهبری هونگ شیوچوان که در پی براندازی دودمان چینگ بود؛ پایتخت آن تیانجینگ، نانجینگ کنونی، بود."
+      },
+      "sources": [
+        {
+          "title": "Taiping Heavenly Kingdom — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Taiping_Heavenly_Kingdom"
+        },
+        {
+          "title": "شورش تایپینگ — Wikipedia",
+          "url": "https://fa.wikipedia.org/wiki/%D8%B4%D9%88%D8%B1%D8%B4_%D8%AA%D8%A7%DB%8C%D9%BE%DB%8C%D9%86%DA%AF"
+        }
+      ]
+    },
+    {
+      "country": "china",
+      "state": "wang-jingwei-regime",
+      "start": 1940,
+      "end": 1945,
+      "exactStart": "1940-03-30",
+      "exactEnd": "1945-08-16",
+      "kind": "rival",
+      "label": {
+        "en": "Japanese puppet government",
+        "fa": "دولت دست‌نشاندهٔ ژاپن"
+      },
+      "officialName": {
+        "en": "Reorganized National Government of the Republic of China",
+        "fa": "دولت ملی بازسازمان‌یافتهٔ جمهوری چین"
+      },
+      "note": {
+        "en": "A collaborationist government at Nanjing that administered Japanese-occupied China, as a rival to the National Government.",
+        "fa": "دولتی همکار ژاپن در نانجینگ که چینِ زیر اشغال ژاپن را اداره می‌کرد و رقیب دولت ملی بود."
+      },
+      "sources": [
+        {
+          "title": "Wang Jingwei regime — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei_regime"
+        },
+        {
+          "title": "رژیم وانگ جینگ وی — Wikipedia",
+          "url": "https://fa.wikipedia.org/wiki/%D8%B1%DA%98%DB%8C%D9%85_%D9%88%D8%A7%D9%86%DA%AF_%D8%AC%DB%8C%D9%86%DA%AF_%D9%88%DB%8C"
+        }
+      ]
+    },
+    {
+      "country": "china",
+      "state": "manchukuo",
+      "start": 1932,
+      "end": 1945,
+      "kind": "rival",
+      "label": {
+        "en": "Japanese puppet state",
+        "fa": "دولت دست‌نشاندهٔ ژاپن"
+      },
+      "officialName": {
+        "en": "Manchukuo",
+        "fa": "منچوکو"
+      },
+      "note": {
+        "en": "A puppet state of the Empire of Japan in Manchuria, on land seized in the Japanese invasion of Manchuria.",
+        "fa": "دولت دست‌نشاندهٔ امپراتوری ژاپن در منچوری، در سرزمین‌هایی که ژاپن در تهاجم به منچوری گرفت."
+      },
+      "sources": [
+        {
+          "title": "Manchukuo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manchukuo"
+        },
+        {
+          "title": "منچوکو — Wikipedia",
+          "url": "https://fa.wikipedia.org/wiki/%D9%85%D9%86%DA%86%D9%88%DA%A9%D9%88"
+        }
+      ]
     }
   ],
   "terms": [
     {
       "person": "qianlong-emperor",
       "state": "qing-dynasty",
-      "start": 1789,
+      "start": 1735,
       "end": 1796,
       "office": "head-of-state",
       "title": {
         "en": "Emperor",
         "fa": "امپراتور"
       },
+      "exactStart": "1735-10-08",
       "exactEnd": "1796-02-09",
       "sources": [
         {
@@ -1165,14 +1565,14 @@
     },
     {
       "person": "hong-xiuquan",
-      "state": "qing-dynasty",
-      "start": 1851,
-      "end": 1864,
+      "state": "taiping-heavenly-kingdom",
       "office": "head-of-state",
       "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
+        "en": "Heavenly King",
+        "fa": "پادشاه آسمانی"
       },
+      "start": 1851,
+      "end": 1864,
       "exactStart": "1851-01-11",
       "exactEnd": "1864-06-01",
       "sources": [
@@ -1181,8 +1581,8 @@
           "url": "https://en.wikipedia.org/wiki/Hong_Xiuquan"
         },
         {
-          "title": "Hong Xiuquan — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q334732"
+          "title": "Taiping Heavenly Kingdom — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Taiping_Heavenly_Kingdom"
         }
       ]
     },
@@ -1235,25 +1635,42 @@
     {
       "person": "puyi",
       "state": "qing-dynasty",
-      "start": 1908,
-      "end": 1912,
       "office": "head-of-state",
       "title": {
         "en": "Emperor",
         "fa": "امپراتور"
       },
-      "exactStart": "1908-12-02",
-      "exactEnd": "1912-02-12",
+      "start": 1908,
+      "end": 1912,
       "sources": [
         {
           "title": "Puyi — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Puyi"
-        },
-        {
-          "title": "Puyi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q185152"
         }
       ]
+    },
+    {
+      "person": "yikuang",
+      "state": "qing-dynasty",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister of the Imperial Cabinet",
+        "fa": "نخست‌وزیر کابینهٔ امپراتوری"
+      },
+      "start": 1911,
+      "end": 1911,
+      "sources": [
+        {
+          "title": "Yikuang — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yikuang"
+        },
+        {
+          "title": "Prime Minister of the Imperial Cabinet — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Prime_Minister_of_the_Imperial_Cabinet"
+        }
+      ],
+      "exactStart": "1911-05-08",
+      "exactEnd": "1911-11-01"
     },
     {
       "person": "yuan-shikai",
@@ -1348,6 +1765,23 @@
       ]
     },
     {
+      "person": "yuan-shikai",
+      "state": "republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1912,
+      "end": 1916,
+      "sources": [
+        {
+          "title": "Yuan Shikai — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yuan_Shikai"
+        }
+      ]
+    },
+    {
       "person": "duan-qirui",
       "state": "republic-of-china",
       "start": 1913,
@@ -1417,25 +1851,19 @@
       ]
     },
     {
-      "person": "yuan-shikai",
+      "person": "li-yuanhong",
       "state": "republic-of-china",
-      "start": 1915,
-      "end": 1916,
       "office": "head-of-state",
       "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
+        "en": "President",
+        "fa": "رئیس‌جمهور"
       },
-      "exactStart": "1915-12-22",
-      "exactEnd": "1916-03-22",
+      "start": 1916,
+      "end": 1917,
       "sources": [
         {
-          "title": "Yuan Shikai — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Yuan_Shikai"
-        },
-        {
-          "title": "Yuan Shikai — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q210329"
+          "title": "Li Yuanhong — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Li_Yuanhong"
         }
       ]
     },
@@ -1463,25 +1891,48 @@
       ]
     },
     {
-      "person": "puyi",
+      "person": "feng-guozhang",
       "state": "republic-of-china",
       "start": 1917,
-      "end": 1917,
+      "end": 1918,
       "office": "head-of-state",
       "title": {
-        "en": "Emperor",
-        "fa": "امپراتور"
+        "en": "President",
+        "fa": "رئیس‌جمهور"
       },
-      "exactStart": "1917-07-01",
-      "exactEnd": "1917-07-12",
+      "exactStart": "1917-08-06",
+      "exactEnd": "1918-10-10",
       "sources": [
         {
-          "title": "Puyi — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Puyi"
+          "title": "Feng Guozhang — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Feng_Guozhang"
         },
         {
-          "title": "Puyi — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q185152"
+          "title": "Feng Guozhang — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q700576"
+        }
+      ]
+    },
+    {
+      "person": "xu-shichang",
+      "state": "republic-of-china",
+      "start": 1918,
+      "end": 1922,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1918-10-10",
+      "exactEnd": "1922-06-02",
+      "sources": [
+        {
+          "title": "Xu Shichang — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Xu_Shichang"
+        },
+        {
+          "title": "Xu Shichang — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q702428"
         }
       ]
     },
@@ -1509,6 +1960,63 @@
       ]
     },
     {
+      "person": "li-yuanhong",
+      "state": "republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1922,
+      "end": 1923,
+      "sources": [
+        {
+          "title": "Li Yuanhong — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Li_Yuanhong"
+        }
+      ]
+    },
+    {
+      "person": "cao-kun",
+      "state": "republic-of-china",
+      "start": 1923,
+      "end": 1924,
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "exactStart": "1923-10-05",
+      "exactEnd": "1924-11-02",
+      "sources": [
+        {
+          "title": "Cao Kun — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cao_Kun"
+        },
+        {
+          "title": "Cao Kun — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q699591"
+        }
+      ]
+    },
+    {
+      "person": "duan-qirui",
+      "state": "republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Provisional Chief Executive",
+        "fa": "رئیس اجرایی موقت"
+      },
+      "start": 1924,
+      "end": 1926,
+      "sources": [
+        {
+          "title": "Duan Qirui — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Duan_Qirui"
+        }
+      ]
+    },
+    {
       "person": "wellington-koo",
       "state": "republic-of-china",
       "start": 1926,
@@ -1528,6 +2036,29 @@
         {
           "title": "Wellington Koo — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q317462"
+        }
+      ]
+    },
+    {
+      "person": "zhang-zuolin",
+      "state": "republic-of-china",
+      "start": 1927,
+      "end": 1928,
+      "office": "head-of-state",
+      "title": {
+        "en": "Generalissimo",
+        "fa": "ژنرالیسیمو"
+      },
+      "exactStart": "1927-06-18",
+      "exactEnd": "1928-06-04",
+      "sources": [
+        {
+          "title": "Zhang Zuolin — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zhang_Zuolin"
+        },
+        {
+          "title": "Zhang Zuolin — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q197358"
         }
       ]
     },
@@ -1557,6 +2088,23 @@
     {
       "person": "chiang-kai-shek",
       "state": "republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the National Government",
+        "fa": "رئیس دولت ملی"
+      },
+      "start": 1928,
+      "end": 1931,
+      "sources": [
+        {
+          "title": "Chiang Kai-shek — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chiang_Kai-shek"
+        }
+      ]
+    },
+    {
+      "person": "chiang-kai-shek",
+      "state": "republic-of-china",
       "start": 1930,
       "end": 1931,
       "office": "head-of-government",
@@ -1578,25 +2126,104 @@
       ]
     },
     {
+      "person": "lin-sen",
+      "state": "republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the National Government",
+        "fa": "رئیس دولت ملی"
+      },
+      "start": 1931,
+      "end": 1943,
+      "sources": [
+        {
+          "title": "Lin Sen — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lin_Sen"
+        }
+      ]
+    },
+    {
+      "person": "puyi",
+      "state": "manchukuo",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chief Executive",
+        "fa": "رئیس اجرایی"
+      },
+      "start": 1932,
+      "end": 1934,
+      "exactEnd": "1934-03-01",
+      "sources": [
+        {
+          "title": "Puyi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Puyi"
+        },
+        {
+          "title": "Manchukuo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manchukuo"
+        }
+      ]
+    },
+    {
       "person": "wang-jingwei",
       "state": "republic-of-china",
-      "start": 1932,
-      "end": 1935,
       "office": "head-of-government",
       "title": {
         "en": "Premier",
         "fa": "نخست‌وزیر"
       },
-      "exactStart": "1932-01-28",
-      "exactEnd": "1935-12-01",
+      "start": 1932,
+      "end": 1935,
       "sources": [
-        {
-          "title": "Wang Jingwei — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei"
-        },
         {
           "title": "Wang Jingwei — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q22303"
+        }
+      ]
+    },
+    {
+      "person": "zheng-xiaoxu",
+      "state": "manchukuo",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1932,
+      "end": 1935,
+      "exactStart": "1932-03-09",
+      "exactEnd": "1935-05-21",
+      "sources": [
+        {
+          "title": "Zheng Xiaoxu — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zheng_Xiaoxu"
+        },
+        {
+          "title": "Manchukuo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manchukuo"
+        }
+      ]
+    },
+    {
+      "person": "puyi",
+      "state": "manchukuo",
+      "office": "head-of-state",
+      "title": {
+        "en": "Emperor",
+        "fa": "امپراتور"
+      },
+      "start": 1934,
+      "end": 1945,
+      "exactStart": "1934-03-01",
+      "exactEnd": "1945-08-17",
+      "sources": [
+        {
+          "title": "Puyi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Puyi"
+        },
+        {
+          "title": "Manchukuo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manchukuo"
         }
       ]
     },
@@ -1620,6 +2247,29 @@
         {
           "title": "Chiang Kai-shek — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q16574"
+        }
+      ]
+    },
+    {
+      "person": "zhang-jinghui",
+      "state": "manchukuo",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1935,
+      "end": 1945,
+      "exactStart": "1935-05-21",
+      "exactEnd": "1945-08-20",
+      "sources": [
+        {
+          "title": "Zhang Jinghui — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zhang_Jinghui"
+        },
+        {
+          "title": "Manchukuo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manchukuo"
         }
       ]
     },
@@ -1666,6 +2316,109 @@
         {
           "title": "Chiang Kai-shek — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q16574"
+        }
+      ]
+    },
+    {
+      "person": "wang-jingwei",
+      "state": "wang-jingwei-regime",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1940,
+      "end": 1944,
+      "exactStart": "1940-03-30",
+      "exactEnd": "1944-11-10",
+      "sources": [
+        {
+          "title": "Wang Jingwei — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei"
+        },
+        {
+          "title": "Wang Jingwei regime — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei_regime"
+        }
+      ]
+    },
+    {
+      "person": "wang-jingwei",
+      "state": "wang-jingwei-regime",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1940,
+      "end": 1944,
+      "sources": [
+        {
+          "title": "Wang Jingwei regime — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei_regime"
+        },
+        {
+          "title": "Wang Jingwei — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei"
+        }
+      ]
+    },
+    {
+      "person": "chiang-kai-shek",
+      "state": "republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the National Government",
+        "fa": "رئیس دولت ملی"
+      },
+      "start": 1943,
+      "end": 1948,
+      "sources": [
+        {
+          "title": "Chiang Kai-shek — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chiang_Kai-shek"
+        }
+      ]
+    },
+    {
+      "person": "chen-gongbo",
+      "state": "wang-jingwei-regime",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1944,
+      "end": 1945,
+      "sources": [
+        {
+          "title": "Chen Gongbo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chen_Gongbo"
+        },
+        {
+          "title": "Wang Jingwei regime — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei_regime"
+        }
+      ]
+    },
+    {
+      "person": "chen-gongbo",
+      "state": "wang-jingwei-regime",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1944,
+      "end": 1945,
+      "sources": [
+        {
+          "title": "Wang Jingwei regime — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei_regime"
+        },
+        {
+          "title": "Chen Gongbo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chen_Gongbo"
         }
       ]
     },
@@ -1785,25 +2538,36 @@
       ]
     },
     {
-      "person": "mao-zedong",
-      "state": "peoples-republic-of-china",
-      "start": 1949,
-      "end": 1959,
+      "person": "chiang-kai-shek",
+      "state": "republic-of-china",
       "office": "head-of-state",
       "title": {
         "en": "President",
-        "fa": "رئیسجمهور"
+        "fa": "رئیس‌جمهور"
       },
-      "exactStart": "1949-10-01",
-      "exactEnd": "1959-04-27",
+      "start": 1948,
+      "end": 1949,
+      "sources": [
+        {
+          "title": "Chiang Kai-shek — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chiang_Kai-shek"
+        }
+      ]
+    },
+    {
+      "person": "mao-zedong",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the Central People's Government",
+        "fa": "رئیس دولت مرکزی خلق"
+      },
+      "start": 1949,
+      "end": 1954,
       "sources": [
         {
           "title": "Mao Zedong — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Mao_Zedong"
-        },
-        {
-          "title": "Mao Zedong — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5816"
         }
       ]
     },
@@ -1831,14 +2595,48 @@
       ]
     },
     {
+      "person": "mao-zedong",
+      "state": "peoples-republic-of-china",
+      "office": "leader",
+      "title": {
+        "en": "Paramount leader",
+        "fa": "رهبر عالی"
+      },
+      "start": 1949,
+      "end": 1976,
+      "sources": [
+        {
+          "title": "Mao Zedong — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mao_Zedong"
+        }
+      ]
+    },
+    {
+      "person": "mao-zedong",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Chairman of the People's Republic of China",
+        "fa": "رئیس جمهوری خلق چین"
+      },
+      "start": 1954,
+      "end": 1959,
+      "sources": [
+        {
+          "title": "Mao Zedong — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mao_Zedong"
+        }
+      ]
+    },
+    {
       "person": "liu-shaoqi",
       "state": "peoples-republic-of-china",
       "start": 1959,
       "end": 1968,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "Chairman of the People's Republic of China",
+        "fa": "رئیس جمهوری خلق چین"
       },
       "exactStart": "1959-04-27",
       "exactEnd": "1968-10-31",
@@ -1854,48 +2652,36 @@
       ]
     },
     {
-      "person": "dong-biwu",
-      "state": "peoples-republic-of-china",
-      "start": 1968,
-      "end": 1975,
-      "office": "head-of-state",
-      "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
-      },
-      "exactStart": "1968-10-31",
-      "exactEnd": "1975-01-17",
-      "sources": [
-        {
-          "title": "Dong Biwu — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Dong_Biwu"
-        },
-        {
-          "title": "Dong Biwu — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q968038"
-        }
-      ]
-    },
-    {
       "person": "soong-ching-ling",
       "state": "peoples-republic-of-china",
-      "start": 1968,
-      "end": 1975,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "Acting Chairman of the People's Republic of China",
+        "fa": "سرپرست ریاست جمهوری خلق چین"
       },
-      "exactStart": "1968-10-31",
-      "exactEnd": "1975-01-17",
+      "start": 1968,
+      "end": 1972,
       "sources": [
         {
           "title": "Soong Ching-ling — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Soong_Ching-ling"
-        },
+        }
+      ]
+    },
+    {
+      "person": "dong-biwu",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-state",
+      "title": {
+        "en": "Acting Chairman of the People's Republic of China",
+        "fa": "سرپرست ریاست جمهوری خلق چین"
+      },
+      "start": 1972,
+      "end": 1975,
+      "sources": [
         {
-          "title": "Soong Ching-ling — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q17132"
+          "title": "Dong Biwu — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dong_Biwu"
         }
       ]
     },
@@ -1906,8 +2692,8 @@
       "end": 1976,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "Chairman of the NPC Standing Committee (de facto head of state)",
+        "fa": "رئیس کمیتهٔ دائمی کنگرهٔ ملی خلق (رئیس کشور عملی)"
       },
       "exactStart": "1975-01-17",
       "exactEnd": "1976-07-06",
@@ -1925,23 +2711,42 @@
     {
       "person": "soong-ching-ling",
       "state": "peoples-republic-of-china",
-      "start": 1976,
-      "end": 1978,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "Acting Chairwoman of the NPC Standing Committee (de facto head of state)",
+        "fa": "سرپرست ریاست کمیتهٔ دائمی کنگرهٔ ملی خلق (رئیس کشور عملی)"
       },
-      "exactStart": "1976-07-06",
-      "exactEnd": "1978-03-05",
+      "start": 1976,
+      "end": 1978,
       "sources": [
         {
           "title": "Soong Ching-ling — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Soong_Ching-ling"
         },
         {
-          "title": "Soong Ching-ling — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q17132"
+          "title": "Chairman of the Standing Committee of the National People's Congress — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chairman_of_the_Standing_Committee_of_the_National_People%27s_Congress"
+        },
+        {
+          "title": "President of the People's Republic of China — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/President_of_the_People%27s_Republic_of_China"
+        }
+      ]
+    },
+    {
+      "person": "hua-guofeng",
+      "state": "peoples-republic-of-china",
+      "office": "leader",
+      "title": {
+        "en": "Paramount leader",
+        "fa": "رهبر عالی"
+      },
+      "start": 1976,
+      "end": 1978,
+      "sources": [
+        {
+          "title": "Hua Guofeng — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hua_Guofeng"
         }
       ]
     },
@@ -1975,8 +2780,8 @@
       "end": 1983,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "Chairman of the NPC Standing Committee (de facto head of state)",
+        "fa": "رئیس کمیتهٔ دائمی کنگرهٔ ملی خلق (رئیس کشور عملی)"
       },
       "exactStart": "1978-03-05",
       "exactEnd": "1983-06-18",
@@ -1988,6 +2793,23 @@
         {
           "title": "Ye Jianying — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q504372"
+        }
+      ]
+    },
+    {
+      "person": "deng-xiaoping",
+      "state": "peoples-republic-of-china",
+      "office": "leader",
+      "title": {
+        "en": "Paramount leader",
+        "fa": "رهبر عالی"
+      },
+      "start": 1978,
+      "end": 1989,
+      "sources": [
+        {
+          "title": "Deng Xiaoping — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Deng_Xiaoping"
         }
       ]
     },
@@ -2021,8 +2843,8 @@
       "end": 1988,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "President of the People's Republic of China",
+        "fa": "رئیس‌جمهور جمهوری خلق چین"
       },
       "exactStart": "1983-06-18",
       "exactEnd": "1988-04-08",
@@ -2038,37 +2860,14 @@
       ]
     },
     {
-      "person": "li-peng",
-      "state": "peoples-republic-of-china",
-      "start": 1987,
-      "end": 1998,
-      "office": "head-of-government",
-      "title": {
-        "en": "Premier",
-        "fa": "نخست‌وزیر"
-      },
-      "exactStart": "1987-11-24",
-      "exactEnd": "1998-03-17",
-      "sources": [
-        {
-          "title": "Li Peng — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Li_Peng"
-        },
-        {
-          "title": "Li Peng — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q18301"
-        }
-      ]
-    },
-    {
       "person": "yang-shangkun",
       "state": "peoples-republic-of-china",
       "start": 1988,
       "end": 1993,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "President of the People's Republic of China",
+        "fa": "رئیس‌جمهور جمهوری خلق چین"
       },
       "exactStart": "1988-04-08",
       "exactEnd": "1993-03-27",
@@ -2084,14 +2883,48 @@
       ]
     },
     {
+      "person": "li-peng",
+      "state": "peoples-republic-of-china",
+      "office": "head-of-government",
+      "title": {
+        "en": "Premier",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1988,
+      "end": 1998,
+      "sources": [
+        {
+          "title": "Li Peng — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q18301"
+        }
+      ]
+    },
+    {
+      "person": "jiang-zemin",
+      "state": "peoples-republic-of-china",
+      "office": "leader",
+      "title": {
+        "en": "Paramount leader",
+        "fa": "رهبر عالی"
+      },
+      "start": 1989,
+      "end": 2002,
+      "sources": [
+        {
+          "title": "Jiang Zemin — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jiang_Zemin"
+        }
+      ]
+    },
+    {
       "person": "jiang-zemin",
       "state": "peoples-republic-of-china",
       "start": 1993,
       "end": 2003,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "President of the People's Republic of China",
+        "fa": "رئیس‌جمهور جمهوری خلق چین"
       },
       "exactStart": "1993-03-27",
       "exactEnd": "2003-03-15",
@@ -2132,23 +2965,17 @@
     {
       "person": "hu-jintao",
       "state": "peoples-republic-of-china",
-      "start": 2003,
-      "end": 2013,
-      "office": "head-of-state",
+      "office": "leader",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "Paramount leader",
+        "fa": "رهبر عالی"
       },
-      "exactStart": "2003-03-15",
-      "exactEnd": "2013-03-14",
+      "start": 2002,
+      "end": 2012,
       "sources": [
         {
           "title": "Hu Jintao — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Hu_Jintao"
-        },
-        {
-          "title": "Hu Jintao — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q15029"
         }
       ]
     },
@@ -2172,6 +2999,46 @@
         {
           "title": "Wen Jiabao — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q16628"
+        }
+      ]
+    },
+    {
+      "person": "hu-jintao",
+      "state": "peoples-republic-of-china",
+      "start": 2003,
+      "end": 2013,
+      "office": "head-of-state",
+      "title": {
+        "en": "President of the People's Republic of China",
+        "fa": "رئیس‌جمهور جمهوری خلق چین"
+      },
+      "exactStart": "2003-03-15",
+      "exactEnd": "2013-03-14",
+      "sources": [
+        {
+          "title": "Hu Jintao — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hu_Jintao"
+        },
+        {
+          "title": "Hu Jintao — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q15029"
+        }
+      ]
+    },
+    {
+      "person": "xi-jinping",
+      "state": "peoples-republic-of-china",
+      "office": "leader",
+      "title": {
+        "en": "Paramount leader",
+        "fa": "رهبر عالی"
+      },
+      "start": 2012,
+      "end": null,
+      "sources": [
+        {
+          "title": "Xi Jinping — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Xi_Jinping"
         }
       ]
     },
@@ -2205,8 +3072,8 @@
       "end": null,
       "office": "head-of-state",
       "title": {
-        "en": "President",
-        "fa": "رئیسجمهور"
+        "en": "President of the People's Republic of China",
+        "fa": "رئیس‌جمهور جمهوری خلق چین"
       },
       "exactStart": "2013-03-14",
       "sources": [
@@ -2258,7 +3125,9 @@
           "title": "Flag of China (1862–1889).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_China_%281862%E2%80%931889%29.svg"
         }
-      ]
+      ],
+      "sha1": "6654d651a11f2445ef589edbe431caff249d21ea",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "qing-dynasty",
@@ -2274,7 +3143,9 @@
           "title": "Flag of China (1889–1912).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_China_%281889%E2%80%931912%29.svg"
         }
-      ]
+      ],
+      "sha1": "1fa7ab71045f183034233831f5c3bab78dd69694",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "republic-of-china",
@@ -2294,7 +3165,9 @@
           "title": "Flag of China (1912–1928).svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_China_%281912%E2%80%931928%29.svg"
         }
-      ]
+      ],
+      "sha1": "0836dabdb2133595b1a67985b7e5081934707daa",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "republic-of-china",
@@ -2310,7 +3183,9 @@
           "title": "Flag of the Republic of China.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_China.svg"
         }
-      ]
+      ],
+      "sha1": "784cf273d4caa8130068c0bdc730a43af7047657",
+      "retrieved": "2026-11-16"
     },
     {
       "state": "peoples-republic-of-china",
@@ -2326,7 +3201,53 @@
           "title": "Flag of the People's Republic of China.svg — Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg"
         }
-      ]
+      ],
+      "sha1": "e8782cb5c16e9b68b3b1539267ae99f726da0227",
+      "retrieved": "2026-11-16"
+    },
+    {
+      "state": "wang-jingwei-regime",
+      "file": "Flag of the Republic of China-Nanjing (Peace, Anti-Communism, National Construction).svg",
+      "start": 1940,
+      "end": 1945,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "SVG file created by User:Mononomic on en.wikipedia.org.",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Republic of China-Nanjing (Peace, Anti-Communism, National Construction).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_China-Nanjing_%28Peace%2C_Anti-Communism%2C_National_Construction%29.svg"
+        },
+        {
+          "title": "Wang Jingwei regime — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wang_Jingwei_regime"
+        }
+      ],
+      "sha1": "6d06726e6324f080dad2fcc9b43bee1d3a605d47",
+      "retrieved": "2026-11-16"
+    },
+    {
+      "state": "manchukuo",
+      "file": "Flag of Manchukuo.svg",
+      "start": 1932,
+      "end": 1945,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Urmas",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of Manchukuo.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Manchukuo.svg"
+        },
+        {
+          "title": "Manchukuo — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manchukuo"
+        }
+      ],
+      "sha1": "3f2e22a94d035f94c306d3ebee739e06f3d4138f",
+      "retrieved": "2026-11-16"
     }
   ]
 }

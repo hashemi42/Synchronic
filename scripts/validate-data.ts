@@ -1,10 +1,10 @@
-/** Validates every country file in data/overrides/countries/, presets and the world row. Run: pnpm data:validate */
+/** Validates every country file in data/merged/, presets and the world row. Run: pnpm data:validate */
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { Presets, WorldFile } from "../src/lib/data/schema";
 import { validateCountryFile } from "../src/lib/data/validate";
 
-const dir = path.join(process.cwd(), "data/overrides/countries");
+const dir = path.join(process.cwd(), "data/merged");
 
 async function main() {
   const files = (await readdir(dir)).filter((f) => f.endsWith(".json")).sort();

@@ -82,6 +82,9 @@ export const LanePeriod = z
     /** Null only for `no-state` periods. */
     state: Id.nullable(),
     ...range,
+    /** Exact dates of the period, where they matter: a rival government of a few months. */
+    exactStart: PartialDate.optional(),
+    exactEnd: PartialDate.optional(),
     kind: LaneKind,
     /** Primary label when it differs from the state's name (content policy §7.3). */
     label: Localized.optional(),
@@ -89,7 +92,9 @@ export const LanePeriod = z
     note: Localized.optional(),
     ...sourced,
   })
-  .refine(startBeforeEnd, startBeforeEndMessage)
+  // A rival period may begin and end within one year (the Hundred Days, 1815), like an office term.
+  .refine((p) => startBeforeEnd(p) || (p.kind === "rival" && p.start === p.end), startBeforeEndMessage)
+  .refine((p) => sameYear(p.exactStart, p.start), { message: "exactStart must fall in the start year", path: ["exactStart"] })
   .refine((p) => (p.kind === "no-state") === (p.state === null), {
     message: "`state` must be null for no-state periods and set for every other kind",
     path: ["state"],
@@ -151,6 +156,9 @@ export const Flag = z
     license: z.string().min(1),
     licenseUrl: z.url({ protocol: /^https?$/ }).optional(),
     attribution: z.string().min(1),
+    /** SHA-1 of the original file on Commons when its licence was read, and the date it was read. */
+    sha1: z.string().regex(/^[0-9a-f]{40}$/).optional(),
+    retrieved: z.iso.date().optional(),
     withheld: z.boolean().default(false),
     ...sourced,
   })
@@ -194,7 +202,7 @@ export const Narrative = z.strictObject({
   ...sourced,
 });
 
-/** One file per country in data/overrides/countries/. */
+/** One file per country in data/merged/, written by the pipeline (`pnpm data:pipeline`). */
 export const CountryFile = z.strictObject({
   $schema: z.string().optional(),
   country: Country,

@@ -5,7 +5,8 @@ export const covers = (r: { start: number; end: number | null }, year: number) =
   r.start <= year && (r.end === null || year < r.end);
 
 export function periodsAt(file: CountryFile, year: number): { main: LanePeriod | null; rivals: LanePeriod[] } {
-  const active = file.lane.filter((p) => covers(p, year));
+  // A rival period that began and ended within one year (start === end) is active in that year.
+  const active = file.lane.filter((p) => covers(p, year) || (p.kind === "rival" && p.start === p.end && p.start === year));
   return {
     main: active.find((p) => p.kind !== "rival") ?? null,
     rivals: active.filter((p) => p.kind === "rival"),

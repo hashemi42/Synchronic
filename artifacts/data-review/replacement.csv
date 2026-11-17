@@ -1,0 +1,116 @@
+﻿country,entity,record,field,status,before,after,note,link
+china,person,zhou-enlai,name.fa,changed,چو انلای,جئو ئن لای,,https://www.wikidata.org/wiki/Q17410
+china,person,zhu-rongji,name.fa,changed,ژو رانگجی,ژو رانگ‌جی,spelling only,https://www.wikidata.org/wiki/Q18285
+china,person,wen-jiabao,name.fa,changed,ون جیاباو,ون جیابائو,,https://www.wikidata.org/wiki/Q16628
+china,person,zhao-ziyang,name.fa,changed,ژائو زیانگ,جائو تسیانگ,,https://www.wikidata.org/wiki/Q99829
+china,person,soong-ching-ling,name.fa,changed,سونگ چینگ‌لینگ,سونگ چینگ لینگ,,https://www.wikidata.org/wiki/Q17132
+china,term,Puyi (Xuantong Emperor) · head-of-state · manchukuo,years,added,,1932–1945,the hand data has this person in other years,https://www.wikidata.org/wiki/Q185152
+china,term,Yikuang · head-of-government · qing-dynasty,years,changed,1911–1912,1911–1911,one year apart,https://www.wikidata.org/wiki/Q1204208
+china,term,Wang Jingwei · head-of-government · wang-jingwei-regime,years,added,,1940–1944,the hand data has this person in other years,https://www.wikidata.org/wiki/Q22303
+china,term,Hong Xiuquan · head-of-state · taiping-heavenly-kingdom,years,added,,1851–1864,the hand data does not have this person in this office,https://www.wikidata.org/wiki/Q334732
+china,term,Zheng Xiaoxu · head-of-government · manchukuo,years,added,,1932–1935,the hand data does not have this person in this office,https://www.wikidata.org/wiki/Q704607
+china,term,Zhang Jinghui · head-of-government · manchukuo,years,added,,1935–1945,the hand data does not have this person in this office,https://www.wikidata.org/wiki/Q197223
+china,term,Wang Jingwei · head-of-state · wang-jingwei-regime,years,added,,1940–1944,the hand data does not have this person in this office,https://www.wikidata.org/wiki/Q22303
+china,term,Chen Gongbo · head-of-government · wang-jingwei-regime,years,added,,1944–1945,the hand data does not have this person in this office,https://www.wikidata.org/wiki/Q704276
+china,term,Chen Gongbo · head-of-state · wang-jingwei-regime,years,added,,1944–1945,the hand data does not have this person in this office,https://www.wikidata.org/wiki/Q704276
+china,state,taiping-heavenly-kingdom,new,added,,Taiping Heavenly Kingdom 1851–1864,new rival state,https://www.wikidata.org/wiki/Q3486676
+china,state,wang-jingwei-regime,new,added,,Wang Jingwei regime 1940–1945,new rival state,https://www.wikidata.org/wiki/Q696242
+china,state,manchukuo,new,added,,Manchukuo 1932–1945,new rival state,https://www.wikidata.org/wiki/Q30623
+china,lane,taiping-heavenly-kingdom · rival,new,added,,1851-01-11–1864-07-19,new rival period,https://en.wikipedia.org/wiki/Taiping_Heavenly_Kingdom
+china,lane,wang-jingwei-regime · rival,new,added,,1940-03-30–1945-08-16 · Japanese puppet government,new rival period,https://en.wikipedia.org/wiki/Wang_Jingwei_regime
+china,lane,manchukuo · rival,new,added,,1932–1945 · Japanese puppet state,new rival period,https://en.wikipedia.org/wiki/Manchukuo
+france,state,first-french-empire,end,changed,1814,1815,,https://www.wikidata.org/wiki/Q71084
+france,person,louis-mathieu-mole,name.fa,changed,لویی متیو مولیه,لوئی متیو مولیه,spelling only,https://www.wikidata.org/wiki/Q1371497
+france,person,louis-eugene-cavaignac,name.fa,changed,لویی-اوژن کاوینیاک,لوئی-اوژن کاوینیاک,spelling only,https://www.wikidata.org/wiki/Q379702
+france,person,aristide-briand,name.fa,changed,آریستی بریا,آریستید بریان,,https://www.wikidata.org/wiki/Q179888
+france,person,louis-barthou,name.fa,changed,لوئی بارتو,لویی بارتو,spelling only,https://www.wikidata.org/wiki/Q271887
+france,person,pierre-etienne-flandin,name.fa,changed,پین-اتین فلاندین,پیر-اتین فلاندن,,https://www.wikidata.org/wiki/Q471296
+france,person,robert-schuman,name.fa,changed,رابرت شومان,روبر شومان,,https://www.wikidata.org/wiki/Q15981
+france,person,antoine-pinay,name.fa,changed,آنتوان پینای,آنتوان پینه,,https://www.wikidata.org/wiki/Q356724
+france,person,raymond-barre,name.fa,changed,ریموند باره,رمون بار,,https://www.wikidata.org/wiki/Q12957
+france,person,pierre-mauroy,name.fa,changed,پیر مائوروی,پی‌یر مائوروی,,https://www.wikidata.org/wiki/Q156511
+france,person,pierre-beregovoy,name.fa,changed,پیر برگووی,پی‌یر برگووی,,https://www.wikidata.org/wiki/Q298355
+france,person,francois-fillon,name.fa,changed,فرانسوا فیو,فرانسوا فیون,,https://www.wikidata.org/wiki/Q101410
+france,person,jean-marc-ayrault,name.fa,changed,ژان مارک ارو,ژان-مارک ارو,,https://www.wikidata.org/wiki/Q7711
+france,person,jean-castex,name.fa,changed,ژان کاستکس,ژان کستکس,,https://www.wikidata.org/wiki/Q3171170
+france,person,jean-de-dieu-soult,name.fa,changed,ژان دو دیو سولت,نیکولاس ژان-دی-دیو سول,,https://www.wikidata.org/wiki/Q296023
+france,term,Napoleon · head-of-state · first-french-empire,years,added,,1815–1815,the hand data has this person in other years,https://www.wikidata.org/wiki/Q517
+france,term,Louis-Eugène Cavaignac · head-of-state · french-second-republic,years,added,,1848–1848,the hand data does not have this person in this office,https://www.wikidata.org/wiki/Q379702
+france,term,Louis-Jules Trochu · head-of-state · french-third-republic,years,added,,1870–1871,the hand data does not have this person in this office,https://www.wikidata.org/wiki/Q441235
+france,term,Georges Bidault · head-of-state · french-fourth-republic,years,added,,1946–1946,the hand data does not have this person in this office,https://www.wikidata.org/wiki/Q312026
+france,lane,first-french-empire · rival,new,added,,1815-03-20–1815-07-08 · Hundred Days,new rival period,https://en.wikipedia.org/wiki/Hundred_Days
+germany,person,bernhard-von-bulow,name.fa,changed,برنهارد فن بولو,برنهارت فون بولو,,https://www.wikidata.org/wiki/Q60113
+germany,person,franz-von-papen,name.fa,changed,فرانتس فن پاپن,فرانتس فون پاپن,,https://www.wikidata.org/wiki/Q150552
+germany,person,kurt-von-schleicher,name.fa,changed,کورت فن شلایشر,کورت فون شلایشر,,https://www.wikidata.org/wiki/Q57133
+germany,person,lutz-graf-schwerin-von-krosigk,name.fa,changed,لوتس گراف شورین فن کروسیک,لوتس شورین فون کروسیک,,https://www.wikidata.org/wiki/Q57136
+germany,person,konrad-adenauer,name.fa,changed,کنراد آدناور,کنراد آدناوئر,,https://www.wikidata.org/wiki/Q2492
+germany,term,Walter Scheel · head-of-government · federal-republic-of-germany,years,removed,1974–1974,,no statement on Wikidata,https://www.wikidata.org/wiki/Q2571
+india,person,narendra-modi,name.fa,changed,نریندر مودی,نارندرا مودی,,https://www.wikidata.org/wiki/Q1058
+iran,person,mirza-ali-asghar-khan-amin-al-soltan,name.fa,changed,میرزا علیاصغر اتابک,میرزا علی‌اصغر اتابک,spelling only,https://www.wikidata.org/wiki/Q957636
+iran,person,mirza-ali-khan-amin-od-dowleh,name.fa,changed,علی امینالدوله,علی امین‌الدوله,spelling only,https://www.wikidata.org/wiki/Q4896149
+iran,person,abdol-majid-mirza,name.fa,changed,عینالدوله,عبدالمجید عین‌الدوله,,https://www.wikidata.org/wiki/Q308247
+iran,person,hossein-qoli-nezam-al-saltaneh-mafi,name.fa,changed,حسینقلی نظامالسلطنه,حسینقلی نظام‌السلطنه,spelling only,https://www.wikidata.org/wiki/Q5691193
+iran,person,mostowfi-ol-mamalek,name.fa,changed,حسن مستوفی,حسن مستوفی‌الممالک,,https://www.wikidata.org/wiki/Q1399358
+iran,person,najaf-qoli-khan-bakhtiari,name.fa,changed,صمصامالسلطنه,صمصام‌السلطنه,spelling only,https://www.wikidata.org/wiki/Q981700
+iran,person,vosugh-od-dowleh,name.fa,changed,حسن وثوق,وثوق‌الدوله,,https://www.wikidata.org/wiki/Q426031
+iran,person,fathollah-khan-akbar,name.fa,changed,فتحالله خان اکبر,فتح‌الله خان اکبر,spelling only,https://www.wikidata.org/wiki/Q1398054
+iran,person,mehdi-qoli-hedayat,name.fa,changed,مهدیقلی هدایت,مهدی‌قلی هدایت,spelling only,https://www.wikidata.org/wiki/Q957495
+iran,person,ahmad-matin-daftari,name.fa,changed,احمد متیندفتری,احمد متین‌دفتری,spelling only,https://www.wikidata.org/wiki/Q400691
+iran,person,mohammad-saed,name.fa,changed,محمد ساعد,محمد ساعد مراغه‌ای,,https://www.wikidata.org/wiki/Q726837
+iran,person,morteza-qoli-bayat,name.fa,changed,مرتضیقلی بیات,مرتضی‌قلی بیات,spelling only,https://www.wikidata.org/wiki/Q983520
+iran,person,ali-razmara,name.fa,changed,حاجی علی رزم آرا,حاجعلی رزم‌آرا,,https://www.wikidata.org/wiki/Q1398936
+iran,person,fazlollah-zahedi,name.fa,changed,فضلالله زاهدی,فضل‌الله زاهدی,spelling only,https://www.wikidata.org/wiki/Q1396878
+iran,person,jafar-sharif-emami,name.fa,changed,جعفر شریفامامی,جعفر شریف‌امامی,spelling only,https://www.wikidata.org/wiki/Q951044
+iran,person,mahmoud-ahmadinejad,name.fa,changed,محمود احمدینژاد,محمود احمدی‌نژاد,spelling only,https://www.wikidata.org/wiki/Q34448
+iran,term,Mohammad Mokhber · head-of-government · islamic-republic-of-iran,years,removed,2024–2024,,no statement on Wikidata,https://www.wikidata.org/wiki/Q5703610
+iran,term,Jafar Khan Zand · head-of-state · zand-iran,years,added,,1785–1789,the hand data does not have this person in this office,https://www.wikidata.org/wiki/Q81098
+iran,term,Seyd Morad Khan · head-of-state · zand-iran,years,added,,1789–1789,the hand data does not have this person in this office,https://www.wikidata.org/wiki/Q135668
+japan,person,yamagata-aritomo,name.fa,changed,یاماگاتا آریتومو,آریتومو یاماگاتا,,https://www.wikidata.org/wiki/Q297636
+japan,person,okuma-shigenobu,name.fa,changed,اکوما شیجنوبا,اوکوما شیگه‌نوبو,,https://www.wikidata.org/wiki/Q243141
+japan,person,saionji-kinmochi,name.fa,changed,سایاونجی کینموچی,سای‌اونجی کینموچی,spelling only,https://www.wikidata.org/wiki/Q297628
+japan,person,takahashi-korekiyo,name.fa,changed,تاکاهاشی کورهکیو,تاکاهاشی کوره‌کیو,spelling only,https://www.wikidata.org/wiki/Q315842
+japan,person,tanaka-giichi,name.fa,changed,تاناکا گیایچی,تاناکا گی‌ایچی,spelling only,https://www.wikidata.org/wiki/Q145416
+japan,person,inukai-tsuyoshi,name.fa,changed,اینوکای تسویوشی,تسویوشی اینوکای,,https://www.wikidata.org/wiki/Q354687
+japan,person,okada-keisuke,name.fa,changed,اوکادا کیسوکه,کیسوکه اوکادا,,https://www.wikidata.org/wiki/Q714951
+japan,person,koki-hirota,name.fa,changed,هیروتا کوکی,کوکی هیروتا,,https://www.wikidata.org/wiki/Q351652
+japan,person,senjuro-hayashi,name.fa,changed,سنجورو هایاشی,سن‌جورو هایاشی,spelling only,https://www.wikidata.org/wiki/Q351665
+japan,person,fumimaro-konoe,name.fa,changed,کیسوکه اوکادا,فومیمارو کونوئه,,https://www.wikidata.org/wiki/Q315594
+japan,person,hiranuma-kiichiro,name.fa,changed,هیرانوما کیایچیرو,کی‌ایچیرو هیرانوما,,https://www.wikidata.org/wiki/Q379996
+japan,person,mitsumasa-yonai,name.fa,changed,یونای میتسوماسا,میتسوماسا یونای,,https://www.wikidata.org/wiki/Q715231
+japan,person,hideki-tojo,name.fa,changed,هیدکی توجو,هیده‌کی توجو,,https://www.wikidata.org/wiki/Q160847
+japan,person,kuniaki-koiso,name.fa,changed,کونیآکی کوایسو,کونی‌آکی کوایسو,spelling only,https://www.wikidata.org/wiki/Q315549
+japan,person,kijuro-shidehara,name.fa,changed,کیجورو شیدههارا,کیجورو شیده‌هارا,spelling only,https://www.wikidata.org/wiki/Q335191
+japan,person,shigeru-yoshida,name.fa,changed,یوشیدا شیگهرو,یوشیدا شیگه‌رو,spelling only,https://www.wikidata.org/wiki/Q301804
+japan,person,tanzan-ishibashi,name.fa,changed,تانزان ایشیباشی,تانزان ایشی‌باشی,spelling only,https://www.wikidata.org/wiki/Q351656
+japan,person,kakuei-tanaka,name.fa,changed,کاکوئی تاناکا,تاناکا کاکوئی,,https://www.wikidata.org/wiki/Q297644
+japan,person,noboru-takeshita,name.fa,changed,نوبورو تاکهشیتا,نوبورو تاکه‌شیتا,spelling only,https://www.wikidata.org/wiki/Q315561
+japan,person,kiichi-miyazawa,name.fa,changed,کیایچی میازاوا,کی‌ایچی میازاوا,spelling only,https://www.wikidata.org/wiki/Q315565
+japan,person,sanae-takaichi,name.fa,changed,سانائه تاکایچی,سانائه تاکائیچی,,https://www.wikidata.org/wiki/Q1705028
+japan,term,Sanjō Sanetomi · head-of-government · empire-of-japan,years,removed,1889–1889,,no statement on Wikidata,https://www.wikidata.org/wiki/Q516646
+japan,term,Masayoshi Ito · head-of-government · state-of-japan,years,removed,1980–1980,,no statement on Wikidata,https://www.wikidata.org/wiki/Q744989
+russia,person,alexander-kerensky,name.fa,changed,الکساندر فیودورویچ کرنسکی,الکساندر کرنسکی,,https://www.wikidata.org/wiki/Q48211
+russia,person,kliment-voroshilov,name.fa,changed,کلیمنت ووروشیلوف,کلیمنت ووراشیلوف,,https://www.wikidata.org/wiki/Q186185
+russia,person,nikolai-podgorny,name.fa,changed,نیکولای پادگورنی,نیکلای پادگورنی,,https://www.wikidata.org/wiki/Q295781
+turkey,person,abdulaziz,name.fa,changed,عبدالعزیز,عبدالعزیز یکم,,https://www.wikidata.org/wiki/Q151500
+turkey,person,ahmed-izzet-pasha,name.fa,changed,احمد عزت باشا,احمد عزت پاشا,,https://www.wikidata.org/wiki/Q247611
+turkey,person,sukru-saracoglu,name.fa,changed,شکری سراجاوغلو,شکری سراج‌اوغلو,spelling only,https://www.wikidata.org/wiki/Q390725
+turkey,person,semsettin-gunaltay,name.fa,changed,شمسالدین گونآلتای,شمس‌الدین گون‌آلتای,spelling only,https://www.wikidata.org/wiki/Q388771
+turkey,person,bulend-ulusu,name.fa,changed,بولنت اولوسو,بلند اولوسو,,https://www.wikidata.org/wiki/Q375687
+turkey,person,y-ld-r-m-akbulut,name.fa,changed,ییلدیریم آکبولوت,ییلدیریم آک‌بولوت,spelling only,https://www.wikidata.org/wiki/Q558287
+turkey,person,necmettin-erbakan,name.fa,changed,نجمالدین اربکان,نجم‌الدین اربکان,spelling only,https://www.wikidata.org/wiki/Q243550
+turkey,person,ahmet-davutoglu,name.fa,changed,احمد داوداغلو,احمد داووداغلو,,https://www.wikidata.org/wiki/Q58198
+turkey,person,binali-y-ld-r-m,name.fa,changed,بنعلی ییلدریم,بن‌علی ییلدیریم,,https://www.wikidata.org/wiki/Q863496
+turkey,term,Abdul Hamid I · head-of-state · ottoman-empire,years,added,,1774–1789,the hand data does not have this person in this office,https://www.wikidata.org/wiki/Q170707
+uk,person,william-pitt-the-younger,name.fa,changed,ویلیام پیت,ویلیام پیت جوان‌تر,,https://www.wikidata.org/wiki/Q128902
+uk,person,f-j-robinson-1st-viscount-goderich,name.fa,changed,فردریک رابینسون,اف.جی. رابینسون,,https://www.wikidata.org/wiki/Q312591
+uk,person,george-canning,name.fa,changed,جورج کنینگ,جرج کنینگ,,https://www.wikidata.org/wiki/Q219731
+uk,person,george-hamilton-gordon-4th-earl-of-aberdeen,name.fa,changed,جورج همیلتون-گوردون,جرج همیلتون-گوردون,,https://www.wikidata.org/wiki/Q24631
+uk,person,william-ewart-gladstone,name.fa,changed,ویلیام اوارت گلدستون,ویلیام اوارت گلادستون,,https://www.wikidata.org/wiki/Q160852
+uk,person,robert-gascoyne-cecil-3rd-marquess-of-salisbury,name.fa,changed,مارکیز آو سالیسبوری,رابرت گاسکوین-سسیل,,https://www.wikidata.org/wiki/Q243705
+uk,person,henry-campbell-bannerman,name.fa,changed,هنری کمپل-بانرمن,هنری کمبل-بنرمن,,https://www.wikidata.org/wiki/Q106618
+uk,person,ramsay-macdonald,name.fa,changed,رمزی مکدونالد,رمزی مک‌دونالد,spelling only,https://www.wikidata.org/wiki/Q166646
+uk,person,harold-macmillan,name.fa,changed,هارولد مکمیلان,هارولد مک‌میلان,spelling only,https://www.wikidata.org/wiki/Q128985
+uk,person,edward-heath,name.fa,changed,ادوارد هیس,ادوارد هیت,,https://www.wikidata.org/wiki/Q128967
+uk,person,liz-truss,name.fa,changed,الیزابت تراس,لیز تراس,,https://www.wikidata.org/wiki/Q272201
+uk,person,keir-starmer,name.fa,changed,کر استارمر,کی‌یر استارمر,,https://www.wikidata.org/wiki/Q6383803
+uk,person,andy-burnham,name.fa,changed,اندی برنهم,اندی برنام,,https://www.wikidata.org/wiki/Q269909

@@ -1,6 +1,6 @@
 /**
- * Curated rules for head-of-government offices (docs/data-rules.md), shared by `pnpm merge:hog`
- * and the pipeline: which state and title a holder of each office gets, and which Wikidata
+ * Curated rules for head-of-government offices (docs/data-rules.md), used by the pipeline
+ * (`pnpm data:pipeline`): which state and title a holder of each office gets, and which Wikidata
  * statements are left out, with the reason.
  */
 type Localized = { en: string; fa: string };

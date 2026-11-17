@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
+import { gaps } from "./complete";
 import { diffCountry, spans } from "./diff";
 import type { Raw } from "./fetch";
-import { clean, joinTerms, normalize, slug, type Config, type CountryFile, type Term } from "./normalize";
+import { clean, joinTerms, normalize, persianName, slug, type Config, type Curated, type Term } from "./normalize";
 import { when } from "./wikidata";
 
 const GREGORIAN = "http://www.wikidata.org/entity/Q1985727";
@@ -29,20 +30,27 @@ describe("when", () => {
 describe("names", () => {
   it("drops a Wikipedia disambiguator and makes kebab-case ids", () => {
     expect(clean("Abbas Mirza (prince)")).toBe("Abbas Mirza");
-    expect(clean("عباس میرزا (شاهزاده)")).toBe("عباس میرزا");
     expect(slug("Émile Ollivier")).toBe("emile-ollivier");
+  });
+  it("takes the fa.wikipedia title, keeping its zero-width non-joiner", () => {
+    expect(persianName({ wikiFa: "سید علی خامنه‌ای", labelFa: "x" }, undefined)).toEqual({ value: "سید علی خامنه‌ای", from: "fa.wikipedia" });
+  });
+  it("passes over a title with brackets or a comma for the label, then the manual list", () => {
+    expect(persianName({ wikiFa: "لئوپولد دوم، امپراتور مقدس روم", labelFa: "لئوپولد دوم" }, undefined)).toEqual({ value: "لئوپولد دوم", from: "Wikidata label" });
+    expect(persianName({ wikiFa: "عباس میرزا (شاهزاده)" }, "عباس میرزا")).toEqual({ value: "عباس میرزا", from: "persian-names.json" });
+    expect(persianName({}, undefined)).toEqual({ value: null, from: "none" });
   });
 });
 
 describe("joinTerms", () => {
   it("joins overlapping terms of one person but keeps back-to-back cabinets apart", () => {
     const out = joinTerms([term("a", 1900, 1905), term("a", 1903, 1908), term("a", 1908, 1910), term("b", 1905, 1906)]);
-    expect(out.map((t) => [t.person, t.start, t.end])).toEqual([["a", 1900, 1908], ["b", 1905, 1906], ["a", 1908, 1910]]);
+    expect(out.map((t) => [t.person, t.start, t.end])).toEqual([["a", 1900, 1908], ["a", 1908, 1910], ["b", 1905, 1906]]);
   });
   it("keeps the better title and the later exact end", () => {
     const generic = term("a", 1900, 1905, { title: { en: "Head of government", fa: "ر" }, exactEnd: "1905-02-01" });
     const ruled = term("a", 1902, 1906, { exactEnd: "1906-03-04" });
-    const [out] = joinTerms([generic, ruled], (t) => (t === generic ? 2 : 0));
+    const [out] = joinTerms([generic, ruled], (t) => (t === generic ? 1 : 0));
     expect(out).toMatchObject({ start: 1900, end: 1906, exactEnd: "1906-03-04", title: { en: "PM" } });
   });
 });
@@ -56,75 +64,134 @@ describe("spans", () => {
   });
 });
 
-const hand: CountryFile = {
+// A kingdom "s" from 1700, in the lane from 1800, with a rival court "r" in 1800–1810.
+const curated: Curated = {
   country: { id: "x", name: { en: "X", fa: "ایکس" }, wikidata: "Q1" },
-  states: [{ id: "s", name: { en: "Kingdom of X", fa: "پادشاهی ایکس" }, start: 1800, end: null, wikidata: "Q2", sources: src }],
-  persons: [
-    { id: "king-a", name: { en: "A", fa: "آ" }, wikidata: "Q10", sources: src },
-    { id: "pm-b", name: { en: "B", fa: "ب" }, wikidata: "Q11", sources: src },
-  ],
-  lane: [{ country: "x", state: "s", start: 1800, end: null, kind: "state" }],
-  terms: [
-    term("king-a", 1800, 1850, { office: "head-of-state", title: { en: "King", fa: "شاه" } }),
-    term("pm-b", 1810, 1820),
-    term("king-a", 1840, 1850, { office: "leader" }),
-  ],
-  flags: [],
-};
-const row = (o: Record<string, string>) => ({ rank: "http://wikiba.se/ontology#NormalRank", ...o });
-const t = (k: string, iso: string) => ({ [k]: iso, [`${k}Prec`]: "11", [`${k}Cal`]: GREGORIAN });
-const raw: Raw = {
   states: [
-    row({ item: `${E}Q2`, prop: "P571", value: "1800-03-01T00:00:00Z", ...t("at", "1800-03-01T00:00:00Z") }),
-    row({ item: `${E}Q2`, prop: "P35", value: `${E}Q10`, ...t("start", "1800-03-01T00:00:00Z"), ...t("end", "1851-05-02T00:00:00Z") }),
-    row({ item: `${E}Q2`, prop: "P6", value: `${E}Q11`, ...t("start", "1810-01-05T00:00:00Z"), ...t("end", "1820-06-07T00:00:00Z") }),
-    row({ item: `${E}Q2`, prop: "P6", value: `${E}Q12`, ...t("start", "1820-06-07T00:00:00Z"), ...t("end", "1821-01-01T00:00:00Z") }),
-    row({ item: `${E}Q2`, prop: "P6", value: `${E}Q13` }),
+    { id: "s", name: { en: "Kingdom of X", fa: "پادشاهی ایکس" }, start: 1700, end: null, wikidata: "Q2", capital: { en: "C", fa: "س" }, system: { en: "Monarchy", fa: "پادشاهی" }, sources: src },
+    { id: "r", name: { en: "Rival court", fa: "دربار رقیب" }, start: 1790, end: 1810, wikidata: "Q3", sources: src },
   ],
-  holders: [],
-  people: [row({ item: `${E}Q10`, prop: "P570", value: "1851-05-02T00:00:00Z", ...t("at", "1851-05-02T00:00:00Z") })],
-  names: [
-    { item: `${E}Q2`, kind: "wiki:en", name: "Kingdom of X" }, { item: `${E}Q2`, kind: "wiki:fa", name: "پادشاهی ایکس" },
-    { item: `${E}Q10`, kind: "wiki:en", name: "A (king)" }, { item: `${E}Q10`, kind: "wiki:fa", name: "آ (شاه)" },
-    { item: `${E}Q11`, kind: "label:en", name: "B" }, { item: `${E}Q11`, kind: "label:fa", name: "ب" },
-    { item: `${E}Q12`, kind: "label:en", name: "C" },
-    { item: `${E}Q13`, kind: "label:en", name: "D" }, { item: `${E}Q13`, kind: "label:fa", name: "د" },
+  lane: [
+    { country: "x", state: "s", start: 1800, end: null, kind: "state" },
+    { country: "x", state: "r", start: 1800, end: 1810, kind: "rival" },
   ],
+  offices: [
+    { office: "Q100", title: { en: "King", fa: "شاه" }, family: ["Q500"], until: 1900 },
+    { office: "Q100", title: { en: "Rival king", fa: "شاه رقیب" }, family: ["Q501"], state: "r" },
+  ],
+  persons: [
+    { id: "king-a", wikidata: "Q10" },
+    { id: "queen-b", wikidata: "Q11", name: { fa: "ب" }, note: "kept" },
+    { id: "leader-l", wikidata: "Q15" },
+  ],
+  terms: [term("leader-l", 1950, 1960, { office: "leader", title: { en: "Leader", fa: "رهبر" } })],
+  titles: [{ person: "queen-b", office: "head-of-state", state: "s", title: { en: "Queen", fa: "ملکه" } }],
+  exclude: [{ wikidata: "Q14", office: "head-of-state", reason: "a claimant who never reigned" }],
+  flags: [{ state: "s", file: "Flag of X.svg", start: 1800, end: null, certainty: "documented", license: "old", attribution: "Someone", withheld: false, sources: src }],
 };
-const cfg: Config = { curated: hand, hogOffices: [], hogFrom: {}, hosOffices: [], excluded: new Map(), manualFa: { Q12: "ث" }, addedTerms: [] };
+const NORMAL = "http://wikiba.se/ontology#NormalRank";
+const t = (k: string, iso: string) => ({ [k]: `${iso}T00:00:00Z`, [`${k}Prec`]: "11", [`${k}Cal`]: GREGORIAN });
+const holder = (person: string, start: string, end?: string, more: Record<string, string> = {}) => ({
+  office: `${E}Q100`, person: `${E}${person}`, rank: NORMAL, ...t("start", start), ...(end ? t("end", end) : {}), ...more,
+});
+const family = (person: string, f: string) => ({ item: `${E}${person}`, prop: "P53", value: `${E}${f}`, rank: NORMAL });
+const raw: Raw = {
+  states: [],
+  holders: [
+    holder("Q10", "1780-01-01", "1850-05-02"),
+    holder("Q11", "1850-05-02", "1910-01-01"),
+    holder("Q12", "1850-05-02", "1850-06-01", { nature: `${E}Q900` }),
+    holder("Q13", "1800-02-01", "1810-03-01"),
+    holder("Q14", "1860-01-01", "1870-01-01"),
+    holder("Q16", "1700-01-01", "1750-01-01"),
+    holder("Q17", "1820-01-01", "1830-01-01"),
+  ],
+  people: [
+    family("Q10", "Q500"), family("Q11", "Q500"), family("Q12", "Q500"), family("Q13", "Q501"), family("Q14", "Q500"), family("Q16", "Q500"), family("Q17", "Q777"),
+    { item: `${E}Q10`, prop: "P570", value: "1850-05-02T00:00:00Z", rank: NORMAL, ...t("at", "1850-05-02") },
+  ],
+  names: [
+    { item: `${E}Q10`, kind: "wiki:en", name: "A (king)" }, { item: `${E}Q10`, kind: "wiki:fa", name: "آ" },
+    { item: `${E}Q11`, kind: "label:en", name: "B" }, { item: `${E}Q11`, kind: "wiki:fa", name: "ب دوم" },
+    { item: `${E}Q13`, kind: "label:en", name: "R" }, { item: `${E}Q13`, kind: "label:fa", name: "ر" },
+    { item: `${E}Q15`, kind: "label:en", name: "L" },
+    { item: `${E}Q900`, kind: "label:en", name: "acting" },
+  ],
+  flags: [{ file: "Flag of X.svg", sha1: "a".repeat(40), mime: "image/svg+xml", license: "CC BY-SA 4.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0", attribution: "Own work" }],
+  flagsRetrieved: "2026-11-16",
+};
+const cfg: Config = { curated, hogOffices: [], hogFrom: {}, manualFa: { Q15: "ل" }, addedTerms: [] };
 
 describe("normalize", () => {
   const out = normalize(raw, cfg);
-  it("builds terms from statements, with exact dates, and keeps the curated ids", () => {
-    expect(out.file.terms.map((x) => [x.person, x.office, x.start, x.end, x.exactStart])).toEqual([
-      ["king-a", "head-of-state", 1800, 1851, "1800-03-01"],
-      ["pm-b", "head-of-government", 1810, 1820, "1810-01-05"],
-      ["c", "head-of-government", 1820, 1821, "1820-06-07"],
-    ]);
-    expect(out.file.persons.find((p) => p.id === "king-a")).toMatchObject({ name: { en: "A", fa: "آ" }, died: 1851 });
+  const rows = out.file.terms.map((x) => [x.person, x.state, x.office, x.title.en, x.start, x.end]);
+  it("turns holders of a curated office into terms, placed and titled by the office's rule", () => {
+    // A term that began before the lane keeps its true start; the office stops counting in 1900.
+    expect(rows).toContainEqual(["king-a", "s", "head-of-state", "King", 1780, 1850]);
+    expect(rows).toContainEqual(["queen-b", "s", "head-of-state", "Queen", 1850, 1900]);
+    expect(out.file.terms.find((x) => x.person === "king-a")).toMatchObject({ exactEnd: "1850-05-02" });
   });
-  it("says where each Persian name came from and notes what it could not use", () => {
-    expect(out.persian.get("Q10")).toEqual({ from: "fa.wikipedia", title: "آ (شاه)" });
-    expect(out.persian.get("Q11")).toEqual({ from: "Wikidata label" });
-    expect(out.persian.get("Q12")).toEqual({ from: "persian-names.json" });
-    expect(out.notes).toContainEqual(expect.objectContaining({ kind: "statement without a start date" }));
+  it("tells one family's holders of a shared title from another's", () => {
+    expect(rows).toContainEqual(["r", "r", "head-of-state", "Rival king", 1800, 1810]);
+    expect(out.file.persons.map((p) => p.wikidata)).not.toContain("Q17");
   });
-  it("leaves out a holder an exception names, for that office only", () => {
-    const less = normalize(raw, { ...cfg, excluded: new Map([["Q12:head-of-government", "R3"], ["Q10:head-of-government", "R8"]]) });
-    expect(less.file.terms.map((x) => x.person)).toEqual(["king-a", "pm-b"]);
+  it("leaves out brief stand-ins (R3), named exclusions and holders before the lane", () => {
+    expect(out.file.persons.map((p) => p.wikidata).sort()).toEqual(["Q10", "Q11", "Q13", "Q15"]);
+    expect(out.notes).toContainEqual(expect.objectContaining({ kind: "R3: stand-in for less than a year, left out" }));
+  });
+  it("keeps a stand-in when leaving them out would leave a year with nobody (R3 never makes a gap)", () => {
+    // With no king or queen on record, the acting holder of 1850 is all there is.
+    const kept = normalize({ ...raw, holders: raw.holders.filter((h) => h.person.endsWith("Q12")), names: [...raw.names, { item: `${E}Q12`, kind: "label:en", name: "S" }, { item: `${E}Q12`, kind: "label:fa", name: "س" }] }, cfg);
+    expect(kept.file.terms.map((x) => x.person)).toContain("s");
+    expect(kept.notes).toContainEqual(expect.objectContaining({ kind: "R3: stand-in kept, nobody else covers the year" }));
+    // A named R3 exclusion follows the same rule.
+    const named = normalize(raw, { ...cfg, curated: { ...curated, exclude: [{ wikidata: "Q13", office: "head-of-state", reason: "R3: R, regent" }] } });
+    expect(named.file.terms.map((x) => x.person)).toContain("r");
+  });
+  it("adds curated terms and keeps curated names and ids", () => {
+    expect(rows).toContainEqual(["leader-l", "s", "leader", "Leader", 1950, 1960]);
+    expect(out.file.persons.find((p) => p.id === "queen-b")?.name).toEqual({ en: "B", fa: "ب" });
+    expect(out.file.persons.find((p) => p.id === "king-a")).toMatchObject({ name: { en: "A", fa: "آ" }, died: 1850 });
+    expect([out.persian.get("Q10"), out.persian.get("Q11"), out.persian.get("Q15")]).toEqual(["fa.wikipedia", "override", "persian-names.json"]);
+    expect(out.origin).toEqual({ wikidata: 3, curated: 1 });
+  });
+  it("lets a curated term replace the pipeline's terms for that person and office", () => {
+    const own = term("king-a", 1800, 1849, { office: "head-of-state", title: { en: "King", fa: "شاه" } });
+    const patched = normalize(raw, { ...cfg, curated: { ...curated, terms: [own] } });
+    expect(patched.file.terms.filter((x) => x.person === "king-a").map((x) => [x.start, x.end])).toEqual([[1800, 1849]]);
+  });
+  it("reads each flag's licence from Commons and keeps the curated credit", () => {
+    expect(out.file.flags[0]).toMatchObject({ license: "CC BY-SA 4.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0", attribution: "Someone", sha1: "a".repeat(40), retrieved: "2026-11-16" });
+    const bad = normalize({ ...raw, flags: [{ ...raw.flags[0], license: "CC BY-NC 4.0" }] }, cfg);
+    expect(bad.notes).toContainEqual(expect.objectContaining({ kind: "flag: licence not on the allowlist" }));
+  });
+});
+
+describe("gaps", () => {
+  const { file } = normalize(raw, cfg);
+  it("lists the years of a state with no head of state, head of government or flag", () => {
+    const open = gaps(file, 1800, 1960);
+    expect(open).toContainEqual({ state: "s", need: "head of state", start: 1901, end: 1949 });
+    expect(open).toContainEqual({ state: "s", need: "head of government", start: 1800, end: 1960 });
+    expect(open).toContainEqual({ state: "r", need: "capital", start: 1800, end: 1809 });
+    expect(open.filter((g) => g.need === "flag").map((g) => g.state)).toEqual(["r"]);
+    expect(open.some((g) => g.need === "lane")).toBe(false);
+  });
+  it("closes a gap only by a recorded exception", () => {
+    const open = gaps(file, 1800, 1960, [{ country: "x", state: "s", need: "head of government", start: 1800, end: 1960, reason: "no cabinet", source: "https://example.org" }]);
+    expect(open.some((g) => g.state === "s" && g.need === "head of government")).toBe(false);
   });
 });
 
 describe("diffCountry", () => {
-  const out = normalize(raw, cfg);
-  const { rows, counts } = diffCountry(hand, out.file, { notes: out.notes, flagCandidates: out.flagCandidates, verified: {}, first: 1800 });
+  const before = normalize(raw, cfg).file;
+  const after = normalize(raw, { ...cfg, curated: { ...curated, exclude: [...curated.exclude, { wikidata: "Q13", office: "head-of-state", reason: "x" }], persons: curated.persons.map((p) => (p.id === "queen-b" ? { id: p.id, wikidata: p.wikidata } : p)) } }).file;
+  const { rows, counts } = diffCountry(before, after, { notes: [], verified: {}, first: 1800 });
   it("counts what agrees and lists what does not", () => {
-    expect(counts["term: head-of-government"]).toEqual({ same: 1, differs: 0, onlyOurs: 0, onlyPipeline: 1 });
-    expect(rows.filter((r) => r.entity === "term").map((r) => [r.status, r.ours, r.pipeline])).toEqual([
-      ["differs", "1800–1850", "1800–1851"],
-      ["only in hand data", "1840–1850", ""],
-      ["only in pipeline", "", "1820–1821"],
+    expect(counts["term: head-of-state"]).toEqual({ same: 2, differs: 0, onlyOurs: 1, onlyPipeline: 0 });
+    expect(rows.map((r) => [r.entity, r.field, r.status, r.ours, r.pipeline])).toEqual([
+      ["person", "name.fa", "differs", "ب", "ب دوم"],
+      ["term", "years", "only in hand data", "1800–1810", ""],
     ]);
-    expect(rows.find((r) => r.status === "only in hand data")?.note).toContain("R4");
   });
 });

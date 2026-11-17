@@ -1,0 +1,13 @@
+{
+"query": "commons imageinfo: Flag of China (1862–1889).svg | Flag of China (1889–1912).svg | Flag of China (1912–1928).svg | Flag of Manchukuo.svg | Flag of the People's Republic of China.svg | Flag of the Republic of China-Nanjing (Peace, Anti-Communism, National Construction).svg | Flag of the Republic of China.svg",
+"fetchedAt": "2026-11-16T22:08:03.941Z",
+"rows": [
+{"file":"Flag of China (1862–1889).svg","sha1":"6654d651a11f2445ef589edbe431caff249d21ea","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Sodacan"},
+{"file":"Flag of China (1889–1912).svg","sha1":"1fa7ab71045f183034233831f5c3bab78dd69694","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Original: zh:清朝政府 Vector: Sodacan"},
+{"file":"Flag of China (1912–1928).svg","sha1":"0836dabdb2133595b1a67985b7e5081934707daa","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Original: en:Provisional Government of the Republic of China (1912) Vector: Kibinsky"},
+{"file":"Flag of Manchukuo.svg","sha1":"3f2e22a94d035f94c306d3ebee739e06f3d4138f","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Urmas"},
+{"file":"Flag of the People's Republic of China.svg","sha1":"e8782cb5c16e9b68b3b1539267ae99f726da0227","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Zeng Liansong"},
+{"file":"Flag of the Republic of China-Nanjing (Peace, Anti-Communism, National Construction).svg","sha1":"6d06726e6324f080dad2fcc9b43bee1d3a605d47","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"SVG file created by User:Mononomic on en.wikipedia.org."},
+{"file":"Flag of the Republic of China.svg","sha1":"784cf273d4caa8130068c0bdc730a43af7047657","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Sun Yat-sen"}
+]
+}

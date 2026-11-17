@@ -2,6 +2,8 @@
 
 **Status (2026-11-15):** R1–R8 and A1 are **approved and applied** (R8 in PR #2). E1–E3 are **fixed**. Rules that leave a Wikidata holder out on purpose are recorded in [data/policy/audit-exceptions.json](../data/policy/audit-exceptions.json), with the reason, so `pnpm data:audit` stops listing them; terms checked by hand against a source are recorded there too.
 
+**Update (2026-11-17):** the rules now run in the pipeline (`pnpm data:pipeline`). Holders left out by rule are listed, with their office, in each country's `exclude` in `data/overrides/countries/`; R3 is also applied by code wherever Wikidata marks a statement as acting or interim for less than a year. The `merge:hog` script named below is retired.
+
 Each rule says what it does and which rows of [the audit](../artifacts/data-review/audit.csv) it resolved.
 
 The audit raised **7 high rows** (years differ by more than one) and **48 rows where Wikidata has a holder we don't**. Every one of them is covered below:

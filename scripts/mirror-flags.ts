@@ -34,7 +34,7 @@ async function download(file: string, width: number): Promise<Uint8Array> {
 }
 
 async function main() {
-  const dir = path.join(root, "data/overrides/countries");
+  const dir = path.join(root, "data/merged");
   const files = new Map<string, boolean>(); // file → withheld
   for (const name of (await readdir(dir)).filter((f) => f.endsWith(".json"))) {
     const data = JSON.parse(await readFile(path.join(dir, name), "utf8"));

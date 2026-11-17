@@ -1,0 +1,10 @@
+{
+"query": "commons imageinfo: British Raj Red Ensign.svg | Flag of India.svg | Flag of the British East India Company (1801).svg | Flag of the Maratha Empire.svg",
+"fetchedAt": "2026-11-16T21:30:50.103Z",
+"rows": [
+{"file":"British Raj Red Ensign.svg","sha1":"df0d4e8729b043b8452736e5af4f384f3a0dd193","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Barryob"},
+{"file":"Flag of India.svg","sha1":"e69ebcb30211f4f175bd61942547946a97c7340e","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"Government of India"},
+{"file":"Flag of the British East India Company (1801).svg","sha1":"2ad0dcb817a04c06526c05f575f19fe0f19ead05","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"No machine-readable author provided. Yaddah assumed (based on copyright claims)."},
+{"file":"Flag of the Maratha Empire.svg","sha1":"4e319030a8207a84dbf853c76ceeedcd8659417d","mime":"image/svg+xml","license":"Public domain","licenseUrl":"","attribution":"DarkEvil"}
+]
+}
