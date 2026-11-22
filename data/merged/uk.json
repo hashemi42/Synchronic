@@ -1341,28 +1341,6 @@
       ]
     },
     {
-      "person": "william-pitt-the-younger",
-      "state": "uk-of-great-britain-and-ireland",
-      "start": 1801,
-      "end": 1806,
-      "office": "head-of-government",
-      "title": {
-        "en": "Prime Minister",
-        "fa": "نخست‌وزیر"
-      },
-      "exactEnd": "1806-01-23",
-      "sources": [
-        {
-          "title": "William Pitt the Younger — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/William_Pitt_the_Younger"
-        },
-        {
-          "title": "William Pitt the Younger — Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q128902"
-        }
-      ]
-    },
-    {
       "person": "george-iii",
       "state": "uk-of-great-britain-and-ireland",
       "start": 1801,
@@ -1382,6 +1360,29 @@
         {
           "title": "George III — Wikidata",
           "url": "https://www.wikidata.org/wiki/Q127318"
+        }
+      ]
+    },
+    {
+      "person": "william-pitt-the-younger",
+      "state": "uk-of-great-britain-and-ireland",
+      "start": 1804,
+      "end": 1806,
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "exactStart": "1804-05-10",
+      "exactEnd": "1806-01-23",
+      "sources": [
+        {
+          "title": "William Pitt the Younger — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/William_Pitt_the_Younger"
+        },
+        {
+          "title": "William Pitt the Younger — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q128902"
         }
       ]
     },

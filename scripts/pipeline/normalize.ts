@@ -11,7 +11,7 @@
  */
 import type { Raw } from "./fetch";
 import { EXCLUDE, EXCLUDE_TERMS, RULES } from "./rules";
-import { qid, when, type Row, type When } from "./wikidata";
+import { pairDates, qid, when, type Row, type When } from "./wikidata";
 
 export type Localized = { en: string; fa: string };
 export type Source = { title: string; url: string };
@@ -246,7 +246,7 @@ export function normalize(raw: Raw, cfg: Config): Result {
   // P35 and P6 on the state items. An item shared by several states of the lane (Q142 for every
   // French republic) is placed by date. They carry no office, so the title comes from the same
   // person's P39 statement where there is one, or from the curated file.
-  for (const r of raw.states.filter((x) => x.prop === "P35" || x.prop === "P6")) {
+  for (const r of pairDates(raw.states.filter((x) => x.prop === "P35" || x.prop === "P6"))) {
     if (!r.value.startsWith("http://www.wikidata.org/entity/Q")) continue;
     const item = qid(r.item);
     const ids = stateIdsOf(item);
@@ -255,7 +255,7 @@ export function normalize(raw: Raw, cfg: Config): Result {
       start: time(r, "start"), end: time(r, "end"), state: ids.length === 1 ? ids[0] : null, title: null, via: `${r.prop} on ${item}`, nature: natureOf(r),
     });
   }
-  for (const r of raw.holders) {
+  for (const r of pairDates(raw.holders)) {
     const office = qid(r.office);
     const person = qid(r.person);
     let start = time(r, "start");

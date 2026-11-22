@@ -94,6 +94,31 @@ export function when(iso?: string, precision?: string, calendar?: string): When 
   return out;
 }
 
+/** A Wikidata time value as a number that sorts by date. */
+const order = (iso: string) => {
+  const m = /^(-?\d+)-(\d\d)-(\d\d)/.exec(iso);
+  return m ? Number(m[1]) * 10_000 + Number(m[2] + m[3]) : NaN;
+};
+
+/**
+ * A statement with several starts and ends comes back as a row for every start with every end.
+ * Where they alternate (start, end, start, end), the statement holds that many terms, one after the
+ * other, and only a start with the end that follows it is a term: Pitt the Younger's 1783–1801 and
+ * 1804–1806, not 1783–1806. Any other set is different dates for one term, and is left as it is.
+ */
+export function pairDates(rows: Row[]): Row[] {
+  const crossed = new Set<Row>();
+  for (const group of Map.groupBy(rows, (r) => r.st).values()) {
+    const dates = (k: "start" | "end") => [...new Set(group.flatMap((r) => (r[k] ? [r[k]] : [])))].sort((a, b) => order(a) - order(b));
+    const starts = dates("start");
+    const ends = dates("end");
+    const line = starts.flatMap((s, i) => [s, ends[i]]);
+    const alternate = starts.length > 1 && starts.length === ends.length && line.every((d, i) => i === 0 || order(line[i - 1]) <= order(d));
+    if (alternate) for (const r of group) if (starts.indexOf(r.start) !== ends.indexOf(r.end)) crossed.add(r);
+  }
+  return rows.filter((r) => !crossed.has(r));
+}
+
 const values = (ids: string[]) => ids.map((q) => `wd:${q}`).join(" ");
 const time = (v: string, pred: string) =>
   `OPTIONAL { ?st ${pred} [ wikibase:timeValue ?${v} ; wikibase:timePrecision ?${v}Prec ; wikibase:timeCalendarModel ?${v}Cal ] . }`;

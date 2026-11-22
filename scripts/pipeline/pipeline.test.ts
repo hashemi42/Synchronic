@@ -3,7 +3,7 @@ import { gaps } from "./complete";
 import { diffCountry, spans } from "./diff";
 import type { Raw } from "./fetch";
 import { clean, joinTerms, normalize, persianName, slug, type Config, type Curated, type Term } from "./normalize";
-import { when } from "./wikidata";
+import { pairDates, when, type Row } from "./wikidata";
 
 const GREGORIAN = "http://www.wikidata.org/entity/Q1985727";
 const JULIAN = "http://www.wikidata.org/entity/Q1985786";
@@ -24,6 +24,34 @@ describe("when", () => {
     expect(when("-0549-01-01T00:00:00Z", "9", GREGORIAN)).toEqual({ year: -549 });
     expect(when("1800-01-01T00:00:00Z", "7", GREGORIAN)).toBeNull();
     expect(when(undefined)).toBeNull();
+  });
+});
+
+describe("pairDates", () => {
+  /** The rows Wikidata gives for one statement: every start with every end. */
+  const crossed = (st: string, starts: string[], ends: string[]): Row[] => starts.flatMap((start) => ends.map((end) => ({ st, start: `${start}T00:00:00Z`, end: `${end}T00:00:00Z` })));
+  const years = (rows: Row[]) => pairDates(rows).map((r) => [r.st, r.start.split("T")[0], r.end.split("T")[0]]);
+
+  it("reads a statement whose starts and ends alternate as one term after another", () => {
+    expect(years(crossed("pitt", ["1804-05-10", "1783-12-19"], ["1806-01-23", "1801-03-14"]))).toEqual([
+      ["pitt", "1804-05-10", "1806-01-23"],
+      ["pitt", "1783-12-19", "1801-03-14"],
+    ]);
+    expect(years(crossed("bce", ["-0060-03-01", "-0050-03-01"], ["-0050-02-01", "-0040-01-01"]))).toEqual([
+      ["bce", "-0060-03-01", "-0050-02-01"],
+      ["bce", "-0050-03-01", "-0040-01-01"],
+    ]);
+  });
+  it("leaves different dates for one term, and other statements, as they are", () => {
+    const rows = [
+      ...crossed("a", ["1957-01-10"], ["1963-10-18", "1963-10-19"]),
+      ...crossed("b", ["1980-09-12", "1982-11-09"], ["1989-11-09"]),
+      ...crossed("c", ["1960-05-27", "1961-10-27"], ["1966-02-02", "1966-03-28"]),
+      ...crossed("d", ["1801-03-14"], ["1804-05-10"]),
+      { st: "e", start: "1804-05-10T00:00:00Z" },
+      { st: "f" },
+    ] as Row[];
+    expect(pairDates(rows)).toEqual(rows);
   });
 });
 
@@ -159,6 +187,13 @@ describe("normalize", () => {
     const own = term("king-a", 1800, 1849, { office: "head-of-state", title: { en: "King", fa: "شاه" } });
     const patched = normalize(raw, { ...cfg, curated: { ...curated, terms: [own] } });
     expect(patched.file.terms.filter((x) => x.person === "king-a").map((x) => [x.start, x.end])).toEqual([[1800, 1849]]);
+  });
+  it("makes two terms of one statement that holds two, on an office and on a state", () => {
+    const dates = [["1820-01-01", "1830-03-01"], ["1840-04-01", "1850-05-01"]];
+    const rows = dates.flatMap(([start]) => dates.map(([, end]) => ({ st: "both", ...t("start", start), ...t("end", end) })));
+    const years = (more: Partial<Raw>) => normalize({ ...raw, ...more }, cfg).file.terms.filter((x) => x.person === "king-a").map((x) => [x.start, x.end]);
+    expect(years({ holders: rows.map((r) => ({ ...holder("Q10", "1820-01-01"), ...r })) })).toEqual([[1820, 1830], [1840, 1850]]);
+    expect(years({ holders: [], states: rows.map((r) => ({ item: `${E}Q2`, prop: "P35", value: `${E}Q10`, rank: NORMAL, ...r })) })).toEqual([[1820, 1830], [1840, 1850]]);
   });
   it("reads each flag's licence from Commons and keeps the curated credit", () => {
     expect(out.file.flags[0]).toMatchObject({ license: "CC BY-SA 4.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0", attribution: "Someone", sha1: "a".repeat(40), retrieved: "2026-11-16" });

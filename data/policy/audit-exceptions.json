@@ -70,7 +70,9 @@
     "Q742723:head-of-government:1818-1819": "The row reads \"Jean-Joseph, Marquis Dessolles\", 29 December 1818 – 19 November 1819 (English Wikipedia, List of prime ministers of France, checked 2026-11-17).",
     "Q16364440:head-of-government:1825-1828": "The row reads \"Asef od-Dowleh\", 1825 – 21 March 1828 (English Wikipedia, List of grand viziers of Persia, checked 2026-11-17).",
     "Q8215953:head-of-government:1871-1880": "Mirza Hosein Khan Sepahsalar: Sadr-e A'zam 13 November 1871 – 14 September 1873; then, as Moshir od-Dowleh, acting jointly with Mirza Yusuf Ashtiani from 1873 until his dismissal in 1880 (English Wikipedia, List of grand viziers of Persia, checked 2026-11-17).",
-    "Q5946187:head-of-government:1873-1886": "Mirza Yusuf Ashtiani: acting jointly from 1873, alone from 1880, Sadr-e A'zam 24 June 1884 – 7 April 1886, in three rows (English Wikipedia, List of grand viziers of Persia, checked 2026-11-17)."
+    "Q5946187:head-of-government:1873-1886": "Mirza Yusuf Ashtiani: acting jointly from 1873, alone from 1880, Sadr-e A'zam 24 June 1884 – 7 April 1886, in three rows (English Wikipedia, List of grand viziers of Persia, checked 2026-11-17).",
+    "Q128902:head-of-government:1789-1801": "William Pitt the Younger, Prime Minister of Great Britain from 19 December 1783, then of the United Kingdom until 14 March 1801 (English Wikipedia, infobox, checked 2026-11-22); heads of government start with the lane. Wikidata has both ministries on one statement, which the audit reads as 1783–1806.",
+    "Q128902:head-of-government:1804-1806": "William Pitt the Younger, Prime Minister again 10 May 1804 – 23 January 1806, after Henry Addington (English Wikipedia, infobox, checked 2026-11-22). Wikidata has both ministries on one statement, which the audit reads as 1783–1806."
   },
   "noOfficialName": {
     "company-rule-in-india": "Not a state with an official name: the East India Company governed territories on the Crown's behalf (confirmed 2026-11-15)",
