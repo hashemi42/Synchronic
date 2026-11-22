@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { displayRange, displayYear, formatYear, formatYearRange, gregorianRange, headlineYear, hijriEquivalents, solarHijriYear, tickPositions } from "./calendar";
+import { displayRange, displayYear, exactRange, formatYear, formatYearRange, gregorianRange, headlineYear, hijriEquivalents, solarHijriYear, tickPositions } from "./calendar";
 
 describe("calendar equivalents", () => {
   it("matches the PRD example: 1919 CE · 1297–98 SH · 1337–38 AH", () => {
@@ -67,5 +67,21 @@ describe("display years (L-4)", () => {
     expect(ticks[0]).toEqual({ pos: 1901, value: 1280 });
     expect(ticks.every((t) => t.value % 10 === 0 && t.pos === t.value + 621)).toBe(true);
     expect(tickPositions({ from: 1900, to: 1950 }, 10, "en")[0]).toEqual({ pos: 1900, value: 1900 });
+  });
+});
+
+describe("exact dates (#11)", () => {
+  it("writes a range within one year, Solar Hijri first in Persian", () => {
+    expect(exactRange("1815-03-20", "1815-07-08", "en")?.primary).toMatch(/^20 March\s–\s8 July 1815$/);
+    expect(exactRange("1815-03-20", "1815-07-08", "en")?.secondary).toBeNull();
+    const fa = exactRange("1815-03-20", "1815-07-08", "fa")!;
+    expect(fa.primary).toContain("۱۱۹۳");
+    expect(fa.primary).toContain("۱۱۹۴");
+    expect(fa.secondary).toContain("۱۸۱۵");
+  });
+
+  it("needs both ends to the day", () => {
+    expect(exactRange("1815-03", "1815-07-08", "en")).toBeNull();
+    expect(exactRange(undefined, "1815-07-08", "en")).toBeNull();
   });
 });

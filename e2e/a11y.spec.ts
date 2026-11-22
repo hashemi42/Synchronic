@@ -68,6 +68,20 @@ for (const locale of ["en", "fa"] as const) {
       await audit(page);
     });
 
+    test("no documented flag, term notes and exact dates", async ({ page }) => {
+      await page.goto(`/${locale}?year=1800&lanes=india,us`);
+      await page.locator('[data-lane-id="india"]:visible button[aria-controls]').click();
+      await audit(page);
+      await page.goto(`/${locale}?year=1815&lanes=france,iran`);
+      await page.locator('[data-lane-id="france"]:visible button[aria-controls]').click();
+      await audit(page);
+      // The card of a state without a documented flag.
+      await page.goto(`/${locale}?year=1850&lanes=iran,us`);
+      await page.locator('[data-lane-id="iran"]:visible ol').first().getByRole("button").first().focus();
+      await expect(page.getByRole("tooltip")).toBeVisible();
+      await audit(page);
+    });
+
     test("politics card", async ({ page }) => {
       await page.goto(`/${locale}?year=1941&lanes=germany,france&from=1925&to=1955`);
       // Nazi Germany: its flag is withheld, so this also checks the placeholder (PO-4).

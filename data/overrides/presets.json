@@ -1,19 +1,20 @@
 {
   "presets": [
-    { "id": "great-powers-1900s", "name": { "en": "Great powers, 1900s", "fa": "قدرت‌های بزرگ، دههٔ ۱۹۰۰" }, "countries": ["uk", "france", "germany", "russia", "japan"] },
+    { "id": "great-powers-1900s", "name": { "en": "Great powers, 1900s", "fa": "قدرت‌های بزرگ، دههٔ ۱۹۰۰" }, "countries": ["uk", "france", "germany", "russia", "japan", "us"] },
     { "id": "middle-east", "name": { "en": "Middle East", "fa": "خاورمیانه" }, "countries": ["iran", "turkey"] },
     { "id": "silk-road", "name": { "en": "Silk Road", "fa": "جادهٔ ابریشم" }, "countries": ["china", "india", "iran", "turkey"] },
     { "id": "east-asia", "name": { "en": "East Asia", "fa": "شرق آسیا" }, "countries": ["china", "japan", "russia"] }
   ],
   "oftenCompared": {
     "iran": ["turkey", "russia", "uk"],
-    "uk": ["france", "germany", "russia"],
-    "russia": ["germany", "turkey", "uk"],
+    "uk": ["france", "germany", "russia", "us"],
+    "russia": ["germany", "turkey", "uk", "us"],
     "turkey": ["iran", "russia", "uk"],
     "france": ["uk", "germany", "russia"],
     "germany": ["france", "uk", "russia"],
-    "china": ["japan", "russia", "india"],
+    "china": ["japan", "russia", "india", "us"],
     "india": ["uk", "china", "iran"],
-    "japan": ["china", "russia", "uk"]
+    "japan": ["china", "russia", "uk", "us"],
+    "us": ["uk", "russia", "china", "japan"]
   }
 }

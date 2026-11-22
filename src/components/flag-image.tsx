@@ -30,3 +30,8 @@ export function FlagImage({ flag, withheld, alt, width = 64, className = "" }: P
     <img src={flagPath(flag.file, width)} alt={alt} loading="lazy" decoding="async" className={`bg-fill object-cover ${box}`} />
   );
 }
+
+/** Stands where a flag would be when none is documented (PRD §7.7). The words beside it say so. */
+export function NoFlagMark({ className = "" }: { className?: string }) {
+  return <span aria-hidden="true" className={`inline-block shrink-0 rounded-[2px] border border-dashed ${className}`} />;
+}

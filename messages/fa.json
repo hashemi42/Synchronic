@@ -51,7 +51,8 @@
     "loadFailed": "این ردیف بارگذاری نشد.",
     "retry": "تلاش دوباره",
     "anchorHint": "مقایسه بر مبنای دورهٔ این فرمانروا",
-    "ceShort": "م"
+    "ceShort": "م",
+    "noFlag": "پرچم مستندی در دست نیست"
   },
   "dock": {
     "label": "کنترل‌های زمان",
@@ -91,7 +92,9 @@
     "leaderIn": "رهبر در {year}",
     "leaders": "رهبران",
     "noHeadOfState": "بدون رئیس کشور رسمی",
-    "otherIn": "{title} در {year}"
+    "otherIn": "{title} در {year}",
+    "both": "رؤسای کشور و دولت",
+    "bothIn": "رئیس کشور و دولت در {year}"
   },
   "add": {
     "trigger": "افزودن کشور",

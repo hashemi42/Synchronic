@@ -1,4 +1,4 @@
-import type { CountryFile, Flag, LanePeriod, OfficeTerm } from "./schema";
+import type { CountryFile, Flag, LanePeriod, NoFlag, OfficeTerm } from "./schema";
 
 /** Ranges are half-open: start ≤ year < end. */
 export const covers = (r: { start: number; end: number | null }, year: number) =>
@@ -19,7 +19,10 @@ export function termAt(
   year: number,
   office: OfficeTerm["office"] = "head-of-state",
 ): OfficeTerm | null {
-  return file.terms.find((t) => t.state === stateId && t.office === office && covers(t, year)) ?? null;
+  const terms = file.terms.filter((t) => t.state === stateId && t.office === office);
+  // A term that began and ended within the year (Napoleon's Hundred Days, 1815) counts in that
+  // year when no other does.
+  return terms.find((t) => covers(t, year)) ?? terms.findLast((t) => t.start === year && t.end === year) ?? null;
 }
 
 /**
@@ -34,4 +37,15 @@ export function flagFor(file: CountryFile, period: { state: string | null; start
     .sort((a, b) => a.start - b.start);
   if (covers(period, year)) return flags.find((f) => covers(f, year)) ?? null;
   return flags.at(-1) ?? null;
+}
+
+/**
+ * The years for which a state's flag is recorded as not documented (PRD §7.7, R9): the record that
+ * covers `year` when the cursor is inside the period, otherwise every record within the period.
+ */
+export function noFlagsFor(file: CountryFile, period: { state: string | null; start: number; end: number | null }, year: number): NoFlag[] {
+  const records = file.noFlag.filter(
+    (n) => n.state === period.state && n.start < (period.end ?? Infinity) && period.start < (n.end ?? Infinity),
+  );
+  return covers(period, year) ? records.filter((n) => covers(n, year)) : records;
 }

@@ -2,7 +2,7 @@
 
 **World history, side by side.** An open-source, bilingual (English and Persian) web app that shows who ruled where, and what was happening, across the world at the same moment.
 
-> Status: **MVP in progress** — the infographic view works for nine countries (Iran, UK, Russia, Turkey, France, Germany, China, India, Japan) from 1789 to today, with a time dock, anchoring, an add-country search dialog and shareable URLs. Each state has a politics card and historical flags from Wikimedia Commons, served from this site. Office holders, their names and years come from Wikidata through a pipeline, with curated corrections.
+> Status: **MVP in progress** — the infographic view works for ten countries (Iran, UK, Russia, Turkey, France, Germany, China, India, Japan, United States) from 1789 to today, with a time dock, anchoring, an add-country search dialog and shareable URLs. Each state has a politics card and historical flags from Wikimedia Commons, served from this site. Office holders, their names and years come from Wikidata through a pipeline, with curated corrections.
 
 ## Screenshots
 

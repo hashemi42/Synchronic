@@ -13,6 +13,7 @@ export const LANE_HUES: Record<string, number> = {
   china: 50,
   india: 305,
   japan: 330,
+  us: 200,
 };
 
 /** oklch(L C h) → "#rrggbb", clipped to sRGB. */
