@@ -8,7 +8,7 @@ import { covers, flagFor, noFlagsFor, periodsAt, termAt } from "@/lib/data/query
 import type { Localized } from "@/lib/data/schema";
 import { fold } from "@/lib/search";
 import type { Range } from "@/lib/time";
-import { createScale, governmentAt, overlaps, reignAt, sameTerm, wholeOf, type LaneModel, type Reign } from "./model";
+import { createScale, governmentAt, overlaps, reignAt, rulersDuring, sameTerm, wholeOf, type LaneModel, type Reign } from "./model";
 import { StateCard } from "./state-card";
 import { useElementWidth } from "./use-element-width";
 
@@ -147,7 +147,7 @@ export function Lane({
     ));
   const isAnchor = (r: Reign) => anchor?.person === r.person && anchor.start === wholeOf(r).start;
   const headingId = useId();
-  const duringReign = anchor && mode === "reign" ? reigns.filter((r) => overlaps(r, anchor)) : null;
+  const duringReign = anchor && mode === "reign" ? rulersDuring(model, anchor) : null;
 
   return (
     <section

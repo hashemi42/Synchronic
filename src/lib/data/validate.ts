@@ -130,13 +130,17 @@ export function validateCountryFile(input: unknown): ValidationResult {
 
 
 /**
- * Checks that need every country file at once: state ids are unique across files (border features
- * and `ruled-by` periods name states by id), and each `ruled-by` period points at a state that
- * exists and that holds its own country's lane for all the years claimed.
+ * Checks that need every country file at once: country ids and state ids are unique across files
+ * (border features and `ruled-by` periods name states by id), and each `ruled-by` period points at
+ * a state that exists and that holds its own country's lane for all the years claimed.
  */
 export function checkAcrossFiles(files: CountryFile[]): Issue[] {
   const issues: Issue[] = [];
   const byCountry = new Map(files.map((f) => [f.country.id, f]));
+
+  files.forEach(({ country: { id } }, i) => {
+    if (files.findIndex((f) => f.country.id === id) < i) issues.push({ path: `${id}: country.id`, message: `Country id "${id}" is used in two files` });
+  });
 
   const owner = new Map<string, string>();
   for (const file of files)

@@ -1,9 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { buildLaneModel, reignAt, wholeOf } from "@/components/timeline/model";
-import { getAllCountryFiles, getMergedFile } from "./load";
+import { buildLaneModel, governmentAt, othersAt, reignAt, rulersDuring, wholeOf } from "@/components/timeline/model";
+import { buildSearchIndex, searchCountries } from "../search";
+import { getAllCountryFiles, getCountryFile, getMergedFile } from "./load";
 import { flagFor, periodsAt } from "./query";
 import { resolveRuledBy } from "./resolve";
-import type { CountryFile } from "./schema";
+import type { CountryFile, OfficeTerm } from "./schema";
 import { summarize } from "./summary";
 import { checkAcrossFiles, validateCountryFile } from "./validate";
 
@@ -95,6 +96,10 @@ describe("checks across files", () => {
     expect(checkAcrossFiles([germany, valid(f)])).toEqual([]);
   });
 
+  it("reject a country id used in two files", () => {
+    expect(checkAcrossFiles([turkey, valid(raw()), turkey]).map((i) => i.message)).toEqual(['Country id "turkey" is used in two files']);
+  });
+
   it("reject a state id used in two files", () => {
     const f = raw();
     f.states[0].id = f.lane[1].state = f.terms[0].state = "ottoman-empire";
@@ -166,16 +171,120 @@ describe("resolveRuledBy", () => {
     expect(model.persons.get(reignAt(model, 1840)!.person)?.name.en).toBe("Another Mahmud");
   });
 
-  it("is found by the ruling state's name, not by its capital", () => {
-    const { stateNames } = summarize(file, 2026);
-    expect(stateNames).toContain("Ottoman Empire");
-    expect(turkey.states.find((s) => s.id === "ottoman-empire")?.capital?.en).toBeTruthy();
-    expect(stateNames).not.toContain(turkey.states.find((s) => s.id === "ottoman-empire")!.capital!.en);
+  it("is found by the period's label and the ruling state's name, not by the ruler's capital", () => {
+    const f = raw();
+    f.lane[0].label = { en: "Ottoman Testland", fa: "آزمون‌لند عثمانی" };
+    const index = buildSearchIndex([summarize(resolveRuledBy(valid(f), lookup), 2026), summarize(turkey, 2026)]);
+    for (const q of ["ottoman testland", "آزمون‌لند عثمانی"]) expect(searchCountries(index, q), q).toEqual(["testland"]);
+    expect(searchCountries(index, "ottoman empire")).toEqual(["testland", "turkey"]);
+    expect(searchCountries(index, "constantinople")).toEqual(["turkey"]);
+    // The label of any other kind is still not searched.
+    const china = getMergedFile("china");
+    expect(china.lane.some((p) => p.kind === "rival" && p.label?.en === "Japanese puppet state")).toBe(true);
+    expect(summarize(china, 2026).stateNames).not.toContain("Japanese puppet state");
   });
 
   it("leaves the other file, and files without such periods, alone", () => {
     expect(getMergedFile("turkey")).toEqual(turkey);
     expect(resolveRuledBy(turkey, lookup)).toBe(turkey);
+  });
+});
+
+/** Invented countries, for what no real lane shows yet. A term is [person, state, office, start, end]. */
+type Term = [string, string, OfficeTerm["office"], number, number | null];
+const country = (id: string, lane: { state: string | null; start: number; end: number | null; kind?: string; [k: string]: unknown }[], terms: Term[]) => {
+  const own = [...new Set(lane.flatMap((p) => (p.state ? [p.state] : [])))];
+  return valid({
+    country: { id, name: name(id), wikidata: "Q9", sources: src },
+    states: own.map((s) => ({ id: s, name: name(s), start: lane.find((p) => p.state === s)!.start, end: lane.findLast((p) => p.state === s)!.end, wikidata: "Q9", sources: src })),
+    persons: [...new Set(terms.map(([person]) => person))].map((person) => ({ id: person, name: name(person), wikidata: "Q9", sources: src })),
+    lane: lane.map((p) => ({ country: id, kind: "state", sources: src, ...p })),
+    terms: terms.map(([person, state, office, start, end]) => ({ person, state, office, title: name(office), start, end, sources: src })),
+  });
+};
+const ruledBy = (ruler: string, state: string, start: number, end: number) => ({ state: null, kind: "ruled-by", ruler: { country: ruler, state }, label: name(`${start}`), start, end });
+
+describe("officials where a ruled-by period meets another state", () => {
+  const empire = (id: string) =>
+    country(id, [{ state: `${id}-empire`, start: 1700, end: null }], [
+      [`${id}-pm-1`, `${id}-empire`, "head-of-government", 1795, 1810],
+      [`${id}-pm-2`, `${id}-empire`, "head-of-government", 1810, 1825],
+      [`${id}-other-1`, `${id}-empire`, "other", 1795, 1810],
+      [`${id}-other-2`, `${id}-empire`, "other", 1810, 1825],
+      [`${id}-other-3`, `${id}-empire`, "other", 1805, 1820],
+    ]);
+  const rulers: Record<string, CountryFile> = { red: empire("red"), blue: empire("blue") };
+  /** An own state to 1800, the years between, and an own state from 1820, each with its officials. */
+  const model = (...between: Parameters<typeof country>[1]) =>
+    buildLaneModel(
+      resolveRuledBy(
+        country("testland", [{ state: "old-state", start: 1789, end: 1800 }, ...between, { state: "new-state", start: 1820, end: null }], [
+          ["old-pm", "old-state", "head-of-government", 1790, 1800],
+          ["old-other", "old-state", "other", 1790, 1800],
+          ["new-pm-brief", "new-state", "head-of-government", 1820, 1820],
+          ["new-pm", "new-state", "head-of-government", 1820, 1830],
+          ["new-other", "new-state", "other", 1820, 1830],
+        ]),
+        (id) => rulers[id],
+      ),
+    );
+  const at = (m: ReturnType<typeof model>, year: number) => {
+    const { current, others } = governmentAt(m, year);
+    return { pm: current?.person, also: others.map((r) => r.person), other: othersAt(m, year).map((r) => r.person) };
+  };
+
+  it("the ruler's officials are not named in the first year of the land's own state, whether they left that year or stayed on at home", () => {
+    // red-pm-2 and red-other-2 stayed on in their own country; red-other-3 left office in 1820.
+    expect(at(model(ruledBy("red", "red-empire", 1800, 1820)), 1820)).toEqual({ pm: "new-pm", also: ["new-pm-brief"], other: ["new-other"] });
+  });
+
+  it("the land's own officials are not named in the first year of the ruler", () => {
+    expect(at(model(ruledBy("red", "red-empire", 1800, 1820)), 1800)).toEqual({ pm: "red-pm-1", also: [], other: ["red-other-1"] });
+  });
+
+  it("nor is one ruler's official named under the next ruler, or where no state followed", () => {
+    expect(at(model(ruledBy("red", "red-empire", 1800, 1810), ruledBy("blue", "blue-empire", 1810, 1820)), 1810)).toEqual({
+      pm: "blue-pm-2",
+      also: [],
+      other: ["blue-other-2", "blue-other-3"],
+    });
+    const gap = { state: null, kind: "no-state", start: 1810, end: 1820, note: name("None") };
+    expect(at(model(ruledBy("red", "red-empire", 1800, 1810), gap), 1810)).toEqual({ pm: undefined, also: [], other: [] });
+  });
+
+  it("but two periods under the same ruling state read as that state's own lane does", () => {
+    const split = at(model(ruledBy("red", "red-empire", 1800, 1810), ruledBy("red", "red-empire", 1810, 1820)), 1810);
+    expect(split).toEqual({ pm: "red-pm-2", also: ["red-pm-1"], other: ["red-other-1", "red-other-3", "red-other-2"] });
+    expect(split).toEqual(at(buildLaneModel(rulers.red), 1810));
+  });
+
+  it("and between two states of one country nothing changes", () => {
+    const between = model({ state: "middle-state", start: 1800, end: 1820 });
+    expect(at(between, 1800)).toEqual({ pm: undefined, also: ["old-pm"], other: ["old-other"] });
+    expect(governmentAt(buildLaneModel(getCountryFile("germany")), 1945).others.map((r) => r.person)).toContain("adolf-hitler");
+  });
+});
+
+describe("the rulers during a reign", () => {
+  it("name one who ruled the land in two separate periods once, with their whole years", () => {
+    const file = resolveRuledBy(
+      country("testland", [
+        ruledBy("turkey", "ottoman-empire", 1789, 1821),
+        { state: "free-state", start: 1821, end: 1830 },
+        ruledBy("turkey", "ottoman-empire", 1830, 1876),
+        { state: "new-state", start: 1876, end: null },
+      ], [["free-king", "free-state", "head-of-state", 1821, 1830]]),
+      lookup,
+    );
+    const model = buildLaneModel(file);
+    expect(model.reigns.filter((r) => r.person === "mahmud-ii").map((r) => [r.start, r.end])).toEqual([[1808, 1821], [1830, 1839]]);
+    const rows = rulersDuring(model, { start: 1808, end: 1839 });
+    expect(rows.map((r) => [r.person, wholeOf(r).start, wholeOf(r).end])).toEqual([["mahmud-ii", 1808, 1839], ["free-king", 1821, 1830]]);
+  });
+
+  it("still name a person twice under two titles", () => {
+    const rows = rulersDuring(buildLaneModel(getCountryFile("france")), { start: 1848, end: 1870 });
+    expect(rows.filter((r) => r.person === "napoleon-iii").map((r) => r.title.en)).toEqual(["President", "Emperor"]);
   });
 });
 
