@@ -1,5 +1,5 @@
-import { describe, expect, it } from "vitest";
-import { buildLaneModel, governmentAt, othersAt, reignAt, rulersDuring, wholeOf } from "@/components/timeline/model";
+import { describe, expect, it, vi } from "vitest";
+import { buildLaneModel, governmentAt, othersAt, reignAt, rulersDuring, sameTerm, wholeOf, type Reign } from "@/components/timeline/model";
 import { buildSearchIndex, searchCountries } from "../search";
 import { getAllCountryFiles, getCountryFile, getMergedFile } from "./load";
 import { flagFor, periodsAt } from "./query";
@@ -285,6 +285,122 @@ describe("the rulers during a reign", () => {
   it("still name a person twice under two titles", () => {
     const rows = rulersDuring(buildLaneModel(getCountryFile("france")), { start: 1848, end: 1870 });
     expect(rows.filter((r) => r.person === "napoleon-iii").map((r) => r.title.en)).toEqual(["President", "Emperor"]);
+  });
+});
+
+describe("a term split by a break in the lane", () => {
+  const red = country("red", [{ state: "red-empire", start: 1900, end: null }], [["red-king", "red-empire", "head-of-state", 1920, 1960]]);
+  const lane = (...periods: Parameters<typeof country>[1]) => (...terms: Term[]) => buildLaneModel(resolveRuledBy(country("testland", periods, terms), () => red));
+  const occupied = { state: "occupied-land", kind: "occupation", start: 1941, end: 1944 };
+  const none = { state: null, kind: "no-state", note: name("None"), start: 1941, end: 1944 };
+  const republic = { state: "republic", start: 1950, end: null };
+  /** A kingdom of 1930–1950 that loses its lane in 1941–1944. */
+  const kingdom = (gap: Parameters<typeof country>[1][number]) => lane({ state: "kingdom", start: 1930, end: 1941 }, gap, { state: "kingdom", start: 1944, end: 1950 }, republic);
+  const king = (start: number, end: number | null, office: Term[2] = "head-of-state", person = "king"): Term => [person, "kingdom", office, start, end];
+  /** The years drawn, and the years written where they are others. */
+  const rows = (segments: Reign[], person = "king") =>
+    segments.filter((r) => r.person === person).map((r) => `${r.start}–${r.end}${r.whole ? ` as ${r.whole.start}–${r.whole.end}` : ""}`);
+
+  it.each([
+    ["an occupation", occupied, undefined],
+    ["no state", none, undefined],
+    ["a ruled-by period", ruledBy("red", "red-empire", 1941, 1944), "red-king"],
+  ])("is drawn on both sides of %s and written with its own years", (_, gap, between) => {
+    const m = kingdom(gap)(king(1935, 1947), king(1938, 1946, "head-of-government", "pm"), king(1931, 1948, "other", "speaker"));
+    expect(rows(m.reigns)).toEqual(["1935–1941 as 1935–1947", "1944–1947 as 1935–1947"]);
+    expect(rows(m.heads)).toEqual(rows(m.reigns));
+    expect(rows(m.governments, "pm")).toEqual(["1938–1941 as 1938–1946", "1944–1946 as 1938–1946"]);
+    expect(rows(m.others, "speaker")).toEqual(["1931–1941 as 1931–1948", "1944–1948 as 1931–1948"]);
+    expect([1940, 1942, 1944].map((y) => reignAt(m, y)?.person)).toEqual(["king", between, "king"]);
+    expect(m.boundaries).toEqual(between ? [1935, 1941, 1944] : [1935, 1944]);
+  });
+
+  it("is one ruler in the list of a whole reign", () => {
+    const m = kingdom(ruledBy("red", "red-empire", 1941, 1944))(king(1930, 1935, "head-of-state", "old-king"), king(1935, 1947), king(1947, 1950, "head-of-state", "new-king"));
+    const during = (start: number, end: number) => rulersDuring(m, { start, end }).map((r) => [r.person, wholeOf(r).start, wholeOf(r).end]);
+    expect(during(1935, 1947)).toEqual([["king", 1935, 1947], ["red-king", 1920, 1960]]);
+    expect(during(1930, 1950).map(([person]) => person)).toEqual(["old-king", "king", "red-king", "new-king"]);
+    // Where the king did not hold the land he is not listed.
+    expect(during(1941, 1944)).toEqual([["red-king", 1920, 1960]]);
+  });
+
+  it("is written whole while it goes on, across every break and in the lane's first period", () => {
+    // The lane begins in 1930, its first state earlier.
+    const older = lane({ state: "kingdom", kind: "rival", start: 1910, end: 1915 }, { state: "kingdom", start: 1930, end: 1941 }, occupied, { state: "kingdom", start: 1944, end: 1950 }, republic);
+    expect(rows(older(king(1920, 1947)).reigns)).toEqual(["1920–1941 as 1920–1947", "1944–1947 as 1920–1947"]);
+    const open = lane({ state: "kingdom", start: 1930, end: 1941 }, occupied, { state: "kingdom", start: 1944, end: null });
+    expect(rows(open(king(1935, null)).reigns)).toEqual(["1935–1941 as 1935–null", "1944–null as 1935–null"]);
+    const twice = lane({ state: "kingdom", start: 1930, end: 1936 }, { ...none, start: 1936, end: 1938 }, { state: "kingdom", start: 1938, end: 1941 }, occupied, { state: "kingdom", start: 1944, end: 1950 }, republic);
+    expect(rows(twice(king(1935, 1947)).reigns)).toEqual(["1935–1936 as 1935–1947", "1938–1941 as 1935–1947", "1944–1947 as 1935–1947"]);
+  });
+
+  it("is one reign with the terms it is joined to at a change of state", () => {
+    const before = { state: "old-kingdom", start: 1920, end: 1930 };
+    const after = [{ state: "new-kingdom", start: 1950, end: 1960 }, { ...none, start: 1960, end: 1962 }, { state: "new-kingdom", start: 1962, end: null }];
+    const m = lane(before, { state: "kingdom", start: 1930, end: 1941 }, occupied, { state: "kingdom", start: 1944, end: 1950 }, ...after);
+    const old: Term = ["king", "old-kingdom", "head-of-state", 1925, 1930];
+    const next = (end: number): Term => ["king", "new-kingdom", "head-of-state", 1950, end];
+    expect(rows(m(old, king(1930, 1947)).reigns)).toEqual(["1925–1941 as 1925–1947", "1944–1947 as 1925–1947"]);
+    expect(rows(m(king(1935, 1950), next(1955)).reigns)).toEqual(["1935–1941 as 1935–1955", "1944–1955 as 1935–1955"]);
+    expect(rows(m(old, king(1930, 1950), next(1970)).reigns)).toEqual(["1925–1941 as 1925–1970", "1944–1960 as 1925–1970", "1962–1970 as 1925–1970"]);
+  });
+
+  it("is not one that only touches the break: what is drawn is what is written", () => {
+    const m = kingdom(occupied);
+    for (const [start, end, drawn] of [
+      [1935, 1941, "1935–1941"], // ends as the break begins
+      [1944, 1947, "1944–1947"], // begins as the break ends
+      [1935, 1943, "1935–1941"], // ends within the break
+      [1935, 1944, "1935–1941"], // ends as the kingdom returns
+      [1942, 1947, "1944–1947"], // begins within the break
+      [1941, 1947, "1944–1947"], // begins as the break begins
+    ] as const) expect(rows(m(king(start, end)).reigns), `${start}–${end}`).toEqual([drawn]);
+    expect(m(king(1941, 1944)).reigns).toEqual([]);
+    // Two terms of one person, one on each side, stay two reigns.
+    const two = m(king(1935, 1941), king(1944, 1947));
+    expect(rows(two.reigns)).toEqual(["1935–1941", "1944–1947"]);
+    expect(rulersDuring(two, { start: 1930, end: 1950 })).toHaveLength(2);
+  });
+
+  it("is not one cut for another reason", () => {
+    // Begun before the state held the lane (Atatürk in Ankara), and not ended when it lost it for good.
+    const rival = { state: "kingdom", kind: "rival" };
+    const m = lane({ ...rival, start: 1920, end: 1930 }, { state: "old-kingdom", start: 1920, end: 1930 }, { state: "kingdom", start: 1930, end: 1950 }, republic, { ...rival, start: 1950, end: 1960 });
+    expect(rows(m(king(1925, 1935)).reigns)).toEqual(["1930–1935"]);
+    expect(rows(m(king(1945, 1955)).reigns)).toEqual(["1945–1950"]);
+    expect(buildLaneModel(turkey).reigns.filter((r) => r.person === "mustafa-kemal-ataturk").map((r) => [r.start, r.end, r.whole])).toEqual([[1922, 1923, undefined], [1923, 1938, undefined]]);
+    // Two periods of one state that meet are no break; nor is the start of the data.
+    const meeting = lane({ ...rival, start: 1910, end: 1915 }, { state: "kingdom", start: 1930, end: 1941 }, { state: "kingdom", start: 1941, end: 1950 }, republic);
+    expect(rows(meeting(king(1920, 1947)).reigns)).toEqual(["1920–1947"]);
+    // A person who ruled in the break too, under the same title, is drawn as one reign.
+    const union = kingdom(occupied)(king(1935, 1947), ["king", "occupied-land", "head-of-state", 1941, 1944]);
+    expect(rows(union.reigns)).toEqual(["1935–1947"]);
+  });
+
+  it("has its own years also where the state held the lane for only some of them", () => {
+    const m = lane({ state: "kingdom", kind: "rival", start: 1920, end: 1930 }, { state: "old-kingdom", start: 1920, end: 1930 }, { state: "kingdom", start: 1930, end: 1941 }, occupied, { state: "kingdom", start: 1944, end: 1950 }, republic);
+    expect(rows(m(king(1925, 1947)).reigns)).toEqual(["1930–1941 as 1925–1947", "1944–1947 as 1925–1947"]);
+  });
+
+  it("is both offices in one row only when both have the same years", () => {
+    const m = kingdom(occupied)(king(1935, 1947), king(1935, 1947, "head-of-government"));
+    const as = (title: string) => (r: Reign | null) => r && { ...r, title: name(title) };
+    for (const year of [1940, 1945]) expect(sameTerm(as("x")(reignAt(m, year)), as("x")(governmentAt(m, year).current)), String(year)).toBe(true);
+    // Drawn alike to 1941, but the head of government left office then and the head of state did not.
+    const left = kingdom(occupied)(king(1935, 1947), king(1935, 1941, "head-of-government"));
+    expect(sameTerm(as("x")(reignAt(left, 1940)), as("x")(governmentAt(left, 1940).current))).toBe(false);
+  });
+
+  it("is anchored and shared with its own years", async () => {
+    const file = kingdom(occupied)(king(1935, 1947)).file;
+    vi.doMock("./load", () => ({ getAllCountryFiles: () => [file] }));
+    const { describeComparison } = await import("../share");
+    const title = (locale: "en" | "fa", year: number) => describeComparison({ year, lanes: ["testland"], anchor: "king", view: null }, locale)!.title;
+    for (const year of [1938, 1942, 1945]) {
+      expect(title("en", year)).toBe("testland during the reign of king (1935–1947)");
+      expect(title("fa", year)).toBe("testland در دوران king (۱۳۱۴–۱۳۲۶)");
+    }
+    vi.doUnmock("./load");
   });
 });
 

@@ -16,8 +16,10 @@ export type Reign = {
   office?: OfficeTerm["office"];
   notes?: Localized[];
   /**
-   * The true years of a ruler of another lane's state, where this lane shows only part of them:
-   * Mahmud II ruled Ottoman Greece to 1830 but reigned to 1839. Use `wholeOf` to write years.
+   * The true years of a reign of which this segment shows only part. Use `wholeOf` to write years.
+   * - A ruler of another lane's state: Mahmud II ruled Ottoman Greece to 1830 but reigned to 1839.
+   * - A term in several segments, because its state lost the lane for a time: a king of 1935–1947
+   *   whose country was occupied in 1941–1944. Each of its segments has the same years here.
    */
   whole?: { start: number; end: number | null };
 };
@@ -53,10 +55,11 @@ const INF = Number.POSITIVE_INFINITY;
  * the years their state held the lane, so a ruler who began in a parallel
  * government (Atatürk in Ankara, 1920) joins the row when that government
  * becomes the main one. Segments of one person under one title that meet at a
- * change of state (George III in 1801, Nehru in 1950) are joined.
+ * change of state (George III in 1801, Nehru in 1950) are joined. A term that a
+ * break in the lane leaves in separate segments stays so, but is one reign to write.
  */
 function buildSegments(mainline: LanePeriod[], pick: (state: string) => OfficeTerm[]): Reign[] {
-  const pieces: Reign[] = [];
+  const pieces: (Reign & { term: OfficeTerm })[] = [];
   for (const period of mainline) {
     if (!period.state) continue;
     const periodEnd = period.end ?? INF;
@@ -69,6 +72,7 @@ function buildSegments(mainline: LanePeriod[], pick: (state: string) => OfficeTe
       const withinOneYear = term.start === term.end && term.start >= periodStart && term.start < periodEnd;
       if (start < end || withinOneYear) {
         pieces.push({
+          term,
           person: term.person,
           title: term.title,
           start,
@@ -85,15 +89,29 @@ function buildSegments(mainline: LanePeriod[], pick: (state: string) => OfficeTe
   pieces.sort((a, b) => a.start - b.start || (a.end ?? INF) - (b.end ?? INF));
 
   const segments: Reign[] = [];
-  for (const piece of pieces) {
+  const segmentsOf = new Map(pieces.map(({ term }) => [term, new Set<Reign>()]));
+  for (const { term, ...piece } of pieces) {
     const prev = segments.findLast((r) => r.person === piece.person);
     if (prev && prev.title.en === piece.title.en && prev.end === piece.start && prev.start !== prev.end) {
       if (prev.whole || piece.whole) prev.whole = { start: wholeOf(prev).start, end: wholeOf(piece).end };
       prev.end = piece.end;
       if (piece.notes) prev.notes = [...(prev.notes ?? []), ...piece.notes];
+      segmentsOf.get(term)!.add(prev);
     } else {
-      segments.push({ ...piece });
+      segments.push(piece);
+      segmentsOf.get(term)!.add(piece);
     }
+  }
+
+  // One term in several segments: its state lost the lane for a time and held it again.
+  for (const [term, split] of segmentsOf) {
+    if (split.size === 1) continue;
+    const [first] = split;
+    const years = [term, ...[...split].map(wholeOf)];
+    const end = Math.max(...years.map((r) => r.end ?? INF));
+    // Changed in place, so that a segment which an earlier term ties to `first` follows.
+    const whole = Object.assign(first.whole ?? {}, { start: Math.min(...years.map((r) => r.start)), end: end === INF ? null : end });
+    for (const segment of split) segment.whole = whole;
   }
   return segments;
 }
@@ -166,7 +184,7 @@ export function governmentAt(model: LaneModel, year: number): { current: Reign |
  * United States). Erdoğan, President from 2014 and head of government from 2018, is two terms.
  */
 export const sameTerm = (a: Reign | null, b: Reign | null) =>
-  !!a && !!b && a.person === b.person && a.title.en === b.title.en && a.start === b.start && a.end === b.end;
+  !!a && !!b && a.person === b.person && a.title.en === b.title.en && wholeOf(a).start === wholeOf(b).start && wholeOf(a).end === wholeOf(b).end;
 
 type Span = { start: number; end: number | null };
 const endOf = (r: Span) => (r.end === null ? INF : r.end === r.start ? r.start + 1 : r.end);
@@ -175,13 +193,11 @@ const endOf = (r: Span) => (r.end === null ? INF : r.end === r.start ? r.start +
 export const overlaps = (a: Span, b: Span) => a.start < endOf(b) && b.start < endOf(a);
 
 /**
- * The rulers during a reign, for a list: one who ruled the land in two separate `ruled-by` periods
- * is written with the same whole years both times, so they are named once.
+ * The rulers during a reign, for a list: one whose reign is in separate segments of the lane is
+ * written with the same whole years each time, so they are named once.
  */
 export function rulersDuring(model: LaneModel, span: Span): Reign[] {
-  const same = (a: Reign, b: Reign) =>
-    a.person === b.person && a.title.en === b.title.en && wholeOf(a).start === wholeOf(b).start && wholeOf(a).end === wholeOf(b).end;
-  return model.reigns.filter((r) => overlaps(r, span)).filter((r, i, all) => all.findIndex((o) => same(o, r)) === i);
+  return model.reigns.filter((r) => overlaps(r, span)).filter((r, i, all) => all.findIndex((o) => sameTerm(o, r)) === i);
 }
 
 /**
