@@ -15,6 +15,8 @@ export const OFFICES: Record<string, string[]> = {
   india: ["Q192711"], // Prime Minister of India
   japan: ["Q274948"], // Prime Minister of Japan
   us: ["Q11696"], // President of the United States: head of state and of government from 1789
+  // Prime Minister of the Kingdom of Sardinia (from 1848); of the Kingdom of Italy; of the Italian Republic
+  italy: ["Q25174735", "Q25160174", "Q796897"],
 };
 
 /**

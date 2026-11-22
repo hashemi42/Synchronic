@@ -68,6 +68,10 @@ export const RULES: Record<string, Rule> = {
   Q274948: byDate(T.pm),
   // United States: the President is head of government as well as head of state.
   Q11696: only("united-states", T.president),
+  // Italy: the Kingdom of Sardinia's Council of Ministers began with the Albertine Statute of 1848 (R7).
+  Q25174735: only("kingdom-of-sardinia", T.pm, 1848),
+  Q25160174: only("kingdom-of-italy", T.pm, 1861),
+  Q796897: only("italian-republic", T.pm, 1946),
 };
 
 /** Statements on Wikidata that are wrong for this purpose, with the reason. */

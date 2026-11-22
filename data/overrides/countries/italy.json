@@ -1,0 +1,2426 @@
+{
+  "country": {
+    "id": "italy",
+    "name": {
+      "en": "Italy",
+      "fa": "ایتالیا"
+    },
+    "aliases": [
+      "Italia",
+      "Italian Republic",
+      "جمهوری ایتالیا"
+    ],
+    "wikidata": "Q38",
+    "sources": [
+      {
+        "title": "Italy — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Italy"
+      }
+    ]
+  },
+  "states": [
+    {
+      "id": "kingdom-of-sardinia",
+      "name": {
+        "en": "Kingdom of Sardinia",
+        "fa": "پادشاهی ساردینیا"
+      },
+      "start": 1720,
+      "end": 1861,
+      "capital": {
+        "en": "Turin; Cagliari 1798–1814",
+        "fa": "تورین؛ ۱۷۹۸–۱۸۱۴ کالیاری"
+      },
+      "system": {
+        "en": "Absolute monarchy; constitutional from 1848",
+        "fa": "پادشاهی مطلقه؛ از ۱۸۴۸ مشروطه"
+      },
+      "wikidata": "Q2577303",
+      "sources": [
+        {
+          "title": "Kingdom of Sardinia (1720–1861) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Sardinia_%281720%E2%80%931861%29"
+        },
+        {
+          "title": "پادشاهی ساردینیا (۱۷۲۰–۱۸۶۱) — Wikipedia",
+          "url": "https://fa.wikipedia.org/wiki/%D9%BE%D8%A7%D8%AF%D8%B4%D8%A7%D9%87%DB%8C_%D8%B3%D8%A7%D8%B1%D8%AF%DB%8C%D9%86%DB%8C%D8%A7_%28%DB%B1%DB%B7%DB%B2%DB%B0%E2%80%93%DB%B1%DB%B8%DB%B6%DB%B1%29"
+        }
+      ]
+    },
+    {
+      "id": "kingdom-of-italy",
+      "name": {
+        "en": "Kingdom of Italy",
+        "fa": "پادشاهی ایتالیا"
+      },
+      "start": 1861,
+      "end": 1946,
+      "capital": {
+        "en": "Turin; Florence from 1865; Rome from 1871 (Brindisi de facto 1943–1944)",
+        "fa": "تورین؛ از ۱۸۶۵ فلورانس؛ از ۱۸۷۱ رم (عملاً بریندیزی ۱۹۴۳–۱۹۴۴)"
+      },
+      "system": {
+        "en": "Constitutional monarchy; fascist dictatorship 1925–1943",
+        "fa": "پادشاهی مشروطه؛ ۱۹۲۵–۱۹۴۳ دیکتاتوری فاشیستی"
+      },
+      "wikidata": "Q172579",
+      "sources": [
+        {
+          "title": "Kingdom of Italy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Italy"
+        }
+      ]
+    },
+    {
+      "id": "italian-republic",
+      "name": {
+        "en": "Italian Republic",
+        "fa": "جمهوری ایتالیا"
+      },
+      "start": 1946,
+      "end": null,
+      "capital": {
+        "en": "Rome",
+        "fa": "رم"
+      },
+      "system": {
+        "en": "Parliamentary republic",
+        "fa": "جمهوری پارلمانی"
+      },
+      "wikidata": "Q38",
+      "sources": [
+        {
+          "title": "Italy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Italy"
+        },
+        {
+          "title": "ایتالیا — Wikipedia",
+          "url": "https://fa.wikipedia.org/wiki/%D8%A7%DB%8C%D8%AA%D8%A7%D9%84%DB%8C%D8%A7"
+        }
+      ]
+    },
+    {
+      "id": "kingdom-of-the-two-sicilies",
+      "name": {
+        "en": "Kingdom of the Two Sicilies",
+        "fa": "پادشاهی دو سیسیل"
+      },
+      "start": 1816,
+      "end": 1861,
+      "capital": {
+        "en": "Palermo; Naples from 1817",
+        "fa": "پالرمو؛ از ۱۸۱۷ ناپل"
+      },
+      "system": {
+        "en": "Absolute monarchy; constitutional 1848–1849",
+        "fa": "پادشاهی مطلقه؛ ۱۸۴۸–۱۸۴۹ مشروطه"
+      },
+      "wikidata": "Q180393",
+      "sources": [
+        {
+          "title": "Kingdom of the Two Sicilies — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Two_Sicilies"
+        },
+        {
+          "title": "Regno delle Due Sicilie — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Regno_delle_Due_Sicilie"
+        }
+      ]
+    },
+    {
+      "id": "papal-states",
+      "name": {
+        "en": "Papal States",
+        "fa": "ایالات پاپی"
+      },
+      "start": 756,
+      "end": 1870,
+      "capital": {
+        "en": "Rome",
+        "fa": "رم"
+      },
+      "system": {
+        "en": "Elective theocratic absolute monarchy; semi-constitutional 1847–1849",
+        "fa": "پادشاهی مطلقهٔ انتخابی دین‌سالار؛ ۱۸۴۷–۱۸۴۹ نیمه‌مشروطه"
+      },
+      "wikidata": "Q170174",
+      "sources": [
+        {
+          "title": "Papal States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Papal_States"
+        }
+      ]
+    },
+    {
+      "id": "grand-duchy-of-tuscany",
+      "name": {
+        "en": "Grand Duchy of Tuscany",
+        "fa": "دوک‌نشین بزرگ توسکانی"
+      },
+      "start": 1569,
+      "end": 1860,
+      "capital": {
+        "en": "Florence",
+        "fa": "فلورانس"
+      },
+      "system": {
+        "en": "Absolute monarchy; semi-constitutional 1848–1852",
+        "fa": "پادشاهی مطلقه؛ ۱۸۴۸–۱۸۵۲ نیمه‌مشروطه"
+      },
+      "wikidata": "Q154849",
+      "sources": [
+        {
+          "title": "Grand Duchy of Tuscany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Tuscany"
+        },
+        {
+          "title": "Granducato di Toscana — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Granducato_di_Toscana"
+        }
+      ]
+    },
+    {
+      "id": "napoleonic-kingdom-of-italy",
+      "name": {
+        "en": "Napoleonic Kingdom of Italy",
+        "fa": "پادشاهی ناپلئونی ایتالیا"
+      },
+      "officialName": {
+        "en": "Kingdom of Italy",
+        "fa": "پادشاهی ایتالیا"
+      },
+      "start": 1805,
+      "end": 1814,
+      "capital": {
+        "en": "Milan",
+        "fa": "میلان"
+      },
+      "system": {
+        "en": "Monarchy; client state of the French Empire",
+        "fa": "پادشاهی؛ دولت وابسته به امپراتوری فرانسه"
+      },
+      "wikidata": "Q223936",
+      "sources": [
+        {
+          "title": "Kingdom of Italy (Napoleonic) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Italy_%28Napoleonic%29"
+        },
+        {
+          "title": "پادشاهی ناپلئونی ایتالیا — Wikipedia",
+          "url": "https://fa.wikipedia.org/wiki/%D9%BE%D8%A7%D8%AF%D8%B4%D8%A7%D9%87%DB%8C_%D9%86%D8%A7%D9%BE%D9%84%D8%A6%D9%88%D9%86%DB%8C_%D8%A7%DB%8C%D8%AA%D8%A7%D9%84%DB%8C%D8%A7"
+        }
+      ]
+    },
+    {
+      "id": "italian-social-republic",
+      "name": {
+        "en": "Italian Social Republic",
+        "fa": "جمهوری سوسیال ایتالیا"
+      },
+      "start": 1943,
+      "end": 1945,
+      "capital": {
+        "en": "Salò (de facto); Rome (de jure)",
+        "fa": "سالو (عملاً)؛ رم (رسماً)"
+      },
+      "system": {
+        "en": "Fascist one-party state under German occupation",
+        "fa": "حکومت تک‌حزبی فاشیستی زیر اشغال آلمان"
+      },
+      "wikidata": "Q153660",
+      "sources": [
+        {
+          "title": "Italian Social Republic — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Italian_Social_Republic"
+        },
+        {
+          "title": "جمهوری سوسیال ایتالیا — Wikipedia",
+          "url": "https://fa.wikipedia.org/wiki/%D8%AC%D9%85%D9%87%D9%88%D8%B1%DB%8C_%D8%B3%D9%88%D8%B3%DB%8C%D8%A7%D9%84_%D8%A7%DB%8C%D8%AA%D8%A7%D9%84%DB%8C%D8%A7"
+        }
+      ]
+    }
+  ],
+  "lane": [
+    {
+      "country": "italy",
+      "state": "kingdom-of-sardinia",
+      "start": 1789,
+      "end": 1861,
+      "kind": "state",
+      "note": {
+        "en": "French troops took Turin in December 1798 and France later annexed the mainland; until 1814 the king's seat was Cagliari, on the island of Sardinia. On 17 March 1861 the kingdom changed its name to the Kingdom of Italy.",
+        "fa": "نیروهای فرانسوی در دسامبر ۱۷۹۸ تورین را گرفتند و فرانسه سپس سرزمین اصلی را به خود پیوست؛ تا ۱۸۱۴ مقر پادشاه کالیاری در جزیرهٔ ساردینیا بود. این پادشاهی در ۱۷ مارس ۱۸۶۱ نام خود را به پادشاهی ایتالیا تغییر داد."
+      },
+      "sources": [
+        {
+          "title": "Kingdom of Sardinia (1720–1861) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Sardinia_%281720%E2%80%931861%29"
+        }
+      ]
+    },
+    {
+      "country": "italy",
+      "state": "kingdom-of-italy",
+      "start": 1861,
+      "end": 1946,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "Kingdom of Italy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Italy"
+        }
+      ]
+    },
+    {
+      "country": "italy",
+      "state": "italian-republic",
+      "start": 1946,
+      "end": null,
+      "kind": "state",
+      "sources": [
+        {
+          "title": "Italy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Italy"
+        }
+      ]
+    },
+    {
+      "country": "italy",
+      "state": "papal-states",
+      "start": 1789,
+      "end": 1798,
+      "kind": "parallel",
+      "note": {
+        "en": "Replaced on 15 February 1798 by the Roman Republic, which lasted until 1799.",
+        "fa": "در ۱۵ فوریهٔ ۱۷۹۸ جمهوری روم، که تا ۱۷۹۹ دوام یافت، جای آن را گرفت."
+      },
+      "sources": [
+        {
+          "title": "Papal States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Papal_States"
+        },
+        {
+          "title": "Roman Republic (1798–1799) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Roman_Republic_%281798%E2%80%931799%29"
+        }
+      ]
+    },
+    {
+      "country": "italy",
+      "state": "papal-states",
+      "start": 1800,
+      "end": 1809,
+      "kind": "parallel",
+      "note": {
+        "en": "Annexed to the French Empire in 1809.",
+        "fa": "در ۱۸۰۹ به امپراتوری فرانسه پیوست شد."
+      },
+      "sources": [
+        {
+          "title": "Papal States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Papal_States"
+        }
+      ]
+    },
+    {
+      "country": "italy",
+      "state": "papal-states",
+      "start": 1814,
+      "end": 1870,
+      "kind": "parallel",
+      "note": {
+        "en": "From 9 February to 2 July 1849 a Roman Republic replaced papal government. Italian troops took Rome on 20 September 1870.",
+        "fa": "از ۹ فوریه تا ۲ ژوئیهٔ ۱۸۴۹ جمهوری روم جای حکومت پاپ را گرفت. نیروهای ایتالیا در ۲۰ سپتامبر ۱۸۷۰ رم را تصرف کردند."
+      },
+      "sources": [
+        {
+          "title": "Papal States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Papal_States"
+        },
+        {
+          "title": "Roman Republic (1849–1850) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Roman_Republic_%281849%E2%80%931850%29"
+        },
+        {
+          "title": "Flag of Vatican City — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Vatican_City"
+        }
+      ]
+    },
+    {
+      "country": "italy",
+      "state": "grand-duchy-of-tuscany",
+      "start": 1789,
+      "end": 1801,
+      "exactEnd": "1801-03-21",
+      "kind": "parallel",
+      "note": {
+        "en": "Abolished by the Treaty of Aranjuez of 21 March 1801, which created the Kingdom of Etruria.",
+        "fa": "با پیمان آرانخوئز در ۲۱ مارس ۱۸۰۱، که پادشاهی اتروریا را پدید آورد، از میان رفت."
+      },
+      "sources": [
+        {
+          "title": "Grand Duchy of Tuscany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Tuscany"
+        },
+        {
+          "title": "Kingdom of Etruria — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Etruria"
+        }
+      ]
+    },
+    {
+      "country": "italy",
+      "state": "napoleonic-kingdom-of-italy",
+      "start": 1805,
+      "end": 1814,
+      "exactStart": "1805-03-17",
+      "exactEnd": "1814-04-11",
+      "kind": "parallel",
+      "note": {
+        "en": "A client state of the French Empire in northern Italy: Napoleon was king, and Eugène de Beauharnais governed for him as viceroy.",
+        "fa": "دولت وابسته به امپراتوری فرانسه در شمال ایتالیا: ناپلئون پادشاه بود و اوژن دو بوآرنه از سوی او به‌عنوان نایب‌الملک حکومت می‌کرد."
+      },
+      "sources": [
+        {
+          "title": "Kingdom of Italy (Napoleonic) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Italy_%28Napoleonic%29"
+        }
+      ]
+    },
+    {
+      "country": "italy",
+      "state": "grand-duchy-of-tuscany",
+      "start": 1814,
+      "end": 1860,
+      "exactEnd": "1860-03-22",
+      "kind": "parallel",
+      "note": {
+        "en": "Restored in 1814. The grand duke was deposed on 16 August 1859, and Tuscany was annexed to the Kingdom of Sardinia on 22 March 1860.",
+        "fa": "در ۱۸۱۴ بازگردانده شد. دوک بزرگ در ۱۶ اوت ۱۸۵۹ برکنار شد و توسکانی در ۲۲ مارس ۱۸۶۰ به پادشاهی ساردینیا پیوست شد."
+      },
+      "sources": [
+        {
+          "title": "Grand Duchy of Tuscany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Tuscany"
+        }
+      ]
+    },
+    {
+      "country": "italy",
+      "state": "kingdom-of-the-two-sicilies",
+      "start": 1816,
+      "end": 1861,
+      "exactStart": "1816-12-08",
+      "kind": "parallel",
+      "note": {
+        "en": "Formed by merging the kingdoms of Naples and Sicily; its king was overthrown by Garibaldi in 1860.",
+        "fa": "از یکی شدن پادشاهی‌های ناپل و سیسیل پدید آمد؛ گاریبالدی در ۱۸۶۰ پادشاه آن را سرنگون کرد."
+      },
+      "sources": [
+        {
+          "title": "Kingdom of the Two Sicilies — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Two_Sicilies"
+        }
+      ]
+    },
+    {
+      "country": "italy",
+      "state": "italian-social-republic",
+      "start": 1943,
+      "end": 1945,
+      "exactStart": "1943-09-23",
+      "exactEnd": "1945-04-29",
+      "kind": "rival",
+      "label": {
+        "en": "German puppet state",
+        "fa": "دولت دست‌نشاندهٔ آلمان"
+      },
+      "officialName": {
+        "en": "Italian Social Republic",
+        "fa": "جمهوری سوسیال ایتالیا"
+      },
+      "note": {
+        "en": "A collaborationist regime led by Benito Mussolini in German-occupied northern and central Italy, set up after the armistice of September 1943.",
+        "fa": "رژیمی همکار آلمان به رهبری بنیتو موسولینی در شمال و مرکز ایتالیا که زیر اشغال آلمان بود؛ پس از آتش‌بس سپتامبر ۱۹۴۳ برپا شد."
+      },
+      "sources": [
+        {
+          "title": "Italian Social Republic — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Italian_Social_Republic"
+        },
+        {
+          "title": "جمهوری سوسیال ایتالیا — Wikipedia",
+          "url": "https://fa.wikipedia.org/wiki/%D8%AC%D9%85%D9%87%D9%88%D8%B1%DB%8C_%D8%B3%D9%88%D8%B3%DB%8C%D8%A7%D9%84_%D8%A7%DB%8C%D8%AA%D8%A7%D9%84%DB%8C%D8%A7"
+        }
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "office": "Q111730452",
+      "title": {
+        "en": "King",
+        "fa": "پادشاه"
+      },
+      "state": "kingdom-of-sardinia"
+    },
+    {
+      "office": "Q271148",
+      "title": {
+        "en": "King",
+        "fa": "پادشاه"
+      },
+      "state": "kingdom-of-italy",
+      "family": [
+        "Q200229"
+      ],
+      "note": "The Wikidata item is for every monarch of Italy since Odoacer: only the House of Savoy held this kingdom."
+    },
+    {
+      "office": "Q271148",
+      "title": {
+        "en": "King",
+        "fa": "پادشاه"
+      },
+      "state": "napoleonic-kingdom-of-italy",
+      "family": [
+        "Q112581"
+      ],
+      "note": "The same Wikidata item: only the House of Bonaparte held this kingdom."
+    },
+    {
+      "office": "Q332711",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "state": "italian-republic"
+    },
+    {
+      "office": "Q19546",
+      "title": {
+        "en": "Pope",
+        "fa": "پاپ"
+      },
+      "state": "papal-states"
+    }
+  ],
+  "persons": [
+    {
+      "id": "charles-felix",
+      "wikidata": "Q312683",
+      "name": {
+        "en": "Charles Felix"
+      },
+      "note": "en: the Wikipedia title is \"Charles Felix of Sardinia\""
+    },
+    {
+      "id": "charles-albert",
+      "wikidata": "Q181261",
+      "name": {
+        "en": "Charles Albert"
+      },
+      "note": "en: the Wikipedia title is \"Charles Albert of Sardinia\""
+    },
+    {
+      "id": "victor-emmanuel-ii",
+      "wikidata": "Q168691"
+    },
+    {
+      "id": "umberto-i",
+      "wikidata": "Q153688",
+      "name": {
+        "en": "Umberto I"
+      },
+      "note": "en: the Wikipedia title is \"Umberto I of Italy\""
+    },
+    {
+      "id": "umberto-ii",
+      "wikidata": "Q187149",
+      "name": {
+        "en": "Umberto II"
+      },
+      "note": "en: the Wikipedia title is \"Umberto II of Italy\""
+    },
+    {
+      "id": "benito-mussolini",
+      "wikidata": "Q23559"
+    },
+    {
+      "id": "enrico-de-nicola",
+      "wikidata": "Q1245"
+    },
+    {
+      "id": "napoleon",
+      "wikidata": "Q517"
+    },
+    {
+      "id": "ferdinand-i-of-the-two-sicilies",
+      "wikidata": "Q312325",
+      "name": {
+        "fa": "فردیناند یکم"
+      },
+      "note": "fa: no usable fa.wikipedia title («فردیناند یکم، پادشاه دو سیسیل»); the Wikidata label is «فردیناند چهارم (سیسیل)», his number as King of Naples"
+    },
+    {
+      "id": "francis-i-of-the-two-sicilies",
+      "wikidata": "Q312305"
+    },
+    {
+      "id": "ferdinand-ii-of-the-two-sicilies",
+      "wikidata": "Q332717"
+    },
+    {
+      "id": "francis-ii-of-the-two-sicilies",
+      "wikidata": "Q206223"
+    },
+    {
+      "id": "leopold-ii",
+      "wikidata": "Q151321",
+      "name": {
+        "en": "Leopold II",
+        "fa": "لئوپولد دوم"
+      },
+      "note": "The same person and name as in germany.json (Leopold II, Holy Roman Emperor); he ruled Tuscany as Leopold I, which the title of the term says"
+    },
+    {
+      "id": "ferdinand-iii-of-tuscany",
+      "wikidata": "Q309605",
+      "name": {
+        "fa": "فردیناند سوم"
+      },
+      "note": "fa: no usable fa.wikipedia title («فردیناند سوم (دوک بزرگ توسکانی)»); the Wikidata label is «فردیناند سوم، دوک بزرگ توسکانی»"
+    },
+    {
+      "id": "leopold-ii-of-tuscany",
+      "wikidata": "Q313169",
+      "name": {
+        "fa": "لئوپولد دوم"
+      },
+      "note": "fa: no usable fa.wikipedia title («لئوپولد دوم، دوک بزرگ توسکانی»); the Wikidata label is the same"
+    },
+    {
+      "id": "ferdinand-iv-of-tuscany",
+      "wikidata": "Q313167",
+      "name": {
+        "fa": "فردیناند چهارم"
+      },
+      "note": "fa: no usable fa.wikipedia title («فردیناند چهارم (دوک بزرگ توسکانی)»); the Wikidata label is «فردیناند چهارم، دوک بزرگ توسکانی»"
+    },
+    {
+      "id": "pius-vi",
+      "wikidata": "Q128019",
+      "name": {
+        "en": "Pius VI",
+        "fa": "پیوس ششم"
+      },
+      "note": "en: the Wikipedia title is \"Pope Pius VI\"; fa: the fa.wikipedia title «پاپ پیوس ششم» adds the title «پاپ»; the name is kept short, as in English"
+    },
+    {
+      "id": "pius-vii",
+      "wikidata": "Q124754",
+      "name": {
+        "en": "Pius VII",
+        "fa": "پیوس هفتم"
+      },
+      "note": "en: the Wikipedia title is \"Pope Pius VII\"; fa: the fa.wikipedia title «پاپ پیوس هفتم» adds the title «پاپ»; the name is kept short, as in English"
+    },
+    {
+      "id": "leo-xii",
+      "wikidata": "Q43727",
+      "name": {
+        "en": "Leo XII",
+        "fa": "لئون دوازدهم"
+      },
+      "note": "en: the Wikipedia title is \"Pope Leo XII\"; fa: the fa.wikipedia title «پاپ لئون دوازدهم» adds the title «پاپ»; the name is kept short, as in English"
+    },
+    {
+      "id": "pius-viii",
+      "wikidata": "Q4443",
+      "name": {
+        "en": "Pius VIII",
+        "fa": "پیوس هشتم"
+      },
+      "note": "en: the Wikipedia title is \"Pope Pius VIII\"; fa: the fa.wikipedia title «پاپ پیوس هشتم» adds the title «پاپ»; the name is kept short, as in English"
+    },
+    {
+      "id": "gregory-xvi",
+      "wikidata": "Q43734",
+      "name": {
+        "en": "Gregory XVI",
+        "fa": "گریگوری شانزدهم"
+      },
+      "note": "en: the Wikipedia title is \"Pope Gregory XVI\"; fa: the fa.wikipedia title «پاپ گریگوری شانزدهم» adds the title «پاپ»; the name is kept short, as in English"
+    },
+    {
+      "id": "pius-ix",
+      "wikidata": "Q43720",
+      "name": {
+        "en": "Pius IX",
+        "fa": "پیوس نهم"
+      },
+      "note": "en: the Wikipedia title is \"Pope Pius IX\"; fa: the fa.wikipedia title «پاپ پیوس نهم» adds the title «پاپ»; the name is kept short, as in English"
+    },
+    {
+      "id": "luigi-de-medici",
+      "wikidata": "Q3840279"
+    },
+    {
+      "id": "tommaso-di-somma",
+      "wikidata": "Q3992877"
+    },
+    {
+      "id": "donato-tommasi",
+      "wikidata": "Q3713792"
+    },
+    {
+      "id": "carlo-avarna",
+      "wikidata": "Q3659027",
+      "name": {
+        "en": "Carlo Avarna"
+      },
+      "note": "en: as the cited list writes it; the Wikidata label is \"Carlo Avarna di Gualtieri\""
+    },
+    {
+      "id": "girolamo-ruffo",
+      "wikidata": "Q94439820"
+    },
+    {
+      "id": "giuseppe-ceva-grimaldi",
+      "wikidata": "Q3770305"
+    },
+    {
+      "id": "nicola-maresca-donnorso-di-serracapriola",
+      "wikidata": "Q3876270"
+    },
+    {
+      "id": "carlo-troya",
+      "wikidata": "Q2939261"
+    },
+    {
+      "id": "gennaro-spinelli",
+      "wikidata": "Q3759853",
+      "name": {
+        "en": "Gennaro Spinelli"
+      },
+      "note": "en: the Wikipedia title is \"Gennaro Spinelli, Prince of Cariati\""
+    },
+    {
+      "id": "giustino-fortunato",
+      "wikidata": "Q1588526"
+    },
+    {
+      "id": "ferdinando-troya",
+      "wikidata": "Q3742695"
+    },
+    {
+      "id": "carlo-filangieri",
+      "wikidata": "Q521725",
+      "name": {
+        "en": "Carlo Filangieri"
+      },
+      "note": "en: the Wikipedia title is \"Carlo Filangieri, 6th Prince of Satriano\""
+    },
+    {
+      "id": "antonio-statella-di-cassaro",
+      "wikidata": "Q3620245"
+    },
+    {
+      "id": "antonio-spinelli-di-scalea",
+      "wikidata": "Q3620238"
+    },
+    {
+      "id": "pietro-cala-ulloa",
+      "wikidata": "Q3903737"
+    },
+    {
+      "id": "tommaso-pasquale-gizzi",
+      "wikidata": "Q568067"
+    },
+    {
+      "id": "gabriele-ferretti",
+      "wikidata": "Q2003775"
+    },
+    {
+      "id": "giuseppe-bofondi",
+      "wikidata": "Q1235067"
+    },
+    {
+      "id": "giacomo-antonelli",
+      "wikidata": "Q712085"
+    },
+    {
+      "id": "antonio-francesco-orioli",
+      "wikidata": "Q2517870"
+    },
+    {
+      "id": "giovanni-soglia-ceroni",
+      "wikidata": "Q769369"
+    },
+    {
+      "id": "carlo-emanuele-muzzarelli",
+      "wikidata": "Q5041499"
+    },
+    {
+      "id": "cosimo-ridolfi",
+      "wikidata": "Q2998239"
+    },
+    {
+      "id": "gino-capponi",
+      "wikidata": "Q719985"
+    },
+    {
+      "id": "giuseppe-montanelli",
+      "wikidata": "Q3108102"
+    },
+    {
+      "id": "giovanni-baldasseroni",
+      "wikidata": "Q3766520"
+    },
+    {
+      "id": "francesco-angelo-casella",
+      "wikidata": "Q136311775",
+      "name": {
+        "en": "Francesco Angelo Casella"
+      },
+      "note": "en: Wikidata has no English label; the Italian Wikipedia title"
+    }
+  ],
+  "terms": [
+    {
+      "person": "victor-emmanuel-ii",
+      "state": "kingdom-of-sardinia",
+      "office": "head-of-state",
+      "title": {
+        "en": "King",
+        "fa": "پادشاه"
+      },
+      "start": 1849,
+      "end": 1861,
+      "exactStart": "1849-03-23",
+      "exactEnd": "1861-03-17",
+      "sources": [
+        {
+          "title": "Victor Emmanuel II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Victor_Emmanuel_II"
+        },
+        {
+          "title": "List of monarchs of Sardinia — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Sardinia"
+        }
+      ]
+    },
+    {
+      "person": "victor-emmanuel-ii",
+      "state": "kingdom-of-italy",
+      "office": "head-of-state",
+      "title": {
+        "en": "King",
+        "fa": "پادشاه"
+      },
+      "start": 1861,
+      "end": 1878,
+      "exactStart": "1861-03-17",
+      "exactEnd": "1878-01-09",
+      "sources": [
+        {
+          "title": "Victor Emmanuel II — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Victor_Emmanuel_II"
+        }
+      ]
+    },
+    {
+      "person": "enrico-de-nicola",
+      "state": "italian-republic",
+      "office": "head-of-state",
+      "title": {
+        "en": "Provisional Head of State",
+        "fa": "رئیس موقت کشور"
+      },
+      "start": 1946,
+      "end": 1948,
+      "exactStart": "1946-07-01",
+      "exactEnd": "1948-01-01",
+      "sources": [
+        {
+          "title": "Enrico De Nicola — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Enrico_De_Nicola"
+        },
+        {
+          "title": "List of presidents of Italy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Italy"
+        }
+      ]
+    },
+    {
+      "person": "enrico-de-nicola",
+      "state": "italian-republic",
+      "office": "head-of-state",
+      "title": {
+        "en": "President",
+        "fa": "رئیس‌جمهور"
+      },
+      "start": 1948,
+      "end": 1948,
+      "exactStart": "1948-01-01",
+      "exactEnd": "1948-05-12",
+      "sources": [
+        {
+          "title": "Enrico De Nicola — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Enrico_De_Nicola"
+        },
+        {
+          "title": "List of presidents of Italy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Italy"
+        }
+      ]
+    },
+    {
+      "person": "benito-mussolini",
+      "state": "kingdom-of-italy",
+      "office": "head-of-government",
+      "title": {
+        "en": "Prime Minister",
+        "fa": "نخست‌وزیر"
+      },
+      "start": 1922,
+      "end": 1943,
+      "exactStart": "1922-10-31",
+      "exactEnd": "1943-07-25",
+      "sources": [
+        {
+          "title": "Benito Mussolini — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Benito_Mussolini"
+        },
+        {
+          "title": "List of prime ministers of Italy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_Italy"
+        }
+      ]
+    },
+    {
+      "person": "benito-mussolini",
+      "state": "italian-social-republic",
+      "office": "head-of-state",
+      "title": {
+        "en": "Duce",
+        "fa": "دوچه"
+      },
+      "start": 1943,
+      "end": 1945,
+      "exactStart": "1943-09-23",
+      "exactEnd": "1945-04-25",
+      "sources": [
+        {
+          "title": "Benito Mussolini — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Benito_Mussolini"
+        },
+        {
+          "title": "Italian Social Republic — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Italian_Social_Republic"
+        }
+      ]
+    },
+    {
+      "person": "benito-mussolini",
+      "state": "italian-social-republic",
+      "office": "head-of-government",
+      "title": {
+        "en": "Head of Government",
+        "fa": "رئیس دولت"
+      },
+      "start": 1943,
+      "end": 1945,
+      "exactStart": "1943-09-23",
+      "exactEnd": "1945-04-25",
+      "sources": [
+        {
+          "title": "Italian Social Republic — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Italian_Social_Republic"
+        },
+        {
+          "title": "Benito Mussolini — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Benito_Mussolini"
+        }
+      ]
+    },
+    {
+      "person": "ferdinand-i-of-the-two-sicilies",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-state",
+      "title": {
+        "en": "King",
+        "fa": "پادشاه"
+      },
+      "start": 1816,
+      "end": 1825,
+      "exactStart": "1816-12-12",
+      "exactEnd": "1825-01-04",
+      "sources": [
+        {
+          "title": "List of monarchs of the Kingdom of the Two Sicilies — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_the_Kingdom_of_the_Two_Sicilies"
+        },
+        {
+          "title": "Ferdinand I of the Two Sicilies — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ferdinand_I_of_the_Two_Sicilies"
+        }
+      ]
+    },
+    {
+      "person": "francis-i-of-the-two-sicilies",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-state",
+      "title": {
+        "en": "King",
+        "fa": "پادشاه"
+      },
+      "start": 1825,
+      "end": 1830,
+      "exactStart": "1825-01-04",
+      "exactEnd": "1830-11-08",
+      "sources": [
+        {
+          "title": "List of monarchs of the Kingdom of the Two Sicilies — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_the_Kingdom_of_the_Two_Sicilies"
+        },
+        {
+          "title": "Francis I of the Two Sicilies — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Francis_I_of_the_Two_Sicilies"
+        }
+      ]
+    },
+    {
+      "person": "ferdinand-ii-of-the-two-sicilies",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-state",
+      "title": {
+        "en": "King",
+        "fa": "پادشاه"
+      },
+      "start": 1830,
+      "end": 1859,
+      "exactStart": "1830-11-08",
+      "exactEnd": "1859-05-22",
+      "sources": [
+        {
+          "title": "List of monarchs of the Kingdom of the Two Sicilies — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_the_Kingdom_of_the_Two_Sicilies"
+        },
+        {
+          "title": "Ferdinand II of the Two Sicilies — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ferdinand_II_of_the_Two_Sicilies"
+        }
+      ]
+    },
+    {
+      "person": "francis-ii-of-the-two-sicilies",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-state",
+      "title": {
+        "en": "King",
+        "fa": "پادشاه"
+      },
+      "start": 1859,
+      "end": 1861,
+      "exactStart": "1859-05-22",
+      "sources": [
+        {
+          "title": "List of monarchs of the Kingdom of the Two Sicilies — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_the_Kingdom_of_the_Two_Sicilies"
+        },
+        {
+          "title": "Francis II of the Two Sicilies — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Francis_II_of_the_Two_Sicilies"
+        }
+      ]
+    },
+    {
+      "person": "luigi-de-medici",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1816,
+      "end": 1820,
+      "exactEnd": "1820-07-09",
+      "sources": [
+        {
+          "title": "Presidenti del Consiglio dei ministri del Regno delle Due Sicilie — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie"
+        },
+        {
+          "title": "Luigi de' Medici di Ottajano — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Luigi_de%27_Medici_di_Ottajano"
+        }
+      ]
+    },
+    {
+      "person": "tommaso-di-somma",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1821,
+      "end": 1822,
+      "exactStart": "1821-03",
+      "exactEnd": "1822-06",
+      "sources": [
+        {
+          "title": "Presidenti del Consiglio dei ministri del Regno delle Due Sicilie — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie"
+        },
+        {
+          "title": "Tommaso di Somma — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Tommaso_di_Somma"
+        }
+      ]
+    },
+    {
+      "person": "luigi-de-medici",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1822,
+      "end": 1830,
+      "exactStart": "1822-06",
+      "exactEnd": "1830-01-25",
+      "sources": [
+        {
+          "title": "Presidenti del Consiglio dei ministri del Regno delle Due Sicilie — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie"
+        },
+        {
+          "title": "Luigi de' Medici di Ottajano — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Luigi_de%27_Medici_di_Ottajano"
+        }
+      ]
+    },
+    {
+      "person": "donato-tommasi",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1830,
+      "end": 1831,
+      "exactStart": "1830-01-25",
+      "exactEnd": "1831-03-11",
+      "sources": [
+        {
+          "title": "Presidenti del Consiglio dei ministri del Regno delle Due Sicilie — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie"
+        },
+        {
+          "title": "Donato Tommasi — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Donato_Tommasi"
+        }
+      ]
+    },
+    {
+      "person": "carlo-avarna",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1831,
+      "end": 1836,
+      "exactStart": "1831-03",
+      "exactEnd": "1836-05-18",
+      "sources": [
+        {
+          "title": "Presidenti del Consiglio dei ministri del Regno delle Due Sicilie — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie"
+        },
+        {
+          "title": "Carlo Avarna di Gualtieri — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Carlo_Avarna_di_Gualtieri"
+        }
+      ]
+    },
+    {
+      "person": "girolamo-ruffo",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1836,
+      "end": 1839,
+      "exactStart": "1836-05",
+      "note": {
+        "en": "The list of presidents of the council ends the term with Ruffo's death on 29 November 1839, and is followed here; the Italian Wikipedia article on Ruffo ends it on 14 January 1840.",
+        "fa": "فهرست رئیسان شورا پایان این دوره را مرگ روفو در ۲۹ نوامبر ۱۸۳۹ می‌داند و در اینجا همان آمده است؛ مقالهٔ روفو در ویکی‌پدیای ایتالیایی آن را ۱۴ ژانویهٔ ۱۸۴۰ می‌داند."
+      },
+      "sources": [
+        {
+          "title": "Presidenti del Consiglio dei ministri del Regno delle Due Sicilie — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie"
+        },
+        {
+          "title": "Girolamo Ruffo — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Girolamo_Ruffo"
+        }
+      ]
+    },
+    {
+      "person": "giuseppe-ceva-grimaldi",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1840,
+      "end": 1848,
+      "exactStart": "1840-01-14",
+      "exactEnd": "1848-01-27",
+      "sources": [
+        {
+          "title": "Presidenti del Consiglio dei ministri del Regno delle Due Sicilie — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie"
+        },
+        {
+          "title": "Giuseppe Ceva Grimaldi Pisanelli di Pietracatella — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Giuseppe_Ceva_Grimaldi_Pisanelli_di_Pietracatella"
+        }
+      ]
+    },
+    {
+      "person": "nicola-maresca-donnorso-di-serracapriola",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1848,
+      "end": 1848,
+      "exactStart": "1848-01-27",
+      "exactEnd": "1848-04-03",
+      "sources": [
+        {
+          "title": "Presidenti del Consiglio dei ministri del Regno delle Due Sicilie — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie"
+        },
+        {
+          "title": "Nicola Maresca Donnorso di Serracapriola — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Nicola_Maresca_Donnorso_di_Serracapriola"
+        }
+      ]
+    },
+    {
+      "person": "carlo-troya",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1848,
+      "end": 1848,
+      "exactStart": "1848-04-03",
+      "exactEnd": "1848-05-15",
+      "sources": [
+        {
+          "title": "Presidenti del Consiglio dei ministri del Regno delle Due Sicilie — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie"
+        },
+        {
+          "title": "Carlo Troya — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Carlo_Troya"
+        }
+      ]
+    },
+    {
+      "person": "gennaro-spinelli",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1848,
+      "end": 1849,
+      "exactStart": "1848-05-15",
+      "exactEnd": "1849-08",
+      "sources": [
+        {
+          "title": "Presidenti del Consiglio dei ministri del Regno delle Due Sicilie — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie"
+        },
+        {
+          "title": "Gennaro Spinelli di Cariati — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Gennaro_Spinelli_di_Cariati"
+        }
+      ]
+    },
+    {
+      "person": "giustino-fortunato",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1849,
+      "end": 1852,
+      "exactStart": "1849-08",
+      "exactEnd": "1852-01",
+      "sources": [
+        {
+          "title": "Presidenti del Consiglio dei ministri del Regno delle Due Sicilie — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie"
+        },
+        {
+          "title": "Giustino Fortunato (1777-1862) — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Giustino_Fortunato_%281777-1862%29"
+        }
+      ]
+    },
+    {
+      "person": "ferdinando-troya",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1852,
+      "end": 1859,
+      "exactStart": "1852-01",
+      "exactEnd": "1859-06",
+      "sources": [
+        {
+          "title": "Presidenti del Consiglio dei ministri del Regno delle Due Sicilie — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie"
+        },
+        {
+          "title": "Ferdinando Troya — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Ferdinando_Troya"
+        }
+      ]
+    },
+    {
+      "person": "carlo-filangieri",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1859,
+      "end": 1860,
+      "exactStart": "1859-06",
+      "exactEnd": "1860-03-16",
+      "sources": [
+        {
+          "title": "Presidenti del Consiglio dei ministri del Regno delle Due Sicilie — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie"
+        },
+        {
+          "title": "Carlo Filangieri, principe di Satriano — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Carlo_Filangieri%2C_principe_di_Satriano"
+        }
+      ]
+    },
+    {
+      "person": "antonio-statella-di-cassaro",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1860,
+      "end": 1860,
+      "exactStart": "1860-03-16",
+      "exactEnd": "1860-06-25",
+      "sources": [
+        {
+          "title": "Presidenti del Consiglio dei ministri del Regno delle Due Sicilie — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie"
+        },
+        {
+          "title": "Antonio Statella di Cassaro — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Antonio_Statella_di_Cassaro"
+        }
+      ]
+    },
+    {
+      "person": "antonio-spinelli-di-scalea",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1860,
+      "end": 1860,
+      "exactStart": "1860-06-25",
+      "exactEnd": "1860-09-07",
+      "sources": [
+        {
+          "title": "Presidenti del Consiglio dei ministri del Regno delle Due Sicilie — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie"
+        },
+        {
+          "title": "Antonio Spinelli di Scalea — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Antonio_Spinelli_di_Scalea"
+        }
+      ]
+    },
+    {
+      "person": "francesco-angelo-casella",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1860,
+      "end": 1860,
+      "exactStart": "1860-09-07",
+      "exactEnd": "1860-11",
+      "sources": [
+        {
+          "title": "Presidenti del Consiglio dei ministri del Regno delle Due Sicilie — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie"
+        },
+        {
+          "title": "Francesco Angelo Casella — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Francesco_Angelo_Casella"
+        }
+      ]
+    },
+    {
+      "person": "pietro-cala-ulloa",
+      "state": "kingdom-of-the-two-sicilies",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1860,
+      "end": 1861,
+      "exactStart": "1860-11",
+      "exactEnd": "1861-02-13",
+      "sources": [
+        {
+          "title": "Presidenti del Consiglio dei ministri del Regno delle Due Sicilie — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie"
+        },
+        {
+          "title": "Pietro Calà Ulloa — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Pietro_Cal%C3%A0_Ulloa"
+        }
+      ]
+    },
+    {
+      "person": "pius-ix",
+      "state": "papal-states",
+      "office": "head-of-state",
+      "title": {
+        "en": "Pope",
+        "fa": "پاپ"
+      },
+      "start": 1846,
+      "end": 1870,
+      "exactStart": "1846-06-16",
+      "sources": [
+        {
+          "title": "Papal States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Papal_States"
+        },
+        {
+          "title": "Pope Pius IX — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pope_Pius_IX"
+        }
+      ]
+    },
+    {
+      "person": "tommaso-pasquale-gizzi",
+      "state": "papal-states",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1847,
+      "end": 1847,
+      "exactStart": "1847-06-12",
+      "exactEnd": "1847-07-05",
+      "sources": [
+        {
+          "title": "Governo (Stato Pontificio) — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Governo_%28Stato_Pontificio%29"
+        }
+      ]
+    },
+    {
+      "person": "gabriele-ferretti",
+      "state": "papal-states",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1847,
+      "end": 1848,
+      "exactStart": "1847-07-17",
+      "exactEnd": "1848-01",
+      "sources": [
+        {
+          "title": "Governo (Stato Pontificio) — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Governo_%28Stato_Pontificio%29"
+        },
+        {
+          "title": "List of prime ministers of the Papal States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_the_Papal_States"
+        }
+      ]
+    },
+    {
+      "person": "giuseppe-bofondi",
+      "state": "papal-states",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1848,
+      "end": 1848,
+      "exactStart": "1848-01-21",
+      "exactEnd": "1848-03",
+      "sources": [
+        {
+          "title": "Governo (Stato Pontificio) — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Governo_%28Stato_Pontificio%29"
+        },
+        {
+          "title": "List of prime ministers of the Papal States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_the_Papal_States"
+        }
+      ]
+    },
+    {
+      "person": "giacomo-antonelli",
+      "state": "papal-states",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1848,
+      "end": 1848,
+      "exactStart": "1848-03-10",
+      "exactEnd": "1848-05",
+      "sources": [
+        {
+          "title": "Governo (Stato Pontificio) — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Governo_%28Stato_Pontificio%29"
+        },
+        {
+          "title": "List of prime ministers of the Papal States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_the_Papal_States"
+        }
+      ]
+    },
+    {
+      "person": "antonio-francesco-orioli",
+      "state": "papal-states",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1848,
+      "end": 1848,
+      "exactStart": "1848-05-04",
+      "exactEnd": "1848-08",
+      "note": {
+        "en": "The Council of Ministers was presided over by the Cardinal Secretary of State, which is followed here; the English list of prime ministers of the Papal States names the Minister of the Interior, who led it in practice from May 1848: Terenzio Mamiani.",
+        "fa": "ریاست شورای وزیران با کاردینال دبیر دولت بود و در اینجا همان آمده است؛ فهرست انگلیسی نخست‌وزیران ایالات پاپی وزیر کشور را نام می‌برد که از مهٔ ۱۸۴۸ در عمل آن را رهبری می‌کرد: ترنتزیو مامیانی."
+      },
+      "sources": [
+        {
+          "title": "Governo (Stato Pontificio) — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Governo_%28Stato_Pontificio%29"
+        },
+        {
+          "title": "Cardinal Secretary of State — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cardinal_Secretary_of_State"
+        }
+      ]
+    },
+    {
+      "person": "giovanni-soglia-ceroni",
+      "state": "papal-states",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1848,
+      "end": 1848,
+      "exactStart": "1848-08-06",
+      "exactEnd": "1848-11-15",
+      "note": {
+        "en": "The Council of Ministers was presided over by the Cardinal Secretary of State, which is followed here; the English list of prime ministers of the Papal States names the Minister of the Interior, who led it in practice from May 1848: Edoardo Fabbri, then Pellegrino Rossi.",
+        "fa": "ریاست شورای وزیران با کاردینال دبیر دولت بود و در اینجا همان آمده است؛ فهرست انگلیسی نخست‌وزیران ایالات پاپی وزیر کشور را نام می‌برد که از مهٔ ۱۸۴۸ در عمل آن را رهبری می‌کرد: ادواردو فابری و سپس پلگرینو روسی."
+      },
+      "sources": [
+        {
+          "title": "Governo (Stato Pontificio) — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Governo_%28Stato_Pontificio%29"
+        },
+        {
+          "title": "Cardinal Secretary of State — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cardinal_Secretary_of_State"
+        }
+      ]
+    },
+    {
+      "person": "carlo-emanuele-muzzarelli",
+      "state": "papal-states",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1848,
+      "end": 1848,
+      "exactStart": "1848-11-20",
+      "exactEnd": "1848-12-29",
+      "note": {
+        "en": "The Italian article on the papal government ends this government on 29 December 1848, and is followed here; the English list of prime ministers ends it on 25 April 1849, under the Roman Republic.",
+        "fa": "مقالهٔ ایتالیایی حکومت پاپ پایان این دولت را ۲۹ دسامبر ۱۸۴۸ می‌داند و در اینجا همان آمده است؛ فهرست انگلیسی نخست‌وزیران آن را ۲۵ آوریل ۱۸۴۹، در دورهٔ جمهوری روم، می‌داند."
+      },
+      "sources": [
+        {
+          "title": "Governo (Stato Pontificio) — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Governo_%28Stato_Pontificio%29"
+        },
+        {
+          "title": "List of prime ministers of the Papal States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_the_Papal_States"
+        }
+      ]
+    },
+    {
+      "person": "giacomo-antonelli",
+      "state": "papal-states",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1850,
+      "end": 1870,
+      "exactStart": "1850-09-10",
+      "exactEnd": "1870-09-19",
+      "sources": [
+        {
+          "title": "Governo (Stato Pontificio) — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Governo_%28Stato_Pontificio%29"
+        }
+      ]
+    },
+    {
+      "person": "leopold-ii",
+      "state": "grand-duchy-of-tuscany",
+      "office": "head-of-state",
+      "title": {
+        "en": "Grand Duke (as Leopold I)",
+        "fa": "دوک بزرگ (با نام لئوپولد یکم)"
+      },
+      "start": 1765,
+      "end": 1790,
+      "exactStart": "1765-08-18",
+      "exactEnd": "1790-07-22",
+      "sources": [
+        {
+          "title": "Leopold II, Holy Roman Emperor — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leopold_II%2C_Holy_Roman_Emperor"
+        },
+        {
+          "title": "List of grand dukes of Tuscany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_grand_dukes_of_Tuscany"
+        }
+      ]
+    },
+    {
+      "person": "ferdinand-iii-of-tuscany",
+      "state": "grand-duchy-of-tuscany",
+      "office": "head-of-state",
+      "title": {
+        "en": "Grand Duke",
+        "fa": "دوک بزرگ"
+      },
+      "start": 1790,
+      "end": 1801,
+      "exactStart": "1790-07-22",
+      "sources": [
+        {
+          "title": "Ferdinand III of Tuscany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ferdinand_III_of_Tuscany"
+        }
+      ]
+    },
+    {
+      "person": "ferdinand-iii-of-tuscany",
+      "state": "grand-duchy-of-tuscany",
+      "office": "head-of-state",
+      "title": {
+        "en": "Grand Duke",
+        "fa": "دوک بزرگ"
+      },
+      "start": 1814,
+      "end": 1824,
+      "exactStart": "1814-04-27",
+      "exactEnd": "1824-06-18",
+      "sources": [
+        {
+          "title": "Ferdinand III of Tuscany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ferdinand_III_of_Tuscany"
+        }
+      ]
+    },
+    {
+      "person": "leopold-ii-of-tuscany",
+      "state": "grand-duchy-of-tuscany",
+      "office": "head-of-state",
+      "title": {
+        "en": "Grand Duke",
+        "fa": "دوک بزرگ"
+      },
+      "start": 1824,
+      "end": 1859,
+      "exactStart": "1824-06-18",
+      "exactEnd": "1859-07-21",
+      "sources": [
+        {
+          "title": "Leopold II of Tuscany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leopold_II_of_Tuscany"
+        }
+      ]
+    },
+    {
+      "person": "ferdinand-iv-of-tuscany",
+      "state": "grand-duchy-of-tuscany",
+      "office": "head-of-state",
+      "title": {
+        "en": "Grand Duke",
+        "fa": "دوک بزرگ"
+      },
+      "start": 1859,
+      "end": 1860,
+      "exactStart": "1859-07-21",
+      "exactEnd": "1860-03-22",
+      "note": {
+        "en": "His reign was only nominal: the grand-ducal family had left Florence on 27 April 1859, and the Tuscan National Assembly deposed the dynasty on 16 August 1859.",
+        "fa": "سلطنت او تنها اسمی بود: خاندان دوک بزرگ در ۲۷ آوریل ۱۸۵۹ فلورانس را ترک کرده بود و مجلس ملی توسکانی در ۱۶ اوت ۱۸۵۹ این دودمان را برکنار کرد."
+      },
+      "sources": [
+        {
+          "title": "Ferdinand IV of Tuscany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ferdinand_IV_of_Tuscany"
+        },
+        {
+          "title": "Grand Duchy of Tuscany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Tuscany"
+        }
+      ]
+    },
+    {
+      "person": "cosimo-ridolfi",
+      "state": "grand-duchy-of-tuscany",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1848,
+      "end": 1848,
+      "exactStart": "1848-06",
+      "sources": [
+        {
+          "title": "Granducato di Toscana — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Granducato_di_Toscana"
+        },
+        {
+          "title": "Cosimo Ridolfi — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Cosimo_Ridolfi"
+        },
+        {
+          "title": "Ridolfi, Cosimo — Dizionario Biografico degli Italiani (Treccani)",
+          "url": "https://www.treccani.it/enciclopedia/cosimo-ridolfi_(Dizionario-Biografico)/"
+        }
+      ]
+    },
+    {
+      "person": "gino-capponi",
+      "state": "grand-duchy-of-tuscany",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1848,
+      "end": 1848,
+      "exactStart": "1848-08-17",
+      "exactEnd": "1848-10",
+      "sources": [
+        {
+          "title": "Granducato di Toscana — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Granducato_di_Toscana"
+        },
+        {
+          "title": "Capponi, Gino — Dizionario Biografico degli Italiani (Treccani)",
+          "url": "https://www.treccani.it/enciclopedia/gino-capponi_(Dizionario-Biografico)/"
+        }
+      ]
+    },
+    {
+      "person": "giuseppe-montanelli",
+      "state": "grand-duchy-of-tuscany",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1848,
+      "end": 1849,
+      "exactStart": "1848-10-28",
+      "exactEnd": "1849-02-08",
+      "sources": [
+        {
+          "title": "Granducato di Toscana — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Granducato_di_Toscana"
+        },
+        {
+          "title": "Montanelli, Giuseppe — Dizionario Biografico degli Italiani (Treccani)",
+          "url": "https://www.treccani.it/enciclopedia/giuseppe-montanelli_(Dizionario-Biografico)/"
+        }
+      ]
+    },
+    {
+      "person": "giovanni-baldasseroni",
+      "state": "grand-duchy-of-tuscany",
+      "office": "head-of-government",
+      "title": {
+        "en": "President of the Council of Ministers",
+        "fa": "رئیس شورای وزیران"
+      },
+      "start": 1849,
+      "end": 1859,
+      "exactStart": "1849-05-24",
+      "exactEnd": "1859-04-27",
+      "sources": [
+        {
+          "title": "Granducato di Toscana — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Granducato_di_Toscana"
+        },
+        {
+          "title": "Giovanni Baldasseroni — Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Giovanni_Baldasseroni"
+        },
+        {
+          "title": "Baldasseroni, Giovanni — Dizionario Biografico degli Italiani (Treccani)",
+          "url": "https://www.treccani.it/enciclopedia/giovanni-baldasseroni_(Dizionario-Biografico)/"
+        }
+      ]
+    }
+  ],
+  "titles": [],
+  "exclude": [
+    {
+      "wikidata": "Q153832",
+      "office": "head-of-state",
+      "reason": "R3: Alcide De Gasperi exercised the powers of provisional head of state, as Prime Minister, from 13 June to 1 July 1946 (less than a year)"
+    },
+    {
+      "wikidata": "Q537144",
+      "office": "head-of-government",
+      "reason": "R3: Tommaso Tittoni, interim Prime Minister from 12 to 28 March 1905 (less than a year)"
+    }
+  ],
+  "flags": [
+    {
+      "state": "kingdom-of-sardinia",
+      "file": "State Flag of the Savoyard States (late 16th - late 18th century).svg",
+      "start": 1720,
+      "end": 1799,
+      "circa": true,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "FDRMRZUSA",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "State Flag of the Savoyard States (late 16th - late 18th century).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:State_Flag_of_the_Savoyard_States_%28late_16th_-_late_18th_century%29.svg"
+        },
+        {
+          "title": "Kingdom of Sardinia (1720–1861) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Sardinia_%281720%E2%80%931861%29"
+        },
+        {
+          "title": "Flag of Piedmont — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Piedmont"
+        }
+      ]
+    },
+    {
+      "state": "kingdom-of-sardinia",
+      "file": "Merchant Flag of the Kingdom of Sardinia (c.1799-1802).svg",
+      "name": {
+        "en": "Merchant flag",
+        "fa": "پرچم تجاری"
+      },
+      "start": 1799,
+      "end": 1802,
+      "circa": true,
+      "certainty": "simplified",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Havsjö",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Merchant Flag of the Kingdom of Sardinia (c.1799-1802).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Merchant_Flag_of_the_Kingdom_of_Sardinia_%28c.1799-1802%29.svg"
+        },
+        {
+          "title": "Kingdom of Sardinia (1720–1861) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Sardinia_%281720%E2%80%931861%29"
+        },
+        {
+          "title": "Flag of Piedmont — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Piedmont"
+        }
+      ]
+    },
+    {
+      "state": "kingdom-of-sardinia",
+      "file": "War Ensign of the Kingdom of Sardinia (1802-1814).svg",
+      "name": {
+        "en": "War ensign",
+        "fa": "پرچم دریایی جنگی"
+      },
+      "start": 1802,
+      "end": 1814,
+      "certainty": "simplified",
+      "license": "CC BY-SA 4.0",
+      "attribution": "FDRMRZUSA",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "War Ensign of the Kingdom of Sardinia (1802-1814).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:War_Ensign_of_the_Kingdom_of_Sardinia_%281802-1814%29.svg"
+        },
+        {
+          "title": "Kingdom of Sardinia (1720–1861) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Sardinia_%281720%E2%80%931861%29"
+        },
+        {
+          "title": "Flag of Piedmont — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Piedmont"
+        }
+      ]
+    },
+    {
+      "state": "kingdom-of-sardinia",
+      "file": "Merchant Flag and War Ensign of the Savoyard States (1814-1816).svg",
+      "name": {
+        "en": "Merchant flag and war ensign",
+        "fa": "پرچم دریایی تجاری و جنگی"
+      },
+      "start": 1814,
+      "end": 1816,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "FDRMRZUSA",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Merchant Flag and War Ensign of the Savoyard States (1814-1816).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Merchant_Flag_and_War_Ensign_of_the_Savoyard_States_%281814-1816%29.svg"
+        },
+        {
+          "title": "Kingdom of Sardinia (1720–1861) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Sardinia_%281720%E2%80%931861%29"
+        },
+        {
+          "title": "Flag of Piedmont — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Piedmont"
+        }
+      ]
+    },
+    {
+      "state": "kingdom-of-sardinia",
+      "file": "State Flag and War Ensign of the Savoyard States (1816-1848).svg",
+      "start": 1816,
+      "end": 1848,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "FDRMRZUSA",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "State Flag and War Ensign of the Savoyard States (1816-1848).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:State_Flag_and_War_Ensign_of_the_Savoyard_States_%281816-1848%29.svg"
+        },
+        {
+          "title": "Kingdom of Sardinia (1720–1861) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Sardinia_%281720%E2%80%931861%29"
+        },
+        {
+          "title": "Flag of Piedmont — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Piedmont"
+        }
+      ]
+    },
+    {
+      "state": "kingdom-of-sardinia",
+      "file": "Flag of the Kingdom of Sardinia (1848-1851).svg",
+      "start": 1848,
+      "end": 1851,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "F l a n k e r",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Kingdom of Sardinia (1848-1851).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Sardinia_%281848-1851%29.svg"
+        },
+        {
+          "title": "Kingdom of Sardinia (1720–1861) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Sardinia_%281720%E2%80%931861%29"
+        },
+        {
+          "title": "Flag of Piedmont — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Piedmont"
+        }
+      ]
+    },
+    {
+      "state": "kingdom-of-sardinia",
+      "file": "Flag of Italy (1861–1946).svg",
+      "start": 1851,
+      "end": 1861,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "F l a n k e r",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of Italy (1861–1946).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Italy_%281861%E2%80%931946%29.svg"
+        },
+        {
+          "title": "Flag of Piedmont — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Piedmont"
+        },
+        {
+          "title": "Flag of Italy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Italy"
+        }
+      ]
+    },
+    {
+      "state": "kingdom-of-italy",
+      "file": "Flag of Italy (1861–1946).svg",
+      "start": 1861,
+      "end": 1946,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "F l a n k e r",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of Italy (1861–1946).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Italy_%281861%E2%80%931946%29.svg"
+        },
+        {
+          "title": "Kingdom of Italy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Italy"
+        },
+        {
+          "title": "Flag of Italy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Italy"
+        }
+      ]
+    },
+    {
+      "state": "italian-republic",
+      "file": "Flag of Italy (1946–2003).svg",
+      "start": 1946,
+      "end": 2003,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Repubblica Italiana",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of Italy (1946–2003).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Italy_%281946%E2%80%932003%29.svg"
+        },
+        {
+          "title": "Flag of Italy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Italy"
+        }
+      ]
+    },
+    {
+      "state": "italian-republic",
+      "file": "Flag of Italy (2003–2006).svg",
+      "start": 2003,
+      "end": 2006,
+      "certainty": "documented",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Zscout370",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of Italy (2003–2006).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Italy_%282003%E2%80%932006%29.svg"
+        },
+        {
+          "title": "Flag of Italy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Italy"
+        }
+      ]
+    },
+    {
+      "state": "italian-republic",
+      "file": "Flag of Italy.svg",
+      "start": 2006,
+      "end": null,
+      "certainty": "documented",
+      "license": "Public domain",
+      "attribution": "Wikimedia Commons contributors",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of Italy.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Italy.svg"
+        },
+        {
+          "title": "Flag of Italy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Italy"
+        }
+      ]
+    },
+    {
+      "state": "kingdom-of-the-two-sicilies",
+      "file": "Flag of the Kingdom of the Two Sicilies (1816) (Sodacan style).svg",
+      "start": 1816,
+      "end": 1848,
+      "certainty": "simplified",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Original: Flopao; derivative work: ZuppaDiCarlo",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Kingdom of the Two Sicilies (1816) (Sodacan style).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_the_Two_Sicilies_%281816%29_%28Sodacan_style%29.svg"
+        },
+        {
+          "title": "Kingdom of the Two Sicilies — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Two_Sicilies"
+        }
+      ]
+    },
+    {
+      "state": "kingdom-of-the-two-sicilies",
+      "file": "Flag of the Kingdom of the Two Sicilies (1848) (Sodacan style).svg",
+      "start": 1848,
+      "end": 1849,
+      "certainty": "simplified",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Original: Flopao; derivative work: ZuppaDiCarlo",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Kingdom of the Two Sicilies (1848) (Sodacan style).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_the_Two_Sicilies_%281848%29_%28Sodacan_style%29.svg"
+        },
+        {
+          "title": "Kingdom of the Two Sicilies — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Two_Sicilies"
+        },
+        {
+          "title": "Flag of Italy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Italy"
+        }
+      ]
+    },
+    {
+      "state": "kingdom-of-the-two-sicilies",
+      "file": "Flag of the Kingdom of the Two Sicilies (1816) (Sodacan style).svg",
+      "start": 1849,
+      "end": 1860,
+      "certainty": "simplified",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Original: Flopao; derivative work: ZuppaDiCarlo",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Kingdom of the Two Sicilies (1816) (Sodacan style).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_the_Two_Sicilies_%281816%29_%28Sodacan_style%29.svg"
+        },
+        {
+          "title": "Kingdom of the Two Sicilies — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Two_Sicilies"
+        }
+      ]
+    },
+    {
+      "state": "kingdom-of-the-two-sicilies",
+      "file": "Flag of the Kingdom of the Two Sicilies (1860) (Sodacan style).svg",
+      "start": 1860,
+      "end": 1861,
+      "certainty": "simplified",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Original: Flopao; derivative work: ZuppaDiCarlo",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Kingdom of the Two Sicilies (1860) (Sodacan style).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_the_Two_Sicilies_%281860%29_%28Sodacan_style%29.svg"
+        },
+        {
+          "title": "Kingdom of the Two Sicilies — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Two_Sicilies"
+        },
+        {
+          "title": "Flag of Italy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Italy"
+        }
+      ]
+    },
+    {
+      "state": "papal-states",
+      "file": "Flag of the Papal States (pre 1808).svg",
+      "start": 1789,
+      "end": 1808,
+      "circa": true,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Dinozzo2005",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Papal States (pre 1808).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Papal_States_%28pre_1808%29.svg"
+        },
+        {
+          "title": "Papal States — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Papal_States"
+        },
+        {
+          "title": "Flag of Vatican City — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Vatican_City"
+        }
+      ]
+    },
+    {
+      "state": "papal-states",
+      "file": "Flag of the Papal States (1803-1825).svg",
+      "start": 1808,
+      "end": 1825,
+      "certainty": "documented",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Tibetan Pop Rocks",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Papal States (1803-1825).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Papal_States_%281803-1825%29.svg"
+        },
+        {
+          "title": "Flag of Vatican City — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Vatican_City"
+        }
+      ]
+    },
+    {
+      "state": "papal-states",
+      "file": "Flag of the Papal States (1825-1870).svg",
+      "start": 1825,
+      "end": 1870,
+      "certainty": "documented",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Tibetan Pop Rocks",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Papal States (1825-1870).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Papal_States_%281825-1870%29.svg"
+        },
+        {
+          "title": "Flag of Vatican City — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Vatican_City"
+        }
+      ]
+    },
+    {
+      "state": "grand-duchy-of-tuscany",
+      "file": "Flag of the Grand Duchy of Tuscany with Great Coat of arms.svg",
+      "start": 1765,
+      "end": 1800,
+      "certainty": "simplified",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Euryrel",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Grand Duchy of Tuscany with Great Coat of arms.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Grand_Duchy_of_Tuscany_with_Great_Coat_of_arms.svg"
+        },
+        {
+          "title": "Grand Duchy of Tuscany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Tuscany"
+        },
+        {
+          "title": "Flag of Tuscany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Tuscany"
+        }
+      ]
+    },
+    {
+      "state": "grand-duchy-of-tuscany",
+      "file": "Flag of the Grand Duchy of Tuscany with Great Coat of arms.svg",
+      "start": 1814,
+      "end": 1848,
+      "certainty": "simplified",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Euryrel",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Grand Duchy of Tuscany with Great Coat of arms.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Grand_Duchy_of_Tuscany_with_Great_Coat_of_arms.svg"
+        },
+        {
+          "title": "Grand Duchy of Tuscany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Tuscany"
+        },
+        {
+          "title": "Flag of Tuscany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Tuscany"
+        }
+      ]
+    },
+    {
+      "state": "grand-duchy-of-tuscany",
+      "file": "State Flag of the Grand Duchy of Tuscany (1848-1849).svg",
+      "start": 1848,
+      "end": 1849,
+      "certainty": "documented",
+      "license": "CC BY-SA 4.0",
+      "attribution": "FDRMRZUSA",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "State Flag of the Grand Duchy of Tuscany (1848-1849).svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:State_Flag_of_the_Grand_Duchy_of_Tuscany_%281848-1849%29.svg"
+        },
+        {
+          "title": "Flag of Tuscany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Tuscany"
+        },
+        {
+          "title": "Flag of Italy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Italy"
+        }
+      ]
+    },
+    {
+      "state": "grand-duchy-of-tuscany",
+      "file": "Flag of the Grand Duchy of Tuscany with Great Coat of arms.svg",
+      "start": 1849,
+      "end": 1860,
+      "certainty": "simplified",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Euryrel",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Grand Duchy of Tuscany with Great Coat of arms.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Grand_Duchy_of_Tuscany_with_Great_Coat_of_arms.svg"
+        },
+        {
+          "title": "Grand Duchy of Tuscany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Tuscany"
+        },
+        {
+          "title": "Flag of Tuscany — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Tuscany"
+        }
+      ]
+    },
+    {
+      "state": "napoleonic-kingdom-of-italy",
+      "file": "Flag of the Napoleonic Kingdom of Italy.svg",
+      "start": 1805,
+      "end": 1814,
+      "certainty": "documented",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Sodacan",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of the Napoleonic Kingdom of Italy.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Napoleonic_Kingdom_of_Italy.svg"
+        },
+        {
+          "title": "Kingdom of Italy (Napoleonic) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Italy_%28Napoleonic%29"
+        },
+        {
+          "title": "Flags of Napoleonic Italy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flags_of_Napoleonic_Italy"
+        }
+      ]
+    },
+    {
+      "state": "italian-social-republic",
+      "file": "Flag of Italy.svg",
+      "start": 1943,
+      "end": 1945,
+      "certainty": "simplified",
+      "license": "Public domain",
+      "attribution": "Wikimedia Commons contributors",
+      "withheld": false,
+      "sources": [
+        {
+          "title": "Flag of Italy.svg — Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Italy.svg"
+        },
+        {
+          "title": "Italian Social Republic — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Italian_Social_Republic"
+        },
+        {
+          "title": "Flag of Italy — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Italy"
+        }
+      ]
+    }
+  ]
+}

@@ -72,7 +72,8 @@
     "Q8215953:head-of-government:1871-1880": "Mirza Hosein Khan Sepahsalar: Sadr-e A'zam 13 November 1871 – 14 September 1873; then, as Moshir od-Dowleh, acting jointly with Mirza Yusuf Ashtiani from 1873 until his dismissal in 1880 (English Wikipedia, List of grand viziers of Persia, checked 2026-11-17).",
     "Q5946187:head-of-government:1873-1886": "Mirza Yusuf Ashtiani: acting jointly from 1873, alone from 1880, Sadr-e A'zam 24 June 1884 – 7 April 1886, in three rows (English Wikipedia, List of grand viziers of Persia, checked 2026-11-17).",
     "Q128902:head-of-government:1789-1801": "William Pitt the Younger, Prime Minister of Great Britain from 19 December 1783, then of the United Kingdom until 14 March 1801 (English Wikipedia, infobox, checked 2026-11-22); heads of government start with the lane. Wikidata has both ministries on one statement, which the audit reads as 1783–1806.",
-    "Q128902:head-of-government:1804-1806": "William Pitt the Younger, Prime Minister again 10 May 1804 – 23 January 1806, after Henry Addington (English Wikipedia, infobox, checked 2026-11-22). Wikidata has both ministries on one statement, which the audit reads as 1783–1806."
+    "Q128902:head-of-government:1804-1806": "William Pitt the Younger, Prime Minister again 10 May 1804 – 23 January 1806, after Henry Addington (English Wikipedia, infobox, checked 2026-11-22). Wikidata has both ministries on one statement, which the audit reads as 1783–1806.",
+    "Q153832:head-of-government:1945-1946": "Alcide De Gasperi, Prime Minister from 10 December 1945 to 17 August 1953 (English Wikipedia, infobox, checked 2026-11-23), so of the Kingdom of Italy until it ended in June 1946. The term is Wikidata's own (P39, 10 December 1945 – 13 June 1946), which the audit does not read for one state of a term that runs across two."
   },
   "noOfficialName": {
     "company-rule-in-india": "Not a state with an official name: the East India Company governed territories on the Crown's behalf (confirmed 2026-11-15)",
@@ -91,6 +92,7 @@
     "Q2184": "State name confirmed by the maintainer; the review of 2026-11-17 keeps confirmed state names against the fa.wikipedia title.",
     "Q2949827": "State name confirmed by the maintainer; the review of 2026-11-17 keeps confirmed state names against the fa.wikipedia title.",
     "Q11076636": "State name confirmed by the maintainer; the review of 2026-11-17 keeps confirmed state names against the fa.wikipedia title.",
-    "Q3486676": "Taiping Heavenly Kingdom has no Persian article; «پادشاهی آسمانی تایپینگ» is the name fa.wikipedia's article on the Taiping Rebellion uses. Confirmed on 2026-11-17 in the review of pull request 4."
+    "Q3486676": "Taiping Heavenly Kingdom has no Persian article; «پادشاهی آسمانی تایپینگ» is the name fa.wikipedia's article on the Taiping Rebellion uses. Confirmed on 2026-11-17 in the review of pull request 4.",
+    "Q38": "The Republic's name, as fa.wikipedia's article «ایتالیا» gives it («با نام رسمی جمهوری ایتالیا»); the label and the title are the country's name"
   }
 }

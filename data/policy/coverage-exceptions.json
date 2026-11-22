@@ -243,6 +243,69 @@
       "end": 1863,
       "reason": "None listed: under the Heavenly King the kingdom lists only its subordinate kings.",
       "source": "https://en.wikipedia.org/wiki/Taiping_Heavenly_Kingdom"
+    },
+    {
+      "country": "italy",
+      "state": "kingdom-of-sardinia",
+      "need": "head of government",
+      "start": 1800,
+      "end": 1847,
+      "reason": "None: after 1793 the list names no head of government until the office was revived with the Albertine Statute in 1848.",
+      "source": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_the_Kingdom_of_Sardinia"
+    },
+    {
+      "country": "italy",
+      "state": "papal-states",
+      "need": "head of government",
+      "start": 1800,
+      "end": 1808,
+      "reason": "None: the Council of Ministers was instituted on 12 June 1847.",
+      "source": "https://it.wikipedia.org/wiki/Governo_(Stato_Pontificio)"
+    },
+    {
+      "country": "italy",
+      "state": "papal-states",
+      "need": "head of government",
+      "start": 1814,
+      "end": 1846,
+      "reason": "None: the Council of Ministers was instituted on 12 June 1847.",
+      "source": "https://it.wikipedia.org/wiki/Governo_(Stato_Pontificio)"
+    },
+    {
+      "country": "italy",
+      "state": "papal-states",
+      "need": "head of government",
+      "start": 1849,
+      "end": 1849,
+      "reason": "None: the government ceased to act on 29 December 1848, and the next one, under the Council of Ministers kept from 1848, dates from the edict of 10 September 1850.",
+      "source": "https://it.wikipedia.org/wiki/Governo_(Stato_Pontificio)"
+    },
+    {
+      "country": "italy",
+      "state": "grand-duchy-of-tuscany",
+      "need": "head of government",
+      "start": 1800,
+      "end": 1800,
+      "reason": "None: the Council of Ministers was instituted by the regulation of 16 March 1848.",
+      "source": "https://it.wikipedia.org/wiki/Granducato_di_Toscana"
+    },
+    {
+      "country": "italy",
+      "state": "grand-duchy-of-tuscany",
+      "need": "head of government",
+      "start": 1814,
+      "end": 1847,
+      "reason": "None: the Council of Ministers was instituted by the regulation of 16 March 1848.",
+      "source": "https://it.wikipedia.org/wiki/Granducato_di_Toscana"
+    },
+    {
+      "country": "italy",
+      "state": "napoleonic-kingdom-of-italy",
+      "need": "head of government",
+      "start": 1805,
+      "end": 1813,
+      "reason": "None: the infobox lists only the King and his Viceroy.",
+      "source": "https://en.wikipedia.org/wiki/Kingdom_of_Italy_(Napoleonic)"
     }
   ]
 }
