@@ -11,7 +11,9 @@
 import { createHash } from "node:crypto";
 import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { validateCountryFile } from "../src/lib/data/validate";
+import { resolveRuledBy } from "../src/lib/data/resolve";
+import type { CountryFile } from "../src/lib/data/schema";
+import { checkAcrossFiles, validateCountryFile } from "../src/lib/data/validate";
 
 const root = process.cwd();
 const source = path.join(root, "data/merged");
@@ -23,17 +25,28 @@ async function main() {
   await mkdir(out, { recursive: true });
   await mkdir(path.dirname(manifestPath), { recursive: true });
 
-  const countries: Record<string, string> = {};
-  let bytes = 0;
+  const valid: CountryFile[] = [];
   for (const name of (await readdir(source)).filter((f) => f.endsWith(".json")).sort()) {
     const result = validateCountryFile(JSON.parse(await readFile(path.join(source, name), "utf8")));
     if (!result.ok) {
       console.error(`✗ ${name}\n${result.issues.map((i) => `    ${i.path}: ${i.message}`).join("\n")}`);
       process.exit(1);
     }
-    const body = JSON.stringify(result.data);
+    valid.push(result.data);
+  }
+  const issues = checkAcrossFiles(valid);
+  if (issues.length > 0) {
+    console.error(issues.map((i) => `✗ ${i.path}: ${i.message}`).join("\n"));
+    process.exit(1);
+  }
+
+  const countries: Record<string, string> = {};
+  let bytes = 0;
+  for (const file of valid) {
+    // The browser loads one country at a time, so a ruled-by period carries its ruler's records.
+    const body = JSON.stringify(resolveRuledBy(file, (country) => valid.find((f) => f.country.id === country)));
     const hash = createHash("sha256").update(body).digest("hex").slice(0, 10);
-    const id = result.data.country.id;
+    const id = file.country.id;
     await writeFile(path.join(out, `${id}.${hash}.json`), body);
     countries[id] = `/data/countries/${id}.${hash}.json`;
     bytes += body.length;

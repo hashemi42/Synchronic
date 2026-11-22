@@ -1,15 +1,17 @@
+import { isBeside } from "./kinds";
 import type { CountryFile, Flag, LanePeriod, NoFlag, OfficeTerm } from "./schema";
 
 /** Ranges are half-open: start ≤ year < end. */
 export const covers = (r: { start: number; end: number | null }, year: number) =>
   r.start <= year && (r.end === null || year < r.end);
 
-export function periodsAt(file: CountryFile, year: number): { main: LanePeriod | null; rivals: LanePeriod[] } {
-  // A rival period that began and ended within one year (start === end) is active in that year.
-  const active = file.lane.filter((p) => covers(p, year) || (p.kind === "rival" && p.start === p.end && p.start === year));
+/** The lane's main period at a year, and the rival governments and parallel states beside it. */
+export function periodsAt(file: CountryFile, year: number): { main: LanePeriod | null; beside: LanePeriod[] } {
+  // A period beside the lane that began and ended within one year (start === end) is active in that year.
+  const active = file.lane.filter((p) => covers(p, year) || (isBeside(p.kind) && p.start === p.end && p.start === year));
   return {
-    main: active.find((p) => p.kind !== "rival") ?? null,
-    rivals: active.filter((p) => p.kind === "rival"),
+    main: active.find((p) => !isBeside(p.kind)) ?? null,
+    beside: active.filter((p) => isBeside(p.kind)),
   };
 }
 

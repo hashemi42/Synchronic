@@ -7,7 +7,7 @@ import { FlagImage, NoFlagMark } from "@/components/flag-image";
 import { covers, flagFor, noFlagsFor } from "@/lib/data/query";
 import type { LanePeriod } from "@/lib/data/schema";
 import { fold } from "@/lib/search";
-import { governmentAt, headAt, othersAt, overlaps, reignAt, sameTerm, type LaneModel, type Reign } from "./model";
+import { governmentAt, headAt, othersAt, overlaps, reignAt, sameTerm, wholeOf, type LaneModel, type Reign } from "./model";
 
 type Props = {
   id: string;
@@ -31,7 +31,8 @@ export function StateCard({ id, model, period, year, locale, withheld, style, on
   const state = period.state ? model.states.get(period.state) : undefined;
   // L-4: Solar Hijri first in Persian, with the Gregorian years after it.
   const yr = (y: number | null) => (y === null ? t("lane.present") : displayYear(y, locale));
-  const years = (r: { start: number; end: number | null }) => {
+  const years = (of: Parameters<typeof wholeOf>[0]) => {
+    const r = wholeOf(of);
     const g = gregorianRange(r, locale, t("lane.present"));
     return g ? `${displayRange(r, locale, t("lane.present"))} · ${g} ${t("lane.ceShort")}` : displayRange(r, locale, t("lane.present"));
   };
@@ -39,8 +40,15 @@ export function StateCard({ id, model, period, year, locale, withheld, style, on
 
   // Content policy §7.3: the consensus label leads, the official name sits beneath.
   const name = period.label?.[locale] ?? state?.name[locale] ?? t("card.noState");
-  const official = period.officialName?.[locale] ?? state?.officialName?.[locale];
-  const kind = period.kind === "occupation" ? t("card.occupation") : period.kind === "no-state" ? t("card.noState") : null;
+  // Land governed by a state of another lane (Ottoman Greece): the state's own official name,
+  // capital, system and flag are the ruler's, not this land's, so the card names the ruler instead.
+  const ruled = period.kind === "ruled-by";
+  const official = period.officialName?.[locale] ?? (ruled ? undefined : state?.officialName?.[locale]);
+  const kind =
+    period.kind === "occupation" ? t("card.occupation")
+    : period.kind === "no-state" ? t("card.noState")
+    : ruled && state ? t("lane.ruledBy", { state: state.name[locale] })
+    : null;
 
   const atCursor = covers(period, year);
   const current = atCursor ? reignAt(model, year) : null;
@@ -87,7 +95,7 @@ export function StateCard({ id, model, period, year, locale, withheld, style, on
       <div dir={locale === "fa" ? "rtl" : "ltr"}>
         {!flag && noFlags.length > 0 && <NoFlagMark className="mb-3 !block h-12 w-20 border-edge" />}
         {flag && (
-          <FlagImage flag={flag} withheld={hidden} alt={hidden ? t("card.flagWithheld") : t("card.flagOf", { state: name })} width={160} className="mb-3 block h-12 w-20" />
+          <FlagImage flag={flag} withheld={hidden} alt={hidden ? t("card.flagWithheld") : t("card.flagOf", { state: ruled && state ? state.name[locale] : name })} width={160} className="mb-3 block h-12 w-20" />
         )}
         <p className="flex items-start gap-2 font-semibold">
           <span aria-hidden="true" className="mt-1.5 size-2.5 shrink-0 rounded-full bg-lane-1" />
@@ -179,8 +187,8 @@ export function StateCard({ id, model, period, year, locale, withheld, style, on
               <Row label={t("card.headsOfGovernment")}>{summary(governments, t("card.noGovernment"))}</Row>
             )
           )}
-          {state?.system && <Row label={t("card.system")}>{state.system[locale]}</Row>}
-          {state?.capital && <Row label={t("card.capital")}>{state.capital[locale]}</Row>}
+          {!ruled && state?.system && <Row label={t("card.system")}>{state.system[locale]}</Row>}
+          {!ruled && state?.capital && <Row label={t("card.capital")}>{state.capital[locale]}</Row>}
           {(flag || noFlags.length > 0) && (
             <Row label={t("card.flag")}>
               {!flag ? null : hidden ? (

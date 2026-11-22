@@ -10,6 +10,7 @@
  * - Every record carries `sources[]`; every label exists in English and Persian.
  */
 import { z } from "zod";
+import { isBeside, LANE_KINDS } from "./kinds";
 
 export const Year = z
   .int()
@@ -74,13 +75,23 @@ export const State = z
   })
   .refine(startBeforeEnd, startBeforeEndMessage);
 
-export const LaneKind = z.enum(["state", "rival", "occupation", "no-state"]);
+/**
+ * - `rival`: a government that contested the same state (Guangzhou, 1917–1926).
+ * - `parallel`: a second state on the same land, existing in its own right (East Germany).
+ * - `ruled-by`: land with no polity of its own, governed by a state that holds another lane
+ *   (Ottoman Greece). It points at that state through `ruler` and copies nothing.
+ *
+ * Rival and parallel periods overlap the lane's main sequence; every other kind is part of it.
+ */
+export const LaneKind = z.enum(LANE_KINDS);
 
 export const LanePeriod = z
   .strictObject({
     country: Id,
-    /** Null only for `no-state` periods. */
+    /** Null only for `no-state` and `ruled-by` periods. */
     state: Id.nullable(),
+    /** Only for `ruled-by`: the country file and the state in it that governed this land. */
+    ruler: z.strictObject({ country: Id, state: Id }).optional(),
     ...range,
     /** Exact dates of the period, where they matter: a rival government of a few months. */
     exactStart: PartialDate.optional(),
@@ -92,12 +103,20 @@ export const LanePeriod = z
     note: Localized.optional(),
     ...sourced,
   })
-  // A rival period may begin and end within one year (the Hundred Days, 1815), like an office term.
-  .refine((p) => startBeforeEnd(p) || (p.kind === "rival" && p.start === p.end), startBeforeEndMessage)
+  // A rival or parallel period may begin and end within one year (the Hundred Days, 1815), like an office term.
+  .refine((p) => startBeforeEnd(p) || (isBeside(p.kind) && p.start === p.end), startBeforeEndMessage)
   .refine((p) => sameYear(p.exactStart, p.start), { message: "exactStart must fall in the start year", path: ["exactStart"] })
-  .refine((p) => (p.kind === "no-state") === (p.state === null), {
-    message: "`state` must be null for no-state periods and set for every other kind",
+  .refine((p) => (p.kind === "no-state" || p.kind === "ruled-by") === (p.state === null), {
+    message: "`state` must be null for no-state and ruled-by periods and set for every other kind",
     path: ["state"],
+  })
+  .refine((p) => (p.kind === "ruled-by") === (p.ruler !== undefined), {
+    message: "`ruler` is required for ruled-by periods and allowed for no other kind",
+    path: ["ruler"],
+  })
+  .refine((p) => p.kind !== "ruled-by" || p.label !== undefined, {
+    message: 'ruled-by periods need their own `label` ("Ottoman Greece")',
+    path: ["label"],
   })
   .refine((p) => p.kind !== "no-state" || p.note !== undefined, {
     message: "no-state periods need a short description in `note` (IN-7)",

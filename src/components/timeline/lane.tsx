@@ -8,7 +8,7 @@ import { covers, flagFor, noFlagsFor, periodsAt, termAt } from "@/lib/data/query
 import type { Localized } from "@/lib/data/schema";
 import { fold } from "@/lib/search";
 import type { Range } from "@/lib/time";
-import { createScale, governmentAt, overlaps, reignAt, sameTerm, type LaneModel, type Reign } from "./model";
+import { createScale, governmentAt, overlaps, reignAt, rulersDuring, sameTerm, wholeOf, type LaneModel, type Reign } from "./model";
 import { StateCard } from "./state-card";
 import { useElementWidth } from "./use-element-width";
 
@@ -49,9 +49,9 @@ export function Lane({
 }: Props) {
   const t = useTranslations("lane");
   const cardId = useId();
-  const rivalsId = useId();
-  // IN-6: alternative governments sit behind a "+N" badge.
-  const [showRivals, setShowRivals] = useState(false);
+  const besideId = useId();
+  // IN-6: rival governments and parallel states sit behind a "+N" badge.
+  const [showBeside, setShowBeside] = useState(false);
 
   // PO-1: the politics card opens on hover, focus or tap, and stays while the
   // pointer is over it. Escape or a press elsewhere dismisses it.
@@ -96,15 +96,16 @@ export function Lane({
     return (parseFloat(box.width) / 100) * trackWidth >= 24;
   };
   // L-4: Solar Hijri first in Persian; the Gregorian years follow where there is room and in text for screen readers.
-  const years = (r: { start: number; end: number | null }) => displayRange(r, locale, t("present"));
-  const secondary = (r: { start: number; end: number | null }) => gregorianRange(r, locale, t("present"));
-  const yearsFull = (r: { start: number; end: number | null }) => {
+  type Years = Parameters<typeof wholeOf>[0];
+  const years = (r: Years) => displayRange(wholeOf(r), locale, t("present"));
+  const secondary = (r: Years) => gregorianRange(wholeOf(r), locale, t("present"));
+  const yearsFull = (r: Years) => {
     const g = secondary(r);
     return g ? `${years(r)} (${g} ${t("ceShort")})` : years(r);
   };
   const nameOf = (person: string) => persons.get(person)?.name[locale] ?? person;
 
-  const { main, rivals } = periodsAt(file, year);
+  const { main, beside } = periodsAt(file, year);
   const state = main?.state ? states.get(main.state) : undefined;
   const reign = reignAt(model, year);
   // A term that is both offices (the President of the United States) is named once.
@@ -114,12 +115,17 @@ export function Lane({
   const noFlag = !flag && !!main && noFlagsFor(file, main, year).length > 0;
   // Content policy §7.3: the consensus label leads, where a period has one.
   const stateLabel = main?.label?.[locale] ?? state?.name[locale] ?? main?.note?.[locale];
+  // Land governed by a state of another lane: its ruler stands where the official name would.
+  const ruledBy = main?.kind === "ruled-by" && state ? t("ruledBy", { state: state.name[locale] }) : null;
   const officialName = (() => {
+    if (ruledBy) return ruledBy;
     const official = main?.officialName?.[locale] ?? state?.officialName?.[locale];
     return official && fold(official) !== fold(stateLabel ?? "") ? official : null;
   })();
+  // The badge says "parallel state" only when that is all it holds.
+  const besideLabel = beside.every((p) => p.kind === "parallel") ? t("parallel", { count: beside.length }) : t("rival");
   const country = file.country.name[locale];
-  const renderYears = (r: { start: number; end: number | null }, className = "") => {
+  const renderYears = (r: Years, className = "") => {
     const g = secondary(r);
     return (
       <span className={className}>
@@ -139,8 +145,9 @@ export function Lane({
         {note[locale]}
       </span>
     ));
+  const isAnchor = (r: Reign) => anchor?.person === r.person && anchor.start === wholeOf(r).start;
   const headingId = useId();
-  const duringReign = anchor && mode === "reign" ? reigns.filter((r) => overlaps(r, anchor)) : null;
+  const duringReign = anchor && mode === "reign" ? rulersDuring(model, anchor) : null;
 
   return (
     <section
@@ -250,7 +257,7 @@ export function Lane({
               .map((r) => {
                 const name = nameOf(r.person);
                 const current = covers(r, year);
-                const anchored = anchor?.person === r.person && anchor.start === r.start;
+                const anchored = isAnchor(r);
                 const inReign = anchor ? overlaps(r, anchor) : false;
                 return (
                   <li key={`${r.person}-${r.start}`} style={scale.box(r)} className="absolute inset-y-0">
@@ -337,10 +344,10 @@ export function Lane({
               {reign ? (
                 <button
                   type="button"
-                  aria-pressed={anchor?.person === reign.person && anchor.start === reign.start}
+                  aria-pressed={isAnchor(reign)}
                   title={t("anchorHint")}
                   onClick={() =>
-                    onAnchor(anchor?.person === reign.person && anchor.start === reign.start ? null : reign.person)
+                    onAnchor(isAnchor(reign) ? null : reign.person)
                   }
                   className="-mx-1 block min-h-6 rounded px-1 text-start font-semibold underline-offset-2 hover:underline aria-pressed:bg-anchor-soft aria-pressed:outline aria-pressed:outline-1 aria-pressed:outline-anchor"
                 >
@@ -383,25 +390,25 @@ export function Lane({
               {/* PRD §7.7: uncertainty is visible. */}
               {noFlag && <span className="mt-0.5 block ps-7 text-xs text-ink-3">{t("noFlag")}</span>}
             </dd>
-            {rivals.length > 0 && (
+            {beside.length > 0 && (
               <div className="mt-2 border-t border-hairline pt-2">
-                <dt className="sr-only">{t("rival")}</dt>
+                <dt className="sr-only">{besideLabel}</dt>
                 <dd>
                   <button
                     type="button"
-                    aria-expanded={showRivals}
-                    aria-controls={rivalsId}
-                    onClick={() => setShowRivals((v) => !v)}
+                    aria-expanded={showBeside}
+                    aria-controls={besideId}
+                    onClick={() => setShowBeside((v) => !v)}
                     className="flex min-h-6 items-center gap-1.5 rounded-full border border-edge px-2.5 text-xs font-medium text-ink-2 hover:bg-fill aria-expanded:border-ink aria-expanded:text-ink"
                   >
-                    <span className="year font-semibold">+{formatNumber(rivals.length, locale)}</span>
-                    {t("rival")}
-                    <svg viewBox="0 0 16 16" aria-hidden="true" className={`size-3 transition-transform ${showRivals ? "rotate-180" : ""}`}>
+                    <span className="year font-semibold">+{formatNumber(beside.length, locale)}</span>
+                    {besideLabel}
+                    <svg viewBox="0 0 16 16" aria-hidden="true" className={`size-3 transition-transform ${showBeside ? "rotate-180" : ""}`}>
                       <path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </button>
-                  <ul id={rivalsId} hidden={!showRivals} className="mt-2 space-y-2">
-                    {rivals.map((rival) => {
+                  <ul id={besideId} hidden={!showBeside} className="mt-2 space-y-2">
+                    {beside.map((rival) => {
                       const rivalState = rival.state ? states.get(rival.state) : undefined;
                       const head = rivalState ? termAt(file, rivalState.id, year) : null;
                       const premier = rivalState ? termAt(file, rivalState.id, year, "head-of-government") : null;
@@ -451,6 +458,7 @@ export function Lane({
                               renderYears(rival)
                             )}
                           </p>
+                          {rival.kind === "parallel" && <p className="text-xs text-ink-3">{t("parallel", { count: 1 })}</p>}
                           {beneath && fold(beneath) !== fold(label) && (
                             <p className="text-xs text-ink-3" dir="auto">
                               {beneath}

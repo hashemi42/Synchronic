@@ -10,6 +10,7 @@ import uk from "../../../data/merged/uk.json";
 import us from "../../../data/merged/us.json";
 import presets from "../../../data/overrides/presets.json";
 import world from "../../../data/overrides/world.json";
+import { resolveRuledBy } from "./resolve";
 import { Presets, WorldFile, type CountryFile, type WorldPeriod } from "./schema";
 import { validateCountryFile } from "./validate";
 
@@ -17,7 +18,8 @@ import { validateCountryFile } from "./validate";
 // country from public/data/ (NF-2). The order here is the order of the country picker.
 const files: Record<string, unknown> = { iran, uk, russia, turkey, france, germany, china, india, japan, us };
 
-export function getCountryFile(id: string): CountryFile {
+/** A country file as it is in data/merged/, with `ruled-by` periods pointing at other files. */
+export function getMergedFile(id: string): CountryFile {
   const result = validateCountryFile(files[id]);
   if (!result.ok) {
     throw new Error(
@@ -25,6 +27,11 @@ export function getCountryFile(id: string): CountryFile {
     );
   }
   return result.data;
+}
+
+/** A country file as the site shows it: `ruled-by` periods filled in from the ruling country's file. */
+export function getCountryFile(id: string): CountryFile {
+  return resolveRuledBy(getMergedFile(id), (country) => (country in files ? getMergedFile(country) : undefined));
 }
 
 export function getAllCountryFiles(): CountryFile[] {
