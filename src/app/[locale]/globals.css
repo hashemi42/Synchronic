@@ -63,6 +63,7 @@
 [data-country="china"] { --hue: 50; }
 [data-country="india"] { --hue: 305; }
 [data-country="japan"] { --hue: 330; }
+[data-country="us"] { --hue: 200; }
 
 html {
   background: var(--color-canvas);

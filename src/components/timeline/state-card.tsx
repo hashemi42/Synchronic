@@ -3,10 +3,11 @@
 import type { CSSProperties } from "react";
 import { useTranslations } from "next-intl";
 import { displayRange, displayYear, gregorianRange, type CalendarLocale } from "@/lib/calendar";
-import { FlagImage } from "@/components/flag-image";
-import { covers, flagFor } from "@/lib/data/query";
+import { FlagImage, NoFlagMark } from "@/components/flag-image";
+import { covers, flagFor, noFlagsFor } from "@/lib/data/query";
 import type { LanePeriod } from "@/lib/data/schema";
-import { governmentAt, headAt, othersAt, overlaps, reignAt, type LaneModel, type Reign } from "./model";
+import { fold } from "@/lib/search";
+import { governmentAt, headAt, othersAt, overlaps, reignAt, sameTerm, type LaneModel, type Reign } from "./model";
 
 type Props = {
   id: string;
@@ -62,6 +63,16 @@ export function StateCard({ id, model, period, year, locale, withheld, style, on
         : t("card.rulersSummary", { count: people.length, first: nameOf(people[0].person), last: nameOf(people.at(-1)!.person) });
   const flag = flagFor(model.file, period, year);
   const hidden = !!state && (withheld.includes(state.id) || !!flag?.withheld);
+  const noFlags = noFlagsFor(model.file, period, year);
+  // One term that is both offices (the President of the United States) gets one row, not two.
+  const combined = atCursor
+    ? !ledByLeader && sameTerm(current, government?.current ?? null)
+    : !ledByLeader && rulers.length > 0 && rulers.length === governments.length && rulers.every((r, i) => sameTerm(r, governments[i]));
+  const also = government && government.others.length > 0 && (
+    <span className="mt-0.5 block text-xs text-ink-3">
+      {t("card.alsoInYear", { year: yr(year), names: list(government.others) })}
+    </span>
+  );
 
   return (
     <div
@@ -74,6 +85,7 @@ export function StateCard({ id, model, period, year, locale, withheld, style, on
       className="absolute top-9 z-30 w-72 max-w-full rounded-float border border-hairline bg-surface p-4 text-start text-sm shadow-float"
     >
       <div dir={locale === "fa" ? "rtl" : "ltr"}>
+        {!flag && noFlags.length > 0 && <NoFlagMark className="mb-3 !block h-12 w-20 border-edge" />}
         {flag && (
           <FlagImage flag={flag} withheld={hidden} alt={hidden ? t("card.flagWithheld") : t("card.flagOf", { state: name })} width={160} className="mb-3 block h-12 w-20" />
         )}
@@ -81,7 +93,7 @@ export function StateCard({ id, model, period, year, locale, withheld, style, on
           <span aria-hidden="true" className="mt-1.5 size-2.5 shrink-0 rounded-full bg-lane-1" />
           {name}
         </p>
-        {official && official !== name && <p className="mt-0.5 text-ink-2">{official}</p>}
+        {official && fold(official) !== fold(name) && <p className="mt-0.5 text-ink-2">{official}</p>}
         <p className="year mt-1 text-xs text-ink-3">
           {kind && <span className="font-sans">{kind} · </span>}
           {years(period)}
@@ -89,20 +101,24 @@ export function StateCard({ id, model, period, year, locale, withheld, style, on
 
         <dl className="mt-3 space-y-2 border-t border-hairline pt-3">
           {atCursor ? (
-            <Row label={t(ledByLeader ? "card.leaderIn" : "card.headOfStateIn", { year: yr(year) })}>
+            <Row label={t(ledByLeader ? "card.leaderIn" : combined ? "card.bothIn" : "card.headOfStateIn", { year: yr(year) })}>
               {current ? (
                 <>
                   <span className="block font-medium">{nameOf(current.person)}</span>
                   <span className="block text-ink-2">
                     {current.title[locale]} · <span className="year">{years(current)}</span>
                   </span>
+                  <Notes of={current} locale={locale} />
                 </>
               ) : (
                 t("lane.noRuler")
               )}
+              {combined && also}
             </Row>
           ) : (
-            <Row label={t(ledByLeader ? "card.leaders" : "card.headsOfState")}>{summary(rulers, t("lane.noRuler"))}</Row>
+            <Row label={t(ledByLeader ? "card.leaders" : combined ? "card.both" : "card.headsOfState")}>
+              {summary(rulers, t("lane.noRuler"))}
+            </Row>
           )}
           {ledByLeader &&
             (atCursor ? (
@@ -113,6 +129,7 @@ export function StateCard({ id, model, period, year, locale, withheld, style, on
                     <span className="block text-ink-2">
                       {head.title[locale]} · <span className="year">{years(head)}</span>
                     </span>
+                    <Notes of={head} locale={locale} />
                   </>
                 ) : (
                   t("card.noHeadOfState")
@@ -129,6 +146,7 @@ export function StateCard({ id, model, period, year, locale, withheld, style, on
                   <span key={`${r.person}-${r.start}`} className="block">
                     <span className="font-medium">{nameOf(r.person)}</span>{" "}
                     <span className="year text-ink-2">{years(r)}</span>
+                    <Notes of={r} locale={locale} />
                   </span>
                 ))}
               </Row>
@@ -139,7 +157,7 @@ export function StateCard({ id, model, period, year, locale, withheld, style, on
             );
           })}
           {/* PO-1: head of government, where the office existed. */}
-          {government ? (
+          {combined ? null : government ? (
             (government.current || government.others.length > 0) && (
               <Row label={t("card.headOfGovernmentIn", { year: yr(year) })}>
                 {government.current ? (
@@ -148,15 +166,12 @@ export function StateCard({ id, model, period, year, locale, withheld, style, on
                     <span className="block text-ink-2">
                       {government.current.title[locale]} · <span className="year">{years(government.current)}</span>
                     </span>
+                    <Notes of={government.current} locale={locale} />
                   </>
                 ) : (
                   t("card.noGovernment")
                 )}
-                {government.others.length > 0 && (
-                  <span className="mt-0.5 block text-xs text-ink-3">
-                    {t("card.alsoInYear", { year: yr(year), names: list(government.others) })}
-                  </span>
-                )}
+                {also}
               </Row>
             )
           ) : (
@@ -166,9 +181,9 @@ export function StateCard({ id, model, period, year, locale, withheld, style, on
           )}
           {state?.system && <Row label={t("card.system")}>{state.system[locale]}</Row>}
           {state?.capital && <Row label={t("card.capital")}>{state.capital[locale]}</Row>}
-          {flag && (
+          {(flag || noFlags.length > 0) && (
             <Row label={t("card.flag")}>
-              {hidden ? (
+              {!flag ? null : hidden ? (
                 t("card.flagWithheld")
               ) : (
                 <>
@@ -181,6 +196,13 @@ export function StateCard({ id, model, period, year, locale, withheld, style, on
                   </span>
                 </>
               )}
+              {/* PRD §7.7: years with no documented flag say so, never a blank. */}
+              {noFlags.map((n) => (
+                <span key={n.start} className="block">
+                  {t("lane.noFlag")} · <span className="year">{years(n)}</span>
+                  {n.note && <span className="block text-xs text-ink-3">{n.note[locale]}</span>}
+                </span>
+              ))}
             </Row>
           )}
         </dl>
@@ -191,6 +213,15 @@ export function StateCard({ id, model, period, year, locale, withheld, style, on
       </div>
     </div>
   );
+}
+
+/** Where sources disagree about a term, what each says (PRD §7.4). */
+function Notes({ of, locale }: { of: Reign; locale: CalendarLocale }) {
+  return of.notes?.map((note) => (
+    <span key={note.en} className="mt-0.5 block text-xs text-ink-3">
+      {note[locale]}
+    </span>
+  ));
 }
 
 function Row({ label, children }: { label: string; children: React.ReactNode }) {

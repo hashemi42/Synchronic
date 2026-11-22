@@ -7,7 +7,7 @@ import type { Range } from "@/lib/time";
  * one title, across the states of the lane. `start === end` means the reign
  * began and ended within that year.
  */
-export type Reign = { person: string; title: Localized; start: number; end: number | null; office?: OfficeTerm["office"] };
+export type Reign = { person: string; title: Localized; start: number; end: number | null; office?: OfficeTerm["office"]; notes?: Localized[] };
 
 export type LaneModel = {
   file: CountryFile;
@@ -52,7 +52,14 @@ function buildSegments(mainline: LanePeriod[], pick: (state: string) => OfficeTe
       const end = Math.min(term.end ?? INF, periodEnd);
       const withinOneYear = term.start === term.end && term.start >= periodStart && term.start < periodEnd;
       if (start < end || withinOneYear) {
-        pieces.push({ person: term.person, title: term.title, start, end: end === INF ? null : end, office: term.office });
+        pieces.push({
+          person: term.person,
+          title: term.title,
+          start,
+          end: end === INF ? null : end,
+          office: term.office,
+          ...(term.note ? { notes: [term.note] } : {}),
+        });
       }
     }
   }
@@ -63,6 +70,7 @@ function buildSegments(mainline: LanePeriod[], pick: (state: string) => OfficeTe
     const prev = segments.findLast((r) => r.person === piece.person);
     if (prev && prev.title.en === piece.title.en && prev.end === piece.start && prev.start !== prev.end) {
       prev.end = piece.end;
+      if (piece.notes) prev.notes = [...(prev.notes ?? []), ...piece.notes];
     } else {
       segments.push({ ...piece });
     }
@@ -120,6 +128,13 @@ export function governmentAt(model: LaneModel, year: number): { current: Reign |
   );
   return { current, others };
 }
+
+/**
+ * True when one term holds both offices: the same person, title and years (the President of the
+ * United States). Erdoğan, President from 2014 and head of government from 2018, is two terms.
+ */
+export const sameTerm = (a: Reign | null, b: Reign | null) =>
+  !!a && !!b && a.person === b.person && a.title.en === b.title.en && a.start === b.start && a.end === b.end;
 
 type Span = { start: number; end: number | null };
 const endOf = (r: Span) => (r.end === null ? INF : r.end === r.start ? r.start + 1 : r.end);

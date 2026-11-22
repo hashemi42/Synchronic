@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 import iran from "../../../data/merged/iran.json";
-import { flagFor, periodsAt, termAt } from "./query";
+import { flagFor, noFlagsFor, periodsAt, termAt } from "./query";
 import { WorldPeriod, Year } from "./schema";
-import { getWorldPeriods } from "./load";
+import { getAllCountryFiles, getCountryFile, getWorldPeriods } from "./load";
 import { checkLane, validateCountryFile } from "./validate";
 
 const clone = () => structuredClone(iran) as typeof iran;
@@ -130,5 +130,32 @@ describe("flags", () => {
 describe("checkLane", () => {
   it("accepts an empty rival-only edge case without crashing", () => {
     expect(checkLane([])).toEqual([]);
+  });
+});
+
+describe("records shown by the display work (#11)", () => {
+  it("finds the years without a documented flag", () => {
+    const iran = getCountryFile("iran");
+    const qajar = iran.lane.find((p) => p.state === "qajar-iran")!;
+    expect(noFlagsFor(iran, qajar, 1850)).toHaveLength(1);
+    expect(flagFor(iran, qajar, 1850)).toBeNull();
+    expect(noFlagsFor(iran, qajar, 1919)).toHaveLength(0);
+    expect(flagFor(iran, qajar, 1919)).not.toBeNull();
+    expect(noFlagsFor(iran, qajar, 2000)).toHaveLength(1); // the cursor is elsewhere: all of them
+  });
+
+  it("finds a term that began and ended within the year", () => {
+    const france = getCountryFile("france");
+    expect(termAt(france, "first-french-empire", 1815)?.person).toContain("napoleon");
+    expect(termAt(france, "first-french-empire", 1816)).toBeNull();
+  });
+
+  it("leaves no year of a mainline state with neither a flag nor a record that there is none", () => {
+    const blank: string[] = [];
+    for (const file of getAllCountryFiles())
+      for (const p of file.lane.filter((x) => x.kind === "state"))
+        for (let y = Math.max(p.start, 1800); y < (p.end ?? 2026); y++)
+          if (!flagFor(file, p, y) && noFlagsFor(file, p, y).length === 0) blank.push(`${file.country.id}/${p.state} ${y}`);
+    expect(blank).toEqual([]);
   });
 });

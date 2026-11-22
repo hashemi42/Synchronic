@@ -126,3 +126,33 @@ export function tickPositions(view: { from: number; to: number }, step: number, 
     ticks.push({ pos: v + offset, value: v });
   return ticks;
 }
+
+const DAY = /^\d{4}-\d{2}-\d{2}$/;
+const dateFormats = new Map<string, Intl.DateTimeFormat>();
+function dateFormat(tag: string): Intl.DateTimeFormat {
+  let format = dateFormats.get(tag);
+  if (!format) {
+    format = new Intl.DateTimeFormat(tag, { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+    dateFormats.set(tag, format);
+  }
+  return format;
+}
+
+/**
+ * Exact dates for something shorter than a year, where the year alone says too little:
+ * "20 March – 8 July 1815". Persian gives the Solar Hijri dates first and the Gregorian ones as
+ * secondary. Null unless both ends are known to the day.
+ */
+export function exactRange(
+  start: string | undefined,
+  end: string | undefined,
+  locale: CalendarLocale,
+): { primary: string; secondary: string | null } | null {
+  if (!start || !end || !DAY.test(start) || !DAY.test(end)) return null;
+  const [from, to] = [new Date(`${start}T00:00:00Z`), new Date(`${end}T00:00:00Z`)];
+  if (locale === "en") return { primary: dateFormat("en-GB").formatRange(from, to), secondary: null };
+  return {
+    primary: dateFormat("fa-IR-u-ca-persian").formatRange(from, to),
+    secondary: dateFormat("fa-IR-u-ca-gregory").formatRange(from, to),
+  };
+}

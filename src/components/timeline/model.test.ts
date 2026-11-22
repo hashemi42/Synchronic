@@ -8,7 +8,7 @@ import turkey from "../../../data/merged/turkey.json";
 import uk from "../../../data/merged/uk.json";
 import { validateCountryFile } from "@/lib/data/validate";
 import { getCountryFile } from "@/lib/data/load";
-import { buildLaneModel, governmentAt, headAt, othersAt, overlaps, reignAt } from "./model";
+import { buildLaneModel, governmentAt, headAt, othersAt, overlaps, reignAt, sameTerm } from "./model";
 
 const model = (input: unknown) => {
   const result = validateCountryFile(input);
@@ -114,5 +114,24 @@ describe("formal heads of state and other offices (R4, R8)", () => {
     expect(othersAt(iran, 1981).map((r) => r.person)).toEqual(["abolhassan-banisadr", "mohammad-ali-rajai", "ali-khamenei"]);
     expect(othersAt(iran, 1991)).toEqual([]);
     expect(reignAt(iran, 1985)?.person).toBe("ruhollah-khomeini");
+  });
+});
+
+describe("one term, two offices (#11)", () => {
+  const at = (id: string, year: number) => {
+    const m = buildLaneModel(getCountryFile(id)!);
+    return sameTerm(reignAt(m, year), governmentAt(m, year).current);
+  };
+
+  it("joins only the same person, title and years", () => {
+    for (const year of [1790, 1863, 1942, 2020]) expect(at("us", year), String(year)).toBe(true);
+    expect(at("uk", 1942)).toBe(false);
+    expect(at("turkey", 2020)).toBe(false); // President from 2014, head of government from 2018
+  });
+
+  it("carries a term's note to its segment", () => {
+    const file = structuredClone(getCountryFile("us")!);
+    file.terms.find((t) => t.office === "head-of-state")!.note = { en: "a note", fa: "یادداشت" };
+    expect(buildLaneModel(file).reigns[0].notes).toEqual([{ en: "a note", fa: "یادداشت" }]);
   });
 });

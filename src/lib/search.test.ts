@@ -9,7 +9,7 @@ const find = (q: string) => searchCountries(index, q);
 
 describe("searchCountries", () => {
   it("lists every country for an empty query", () => {
-    expect(find("  ")).toHaveLength(9);
+    expect(find("  ")).toHaveLength(files.length);
   });
 
   it("matches partial English and Persian names", () => {

@@ -2,11 +2,13 @@
 
 import { useEffect, useId, useRef, useState, type ReactNode } from "react";
 import { useTranslations } from "next-intl";
-import { displayRange, formatNumber, gregorianRange, type CalendarLocale } from "@/lib/calendar";
-import { FlagImage } from "@/components/flag-image";
-import { covers, flagFor, periodsAt, termAt } from "@/lib/data/query";
+import { displayRange, exactRange, formatNumber, gregorianRange, type CalendarLocale } from "@/lib/calendar";
+import { FlagImage, NoFlagMark } from "@/components/flag-image";
+import { covers, flagFor, noFlagsFor, periodsAt, termAt } from "@/lib/data/query";
+import type { Localized } from "@/lib/data/schema";
+import { fold } from "@/lib/search";
 import type { Range } from "@/lib/time";
-import { createScale, governmentAt, overlaps, reignAt, type LaneModel, type Reign } from "./model";
+import { createScale, governmentAt, overlaps, reignAt, sameTerm, type LaneModel, type Reign } from "./model";
 import { StateCard } from "./state-card";
 import { useElementWidth } from "./use-element-width";
 
@@ -105,11 +107,16 @@ export function Lane({
   const { main, rivals } = periodsAt(file, year);
   const state = main?.state ? states.get(main.state) : undefined;
   const reign = reignAt(model, year);
-  const government = governmentAt(model, year).current;
+  // A term that is both offices (the President of the United States) is named once.
+  const holder = governmentAt(model, year).current;
+  const government = sameTerm(reign, holder) ? null : holder;
   const flag = main ? flagFor(file, main, year) : null;
+  const noFlag = !flag && !!main && noFlagsFor(file, main, year).length > 0;
+  // Content policy §7.3: the consensus label leads, where a period has one.
+  const stateLabel = main?.label?.[locale] ?? state?.name[locale] ?? main?.note?.[locale];
   const officialName = (() => {
     const official = main?.officialName?.[locale] ?? state?.officialName?.[locale];
-    return official && official !== state?.name[locale] ? official : null;
+    return official && fold(official) !== fold(stateLabel ?? "") ? official : null;
   })();
   const country = file.country.name[locale];
   const renderYears = (r: { start: number; end: number | null }, className = "") => {
@@ -126,6 +133,12 @@ export function Lane({
       </span>
     );
   };
+  const renderNotes = (notes: (Localized | undefined)[] = []) =>
+    notes.map((note) => note && (
+      <span key={note.en} className="mt-0.5 block text-xs text-ink-3">
+        {note[locale]}
+      </span>
+    ));
   const headingId = useId();
   const duringReign = anchor && mode === "reign" ? reigns.filter((r) => overlaps(r, anchor)) : null;
 
@@ -178,6 +191,7 @@ export function Lane({
               const s = period.state ? states.get(period.state) : undefined;
               const name = period.label?.[locale] ?? s?.name[locale] ?? period.note?.[locale] ?? "";
               const flag = flagFor(file, period, year);
+              const noFlag = !flag && noFlagsFor(file, period, year).length > 0;
               return (
                 <li key={`${period.state}-${period.start}`} style={scale.box(period)} className="absolute inset-y-0">
                   {!wideEnough(period) ? (
@@ -215,10 +229,14 @@ export function Lane({
                         className="hidden h-3.5 w-5 @[5rem]:block"
                       />
                     )}
+                    {noFlag && <NoFlagMark className="hidden h-3.5 w-5 border-white/80 @[5rem]:block" />}
                     <span dir="auto" className="truncate">
                       {name}
                     </span>
-                    <span className="sr-only">, {yearsFull(period)}</span>
+                    <span className="sr-only">
+                      , {yearsFull(period)}
+                      {noFlag && `, ${t("noFlag")}`}
+                    </span>
                   </button>
                   )}
                 </li>
@@ -308,6 +326,7 @@ export function Lane({
               <li key={`${r.person}-${r.start}`} className="flex flex-wrap items-baseline gap-x-2">
                 <span className="font-semibold">{nameOf(r.person)}</span>
                 {renderYears(r, "text-xs text-ink-2")}
+                {renderNotes(r.notes)}
               </li>
             ))}
           </ol>
@@ -333,22 +352,26 @@ export function Lane({
               {reign && (
                 <span className="block text-ink-2">
                   {reign.title[locale]} · {renderYears(reign)}
+                  {renderNotes(reign.notes)}
                 </span>
               )}
               {government && (
                 <span className="mt-1 block text-xs text-ink-2">
                   <span className="sr-only">{t("headOfGovernment")}: </span>
                   {government.title[locale]} <span className="font-medium text-ink">{nameOf(government.person)}</span>
+                  {renderNotes(government.notes)}
                 </span>
               )}
               {(state || main?.note) && (
                 <span className="mt-1 flex items-center gap-2 text-ink-2">
                   {flag ? (
                     <FlagImage flag={flag} withheld={!!state && withheld.includes(state.id)} alt="" width={48} className="h-3.5 w-5" />
+                  ) : noFlag ? (
+                    <NoFlagMark className="h-3.5 w-5 border-edge" />
                   ) : (
                     <span aria-hidden="true" className="size-2.5 shrink-0 rounded-full bg-lane-1" />
                   )}
-                  {state ? state.name[locale] : main?.note?.[locale]}
+                  {stateLabel}
                 </span>
               )}
               {/* The label stays the common name; the official name, where it differs, sits beneath it. */}
@@ -357,6 +380,8 @@ export function Lane({
                   {officialName}
                 </span>
               )}
+              {/* PRD §7.7: uncertainty is visible. */}
+              {noFlag && <span className="mt-0.5 block ps-7 text-xs text-ink-3">{t("noFlag")}</span>}
             </dd>
             {rivals.length > 0 && (
               <div className="mt-2 border-t border-hairline pt-2">
@@ -377,22 +402,65 @@ export function Lane({
                   </button>
                   <ul id={rivalsId} hidden={!showRivals} className="mt-2 space-y-2">
                     {rivals.map((rival) => {
-              const rivalState = rival.state ? states.get(rival.state) : undefined;
-              const rivalTerm = rivalState ? termAt(file, rivalState.id, year) : null;
-              const rivalFlag = flagFor(file, rival, year);
-              return (
-                <li key={`${rival.state}-${rival.start}`}>
-                  <p className="text-ink-2">
-                    {rivalTerm && <span className="block font-medium text-ink">{nameOf(rivalTerm.person)}</span>}
-                    <span className="flex flex-wrap items-center gap-x-2">
-                      {rivalFlag && <FlagImage flag={rivalFlag} withheld={!!rival.state && withheld.includes(rival.state)} alt="" width={48} className="h-3.5 w-5" />}
-                      {rivalState?.name[locale]} · {renderYears(rival)}
-                    </span>
-                  </p>
-                  {rival.note && <p className="mt-0.5 text-xs text-ink-3">{rival.note[locale]}</p>}
-                </li>
-              );
-            })}
+                      const rivalState = rival.state ? states.get(rival.state) : undefined;
+                      const head = rivalState ? termAt(file, rivalState.id, year) : null;
+                      const premier = rivalState ? termAt(file, rivalState.id, year, "head-of-government") : null;
+                      const rivalFlag = flagFor(file, rival, year);
+                      const rivalNoFlag = !rivalFlag && noFlagsFor(file, rival, year).length > 0;
+                      // A government of a few months has its dates, not one bare year (the Hundred Days).
+                      const exact = rival.start === rival.end ? exactRange(rival.exactStart, rival.exactEnd, locale) : null;
+                      // Content policy §7.3: the consensus label leads, the name it used sits beneath.
+                      const label = rival.label?.[locale] ?? rivalState?.name[locale] ?? "";
+                      const beneath = rival.label
+                        ? (rival.officialName?.[locale] ?? rivalState?.name[locale])
+                        : (rival.officialName?.[locale] ?? rivalState?.officialName?.[locale]);
+                      return (
+                        <li key={`${rival.state}-${rival.start}`} className="text-ink-2">
+                          {head && (
+                            <p>
+                              <span className="block font-medium text-ink">{nameOf(head.person)}</span>
+                              {renderNotes([head.note])}
+                            </p>
+                          )}
+                          {premier && !(head && premier.person === head.person) && (
+                            <p className="text-xs">
+                              {premier.title[locale]} <span className="font-medium text-ink">{nameOf(premier.person)}</span>
+                              {renderNotes([premier.note])}
+                            </p>
+                          )}
+                          <p className="flex items-start gap-2">
+                            {rivalFlag ? (
+                              <FlagImage flag={rivalFlag} withheld={!!rival.state && withheld.includes(rival.state)} alt="" width={48} className="mt-0.5 h-3.5 w-5" />
+                            ) : (
+                              rivalNoFlag && <NoFlagMark className="mt-0.5 h-3.5 w-5 border-edge" />
+                            )}
+                            <span className="min-w-0">{label}</span>
+                          </p>
+                          <p>
+                            {exact ? (
+                              <>
+                                {exact.primary}
+                                {exact.secondary && (
+                                  <span className="text-ink-3">
+                                    {" "}
+                                    · {exact.secondary} {t("ceShort")}
+                                  </span>
+                                )}
+                              </>
+                            ) : (
+                              renderYears(rival)
+                            )}
+                          </p>
+                          {beneath && fold(beneath) !== fold(label) && (
+                            <p className="text-xs text-ink-3" dir="auto">
+                              {beneath}
+                            </p>
+                          )}
+                          {rivalNoFlag && <p className="text-xs text-ink-3">{t("noFlag")}</p>}
+                          {rival.note && <p className="mt-0.5 text-xs text-ink-3">{rival.note[locale]}</p>}
+                        </li>
+                      );
+                    })}
                   </ul>
                 </dd>
               </div>

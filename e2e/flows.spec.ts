@@ -114,7 +114,7 @@ test.describe("add a country (AC-1 … AC-4)", () => {
     await page.goto("/en?year=1905&lanes=iran");
     await page.getByRole("button", { name: "Add country" }).click();
     await page.getByRole("button", { name: /Great powers, 1900s/ }).click();
-    await expect.poll(() => laneOrder(page)).toEqual(["uk", "france", "germany", "russia", "japan"]);
+    await expect.poll(() => laneOrder(page)).toEqual(["uk", "france", "germany", "russia", "japan", "us"]);
   });
 });
 
@@ -478,6 +478,87 @@ test.describe("other offices and de facto heads of state (R8, R2) @both", () => 
     // Two French states share the official name «پادشاهی فرانسه»; the labels stay distinct.
     await expect(lane(page, "france")).toContainText("پادشاهی ژوئیه");
     await expect(lane(page, "france")).toContainText("پادشاهی فرانسه");
+  });
+});
+
+test.describe("data-phase records on screen (#11) @both", () => {
+  const openRivals = (page: Page, id: string) => lane(page, id).locator("button[aria-controls]").click();
+  const pill = (page: Page, id: string, name: RegExp) => lane(page, id).locator("ol").first().getByRole("button", { name });
+  const right = (page: Page, id: string) => lane(page, id).locator("dl").last();
+
+  test("the United States can be found, added and compared", async ({ page }) => {
+    await page.goto("/en?year=1863&lanes=uk");
+    await page.getByRole("button", { name: "Search countries" }).click();
+    await page.getByRole("dialog").getByRole("combobox").fill("USA");
+    await expect(page.getByRole("dialog").getByRole("option")).toContainText(["Abraham Lincoln"]);
+    await page.keyboard.press("Enter");
+    await page.keyboard.press("Escape");
+    await expect(lane(page, "us")).toContainText("Abraham Lincoln");
+    await expect(lane(page, "us")).toContainText("United States of America");
+  });
+
+  test("one term that is both offices gets one row; two terms keep two", async ({ page }) => {
+    await page.goto("/en?year=1942&lanes=us,turkey");
+    await expect(right(page, "us").getByText("Franklin D. Roosevelt")).toHaveCount(1);
+    await pill(page, "us", /^United States/).focus();
+    const card = page.getByRole("tooltip");
+    await expect(card).toContainText("Head of state and government in 1942");
+    await expect(card).not.toContainText("Head of government in");
+    // Erdoğan: head of state from 2014, head of government from 2018.
+    await page.goto("/fa?year=2020&lanes=turkey");
+    await pill(page, "turkey", /^ترکیه|^جمهوری ترکیه/).focus();
+    await expect(page.getByRole("tooltip")).toContainText("رئیس کشور در");
+    await expect(page.getByRole("tooltip")).toContainText("رئیس دولت در");
+  });
+
+  test("years without a documented flag say so, on the lane, the pill and the card", async ({ page }) => {
+    await page.goto("/en?year=1850&lanes=iran");
+    await expect(right(page, "iran")).toContainText("No documented flag");
+    const qajar = pill(page, "iran", /^Qajar Iran.*No documented flag/);
+    await qajar.focus();
+    await expect(page.getByRole("tooltip")).toContainText(/No documented flag · 1789–1907/);
+    // Once a flag is documented, nothing is said.
+    await page.goto("/en?year=1919&lanes=iran");
+    await expect(right(page, "iran").locator("img")).toHaveCount(1);
+    await expect(right(page, "iran")).not.toContainText("No documented flag");
+    await page.goto("/fa?year=1850&lanes=japan");
+    await expect(right(page, "japan")).toContainText("پرچم مستندی در دست نیست");
+  });
+
+  test("a note on a disputed term is shown with the term", async ({ page }) => {
+    await page.goto("/en?year=1800&lanes=india");
+    await openRivals(page, "india");
+    await expect(lane(page, "india")).toContainText("Daulat Rao");
+    await expect(lane(page, "india")).toContainText("The list of grand viziers is followed.");
+    await page.goto("/fa?year=1800&lanes=india");
+    await openRivals(page, "india");
+    await expect(lane(page, "india")).toContainText("فهرست وزیران اعظم دنبال شده است");
+  });
+
+  test("the Hundred Days show who ruled and the exact dates, in both calendars", async ({ page }) => {
+    await page.goto("/en?year=1815&lanes=france");
+    await openRivals(page, "france");
+    const en = right(page, "france");
+    await expect(en).toContainText("Napoleon");
+    await expect(en).toContainText("Hundred Days");
+    await expect(en).toContainText(/20 March\s–\s8 July 1815/);
+    await page.goto("/fa?year=1815&lanes=france");
+    await openRivals(page, "france");
+    await expect(right(page, "france")).toContainText("اسفند ۱۱۹۳");
+    await expect(right(page, "france")).toContainText("۱۸۱۵ م");
+    await page.goto("/en?year=1816&lanes=france");
+    await expect(lane(page, "france").locator("button[aria-controls]")).toHaveCount(0);
+  });
+
+  test("a parallel government leads with its consensus label, its own name beneath (§7.3)", async ({ page }) => {
+    await page.goto("/en?year=1942&lanes=china");
+    await openRivals(page, "china");
+    const text = await right(page, "china").innerText();
+    const label = text.indexOf("Japanese puppet government");
+    expect(label).toBeGreaterThan(-1);
+    expect(text.indexOf("Reorganized National Government")).toBeGreaterThan(label);
+    const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
+    expect(overflow).toBe(false);
   });
 });
 

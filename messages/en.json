@@ -51,7 +51,8 @@
     "loadFailed": "This lane could not be loaded.",
     "retry": "Try again",
     "anchorHint": "Anchor the comparison to this reign",
-    "ceShort": "CE"
+    "ceShort": "CE",
+    "noFlag": "No documented flag"
   },
   "dock": {
     "label": "Time controls",
@@ -91,7 +92,9 @@
     "leaderIn": "Leader in {year}",
     "leaders": "Leaders",
     "noHeadOfState": "No formal head of state",
-    "otherIn": "{title} in {year}"
+    "otherIn": "{title} in {year}",
+    "both": "Heads of state and government",
+    "bothIn": "Head of state and government in {year}"
   },
   "add": {
     "trigger": "Add country",
