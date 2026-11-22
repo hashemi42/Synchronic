@@ -60,7 +60,7 @@ src/lib/calendar.ts         Gregorian / Solar Hijri / Lunar Hijri years
 - Every record has `sources[]`, and every label exists in English **and** Persian — a missing Persian label fails validation rather than falling back.
 - An office term may have `start` equal to `end`: it began and ended within that year (Edward VIII, 1936).
 - `office: "leader"` marks a de facto ruler outside the formal offices (Soviet general secretaries, China's paramount leaders); the lane shows these instead of the head of state.
-- A lane has no gaps or overlaps. Parallel governments are `kind: "rival"`; periods without a state are `kind: "no-state"` with a note.
+- A lane has no gaps or overlaps. A government that contested the state is `kind: "rival"`, a second state on the same land `kind: "parallel"`; land ruled by another lane's state is `kind: "ruled-by"`; periods without a state are `kind: "no-state"` with a note.
 
 See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for the full guide.
 
@@ -76,7 +76,7 @@ Disputed history follows the [content policy](docs/CONTRIBUTING.md#content-polic
 ## Known limitations
 
 - **Search finds countries, not people.** It matches country names, aliases, states and capitals (with spelling variants such as Qajar/Ghajar and Tehran/Teheran), but not rulers. Searching "Victoria" finds nothing.
-- **The "+1" badge sits in a lane's right column**, not on the lane itself. It counts rival governments at the selected year and opens them in place.
+- **The "+1" badge sits in a lane's right column**, not on the lane itself. It counts rival governments and parallel states at the selected year and opens them in place.
 - **Real-device touch testing is still pending.** Taps are tested with Playwright's phone emulation (Pixel 7) only.
 - **Pinch zoom and touch drag-to-reorder need a physical device.** Both are implemented and keyboard-equivalents are tested, but neither has been tried on real hardware.
 - **The detail track has no event dots.** The data has no events yet (the schema exists), so it shows ticks, the cursor and the anchor's reign only.

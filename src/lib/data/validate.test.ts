@@ -36,15 +36,15 @@ describe("Iran, 1789 – today", () => {
 
   it("answers who ruled in 1919", () => {
     const { data } = validateCountryFile(iran);
-    const { main, rivals } = periodsAt(data!, 1919);
+    const { main, beside } = periodsAt(data!, 1919);
     expect(main?.state).toBe("qajar-iran");
-    expect(rivals).toEqual([]);
+    expect(beside).toEqual([]);
     expect(termAt(data!, "qajar-iran", 1919)?.person).toBe("ahmad-shah-qajar");
   });
 
   it("lists the Zand rival government in 1790", () => {
     const { data } = validateCountryFile(iran);
-    expect(periodsAt(data!, 1790).rivals.map((p) => p.state)).toEqual(["zand-iran"]);
+    expect(periodsAt(data!, 1790).beside.map((p) => p.state)).toEqual(["zand-iran"]);
   });
 
   it("treats ranges as half-open at a handover year", () => {

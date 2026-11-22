@@ -22,12 +22,14 @@ export type CountrySummary = {
 export function summarize(file: CountryFile, today: number): CountrySummary {
   const model = buildLaneModel(file);
   const last = model.mainline.at(-1);
+  // The capital of a state that ruled this land from another lane is not on this land.
+  const ruling = new Set(file.lane.filter((p) => p.kind === "ruled-by").map((p) => p.state));
   return {
     id: file.country.id,
     name: file.country.name,
     aliases: file.country.aliases,
     stateNames: file.states.flatMap((s) =>
-      [s.name.en, s.name.fa, s.officialName?.en, s.officialName?.fa, s.localName, s.capital?.en, s.capital?.fa].filter((n): n is string => !!n),
+      [s.name.en, s.name.fa, s.officialName?.en, s.officialName?.fa, s.localName, ...(ruling.has(s.id) ? [] : [s.capital?.en, s.capital?.fa])].filter((n): n is string => !!n),
     ),
     mainline: model.mainline.map((p) => ({
       name: p.label ?? (p.state ? (model.states.get(p.state)?.name ?? null) : null),

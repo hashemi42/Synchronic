@@ -3,6 +3,7 @@
  * references resolve, lanes have no unmarked gaps or overlaps, and office
  * terms sit inside their state's lifetime.
  */
+import { isBeside } from "./kinds";
 import { CountryFile, type LanePeriod } from "./schema";
 
 export type Issue = { path: string; message: string };
@@ -14,8 +15,8 @@ const END_OF_TIME = Number.POSITIVE_INFINITY;
 const endOf = (r: { end: number | null }) => r.end ?? END_OF_TIME;
 const fmt = (y: number) => (y === END_OF_TIME ? "today" : y < 0 ? `${-y} BCE` : String(y));
 
-/** The main sequence of a lane: everything except rival governments, which overlap by design (IN-6). */
-const isMainline = (p: LanePeriod) => p.kind !== "rival";
+/** The main sequence of a lane: everything except rival governments and parallel states, which overlap by design (IN-6). */
+const isMainline = (p: LanePeriod) => !isBeside(p.kind);
 
 export function checkLane(lane: LanePeriod[]): Issue[] {
   const issues: Issue[] = [];
@@ -36,7 +37,7 @@ export function checkLane(lane: LanePeriod[]): Issue[] {
     } else if (next.period.start < prevEnd) {
       issues.push({
         path: `lane[${next.index}]`,
-        message: `Overlap in lane: ${fmt(next.period.start)} starts before the previous period ends (${fmt(prevEnd)}). Mark a parallel government as kind "rival".`,
+        message: `Overlap in lane: ${fmt(next.period.start)} starts before the previous period ends (${fmt(prevEnd)}). Mark a government that contested the state as kind "rival", and a second state as "parallel".`,
       });
     }
   }
@@ -127,3 +128,40 @@ export function validateCountryFile(input: unknown): ValidationResult {
   return issues.length === 0 ? { ok: true, data: parsed.data, issues: [] } : { ok: false, data: null, issues };
 }
 
+
+/**
+ * Checks that need every country file at once: state ids are unique across files (border features
+ * and `ruled-by` periods name states by id), and each `ruled-by` period points at a state that
+ * exists and that holds its own country's lane for all the years claimed.
+ */
+export function checkAcrossFiles(files: CountryFile[]): Issue[] {
+  const issues: Issue[] = [];
+  const byCountry = new Map(files.map((f) => [f.country.id, f]));
+
+  const owner = new Map<string, string>();
+  for (const file of files)
+    for (const state of file.states) {
+      const other = owner.get(state.id);
+      if (other && other !== file.country.id) issues.push({ path: `${file.country.id}: states`, message: `State id "${state.id}" is also used in "${other}"` });
+      owner.set(state.id, file.country.id);
+    }
+
+  for (const file of files)
+    file.lane.forEach((period, i) => {
+      if (!period.ruler) return;
+      const path = `${file.country.id}: lane[${i}].ruler`;
+      const { country, state: id } = period.ruler;
+      if (country === file.country.id) return issues.push({ path, message: "A ruled-by period names a state of another country; use \"state\" for one of this file" });
+      const ruling = byCountry.get(country);
+      if (!ruling) return issues.push({ path, message: `Unknown country "${country}"` });
+      if (!ruling.states.some((s) => s.id === id)) return issues.push({ path, message: `Unknown state "${id}" in "${country}"` });
+
+      // The years the ruling state holds its own lane, joined where they meet. A rival or parallel state does not hold it.
+      const held = ruling.lane.filter((p) => isMainline(p) && p.state === id).sort((a, b) => a.start - b.start);
+      let reach = period.start;
+      for (const p of held) if (p.start <= reach) reach = Math.max(reach, endOf(p));
+      if (reach < endOf(period) || !held.some((p) => p.start <= period.start && period.start < endOf(p)))
+        issues.push({ path, message: `"${id}" does not hold the lane of "${country}" for all of ${fmt(period.start)}–${fmt(endOf(period))}` });
+    });
+  return issues;
+}

@@ -562,6 +562,26 @@ test.describe("data-phase records on screen (#11) @both", () => {
   });
 });
 
+test.describe("parallel states and rival governments (D8) @both", () => {
+  const badge = (page: Page, id: string) => lane(page, id).locator("button[aria-controls]");
+
+  test("East Germany is a parallel state; Guangzhou keeps the rival wording", async ({ page }) => {
+    await page.goto("/en?year=1970&lanes=germany");
+    await expect(badge(page, "germany")).toHaveText(/\+1\s*Parallel state$/);
+    await badge(page, "germany").click();
+    const list = lane(page, "germany").locator("dl").last();
+    await expect(list).toContainText("East Germany");
+    await expect(list).toContainText("Walter Ulbricht");
+    await page.goto("/en?year=1920&lanes=china");
+    await expect(badge(page, "china")).toHaveText(/\+1\s*Also at this time$/);
+  });
+
+  test("in Persian", async ({ page }) => {
+    await page.goto("/fa?year=1970&lanes=germany");
+    await expect(badge(page, "germany")).toHaveText(/دولت هم‌زمان$/);
+  });
+});
+
 test.describe("link previews (NF-6)", () => {
   const meta = (html: string, property: string) =>
     new RegExp(`<meta (?:property|name)="${property}" content="([^"]*)"`).exec(html)?.[1]?.replaceAll("&amp;", "&");

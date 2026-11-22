@@ -34,6 +34,8 @@
     "states": "States of {country}",
     "rulers": "Rulers of {country} — select one to anchor",
     "rival": "Also at this time",
+    "parallel": "{count, plural, one {Parallel state} other {Parallel states}}",
+    "ruledBy": "Ruled by: {state}",
     "headOfState": "Head of state",
     "present": "today",
     "anchorTo": "{name}, {years}",

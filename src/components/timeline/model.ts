@@ -1,4 +1,5 @@
 import { covers } from "@/lib/data/query";
+import { isBeside } from "@/lib/data/kinds";
 import type { CountryFile, LanePeriod, Localized, OfficeTerm, Person, State } from "@/lib/data/schema";
 import type { Range } from "@/lib/time";
 
@@ -7,13 +8,28 @@ import type { Range } from "@/lib/time";
  * one title, across the states of the lane. `start === end` means the reign
  * began and ended within that year.
  */
-export type Reign = { person: string; title: Localized; start: number; end: number | null; office?: OfficeTerm["office"]; notes?: Localized[] };
+export type Reign = {
+  person: string;
+  title: Localized;
+  start: number;
+  end: number | null;
+  office?: OfficeTerm["office"];
+  notes?: Localized[];
+  /**
+   * The true years of a ruler of another lane's state, where this lane shows only part of them:
+   * Mahmud II ruled Ottoman Greece to 1830 but reigned to 1839. Use `wholeOf` to write years.
+   */
+  whole?: { start: number; end: number | null };
+};
+
+/** The years to write for a reign; its own `start` and `end` are the years to draw. */
+export const wholeOf = (r: { start: number; end: number | null; whole?: { start: number; end: number | null } }) => r.whole ?? r;
 
 export type LaneModel = {
   file: CountryFile;
   states: Map<string, State>;
   persons: Map<string, Person>;
-  /** The lane without parallel governments, oldest first. */
+  /** The lane without rival governments and parallel states, oldest first. */
   mainline: LanePeriod[];
   /** The ruler row: heads of state, or de facto leaders where a state has them. */
   reigns: Reign[];
@@ -59,6 +75,9 @@ function buildSegments(mainline: LanePeriod[], pick: (state: string) => OfficeTe
           end: end === INF ? null : end,
           office: term.office,
           ...(term.note ? { notes: [term.note] } : {}),
+          ...(period.kind === "ruled-by" && (term.start !== start || (term.end ?? INF) !== end)
+            ? { whole: { start: term.start, end: term.end } }
+            : {}),
         });
       }
     }
@@ -69,6 +88,7 @@ function buildSegments(mainline: LanePeriod[], pick: (state: string) => OfficeTe
   for (const piece of pieces) {
     const prev = segments.findLast((r) => r.person === piece.person);
     if (prev && prev.title.en === piece.title.en && prev.end === piece.start && prev.start !== prev.end) {
+      if (prev.whole || piece.whole) prev.whole = { start: wholeOf(prev).start, end: wholeOf(piece).end };
       prev.end = piece.end;
       if (piece.notes) prev.notes = [...(prev.notes ?? []), ...piece.notes];
     } else {
@@ -79,7 +99,7 @@ function buildSegments(mainline: LanePeriod[], pick: (state: string) => OfficeTe
 }
 
 export function buildLaneModel(file: CountryFile): LaneModel {
-  const mainline = file.lane.filter((p) => p.kind !== "rival").sort((a, b) => a.start - b.start);
+  const mainline = file.lane.filter((p) => !isBeside(p.kind)).sort((a, b) => a.start - b.start);
   const ofState = (state: string) => file.terms.filter((term) => term.state === state);
 
   const reigns = buildSegments(mainline, (state) => {

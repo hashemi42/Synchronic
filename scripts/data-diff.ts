@@ -58,7 +58,7 @@ function label(collection: string, r: Row, persons: Map<string, string>): string
     case "persons":
       return text(r.name);
     case "lane":
-      return `${r.state} ${r.start}–${r.end ?? "now"} (${r.kind})`;
+      return `${r.state ?? (r.ruler ? `${(r.ruler as Row).country}/${(r.ruler as Row).state}` : "no state")} ${r.start}–${r.end ?? "now"} (${r.kind})`;
     case "terms":
       return `${persons.get(String(r.person)) ?? r.person}, ${r.office} ${r.start}–${r.end ?? "now"}`;
     case "flags":

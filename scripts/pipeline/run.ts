@@ -14,7 +14,7 @@
  */
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { validateCountryFile } from "../../src/lib/data/validate";
+import { checkAcrossFiles, validateCountryFile } from "../../src/lib/data/validate";
 import { HEAD_OF_GOVERNMENT_FROM, OFFICES } from "../offices";
 import { gaps, type CoverageException, type Gap } from "./complete";
 import { fetchCountry } from "./fetch";
@@ -49,6 +49,7 @@ async function main() {
   await mkdir(path.join(root, "data/merged"), { recursive: true });
 
   const done: { id: string; result: Result; issues: string[]; open: Gap[] }[] = [];
+  const valid = [];
   for (const name of files) {
     const curated = await json<Curated>(`data/overrides/countries/${name}`);
     const id = curated.country.id;
@@ -56,6 +57,7 @@ async function main() {
     const result = await buildCountry(curated, { refresh, manualFa, addedTerms });
     await writeFile(path.join(root, "data/merged", `${id}.json`), JSON.stringify(result.file, null, 2) + "\n");
     const check = validateCountryFile(result.file);
+    if (check.ok) valid.push(check.data);
     const issues = check.ok ? [] : check.issues.map((i) => `${i.path}: ${i.message}`);
     const open = gaps(result.file, 1800, NOW, exceptions);
     done.push({ id, result, issues, open });
@@ -123,7 +125,9 @@ async function main() {
 
   const bad = done.filter((d) => d.issues.length);
   for (const d of bad) console.error(`✗ ${d.id}\n${d.issues.map((i) => `    ${i}`).join("\n")}`);
-  if (bad.length) process.exit(1);
+  const across = checkAcrossFiles(valid);
+  if (across.length) console.error(`✗ across files\n${across.map((i) => `    ${i.path}: ${i.message}`).join("\n")}`);
+  if (bad.length || across.length) process.exit(1);
 }
 
 if (process.argv[1]?.endsWith("run.ts")) {

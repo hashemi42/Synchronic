@@ -12,7 +12,7 @@ import { AddCountry } from "./add-country";
 import { Lane } from "./lane";
 import { LaneHandle } from "./lane-handle";
 import { moveBy, moveTo } from "@/lib/reorder";
-import { buildLaneModel, reignAt, type LaneModel, type Reign } from "./model";
+import { buildLaneModel, reignAt, wholeOf, type LaneModel, type Reign } from "./model";
 import type { EraContext } from "./context-strip";
 import { TimeDock } from "./time-dock";
 import { seedCountryFiles, useCountryFiles } from "./use-country-files";
@@ -85,7 +85,8 @@ export function Timeline({
     for (const model of selected) {
       const found = model.reigns.find((r) => r.person === anchorId && r.start !== r.end);
       if (found) {
-        anchor = found;
+        // The comparison is with the whole reign, also where this lane shows only part of it.
+        anchor = { ...found, ...wholeOf(found) };
         anchorLane = model;
         break;
       }
@@ -294,13 +295,13 @@ export function Timeline({
     .map((model) => {
       const country = model.file.country.name[locale];
       const reign = reignAt(model, year);
-      const state = model.mainline.find((p) => p.start <= year && (p.end === null || year < p.end))?.state;
+      const period = model.mainline.find((p) => p.start <= year && (p.end === null || year < p.end));
       return reign
         ? t("lane.announce", {
             country,
             ruler: model.persons.get(reign.person)?.name[locale] ?? reign.person,
             title: reign.title[locale],
-            state: (state && model.states.get(state)?.name[locale]) || country,
+            state: period?.label?.[locale] ?? model.states.get(period?.state ?? "")?.name[locale] ?? country,
           })
         : t("lane.announceNone", { country });
     })

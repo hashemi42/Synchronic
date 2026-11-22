@@ -34,6 +34,8 @@
     "states": "دولت‌های {country}",
     "rulers": "فرمانروایان {country} — برای مبنا یکی را انتخاب کنید",
     "rival": "هم‌زمان",
+    "parallel": "{count, plural, other {دولت هم‌زمان}}",
+    "ruledBy": "زیر فرمان {state}",
     "headOfState": "رئیس کشور",
     "present": "امروز",
     "anchorTo": "{name}، {years}",

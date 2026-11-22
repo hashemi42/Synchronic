@@ -2,7 +2,7 @@
  * What a shared link says about itself (NF-6): the title, description and preview image of a
  * comparison URL such as /en?year=1919&lanes=iran,uk,russia. Server only.
  */
-import { buildLaneModel, reignAt } from "@/components/timeline/model";
+import { buildLaneModel, reignAt, wholeOf } from "@/components/timeline/model";
 import { displayRange, displayYear, formatYear, solarHijriYear, type CalendarLocale } from "./calendar";
 import { getAllCountryFiles } from "./data/load";
 import { periodsAt } from "./data/query";
@@ -98,7 +98,7 @@ export function describeComparison(state: TimelineState, locale: CalendarLocale)
   if (anchored && state.anchor) {
     const reign = anchored.reigns.find((r) => r.person === state.anchor && r.start !== r.end)!;
     anchor = anchored.persons.get(reign.person)?.name[locale] ?? reign.person;
-    title = words.duringReign(list, anchor, displayRange(reign, locale, words.present));
+    title = words.duringReign(list, anchor, displayRange(wholeOf(reign), locale, words.present));
   }
 
   const description = lanes

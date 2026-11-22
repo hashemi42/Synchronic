@@ -1,18 +1,20 @@
 /** Validates every country file in data/merged/, presets and the world row. Run: pnpm data:validate */
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
-import { Presets, WorldFile } from "../src/lib/data/schema";
-import { validateCountryFile } from "../src/lib/data/validate";
+import { Presets, WorldFile, type CountryFile } from "../src/lib/data/schema";
+import { checkAcrossFiles, validateCountryFile } from "../src/lib/data/validate";
 
 const dir = path.join(process.cwd(), "data/merged");
 
 async function main() {
   const files = (await readdir(dir)).filter((f) => f.endsWith(".json")).sort();
   let failed = 0;
+  const valid: CountryFile[] = [];
 
   for (const name of files) {
     const result = validateCountryFile(JSON.parse(await readFile(path.join(dir, name), "utf8")));
     if (result.ok) {
+      valid.push(result.data);
       const { lane, terms, persons, states } = result.data;
       console.log(`✓ ${name} — ${states.length} states, ${lane.length} lane periods, ${persons.length} people, ${terms.length} terms`);
     } else {
@@ -20,6 +22,13 @@ async function main() {
       console.error(`✗ ${name}`);
       for (const issue of result.issues) console.error(`    ${issue.path}: ${issue.message}`);
     }
+  }
+
+  const across = checkAcrossFiles(valid);
+  if (across.length > 0) {
+    failed++;
+    console.error("✗ across files");
+    for (const issue of across) console.error(`    ${issue.path}: ${issue.message}`);
   }
 
   for (const [name, schema] of [["presets.json", Presets], ["world.json", WorldFile]] as const) {
